@@ -1,0 +1,2902 @@
+{
+  "case_id": "E030",
+  "date": "2026-10-10",
+  "review_kind": "non-blinded specification/code/record triangulation",
+  "source_specs": {
+    "tf.clip_by_value": "Clips tensor values to a specified min and max.\n\n  Given a tensor `t`, this operation returns a tensor of the same type and\n  shape as `t` with its values clipped to `clip_value_min` and `clip_value_max`.\n  Any values less than `clip_value_min` are set to `clip_value_min`. Any values\n  greater than `clip_value_max` are set to `clip_value_max`.\n\n  Note: `clip_value_min` needs to be smaller or equal to `clip_value_max` for\n  correct results.\n\n  For example:\n\n  Basic usage passes a scalar as the min and max value.\n\n  >>> t = tf.constant([[-10., -1., 0.], [0., 2., 10.]])\n  >>> t2 = tf.clip_by_value(t, clip_value_min=-1, clip_value_max=1)\n  >>> t2.numpy()\n  array([[-1., -1.,  0.],\n         [ 0.,  1.,  1.]], dtype=float32)\n\n  The min and max can be the same size as `t`, or broadcastable to that size.\n\n  >>> t = tf.constant([[-1, 0., 10.], [-1, 0, 10]])\n  >>> clip_min = [[2],[1]]\n  >>> t3 = tf.clip_by_value(t, clip_value_min=clip_min, clip_value_max=100)\n  >>> t3.numpy()\n  array([[ 2.,  2., 10.],\n         [ 1.,  1., 10.]], dtype=float32)\n\n  Broadcasting fails, intentionally, if you would expand the dimensions of `t`\n\n  >>> t = tf.constant([[-1, 0., 10.], [-1, 0, 10]])\n  >>> clip_min = [[[2, 1]]] # Has a third axis\n  >>> t4 = tf.clip_by_value(t, clip_value_min=clip_min, clip_value_max=100)\n  Traceback (most recent call last):\n  ...\n  InvalidArgumentError: Incompatible shapes: [2,3] vs. [1,1,2]\n\n  It throws a `TypeError` if you try to clip an `int` to a `float` value\n  (`tf.cast` the input to `float` first).\n\n  >>> t = tf.constant([[1, 2], [3, 4]], dtype=tf.int32)\n  >>> t5 = tf.clip_by_value(t, clip_value_min=-3.1, clip_value_max=3.1)\n  Traceback (most recent call last):\n  ...\n  TypeError: Cannot convert ...\n\n\n  Args:\n    t: A `Tensor` or `IndexedSlices`.\n    clip_value_min: The minimum value to clip to. A scalar `Tensor` or one that\n      is broadcastable to the shape of `t`.\n    clip_value_max: The maximum value to clip to. A scalar `Tensor` or one that\n      is broadcastable to the shape of `t`.\n    name: A name for the operation (optional).\n\n  Returns:\n    A clipped `Tensor` or `IndexedSlices`.\n\n  Raises:\n    `tf.errors.InvalidArgumentError`: If the clip tensors would trigger array\n      broadcasting that would make the returned tensor larger than the input.\n    TypeError: If dtype of the input is `int32` and dtype of\n      the `clip_value_min` or `clip_value_max` is `float32`\n  "
+  },
+  "source_specs_origin": "runtime docstrings saved in source framework records",
+  "counterpart_code": {
+    "source": "def tensorflow_call(t,clip_value_min,clip_value_max):\n  return tf.clip_by_value(t,clip_value_min,clip_value_max)",
+    "target": "def pytorch_call(t, clip_value_min, clip_value_max):\n    clip_value_min = torch.max(clip_value_min, clip_value_max.new_ones(1) * float('-inf'))\n    clip_value_max = torch.max(clip_value_min, clip_value_max)\n    return torch.clamp(t, clip_value_min, clip_value_max)"
+  },
+  "retained_registration": {
+    "case_id": "E030",
+    "status": "registered",
+    "file": "upstream/tf_clip.py",
+    "class": "ClipTest",
+    "methods": [
+      {
+        "method": "testClipByValue",
+        "start": 35,
+        "end": 43,
+        "decorators": []
+      }
+    ],
+    "entry": "testClipByValue",
+    "paths": [
+      "clip_ops.clip_by_value"
+    ],
+    "kind": "complete-upstream-method-bodies",
+    "parameters": "original method inputs; CPU eager; device/dtype parameter fixed where required; decorator variants excluded",
+    "source_framework": "tensorflow",
+    "scope": "new operation-substitution candidates; common source-framework harness; no external migration-quality claim",
+    "assertion_expressions_exact": true,
+    "source_hash": "2be24540ac323eb99cbb9e1e0a3c4a765f7b5ca0b767f392a887d1a5949df417",
+    "target_hash": "24befe68ddb78a701e9d02ad587327a17ca04246452db3af6ff9637864d59b73"
+  },
+  "retained_test_bodies": {
+    "source": "class Frozen(Harness):\r\n\r\n    def testClipByValue(self):\r\n        with self.session():\r\n            x = constant_op.constant([-5.0, 2.0, 3.0, 4.0, 5.0, 6.0], shape=[2, 3])\r\n            np_ans = [[-4.4, 2.0, 3.0], [4.0, 4.4, 4.4]]\r\n            clip_value = 4.4\r\n            ans = clip_ops.clip_by_value(x, -clip_value, clip_value)\r\n            tf_ans = self.evaluate(ans)\r\n        self.assertAllClose(np_ans, tf_ans)\r\n",
+    "target": "class Frozen(Harness):\r\n\r\n    def testClipByValue(self):\r\n        with self.session():\r\n            x = constant_op.constant([-5.0, 2.0, 3.0, 4.0, 5.0, 6.0], shape=[2, 3])\r\n            np_ans = [[-4.4, 2.0, 3.0], [4.0, 4.4, 4.4]]\r\n            clip_value = 4.4\r\n            ans = _operation(x, -clip_value, clip_value)\r\n            tf_ans = self.evaluate(ans)\r\n        self.assertAllClose(np_ans, tf_ans)\r\n"
+  },
+  "witness_inputs": [
+    {
+      "case_id": "E030",
+      "input_index": 0,
+      "arguments": {
+        "t": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": 0.0
+        },
+        "clip_value_min": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": -1.0
+        },
+        "clip_value_max": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": 1.0
+        }
+      },
+      "source": {
+        "case_id": "E030",
+        "input_index": 0,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": 0.0,
+        "dtype": "float32",
+        "shape": [],
+        "calls": [
+          "tf.clip_by_value"
+        ]
+      },
+      "target": {
+        "case_id": "E030",
+        "input_index": 0,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          0.0
+        ],
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "calls": [
+          "torch.Tensor.new_ones",
+          "torch.max",
+          "torch.max",
+          "torch.clamp"
+        ]
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    },
+    {
+      "case_id": "E030",
+      "input_index": 1,
+      "arguments": {
+        "t": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": 1.0
+        },
+        "clip_value_min": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": -1.0
+        },
+        "clip_value_max": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": 1.0
+        }
+      },
+      "source": {
+        "case_id": "E030",
+        "input_index": 1,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": 1.0,
+        "dtype": "float32",
+        "shape": [],
+        "calls": [
+          "tf.clip_by_value"
+        ]
+      },
+      "target": {
+        "case_id": "E030",
+        "input_index": 1,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          1.0
+        ],
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "calls": [
+          "torch.Tensor.new_ones",
+          "torch.max",
+          "torch.max",
+          "torch.clamp"
+        ]
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    },
+    {
+      "case_id": "E030",
+      "input_index": 2,
+      "arguments": {
+        "t": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": -1.0
+        },
+        "clip_value_min": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": -1.0
+        },
+        "clip_value_max": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": 1.0
+        }
+      },
+      "source": {
+        "case_id": "E030",
+        "input_index": 2,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": -1.0,
+        "dtype": "float32",
+        "shape": [],
+        "calls": [
+          "tf.clip_by_value"
+        ]
+      },
+      "target": {
+        "case_id": "E030",
+        "input_index": 2,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          -1.0
+        ],
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "calls": [
+          "torch.Tensor.new_ones",
+          "torch.max",
+          "torch.max",
+          "torch.clamp"
+        ]
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    },
+    {
+      "case_id": "E030",
+      "input_index": 3,
+      "arguments": {
+        "t": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": -1.25
+        },
+        "clip_value_min": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": -1.0
+        },
+        "clip_value_max": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": 1.0
+        }
+      },
+      "source": {
+        "case_id": "E030",
+        "input_index": 3,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": -1.0,
+        "dtype": "float32",
+        "shape": [],
+        "calls": [
+          "tf.clip_by_value"
+        ]
+      },
+      "target": {
+        "case_id": "E030",
+        "input_index": 3,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          -1.0
+        ],
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "calls": [
+          "torch.Tensor.new_ones",
+          "torch.max",
+          "torch.max",
+          "torch.clamp"
+        ]
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    },
+    {
+      "case_id": "E030",
+      "input_index": 4,
+      "arguments": {
+        "t": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": 2.9509270191192627
+        },
+        "clip_value_min": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": -1.0
+        },
+        "clip_value_max": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": 1.0
+        }
+      },
+      "source": {
+        "case_id": "E030",
+        "input_index": 4,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": 1.0,
+        "dtype": "float32",
+        "shape": [],
+        "calls": [
+          "tf.clip_by_value"
+        ]
+      },
+      "target": {
+        "case_id": "E030",
+        "input_index": 4,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          1.0
+        ],
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "calls": [
+          "torch.Tensor.new_ones",
+          "torch.max",
+          "torch.max",
+          "torch.clamp"
+        ]
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    },
+    {
+      "case_id": "E030",
+      "input_index": 5,
+      "arguments": {
+        "t": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": 2.938735008239746
+        },
+        "clip_value_min": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": -1.0
+        },
+        "clip_value_max": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": 1.0
+        }
+      },
+      "source": {
+        "case_id": "E030",
+        "input_index": 5,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": 1.0,
+        "dtype": "float32",
+        "shape": [],
+        "calls": [
+          "tf.clip_by_value"
+        ]
+      },
+      "target": {
+        "case_id": "E030",
+        "input_index": 5,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          1.0
+        ],
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "calls": [
+          "torch.Tensor.new_ones",
+          "torch.max",
+          "torch.max",
+          "torch.clamp"
+        ]
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    },
+    {
+      "case_id": "E030",
+      "input_index": 6,
+      "arguments": {
+        "t": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": -2.604412078857422
+        },
+        "clip_value_min": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": -1.0
+        },
+        "clip_value_max": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": 1.0
+        }
+      },
+      "source": {
+        "case_id": "E030",
+        "input_index": 6,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": -1.0,
+        "dtype": "float32",
+        "shape": [],
+        "calls": [
+          "tf.clip_by_value"
+        ]
+      },
+      "target": {
+        "case_id": "E030",
+        "input_index": 6,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          -1.0
+        ],
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "calls": [
+          "torch.Tensor.new_ones",
+          "torch.max",
+          "torch.max",
+          "torch.clamp"
+        ]
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    },
+    {
+      "case_id": "E030",
+      "input_index": 7,
+      "arguments": {
+        "t": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": -2.0445656776428223
+        },
+        "clip_value_min": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": -1.0
+        },
+        "clip_value_max": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": 1.0
+        }
+      },
+      "source": {
+        "case_id": "E030",
+        "input_index": 7,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": -1.0,
+        "dtype": "float32",
+        "shape": [],
+        "calls": [
+          "tf.clip_by_value"
+        ]
+      },
+      "target": {
+        "case_id": "E030",
+        "input_index": 7,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          -1.0
+        ],
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "calls": [
+          "torch.Tensor.new_ones",
+          "torch.max",
+          "torch.max",
+          "torch.clamp"
+        ]
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    },
+    {
+      "case_id": "E030",
+      "input_index": 32,
+      "arguments": {
+        "t": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": 0.0
+        },
+        "clip_value_min": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": -1.0
+        },
+        "clip_value_max": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": 1.0
+        }
+      },
+      "source": {
+        "case_id": "E030",
+        "input_index": 32,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": 0.0,
+        "dtype": "float64",
+        "shape": [],
+        "calls": [
+          "tf.clip_by_value"
+        ]
+      },
+      "target": {
+        "case_id": "E030",
+        "input_index": 32,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          0.0
+        ],
+        "dtype": "float64",
+        "shape": [
+          1
+        ],
+        "calls": [
+          "torch.Tensor.new_ones",
+          "torch.max",
+          "torch.max",
+          "torch.clamp"
+        ]
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    },
+    {
+      "case_id": "E030",
+      "input_index": 33,
+      "arguments": {
+        "t": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": 1.0
+        },
+        "clip_value_min": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": -1.0
+        },
+        "clip_value_max": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": 1.0
+        }
+      },
+      "source": {
+        "case_id": "E030",
+        "input_index": 33,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": 1.0,
+        "dtype": "float64",
+        "shape": [],
+        "calls": [
+          "tf.clip_by_value"
+        ]
+      },
+      "target": {
+        "case_id": "E030",
+        "input_index": 33,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          1.0
+        ],
+        "dtype": "float64",
+        "shape": [
+          1
+        ],
+        "calls": [
+          "torch.Tensor.new_ones",
+          "torch.max",
+          "torch.max",
+          "torch.clamp"
+        ]
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    },
+    {
+      "case_id": "E030",
+      "input_index": 34,
+      "arguments": {
+        "t": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": -1.0
+        },
+        "clip_value_min": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": -1.0
+        },
+        "clip_value_max": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": 1.0
+        }
+      },
+      "source": {
+        "case_id": "E030",
+        "input_index": 34,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": -1.0,
+        "dtype": "float64",
+        "shape": [],
+        "calls": [
+          "tf.clip_by_value"
+        ]
+      },
+      "target": {
+        "case_id": "E030",
+        "input_index": 34,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          -1.0
+        ],
+        "dtype": "float64",
+        "shape": [
+          1
+        ],
+        "calls": [
+          "torch.Tensor.new_ones",
+          "torch.max",
+          "torch.max",
+          "torch.clamp"
+        ]
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    },
+    {
+      "case_id": "E030",
+      "input_index": 35,
+      "arguments": {
+        "t": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": -1.25
+        },
+        "clip_value_min": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": -1.0
+        },
+        "clip_value_max": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": 1.0
+        }
+      },
+      "source": {
+        "case_id": "E030",
+        "input_index": 35,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": -1.0,
+        "dtype": "float64",
+        "shape": [],
+        "calls": [
+          "tf.clip_by_value"
+        ]
+      },
+      "target": {
+        "case_id": "E030",
+        "input_index": 35,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          -1.0
+        ],
+        "dtype": "float64",
+        "shape": [
+          1
+        ],
+        "calls": [
+          "torch.Tensor.new_ones",
+          "torch.max",
+          "torch.max",
+          "torch.clamp"
+        ]
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    },
+    {
+      "case_id": "E030",
+      "input_index": 36,
+      "arguments": {
+        "t": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": -2.9984795632894423
+        },
+        "clip_value_min": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": -1.0
+        },
+        "clip_value_max": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": 1.0
+        }
+      },
+      "source": {
+        "case_id": "E030",
+        "input_index": 36,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": -1.0,
+        "dtype": "float64",
+        "shape": [],
+        "calls": [
+          "tf.clip_by_value"
+        ]
+      },
+      "target": {
+        "case_id": "E030",
+        "input_index": 36,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          -1.0
+        ],
+        "dtype": "float64",
+        "shape": [
+          1
+        ],
+        "calls": [
+          "torch.Tensor.new_ones",
+          "torch.max",
+          "torch.max",
+          "torch.clamp"
+        ]
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    },
+    {
+      "case_id": "E030",
+      "input_index": 37,
+      "arguments": {
+        "t": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": -0.3526874320571656
+        },
+        "clip_value_min": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": -1.0
+        },
+        "clip_value_max": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": 1.0
+        }
+      },
+      "source": {
+        "case_id": "E030",
+        "input_index": 37,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": -0.3526874320571656,
+        "dtype": "float64",
+        "shape": [],
+        "calls": [
+          "tf.clip_by_value"
+        ]
+      },
+      "target": {
+        "case_id": "E030",
+        "input_index": 37,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          -0.3526874320571656
+        ],
+        "dtype": "float64",
+        "shape": [
+          1
+        ],
+        "calls": [
+          "torch.Tensor.new_ones",
+          "torch.max",
+          "torch.max",
+          "torch.clamp"
+        ]
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    },
+    {
+      "case_id": "E030",
+      "input_index": 38,
+      "arguments": {
+        "t": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": 2.08929101368129
+        },
+        "clip_value_min": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": -1.0
+        },
+        "clip_value_max": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": 1.0
+        }
+      },
+      "source": {
+        "case_id": "E030",
+        "input_index": 38,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": 1.0,
+        "dtype": "float64",
+        "shape": [],
+        "calls": [
+          "tf.clip_by_value"
+        ]
+      },
+      "target": {
+        "case_id": "E030",
+        "input_index": 38,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          1.0
+        ],
+        "dtype": "float64",
+        "shape": [
+          1
+        ],
+        "calls": [
+          "torch.Tensor.new_ones",
+          "torch.max",
+          "torch.max",
+          "torch.clamp"
+        ]
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    },
+    {
+      "case_id": "E030",
+      "input_index": 39,
+      "arguments": {
+        "t": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": -1.2483252392460376
+        },
+        "clip_value_min": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": -1.0
+        },
+        "clip_value_max": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": 1.0
+        }
+      },
+      "source": {
+        "case_id": "E030",
+        "input_index": 39,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": -1.0,
+        "dtype": "float64",
+        "shape": [],
+        "calls": [
+          "tf.clip_by_value"
+        ]
+      },
+      "target": {
+        "case_id": "E030",
+        "input_index": 39,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          -1.0
+        ],
+        "dtype": "float64",
+        "shape": [
+          1
+        ],
+        "calls": [
+          "torch.Tensor.new_ones",
+          "torch.max",
+          "torch.max",
+          "torch.clamp"
+        ]
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    }
+  ],
+  "witness_main_records": [
+    {
+      "case_id": "E030",
+      "input_index": 0,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": 0.0,
+      "dtype": "float32",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 0,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": 0.0,
+      "dtype": "float32",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 0,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": 0.0,
+      "dtype": "float32",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 1,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": 1.0,
+      "dtype": "float32",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 1,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": 1.0,
+      "dtype": "float32",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 1,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": 1.0,
+      "dtype": "float32",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 2,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": -1.0,
+      "dtype": "float32",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 2,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": -1.0,
+      "dtype": "float32",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 2,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": -1.0,
+      "dtype": "float32",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 3,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": -1.0,
+      "dtype": "float32",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 3,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": -1.0,
+      "dtype": "float32",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 3,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": -1.0,
+      "dtype": "float32",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 4,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": 1.0,
+      "dtype": "float32",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 4,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": 1.0,
+      "dtype": "float32",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 4,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": 1.0,
+      "dtype": "float32",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 5,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": 1.0,
+      "dtype": "float32",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 5,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": 1.0,
+      "dtype": "float32",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 5,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": 1.0,
+      "dtype": "float32",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 6,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": -1.0,
+      "dtype": "float32",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 6,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": -1.0,
+      "dtype": "float32",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 6,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": -1.0,
+      "dtype": "float32",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 7,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": -1.0,
+      "dtype": "float32",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 7,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": -1.0,
+      "dtype": "float32",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 7,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": -1.0,
+      "dtype": "float32",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 32,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": 0.0,
+      "dtype": "float64",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 32,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": 0.0,
+      "dtype": "float64",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 32,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": 0.0,
+      "dtype": "float64",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 33,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": 1.0,
+      "dtype": "float64",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 33,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": 1.0,
+      "dtype": "float64",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 33,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": 1.0,
+      "dtype": "float64",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 34,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": -1.0,
+      "dtype": "float64",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 34,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": -1.0,
+      "dtype": "float64",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 34,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": -1.0,
+      "dtype": "float64",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 35,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": -1.0,
+      "dtype": "float64",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 35,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": -1.0,
+      "dtype": "float64",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 35,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": -1.0,
+      "dtype": "float64",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 36,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": -1.0,
+      "dtype": "float64",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 36,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": -1.0,
+      "dtype": "float64",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 36,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": -1.0,
+      "dtype": "float64",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 37,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": -0.3526874320571656,
+      "dtype": "float64",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 37,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": -0.3526874320571656,
+      "dtype": "float64",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 37,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": -0.3526874320571656,
+      "dtype": "float64",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 38,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": 1.0,
+      "dtype": "float64",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 38,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": 1.0,
+      "dtype": "float64",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 38,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": 1.0,
+      "dtype": "float64",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 39,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": -1.0,
+      "dtype": "float64",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 39,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": -1.0,
+      "dtype": "float64",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 39,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": -1.0,
+      "dtype": "float64",
+      "shape": [],
+      "calls": [
+        "tf.clip_by_value"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 0,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        0.0
+      ],
+      "dtype": "float32",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 0,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        0.0
+      ],
+      "dtype": "float32",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 0,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        0.0
+      ],
+      "dtype": "float32",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 1,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        1.0
+      ],
+      "dtype": "float32",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 1,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        1.0
+      ],
+      "dtype": "float32",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 1,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        1.0
+      ],
+      "dtype": "float32",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 2,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        -1.0
+      ],
+      "dtype": "float32",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 2,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        -1.0
+      ],
+      "dtype": "float32",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 2,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        -1.0
+      ],
+      "dtype": "float32",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 3,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        -1.0
+      ],
+      "dtype": "float32",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 3,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        -1.0
+      ],
+      "dtype": "float32",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 3,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        -1.0
+      ],
+      "dtype": "float32",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 4,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        1.0
+      ],
+      "dtype": "float32",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 4,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        1.0
+      ],
+      "dtype": "float32",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 4,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        1.0
+      ],
+      "dtype": "float32",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 5,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        1.0
+      ],
+      "dtype": "float32",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 5,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        1.0
+      ],
+      "dtype": "float32",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 5,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        1.0
+      ],
+      "dtype": "float32",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 6,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        -1.0
+      ],
+      "dtype": "float32",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 6,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        -1.0
+      ],
+      "dtype": "float32",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 6,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        -1.0
+      ],
+      "dtype": "float32",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 7,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        -1.0
+      ],
+      "dtype": "float32",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 7,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        -1.0
+      ],
+      "dtype": "float32",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 7,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        -1.0
+      ],
+      "dtype": "float32",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 32,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        0.0
+      ],
+      "dtype": "float64",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 32,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        0.0
+      ],
+      "dtype": "float64",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 32,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        0.0
+      ],
+      "dtype": "float64",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 33,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        1.0
+      ],
+      "dtype": "float64",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 33,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        1.0
+      ],
+      "dtype": "float64",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 33,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        1.0
+      ],
+      "dtype": "float64",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 34,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        -1.0
+      ],
+      "dtype": "float64",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 34,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        -1.0
+      ],
+      "dtype": "float64",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 34,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        -1.0
+      ],
+      "dtype": "float64",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 35,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        -1.0
+      ],
+      "dtype": "float64",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 35,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        -1.0
+      ],
+      "dtype": "float64",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 35,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        -1.0
+      ],
+      "dtype": "float64",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 36,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        -1.0
+      ],
+      "dtype": "float64",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 36,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        -1.0
+      ],
+      "dtype": "float64",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 36,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        -1.0
+      ],
+      "dtype": "float64",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 37,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        -0.3526874320571656
+      ],
+      "dtype": "float64",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 37,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        -0.3526874320571656
+      ],
+      "dtype": "float64",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 37,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        -0.3526874320571656
+      ],
+      "dtype": "float64",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 38,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        1.0
+      ],
+      "dtype": "float64",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 38,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        1.0
+      ],
+      "dtype": "float64",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 38,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        1.0
+      ],
+      "dtype": "float64",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 39,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        -1.0
+      ],
+      "dtype": "float64",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 39,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        -1.0
+      ],
+      "dtype": "float64",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    },
+    {
+      "case_id": "E030",
+      "input_index": 39,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        -1.0
+      ],
+      "dtype": "float64",
+      "shape": [
+        1
+      ],
+      "calls": [
+        "torch.Tensor.new_ones",
+        "torch.max",
+        "torch.max",
+        "torch.clamp"
+      ]
+    }
+  ],
+  "retained_original_records": [
+    {
+      "case_id": "E030",
+      "scenario": null,
+      "side": "source",
+      "mode": "original",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E030",
+      "scenario": null,
+      "side": "source",
+      "mode": "original",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E030",
+      "scenario": null,
+      "side": "source",
+      "mode": "original",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E030",
+      "scenario": null,
+      "side": "target",
+      "mode": "original",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -4.400000095367432,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                4.400000095367432,
+                4.400000095367432
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -4.400000095367432,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                4.400000095367432,
+                4.400000095367432
+              ]
+            ]
+          },
+          "input_shapes": {
+            "t": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E030",
+      "scenario": null,
+      "side": "target",
+      "mode": "original",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -4.400000095367432,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                4.400000095367432,
+                4.400000095367432
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -4.400000095367432,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                4.400000095367432,
+                4.400000095367432
+              ]
+            ]
+          },
+          "input_shapes": {
+            "t": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E030",
+      "scenario": null,
+      "side": "target",
+      "mode": "original",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -4.400000095367432,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                4.400000095367432,
+                4.400000095367432
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -4.400000095367432,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                4.400000095367432,
+                4.400000095367432
+              ]
+            ]
+          },
+          "input_shapes": {
+            "t": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    }
+  ],
+  "retained_verification": {
+    "case_id": "E030",
+    "status": "checked-with-retained-bodies",
+    "kind": "complete-upstream-method-bodies",
+    "scenarios": [
+      {
+        "scenario": null,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "human_review": "pending"
+  },
+  "scoped_behavior_decision": "violated-on-documented-witness-inputs",
+  "independent_gold": false,
+  "blind_review": false,
+  "full_historical_test_intent_label": null,
+  "count_as_new_discovery": false,
+  "independent_evaluation_eligible": false,
+  "constructed_test_baseline_decision": "passes-on-registered-2x3-input",
+  "assertion_removed": false,
+  "freeze_scope": "freeze evidence snapshot only; not independent evaluation gold"
+}

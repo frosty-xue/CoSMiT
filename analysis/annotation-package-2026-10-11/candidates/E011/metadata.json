@@ -1,0 +1,21 @@
+{
+  "candidate_id": "E011",
+  "source_api": "torch.minimum",
+  "target_calls": "tf.cast, tf.minimum",
+  "source": {
+    "framework": "pytorch",
+    "entry": "pytorch_call"
+  },
+  "target": {
+    "framework": "tensorflow",
+    "entry": "tensorflow_call"
+  },
+  "cohort": "expansion",
+  "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.minimum.json",
+  "operation_sha256": {
+    "source": "062b36cb5a9297459009dad4b45ca70924353e0c66932dd90f865d0304dae0b9",
+    "target": "d96d454106b1c21a1543efa253634533f342cf29f11f3951f5d5808789cafc55"
+  },
+  "test_pair_available": true,
+  "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+}

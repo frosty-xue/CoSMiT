@@ -1,0 +1,3170 @@
+[
+  {
+    "case_id": "E030",
+    "input_index": 0,
+    "stratum": 0,
+    "pattern": 0,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 0.0
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": 0.0
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 1,
+    "stratum": 0,
+    "pattern": 1,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 1.0
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": 1.0
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 2,
+    "stratum": 0,
+    "pattern": 2,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": -1.0
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": -1.0
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 3,
+    "stratum": 0,
+    "pattern": 3,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": -1.25
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": -1.0
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 4,
+    "stratum": 0,
+    "pattern": 4,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 2.9509270191192627
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": 1.0
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 5,
+    "stratum": 0,
+    "pattern": 5,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 2.938735008239746
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": 1.0
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 6,
+    "stratum": 0,
+    "pattern": 6,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": -2.604412078857422
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": -1.0
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 7,
+    "stratum": 0,
+    "pattern": 7,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": -2.0445656776428223
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": -1.0
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 8,
+    "stratum": 1,
+    "pattern": 0,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 9,
+    "stratum": 1,
+    "pattern": 1,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": [
+          [
+            1.0,
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 10,
+    "stratum": 1,
+    "pattern": 2,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": [
+          [
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0,
+            -1.0
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          -1.0,
+          -1.0,
+          -1.0
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 11,
+    "stratum": 1,
+    "pattern": 3,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": [
+          [
+            -1.25,
+            -0.75,
+            -0.25
+          ],
+          [
+            0.25,
+            0.75,
+            1.25
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -1.0,
+          -0.75,
+          -0.25
+        ],
+        [
+          0.25,
+          0.75,
+          1.0
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 12,
+    "stratum": 1,
+    "pattern": 4,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": [
+          [
+            -0.49578985571861267,
+            -0.8004352450370789,
+            -1.1819523572921753
+          ],
+          [
+            -1.0220800638198853,
+            -2.0564420223236084,
+            -0.6752979755401611
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -0.49578985571861267,
+          -0.8004352450370789,
+          -1.0
+        ],
+        [
+          -1.0,
+          -1.0,
+          -0.6752979755401611
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 13,
+    "stratum": 1,
+    "pattern": 5,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": [
+          [
+            -0.454024076461792,
+            -0.7919522523880005,
+            1.5933396816253662
+          ],
+          [
+            1.6716389656066895,
+            -2.3154067993164062,
+            -1.6410659551620483
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -0.454024076461792,
+          -0.7919522523880005,
+          1.0
+        ],
+        [
+          1.0,
+          -1.0,
+          -1.0
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 14,
+    "stratum": 1,
+    "pattern": 6,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": [
+          [
+            2.781251907348633,
+            -1.6912426948547363,
+            -0.31748244166374207
+          ],
+          [
+            -1.3994754552841187,
+            1.3583849668502808,
+            0.4712614417076111
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          1.0,
+          -1.0,
+          -0.31748244166374207
+        ],
+        [
+          -1.0,
+          1.0,
+          0.4712614417076111
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 15,
+    "stratum": 1,
+    "pattern": 7,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": [
+          [
+            -1.0087904930114746,
+            -0.8943357467651367,
+            1.4294337034225464
+          ],
+          [
+            0.8632567524909973,
+            2.1175622940063477,
+            -1.0911155939102173
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -1.0,
+          -0.8943357467651367,
+          1.0
+        ],
+        [
+          0.8632567524909973,
+          1.0,
+          -1.0
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 16,
+    "stratum": 2,
+    "pattern": 0,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": [
+          [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 0.5
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 0.5
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          [
+            0.5,
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.5,
+            0.5
+          ]
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 17,
+    "stratum": 2,
+    "pattern": 1,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": [
+          [
+            [
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0,
+              1.0
+            ]
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 0.5
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 0.5
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          [
+            0.5,
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.5,
+            0.5
+          ]
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 18,
+    "stratum": 2,
+    "pattern": 2,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": [
+          [
+            [
+              -1.0,
+              -1.0,
+              -1.0
+            ],
+            [
+              -1.0,
+              -1.0,
+              -1.0
+            ]
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 0.5
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 0.5
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          [
+            0.5,
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.5,
+            0.5
+          ]
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 19,
+    "stratum": 2,
+    "pattern": 3,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": [
+          [
+            [
+              -1.25,
+              -0.75,
+              -0.25
+            ],
+            [
+              0.25,
+              0.75,
+              1.25
+            ]
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 0.5
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 0.5
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          [
+            0.5,
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.5,
+            0.5
+          ]
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 20,
+    "stratum": 2,
+    "pattern": 4,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": [
+          [
+            [
+              -2.6481146812438965,
+              -2.8129541873931885,
+              0.7398208975791931
+            ],
+            [
+              -0.06597843021154404,
+              -1.5649731159210205,
+              2.8566408157348633
+            ]
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 0.5
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 0.5
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          [
+            0.5,
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.5,
+            0.5
+          ]
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 21,
+    "stratum": 2,
+    "pattern": 5,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": [
+          [
+            [
+              -0.8275728225708008,
+              -2.933171033859253,
+              2.8822715282440186
+            ],
+            [
+              -1.7769746780395508,
+              0.13737821578979492,
+              0.7022433280944824
+            ]
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 0.5
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 0.5
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          [
+            0.5,
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.5,
+            0.5
+          ]
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 22,
+    "stratum": 2,
+    "pattern": 6,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": [
+          [
+            [
+              -0.2808407247066498,
+              -0.6275275945663452,
+              -0.8092743158340454
+            ],
+            [
+              0.12077109515666962,
+              0.5685424208641052,
+              -0.551209032535553
+            ]
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 0.5
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 0.5
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          [
+            0.5,
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.5,
+            0.5
+          ]
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 23,
+    "stratum": 2,
+    "pattern": 7,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": [
+          [
+            [
+              0.7880176901817322,
+              -2.9557206630706787,
+              -1.3365283012390137
+            ],
+            [
+              -2.14654278755188,
+              -1.3175292015075684,
+              2.1575326919555664
+            ]
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 0.5
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 0.5
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          [
+            0.5,
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.5,
+            0.5
+          ]
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 24,
+    "stratum": 3,
+    "pattern": 0,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 0.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 0.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 25,
+    "stratum": 3,
+    "pattern": 1,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": [
+          [
+            1.0,
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 26,
+    "stratum": 3,
+    "pattern": 2,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": [
+          [
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0,
+            -1.0
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": -1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          -1.0,
+          -1.0,
+          -1.0
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 27,
+    "stratum": 3,
+    "pattern": 3,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": [
+          [
+            -1.25,
+            -0.75,
+            -0.25
+          ],
+          [
+            0.25,
+            0.75,
+            1.25
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": -1.25
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 1.25
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -1.25,
+          -0.75,
+          -0.25
+        ],
+        [
+          0.25,
+          0.75,
+          1.25
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 28,
+    "stratum": 3,
+    "pattern": 4,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": [
+          [
+            1.0440537929534912,
+            -0.6270847320556641,
+            -1.4948031902313232
+          ],
+          [
+            1.7887210845947266,
+            -2.1562740802764893,
+            2.7650294303894043
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": -2.1562740802764893
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 2.7650294303894043
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          1.0440537929534912,
+          -0.6270847320556641,
+          -1.4948031902313232
+        ],
+        [
+          1.7887210845947266,
+          -2.1562740802764893,
+          2.7650294303894043
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 29,
+    "stratum": 3,
+    "pattern": 5,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": [
+          [
+            2.716885805130005,
+            0.29735472798347473,
+            -2.968449354171753
+          ],
+          [
+            2.9927406311035156,
+            2.4224185943603516,
+            1.990463137626648
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": -2.968449354171753
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 2.9927406311035156
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          2.716885805130005,
+          0.29735472798347473,
+          -2.968449354171753
+        ],
+        [
+          2.9927406311035156,
+          2.4224185943603516,
+          1.990463137626648
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 30,
+    "stratum": 3,
+    "pattern": 6,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": [
+          [
+            -0.39782267808914185,
+            1.5632747411727905,
+            0.10015057772397995
+          ],
+          [
+            0.07273107767105103,
+            -1.2970800399780273,
+            -2.376934289932251
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": -2.376934289932251
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 1.5632747411727905
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -0.39782267808914185,
+          1.5632747411727905,
+          0.10015057772397995
+        ],
+        [
+          0.07273107767105103,
+          -1.2970800399780273,
+          -2.376934289932251
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 31,
+    "stratum": 3,
+    "pattern": 7,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": [
+          [
+            -0.3492180109024048,
+            -0.8902127146720886,
+            0.8455294966697693
+          ],
+          [
+            1.2800339460372925,
+            2.8815159797668457,
+            2.417922258377075
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": -0.8902127146720886
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": 2.8815159797668457
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -0.3492180109024048,
+          -0.8902127146720886,
+          0.8455294966697693
+        ],
+        [
+          1.2800339460372925,
+          2.8815159797668457,
+          2.417922258377075
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 32,
+    "stratum": 0,
+    "pattern": 0,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 0.0
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": 0.0
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 33,
+    "stratum": 0,
+    "pattern": 1,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 1.0
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": 1.0
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 34,
+    "stratum": 0,
+    "pattern": 2,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": -1.0
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": -1.0
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 35,
+    "stratum": 0,
+    "pattern": 3,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": -1.25
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": -1.0
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 36,
+    "stratum": 0,
+    "pattern": 4,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": -2.9984795632894423
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": -1.0
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 37,
+    "stratum": 0,
+    "pattern": 5,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": -0.3526874320571656
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": -0.3526874320571656
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 38,
+    "stratum": 0,
+    "pattern": 6,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 2.08929101368129
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": 1.0
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 39,
+    "stratum": 0,
+    "pattern": 7,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": -1.2483252392460376
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": -1.0
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 40,
+    "stratum": 1,
+    "pattern": 0,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 41,
+    "stratum": 1,
+    "pattern": 1,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": [
+          [
+            1.0,
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 42,
+    "stratum": 1,
+    "pattern": 2,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": [
+          [
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0,
+            -1.0
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          -1.0,
+          -1.0,
+          -1.0
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 43,
+    "stratum": 1,
+    "pattern": 3,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": [
+          [
+            -1.25,
+            -0.75,
+            -0.25
+          ],
+          [
+            0.25,
+            0.75,
+            1.25
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -1.0,
+          -0.75,
+          -0.25
+        ],
+        [
+          0.25,
+          0.75,
+          1.0
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 44,
+    "stratum": 1,
+    "pattern": 4,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": [
+          [
+            1.6946323138294304,
+            2.9008657027483338,
+            2.7466380112778364
+          ],
+          [
+            -2.7660330212694366,
+            -2.1416166903483287,
+            1.9517999929574197
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          -1.0,
+          -1.0,
+          1.0
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 45,
+    "stratum": 1,
+    "pattern": 5,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": [
+          [
+            2.3197965042165682,
+            -0.9285971113689167,
+            -2.026931407527293
+          ],
+          [
+            2.087886857955649,
+            -0.9830768533313905,
+            -2.9012917649705
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          1.0,
+          -0.9285971113689167,
+          -1.0
+        ],
+        [
+          1.0,
+          -0.9830768533313905,
+          -1.0
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 46,
+    "stratum": 1,
+    "pattern": 6,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": [
+          [
+            -0.32613848745655005,
+            0.1773146199823712,
+            -0.31097163249932436
+          ],
+          [
+            2.7532271800550028,
+            -2.8329665859612296,
+            1.1773692240604943
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -0.32613848745655005,
+          0.1773146199823712,
+          -0.31097163249932436
+        ],
+        [
+          1.0,
+          -1.0,
+          1.0
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 47,
+    "stratum": 1,
+    "pattern": 7,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": [
+          [
+            -0.4383570789647764,
+            -0.9547535177847051,
+            2.6779650267651096
+          ],
+          [
+            -1.5744977024448277,
+            -0.9844484888242766,
+            0.06632927787654852
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -0.4383570789647764,
+          -0.9547535177847051,
+          1.0
+        ],
+        [
+          -1.0,
+          -0.9844484888242766,
+          0.06632927787654852
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 48,
+    "stratum": 2,
+    "pattern": 0,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": [
+          [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 0.5
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 0.5
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          [
+            0.5,
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.5,
+            0.5
+          ]
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 49,
+    "stratum": 2,
+    "pattern": 1,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": [
+          [
+            [
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0,
+              1.0
+            ]
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 0.5
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 0.5
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          [
+            0.5,
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.5,
+            0.5
+          ]
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 50,
+    "stratum": 2,
+    "pattern": 2,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": [
+          [
+            [
+              -1.0,
+              -1.0,
+              -1.0
+            ],
+            [
+              -1.0,
+              -1.0,
+              -1.0
+            ]
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 0.5
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 0.5
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          [
+            0.5,
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.5,
+            0.5
+          ]
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 51,
+    "stratum": 2,
+    "pattern": 3,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": [
+          [
+            [
+              -1.25,
+              -0.75,
+              -0.25
+            ],
+            [
+              0.25,
+              0.75,
+              1.25
+            ]
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 0.5
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 0.5
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          [
+            0.5,
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.5,
+            0.5
+          ]
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 52,
+    "stratum": 2,
+    "pattern": 4,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": [
+          [
+            [
+              -0.16508104494562215,
+              2.7910277114950777,
+              1.3579949910931637
+            ],
+            [
+              1.589639199021252,
+              -0.639051743325322,
+              2.376286656092951
+            ]
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 0.5
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 0.5
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          [
+            0.5,
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.5,
+            0.5
+          ]
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 53,
+    "stratum": 2,
+    "pattern": 5,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": [
+          [
+            [
+              -0.9647338532809195,
+              -2.385376516549702,
+              1.7729526053315237
+            ],
+            [
+              -2.567325581239432,
+              2.166681114064774,
+              2.3572161293833833
+            ]
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 0.5
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 0.5
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          [
+            0.5,
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.5,
+            0.5
+          ]
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 54,
+    "stratum": 2,
+    "pattern": 6,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": [
+          [
+            [
+              1.8506233679667687,
+              2.987038911400468,
+              1.4846625046795054
+            ],
+            [
+              -2.030485131876587,
+              -0.24023353800214942,
+              0.23805210776089458
+            ]
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 0.5
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 0.5
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          [
+            0.5,
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.5,
+            0.5
+          ]
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 55,
+    "stratum": 2,
+    "pattern": 7,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": [
+          [
+            [
+              1.79661408201855,
+              -1.243532608368856,
+              2.7688836903778498
+            ],
+            [
+              -0.6901811928546158,
+              1.4560508330685815,
+              -2.440955405591093
+            ]
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 0.5
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 0.5
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          [
+            0.5,
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.5,
+            0.5
+          ]
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 56,
+    "stratum": 3,
+    "pattern": 0,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 0.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 0.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 57,
+    "stratum": 3,
+    "pattern": 1,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": [
+          [
+            1.0,
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 58,
+    "stratum": 3,
+    "pattern": 2,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": [
+          [
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0,
+            -1.0
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": -1.0
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": -1.0
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          -1.0,
+          -1.0,
+          -1.0
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 59,
+    "stratum": 3,
+    "pattern": 3,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": [
+          [
+            -1.25,
+            -0.75,
+            -0.25
+          ],
+          [
+            0.25,
+            0.75,
+            1.25
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": -1.25
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 1.25
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -1.25,
+          -0.75,
+          -0.25
+        ],
+        [
+          0.25,
+          0.75,
+          1.25
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 60,
+    "stratum": 3,
+    "pattern": 4,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": [
+          [
+            1.1238163785287387,
+            1.7982136646682774,
+            1.7746021593805406
+          ],
+          [
+            0.029605215862769096,
+            2.2387469789131593,
+            -2.6512155778783155
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": -2.6512155778783155
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 2.2387469789131593
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          1.1238163785287387,
+          1.7982136646682774,
+          1.7746021593805406
+        ],
+        [
+          0.029605215862769096,
+          2.2387469789131593,
+          -2.6512155778783155
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 61,
+    "stratum": 3,
+    "pattern": 5,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": [
+          [
+            -1.8604624940106307,
+            -0.3206395692437982,
+            0.9012091152300807
+          ],
+          [
+            0.17337774417908047,
+            0.7109436846236221,
+            -0.4786997009487717
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": -1.8604624940106307
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 0.9012091152300807
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -1.8604624940106307,
+          -0.3206395692437982,
+          0.9012091152300807
+        ],
+        [
+          0.17337774417908047,
+          0.7109436846236221,
+          -0.4786997009487717
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 62,
+    "stratum": 3,
+    "pattern": 6,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": [
+          [
+            1.9226153536043897,
+            -0.27201192555246134,
+            2.750524781861433
+          ],
+          [
+            1.4167196863667808,
+            -0.7640950823467532,
+            0.6881706729170887
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": -0.7640950823467532
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 2.750524781861433
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          1.9226153536043897,
+          -0.27201192555246134,
+          2.750524781861433
+        ],
+        [
+          1.4167196863667808,
+          -0.7640950823467532,
+          0.6881706729170887
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  {
+    "case_id": "E030",
+    "input_index": 63,
+    "stratum": 3,
+    "pattern": 7,
+    "arguments": {
+      "t": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": [
+          [
+            0.8393367789436721,
+            2.2517635096710658,
+            -2.8963652105539026
+          ],
+          [
+            2.956158290769319,
+            0.02236362755184018,
+            -1.0388594772587643
+          ]
+        ]
+      },
+      "clip_value_min": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": -2.8963652105539026
+      },
+      "clip_value_max": {
+        "kind": "tensor",
+        "dtype": "float64",
+        "values": 2.956158290769319
+      }
+    },
+    "expected": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          0.8393367789436721,
+          2.2517635096710658,
+          -2.8963652105539026
+        ],
+        [
+          2.956158290769319,
+          0.02236362755184018,
+          -1.0388594772587643
+        ]
+      ]
+    },
+    "tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  }
+]

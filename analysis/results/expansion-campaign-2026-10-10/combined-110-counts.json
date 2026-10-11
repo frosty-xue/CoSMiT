@@ -1,0 +1,90 @@
+{
+  "primary": {
+    "self-test": {
+      "passed": 108,
+      "failed": 2
+    },
+    "target-binding": {
+      "observed": 108,
+      "not-observed-on-all-inputs": 2
+    },
+    "dllens-port": {
+      "no-difference-on-tested-inputs": 108,
+      "undetermined": 2
+    },
+    "cosmit-registered-clauses": {
+      "supported-on-tested-inputs": 106,
+      "undetermined": 2,
+      "refuted": 2
+    },
+    "direct-llm": {
+      "failed": 71,
+      "preserved": 11,
+      "invalid-assumption": 1,
+      "not-run": 27
+    },
+    "trace-llm": {
+      "failed": 83,
+      "not-run": 27
+    },
+    "intenttester-verifier-port": {
+      "accepted": 82,
+      "undetermined": 17,
+      "rejected": 11
+    },
+    "intenttester-target-tdl-extension": {
+      "accepted": 77,
+      "undetermined": 20,
+      "rejected": 13
+    },
+    "docter-historical-constraints": {
+      "satisfied": 45,
+      "undetermined": 54,
+      "violated": 11
+    }
+  },
+  "retry-view": {
+    "self-test": {
+      "passed": 108,
+      "failed": 2
+    },
+    "target-binding": {
+      "observed": 108,
+      "not-observed-on-all-inputs": 2
+    },
+    "dllens-port": {
+      "no-difference-on-tested-inputs": 108,
+      "undetermined": 2
+    },
+    "cosmit-registered-clauses": {
+      "supported-on-tested-inputs": 106,
+      "undetermined": 2,
+      "refuted": 2
+    },
+    "direct-llm": {
+      "failed": 69,
+      "preserved": 13,
+      "invalid-assumption": 1,
+      "not-run": 27
+    },
+    "trace-llm": {
+      "failed": 83,
+      "not-run": 27
+    },
+    "intenttester-verifier-port": {
+      "accepted": 91,
+      "undetermined": 5,
+      "rejected": 14
+    },
+    "intenttester-target-tdl-extension": {
+      "accepted": 89,
+      "undetermined": 5,
+      "rejected": 16
+    },
+    "docter-historical-constraints": {
+      "satisfied": 45,
+      "undetermined": 54,
+      "violated": 11
+    }
+  }
+}

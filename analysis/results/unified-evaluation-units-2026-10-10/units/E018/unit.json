@@ -1,0 +1,94 @@
+{
+  "unit_id": "E018",
+  "family": "reshape",
+  "cohort": "expansion",
+  "provenance": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.reshape.json",
+  "behavior": {
+    "status": "supported-on-qualified-inputs",
+    "scope": "recorded inputs and registered contract only",
+    "inputs": "units/E018/behavior-inputs.json"
+  },
+  "test": {
+    "origin": "newly constructed operation substitution; not historical migrated test",
+    "source_file": "units/E018/source-test.py",
+    "target_file": "units/E018/target-test.py",
+    "registration": {
+      "case_id": "E018",
+      "status": "registered",
+      "file": "upstream/tf_reshape.py",
+      "class": "ReshapeTest",
+      "methods": [
+        {
+          "method": "_testReshape",
+          "start": 33,
+          "end": 46,
+          "decorators": []
+        },
+        {
+          "method": "_testBothReshape",
+          "start": 60,
+          "end": 62,
+          "decorators": []
+        },
+        {
+          "method": "testFloatBasic",
+          "start": 68,
+          "end": 70,
+          "decorators": []
+        }
+      ],
+      "entry": "testFloatBasic",
+      "paths": [
+        "array_ops.reshape"
+      ],
+      "kind": "complete-upstream-method-bodies",
+      "parameters": "original method inputs; CPU eager; device/dtype parameter fixed where required; decorator variants excluded",
+      "source_framework": "tensorflow",
+      "scope": "new operation-substitution candidates; common source-framework harness; no external migration-quality claim",
+      "assertion_expressions_exact": true,
+      "source_hash": "f372ddcc5a00781e125704624a9a8a4e269daa390b880d73f6df6f36980f1c76",
+      "target_hash": "af1c3218f82fcd82ac88fa7233f17ae34f57c37afdafc73e81853b8a0f51dd0d"
+    },
+    "upstream_snapshot": "shared/registered-upstream/tf_reshape.py",
+    "upstream_provenance": "shared/registered-upstream-provenance.json",
+    "input_scope": "units/E018/test-input-scope.json",
+    "records": "units/E018/test-records.json",
+    "runner": "shared/retained-runner.py",
+    "obligations": [
+      "输出形状符合 NumPy reshape",
+      "静态形状与运行结果形状相符",
+      "int64 shape 参数调用"
+    ],
+    "scope_gaps": [
+      "原方法无数值相等断言，数值扰动接受不构成丢失",
+      "桥接将 shape 参数张量转为 Python 值，不能确认目标原生 int64 参数支持"
+    ],
+    "review_category": "shape-only-reference-candidate",
+    "scenarios": [
+      {
+        "scenario": null,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "source-does-not-reject"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true
+  },
+  "source_test_leads": [],
+  "reference_label": null,
+  "formal_intent_accuracy_eligible": false,
+  "missing": [
+    "独立限域参照标签",
+    "方法共同运行覆盖",
+    "原生类型/布局/别名等未覆盖义务不得默认为保持"
+  ],
+  "operation_files": {
+    "source": "units/E018/source-operation.py",
+    "target": "units/E018/target-operation.py"
+  },
+  "readiness": "constructed-test-evidence-packaged"
+}

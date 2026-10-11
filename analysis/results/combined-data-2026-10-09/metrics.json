@@ -1,0 +1,1502 @@
+{
+  "scope": {
+    "excluded": [
+      "D0028",
+      "historical controls",
+      "dynamic-v1/v2 trials",
+      "assertion pilot duplicate evidence"
+    ],
+    "independent_gold": false
+  },
+  "deduplication": {
+    "key": "upstream_path",
+    "cross_batch_overlap": [],
+    "family_overlap": [],
+    "initial_families": [
+      "abs",
+      "acos",
+      "asin",
+      "atan",
+      "ceil",
+      "cos",
+      "cosh",
+      "cumprod",
+      "cumsum",
+      "det",
+      "exp",
+      "expm1",
+      "floor",
+      "log",
+      "log1p",
+      "matmul",
+      "neg",
+      "prod",
+      "reciprocal",
+      "round",
+      "sigmoid",
+      "sign",
+      "sin",
+      "sinh",
+      "sqrt",
+      "square",
+      "tan",
+      "tanh",
+      "trace"
+    ],
+    "expansion_families": [
+      "add",
+      "atan2",
+      "clip",
+      "concat",
+      "divide",
+      "expand_dims",
+      "maximum",
+      "minimum",
+      "multiply",
+      "power",
+      "reshape",
+      "squeeze",
+      "stack",
+      "subtract",
+      "transpose"
+    ]
+  },
+  "combined": {
+    "candidates": 110,
+    "families": 44,
+    "designed_inputs": 7040,
+    "source_qualified_inputs": 7024,
+    "source_unqualified_inputs": 16,
+    "paired_executions": 21072,
+    "main_source_executions": 21120,
+    "main_target_executions": 21072,
+    "candidate_statuses": {
+      "supported_in_registered_scope": 106,
+      "replayed_behavior_discrepancy": 3,
+      "binding_undetermined": 1
+    },
+    "witness_inputs": 48,
+    "witness_pairs_including_repeats": 144,
+    "full_intent_accuracy": null,
+    "main_single_executions": 42192
+  },
+  "expansion": {
+    "summary": {
+      "candidates": 30,
+      "source_inputs": 1920,
+      "qualified_inputs": 1904,
+      "source_unqualified_inputs": 16,
+      "main_source_executions": 5760,
+      "main_target_executions": 5712,
+      "completed_pairs": 5712,
+      "transparency_single_executions": 180,
+      "witness_replay_single_executions": 288,
+      "witness_inputs": 48,
+      "case_statuses": {
+        "supported-on-qualified-inputs": 26,
+        "discrepancy-replayed": 3,
+        "undetermined-binding": 1
+      },
+      "model_calls": 0
+    },
+    "input_outcomes": {
+      "supported": 1840,
+      "target-exception": 32,
+      "unbound": 16,
+      "behavior-difference": 16
+    },
+    "verification": {
+      "integrity": "passed",
+      "job_identity_and_source_gate": "passed",
+      "repeat_stability_and_uninstrumented_replay": "passed",
+      "input_outcomes_recomputed": "passed",
+      "cases": 30,
+      "qualified_inputs": 1904,
+      "witness_inputs": 48,
+      "dense_dllens_on_behavior_witnesses": {
+        "True": 16
+      },
+      "versions": {
+        "pytorch": {
+          "version": "2.9.1+cpu",
+          "numpy": "2.4.6",
+          "python": "3.11.16 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:36:16) [MSC v.1942 64 bit (AMD64)]"
+        },
+        "tensorflow": {
+          "version": "2.20.0",
+          "numpy": "2.4.6",
+          "python": "3.11.16 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:36:16) [MSC v.1942 64 bit (AMD64)]"
+        }
+      },
+      "independent_human_gold": false
+    }
+  },
+  "assertion_evidence_same_30_candidates": {
+    "diagnostic": {
+      "single_executions": 56016,
+      "inputs": 1920,
+      "source_qualified": 1904,
+      "sensitivity_qualified": 1856,
+      "intent_loss_witnesses": 0,
+      "candidate_assertions_identical_by_construction": true,
+      "evidence_grade": "protocol diagnostic only"
+    },
+    "retained": {
+      "single_executions": 1290,
+      "registered_cases": 27,
+      "unresolved_cases": 3,
+      "matrix": [
+        {
+          "case_id": "E001",
+          "status": "checked-with-retained-bodies",
+          "kind": "complete-upstream-helper-bodies",
+          "scenarios": [
+            {
+              "scenario": 0,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            },
+            {
+              "scenario": 16,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            }
+          ],
+          "human_review": "pending"
+        },
+        {
+          "case_id": "E002",
+          "status": "checked-with-retained-bodies",
+          "kind": "complete-upstream-helper-bodies",
+          "scenarios": [
+            {
+              "scenario": 0,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            },
+            {
+              "scenario": 16,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            }
+          ],
+          "human_review": "pending"
+        },
+        {
+          "case_id": "E003",
+          "status": "checked-with-retained-bodies",
+          "kind": "complete-upstream-helper-bodies",
+          "scenarios": [
+            {
+              "scenario": 0,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            },
+            {
+              "scenario": 16,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            }
+          ],
+          "human_review": "pending"
+        },
+        {
+          "case_id": "E004",
+          "status": "checked-with-retained-bodies",
+          "kind": "complete-upstream-helper-bodies",
+          "scenarios": [
+            {
+              "scenario": 0,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            },
+            {
+              "scenario": 16,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            }
+          ],
+          "human_review": "pending"
+        },
+        {
+          "case_id": "E005",
+          "status": "checked-with-retained-bodies",
+          "kind": "complete-upstream-helper-bodies",
+          "scenarios": [
+            {
+              "scenario": 0,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            },
+            {
+              "scenario": 16,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            }
+          ],
+          "human_review": "pending"
+        },
+        {
+          "case_id": "E006",
+          "status": "checked-with-retained-bodies",
+          "kind": "complete-upstream-helper-bodies",
+          "scenarios": [
+            {
+              "scenario": 0,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            },
+            {
+              "scenario": 16,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            }
+          ],
+          "human_review": "pending"
+        },
+        {
+          "case_id": "E007",
+          "status": "checked-with-retained-bodies",
+          "kind": "complete-upstream-helper-bodies",
+          "scenarios": [
+            {
+              "scenario": 0,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            },
+            {
+              "scenario": 16,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            }
+          ],
+          "human_review": "pending"
+        },
+        {
+          "case_id": "E008",
+          "status": "checked-with-retained-bodies",
+          "kind": "complete-upstream-helper-bodies",
+          "scenarios": [
+            {
+              "scenario": 0,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            },
+            {
+              "scenario": 16,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            }
+          ],
+          "human_review": "pending"
+        },
+        {
+          "case_id": "E009",
+          "status": "checked-with-retained-bodies",
+          "kind": "complete-upstream-helper-bodies",
+          "scenarios": [
+            {
+              "scenario": 0,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            },
+            {
+              "scenario": 16,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            }
+          ],
+          "human_review": "pending"
+        },
+        {
+          "case_id": "E010",
+          "status": "checked-with-retained-bodies",
+          "kind": "complete-upstream-helper-bodies",
+          "scenarios": [
+            {
+              "scenario": 0,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            },
+            {
+              "scenario": 16,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            }
+          ],
+          "human_review": "pending"
+        },
+        {
+          "case_id": "E011",
+          "status": "checked-with-retained-bodies",
+          "kind": "complete-upstream-helper-bodies",
+          "scenarios": [
+            {
+              "scenario": 0,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            },
+            {
+              "scenario": 16,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            }
+          ],
+          "human_review": "pending"
+        },
+        {
+          "case_id": "E012",
+          "status": "checked-with-retained-bodies",
+          "kind": "complete-upstream-helper-bodies",
+          "scenarios": [
+            {
+              "scenario": 0,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            },
+            {
+              "scenario": 16,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            }
+          ],
+          "human_review": "pending"
+        },
+        {
+          "case_id": "E013",
+          "status": "checked-with-retained-bodies",
+          "kind": "complete-upstream-helper-bodies",
+          "scenarios": [
+            {
+              "scenario": 0,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            },
+            {
+              "scenario": 16,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            }
+          ],
+          "human_review": "pending"
+        },
+        {
+          "case_id": "E014",
+          "status": "checked-with-retained-bodies",
+          "kind": "complete-upstream-helper-bodies",
+          "scenarios": [
+            {
+              "scenario": 0,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            },
+            {
+              "scenario": 16,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            }
+          ],
+          "human_review": "pending"
+        },
+        {
+          "case_id": "E015",
+          "status": "checked-with-retained-bodies",
+          "kind": "complete-upstream-helper-bodies",
+          "scenarios": [
+            {
+              "scenario": 0,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            },
+            {
+              "scenario": 16,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            }
+          ],
+          "human_review": "pending"
+        },
+        {
+          "case_id": "E016",
+          "status": "checked-with-retained-bodies",
+          "kind": "complete-upstream-helper-bodies",
+          "scenarios": [
+            {
+              "scenario": 0,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            },
+            {
+              "scenario": 16,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            }
+          ],
+          "human_review": "pending"
+        },
+        {
+          "case_id": "E017",
+          "status": "unresolved-obligation",
+          "reason": "selected PyTorch view tests require storage aliasing and mutation propagation; cross-framework value bridge cannot preserve or certify these obligations"
+        },
+        {
+          "case_id": "E018",
+          "status": "checked-with-retained-bodies",
+          "kind": "complete-upstream-method-bodies",
+          "scenarios": [
+            {
+              "scenario": null,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "source-does-not-reject"
+              },
+              "baseline_failures": []
+            }
+          ],
+          "human_review": "pending"
+        },
+        {
+          "case_id": "E019",
+          "status": "checked-with-retained-bodies",
+          "kind": "complete-upstream-method-bodies",
+          "scenarios": [
+            {
+              "scenario": null,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            }
+          ],
+          "human_review": "pending"
+        },
+        {
+          "case_id": "E020",
+          "status": "checked-with-retained-bodies",
+          "kind": "complete-upstream-method-bodies",
+          "scenarios": [
+            {
+              "scenario": null,
+              "baseline_qualified": false,
+              "transparent": false,
+              "probes": {
+                "wrong-shape": "baseline-unqualified",
+                "wrong-value": "baseline-unqualified"
+              },
+              "baseline_failures": [
+                {
+                  "side": "target",
+                  "status": "execution-error",
+                  "phase": "counterpart-execution",
+                  "error": "TypeError: Tensor.permute() argument after * must be an iterable, not NoneType"
+                }
+              ]
+            }
+          ],
+          "human_review": "pending"
+        },
+        {
+          "case_id": "E021",
+          "status": "unresolved-obligation",
+          "reason": "selected PyTorch view tests require storage aliasing and mutation propagation; cross-framework value bridge cannot preserve or certify these obligations"
+        },
+        {
+          "case_id": "E022",
+          "status": "checked-with-retained-bodies",
+          "kind": "complete-upstream-method-bodies",
+          "scenarios": [
+            {
+              "scenario": null,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            }
+          ],
+          "human_review": "pending"
+        },
+        {
+          "case_id": "E023",
+          "status": "unresolved-obligation",
+          "reason": "selected PyTorch view tests require storage aliasing and mutation propagation; cross-framework value bridge cannot preserve or certify these obligations"
+        },
+        {
+          "case_id": "E024",
+          "status": "checked-with-retained-bodies",
+          "kind": "complete-upstream-method-bodies",
+          "scenarios": [
+            {
+              "scenario": null,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            }
+          ],
+          "human_review": "pending"
+        },
+        {
+          "case_id": "E025",
+          "status": "checked-with-retained-bodies",
+          "kind": "complete-upstream-method-bodies",
+          "scenarios": [
+            {
+              "scenario": null,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "probe-runtime-error",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            }
+          ],
+          "human_review": "pending"
+        },
+        {
+          "case_id": "E026",
+          "status": "checked-with-retained-bodies",
+          "kind": "complete-upstream-method-bodies",
+          "scenarios": [
+            {
+              "scenario": null,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            }
+          ],
+          "human_review": "pending"
+        },
+        {
+          "case_id": "E027",
+          "status": "checked-with-retained-bodies",
+          "kind": "complete-upstream-method-bodies",
+          "scenarios": [
+            {
+              "scenario": null,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            }
+          ],
+          "human_review": "pending"
+        },
+        {
+          "case_id": "E028",
+          "status": "checked-with-retained-bodies",
+          "kind": "complete-upstream-method-bodies",
+          "scenarios": [
+            {
+              "scenario": null,
+              "baseline_qualified": false,
+              "transparent": false,
+              "probes": {
+                "wrong-shape": "baseline-unqualified",
+                "wrong-value": "baseline-unqualified"
+              },
+              "baseline_failures": [
+                {
+                  "side": "target",
+                  "status": "execution-error",
+                  "phase": "argument-adapter",
+                  "error": "TypeError: can't convert np.ndarray of type ml_dtypes.float8_e5m2. The only supported types are: float64, float32, float16, complex64, complex128, int64, int32, int16, int8, uint64, uint32, uint16, uint8, and bool."
+                }
+              ]
+            }
+          ],
+          "human_review": "pending"
+        },
+        {
+          "case_id": "E029",
+          "status": "checked-with-retained-bodies",
+          "kind": "complete-upstream-method-bodies",
+          "scenarios": [
+            {
+              "scenario": null,
+              "baseline_qualified": false,
+              "transparent": false,
+              "probes": {
+                "wrong-shape": "baseline-unqualified",
+                "wrong-value": "baseline-unqualified"
+              },
+              "baseline_failures": [
+                {
+                  "side": "target",
+                  "status": "execution-error",
+                  "phase": "counterpart-execution",
+                  "error": "ValueError: Attempt to convert a value (None) with an unsupported type (<class 'NoneType'>) to a Tensor."
+                }
+              ]
+            }
+          ],
+          "human_review": "pending"
+        },
+        {
+          "case_id": "E030",
+          "status": "checked-with-retained-bodies",
+          "kind": "complete-upstream-method-bodies",
+          "scenarios": [
+            {
+              "scenario": null,
+              "baseline_qualified": true,
+              "transparent": true,
+              "probes": {
+                "wrong-shape": "rejection-retained",
+                "wrong-value": "rejection-retained"
+              },
+              "baseline_failures": []
+            }
+          ],
+          "human_review": "pending"
+        }
+      ],
+      "counts": {
+        "rejection-retained": 78,
+        "source-does-not-reject": 1,
+        "baseline-unqualified": 6,
+        "probe-runtime-error": 1
+      }
+    }
+  },
+  "initial_model_evidence_unchanged": {
+    "availability": {
+      "primary": {
+        "all": {
+          "all": {
+            "numerator": 239,
+            "denominator": 400,
+            "percent": 59.75
+          },
+          "direct-llm": {
+            "numerator": 12,
+            "denominator": 80,
+            "percent": 15.0
+          },
+          "trace-llm": {
+            "numerator": 0,
+            "denominator": 80,
+            "percent": 0.0
+          },
+          "intenttester-source-tdl": {
+            "numerator": 76,
+            "denominator": 80,
+            "percent": 95.0
+          },
+          "intenttester-target-api": {
+            "numerator": 75,
+            "denominator": 80,
+            "percent": 93.75
+          },
+          "intenttester-target-tdl-extension": {
+            "numerator": 76,
+            "denominator": 80,
+            "percent": 95.0
+          }
+        },
+        "discovery": {
+          "all": {
+            "numerator": 198,
+            "denominator": 340,
+            "percent": 58.2353
+          },
+          "direct-llm": {
+            "numerator": 6,
+            "denominator": 68,
+            "percent": 8.8235
+          },
+          "trace-llm": {
+            "numerator": 0,
+            "denominator": 68,
+            "percent": 0.0
+          },
+          "intenttester-source-tdl": {
+            "numerator": 64,
+            "denominator": 68,
+            "percent": 94.1176
+          },
+          "intenttester-target-api": {
+            "numerator": 64,
+            "denominator": 68,
+            "percent": 94.1176
+          },
+          "intenttester-target-tdl-extension": {
+            "numerator": 64,
+            "denominator": 68,
+            "percent": 94.1176
+          }
+        },
+        "unseen": {
+          "all": {
+            "numerator": 41,
+            "denominator": 60,
+            "percent": 68.3333
+          },
+          "direct-llm": {
+            "numerator": 6,
+            "denominator": 12,
+            "percent": 50.0
+          },
+          "trace-llm": {
+            "numerator": 0,
+            "denominator": 12,
+            "percent": 0.0
+          },
+          "intenttester-source-tdl": {
+            "numerator": 12,
+            "denominator": 12,
+            "percent": 100.0
+          },
+          "intenttester-target-api": {
+            "numerator": 11,
+            "denominator": 12,
+            "percent": 91.6667
+          },
+          "intenttester-target-tdl-extension": {
+            "numerator": 12,
+            "denominator": 12,
+            "percent": 100.0
+          }
+        }
+      },
+      "retry-view": {
+        "all": {
+          "all": {
+            "numerator": 248,
+            "denominator": 400,
+            "percent": 62.0
+          },
+          "direct-llm": {
+            "numerator": 14,
+            "denominator": 80,
+            "percent": 17.5
+          },
+          "trace-llm": {
+            "numerator": 0,
+            "denominator": 80,
+            "percent": 0.0
+          },
+          "intenttester-source-tdl": {
+            "numerator": 78,
+            "denominator": 80,
+            "percent": 97.5
+          },
+          "intenttester-target-api": {
+            "numerator": 78,
+            "denominator": 80,
+            "percent": 97.5
+          },
+          "intenttester-target-tdl-extension": {
+            "numerator": 78,
+            "denominator": 80,
+            "percent": 97.5
+          }
+        },
+        "discovery": {
+          "all": {
+            "numerator": 207,
+            "denominator": 340,
+            "percent": 60.8824
+          },
+          "direct-llm": {
+            "numerator": 8,
+            "denominator": 68,
+            "percent": 11.7647
+          },
+          "trace-llm": {
+            "numerator": 0,
+            "denominator": 68,
+            "percent": 0.0
+          },
+          "intenttester-source-tdl": {
+            "numerator": 66,
+            "denominator": 68,
+            "percent": 97.0588
+          },
+          "intenttester-target-api": {
+            "numerator": 67,
+            "denominator": 68,
+            "percent": 98.5294
+          },
+          "intenttester-target-tdl-extension": {
+            "numerator": 66,
+            "denominator": 68,
+            "percent": 97.0588
+          }
+        },
+        "unseen": {
+          "all": {
+            "numerator": 41,
+            "denominator": 60,
+            "percent": 68.3333
+          },
+          "direct-llm": {
+            "numerator": 6,
+            "denominator": 12,
+            "percent": 50.0
+          },
+          "trace-llm": {
+            "numerator": 0,
+            "denominator": 12,
+            "percent": 0.0
+          },
+          "intenttester-source-tdl": {
+            "numerator": 12,
+            "denominator": 12,
+            "percent": 100.0
+          },
+          "intenttester-target-api": {
+            "numerator": 11,
+            "denominator": 12,
+            "percent": 91.6667
+          },
+          "intenttester-target-tdl-extension": {
+            "numerator": 12,
+            "denominator": 12,
+            "percent": 100.0
+          }
+        }
+      },
+      "format-sensitivity": {
+        "all": {
+          "all": {
+            "numerator": 244,
+            "denominator": 400,
+            "percent": 61.0
+          },
+          "direct-llm": {
+            "numerator": 17,
+            "denominator": 80,
+            "percent": 21.25
+          },
+          "trace-llm": {
+            "numerator": 0,
+            "denominator": 80,
+            "percent": 0.0
+          },
+          "intenttester-source-tdl": {
+            "numerator": 76,
+            "denominator": 80,
+            "percent": 95.0
+          },
+          "intenttester-target-api": {
+            "numerator": 75,
+            "denominator": 80,
+            "percent": 93.75
+          },
+          "intenttester-target-tdl-extension": {
+            "numerator": 76,
+            "denominator": 80,
+            "percent": 95.0
+          }
+        },
+        "discovery": {
+          "all": {
+            "numerator": 203,
+            "denominator": 340,
+            "percent": 59.7059
+          },
+          "direct-llm": {
+            "numerator": 11,
+            "denominator": 68,
+            "percent": 16.1765
+          },
+          "trace-llm": {
+            "numerator": 0,
+            "denominator": 68,
+            "percent": 0.0
+          },
+          "intenttester-source-tdl": {
+            "numerator": 64,
+            "denominator": 68,
+            "percent": 94.1176
+          },
+          "intenttester-target-api": {
+            "numerator": 64,
+            "denominator": 68,
+            "percent": 94.1176
+          },
+          "intenttester-target-tdl-extension": {
+            "numerator": 64,
+            "denominator": 68,
+            "percent": 94.1176
+          }
+        },
+        "unseen": {
+          "all": {
+            "numerator": 41,
+            "denominator": 60,
+            "percent": 68.3333
+          },
+          "direct-llm": {
+            "numerator": 6,
+            "denominator": 12,
+            "percent": 50.0
+          },
+          "trace-llm": {
+            "numerator": 0,
+            "denominator": 12,
+            "percent": 0.0
+          },
+          "intenttester-source-tdl": {
+            "numerator": 12,
+            "denominator": 12,
+            "percent": 100.0
+          },
+          "intenttester-target-api": {
+            "numerator": 11,
+            "denominator": 12,
+            "percent": 91.6667
+          },
+          "intenttester-target-tdl-extension": {
+            "numerator": 12,
+            "denominator": 12,
+            "percent": 100.0
+          }
+        }
+      }
+    },
+    "methods": {
+      "primary": {
+        "all": {
+          "self-test": {
+            "passed": 80
+          },
+          "target-binding": {
+            "observed": 80
+          },
+          "dllens-port": {
+            "no-difference-on-tested-inputs": 80
+          },
+          "cosmit-registered-clauses": {
+            "supported-on-tested-inputs": 80
+          },
+          "direct-llm": {
+            "failed": 68,
+            "preserved": 11,
+            "invalid-assumption": 1
+          },
+          "trace-llm": {
+            "failed": 80
+          },
+          "intenttester-verifier-port": {
+            "accepted": 66,
+            "undetermined": 7,
+            "rejected": 7
+          },
+          "intenttester-target-tdl-extension": {
+            "accepted": 65,
+            "undetermined": 7,
+            "rejected": 8
+          }
+        },
+        "discovery": {
+          "self-test": {
+            "passed": 68
+          },
+          "target-binding": {
+            "observed": 68
+          },
+          "dllens-port": {
+            "no-difference-on-tested-inputs": 68
+          },
+          "cosmit-registered-clauses": {
+            "supported-on-tested-inputs": 68
+          },
+          "direct-llm": {
+            "failed": 62,
+            "preserved": 6
+          },
+          "trace-llm": {
+            "failed": 68
+          },
+          "intenttester-verifier-port": {
+            "accepted": 59,
+            "undetermined": 6,
+            "rejected": 3
+          },
+          "intenttester-target-tdl-extension": {
+            "accepted": 58,
+            "undetermined": 7,
+            "rejected": 3
+          }
+        },
+        "unseen": {
+          "self-test": {
+            "passed": 12
+          },
+          "target-binding": {
+            "observed": 12
+          },
+          "dllens-port": {
+            "no-difference-on-tested-inputs": 12
+          },
+          "cosmit-registered-clauses": {
+            "supported-on-tested-inputs": 12
+          },
+          "direct-llm": {
+            "preserved": 5,
+            "failed": 6,
+            "invalid-assumption": 1
+          },
+          "trace-llm": {
+            "failed": 12
+          },
+          "intenttester-verifier-port": {
+            "accepted": 7,
+            "rejected": 4,
+            "undetermined": 1
+          },
+          "intenttester-target-tdl-extension": {
+            "accepted": 7,
+            "rejected": 5
+          }
+        }
+      },
+      "retry-view": {
+        "all": {
+          "self-test": {
+            "passed": 80
+          },
+          "target-binding": {
+            "observed": 80
+          },
+          "dllens-port": {
+            "no-difference-on-tested-inputs": 80
+          },
+          "cosmit-registered-clauses": {
+            "supported-on-tested-inputs": 80
+          },
+          "direct-llm": {
+            "failed": 66,
+            "preserved": 13,
+            "invalid-assumption": 1
+          },
+          "trace-llm": {
+            "failed": 80
+          },
+          "intenttester-verifier-port": {
+            "accepted": 69,
+            "undetermined": 4,
+            "rejected": 7
+          },
+          "intenttester-target-tdl-extension": {
+            "accepted": 68,
+            "undetermined": 4,
+            "rejected": 8
+          }
+        },
+        "discovery": {
+          "self-test": {
+            "passed": 68
+          },
+          "target-binding": {
+            "observed": 68
+          },
+          "dllens-port": {
+            "no-difference-on-tested-inputs": 68
+          },
+          "cosmit-registered-clauses": {
+            "supported-on-tested-inputs": 68
+          },
+          "direct-llm": {
+            "failed": 60,
+            "preserved": 8
+          },
+          "trace-llm": {
+            "failed": 68
+          },
+          "intenttester-verifier-port": {
+            "accepted": 62,
+            "undetermined": 3,
+            "rejected": 3
+          },
+          "intenttester-target-tdl-extension": {
+            "accepted": 61,
+            "undetermined": 4,
+            "rejected": 3
+          }
+        },
+        "unseen": {
+          "self-test": {
+            "passed": 12
+          },
+          "target-binding": {
+            "observed": 12
+          },
+          "dllens-port": {
+            "no-difference-on-tested-inputs": 12
+          },
+          "cosmit-registered-clauses": {
+            "supported-on-tested-inputs": 12
+          },
+          "direct-llm": {
+            "preserved": 5,
+            "failed": 6,
+            "invalid-assumption": 1
+          },
+          "trace-llm": {
+            "failed": 12
+          },
+          "intenttester-verifier-port": {
+            "accepted": 7,
+            "rejected": 4,
+            "undetermined": 1
+          },
+          "intenttester-target-tdl-extension": {
+            "accepted": 7,
+            "rejected": 5
+          }
+        }
+      }
+    },
+    "primary_failure_types": {
+      "direct-llm": {
+        "RejectedResponse": 55,
+        "JSONDecodeError": 5,
+        "TimeoutError": 3,
+        "URLError": 5
+      },
+      "trace-llm": {
+        "RuntimeError": 75,
+        "URLError": 5
+      },
+      "intenttester-source-tdl": {
+        "URLError": 4
+      },
+      "intenttester-target-api": {
+        "URLError": 3,
+        "TimeoutError": 1,
+        "RejectedResponse": 1
+      },
+      "intenttester-target-tdl-extension": {
+        "URLError": 4
+      }
+    },
+    "cost": {
+      "primary": {
+        "physical_calls": 400,
+        "complete_usage_calls": 300,
+        "incomplete_usage_calls": 100,
+        "reported_tokens": 1696582,
+        "reported_prompt_tokens": 1121048,
+        "reported_completion_tokens": 575534,
+        "recorded_request_seconds_not_latency_or_walltime": 67538.44659512537
+      },
+      "retries": {
+        "physical_calls": 25,
+        "complete_usage_calls": 11,
+        "incomplete_usage_calls": 14,
+        "reported_tokens": 60669,
+        "reported_prompt_tokens": 40111,
+        "reported_completion_tokens": 20558,
+        "recorded_request_seconds_not_latency_or_walltime": 2320.868804916274
+      },
+      "physical_total": {
+        "physical_calls": 425,
+        "complete_usage_calls": 311,
+        "incomplete_usage_calls": 114,
+        "reported_tokens": 1757251,
+        "reported_prompt_tokens": 1161159,
+        "reported_completion_tokens": 596092,
+        "recorded_request_seconds_not_latency_or_walltime": 69859.31540004164
+      },
+      "primary_by_kind": {
+        "direct-llm": {
+          "physical_calls": 80,
+          "complete_usage_calls": 72,
+          "incomplete_usage_calls": 8,
+          "reported_tokens": 650279,
+          "reported_prompt_tokens": 371593,
+          "reported_completion_tokens": 278686,
+          "recorded_request_seconds_not_latency_or_walltime": 32045.350153502543
+        },
+        "trace-llm": {
+          "physical_calls": 80,
+          "complete_usage_calls": 0,
+          "incomplete_usage_calls": 80,
+          "reported_tokens": 0,
+          "reported_prompt_tokens": 0,
+          "reported_completion_tokens": 0,
+          "recorded_request_seconds_not_latency_or_walltime": 1036.3821792909876
+        },
+        "intenttester-source-tdl": {
+          "physical_calls": 80,
+          "complete_usage_calls": 76,
+          "incomplete_usage_calls": 4,
+          "reported_tokens": 468216,
+          "reported_prompt_tokens": 366597,
+          "reported_completion_tokens": 101619,
+          "recorded_request_seconds_not_latency_or_walltime": 11025.245423956774
+        },
+        "intenttester-target-api": {
+          "physical_calls": 80,
+          "complete_usage_calls": 76,
+          "incomplete_usage_calls": 4,
+          "reported_tokens": 111244,
+          "reported_prompt_tokens": 15837,
+          "reported_completion_tokens": 95407,
+          "recorded_request_seconds_not_latency_or_walltime": 10315.518409210257
+        },
+        "intenttester-target-tdl-extension": {
+          "physical_calls": 80,
+          "complete_usage_calls": 76,
+          "incomplete_usage_calls": 4,
+          "reported_tokens": 466843,
+          "reported_prompt_tokens": 367021,
+          "reported_completion_tokens": 99822,
+          "recorded_request_seconds_not_latency_or_walltime": 13115.950429164805
+        }
+      }
+    },
+    "negative_judgments": [
+      {
+        "case_id": "H003",
+        "kind": "intenttester-source-tdl",
+        "decision": {
+          "valid": false
+        }
+      },
+      {
+        "case_id": "H011",
+        "kind": "direct-llm",
+        "decision": {
+          "verdict": "invalid-assumption"
+        }
+      },
+      {
+        "case_id": "D0012",
+        "kind": "intenttester-target-api",
+        "decision": {
+          "valid": false
+        }
+      },
+      {
+        "case_id": "H010",
+        "kind": "intenttester-source-tdl",
+        "decision": {
+          "valid": false
+        }
+      },
+      {
+        "case_id": "D0011",
+        "kind": "intenttester-target-api",
+        "decision": {
+          "valid": false
+        }
+      },
+      {
+        "case_id": "D0030",
+        "kind": "intenttester-source-tdl",
+        "decision": {
+          "valid": false
+        }
+      },
+      {
+        "case_id": "H008",
+        "kind": "intenttester-target-api",
+        "decision": {
+          "valid": false
+        }
+      },
+      {
+        "case_id": "H011",
+        "kind": "intenttester-target-tdl-extension",
+        "decision": {
+          "valid": false
+        }
+      },
+      {
+        "case_id": "H012",
+        "kind": "intenttester-target-api",
+        "decision": {
+          "valid": false
+        }
+      }
+    ]
+  },
+  "limitations": [
+    "Different NumPy versions and input domains: report batch-stratified results.",
+    "Expansion has no model calls; do not extend model denominators to 110.",
+    "Only DLLens dense numerical branch compared on expansion; exception pipeline not rerun.",
+    "Replay and assertion evidence reuse candidates; never add them to candidate counts."
+  ]
+}

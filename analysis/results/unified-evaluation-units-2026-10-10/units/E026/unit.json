@@ -1,0 +1,81 @@
+{
+  "unit_id": "E026",
+  "family": "concat",
+  "cohort": "expansion",
+  "provenance": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.concat.json",
+  "behavior": {
+    "status": "supported-on-qualified-inputs",
+    "scope": "recorded inputs and registered contract only",
+    "inputs": "units/E026/behavior-inputs.json"
+  },
+  "test": {
+    "origin": "newly constructed operation substitution; not historical migrated test",
+    "source_file": "units/E026/source-test.py",
+    "target_file": "units/E026/target-test.py",
+    "registration": {
+      "case_id": "E026",
+      "status": "registered",
+      "file": "upstream/tf_concat.py",
+      "class": "ConcatOpTest",
+      "methods": [
+        {
+          "method": "testConcatTuple",
+          "start": 550,
+          "end": 556,
+          "decorators": []
+        }
+      ],
+      "entry": "testConcatTuple",
+      "paths": [
+        "array_ops.concat"
+      ],
+      "kind": "complete-upstream-method-bodies",
+      "parameters": "original method inputs; CPU eager; device/dtype parameter fixed where required; decorator variants excluded",
+      "source_framework": "tensorflow",
+      "scope": "new operation-substitution candidates; common source-framework harness; no external migration-quality claim",
+      "assertion_expressions_exact": true,
+      "source_hash": "129501431c8c32a8773e85870efd8f608a325aadb12e93172b6c16fa58299e2a",
+      "target_hash": "527128d289d884ae4c819e85b5893c868037e20e2a076c3e946d7ca695099ee7"
+    },
+    "upstream_snapshot": "shared/registered-upstream/tf_concat.py",
+    "upstream_provenance": "shared/registered-upstream-provenance.json",
+    "input_scope": "units/E026/test-input-scope.json",
+    "records": "units/E026/test-records.json",
+    "runner": "shared/retained-runner.py",
+    "obligations": [
+      "list 与 tuple 两种容器输入的拼接结果一致"
+    ],
+    "scope_gaps": [
+      "适配器将 list 和 tuple 都变成 list，原生容器类型义务被归一化",
+      "原断言是两次调用的关系检查，不提供完整独立期望值",
+      "一次扰动只影响第一次调用，不代表普遍容器语义保持"
+    ],
+    "review_category": "container-obligation-erased-by-adapter",
+    "scenarios": [
+      {
+        "scenario": null,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true
+  },
+  "source_test_leads": [],
+  "reference_label": null,
+  "formal_intent_accuracy_eligible": false,
+  "missing": [
+    "独立限域参照标签",
+    "方法共同运行覆盖",
+    "原生类型/布局/别名等未覆盖义务不得默认为保持"
+  ],
+  "operation_files": {
+    "source": "units/E026/source-operation.py",
+    "target": "units/E026/target-operation.py"
+  },
+  "readiness": "constructed-test-evidence-packaged"
+}

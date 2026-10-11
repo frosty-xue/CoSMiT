@@ -1,0 +1,202 @@
+{
+  "unit_id": "D0045",
+  "family": "expm1",
+  "cohort": "discovery",
+  "provenance": "F:\\codes\\python\\DLLens\\data\\working_dir\\rq1\\dllens\\tensorflow\\counterparts\\tf.math.expm1.json",
+  "behavior": {
+    "status": "supported-on-tested-inputs",
+    "scope": "recorded inputs and registered contract only",
+    "inputs": "units/D0045/behavior-inputs.json",
+    "contract": "units/D0045/behavior-contract.json"
+  },
+  "test": null,
+  "source_test_leads": [
+    {
+      "framework": "tensorflow",
+      "file": "shared/source-search/tensorflow/tensorflow/python/kernel_tests/math_ops/cwise_ops_unary_test.py",
+      "class": "UnaryOpTest",
+      "method": "testFloatBasic",
+      "start": 188,
+      "end": 240,
+      "assertions": [],
+      "helper_dependencies": [
+        "_compareBoth",
+        "_compareBothSparse",
+        "_replace_domain_error_with_inf"
+      ],
+      "commit": "72fbba3d20f4616d7312b5e2b7f79daf6e82f2fa",
+      "matched_symbols": [
+        "math_ops.expm1"
+      ],
+      "status": "syntactic lead; obligation, input-domain and helper closure not yet reviewed"
+    },
+    {
+      "framework": "tensorflow",
+      "file": "shared/source-search/tensorflow/tensorflow/python/kernel_tests/math_ops/cwise_ops_unary_test.py",
+      "class": "UnaryOpTest",
+      "method": "testFloatEmpty",
+      "start": 250,
+      "end": 295,
+      "assertions": [],
+      "helper_dependencies": [
+        "_compareBoth",
+        "_compareBothSparse"
+      ],
+      "commit": "72fbba3d20f4616d7312b5e2b7f79daf6e82f2fa",
+      "matched_symbols": [
+        "math_ops.expm1"
+      ],
+      "status": "syntactic lead; obligation, input-domain and helper closure not yet reviewed"
+    },
+    {
+      "framework": "tensorflow",
+      "file": "shared/source-search/tensorflow/tensorflow/python/kernel_tests/math_ops/cwise_ops_unary_test.py",
+      "class": "UnaryOpTest",
+      "method": "testDoubleBasic",
+      "start": 298,
+      "end": 349,
+      "assertions": [],
+      "helper_dependencies": [
+        "_compareBoth",
+        "_compareBothSparse",
+        "_replace_domain_error_with_inf"
+      ],
+      "commit": "72fbba3d20f4616d7312b5e2b7f79daf6e82f2fa",
+      "matched_symbols": [
+        "math_ops.expm1"
+      ],
+      "status": "syntactic lead; obligation, input-domain and helper closure not yet reviewed"
+    },
+    {
+      "framework": "tensorflow",
+      "file": "shared/source-search/tensorflow/tensorflow/python/kernel_tests/math_ops/cwise_ops_unary_test.py",
+      "class": "UnaryOpTest",
+      "method": "testHalfBasic",
+      "start": 352,
+      "end": 397,
+      "assertions": [],
+      "helper_dependencies": [
+        "_compareBoth",
+        "_compareBothSparse",
+        "_replace_domain_error_with_inf"
+      ],
+      "commit": "72fbba3d20f4616d7312b5e2b7f79daf6e82f2fa",
+      "matched_symbols": [
+        "math_ops.expm1"
+      ],
+      "status": "syntactic lead; obligation, input-domain and helper closure not yet reviewed"
+    },
+    {
+      "framework": "tensorflow",
+      "file": "shared/source-search/tensorflow/tensorflow/python/kernel_tests/math_ops/cwise_ops_unary_test.py",
+      "class": "UnaryOpTest",
+      "method": "testBFloat16Basic",
+      "start": 400,
+      "end": 446,
+      "assertions": [],
+      "helper_dependencies": [
+        "_compareBoth",
+        "_compareCpu"
+      ],
+      "commit": "72fbba3d20f4616d7312b5e2b7f79daf6e82f2fa",
+      "matched_symbols": [
+        "math_ops.expm1"
+      ],
+      "status": "syntactic lead; obligation, input-domain and helper closure not yet reviewed"
+    },
+    {
+      "framework": "tensorflow",
+      "file": "shared/source-search/tensorflow/tensorflow/python/kernel_tests/math_ops/cwise_ops_unary_test.py",
+      "class": "UnaryOpTest",
+      "method": "testComplex64Basic",
+      "start": 512,
+      "end": 555,
+      "assertions": [],
+      "helper_dependencies": [
+        "_compareBoth",
+        "_compareBothSparse",
+        "_compareCpu"
+      ],
+      "commit": "72fbba3d20f4616d7312b5e2b7f79daf6e82f2fa",
+      "matched_symbols": [
+        "math_ops.expm1"
+      ],
+      "status": "syntactic lead; obligation, input-domain and helper closure not yet reviewed"
+    },
+    {
+      "framework": "tensorflow",
+      "file": "shared/source-search/tensorflow/tensorflow/python/kernel_tests/math_ops/cwise_ops_unary_test.py",
+      "class": "UnaryOpTest",
+      "method": "testComplex128Basic",
+      "start": 558,
+      "end": 596,
+      "assertions": [],
+      "helper_dependencies": [
+        "_compareBoth",
+        "_compareBothSparse",
+        "_compareCpu"
+      ],
+      "commit": "72fbba3d20f4616d7312b5e2b7f79daf6e82f2fa",
+      "matched_symbols": [
+        "math_ops.expm1"
+      ],
+      "status": "syntactic lead; obligation, input-domain and helper closure not yet reviewed"
+    }
+  ],
+  "reference_label": null,
+  "formal_intent_accuracy_eligible": false,
+  "missing": [
+    "来源可追溯的迁移测试及断言",
+    "上游方法义务与当前输入域的语义匹配",
+    "上游快照与运行版本对齐",
+    "输入生成器及helper依赖闭合",
+    "独立限域参照标签"
+  ],
+  "operation_files": {
+    "source": "units/D0045/source-operation.py",
+    "target": "units/D0045/target-operation.py"
+  },
+  "generic_helper_leads": [
+    {
+      "framework": "tensorflow",
+      "file": "shared/source-search/tensorflow/tensorflow/python/kernel_tests/math_ops/cwise_ops_unary_test.py",
+      "class": "UnaryOpTest",
+      "method": "_compareCpu",
+      "start": 74,
+      "end": 118,
+      "assertions": [
+        {
+          "line": 84,
+          "expression": "self.assertShapeEqual(np_ans, y)"
+        },
+        {
+          "line": 86,
+          "expression": "self.assertAllClose(np_ans, tf_cpu, rtol=0.001, atol=0.001)"
+        },
+        {
+          "line": 108,
+          "expression": "self.assertAllClose(jacob_t, jacob_n, rtol=grad_rtol, atol=grad_atol)"
+        },
+        {
+          "line": 88,
+          "expression": "self.assertAllClose(np_ans, tf_cpu, rtol=0.01, atol=0.01)"
+        },
+        {
+          "line": 90,
+          "expression": "self.assertAllClose(np_ans, tf_cpu)"
+        },
+        {
+          "line": 113,
+          "expression": "self.assertAllClose(jacob_t, jacob_n, rtol=grad_rtol, atol=grad_atol)"
+        },
+        {
+          "line": 118,
+          "expression": "self.assertAllClose(jacob_t, jacob_n, rtol=grad_rtol, atol=grad_atol)"
+        }
+      ],
+      "helper_dependencies": [],
+      "commit": "72fbba3d20f4616d7312b5e2b7f79daf6e82f2fa"
+    }
+  ],
+  "readiness": "behavior-only-with-source-test-leads"
+}

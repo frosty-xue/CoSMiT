@@ -1,0 +1,9 @@
+{
+  "sample_count": 9,
+  "scored_methods": 5,
+  "not_run_methods": 1,
+  "positive_reference_count": 6,
+  "negative_reference_count": 3,
+  "stable_refutations_use_distinct_recorded_repeats": true,
+  "original_records_unchanged": true
+}

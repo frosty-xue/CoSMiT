@@ -1,0 +1,122 @@
+{
+  "scope": "80 public research-data candidates; excludes D0028 and controls",
+  "candidate_ids": [
+    "D0001",
+    "D0002",
+    "D0003",
+    "D0004",
+    "D0005",
+    "D0006",
+    "D0007",
+    "D0008",
+    "D0009",
+    "D0010",
+    "D0011",
+    "D0012",
+    "D0013",
+    "D0014",
+    "D0015",
+    "D0016",
+    "D0017",
+    "D0018",
+    "D0019",
+    "D0020",
+    "D0021",
+    "D0022",
+    "D0023",
+    "D0024",
+    "D0025",
+    "D0026",
+    "D0027",
+    "D0029",
+    "D0030",
+    "D0031",
+    "D0032",
+    "D0033",
+    "D0034",
+    "D0035",
+    "D0036",
+    "D0037",
+    "D0038",
+    "D0039",
+    "D0040",
+    "D0041",
+    "D0042",
+    "D0043",
+    "D0044",
+    "D0045",
+    "D0046",
+    "D0047",
+    "D0048",
+    "D0049",
+    "D0050",
+    "D0051",
+    "D0052",
+    "D0053",
+    "D0054",
+    "D0055",
+    "D0056",
+    "D0057",
+    "D0058",
+    "D0059",
+    "D0060",
+    "D0061",
+    "D0062",
+    "D0063",
+    "D0064",
+    "D0065",
+    "D0066",
+    "D0067",
+    "D0068",
+    "D0069",
+    "H001",
+    "H002",
+    "H003",
+    "H004",
+    "H005",
+    "H006",
+    "H007",
+    "H008",
+    "H009",
+    "H010",
+    "H011",
+    "H012"
+  ],
+  "methods": {
+    "self-test": {
+      "passed": 80
+    },
+    "target-binding": {
+      "observed": 80
+    },
+    "dllens-port": {
+      "no-difference-on-tested-inputs": 80
+    },
+    "cosmit-registered-clauses": {
+      "supported-on-tested-inputs": 80
+    }
+  },
+  "model_requests": {
+    "direct-llm": {
+      "completed": 12,
+      "failed": 68
+    },
+    "intenttester-source-tdl": {
+      "completed": 76,
+      "failed": 4
+    },
+    "intenttester-target-api": {
+      "completed": 75,
+      "failed": 5
+    },
+    "intenttester-target-tdl-extension": {
+      "completed": 76,
+      "failed": 4
+    },
+    "trace-llm": {
+      "failed": 80
+    }
+  },
+  "primary_total": 400,
+  "primary_complete": 239
+}

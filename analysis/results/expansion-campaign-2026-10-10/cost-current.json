@@ -1,0 +1,8 @@
+{
+  "physical_attempts": 196,
+  "diagnostic_attempts": 1,
+  "total_model_requests_including_diagnostics": 197,
+  "completed_attempts": 89,
+  "reported_tokens": 736802,
+  "usage_unavailable_attempts": 102
+}

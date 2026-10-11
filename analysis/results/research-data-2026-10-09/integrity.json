@@ -1,0 +1,212 @@
+[
+  {
+    "file": "README.md",
+    "status": "newline-normalized-match",
+    "expected": "0430fb03ce1931b969656a74dc28d0cab7c6bc772011f08ea13a87b218dcbc82",
+    "actual": "f574a5c182afdde4abb99e20d1dd9be27d1598813483068ab803c50bd4574271"
+  },
+  {
+    "file": "additional-sources.lock.json",
+    "status": "newline-normalized-match",
+    "expected": "0005341c2c22461c259d00c08e9a4374b43d0bfafdc1d169a867f92033729285",
+    "actual": "0edc6a10f9216a6735672f87756c7da8634c08e2912d1b845a85f2ec80d2fa98"
+  },
+  {
+    "file": "configuration-controls.json",
+    "status": "newline-normalized-match",
+    "expected": "f6637ad2a6dec2b329d4f0f9196f0b2089e4ff1d16383febea80a48bbd2f69ec",
+    "actual": "5bf9cec4cd4970f1fdee7838f06762dece5655ade7097db15889353b08927065"
+  },
+  {
+    "file": "configuration-discovery.json",
+    "status": "newline-normalized-match",
+    "expected": "54ae237061ea883e88bf758672abd67979af0737ef1431ebc99826d579d63075",
+    "actual": "374b922b765eed5c0fe600bee93bb2c43df14143c94572453dd89effb9746f6e"
+  },
+  {
+    "file": "configuration-retry.json",
+    "status": "newline-normalized-match",
+    "expected": "fe2ca5ce5c557136f40fbb26b1343228d828743b752887fb2151ae03851ca7e9",
+    "actual": "336862af5a3046192f57146be2834c1d89caa04ef11ba15279fe7c621413cc5b"
+  },
+  {
+    "file": "configuration-unseen.json",
+    "status": "newline-normalized-match",
+    "expected": "ab91620763a5dbcbea2a93305da513d3d7e246e26ecd22d8d04cabaeddb5f3f6",
+    "actual": "3b576e521ddb962df126e11ba594e6d336d413df6b3453b7ef4e699951581e53"
+  },
+  {
+    "file": "controls/cases.json",
+    "status": "newline-normalized-match",
+    "expected": "1a282613181b0a8553cf27ec8065ff5f8fda0d6b922458c318fa689d60586c09",
+    "actual": "a843c89fbfe5f3bd29c10896bb0f234bfa31f31ed0c0585caee5043812c632dd"
+  },
+  {
+    "file": "controls/executions.jsonl.gz",
+    "status": "byte-match",
+    "expected": "6c4943159f7793bbb2b0c4d3a6fc3685166561c3fe92f7d007a84181af985123",
+    "actual": "6c4943159f7793bbb2b0c4d3a6fc3685166561c3fe92f7d007a84181af985123"
+  },
+  {
+    "file": "controls/format-sensitivity.json",
+    "status": "newline-normalized-match",
+    "expected": "a4ee598a03cd511566e83fa12812b1b8df3934f5465347224780dcaa5bf1a388",
+    "actual": "2f4cdf0e83b57603bb913bdd6e34c5823c11cec7d193db7cb8139da9fcee09ae"
+  },
+  {
+    "file": "controls/retry-view.json",
+    "status": "newline-normalized-match",
+    "expected": "2cb156a5f2567978029175856a1a8b260ad9bbddc7a6b499406a2f5dbf2cbaf6",
+    "actual": "1828bfab39ffb66a15027d8047676d4ff1f2d18fb77efa79ba197c3328a33541"
+  },
+  {
+    "file": "cost.json",
+    "status": "newline-normalized-match",
+    "expected": "023acb7460d77b33372cf21d0718a2e26af3e640de78adc8fb2b452abcdc6597",
+    "actual": "279efff5e9ad318ecec9ab54733b888ec3b2310adf4b7192f2aadf945a24c6d2"
+  },
+  {
+    "file": "discovery/cases.json",
+    "status": "newline-normalized-match",
+    "expected": "a8c77424988f7be65a38a85648b4dd30a4fb5cefb5637631e9654abd345eed0a",
+    "actual": "f3663f18a0180358e2e84721defad9c09ab64a180b8c12c04820780af5ea757f"
+  },
+  {
+    "file": "discovery/executions.jsonl.gz",
+    "status": "byte-match",
+    "expected": "36f4cba6a8dc6b18b5095da1139824b066b01ffb108bc71b42d3dd2cbd09e4cf",
+    "actual": "36f4cba6a8dc6b18b5095da1139824b066b01ffb108bc71b42d3dd2cbd09e4cf"
+  },
+  {
+    "file": "discovery/format-sensitivity.json",
+    "status": "newline-normalized-match",
+    "expected": "b78202ba2881c52bc0449943ea3750718a85db4e7d6220ca799ee4e06eb1ea60",
+    "actual": "42445177053ce4b21f7561848e4b24820fd44ce5c7e2ecffe3231f8aaf8db68e"
+  },
+  {
+    "file": "discovery/retry-view.json",
+    "status": "newline-normalized-match",
+    "expected": "35969061fe5a4195375b145117cb6965c390b219669fd1d8e03568c57ab46a47",
+    "actual": "f65b96b1d371a0118619f9bcde218f5ac4dd899f8c7972a56b000de1d2e6aa54"
+  },
+  {
+    "file": "method-matrices.json",
+    "status": "newline-normalized-match",
+    "expected": "5a18a98c1e51618df6646bb219e3f088b3abe8ea7aafa7f50027e24718c73a95",
+    "actual": "1a81669ef79a8b3c5482d7e96e57d3b2f1ef683ac62f3b60a074a6b55646d971"
+  },
+  {
+    "file": "model-primary.json",
+    "status": "newline-normalized-match",
+    "expected": "fe9ec6a5cc30df0af19e76933a836aee44b38d40bc7a55194f2403f6c3935fcc",
+    "actual": "32432c1cc58e6b9ced2b7933396497cbc1137de29b2bfb785e7972d4235eb2de"
+  },
+  {
+    "file": "model-retry.json",
+    "status": "newline-normalized-match",
+    "expected": "71a0278cad602539d1817da46ff4b5f237bae7bd47c36a68a33609f73e01dbe3",
+    "actual": "ed4734429aa69b8f8a7fd479689afe1555b0bde3d7f9810290005c297509f030"
+  },
+  {
+    "file": "publication.json",
+    "status": "newline-normalized-match",
+    "expected": "a33feb48d905667ea1c348ef620acf7f8e03134cfd6e921af929445f60a6b371",
+    "actual": "90921b6dd4eefd89696112d779c04884f88e4dc28ebbca8d3d3ebff2373ffa57"
+  },
+  {
+    "file": "request-outcomes-by-kind.json",
+    "status": "newline-normalized-match",
+    "expected": "bee6ac998982a7e0d81fe8e53a7456c8b672caa7beb324226f60efcc5f9c3918",
+    "actual": "fe90ff7e5ac3705a548bd62a6c3258d6ad001d0ac6fa2fbaf1ed72b461e8ad4b"
+  },
+  {
+    "file": "summary.json",
+    "status": "newline-normalized-match",
+    "expected": "80980b077f14659be95d6aeca236f4960d8e0f5ce8856709d3ae2092ce161f82",
+    "actual": "b0da7e62cac9e028f136d789e55f2aa68465f2a5963eca5dfdd60cce2cb312cc"
+  },
+  {
+    "file": "supplements/alexnet-observations.json",
+    "status": "newline-normalized-match",
+    "expected": "ae727d40ad80960663320e7d1f14f9310c131d83b7e6a401450b5d8287dd61d8",
+    "actual": "f23f2eb62da5e28355b4d1acd9dae0bcb1f69a5cd108b59f16631ae78cc26b0a"
+  },
+  {
+    "file": "supplements/besser-cnn-rnn.json",
+    "status": "newline-normalized-match",
+    "expected": "4efadac03c794262a85d092a3b0c8c0edcfe91381cd4d164690cae93ab0b626a",
+    "actual": "e3b88b72b3951dbac46626d54aa899e5428f5b45e1af9774a4f7bd0d7a0eda89"
+  },
+  {
+    "file": "supplements/besser-source.json",
+    "status": "newline-normalized-match",
+    "expected": "e789cf7eda9193a4c52eb33f1d66e343d75704592e49277108d0b38c8a78f9e6",
+    "actual": "e655107a371987e8eef619462da30c01658def7b701eaea14c435eb844228f73"
+  },
+  {
+    "file": "supplements/image-pairs.json",
+    "status": "newline-normalized-match",
+    "expected": "d270497f11a8910d90f182a44245dc46c564ab5a324695bf86488e27fbc92edd",
+    "actual": "4202be65dd98308b6f48aa19e04c9b076efc6cf8373801210a39d2f6fb824cc5"
+  },
+  {
+    "file": "supplements/initial-pairs.json",
+    "status": "newline-normalized-match",
+    "expected": "3a7dc27a22a6fd1d2eb267dc2f6bc34dc7266a4e9153640b30979b3fc0fd8b14",
+    "actual": "37ad91c6146a9dca38329e8e1a3d593b0402b5b59ba0f41994a9aa2f93eefecc"
+  },
+  {
+    "file": "supplements/lstm-observations.json",
+    "status": "newline-normalized-match",
+    "expected": "642c9b97f4a1e27e4f23a74c08f16fa929da17665ffa6a3634f50a491178f28f",
+    "actual": "02ce7e8349d2054308d2430e4fb7a4cc4a603a3e83568f435d8e81c54df540b6"
+  },
+  {
+    "file": "supplements/tensorscope.json",
+    "status": "newline-normalized-match",
+    "expected": "ce3dd706ee0af267e5c0e4ccc407d7fdfdd75ea9edc1fdb15a7d68ceddea5581",
+    "actual": "3223f2785b2a0887b18b2c3fa010a861313e53a72e597f93064fed7b42b4a7d3"
+  },
+  {
+    "file": "supplements/tf-tutorial-observations.json",
+    "status": "newline-normalized-match",
+    "expected": "c43f355675f58fd91388dba44450b6fa6b06e56fcc9d92bfe1afa82afe185bc7",
+    "actual": "96ca10a8e573b1d82ad90a6186252dbd70bc7534053bdde62b39cb860448aca2"
+  },
+  {
+    "file": "supplements/vgg16-observations.json",
+    "status": "newline-normalized-match",
+    "expected": "5a9eb8221ea1e7a514fa3e3d86bbad496503bc1f7a9413545acbabca24f4a297",
+    "actual": "ff199a5b9a0ca63270d5f94ac38fd5f6e3003c4fd61c84f1cc1ee4ad135052c7"
+  },
+  {
+    "file": "unseen/cases.json",
+    "status": "newline-normalized-match",
+    "expected": "529e3702041581e49588968323af2639601c28d8b7c18cfe8929d20a7a411adc",
+    "actual": "5d489830c63f906189383e0e1337a154f7b3358226ed415f70f2dcf21256448a"
+  },
+  {
+    "file": "unseen/executions.jsonl.gz",
+    "status": "byte-match",
+    "expected": "91c8bdd0ea7a70148ae8a3e5f822ae5b4998f4b7d41271561295a49210054c41",
+    "actual": "91c8bdd0ea7a70148ae8a3e5f822ae5b4998f4b7d41271561295a49210054c41"
+  },
+  {
+    "file": "unseen/format-sensitivity.json",
+    "status": "newline-normalized-match",
+    "expected": "f33fb703edcdd666a67833fdafb17922623653cf9eec73ba43dbc2689c69379f",
+    "actual": "95f113c16928b90455338bdff3adec460b9db3023554f4843480e2df98bcff28"
+  },
+  {
+    "file": "unseen/retry-view.json",
+    "status": "newline-normalized-match",
+    "expected": "f33fb703edcdd666a67833fdafb17922623653cf9eec73ba43dbc2689c69379f",
+    "actual": "95f113c16928b90455338bdff3adec460b9db3023554f4843480e2df98bcff28"
+  },
+  {
+    "file": "upstream-lock.json",
+    "status": "newline-normalized-match",
+    "expected": "6a78ced33d0f8262a4f8b2cdef742942c4c6bf5ceaa313389be39dfb997f2801",
+    "actual": "da6bfeb51f0a2327e15d1e501c3517d78437698ce4627b44f95fe2d9f95de17a"
+  }
+]

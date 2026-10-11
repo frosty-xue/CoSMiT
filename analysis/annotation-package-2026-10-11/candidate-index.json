@@ -1,0 +1,2312 @@
+[
+  {
+    "candidate_id": "D0001",
+    "source_api": "torch.abs",
+    "target_calls": "tf.abs",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.abs.json",
+    "operation_sha256": {
+      "source": "c745f3d6b83eb84e53ba21950c6c042992747d2139de32c806daaa4847254a6b",
+      "target": "bd07074736efa0b51b860f06c8d4115c2d85c53ea02d7e06b50d7b2633253e24"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0002",
+    "source_api": "torch.acos",
+    "target_calls": "tf.acos",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.acos.json",
+    "operation_sha256": {
+      "source": "5d18aa5fcea9c9b6077393ea31815be386332055a937f916de5d9ff274d27899",
+      "target": "a75cda56e7cbd493ecc13e91840ad8e02d7334c6e18ba557c2c96c5a2e971a7a"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0003",
+    "source_api": "torch.arccos",
+    "target_calls": "tf.acos",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.arccos.json",
+    "operation_sha256": {
+      "source": "462dc762aa3250e0cd0499cf5a3a67412a636126bafe021a9a3a168f3ce76211",
+      "target": "a75cda56e7cbd493ecc13e91840ad8e02d7334c6e18ba557c2c96c5a2e971a7a"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0004",
+    "source_api": "torch.arcsin",
+    "target_calls": "tf.asin",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.arcsin.json",
+    "operation_sha256": {
+      "source": "8e4d9fb94324f41da2b3f9bd8a9a5ec07214b9f212d47bb21389609c1c490a66",
+      "target": "c7ae60e6b3cb44b3d7705683a971429b21caeefcccce2678085984296498edc1"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0005",
+    "source_api": "torch.arctan",
+    "target_calls": "tf.math.atan",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.arctan.json",
+    "operation_sha256": {
+      "source": "5f687b257c48f38e10b4fd8a692d23058aa207b0b521c78517229c101236b204",
+      "target": "542fe086301cb1a4bbf39f066fde8f90640c8147a454afae83e352ae9984e966"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0006",
+    "source_api": "torch.asin",
+    "target_calls": "tf.asin",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.asin.json",
+    "operation_sha256": {
+      "source": "b4b369b41af63bafd46e981eb5548184dc76ccfceb719c8fa4d3b58fac54fb79",
+      "target": "c7ae60e6b3cb44b3d7705683a971429b21caeefcccce2678085984296498edc1"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0007",
+    "source_api": "torch.atan",
+    "target_calls": "tf.math.atan",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.atan.json",
+    "operation_sha256": {
+      "source": "c90a4184bf9f13b95d61881bcbf76d922deb8663b0ce3a3d886865af48c0c060",
+      "target": "542fe086301cb1a4bbf39f066fde8f90640c8147a454afae83e352ae9984e966"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0008",
+    "source_api": "torch.ceil",
+    "target_calls": "tf.math.ceil",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.ceil.json",
+    "operation_sha256": {
+      "source": "30f6699e6b670ebe89a196cff1f837e67b7e70b594fc74a65fd6deaa9a9a854d",
+      "target": "6585c218006b8d80eeef1efad0083f8ecc435417d7c384696c60f4a3e92ad818"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0009",
+    "source_api": "torch.cos",
+    "target_calls": "tf.cos",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.cos.json",
+    "operation_sha256": {
+      "source": "f515be88a8f3a0ca1c2cbcfb3f256db00947a47519faabf8549f8aff3d7a900e",
+      "target": "2acc234e3e7b1472305e409c007640c22615768e3e1a17d6371e4e818ebaa552"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0010",
+    "source_api": "torch.cosh",
+    "target_calls": "tf.cosh",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.cosh.json",
+    "operation_sha256": {
+      "source": "eef64e2160c1a42aa47678ae1df8b40afe0e1b2e620e8e26c79dc2ae0f87e8b7",
+      "target": "037043e74bb493a01b38039f96e0784e7df5b71ad755a9fc36aafa1e15510ddf"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0011",
+    "source_api": "torch.exp",
+    "target_calls": "tf.exp",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.exp.json",
+    "operation_sha256": {
+      "source": "797f838104cc607297ab9d7b0538ce48f415bad267a9466fd32fefdddd87f381",
+      "target": "f559da2ccf235e871d5928b12b22f9199d174bc88810ae5edd75028f2f229f0a"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0012",
+    "source_api": "torch.expm1",
+    "target_calls": "tf.exp",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.expm1.json",
+    "operation_sha256": {
+      "source": "a0ec1b157b1a298c76a86c29a4d8713947c629e11867f482276144d1ce1addf1",
+      "target": "e956b4edba820e6d15f08129e93839b305c72ba7ba568c3480522d06f0f9fe11"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0013",
+    "source_api": "torch.floor",
+    "target_calls": "tf.floor",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.floor.json",
+    "operation_sha256": {
+      "source": "3a9836887c3d78061f58ae48f99669fe1eb855d5d030b15e5560c0aebedd6f09",
+      "target": "436e21397c1b54220f08024d156c94cb52e5b9bfaf19490266c404a886fe9fb0"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0014",
+    "source_api": "torch.log",
+    "target_calls": "tf.math.log",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.log.json",
+    "operation_sha256": {
+      "source": "85e353e87a5ac68e2f7760f213990d68b1799226f363a169e6a7171e0cf4e173",
+      "target": "5932d3cc915f01e19d61fefe7ceb4a54adf34f9baa315fc61a75af9a93fec31d"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0015",
+    "source_api": "torch.log1p",
+    "target_calls": "tf.math.log1p",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.log1p.json",
+    "operation_sha256": {
+      "source": "149562fd971360f42cedc7eb8099a7041ae58b18f48b2561418ff941ccbea1f4",
+      "target": "2884f6eb9ed41710daac77220c4d59a993c240559a6b6d094a5d36b5d2cdca8e"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0016",
+    "source_api": "torch.neg",
+    "target_calls": "tf.negative",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.neg.json",
+    "operation_sha256": {
+      "source": "4bdef1b13dcc206a92d2dce3631de3e864d834f1373552d71e808eb90ca02f54",
+      "target": "0cd6dc3d1c4823121a37794324bdb6c1c92cc240bb74d6c2392fd718d200b5b5"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0017",
+    "source_api": "torch.negative",
+    "target_calls": "tf.negative",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.negative.json",
+    "operation_sha256": {
+      "source": "b3bc636637ef0d2d9ffab89d4f55e0e076c3cf417a79e1a3c1f527ef71e760bc",
+      "target": "0cd6dc3d1c4823121a37794324bdb6c1c92cc240bb74d6c2392fd718d200b5b5"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0018",
+    "source_api": "torch.reciprocal",
+    "target_calls": "tf.math.reciprocal",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.reciprocal.json",
+    "operation_sha256": {
+      "source": "49b3d1ccdd141ec24bb1632cf470db40c5d70df206fd4b5888c23aa84179c37a",
+      "target": "c17382242f0f3e026e25116b74934177407628ae70c9c31c18600cb81b713efb"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0019",
+    "source_api": "torch.round",
+    "target_calls": "tf.round",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.round.json",
+    "operation_sha256": {
+      "source": "0682a51c5ba8be511abd918964c7dc20d31814f960162ac38355ae1d9b8916a7",
+      "target": "bb2d31cb83ac3c5cd3cb5dc8b1afefcc90584ca45807b48b1977c150dfb706af"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0020",
+    "source_api": "torch.sigmoid",
+    "target_calls": "tf.sigmoid",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.sigmoid.json",
+    "operation_sha256": {
+      "source": "3051758775c4eba9b09521b54afda7e6186a01f8b1863314a443c7bf6cf8ce31",
+      "target": "f51eef3d49f647d2b9a38a7f2da962cc2d9aa1cae6412414324997a63c8b3d3b"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0021",
+    "source_api": "torch.sign",
+    "target_calls": "tf.sign",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.sign.json",
+    "operation_sha256": {
+      "source": "7bbcea94554516d284605ea37b2caae96ea4318e8a2e7150621488a85fbef155",
+      "target": "0dd115e81f41a2316fe3a5e785bde1c294b67b660a3404b57d928031baf62c77"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0022",
+    "source_api": "torch.sin",
+    "target_calls": "tf.sin",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.sin.json",
+    "operation_sha256": {
+      "source": "e6c50f52c05432ca9d199de561cb155be93e84a817dab192851514870cdc2424",
+      "target": "3b9d0b171763f08a6a3199781027e48edb5ea7f1f46eaae03adf2b2d705bfba2"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0023",
+    "source_api": "torch.sinh",
+    "target_calls": "tf.sinh",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.sinh.json",
+    "operation_sha256": {
+      "source": "064e56bfbe23e2341bc160a7c8e759593e16025ce37da4656ec37b4e8d623a9b",
+      "target": "177a627c164c6dd2c053685dc0c877dc077ac1bf99e5dcdd1f75b83bc300b810"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0024",
+    "source_api": "torch.sqrt",
+    "target_calls": "tf.sqrt",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.sqrt.json",
+    "operation_sha256": {
+      "source": "7594b5c9d52f522615b1121199bc03dee48f33913f63b9d32043eb6b18294a92",
+      "target": "88aec6d7101c23240c06c1a22ad1a6940a96da861ca138475fae82e6b388848b"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0025",
+    "source_api": "torch.square",
+    "target_calls": "tf.square",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.square.json",
+    "operation_sha256": {
+      "source": "804ab40f14725e02ebce41222a0b2faf860227f6e3fb946c559edd7b710e8c32",
+      "target": "f20f20a7aaec8ffee2fcfadde29f98b0a3990c91203ff121bb93095d21ba2df4"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0026",
+    "source_api": "torch.tan",
+    "target_calls": "tf.tan",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.tan.json",
+    "operation_sha256": {
+      "source": "01dd81ea5f5bdb6d79765b4d54366f48b62dc25f93f83e01e1624004a0fd79af",
+      "target": "acbd40369f845c06f0ab12a0f5fe3b7051a39c713785645d0658ed0745d145d9"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0027",
+    "source_api": "torch.tanh",
+    "target_calls": "tf.tanh",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.tanh.json",
+    "operation_sha256": {
+      "source": "0ecefee020999255930ec9aaa161092b6d89c9612fa01fd254b20c60df4f9fed",
+      "target": "966e358e965d9e979cfb6d1d2060db9c533920d53a35605bb77c3cc750ecffac"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0029",
+    "source_api": "tf.abs",
+    "target_calls": "torch.abs",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.abs.json",
+    "operation_sha256": {
+      "source": "97ba0c0238baaada2c4d31c570639ff260293ca916e68883651d878924653efd",
+      "target": "b33f8b464ea54f96a64c99668c7fa5b6d054750dd92a4714b3b6582f90c255a8"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0030",
+    "source_api": "tf.acos",
+    "target_calls": "torch.acos",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.acos.json",
+    "operation_sha256": {
+      "source": "3d48cd1c627e556e1deb1127d1dc1207c0f542e8f8aead60df6165e0d76c0205",
+      "target": "96df62e3ba31437eef2745bc21370009c54a204a9dd3c26c8a4de22533c83339"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0031",
+    "source_api": "tf.asin",
+    "target_calls": "torch.asin",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.asin.json",
+    "operation_sha256": {
+      "source": "e959447126b861a76856fd708e66b81fd2dbf3937bba11f324ede6671009ecb3",
+      "target": "34bc8bb8fe142602c05f048224f3990b4fa5b922ac9c0beb203c1a6451d90c16"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0032",
+    "source_api": "tf.atan",
+    "target_calls": "torch.atan",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.atan.json",
+    "operation_sha256": {
+      "source": "a6ef3d5e03de0e069006083ee8d2e073adff629dea210371a2e66863e2a54090",
+      "target": "643907eaa2caac941b75bf225497eb07b88ce39b6abbc73da9c6abe8014cba3d"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0033",
+    "source_api": "tf.cos",
+    "target_calls": "torch.cos",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.cos.json",
+    "operation_sha256": {
+      "source": "3955fcd74d0abc3cfb017fb59a5cf7f15e698643fca84ab21f9b354f18822ef2",
+      "target": "0f4409b33f10819e085038dbc5ea7afcc4885e5f2ff6f23c0ee17bf7b64717b5"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0034",
+    "source_api": "tf.cosh",
+    "target_calls": "torch.cosh",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.cosh.json",
+    "operation_sha256": {
+      "source": "9f0498ec2f5b45360a896933883164b33e27c87cc202bee69376b991acf7801c",
+      "target": "f7e93e600f40061b4635dc9db9f4ed3f89b47060f8f84a4a2a2770b05f0c6aaa"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0035",
+    "source_api": "tf.exp",
+    "target_calls": "torch.exp",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.exp.json",
+    "operation_sha256": {
+      "source": "594697bfaed9aece59671eeee50f4b8e92b80c88c75540208f0d6c24ef8f2cdd",
+      "target": "a7a6bc26c26ad90ae191ffd813234c9a357c2dfef2a7194923956210d6379067"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0036",
+    "source_api": "tf.floor",
+    "target_calls": "torch.floor",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.floor.json",
+    "operation_sha256": {
+      "source": "f2c46b5441699e68df2ed2379f61d1a1ef385494b8f59ab7aec61e47efdef682",
+      "target": "40a3f605a5948c6d09d3222ceaf5f44bf7aa339dacc27aac7a741613a7b8e74a"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0037",
+    "source_api": "tf.math.abs",
+    "target_calls": "torch.abs",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.abs.json",
+    "operation_sha256": {
+      "source": "8dd78855f32805a20b7843ec732d41742c2f2e61ba1053372f7fe65d5b3f7ae1",
+      "target": "b33f8b464ea54f96a64c99668c7fa5b6d054750dd92a4714b3b6582f90c255a8"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0038",
+    "source_api": "tf.math.acos",
+    "target_calls": "torch.acos",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.acos.json",
+    "operation_sha256": {
+      "source": "bae268b6ee66ab58848078ac5ddfddeafec109a71fd8dc75ba3f4d5950d32ddd",
+      "target": "96df62e3ba31437eef2745bc21370009c54a204a9dd3c26c8a4de22533c83339"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0039",
+    "source_api": "tf.math.asin",
+    "target_calls": "torch.asin",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.asin.json",
+    "operation_sha256": {
+      "source": "77e56b270905933c0665d093d3fc1f34fb978872cd01f0eafeaf93afb9b1912a",
+      "target": "34bc8bb8fe142602c05f048224f3990b4fa5b922ac9c0beb203c1a6451d90c16"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0040",
+    "source_api": "tf.math.atan",
+    "target_calls": "torch.atan",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.atan.json",
+    "operation_sha256": {
+      "source": "3191e80e111e86a52a4b9e4a15ec719502a1d63b428b5c3dbd12ea3aac5b30b3",
+      "target": "643907eaa2caac941b75bf225497eb07b88ce39b6abbc73da9c6abe8014cba3d"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0041",
+    "source_api": "tf.math.ceil",
+    "target_calls": "torch.ceil",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.ceil.json",
+    "operation_sha256": {
+      "source": "231c9723df7879f54279df1042097c6ff53a3f0c83d2db6a21d80b590bca2da3",
+      "target": "d63f4ad45e196477d3687b3e7489f51a0ddb0bc5b4570a837dd32ae804053e2f"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0042",
+    "source_api": "tf.math.cos",
+    "target_calls": "torch.cos",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.cos.json",
+    "operation_sha256": {
+      "source": "feea1549b2b830b67e89181b8e95923c7981ac1a2729dba70bc964a4f2577211",
+      "target": "0f4409b33f10819e085038dbc5ea7afcc4885e5f2ff6f23c0ee17bf7b64717b5"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0043",
+    "source_api": "tf.math.cosh",
+    "target_calls": "torch.cosh",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.cosh.json",
+    "operation_sha256": {
+      "source": "f934bda62e0a2f3c93dbd0f3c2795045c587ff1bb7211f6a5c0f4dd6612c0f46",
+      "target": "f7e93e600f40061b4635dc9db9f4ed3f89b47060f8f84a4a2a2770b05f0c6aaa"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0044",
+    "source_api": "tf.math.exp",
+    "target_calls": "torch.exp",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.exp.json",
+    "operation_sha256": {
+      "source": "14689bb09e5c14711e29ff7c1945ff1c6463125d4f2e1db42839e3857303aa49",
+      "target": "a7a6bc26c26ad90ae191ffd813234c9a357c2dfef2a7194923956210d6379067"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0045",
+    "source_api": "tf.math.expm1",
+    "target_calls": "torch.expm1",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.expm1.json",
+    "operation_sha256": {
+      "source": "e11e2845eb2478ab849d8e98939c71ee7b0661376372f20bb1a613b4284d48a0",
+      "target": "23b6d1602d9fae32b1d405ceb7f3204de0cd331fc66b5abc13c4d52a6e4a8354"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0046",
+    "source_api": "tf.math.floor",
+    "target_calls": "torch.floor",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.floor.json",
+    "operation_sha256": {
+      "source": "e76891ce4f36adb076c35acb1cd00f0464a053904d6f704527ae8db485015196",
+      "target": "40a3f605a5948c6d09d3222ceaf5f44bf7aa339dacc27aac7a741613a7b8e74a"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0047",
+    "source_api": "tf.math.log",
+    "target_calls": "torch.log",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.log.json",
+    "operation_sha256": {
+      "source": "cb163698015cb8cfdc9ced0584a627d3e1241eaa405107f803a0ba0c265a2eec",
+      "target": "bbfec52e470c927193bdd9fdc0edb58fe6e6a8fc0e7871552231ebefa88aeaa3"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0048",
+    "source_api": "tf.math.log1p",
+    "target_calls": "torch.log1p",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.log1p.json",
+    "operation_sha256": {
+      "source": "5af7435f1b5fe1b9078a9b0bce7864a64b5d6a7763f60fd3d70d8fb533ea4bed",
+      "target": "0b1a15a2e7a92324b3c5961ba1aded6bf8aab1f7bf48ecf6991a905a7d7f8b22"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0049",
+    "source_api": "tf.math.negative",
+    "target_calls": "torch.neg",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.negative.json",
+    "operation_sha256": {
+      "source": "f182638976e278df28646145a5f606c717885ed11c8f58e103d985e75e994fc4",
+      "target": "468c5fcba096dc093ae30203b88072de1adaeeffcfcf3b804c8bb43a19295285"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0050",
+    "source_api": "tf.math.reciprocal",
+    "target_calls": "torch.Tensor.__rtruediv__",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.reciprocal.json",
+    "operation_sha256": {
+      "source": "b5ab1722e94ee7350526d4821e9a9942343ead4f48ff06221c82954821b7d4f7",
+      "target": "b5aa2f8ed3fd9aac8bd47569ece69a6c758de83c6f37632681956b23efb3c35b"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0051",
+    "source_api": "tf.math.round",
+    "target_calls": "torch.round",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.round.json",
+    "operation_sha256": {
+      "source": "3582fbfb0541911175e30ed250e1497da8a6e821d5b9567b798963dac7cbf811",
+      "target": "fdcb3a244b345a8cde74dcc4b6fb80d9c214f545c9d3add8bf4bc4b09da58e28"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0052",
+    "source_api": "tf.math.sigmoid",
+    "target_calls": "torch.sigmoid",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.sigmoid.json",
+    "operation_sha256": {
+      "source": "637740d071840349e13af8b8ff330ff4b44990917b5d8a6e9edc0ff7452d1c70",
+      "target": "de04957bf26c4b9991d26b490c7533ccacc00c36222e63c5b9dbb1693e94039d"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0053",
+    "source_api": "tf.math.sign",
+    "target_calls": "torch.sign",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.sign.json",
+    "operation_sha256": {
+      "source": "0f8c74a56eb36c56c25a22f28681abcf6249fdf5fc1415ef82c9a94dae7d99ac",
+      "target": "4eddcfe8dd87399ba0b4d54b13b22674d603d499c8c95941873ca37914fb8a5d"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0054",
+    "source_api": "tf.math.sin",
+    "target_calls": "torch.sin",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.sin.json",
+    "operation_sha256": {
+      "source": "c1733954389bef35d92fdce897150b405979e5717ac65d332b3803b6f68f1daf",
+      "target": "f2d03a407f81ab83b573f986a87afaab1d0fde3f19f99f8ea5feb4fe37a22bc7"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0055",
+    "source_api": "tf.math.sinh",
+    "target_calls": "torch.sinh",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.sinh.json",
+    "operation_sha256": {
+      "source": "7cd1bca445aa40aa90836b9938d8fe3d53cbe83a782612dbc8d355f0ed2d859e",
+      "target": "24ae447926bc0d821d6fbf5e8619f07b3c608db17e6db205505921c3da7a15b7"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0056",
+    "source_api": "tf.math.sqrt",
+    "target_calls": "torch.sqrt",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.sqrt.json",
+    "operation_sha256": {
+      "source": "45ff5ee131e7b67070b8b7100defffba4a0e1fad253782d93c5bcdc5d3ffb58c",
+      "target": "ece9b4a278d9ee46eec1d952e55856b956370a754fc9b1475e1bfecef914f4bf"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0057",
+    "source_api": "tf.math.square",
+    "target_calls": "torch.square",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.square.json",
+    "operation_sha256": {
+      "source": "f2baad02fe6319d00beb11035f6157ce5e73218b40db1e8d330f09c8576b3b73",
+      "target": "f4c152f58837ede45994e65c3035dfadb08039f66542bd1e8c6eda7f9ec23442"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0058",
+    "source_api": "tf.math.tan",
+    "target_calls": "torch.tan",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.tan.json",
+    "operation_sha256": {
+      "source": "a70f548d72c798dec6646ab6ed85c0dd80dfee499a7660a8958510a803840d1b",
+      "target": "52e99f249fbb980a69f47b69388351e893f2739ad83c4c14cbdd9c6c01d6bcad"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0059",
+    "source_api": "tf.math.tanh",
+    "target_calls": "torch.tanh",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.tanh.json",
+    "operation_sha256": {
+      "source": "66eaf81b53c1a67373f7430228b36c3852ca50454574ac98529eba3d93141a7a",
+      "target": "a9bde117447cfd7d0803c45f56d0410af06153b248d41c0cddaac42c94a81cd4"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0060",
+    "source_api": "tf.negative",
+    "target_calls": "torch.negative",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.negative.json",
+    "operation_sha256": {
+      "source": "d5b1d2fb27549fd08d346d5d33dd67be5007ea30b29467889117916446c2cb32",
+      "target": "28e06e76af4b97317de005769458b9ac712fbd3d8394c72121a259360d9024e8"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0061",
+    "source_api": "tf.round",
+    "target_calls": "torch.round",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.round.json",
+    "operation_sha256": {
+      "source": "8baf7dd3dd0e0de85d5739fcc698a8f4138a825a0db7de02f53e41dc568db212",
+      "target": "fdcb3a244b345a8cde74dcc4b6fb80d9c214f545c9d3add8bf4bc4b09da58e28"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0062",
+    "source_api": "tf.sigmoid",
+    "target_calls": "torch.sigmoid",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.sigmoid.json",
+    "operation_sha256": {
+      "source": "ccac18d206d6291957558448222df20338bd3580f76c237811113548b83acc38",
+      "target": "de04957bf26c4b9991d26b490c7533ccacc00c36222e63c5b9dbb1693e94039d"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0063",
+    "source_api": "tf.sign",
+    "target_calls": "torch.sign",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.sign.json",
+    "operation_sha256": {
+      "source": "1aa2d9f7b790fed797e169234461fe67fd2ca166d2c9a38246a7de2d8df235f0",
+      "target": "4eddcfe8dd87399ba0b4d54b13b22674d603d499c8c95941873ca37914fb8a5d"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0064",
+    "source_api": "tf.sin",
+    "target_calls": "torch.sin",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.sin.json",
+    "operation_sha256": {
+      "source": "228bd1562896d6baf2159d8ba5cac42bac6d9cfc1016a630cbef879c88417c0f",
+      "target": "f2d03a407f81ab83b573f986a87afaab1d0fde3f19f99f8ea5feb4fe37a22bc7"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0065",
+    "source_api": "tf.sinh",
+    "target_calls": "torch.sinh",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.sinh.json",
+    "operation_sha256": {
+      "source": "1170010449622678501236b0a2e9a7afb0cdb4b7d6d6afc2fb1907309c9d7e7b",
+      "target": "24ae447926bc0d821d6fbf5e8619f07b3c608db17e6db205505921c3da7a15b7"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0066",
+    "source_api": "tf.sqrt",
+    "target_calls": "torch.sqrt",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.sqrt.json",
+    "operation_sha256": {
+      "source": "fc3d14a232ef0bf54ad7830172bc7389ef9fac0f5d2eaefb9efe1b4f29e8b478",
+      "target": "ece9b4a278d9ee46eec1d952e55856b956370a754fc9b1475e1bfecef914f4bf"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0067",
+    "source_api": "tf.square",
+    "target_calls": "torch.square",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.square.json",
+    "operation_sha256": {
+      "source": "4c6865eadfa1cd6698a1b0e4d2159c95cc85ba756073fe7c14bdf6dfff8b5aee",
+      "target": "f4c152f58837ede45994e65c3035dfadb08039f66542bd1e8c6eda7f9ec23442"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0068",
+    "source_api": "tf.tan",
+    "target_calls": "torch.tan",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.tan.json",
+    "operation_sha256": {
+      "source": "aaadf0705cb9fbccda144514f556b1a6ffc164edf7daf95ced35e465e965aa4b",
+      "target": "52e99f249fbb980a69f47b69388351e893f2739ad83c4c14cbdd9c6c01d6bcad"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "D0069",
+    "source_api": "tf.tanh",
+    "target_calls": "torch.tanh",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "discovery",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.tanh.json",
+    "operation_sha256": {
+      "source": "a0517c718f6fbe845cbeb38b9e351d253ac0ddedbaecff47de5e84d6b18c50ba",
+      "target": "a9bde117447cfd7d0803c45f56d0410af06153b248d41c0cddaac42c94a81cd4"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "E001",
+    "source_api": "torch.add",
+    "target_calls": "tf.add, tf.cast",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "expansion",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.add.json",
+    "operation_sha256": {
+      "source": "8f90fa9672edec27a5b6e9b88a2df12b7e91e1cd84312f79780e7c603af2b466",
+      "target": "4dc545be4321e6c982f023cecc11a039c1fc42f9e3dcacb1130e338e41fc3956"
+    },
+    "test_pair_available": true,
+    "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+  },
+  {
+    "candidate_id": "E002",
+    "source_api": "tf.add",
+    "target_calls": "torch.add",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "expansion",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.add.json",
+    "operation_sha256": {
+      "source": "9b0175b126ac64c6e1e6d12b53819c2f74f8846225497d0bc881ffb259d4bf19",
+      "target": "cab9800e0464dc7295209d660be2f9f744ccfb203b23a9672dcfcd3c61dfd31b"
+    },
+    "test_pair_available": true,
+    "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+  },
+  {
+    "candidate_id": "E003",
+    "source_api": "torch.sub",
+    "target_calls": "tf.cast, tf.subtract",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "expansion",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.sub.json",
+    "operation_sha256": {
+      "source": "bfc287f28c2044a57bbf59a02243465e927b5489fa4526dac71e0ed7ab9a44ff",
+      "target": "eaee95fc92d265c689bf1e8d9ebaff5af82603763f05af3d08ed7ee71ca2aed8"
+    },
+    "test_pair_available": true,
+    "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+  },
+  {
+    "candidate_id": "E004",
+    "source_api": "tf.subtract",
+    "target_calls": "torch.sub",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "expansion",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.subtract.json",
+    "operation_sha256": {
+      "source": "80786a716c2d32f6c45d30ebf11575a03a67e71b9e7b402ef7caf61c5707f65b",
+      "target": "8319d5309161cd66697478cbed2f8ec353495349cb7162315eac576b930dcdb4"
+    },
+    "test_pair_available": true,
+    "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+  },
+  {
+    "candidate_id": "E005",
+    "source_api": "torch.mul",
+    "target_calls": "tf.cast, tf.multiply",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "expansion",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.mul.json",
+    "operation_sha256": {
+      "source": "4405c8b34252e273f0c590f109abe6bc88a2891fcf89b9467c0ac5afefbd397a",
+      "target": "a9d845a34cb62a98186aee046b0a76609b599c793177a66f8a4b7d0e25753686"
+    },
+    "test_pair_available": true,
+    "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+  },
+  {
+    "candidate_id": "E006",
+    "source_api": "tf.multiply",
+    "target_calls": "torch.mul",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "expansion",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.multiply.json",
+    "operation_sha256": {
+      "source": "d7fb287fa6b213be526d294477b46bd1b53241766c7b7da1fef82a1b45799ac2",
+      "target": "81c06aabaa41022cb9d3c9b9e034d0176479df2d10013b8def086ae258e5fe28"
+    },
+    "test_pair_available": true,
+    "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+  },
+  {
+    "candidate_id": "E007",
+    "source_api": "torch.div",
+    "target_calls": "tf.cast, tf.divide",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "expansion",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.div.json",
+    "operation_sha256": {
+      "source": "b31ca3d427f62ecba4fadd4baadb870c749117e3fe267fd5c9b7ab0d5c39dd02",
+      "target": "5d8675146746f9aa778ce35012dd241313a7504b1f4979823e1ffba131637c40"
+    },
+    "test_pair_available": true,
+    "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+  },
+  {
+    "candidate_id": "E008",
+    "source_api": "tf.divide",
+    "target_calls": "torch.div",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "expansion",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.divide.json",
+    "operation_sha256": {
+      "source": "765274cc826b604dee0fee06bf71b42a54cef97b011cccbd6cbbe3a22efe91dc",
+      "target": "c4ab41fe4a2bfe983a0a82001dc2ad241d0f09e7ed451ee2e70b7c3c5d536d59"
+    },
+    "test_pair_available": true,
+    "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+  },
+  {
+    "candidate_id": "E009",
+    "source_api": "torch.maximum",
+    "target_calls": "tf.cast, tf.maximum",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "expansion",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.maximum.json",
+    "operation_sha256": {
+      "source": "6a1ce17fe3d0495c9ec0c5f2d4ec1a5de1447e1617c385fcfb3dbb3446806063",
+      "target": "98c1e7ec5dbd562c37895981411a5d5690da392c677178dd553d77d5aff5b677"
+    },
+    "test_pair_available": true,
+    "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+  },
+  {
+    "candidate_id": "E010",
+    "source_api": "tf.maximum",
+    "target_calls": "torch.maximum",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "expansion",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.maximum.json",
+    "operation_sha256": {
+      "source": "c810ca3fc720d8a76e62853dc580237f4eb9fbcc860bc516b27ddbcf4506d16d",
+      "target": "740b0ec26b4b5548f8e8b8242bcdee599291e807f061f22dcaf203a576d159ac"
+    },
+    "test_pair_available": true,
+    "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+  },
+  {
+    "candidate_id": "E011",
+    "source_api": "torch.minimum",
+    "target_calls": "tf.cast, tf.minimum",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "expansion",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.minimum.json",
+    "operation_sha256": {
+      "source": "062b36cb5a9297459009dad4b45ca70924353e0c66932dd90f865d0304dae0b9",
+      "target": "d96d454106b1c21a1543efa253634533f342cf29f11f3951f5d5808789cafc55"
+    },
+    "test_pair_available": true,
+    "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+  },
+  {
+    "candidate_id": "E012",
+    "source_api": "tf.minimum",
+    "target_calls": "torch.min",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "expansion",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.minimum.json",
+    "operation_sha256": {
+      "source": "5eef8cedaa9a18c776df8960f2d34e5924aa402440ccd1fe105b96fd6f2bde78",
+      "target": "ba7bf000e66d6eeebf258010fadc1047a351e644c4ffa80f15d4c0bbb8673103"
+    },
+    "test_pair_available": true,
+    "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+  },
+  {
+    "candidate_id": "E013",
+    "source_api": "torch.pow",
+    "target_calls": "tf.cast, tf.pow",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "expansion",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.pow.json",
+    "operation_sha256": {
+      "source": "24ee1a3ea85180f8291037f4fca2271a381a132be4246612c833a9191a08d6a4",
+      "target": "edddc5e09fcc1363d0ba2a9642922982aca627faf37967004aacf0c7a627dfc6"
+    },
+    "test_pair_available": true,
+    "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+  },
+  {
+    "candidate_id": "E014",
+    "source_api": "tf.math.pow",
+    "target_calls": "torch.pow",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "expansion",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.pow.json",
+    "operation_sha256": {
+      "source": "429cbe0458e47550dcb7fef7504a0abdf26b177456de527f02138d913229164c",
+      "target": "f31f3838619feb4d85caa5496989e302356b6c6b61500a399dac3765ba404d61"
+    },
+    "test_pair_available": true,
+    "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+  },
+  {
+    "candidate_id": "E015",
+    "source_api": "torch.atan2",
+    "target_calls": "tf.atan2, tf.cast",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "expansion",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.atan2.json",
+    "operation_sha256": {
+      "source": "4ccc2811f74173d3d0e280b6a3d9bc89d8eb4da443bcd6ada362bc68b3f4bbb6",
+      "target": "f98cc0537638af2992f90141a08c8507898513c2344b0f831ba67fec3ff8c782"
+    },
+    "test_pair_available": true,
+    "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+  },
+  {
+    "candidate_id": "E016",
+    "source_api": "tf.atan2",
+    "target_calls": "torch.atan2",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "expansion",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.atan2.json",
+    "operation_sha256": {
+      "source": "659f9df02cd6833ad3781d048adbd2fbb716cd08dcaeb9b75f53f42567d07797",
+      "target": "3ad0fd552159f373d98798e8a36fdc3697c103b3092ddb956259470f2022af2d"
+    },
+    "test_pair_available": true,
+    "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+  },
+  {
+    "candidate_id": "E017",
+    "source_api": "torch.reshape",
+    "target_calls": "tf.reshape",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "expansion",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.reshape.json",
+    "operation_sha256": {
+      "source": "1a5657f87052b743cfc2f9c505bcddece461ab7ee17e8639af7e6a2f509eb03b",
+      "target": "06ef7e4d8fc3558768352c4b55dbae53a40929aeb51caab816f2dcc2f548394d"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "E018",
+    "source_api": "tf.reshape",
+    "target_calls": "tensor.view",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "expansion",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.reshape.json",
+    "operation_sha256": {
+      "source": "1f09a37eee6b71ac4d85df50ae6c20b0b6ddb6f36b666c6eb83727aff540a243",
+      "target": "e10fd7e24f8ecbf1654c253017e3eb80b2857e5bd2bc033639d12b7c8c0c3dca"
+    },
+    "test_pair_available": true,
+    "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+  },
+  {
+    "candidate_id": "E019",
+    "source_api": "torch.transpose",
+    "target_calls": "len, list, range, tf.transpose",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "expansion",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.transpose.json",
+    "operation_sha256": {
+      "source": "53e1324cdece21a6020315c775dda205d02c158a6d973440cdf6199f0b9dba88",
+      "target": "58285b18db3b1193081c1570900564aa6e647da1b83739aa00af0294a2c84029"
+    },
+    "test_pair_available": true,
+    "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+  },
+  {
+    "candidate_id": "E020",
+    "source_api": "tf.transpose",
+    "target_calls": "a.conj, a.permute",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "expansion",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.transpose.json",
+    "operation_sha256": {
+      "source": "9e369468fde766382a7881bbc85e5ec57846fa4c3b3d69ad4903615ed64a2dc6",
+      "target": "ffe5fa0f7212a6e0644684a5a036885be01a1c81563e7c52cbf738002c331c6d"
+    },
+    "test_pair_available": true,
+    "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+  },
+  {
+    "candidate_id": "E021",
+    "source_api": "torch.squeeze",
+    "target_calls": "tf.squeeze",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "expansion",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.squeeze.json",
+    "operation_sha256": {
+      "source": "f34b2e8b0cb38bc4a53633b9b6a24b3e0b664836f069b5446fa25e265a9f92e3",
+      "target": "384f33c7074c39f17da4709189884a9822a76de96375e2aa31ee428183afb03c"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "E022",
+    "source_api": "tf.squeeze",
+    "target_calls": "input.squeeze",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "expansion",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.squeeze.json",
+    "operation_sha256": {
+      "source": "e8e0586821bb6db2ca632d766d89b4d99ab45ac4fdcc2693e3dcd16a88804673",
+      "target": "5d9aefa2ba18eb57709398ecd1a50b494dfea2ea8be687d0f070f6e51669b71c"
+    },
+    "test_pair_available": true,
+    "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+  },
+  {
+    "candidate_id": "E023",
+    "source_api": "torch.unsqueeze",
+    "target_calls": "tf.expand_dims",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "expansion",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.unsqueeze.json",
+    "operation_sha256": {
+      "source": "f8c86c9fcdb8a028f6c6e5128dd5641816eb5ca482aaa8545f591d1c4fd9cc00",
+      "target": "98429fb440cc63b49113343f621f943928503dc7fbcd58fafeabe13d4e5f16cf"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "E024",
+    "source_api": "tf.expand_dims",
+    "target_calls": "input.unsqueeze",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "expansion",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.expand_dims.json",
+    "operation_sha256": {
+      "source": "9f27404aac22c12a8140b8ca99c3e1bdbaf088584ad3d88a28d8b6c62a99c3c8",
+      "target": "45b74939552fb4b700b9ae740185b1fb697118096c481f2fb13abb317c8ed590"
+    },
+    "test_pair_available": true,
+    "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+  },
+  {
+    "candidate_id": "E025",
+    "source_api": "torch.concat",
+    "target_calls": "tf.concat",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "expansion",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.concat.json",
+    "operation_sha256": {
+      "source": "91ae4ba561bf3cafa1cd740b264cd2db29a079ff501640c4ae9ea03e73992f8e",
+      "target": "a2bb55b61058993dd284e6bb11587de93e2abcc5790ce2f3a5acfafe7c72d5c9"
+    },
+    "test_pair_available": true,
+    "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+  },
+  {
+    "candidate_id": "E026",
+    "source_api": "tf.concat",
+    "target_calls": "torch.cat",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "expansion",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.concat.json",
+    "operation_sha256": {
+      "source": "297737a751aa53d8c3018294746212a479890ee5d2f7c355ef3ecc748cbfcffc",
+      "target": "0b13db500bc56946b8a4d0dc506713ff4073dde3cd7161d858bc00d2652df093"
+    },
+    "test_pair_available": true,
+    "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+  },
+  {
+    "candidate_id": "E027",
+    "source_api": "torch.stack",
+    "target_calls": "tf.stack",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "expansion",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.stack.json",
+    "operation_sha256": {
+      "source": "88cc42e8b797da2efb6b8cd66252ff78b53f45c2a846c234b09a1eeb5ec9a22e",
+      "target": "6e394b702b5ea59118803fa438c035dbfdbb787480f15fab7b5afc5c9994309e"
+    },
+    "test_pair_available": true,
+    "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+  },
+  {
+    "candidate_id": "E028",
+    "source_api": "tf.stack",
+    "target_calls": "torch.stack",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "expansion",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.stack.json",
+    "operation_sha256": {
+      "source": "26557ee409bcb7b25d5be7ccadc41ceadd6d75e0bb104a986bd09383c12af56b",
+      "target": "2fb22e2105145714a73a2c11be3de5bbdfbef35fe34a07eb00edf286fbc826c0"
+    },
+    "test_pair_available": true,
+    "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+  },
+  {
+    "candidate_id": "E029",
+    "source_api": "torch.clip",
+    "target_calls": "tf.cast, tf.where",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "expansion",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.clip.json",
+    "operation_sha256": {
+      "source": "e25e1c681424b166abc3727caf02c7db2bedcd3caa12c49532e699a71c931ac1",
+      "target": "12c1649ae982e65001d3dba58bbf9461212fe61c2c09ce35377bb100158c1aef"
+    },
+    "test_pair_available": true,
+    "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+  },
+  {
+    "candidate_id": "E030",
+    "source_api": "tf.clip_by_value",
+    "target_calls": "clip_value_max.new_ones, float, torch.clamp, torch.max",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "expansion",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.clip_by_value.json",
+    "operation_sha256": {
+      "source": "16cab5127f19d9469f98c86cce280dce9b041645a8d3eb4f6217ce5ef30b6187",
+      "target": "f29541a511c3119316f35763d84df3d9dd9fa79f66e3ffca7a7ecfc1966aab70"
+    },
+    "test_pair_available": true,
+    "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+  },
+  {
+    "candidate_id": "H001",
+    "source_api": "torch.prod",
+    "target_calls": "tf.reduce_prod",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "unseen",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.prod.json",
+    "operation_sha256": {
+      "source": "365d7b67a40b0f5866f6f45c4e9733b956a0dd294d898a5c6d004a57459d7a27",
+      "target": "42998aed5dc3ab14751ab719ca95c387bbc44e4cfa79f68dfe3aecb2e9a22db1"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "H002",
+    "source_api": "torch.matmul",
+    "target_calls": "tf.matmul",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "unseen",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.matmul.json",
+    "operation_sha256": {
+      "source": "c8d4a02624dd59a3a180ba4a43297b952aabdbe0df79b6ca045e1a9407a9cc7d",
+      "target": "ec2f803e4192605d58afef219fcb288f656aa35f289d702fd9ed2f53afc1b930"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "H003",
+    "source_api": "torch.det",
+    "target_calls": "tf.linalg.det",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "unseen",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.det.json",
+    "operation_sha256": {
+      "source": "6283891fa3a861bcc9d9a13ba52dc0eb35e76a1728fca82c61cebde89b27be47",
+      "target": "f8abef3063ab376d21583f4bc8764b57d0a5779e7d1bb72c2dbc2d59449e3ddc"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "H004",
+    "source_api": "torch.trace",
+    "target_calls": "tf.linalg.trace",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "unseen",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.trace.json",
+    "operation_sha256": {
+      "source": "7b9bd0feb5d0b0abefdc2a386ad38b4cbd9a46321b3fa0b67c72afe6bc6606e6",
+      "target": "bbd56e8757e22a43753af7be49e97887070af19b388bf85e41c08fad137e7ce1"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "H005",
+    "source_api": "torch.cumsum",
+    "target_calls": "tf.cumsum",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "unseen",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.cumsum.json",
+    "operation_sha256": {
+      "source": "95975091b75769129f3dc2597a08c4480d6ed2da9acd6f17ac5e65271b058087",
+      "target": "177bb5a9f13a289afa899f0907baff72247c1f55cd45e10f3266cb5066d3ce58"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "H006",
+    "source_api": "torch.cumprod",
+    "target_calls": "tf.math.cumprod",
+    "source": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "target": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "cohort": "unseen",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.cumprod.json",
+    "operation_sha256": {
+      "source": "13c915e8e67e9353ad85181a81aab2f6053d086f54ab615fabcd1f79ed149db8",
+      "target": "b1f434342d75cc0e10577e10e5fdb502c50af4f89ff8dd6a7b32d4e6ed51180a"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "H007",
+    "source_api": "tf.reduce_prod",
+    "target_calls": "torch.prod",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "unseen",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.reduce_prod.json",
+    "operation_sha256": {
+      "source": "d4a698fe610214d24713e107346f9643300ea4955592acfdb8bae86d1e5a429b",
+      "target": "3407f2f2fdc933f973e94a52081dfb4f7991b2f96b74c7aefa2897d4567851e9"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "H008",
+    "source_api": "tf.matmul",
+    "target_calls": "torch.matmul",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "unseen",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.matmul.json",
+    "operation_sha256": {
+      "source": "e77def235eaaf933a6a00771563eaa40fbafab12a2a4fc24278fd22e248a44a3",
+      "target": "c7669a9cabc308803a97f30d2d4a7243c7681fd46302caff5c93b0e4168cd23f"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "H009",
+    "source_api": "tf.linalg.det",
+    "target_calls": "torch.linalg.det",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "unseen",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.linalg.det.json",
+    "operation_sha256": {
+      "source": "b680281fdcf1543683ef1cc4932308ab7c67c6b2d961fa0726f75d57115129dc",
+      "target": "321add0afbc667739699086e7866b11cf83f82ab95eab7bd6be613f13b8350e4"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "H010",
+    "source_api": "tf.linalg.trace",
+    "target_calls": "torch.diagonal",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "unseen",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.linalg.trace.json",
+    "operation_sha256": {
+      "source": "80a9452accc483253b11f717efe0abc7affa46f20ec8edb5a2227597c0e51434",
+      "target": "418f41dd2e8b798a287222e32c34002aecddff7b66ee2690741dd3ded1dd466e"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "H011",
+    "source_api": "tf.cumsum",
+    "target_calls": "torch.cumsum",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "unseen",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.cumsum.json",
+    "operation_sha256": {
+      "source": "98b80aadbd27152cd16543fedc1284eff86a2ad57836a78c882a0f2941fe44a5",
+      "target": "88cdb2de504a33903dc88c7914124aef9dec5ebcaf4821cec4d2df98f8efc569"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  },
+  {
+    "candidate_id": "H012",
+    "source_api": "tf.math.cumprod",
+    "target_calls": "torch.cumprod",
+    "source": {
+      "framework": "tensorflow",
+      "entry": "tensorflow_call"
+    },
+    "target": {
+      "framework": "pytorch",
+      "entry": "pytorch_call"
+    },
+    "cohort": "unseen",
+    "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.cumprod.json",
+    "operation_sha256": {
+      "source": "42d8227aa52a08512b6670343362e1d392581a0ffa427ca1608d201fafd2518a",
+      "target": "14901ceccfd26c453e64860adf0e8c5aff3111f4571eedba3b8e0495ff931bdd"
+    },
+    "test_pair_available": false,
+    "test_pair_origin": null
+  }
+]

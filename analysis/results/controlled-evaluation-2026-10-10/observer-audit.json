@@ -1,0 +1,1167 @@
+[
+  {
+    "sample_id": "S001",
+    "base_gate": true,
+    "assertions": [
+      [
+        8,
+        "self.assertTrue(True)",
+        true
+      ],
+      [
+        9,
+        "self.assertTrue(True)",
+        true
+      ],
+      [
+        13,
+        "self.assertTrue(True)",
+        true
+      ],
+      [
+        14,
+        "self.assertTrue(True)",
+        true
+      ]
+    ],
+    "gates": [
+      {
+        "clause": "shape",
+        "eligible": true,
+        "reasons": []
+      }
+    ],
+    "engine": {
+      "property_id": "registered-source-rejection",
+      "candidate_id": "S001",
+      "origin": "controlled-test; recorded-outcome-adapter",
+      "candidate_code_sha256": "66929da43cf1bd7d647c364295643454c0fc68d770537b234234253580a7bd21",
+      "evidence_state": "refuted",
+      "executions": 3,
+      "budget": 6,
+      "confirmation_count": 2,
+      "witness": {
+        "mode": "wrong-shape"
+      },
+      "failed_clause": "assertion-rejection-retention",
+      "root_cause": "undetermined",
+      "target_binding": "registered-target-operation",
+      "scope": "recorded inputs only; no domain-wide certificate",
+      "seconds": 7.020000339252874e-05,
+      "traces": [
+        {
+          "input": {
+            "mode": "wrong-shape"
+          },
+          "clause_id": "assertion-rejection-retention",
+          "source": {
+            "value": true,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "target": {
+            "value": false,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "outcome": "violation",
+          "seconds": 3.719999949680641e-05,
+          "phase": "search"
+        },
+        {
+          "input": {
+            "mode": "wrong-shape"
+          },
+          "clause_id": "assertion-rejection-retention",
+          "source": {
+            "value": true,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "target": {
+            "value": false,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "outcome": "violation",
+          "seconds": 1.930000144056976e-05,
+          "phase": "confirm"
+        },
+        {
+          "input": {
+            "mode": "wrong-shape"
+          },
+          "clause_id": "assertion-rejection-retention",
+          "source": {
+            "value": true,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "target": {
+            "value": false,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "outcome": "violation",
+          "seconds": 1.3700002455152571e-05,
+          "phase": "confirm"
+        }
+      ]
+    },
+    "record_accesses": [
+      {
+        "side": "source",
+        "mode": "wrong-shape",
+        "repeat": 0
+      },
+      {
+        "side": "target",
+        "mode": "wrong-shape",
+        "repeat": 0
+      },
+      {
+        "side": "source",
+        "mode": "wrong-shape",
+        "repeat": 1
+      },
+      {
+        "side": "target",
+        "mode": "wrong-shape",
+        "repeat": 1
+      },
+      {
+        "side": "source",
+        "mode": "wrong-shape",
+        "repeat": 2
+      },
+      {
+        "side": "target",
+        "mode": "wrong-shape",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "sample_id": "S002",
+    "base_gate": true,
+    "assertions": [
+      [
+        13,
+        "self.assertTrue(True)",
+        true
+      ],
+      [
+        14,
+        "self.assertTrue(True)",
+        true
+      ]
+    ],
+    "gates": [
+      {
+        "clause": "value",
+        "eligible": true,
+        "reasons": []
+      },
+      {
+        "clause": "shape",
+        "eligible": true,
+        "reasons": []
+      }
+    ],
+    "engine": {
+      "property_id": "registered-source-rejection",
+      "candidate_id": "S002",
+      "origin": "controlled-test; recorded-outcome-adapter",
+      "candidate_code_sha256": "5d6a1ed2b7cee9959d126568990c5aa864491c330c956bd17db84f9b78ea1457",
+      "evidence_state": "refuted",
+      "executions": 3,
+      "budget": 6,
+      "confirmation_count": 2,
+      "witness": {
+        "mode": "wrong-value"
+      },
+      "failed_clause": "assertion-rejection-retention",
+      "root_cause": "undetermined",
+      "target_binding": "registered-target-operation",
+      "scope": "recorded inputs only; no domain-wide certificate",
+      "seconds": 5.130000499775633e-05,
+      "traces": [
+        {
+          "input": {
+            "mode": "wrong-value"
+          },
+          "clause_id": "assertion-rejection-retention",
+          "source": {
+            "value": true,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "target": {
+            "value": false,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "outcome": "violation",
+          "seconds": 2.4100001610349864e-05,
+          "phase": "search"
+        },
+        {
+          "input": {
+            "mode": "wrong-value"
+          },
+          "clause_id": "assertion-rejection-retention",
+          "source": {
+            "value": true,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "target": {
+            "value": false,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "outcome": "violation",
+          "seconds": 1.4500001270789653e-05,
+          "phase": "confirm"
+        },
+        {
+          "input": {
+            "mode": "wrong-value"
+          },
+          "clause_id": "assertion-rejection-retention",
+          "source": {
+            "value": true,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "target": {
+            "value": false,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "outcome": "violation",
+          "seconds": 1.2700002116616815e-05,
+          "phase": "confirm"
+        }
+      ]
+    },
+    "record_accesses": [
+      {
+        "side": "source",
+        "mode": "wrong-value",
+        "repeat": 0
+      },
+      {
+        "side": "target",
+        "mode": "wrong-value",
+        "repeat": 0
+      },
+      {
+        "side": "source",
+        "mode": "wrong-value",
+        "repeat": 1
+      },
+      {
+        "side": "target",
+        "mode": "wrong-value",
+        "repeat": 1
+      },
+      {
+        "side": "source",
+        "mode": "wrong-value",
+        "repeat": 2
+      },
+      {
+        "side": "target",
+        "mode": "wrong-value",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "sample_id": "S003",
+    "base_gate": true,
+    "assertions": [
+      [
+        13,
+        "self.assertShapeEqual(np_ans, tensor)",
+        false
+      ],
+      [
+        14,
+        "self.assertAllEqual(np_ans, tf_ans)",
+        false
+      ]
+    ],
+    "gates": [
+      {
+        "clause": "value",
+        "eligible": true,
+        "reasons": []
+      },
+      {
+        "clause": "shape",
+        "eligible": true,
+        "reasons": []
+      }
+    ],
+    "engine": {
+      "property_id": "registered-source-rejection",
+      "candidate_id": "S003",
+      "origin": "controlled-test; recorded-outcome-adapter",
+      "candidate_code_sha256": "0476356936f6301c92e083430d64ca7e6277eb7e0cb8f1bd3e0b34e90a51e790",
+      "evidence_state": "supported-on-tested-inputs",
+      "executions": 2,
+      "budget": 6,
+      "confirmation_count": 2,
+      "witness": null,
+      "failed_clause": null,
+      "root_cause": "undetermined",
+      "target_binding": "registered-target-operation",
+      "scope": "recorded inputs only; no domain-wide certificate",
+      "seconds": 3.760000254260376e-05,
+      "traces": [
+        {
+          "input": {
+            "mode": "wrong-value"
+          },
+          "clause_id": "assertion-rejection-retention",
+          "source": {
+            "value": true,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "target": {
+            "value": true,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "outcome": "pass",
+          "seconds": 2.4300003133248538e-05,
+          "phase": "search"
+        },
+        {
+          "input": {
+            "mode": "wrong-shape"
+          },
+          "clause_id": "assertion-rejection-retention",
+          "source": {
+            "value": true,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "target": {
+            "value": true,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "outcome": "pass",
+          "seconds": 1.3299999409355223e-05,
+          "phase": "search"
+        }
+      ]
+    },
+    "record_accesses": [
+      {
+        "side": "source",
+        "mode": "wrong-value",
+        "repeat": 0
+      },
+      {
+        "side": "target",
+        "mode": "wrong-value",
+        "repeat": 0
+      },
+      {
+        "side": "source",
+        "mode": "wrong-shape",
+        "repeat": 0
+      },
+      {
+        "side": "target",
+        "mode": "wrong-shape",
+        "repeat": 0
+      }
+    ]
+  },
+  {
+    "sample_id": "S004",
+    "base_gate": true,
+    "assertions": [],
+    "gates": [
+      {
+        "clause": "value",
+        "eligible": true,
+        "reasons": []
+      },
+      {
+        "clause": "shape",
+        "eligible": true,
+        "reasons": []
+      }
+    ],
+    "engine": {
+      "property_id": "registered-source-rejection",
+      "candidate_id": "S004",
+      "origin": "controlled-test; recorded-outcome-adapter",
+      "candidate_code_sha256": "2c7c4ab7f1834d90d8ba2142a80a63813040cf87852526168fec52a7fb02256f",
+      "evidence_state": "refuted",
+      "executions": 3,
+      "budget": 6,
+      "confirmation_count": 2,
+      "witness": {
+        "mode": "wrong-value"
+      },
+      "failed_clause": "assertion-rejection-retention",
+      "root_cause": "undetermined",
+      "target_binding": "registered-target-operation",
+      "scope": "recorded inputs only; no domain-wide certificate",
+      "seconds": 4.850000550504774e-05,
+      "traces": [
+        {
+          "input": {
+            "mode": "wrong-value"
+          },
+          "clause_id": "assertion-rejection-retention",
+          "source": {
+            "value": true,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "target": {
+            "value": false,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "outcome": "violation",
+          "seconds": 2.390000008745119e-05,
+          "phase": "search"
+        },
+        {
+          "input": {
+            "mode": "wrong-value"
+          },
+          "clause_id": "assertion-rejection-retention",
+          "source": {
+            "value": true,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "target": {
+            "value": false,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "outcome": "violation",
+          "seconds": 1.3500000932253897e-05,
+          "phase": "confirm"
+        },
+        {
+          "input": {
+            "mode": "wrong-value"
+          },
+          "clause_id": "assertion-rejection-retention",
+          "source": {
+            "value": true,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "target": {
+            "value": false,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "outcome": "violation",
+          "seconds": 1.1100004485342652e-05,
+          "phase": "confirm"
+        }
+      ]
+    },
+    "record_accesses": [
+      {
+        "side": "source",
+        "mode": "wrong-value",
+        "repeat": 0
+      },
+      {
+        "side": "target",
+        "mode": "wrong-value",
+        "repeat": 0
+      },
+      {
+        "side": "source",
+        "mode": "wrong-value",
+        "repeat": 1
+      },
+      {
+        "side": "target",
+        "mode": "wrong-value",
+        "repeat": 1
+      },
+      {
+        "side": "source",
+        "mode": "wrong-value",
+        "repeat": 2
+      },
+      {
+        "side": "target",
+        "mode": "wrong-value",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "sample_id": "S005",
+    "base_gate": true,
+    "assertions": [
+      [
+        10,
+        "self.assertAllClose(np_ans, tf_ans)",
+        false
+      ]
+    ],
+    "gates": [
+      {
+        "clause": "value",
+        "eligible": true,
+        "reasons": []
+      },
+      {
+        "clause": "shape",
+        "eligible": true,
+        "reasons": []
+      }
+    ],
+    "engine": {
+      "property_id": "registered-source-rejection",
+      "candidate_id": "S005",
+      "origin": "controlled-test; recorded-outcome-adapter",
+      "candidate_code_sha256": "24befe68ddb78a701e9d02ad587327a17ca04246452db3af6ff9637864d59b73",
+      "evidence_state": "supported-on-tested-inputs",
+      "executions": 2,
+      "budget": 6,
+      "confirmation_count": 2,
+      "witness": null,
+      "failed_clause": null,
+      "root_cause": "undetermined",
+      "target_binding": "registered-target-operation",
+      "scope": "recorded inputs only; no domain-wide certificate",
+      "seconds": 4.1799998143687844e-05,
+      "traces": [
+        {
+          "input": {
+            "mode": "wrong-value"
+          },
+          "clause_id": "assertion-rejection-retention",
+          "source": {
+            "value": true,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "target": {
+            "value": true,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "outcome": "pass",
+          "seconds": 2.6699999580159783e-05,
+          "phase": "search"
+        },
+        {
+          "input": {
+            "mode": "wrong-shape"
+          },
+          "clause_id": "assertion-rejection-retention",
+          "source": {
+            "value": true,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "target": {
+            "value": true,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "outcome": "pass",
+          "seconds": 1.5099998563528061e-05,
+          "phase": "search"
+        }
+      ]
+    },
+    "record_accesses": [
+      {
+        "side": "source",
+        "mode": "wrong-value",
+        "repeat": 0
+      },
+      {
+        "side": "target",
+        "mode": "wrong-value",
+        "repeat": 0
+      },
+      {
+        "side": "source",
+        "mode": "wrong-shape",
+        "repeat": 0
+      },
+      {
+        "side": "target",
+        "mode": "wrong-shape",
+        "repeat": 0
+      }
+    ]
+  },
+  {
+    "sample_id": "S006",
+    "base_gate": true,
+    "assertions": [
+      [
+        8,
+        "self.assertEqual(tf_ans.get_shape(), out.shape)",
+        false
+      ],
+      [
+        9,
+        "self.assertShapeEqual(np_ans, tf_ans)",
+        false
+      ],
+      [
+        13,
+        "self.assertEqual(tf_ans.get_shape(), out.shape)",
+        false
+      ],
+      [
+        14,
+        "self.assertShapeEqual(np_ans, tf_ans)",
+        false
+      ]
+    ],
+    "gates": [
+      {
+        "clause": "shape",
+        "eligible": true,
+        "reasons": []
+      }
+    ],
+    "engine": {
+      "property_id": "registered-source-rejection",
+      "candidate_id": "S006",
+      "origin": "controlled-test; recorded-outcome-adapter",
+      "candidate_code_sha256": "af1c3218f82fcd82ac88fa7233f17ae34f57c37afdafc73e81853b8a0f51dd0d",
+      "evidence_state": "supported-on-tested-inputs",
+      "executions": 1,
+      "budget": 6,
+      "confirmation_count": 2,
+      "witness": null,
+      "failed_clause": null,
+      "root_cause": "undetermined",
+      "target_binding": "registered-target-operation",
+      "scope": "recorded inputs only; no domain-wide certificate",
+      "seconds": 2.4199995095841587e-05,
+      "traces": [
+        {
+          "input": {
+            "mode": "wrong-shape"
+          },
+          "clause_id": "assertion-rejection-retention",
+          "source": {
+            "value": true,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "target": {
+            "value": true,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "outcome": "pass",
+          "seconds": 2.4199995095841587e-05,
+          "phase": "search"
+        }
+      ]
+    },
+    "record_accesses": [
+      {
+        "side": "source",
+        "mode": "wrong-shape",
+        "repeat": 0
+      },
+      {
+        "side": "target",
+        "mode": "wrong-shape",
+        "repeat": 0
+      }
+    ]
+  },
+  {
+    "sample_id": "S007",
+    "base_gate": true,
+    "assertions": [
+      [
+        10,
+        "self.assertTrue(True)",
+        true
+      ]
+    ],
+    "gates": [
+      {
+        "clause": "value",
+        "eligible": true,
+        "reasons": []
+      },
+      {
+        "clause": "shape",
+        "eligible": true,
+        "reasons": []
+      }
+    ],
+    "engine": {
+      "property_id": "registered-source-rejection",
+      "candidate_id": "S007",
+      "origin": "controlled-test; recorded-outcome-adapter",
+      "candidate_code_sha256": "9e4e78f0ada9e18211c9a1413f0c7b130fe2c6335fa27bf939780183c2d84e26",
+      "evidence_state": "refuted",
+      "executions": 3,
+      "budget": 6,
+      "confirmation_count": 2,
+      "witness": {
+        "mode": "wrong-value"
+      },
+      "failed_clause": "assertion-rejection-retention",
+      "root_cause": "undetermined",
+      "target_binding": "registered-target-operation",
+      "scope": "recorded inputs only; no domain-wide certificate",
+      "seconds": 5.1099996198900044e-05,
+      "traces": [
+        {
+          "input": {
+            "mode": "wrong-value"
+          },
+          "clause_id": "assertion-rejection-retention",
+          "source": {
+            "value": true,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "target": {
+            "value": false,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "outcome": "violation",
+          "seconds": 2.4599998141638935e-05,
+          "phase": "search"
+        },
+        {
+          "input": {
+            "mode": "wrong-value"
+          },
+          "clause_id": "assertion-rejection-retention",
+          "source": {
+            "value": true,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "target": {
+            "value": false,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "outcome": "violation",
+          "seconds": 1.479999627918005e-05,
+          "phase": "confirm"
+        },
+        {
+          "input": {
+            "mode": "wrong-value"
+          },
+          "clause_id": "assertion-rejection-retention",
+          "source": {
+            "value": true,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "target": {
+            "value": false,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "outcome": "violation",
+          "seconds": 1.170000177808106e-05,
+          "phase": "confirm"
+        }
+      ]
+    },
+    "record_accesses": [
+      {
+        "side": "source",
+        "mode": "wrong-value",
+        "repeat": 0
+      },
+      {
+        "side": "target",
+        "mode": "wrong-value",
+        "repeat": 0
+      },
+      {
+        "side": "source",
+        "mode": "wrong-value",
+        "repeat": 1
+      },
+      {
+        "side": "target",
+        "mode": "wrong-value",
+        "repeat": 1
+      },
+      {
+        "side": "source",
+        "mode": "wrong-value",
+        "repeat": 2
+      },
+      {
+        "side": "target",
+        "mode": "wrong-value",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "sample_id": "S008",
+    "base_gate": true,
+    "assertions": [],
+    "gates": [
+      {
+        "clause": "shape",
+        "eligible": true,
+        "reasons": []
+      }
+    ],
+    "engine": {
+      "property_id": "registered-source-rejection",
+      "candidate_id": "S008",
+      "origin": "controlled-test; recorded-outcome-adapter",
+      "candidate_code_sha256": "770308d39cb4eb76cc7734bd0868f0668d080edab2608735cda2c01c1ad8e185",
+      "evidence_state": "refuted",
+      "executions": 3,
+      "budget": 6,
+      "confirmation_count": 2,
+      "witness": {
+        "mode": "wrong-shape"
+      },
+      "failed_clause": "assertion-rejection-retention",
+      "root_cause": "undetermined",
+      "target_binding": "registered-target-operation",
+      "scope": "recorded inputs only; no domain-wide certificate",
+      "seconds": 5.539999983739108e-05,
+      "traces": [
+        {
+          "input": {
+            "mode": "wrong-shape"
+          },
+          "clause_id": "assertion-rejection-retention",
+          "source": {
+            "value": true,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "target": {
+            "value": false,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "outcome": "violation",
+          "seconds": 2.939999831141904e-05,
+          "phase": "search"
+        },
+        {
+          "input": {
+            "mode": "wrong-shape"
+          },
+          "clause_id": "assertion-rejection-retention",
+          "source": {
+            "value": true,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "target": {
+            "value": false,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "outcome": "violation",
+          "seconds": 1.4500001270789653e-05,
+          "phase": "confirm"
+        },
+        {
+          "input": {
+            "mode": "wrong-shape"
+          },
+          "clause_id": "assertion-rejection-retention",
+          "source": {
+            "value": true,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "target": {
+            "value": false,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "outcome": "violation",
+          "seconds": 1.1500000255182385e-05,
+          "phase": "confirm"
+        }
+      ]
+    },
+    "record_accesses": [
+      {
+        "side": "source",
+        "mode": "wrong-shape",
+        "repeat": 0
+      },
+      {
+        "side": "target",
+        "mode": "wrong-shape",
+        "repeat": 0
+      },
+      {
+        "side": "source",
+        "mode": "wrong-shape",
+        "repeat": 1
+      },
+      {
+        "side": "target",
+        "mode": "wrong-shape",
+        "repeat": 1
+      },
+      {
+        "side": "source",
+        "mode": "wrong-shape",
+        "repeat": 2
+      },
+      {
+        "side": "target",
+        "mode": "wrong-shape",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "sample_id": "S009",
+    "base_gate": true,
+    "assertions": [],
+    "gates": [
+      {
+        "clause": "value",
+        "eligible": true,
+        "reasons": []
+      },
+      {
+        "clause": "shape",
+        "eligible": true,
+        "reasons": []
+      }
+    ],
+    "engine": {
+      "property_id": "registered-source-rejection",
+      "candidate_id": "S009",
+      "origin": "controlled-test; recorded-outcome-adapter",
+      "candidate_code_sha256": "35e5e0229d31c6cf3efc29052e16da7a86616fa67858174a880d3de1c7b80300",
+      "evidence_state": "refuted",
+      "executions": 3,
+      "budget": 6,
+      "confirmation_count": 2,
+      "witness": {
+        "mode": "wrong-value"
+      },
+      "failed_clause": "assertion-rejection-retention",
+      "root_cause": "undetermined",
+      "target_binding": "registered-target-operation",
+      "scope": "recorded inputs only; no domain-wide certificate",
+      "seconds": 0.00010460000339662656,
+      "traces": [
+        {
+          "input": {
+            "mode": "wrong-value"
+          },
+          "clause_id": "assertion-rejection-retention",
+          "source": {
+            "value": true,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "target": {
+            "value": false,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "outcome": "violation",
+          "seconds": 3.319999814266339e-05,
+          "phase": "search"
+        },
+        {
+          "input": {
+            "mode": "wrong-value"
+          },
+          "clause_id": "assertion-rejection-retention",
+          "source": {
+            "value": true,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "target": {
+            "value": false,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "outcome": "violation",
+          "seconds": 4.2800005758181214e-05,
+          "phase": "confirm"
+        },
+        {
+          "input": {
+            "mode": "wrong-value"
+          },
+          "clause_id": "assertion-rejection-retention",
+          "source": {
+            "value": true,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "target": {
+            "value": false,
+            "dtype": "bool",
+            "shape": [],
+            "error": null,
+            "infrastructure_error": false
+          },
+          "outcome": "violation",
+          "seconds": 2.8599999495781958e-05,
+          "phase": "confirm"
+        }
+      ]
+    },
+    "record_accesses": [
+      {
+        "side": "source",
+        "mode": "wrong-value",
+        "repeat": 0
+      },
+      {
+        "side": "target",
+        "mode": "wrong-value",
+        "repeat": 0
+      },
+      {
+        "side": "source",
+        "mode": "wrong-value",
+        "repeat": 1
+      },
+      {
+        "side": "target",
+        "mode": "wrong-value",
+        "repeat": 1
+      },
+      {
+        "side": "source",
+        "mode": "wrong-value",
+        "repeat": 2
+      },
+      {
+        "side": "target",
+        "mode": "wrong-value",
+        "repeat": 2
+      }
+    ]
+  }
+]

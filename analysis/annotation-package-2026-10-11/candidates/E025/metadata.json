@@ -1,0 +1,21 @@
+{
+  "candidate_id": "E025",
+  "source_api": "torch.concat",
+  "target_calls": "tf.concat",
+  "source": {
+    "framework": "pytorch",
+    "entry": "pytorch_call"
+  },
+  "target": {
+    "framework": "tensorflow",
+    "entry": "tensorflow_call"
+  },
+  "cohort": "expansion",
+  "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.concat.json",
+  "operation_sha256": {
+    "source": "91ae4ba561bf3cafa1cd740b264cd2db29a079ff501640c4ae9ea03e73992f8e",
+    "target": "a2bb55b61058993dd284e6bb11587de93e2abcc5790ce2f3a5acfafe7c72d5c9"
+  },
+  "test_pair_available": true,
+  "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+}

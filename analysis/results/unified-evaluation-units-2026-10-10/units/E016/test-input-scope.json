@@ -1,0 +1,120 @@
+{
+  "input_origin": "frozen indices 0,16 replace upstream generator",
+  "frozen_scenarios": [
+    {
+      "case_id": "E016",
+      "input_index": 0,
+      "stratum": 0,
+      "pattern": 0,
+      "arguments": {
+        "y": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        "x": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": [
+            [
+              0.5,
+              0.5,
+              0.5
+            ],
+            [
+              0.5,
+              0.5,
+              0.5
+            ]
+          ]
+        }
+      },
+      "expected": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "tolerance": {
+        "atol": 1e-06,
+        "rtol": 1e-05
+      }
+    },
+    {
+      "case_id": "E016",
+      "input_index": 16,
+      "stratum": 2,
+      "pattern": 0,
+      "arguments": {
+        "y": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": [
+            [
+              0.0
+            ],
+            [
+              0.0
+            ]
+          ]
+        },
+        "x": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": [
+            [
+              0.5,
+              0.5,
+              0.5
+            ]
+          ]
+        }
+      },
+      "expected": {
+        "kind": "tensor",
+        "dtype": "float32",
+        "values": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "tolerance": {
+        "atol": 1e-06,
+        "rtol": 1e-05
+      }
+    }
+  ],
+  "runner_seed": 1729,
+  "execution_environment": "CPU eager with value bridge",
+  "configuration": "frozen expansion input indices 0 and 16; replaces upstream sample generator, not original whole test setup",
+  "only_first_operation_return_perturbed": true
+}

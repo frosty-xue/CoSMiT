@@ -1,0 +1,7 @@
+{
+  "unique_pairs": 27,
+  "bounded_reference_candidates": 23,
+  "unchanged_direct_input_files": 59,
+  "independent_gold_labels": 0,
+  "script_sha256": "f95a5da0350959f48eaad86e4b6993b8bb99748d319acf6298647fea31fc5e5e"
+}

@@ -1,0 +1,10082 @@
+[
+  {
+    "input_index": 0,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 64.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 64.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 0,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 64.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 64.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 0,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 64.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 64.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 1,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 64.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 64.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 1,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 64.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 64.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 1,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 64.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 64.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 2,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 16.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 16.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 2,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 16.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 16.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 2,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 16.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 16.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 3,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 3,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 3,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 4,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 6.759517192840576,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 6.759517192840576,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 4,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 6.759517192840576,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 6.759517192840576,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 4,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 6.759517192840576,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 6.759517192840576,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 5,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 8.528791427612305,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 8.528791427612305,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 5,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 8.528791427612305,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 8.528791427612305,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 5,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 8.528791427612305,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 8.528791427612305,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 6,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 50.02350997924805,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 50.02350997924805,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 6,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 50.02350997924805,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 50.02350997924805,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 6,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 50.02350997924805,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 50.02350997924805,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 7,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 35.07509231567383,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 35.07509231567383,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 7,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 35.07509231567383,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 35.07509231567383,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 7,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 35.07509231567383,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 35.07509231567383,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 8,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        64.0,
+        64.0,
+        16.0,
+        4.0,
+        2.25,
+        1.0,
+        0.25,
+        9.999999960041972e-13
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        64.0,
+        64.0,
+        16.0,
+        4.0,
+        2.25,
+        1.0,
+        0.25,
+        9.999999960041972e-13
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 8,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        64.0,
+        64.0,
+        16.0,
+        4.0,
+        2.25,
+        1.0,
+        0.25,
+        9.999999960041972e-13
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        64.0,
+        64.0,
+        16.0,
+        4.0,
+        2.25,
+        1.0,
+        0.25,
+        9.999999960041972e-13
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 8,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        64.0,
+        64.0,
+        16.0,
+        4.0,
+        2.25,
+        1.0,
+        0.25,
+        9.999999960041972e-13
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        64.0,
+        64.0,
+        16.0,
+        4.0,
+        2.25,
+        1.0,
+        0.25,
+        9.999999960041972e-13
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 9,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.0,
+        9.999999960041972e-13,
+        0.25,
+        1.0,
+        2.25,
+        4.0,
+        16.0,
+        64.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.0,
+        9.999999960041972e-13,
+        0.25,
+        1.0,
+        2.25,
+        4.0,
+        16.0,
+        64.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 9,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.0,
+        9.999999960041972e-13,
+        0.25,
+        1.0,
+        2.25,
+        4.0,
+        16.0,
+        64.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.0,
+        9.999999960041972e-13,
+        0.25,
+        1.0,
+        2.25,
+        4.0,
+        16.0,
+        64.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 9,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.0,
+        9.999999960041972e-13,
+        0.25,
+        1.0,
+        2.25,
+        4.0,
+        16.0,
+        64.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.0,
+        9.999999960041972e-13,
+        0.25,
+        1.0,
+        2.25,
+        4.0,
+        16.0,
+        64.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 10,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        64.0,
+        16.0,
+        4.0,
+        2.25,
+        1.0,
+        0.25,
+        9.999999960041972e-13,
+        0.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        64.0,
+        16.0,
+        4.0,
+        2.25,
+        1.0,
+        0.25,
+        9.999999960041972e-13,
+        0.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 10,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        64.0,
+        16.0,
+        4.0,
+        2.25,
+        1.0,
+        0.25,
+        9.999999960041972e-13,
+        0.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        64.0,
+        16.0,
+        4.0,
+        2.25,
+        1.0,
+        0.25,
+        9.999999960041972e-13,
+        0.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 10,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        64.0,
+        16.0,
+        4.0,
+        2.25,
+        1.0,
+        0.25,
+        9.999999960041972e-13,
+        0.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        64.0,
+        16.0,
+        4.0,
+        2.25,
+        1.0,
+        0.25,
+        9.999999960041972e-13,
+        0.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 11,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        9.999999960041972e-13,
+        0.25,
+        1.0,
+        2.25,
+        4.0,
+        16.0,
+        64.0,
+        64.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        9.999999960041972e-13,
+        0.25,
+        1.0,
+        2.25,
+        4.0,
+        16.0,
+        64.0,
+        64.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 11,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        9.999999960041972e-13,
+        0.25,
+        1.0,
+        2.25,
+        4.0,
+        16.0,
+        64.0,
+        64.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        9.999999960041972e-13,
+        0.25,
+        1.0,
+        2.25,
+        4.0,
+        16.0,
+        64.0,
+        64.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 11,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        9.999999960041972e-13,
+        0.25,
+        1.0,
+        2.25,
+        4.0,
+        16.0,
+        64.0,
+        64.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        9.999999960041972e-13,
+        0.25,
+        1.0,
+        2.25,
+        4.0,
+        16.0,
+        64.0,
+        64.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 12,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        39.22949981689453,
+        0.005073538050055504,
+        34.34949493408203,
+        2.0707080364227295,
+        6.708251476287842,
+        2.720855712890625,
+        14.1533784866333,
+        3.2447643280029297
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        39.22949981689453,
+        0.005073538050055504,
+        34.34949493408203,
+        2.0707080364227295,
+        6.708251476287842,
+        2.720855712890625,
+        14.1533784866333,
+        3.2447643280029297
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 12,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        39.22949981689453,
+        0.005073538050055504,
+        34.34949493408203,
+        2.0707080364227295,
+        6.708251476287842,
+        2.720855712890625,
+        14.1533784866333,
+        3.2447643280029297
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        39.22949981689453,
+        0.005073538050055504,
+        34.34949493408203,
+        2.0707080364227295,
+        6.708251476287842,
+        2.720855712890625,
+        14.1533784866333,
+        3.2447643280029297
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 12,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        39.22949981689453,
+        0.005073538050055504,
+        34.34949493408203,
+        2.0707080364227295,
+        6.708251476287842,
+        2.720855712890625,
+        14.1533784866333,
+        3.2447643280029297
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        39.22949981689453,
+        0.005073538050055504,
+        34.34949493408203,
+        2.0707080364227295,
+        6.708251476287842,
+        2.720855712890625,
+        14.1533784866333,
+        3.2447643280029297
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 13,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        16.897541046142578,
+        27.360986709594727,
+        13.679607391357422,
+        4.908978462219238,
+        22.72789192199707,
+        4.794601917266846,
+        0.23943990468978882,
+        2.306353807449341
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        16.897541046142578,
+        27.360986709594727,
+        13.679607391357422,
+        4.908978462219238,
+        22.72789192199707,
+        4.794601917266846,
+        0.23943990468978882,
+        2.306353807449341
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 13,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        16.897541046142578,
+        27.360986709594727,
+        13.679607391357422,
+        4.908978462219238,
+        22.72789192199707,
+        4.794601917266846,
+        0.23943990468978882,
+        2.306353807449341
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        16.897541046142578,
+        27.360986709594727,
+        13.679607391357422,
+        4.908978462219238,
+        22.72789192199707,
+        4.794601917266846,
+        0.23943990468978882,
+        2.306353807449341
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 13,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        16.897541046142578,
+        27.360986709594727,
+        13.679607391357422,
+        4.908978462219238,
+        22.72789192199707,
+        4.794601917266846,
+        0.23943990468978882,
+        2.306353807449341
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        16.897541046142578,
+        27.360986709594727,
+        13.679607391357422,
+        4.908978462219238,
+        22.72789192199707,
+        4.794601917266846,
+        0.23943990468978882,
+        2.306353807449341
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 14,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        35.445919036865234,
+        0.06097583845257759,
+        23.863628387451172,
+        25.848745346069336,
+        0.14232230186462402,
+        2.396559238433838,
+        8.304455757141113,
+        40.179847717285156
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        35.445919036865234,
+        0.06097583845257759,
+        23.863628387451172,
+        25.848745346069336,
+        0.14232230186462402,
+        2.396559238433838,
+        8.304455757141113,
+        40.179847717285156
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 14,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        35.445919036865234,
+        0.06097583845257759,
+        23.863628387451172,
+        25.848745346069336,
+        0.14232230186462402,
+        2.396559238433838,
+        8.304455757141113,
+        40.179847717285156
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        35.445919036865234,
+        0.06097583845257759,
+        23.863628387451172,
+        25.848745346069336,
+        0.14232230186462402,
+        2.396559238433838,
+        8.304455757141113,
+        40.179847717285156
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 14,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        35.445919036865234,
+        0.06097583845257759,
+        23.863628387451172,
+        25.848745346069336,
+        0.14232230186462402,
+        2.396559238433838,
+        8.304455757141113,
+        40.179847717285156
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        35.445919036865234,
+        0.06097583845257759,
+        23.863628387451172,
+        25.848745346069336,
+        0.14232230186462402,
+        2.396559238433838,
+        8.304455757141113,
+        40.179847717285156
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 15,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.1113658919930458,
+        56.441200256347656,
+        46.110801696777344,
+        52.192466735839844,
+        57.81849670410156,
+        7.898548126220703,
+        51.33436965942383,
+        14.80522346496582
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.1113658919930458,
+        56.441200256347656,
+        46.110801696777344,
+        52.192466735839844,
+        57.81849670410156,
+        7.898548126220703,
+        51.33436965942383,
+        14.80522346496582
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 15,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.1113658919930458,
+        56.441200256347656,
+        46.110801696777344,
+        52.192466735839844,
+        57.81849670410156,
+        7.898548126220703,
+        51.33436965942383,
+        14.80522346496582
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.1113658919930458,
+        56.441200256347656,
+        46.110801696777344,
+        52.192466735839844,
+        57.81849670410156,
+        7.898548126220703,
+        51.33436965942383,
+        14.80522346496582
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 15,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.1113658919930458,
+        56.441200256347656,
+        46.110801696777344,
+        52.192466735839844,
+        57.81849670410156,
+        7.898548126220703,
+        51.33436965942383,
+        14.80522346496582
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.1113658919930458,
+        56.441200256347656,
+        46.110801696777344,
+        52.192466735839844,
+        57.81849670410156,
+        7.898548126220703,
+        51.33436965942383,
+        14.80522346496582
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 16,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          64.0,
+          64.0,
+          16.0,
+          4.0
+        ],
+        [
+          2.25,
+          1.0,
+          0.25,
+          9.999999960041972e-13
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          64.0,
+          64.0,
+          16.0,
+          4.0
+        ],
+        [
+          2.25,
+          1.0,
+          0.25,
+          9.999999960041972e-13
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 16,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          64.0,
+          64.0,
+          16.0,
+          4.0
+        ],
+        [
+          2.25,
+          1.0,
+          0.25,
+          9.999999960041972e-13
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          64.0,
+          64.0,
+          16.0,
+          4.0
+        ],
+        [
+          2.25,
+          1.0,
+          0.25,
+          9.999999960041972e-13
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 16,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          64.0,
+          64.0,
+          16.0,
+          4.0
+        ],
+        [
+          2.25,
+          1.0,
+          0.25,
+          9.999999960041972e-13
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          64.0,
+          64.0,
+          16.0,
+          4.0
+        ],
+        [
+          2.25,
+          1.0,
+          0.25,
+          9.999999960041972e-13
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 17,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.0,
+          9.999999960041972e-13,
+          0.25,
+          1.0
+        ],
+        [
+          2.25,
+          4.0,
+          16.0,
+          64.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.0,
+          9.999999960041972e-13,
+          0.25,
+          1.0
+        ],
+        [
+          2.25,
+          4.0,
+          16.0,
+          64.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 17,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.0,
+          9.999999960041972e-13,
+          0.25,
+          1.0
+        ],
+        [
+          2.25,
+          4.0,
+          16.0,
+          64.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.0,
+          9.999999960041972e-13,
+          0.25,
+          1.0
+        ],
+        [
+          2.25,
+          4.0,
+          16.0,
+          64.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 17,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.0,
+          9.999999960041972e-13,
+          0.25,
+          1.0
+        ],
+        [
+          2.25,
+          4.0,
+          16.0,
+          64.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.0,
+          9.999999960041972e-13,
+          0.25,
+          1.0
+        ],
+        [
+          2.25,
+          4.0,
+          16.0,
+          64.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 18,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          64.0,
+          16.0,
+          4.0,
+          2.25
+        ],
+        [
+          1.0,
+          0.25,
+          9.999999960041972e-13,
+          0.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          64.0,
+          16.0,
+          4.0,
+          2.25
+        ],
+        [
+          1.0,
+          0.25,
+          9.999999960041972e-13,
+          0.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 18,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          64.0,
+          16.0,
+          4.0,
+          2.25
+        ],
+        [
+          1.0,
+          0.25,
+          9.999999960041972e-13,
+          0.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          64.0,
+          16.0,
+          4.0,
+          2.25
+        ],
+        [
+          1.0,
+          0.25,
+          9.999999960041972e-13,
+          0.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 18,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          64.0,
+          16.0,
+          4.0,
+          2.25
+        ],
+        [
+          1.0,
+          0.25,
+          9.999999960041972e-13,
+          0.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          64.0,
+          16.0,
+          4.0,
+          2.25
+        ],
+        [
+          1.0,
+          0.25,
+          9.999999960041972e-13,
+          0.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 19,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          9.999999960041972e-13,
+          0.25,
+          1.0,
+          2.25
+        ],
+        [
+          4.0,
+          16.0,
+          64.0,
+          64.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          9.999999960041972e-13,
+          0.25,
+          1.0,
+          2.25
+        ],
+        [
+          4.0,
+          16.0,
+          64.0,
+          64.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 19,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          9.999999960041972e-13,
+          0.25,
+          1.0,
+          2.25
+        ],
+        [
+          4.0,
+          16.0,
+          64.0,
+          64.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          9.999999960041972e-13,
+          0.25,
+          1.0,
+          2.25
+        ],
+        [
+          4.0,
+          16.0,
+          64.0,
+          64.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 19,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          9.999999960041972e-13,
+          0.25,
+          1.0,
+          2.25
+        ],
+        [
+          4.0,
+          16.0,
+          64.0,
+          64.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          9.999999960041972e-13,
+          0.25,
+          1.0,
+          2.25
+        ],
+        [
+          4.0,
+          16.0,
+          64.0,
+          64.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 20,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          41.60414505004883,
+          63.669830322265625,
+          0.7200541496276855,
+          1.947725534439087
+        ],
+        [
+          10.470210075378418,
+          3.257328987121582,
+          51.031341552734375,
+          1.4930963516235352
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          41.60414505004883,
+          63.669830322265625,
+          0.7200541496276855,
+          1.947725534439087
+        ],
+        [
+          10.470210075378418,
+          3.257328987121582,
+          51.031341552734375,
+          1.4930963516235352
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 20,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          41.60414505004883,
+          63.669830322265625,
+          0.7200541496276855,
+          1.947725534439087
+        ],
+        [
+          10.470210075378418,
+          3.257328987121582,
+          51.031341552734375,
+          1.4930963516235352
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          41.60414505004883,
+          63.669830322265625,
+          0.7200541496276855,
+          1.947725534439087
+        ],
+        [
+          10.470210075378418,
+          3.257328987121582,
+          51.031341552734375,
+          1.4930963516235352
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 20,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          41.60414505004883,
+          63.669830322265625,
+          0.7200541496276855,
+          1.947725534439087
+        ],
+        [
+          10.470210075378418,
+          3.257328987121582,
+          51.031341552734375,
+          1.4930963516235352
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          41.60414505004883,
+          63.669830322265625,
+          0.7200541496276855,
+          1.947725534439087
+        ],
+        [
+          10.470210075378418,
+          3.257328987121582,
+          51.031341552734375,
+          1.4930963516235352
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 21,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          20.68570327758789,
+          1.682700276374817,
+          40.177978515625,
+          59.54213333129883
+        ],
+        [
+          42.131126403808594,
+          6.496407985687256,
+          19.76947784423828,
+          37.42119216918945
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          20.68570327758789,
+          1.682700276374817,
+          40.177978515625,
+          59.54213333129883
+        ],
+        [
+          42.131126403808594,
+          6.496407985687256,
+          19.76947784423828,
+          37.42119216918945
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 21,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          20.68570327758789,
+          1.682700276374817,
+          40.177978515625,
+          59.54213333129883
+        ],
+        [
+          42.131126403808594,
+          6.496407985687256,
+          19.76947784423828,
+          37.42119216918945
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          20.68570327758789,
+          1.682700276374817,
+          40.177978515625,
+          59.54213333129883
+        ],
+        [
+          42.131126403808594,
+          6.496407985687256,
+          19.76947784423828,
+          37.42119216918945
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 21,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          20.68570327758789,
+          1.682700276374817,
+          40.177978515625,
+          59.54213333129883
+        ],
+        [
+          42.131126403808594,
+          6.496407985687256,
+          19.76947784423828,
+          37.42119216918945
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          20.68570327758789,
+          1.682700276374817,
+          40.177978515625,
+          59.54213333129883
+        ],
+        [
+          42.131126403808594,
+          6.496407985687256,
+          19.76947784423828,
+          37.42119216918945
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 22,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          28.459976196289062,
+          6.968678951263428,
+          31.32383155822754,
+          30.575143814086914
+        ],
+        [
+          62.83000564575195,
+          50.16294860839844,
+          3.8556103706359863,
+          3.361276388168335
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          28.459976196289062,
+          6.968678951263428,
+          31.32383155822754,
+          30.575143814086914
+        ],
+        [
+          62.83000564575195,
+          50.16294860839844,
+          3.8556103706359863,
+          3.361276388168335
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 22,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          28.459976196289062,
+          6.968678951263428,
+          31.32383155822754,
+          30.575143814086914
+        ],
+        [
+          62.83000564575195,
+          50.16294860839844,
+          3.8556103706359863,
+          3.361276388168335
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          28.459976196289062,
+          6.968678951263428,
+          31.32383155822754,
+          30.575143814086914
+        ],
+        [
+          62.83000564575195,
+          50.16294860839844,
+          3.8556103706359863,
+          3.361276388168335
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 22,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          28.459976196289062,
+          6.968678951263428,
+          31.32383155822754,
+          30.575143814086914
+        ],
+        [
+          62.83000564575195,
+          50.16294860839844,
+          3.8556103706359863,
+          3.361276388168335
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          28.459976196289062,
+          6.968678951263428,
+          31.32383155822754,
+          30.575143814086914
+        ],
+        [
+          62.83000564575195,
+          50.16294860839844,
+          3.8556103706359863,
+          3.361276388168335
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 23,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.500058650970459,
+          15.688563346862793,
+          0.7014522552490234,
+          23.458084106445312
+        ],
+        [
+          3.4048495292663574,
+          6.016308784484863,
+          4.293339252471924,
+          0.3985435664653778
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.500058650970459,
+          15.688563346862793,
+          0.7014522552490234,
+          23.458084106445312
+        ],
+        [
+          3.4048495292663574,
+          6.016308784484863,
+          4.293339252471924,
+          0.3985435664653778
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 23,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.500058650970459,
+          15.688563346862793,
+          0.7014522552490234,
+          23.458084106445312
+        ],
+        [
+          3.4048495292663574,
+          6.016308784484863,
+          4.293339252471924,
+          0.3985435664653778
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.500058650970459,
+          15.688563346862793,
+          0.7014522552490234,
+          23.458084106445312
+        ],
+        [
+          3.4048495292663574,
+          6.016308784484863,
+          4.293339252471924,
+          0.3985435664653778
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 23,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.500058650970459,
+          15.688563346862793,
+          0.7014522552490234,
+          23.458084106445312
+        ],
+        [
+          3.4048495292663574,
+          6.016308784484863,
+          4.293339252471924,
+          0.3985435664653778
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.500058650970459,
+          15.688563346862793,
+          0.7014522552490234,
+          23.458084106445312
+        ],
+        [
+          3.4048495292663574,
+          6.016308784484863,
+          4.293339252471924,
+          0.3985435664653778
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 24,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              64.0,
+              64.0
+            ],
+            [
+              16.0,
+              4.0
+            ]
+          ],
+          [
+            [
+              2.25,
+              1.0
+            ],
+            [
+              0.25,
+              9.999999960041972e-13
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              64.0,
+              64.0
+            ],
+            [
+              16.0,
+              4.0
+            ]
+          ],
+          [
+            [
+              2.25,
+              1.0
+            ],
+            [
+              0.25,
+              9.999999960041972e-13
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 24,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              64.0,
+              64.0
+            ],
+            [
+              16.0,
+              4.0
+            ]
+          ],
+          [
+            [
+              2.25,
+              1.0
+            ],
+            [
+              0.25,
+              9.999999960041972e-13
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              64.0,
+              64.0
+            ],
+            [
+              16.0,
+              4.0
+            ]
+          ],
+          [
+            [
+              2.25,
+              1.0
+            ],
+            [
+              0.25,
+              9.999999960041972e-13
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 24,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              64.0,
+              64.0
+            ],
+            [
+              16.0,
+              4.0
+            ]
+          ],
+          [
+            [
+              2.25,
+              1.0
+            ],
+            [
+              0.25,
+              9.999999960041972e-13
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              64.0,
+              64.0
+            ],
+            [
+              16.0,
+              4.0
+            ]
+          ],
+          [
+            [
+              2.25,
+              1.0
+            ],
+            [
+              0.25,
+              9.999999960041972e-13
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 25,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.0,
+              9.999999960041972e-13
+            ],
+            [
+              0.25,
+              1.0
+            ]
+          ],
+          [
+            [
+              2.25,
+              4.0
+            ],
+            [
+              16.0,
+              64.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.0,
+              9.999999960041972e-13
+            ],
+            [
+              0.25,
+              1.0
+            ]
+          ],
+          [
+            [
+              2.25,
+              4.0
+            ],
+            [
+              16.0,
+              64.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 25,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.0,
+              9.999999960041972e-13
+            ],
+            [
+              0.25,
+              1.0
+            ]
+          ],
+          [
+            [
+              2.25,
+              4.0
+            ],
+            [
+              16.0,
+              64.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.0,
+              9.999999960041972e-13
+            ],
+            [
+              0.25,
+              1.0
+            ]
+          ],
+          [
+            [
+              2.25,
+              4.0
+            ],
+            [
+              16.0,
+              64.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 25,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.0,
+              9.999999960041972e-13
+            ],
+            [
+              0.25,
+              1.0
+            ]
+          ],
+          [
+            [
+              2.25,
+              4.0
+            ],
+            [
+              16.0,
+              64.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.0,
+              9.999999960041972e-13
+            ],
+            [
+              0.25,
+              1.0
+            ]
+          ],
+          [
+            [
+              2.25,
+              4.0
+            ],
+            [
+              16.0,
+              64.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 26,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              64.0,
+              16.0
+            ],
+            [
+              4.0,
+              2.25
+            ]
+          ],
+          [
+            [
+              1.0,
+              0.25
+            ],
+            [
+              9.999999960041972e-13,
+              0.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              64.0,
+              16.0
+            ],
+            [
+              4.0,
+              2.25
+            ]
+          ],
+          [
+            [
+              1.0,
+              0.25
+            ],
+            [
+              9.999999960041972e-13,
+              0.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 26,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              64.0,
+              16.0
+            ],
+            [
+              4.0,
+              2.25
+            ]
+          ],
+          [
+            [
+              1.0,
+              0.25
+            ],
+            [
+              9.999999960041972e-13,
+              0.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              64.0,
+              16.0
+            ],
+            [
+              4.0,
+              2.25
+            ]
+          ],
+          [
+            [
+              1.0,
+              0.25
+            ],
+            [
+              9.999999960041972e-13,
+              0.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 26,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              64.0,
+              16.0
+            ],
+            [
+              4.0,
+              2.25
+            ]
+          ],
+          [
+            [
+              1.0,
+              0.25
+            ],
+            [
+              9.999999960041972e-13,
+              0.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              64.0,
+              16.0
+            ],
+            [
+              4.0,
+              2.25
+            ]
+          ],
+          [
+            [
+              1.0,
+              0.25
+            ],
+            [
+              9.999999960041972e-13,
+              0.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 27,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              9.999999960041972e-13,
+              0.25
+            ],
+            [
+              1.0,
+              2.25
+            ]
+          ],
+          [
+            [
+              4.0,
+              16.0
+            ],
+            [
+              64.0,
+              64.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              9.999999960041972e-13,
+              0.25
+            ],
+            [
+              1.0,
+              2.25
+            ]
+          ],
+          [
+            [
+              4.0,
+              16.0
+            ],
+            [
+              64.0,
+              64.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 27,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              9.999999960041972e-13,
+              0.25
+            ],
+            [
+              1.0,
+              2.25
+            ]
+          ],
+          [
+            [
+              4.0,
+              16.0
+            ],
+            [
+              64.0,
+              64.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              9.999999960041972e-13,
+              0.25
+            ],
+            [
+              1.0,
+              2.25
+            ]
+          ],
+          [
+            [
+              4.0,
+              16.0
+            ],
+            [
+              64.0,
+              64.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 27,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              9.999999960041972e-13,
+              0.25
+            ],
+            [
+              1.0,
+              2.25
+            ]
+          ],
+          [
+            [
+              4.0,
+              16.0
+            ],
+            [
+              64.0,
+              64.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              9.999999960041972e-13,
+              0.25
+            ],
+            [
+              1.0,
+              2.25
+            ]
+          ],
+          [
+            [
+              4.0,
+              16.0
+            ],
+            [
+              64.0,
+              64.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 28,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.1723214089870453,
+              26.32540512084961
+            ],
+            [
+              56.3317985534668,
+              10.64940357208252
+            ]
+          ],
+          [
+            [
+              3.9987707138061523,
+              38.003074645996094
+            ],
+            [
+              0.054847896099090576,
+              35.59540939331055
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.1723214089870453,
+              26.32540512084961
+            ],
+            [
+              56.3317985534668,
+              10.64940357208252
+            ]
+          ],
+          [
+            [
+              3.9987707138061523,
+              38.003074645996094
+            ],
+            [
+              0.054847896099090576,
+              35.59540939331055
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 28,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.1723214089870453,
+              26.32540512084961
+            ],
+            [
+              56.3317985534668,
+              10.64940357208252
+            ]
+          ],
+          [
+            [
+              3.9987707138061523,
+              38.003074645996094
+            ],
+            [
+              0.054847896099090576,
+              35.59540939331055
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.1723214089870453,
+              26.32540512084961
+            ],
+            [
+              56.3317985534668,
+              10.64940357208252
+            ]
+          ],
+          [
+            [
+              3.9987707138061523,
+              38.003074645996094
+            ],
+            [
+              0.054847896099090576,
+              35.59540939331055
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 28,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.1723214089870453,
+              26.32540512084961
+            ],
+            [
+              56.3317985534668,
+              10.64940357208252
+            ]
+          ],
+          [
+            [
+              3.9987707138061523,
+              38.003074645996094
+            ],
+            [
+              0.054847896099090576,
+              35.59540939331055
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.1723214089870453,
+              26.32540512084961
+            ],
+            [
+              56.3317985534668,
+              10.64940357208252
+            ]
+          ],
+          [
+            [
+              3.9987707138061523,
+              38.003074645996094
+            ],
+            [
+              0.054847896099090576,
+              35.59540939331055
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 29,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              14.148128509521484,
+              33.226558685302734
+            ],
+            [
+              7.550321578979492,
+              49.9930534362793
+            ]
+          ],
+          [
+            [
+              50.055137634277344,
+              12.66550350189209
+            ],
+            [
+              26.536638259887695,
+              37.69508361816406
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              14.148128509521484,
+              33.226558685302734
+            ],
+            [
+              7.550321578979492,
+              49.9930534362793
+            ]
+          ],
+          [
+            [
+              50.055137634277344,
+              12.66550350189209
+            ],
+            [
+              26.536638259887695,
+              37.69508361816406
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 29,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              14.148128509521484,
+              33.226558685302734
+            ],
+            [
+              7.550321578979492,
+              49.9930534362793
+            ]
+          ],
+          [
+            [
+              50.055137634277344,
+              12.66550350189209
+            ],
+            [
+              26.536638259887695,
+              37.69508361816406
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              14.148128509521484,
+              33.226558685302734
+            ],
+            [
+              7.550321578979492,
+              49.9930534362793
+            ]
+          ],
+          [
+            [
+              50.055137634277344,
+              12.66550350189209
+            ],
+            [
+              26.536638259887695,
+              37.69508361816406
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 29,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              14.148128509521484,
+              33.226558685302734
+            ],
+            [
+              7.550321578979492,
+              49.9930534362793
+            ]
+          ],
+          [
+            [
+              50.055137634277344,
+              12.66550350189209
+            ],
+            [
+              26.536638259887695,
+              37.69508361816406
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              14.148128509521484,
+              33.226558685302734
+            ],
+            [
+              7.550321578979492,
+              49.9930534362793
+            ]
+          ],
+          [
+            [
+              50.055137634277344,
+              12.66550350189209
+            ],
+            [
+              26.536638259887695,
+              37.69508361816406
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 30,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              61.115142822265625,
+              1.4425888061523438
+            ],
+            [
+              34.10671615600586,
+              0.5864689946174622
+            ]
+          ],
+          [
+            [
+              0.05917704850435257,
+              9.307788848876953
+            ],
+            [
+              31.38983917236328,
+              2.7306644916534424
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              61.115142822265625,
+              1.4425888061523438
+            ],
+            [
+              34.10671615600586,
+              0.5864689946174622
+            ]
+          ],
+          [
+            [
+              0.05917704850435257,
+              9.307788848876953
+            ],
+            [
+              31.38983917236328,
+              2.7306644916534424
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 30,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              61.115142822265625,
+              1.4425888061523438
+            ],
+            [
+              34.10671615600586,
+              0.5864689946174622
+            ]
+          ],
+          [
+            [
+              0.05917704850435257,
+              9.307788848876953
+            ],
+            [
+              31.38983917236328,
+              2.7306644916534424
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              61.115142822265625,
+              1.4425888061523438
+            ],
+            [
+              34.10671615600586,
+              0.5864689946174622
+            ]
+          ],
+          [
+            [
+              0.05917704850435257,
+              9.307788848876953
+            ],
+            [
+              31.38983917236328,
+              2.7306644916534424
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 30,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              61.115142822265625,
+              1.4425888061523438
+            ],
+            [
+              34.10671615600586,
+              0.5864689946174622
+            ]
+          ],
+          [
+            [
+              0.05917704850435257,
+              9.307788848876953
+            ],
+            [
+              31.38983917236328,
+              2.7306644916534424
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              61.115142822265625,
+              1.4425888061523438
+            ],
+            [
+              34.10671615600586,
+              0.5864689946174622
+            ]
+          ],
+          [
+            [
+              0.05917704850435257,
+              9.307788848876953
+            ],
+            [
+              31.38983917236328,
+              2.7306644916534424
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 31,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              25.990276336669922,
+              0.2539045810699463
+            ],
+            [
+              2.9135589599609375,
+              11.727538108825684
+            ]
+          ],
+          [
+            [
+              14.81711196899414,
+              35.607574462890625
+            ],
+            [
+              13.839824676513672,
+              50.506072998046875
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              25.990276336669922,
+              0.2539045810699463
+            ],
+            [
+              2.9135589599609375,
+              11.727538108825684
+            ]
+          ],
+          [
+            [
+              14.81711196899414,
+              35.607574462890625
+            ],
+            [
+              13.839824676513672,
+              50.506072998046875
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 31,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              25.990276336669922,
+              0.2539045810699463
+            ],
+            [
+              2.9135589599609375,
+              11.727538108825684
+            ]
+          ],
+          [
+            [
+              14.81711196899414,
+              35.607574462890625
+            ],
+            [
+              13.839824676513672,
+              50.506072998046875
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              25.990276336669922,
+              0.2539045810699463
+            ],
+            [
+              2.9135589599609375,
+              11.727538108825684
+            ]
+          ],
+          [
+            [
+              14.81711196899414,
+              35.607574462890625
+            ],
+            [
+              13.839824676513672,
+              50.506072998046875
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 31,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              25.990276336669922,
+              0.2539045810699463
+            ],
+            [
+              2.9135589599609375,
+              11.727538108825684
+            ]
+          ],
+          [
+            [
+              14.81711196899414,
+              35.607574462890625
+            ],
+            [
+              13.839824676513672,
+              50.506072998046875
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              25.990276336669922,
+              0.2539045810699463
+            ],
+            [
+              2.9135589599609375,
+              11.727538108825684
+            ]
+          ],
+          [
+            [
+              14.81711196899414,
+              35.607574462890625
+            ],
+            [
+              13.839824676513672,
+              50.506072998046875
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 32,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 64.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 64.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 32,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 64.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 64.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 32,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 64.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 64.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 33,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 64.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 64.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 33,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 64.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 64.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 33,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 64.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 64.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 34,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 16.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 16.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 34,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 16.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 16.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 34,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 16.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 16.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 35,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 35,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 35,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 36,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 52.275717119839676,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 52.275717119839676,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 36,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 52.275717119839676,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 52.275717119839676,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 36,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 52.275717119839676,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 52.275717119839676,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 37,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 13.174210906888414,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 13.174210906888414,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 37,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 13.174210906888414,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 13.174210906888414,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 37,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 13.174210906888414,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 13.174210906888414,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 38,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 5.572211411738309,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 5.572211411738309,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 38,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 5.572211411738309,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 5.572211411738309,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 38,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 5.572211411738309,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 5.572211411738309,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 39,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 0.9001218144551895,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 0.9001218144551895,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 39,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 0.9001218144551895,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 0.9001218144551895,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 39,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 0.9001218144551895,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 0.9001218144551895,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 40,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        64.0,
+        64.0,
+        16.0,
+        4.0,
+        2.25,
+        1.0,
+        0.25,
+        1e-12
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        64.0,
+        64.0,
+        16.0,
+        4.0,
+        2.25,
+        1.0,
+        0.25,
+        1e-12
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 40,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        64.0,
+        64.0,
+        16.0,
+        4.0,
+        2.25,
+        1.0,
+        0.25,
+        1e-12
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        64.0,
+        64.0,
+        16.0,
+        4.0,
+        2.25,
+        1.0,
+        0.25,
+        1e-12
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 40,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        64.0,
+        64.0,
+        16.0,
+        4.0,
+        2.25,
+        1.0,
+        0.25,
+        1e-12
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        64.0,
+        64.0,
+        16.0,
+        4.0,
+        2.25,
+        1.0,
+        0.25,
+        1e-12
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 41,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.0,
+        1e-12,
+        0.25,
+        1.0,
+        2.25,
+        4.0,
+        16.0,
+        64.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.0,
+        1e-12,
+        0.25,
+        1.0,
+        2.25,
+        4.0,
+        16.0,
+        64.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 41,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.0,
+        1e-12,
+        0.25,
+        1.0,
+        2.25,
+        4.0,
+        16.0,
+        64.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.0,
+        1e-12,
+        0.25,
+        1.0,
+        2.25,
+        4.0,
+        16.0,
+        64.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 41,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.0,
+        1e-12,
+        0.25,
+        1.0,
+        2.25,
+        4.0,
+        16.0,
+        64.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.0,
+        1e-12,
+        0.25,
+        1.0,
+        2.25,
+        4.0,
+        16.0,
+        64.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 42,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        64.0,
+        16.0,
+        4.0,
+        2.25,
+        1.0,
+        0.25,
+        1e-12,
+        0.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        64.0,
+        16.0,
+        4.0,
+        2.25,
+        1.0,
+        0.25,
+        1e-12,
+        0.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 42,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        64.0,
+        16.0,
+        4.0,
+        2.25,
+        1.0,
+        0.25,
+        1e-12,
+        0.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        64.0,
+        16.0,
+        4.0,
+        2.25,
+        1.0,
+        0.25,
+        1e-12,
+        0.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 42,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        64.0,
+        16.0,
+        4.0,
+        2.25,
+        1.0,
+        0.25,
+        1e-12,
+        0.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        64.0,
+        16.0,
+        4.0,
+        2.25,
+        1.0,
+        0.25,
+        1e-12,
+        0.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 43,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        1e-12,
+        0.25,
+        1.0,
+        2.25,
+        4.0,
+        16.0,
+        64.0,
+        64.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        1e-12,
+        0.25,
+        1.0,
+        2.25,
+        4.0,
+        16.0,
+        64.0,
+        64.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 43,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        1e-12,
+        0.25,
+        1.0,
+        2.25,
+        4.0,
+        16.0,
+        64.0,
+        64.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        1e-12,
+        0.25,
+        1.0,
+        2.25,
+        4.0,
+        16.0,
+        64.0,
+        64.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 43,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        1e-12,
+        0.25,
+        1.0,
+        2.25,
+        4.0,
+        16.0,
+        64.0,
+        64.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        1e-12,
+        0.25,
+        1.0,
+        2.25,
+        4.0,
+        16.0,
+        64.0,
+        64.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 44,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        16.891036950745928,
+        17.604330572321544,
+        19.799680201916026,
+        60.12610854953893,
+        9.278800007590926,
+        18.64110668672871,
+        41.67594120584696,
+        39.96319138626796
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        16.891036950745928,
+        17.604330572321544,
+        19.799680201916026,
+        60.12610854953893,
+        9.278800007590926,
+        18.64110668672871,
+        41.67594120584696,
+        39.96319138626796
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 44,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        16.891036950745928,
+        17.604330572321544,
+        19.799680201916026,
+        60.12610854953893,
+        9.278800007590926,
+        18.64110668672871,
+        41.67594120584696,
+        39.96319138626796
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        16.891036950745928,
+        17.604330572321544,
+        19.799680201916026,
+        60.12610854953893,
+        9.278800007590926,
+        18.64110668672871,
+        41.67594120584696,
+        39.96319138626796
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 44,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        16.891036950745928,
+        17.604330572321544,
+        19.799680201916026,
+        60.12610854953893,
+        9.278800007590926,
+        18.64110668672871,
+        41.67594120584696,
+        39.96319138626796
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        16.891036950745928,
+        17.604330572321544,
+        19.799680201916026,
+        60.12610854953893,
+        9.278800007590926,
+        18.64110668672871,
+        41.67594120584696,
+        39.96319138626796
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 45,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.058004698188788055,
+        2.232972504873975,
+        7.238151436432808,
+        56.00684155034211,
+        20.321505342960624,
+        16.80768188931605,
+        4.817573273601893,
+        20.023066966973257
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.058004698188788055,
+        2.232972504873975,
+        7.238151436432808,
+        56.00684155034211,
+        20.321505342960624,
+        16.80768188931605,
+        4.817573273601893,
+        20.023066966973257
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 45,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.058004698188788055,
+        2.232972504873975,
+        7.238151436432808,
+        56.00684155034211,
+        20.321505342960624,
+        16.80768188931605,
+        4.817573273601893,
+        20.023066966973257
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.058004698188788055,
+        2.232972504873975,
+        7.238151436432808,
+        56.00684155034211,
+        20.321505342960624,
+        16.80768188931605,
+        4.817573273601893,
+        20.023066966973257
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 45,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.058004698188788055,
+        2.232972504873975,
+        7.238151436432808,
+        56.00684155034211,
+        20.321505342960624,
+        16.80768188931605,
+        4.817573273601893,
+        20.023066966973257
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.058004698188788055,
+        2.232972504873975,
+        7.238151436432808,
+        56.00684155034211,
+        20.321505342960624,
+        16.80768188931605,
+        4.817573273601893,
+        20.023066966973257
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 46,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        39.23661891354815,
+        61.67638180784949,
+        41.62706194192065,
+        4.152009543050851,
+        0.3771091519240654,
+        2.497503812929217,
+        22.56692215540252,
+        42.278572795247555
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        39.23661891354815,
+        61.67638180784949,
+        41.62706194192065,
+        4.152009543050851,
+        0.3771091519240654,
+        2.497503812929217,
+        22.56692215540252,
+        42.278572795247555
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 46,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        39.23661891354815,
+        61.67638180784949,
+        41.62706194192065,
+        4.152009543050851,
+        0.3771091519240654,
+        2.497503812929217,
+        22.56692215540252,
+        42.278572795247555
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        39.23661891354815,
+        61.67638180784949,
+        41.62706194192065,
+        4.152009543050851,
+        0.3771091519240654,
+        2.497503812929217,
+        22.56692215540252,
+        42.278572795247555
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 46,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        39.23661891354815,
+        61.67638180784949,
+        41.62706194192065,
+        4.152009543050851,
+        0.3771091519240654,
+        2.497503812929217,
+        22.56692215540252,
+        42.278572795247555
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        39.23661891354815,
+        61.67638180784949,
+        41.62706194192065,
+        4.152009543050851,
+        0.3771091519240654,
+        2.497503812929217,
+        22.56692215540252,
+        42.278572795247555
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 47,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        45.418746315696694,
+        0.08147803245416904,
+        17.172673014848854,
+        1.0418072193583356,
+        3.859853134695857,
+        9.512986880070187,
+        53.5443825200147,
+        58.56753003912683
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        45.418746315696694,
+        0.08147803245416904,
+        17.172673014848854,
+        1.0418072193583356,
+        3.859853134695857,
+        9.512986880070187,
+        53.5443825200147,
+        58.56753003912683
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 47,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        45.418746315696694,
+        0.08147803245416904,
+        17.172673014848854,
+        1.0418072193583356,
+        3.859853134695857,
+        9.512986880070187,
+        53.5443825200147,
+        58.56753003912683
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        45.418746315696694,
+        0.08147803245416904,
+        17.172673014848854,
+        1.0418072193583356,
+        3.859853134695857,
+        9.512986880070187,
+        53.5443825200147,
+        58.56753003912683
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 47,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        45.418746315696694,
+        0.08147803245416904,
+        17.172673014848854,
+        1.0418072193583356,
+        3.859853134695857,
+        9.512986880070187,
+        53.5443825200147,
+        58.56753003912683
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        45.418746315696694,
+        0.08147803245416904,
+        17.172673014848854,
+        1.0418072193583356,
+        3.859853134695857,
+        9.512986880070187,
+        53.5443825200147,
+        58.56753003912683
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 48,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          64.0,
+          64.0,
+          16.0,
+          4.0
+        ],
+        [
+          2.25,
+          1.0,
+          0.25,
+          1e-12
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          64.0,
+          64.0,
+          16.0,
+          4.0
+        ],
+        [
+          2.25,
+          1.0,
+          0.25,
+          1e-12
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 48,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          64.0,
+          64.0,
+          16.0,
+          4.0
+        ],
+        [
+          2.25,
+          1.0,
+          0.25,
+          1e-12
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          64.0,
+          64.0,
+          16.0,
+          4.0
+        ],
+        [
+          2.25,
+          1.0,
+          0.25,
+          1e-12
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 48,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          64.0,
+          64.0,
+          16.0,
+          4.0
+        ],
+        [
+          2.25,
+          1.0,
+          0.25,
+          1e-12
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          64.0,
+          64.0,
+          16.0,
+          4.0
+        ],
+        [
+          2.25,
+          1.0,
+          0.25,
+          1e-12
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 49,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.0,
+          1e-12,
+          0.25,
+          1.0
+        ],
+        [
+          2.25,
+          4.0,
+          16.0,
+          64.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.0,
+          1e-12,
+          0.25,
+          1.0
+        ],
+        [
+          2.25,
+          4.0,
+          16.0,
+          64.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 49,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.0,
+          1e-12,
+          0.25,
+          1.0
+        ],
+        [
+          2.25,
+          4.0,
+          16.0,
+          64.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.0,
+          1e-12,
+          0.25,
+          1.0
+        ],
+        [
+          2.25,
+          4.0,
+          16.0,
+          64.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 49,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.0,
+          1e-12,
+          0.25,
+          1.0
+        ],
+        [
+          2.25,
+          4.0,
+          16.0,
+          64.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.0,
+          1e-12,
+          0.25,
+          1.0
+        ],
+        [
+          2.25,
+          4.0,
+          16.0,
+          64.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 50,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          64.0,
+          16.0,
+          4.0,
+          2.25
+        ],
+        [
+          1.0,
+          0.25,
+          1e-12,
+          0.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          64.0,
+          16.0,
+          4.0,
+          2.25
+        ],
+        [
+          1.0,
+          0.25,
+          1e-12,
+          0.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 50,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          64.0,
+          16.0,
+          4.0,
+          2.25
+        ],
+        [
+          1.0,
+          0.25,
+          1e-12,
+          0.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          64.0,
+          16.0,
+          4.0,
+          2.25
+        ],
+        [
+          1.0,
+          0.25,
+          1e-12,
+          0.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 50,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          64.0,
+          16.0,
+          4.0,
+          2.25
+        ],
+        [
+          1.0,
+          0.25,
+          1e-12,
+          0.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          64.0,
+          16.0,
+          4.0,
+          2.25
+        ],
+        [
+          1.0,
+          0.25,
+          1e-12,
+          0.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 51,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          1e-12,
+          0.25,
+          1.0,
+          2.25
+        ],
+        [
+          4.0,
+          16.0,
+          64.0,
+          64.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          1e-12,
+          0.25,
+          1.0,
+          2.25
+        ],
+        [
+          4.0,
+          16.0,
+          64.0,
+          64.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 51,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          1e-12,
+          0.25,
+          1.0,
+          2.25
+        ],
+        [
+          4.0,
+          16.0,
+          64.0,
+          64.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          1e-12,
+          0.25,
+          1.0,
+          2.25
+        ],
+        [
+          4.0,
+          16.0,
+          64.0,
+          64.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 51,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          1e-12,
+          0.25,
+          1.0,
+          2.25
+        ],
+        [
+          4.0,
+          16.0,
+          64.0,
+          64.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          1e-12,
+          0.25,
+          1.0,
+          2.25
+        ],
+        [
+          4.0,
+          16.0,
+          64.0,
+          64.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 52,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.2549542552925052,
+          30.64048640248818,
+          1.7683291599969075,
+          33.92008121525966
+        ],
+        [
+          4.908001232998922,
+          43.377277709179786,
+          2.1394702225744116,
+          36.35195179785637
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.2549542552925052,
+          30.64048640248818,
+          1.7683291599969075,
+          33.92008121525966
+        ],
+        [
+          4.908001232998922,
+          43.377277709179786,
+          2.1394702225744116,
+          36.35195179785637
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 52,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.2549542552925052,
+          30.64048640248818,
+          1.7683291599969075,
+          33.92008121525966
+        ],
+        [
+          4.908001232998922,
+          43.377277709179786,
+          2.1394702225744116,
+          36.35195179785637
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.2549542552925052,
+          30.64048640248818,
+          1.7683291599969075,
+          33.92008121525966
+        ],
+        [
+          4.908001232998922,
+          43.377277709179786,
+          2.1394702225744116,
+          36.35195179785637
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 52,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.2549542552925052,
+          30.64048640248818,
+          1.7683291599969075,
+          33.92008121525966
+        ],
+        [
+          4.908001232998922,
+          43.377277709179786,
+          2.1394702225744116,
+          36.35195179785637
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.2549542552925052,
+          30.64048640248818,
+          1.7683291599969075,
+          33.92008121525966
+        ],
+        [
+          4.908001232998922,
+          43.377277709179786,
+          2.1394702225744116,
+          36.35195179785637
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 53,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          8.27053442267531,
+          2.311163332436269,
+          43.33679551543489,
+          15.780994725317553
+        ],
+        [
+          7.854255881186092,
+          3.8220209958421876,
+          3.6682320866567193,
+          0.7155598938681669
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          8.27053442267531,
+          2.311163332436269,
+          43.33679551543489,
+          15.780994725317553
+        ],
+        [
+          7.854255881186092,
+          3.8220209958421876,
+          3.6682320866567193,
+          0.7155598938681669
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 53,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          8.27053442267531,
+          2.311163332436269,
+          43.33679551543489,
+          15.780994725317553
+        ],
+        [
+          7.854255881186092,
+          3.8220209958421876,
+          3.6682320866567193,
+          0.7155598938681669
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          8.27053442267531,
+          2.311163332436269,
+          43.33679551543489,
+          15.780994725317553
+        ],
+        [
+          7.854255881186092,
+          3.8220209958421876,
+          3.6682320866567193,
+          0.7155598938681669
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 53,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          8.27053442267531,
+          2.311163332436269,
+          43.33679551543489,
+          15.780994725317553
+        ],
+        [
+          7.854255881186092,
+          3.8220209958421876,
+          3.6682320866567193,
+          0.7155598938681669
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          8.27053442267531,
+          2.311163332436269,
+          43.33679551543489,
+          15.780994725317553
+        ],
+        [
+          7.854255881186092,
+          3.8220209958421876,
+          3.6682320866567193,
+          0.7155598938681669
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 54,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          6.201345431890506,
+          53.97249031986374,
+          12.776452544146363,
+          23.956715099489124
+        ],
+        [
+          2.372150247538325,
+          37.93183300282152,
+          41.2010002678694,
+          5.693638788591715
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          6.201345431890506,
+          53.97249031986374,
+          12.776452544146363,
+          23.956715099489124
+        ],
+        [
+          2.372150247538325,
+          37.93183300282152,
+          41.2010002678694,
+          5.693638788591715
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 54,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          6.201345431890506,
+          53.97249031986374,
+          12.776452544146363,
+          23.956715099489124
+        ],
+        [
+          2.372150247538325,
+          37.93183300282152,
+          41.2010002678694,
+          5.693638788591715
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          6.201345431890506,
+          53.97249031986374,
+          12.776452544146363,
+          23.956715099489124
+        ],
+        [
+          2.372150247538325,
+          37.93183300282152,
+          41.2010002678694,
+          5.693638788591715
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 54,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          6.201345431890506,
+          53.97249031986374,
+          12.776452544146363,
+          23.956715099489124
+        ],
+        [
+          2.372150247538325,
+          37.93183300282152,
+          41.2010002678694,
+          5.693638788591715
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          6.201345431890506,
+          53.97249031986374,
+          12.776452544146363,
+          23.956715099489124
+        ],
+        [
+          2.372150247538325,
+          37.93183300282152,
+          41.2010002678694,
+          5.693638788591715
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 55,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          50.94778952503807,
+          0.4546983260230228,
+          8.026198778751217,
+          1.5506272940748484e-05
+        ],
+        [
+          30.150359346810788,
+          1.5895418765200044,
+          4.167279826132603,
+          1.0068212286095435
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          50.94778952503807,
+          0.4546983260230228,
+          8.026198778751217,
+          1.5506272940748484e-05
+        ],
+        [
+          30.150359346810788,
+          1.5895418765200044,
+          4.167279826132603,
+          1.0068212286095435
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 55,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          50.94778952503807,
+          0.4546983260230228,
+          8.026198778751217,
+          1.5506272940748484e-05
+        ],
+        [
+          30.150359346810788,
+          1.5895418765200044,
+          4.167279826132603,
+          1.0068212286095435
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          50.94778952503807,
+          0.4546983260230228,
+          8.026198778751217,
+          1.5506272940748484e-05
+        ],
+        [
+          30.150359346810788,
+          1.5895418765200044,
+          4.167279826132603,
+          1.0068212286095435
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 55,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          50.94778952503807,
+          0.4546983260230228,
+          8.026198778751217,
+          1.5506272940748484e-05
+        ],
+        [
+          30.150359346810788,
+          1.5895418765200044,
+          4.167279826132603,
+          1.0068212286095435
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          50.94778952503807,
+          0.4546983260230228,
+          8.026198778751217,
+          1.5506272940748484e-05
+        ],
+        [
+          30.150359346810788,
+          1.5895418765200044,
+          4.167279826132603,
+          1.0068212286095435
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 56,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              64.0,
+              64.0
+            ],
+            [
+              16.0,
+              4.0
+            ]
+          ],
+          [
+            [
+              2.25,
+              1.0
+            ],
+            [
+              0.25,
+              1e-12
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              64.0,
+              64.0
+            ],
+            [
+              16.0,
+              4.0
+            ]
+          ],
+          [
+            [
+              2.25,
+              1.0
+            ],
+            [
+              0.25,
+              1e-12
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 56,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              64.0,
+              64.0
+            ],
+            [
+              16.0,
+              4.0
+            ]
+          ],
+          [
+            [
+              2.25,
+              1.0
+            ],
+            [
+              0.25,
+              1e-12
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              64.0,
+              64.0
+            ],
+            [
+              16.0,
+              4.0
+            ]
+          ],
+          [
+            [
+              2.25,
+              1.0
+            ],
+            [
+              0.25,
+              1e-12
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 56,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              64.0,
+              64.0
+            ],
+            [
+              16.0,
+              4.0
+            ]
+          ],
+          [
+            [
+              2.25,
+              1.0
+            ],
+            [
+              0.25,
+              1e-12
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              64.0,
+              64.0
+            ],
+            [
+              16.0,
+              4.0
+            ]
+          ],
+          [
+            [
+              2.25,
+              1.0
+            ],
+            [
+              0.25,
+              1e-12
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 57,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.0,
+              1e-12
+            ],
+            [
+              0.25,
+              1.0
+            ]
+          ],
+          [
+            [
+              2.25,
+              4.0
+            ],
+            [
+              16.0,
+              64.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.0,
+              1e-12
+            ],
+            [
+              0.25,
+              1.0
+            ]
+          ],
+          [
+            [
+              2.25,
+              4.0
+            ],
+            [
+              16.0,
+              64.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 57,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.0,
+              1e-12
+            ],
+            [
+              0.25,
+              1.0
+            ]
+          ],
+          [
+            [
+              2.25,
+              4.0
+            ],
+            [
+              16.0,
+              64.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.0,
+              1e-12
+            ],
+            [
+              0.25,
+              1.0
+            ]
+          ],
+          [
+            [
+              2.25,
+              4.0
+            ],
+            [
+              16.0,
+              64.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 57,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.0,
+              1e-12
+            ],
+            [
+              0.25,
+              1.0
+            ]
+          ],
+          [
+            [
+              2.25,
+              4.0
+            ],
+            [
+              16.0,
+              64.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.0,
+              1e-12
+            ],
+            [
+              0.25,
+              1.0
+            ]
+          ],
+          [
+            [
+              2.25,
+              4.0
+            ],
+            [
+              16.0,
+              64.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 58,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              64.0,
+              16.0
+            ],
+            [
+              4.0,
+              2.25
+            ]
+          ],
+          [
+            [
+              1.0,
+              0.25
+            ],
+            [
+              1e-12,
+              0.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              64.0,
+              16.0
+            ],
+            [
+              4.0,
+              2.25
+            ]
+          ],
+          [
+            [
+              1.0,
+              0.25
+            ],
+            [
+              1e-12,
+              0.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 58,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              64.0,
+              16.0
+            ],
+            [
+              4.0,
+              2.25
+            ]
+          ],
+          [
+            [
+              1.0,
+              0.25
+            ],
+            [
+              1e-12,
+              0.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              64.0,
+              16.0
+            ],
+            [
+              4.0,
+              2.25
+            ]
+          ],
+          [
+            [
+              1.0,
+              0.25
+            ],
+            [
+              1e-12,
+              0.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 58,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              64.0,
+              16.0
+            ],
+            [
+              4.0,
+              2.25
+            ]
+          ],
+          [
+            [
+              1.0,
+              0.25
+            ],
+            [
+              1e-12,
+              0.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              64.0,
+              16.0
+            ],
+            [
+              4.0,
+              2.25
+            ]
+          ],
+          [
+            [
+              1.0,
+              0.25
+            ],
+            [
+              1e-12,
+              0.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 59,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1e-12,
+              0.25
+            ],
+            [
+              1.0,
+              2.25
+            ]
+          ],
+          [
+            [
+              4.0,
+              16.0
+            ],
+            [
+              64.0,
+              64.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1e-12,
+              0.25
+            ],
+            [
+              1.0,
+              2.25
+            ]
+          ],
+          [
+            [
+              4.0,
+              16.0
+            ],
+            [
+              64.0,
+              64.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 59,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1e-12,
+              0.25
+            ],
+            [
+              1.0,
+              2.25
+            ]
+          ],
+          [
+            [
+              4.0,
+              16.0
+            ],
+            [
+              64.0,
+              64.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1e-12,
+              0.25
+            ],
+            [
+              1.0,
+              2.25
+            ]
+          ],
+          [
+            [
+              4.0,
+              16.0
+            ],
+            [
+              64.0,
+              64.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 59,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1e-12,
+              0.25
+            ],
+            [
+              1.0,
+              2.25
+            ]
+          ],
+          [
+            [
+              4.0,
+              16.0
+            ],
+            [
+              64.0,
+              64.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1e-12,
+              0.25
+            ],
+            [
+              1.0,
+              2.25
+            ]
+          ],
+          [
+            [
+              4.0,
+              16.0
+            ],
+            [
+              64.0,
+              64.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 60,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              12.061251559031145,
+              2.6634128217783544
+            ],
+            [
+              33.0039483187968,
+              9.995761163610695
+            ]
+          ],
+          [
+            [
+              14.842528886659041,
+              0.08118023113516286
+            ],
+            [
+              21.923299271059648,
+              55.29560860321641
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              12.061251559031145,
+              2.6634128217783544
+            ],
+            [
+              33.0039483187968,
+              9.995761163610695
+            ]
+          ],
+          [
+            [
+              14.842528886659041,
+              0.08118023113516286
+            ],
+            [
+              21.923299271059648,
+              55.29560860321641
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 60,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              12.061251559031145,
+              2.6634128217783544
+            ],
+            [
+              33.0039483187968,
+              9.995761163610695
+            ]
+          ],
+          [
+            [
+              14.842528886659041,
+              0.08118023113516286
+            ],
+            [
+              21.923299271059648,
+              55.29560860321641
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              12.061251559031145,
+              2.6634128217783544
+            ],
+            [
+              33.0039483187968,
+              9.995761163610695
+            ]
+          ],
+          [
+            [
+              14.842528886659041,
+              0.08118023113516286
+            ],
+            [
+              21.923299271059648,
+              55.29560860321641
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 60,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              12.061251559031145,
+              2.6634128217783544
+            ],
+            [
+              33.0039483187968,
+              9.995761163610695
+            ]
+          ],
+          [
+            [
+              14.842528886659041,
+              0.08118023113516286
+            ],
+            [
+              21.923299271059648,
+              55.29560860321641
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              12.061251559031145,
+              2.6634128217783544
+            ],
+            [
+              33.0039483187968,
+              9.995761163610695
+            ]
+          ],
+          [
+            [
+              14.842528886659041,
+              0.08118023113516286
+            ],
+            [
+              21.923299271059648,
+              55.29560860321641
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 61,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              4.145159743561886,
+              13.793728048445827
+            ],
+            [
+              53.443960860703996,
+              42.29802556748799
+            ]
+          ],
+          [
+            [
+              14.992577163269683,
+              44.92223422756571
+            ],
+            [
+              62.869139427751925,
+              0.5151892680336435
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              4.145159743561886,
+              13.793728048445827
+            ],
+            [
+              53.443960860703996,
+              42.29802556748799
+            ]
+          ],
+          [
+            [
+              14.992577163269683,
+              44.92223422756571
+            ],
+            [
+              62.869139427751925,
+              0.5151892680336435
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 61,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              4.145159743561886,
+              13.793728048445827
+            ],
+            [
+              53.443960860703996,
+              42.29802556748799
+            ]
+          ],
+          [
+            [
+              14.992577163269683,
+              44.92223422756571
+            ],
+            [
+              62.869139427751925,
+              0.5151892680336435
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              4.145159743561886,
+              13.793728048445827
+            ],
+            [
+              53.443960860703996,
+              42.29802556748799
+            ]
+          ],
+          [
+            [
+              14.992577163269683,
+              44.92223422756571
+            ],
+            [
+              62.869139427751925,
+              0.5151892680336435
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 61,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              4.145159743561886,
+              13.793728048445827
+            ],
+            [
+              53.443960860703996,
+              42.29802556748799
+            ]
+          ],
+          [
+            [
+              14.992577163269683,
+              44.92223422756571
+            ],
+            [
+              62.869139427751925,
+              0.5151892680336435
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              4.145159743561886,
+              13.793728048445827
+            ],
+            [
+              53.443960860703996,
+              42.29802556748799
+            ]
+          ],
+          [
+            [
+              14.992577163269683,
+              44.92223422756571
+            ],
+            [
+              62.869139427751925,
+              0.5151892680336435
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 62,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              20.54458710897685,
+              16.523682381098133
+            ],
+            [
+              62.21948469890101,
+              7.589121563836473
+            ]
+          ],
+          [
+            [
+              0.20719838743638316,
+              36.43487777719027
+            ],
+            [
+              56.692148713493964,
+              39.88808361281106
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              20.54458710897685,
+              16.523682381098133
+            ],
+            [
+              62.21948469890101,
+              7.589121563836473
+            ]
+          ],
+          [
+            [
+              0.20719838743638316,
+              36.43487777719027
+            ],
+            [
+              56.692148713493964,
+              39.88808361281106
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 62,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              20.54458710897685,
+              16.523682381098133
+            ],
+            [
+              62.21948469890101,
+              7.589121563836473
+            ]
+          ],
+          [
+            [
+              0.20719838743638316,
+              36.43487777719027
+            ],
+            [
+              56.692148713493964,
+              39.88808361281106
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              20.54458710897685,
+              16.523682381098133
+            ],
+            [
+              62.21948469890101,
+              7.589121563836473
+            ]
+          ],
+          [
+            [
+              0.20719838743638316,
+              36.43487777719027
+            ],
+            [
+              56.692148713493964,
+              39.88808361281106
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 62,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              20.54458710897685,
+              16.523682381098133
+            ],
+            [
+              62.21948469890101,
+              7.589121563836473
+            ]
+          ],
+          [
+            [
+              0.20719838743638316,
+              36.43487777719027
+            ],
+            [
+              56.692148713493964,
+              39.88808361281106
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              20.54458710897685,
+              16.523682381098133
+            ],
+            [
+              62.21948469890101,
+              7.589121563836473
+            ]
+          ],
+          [
+            [
+              0.20719838743638316,
+              36.43487777719027
+            ],
+            [
+              56.692148713493964,
+              39.88808361281106
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 63,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              42.41029908027443,
+              2.288103432603599
+            ],
+            [
+              26.79857791108378,
+              2.9505102357033954
+            ]
+          ],
+          [
+            [
+              28.950991420928943,
+              0.3510395999831184
+            ],
+            [
+              53.138648300889734,
+              16.856921454231976
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              42.41029908027443,
+              2.288103432603599
+            ],
+            [
+              26.79857791108378,
+              2.9505102357033954
+            ]
+          ],
+          [
+            [
+              28.950991420928943,
+              0.3510395999831184
+            ],
+            [
+              53.138648300889734,
+              16.856921454231976
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 63,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              42.41029908027443,
+              2.288103432603599
+            ],
+            [
+              26.79857791108378,
+              2.9505102357033954
+            ]
+          ],
+          [
+            [
+              28.950991420928943,
+              0.3510395999831184
+            ],
+            [
+              53.138648300889734,
+              16.856921454231976
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              42.41029908027443,
+              2.288103432603599
+            ],
+            [
+              26.79857791108378,
+              2.9505102357033954
+            ]
+          ],
+          [
+            [
+              28.950991420928943,
+              0.3510395999831184
+            ],
+            [
+              53.138648300889734,
+              16.856921454231976
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  },
+  {
+    "input_index": 63,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              42.41029908027443,
+              2.288103432603599
+            ],
+            [
+              26.79857791108378,
+              2.9505102357033954
+            ]
+          ],
+          [
+            [
+              28.950991420928943,
+              0.3510395999831184
+            ],
+            [
+              53.138648300889734,
+              16.856921454231976
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              42.41029908027443,
+              2.288103432603599
+            ],
+            [
+              26.79857791108378,
+              2.9505102357033954
+            ]
+          ],
+          [
+            [
+              28.950991420928943,
+              0.3510395999831184
+            ],
+            [
+              53.138648300889734,
+              16.856921454231976
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "torch.square"
+      ]
+    }
+  }
+]

@@ -1,0 +1,1537 @@
+{
+  "versions": {
+    "tensorflow": "2.20.0",
+    "torch": "2.9.1+cpu",
+    "numpy": "2.1.3",
+    "python": "3.11.16 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:36:16) [MSC v.1942 64 bit (AMD64)]"
+  },
+  "records": [
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "source",
+      "mode": "original",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "source",
+      "mode": "original",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "source",
+      "mode": "original",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "source",
+      "mode": "observe",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 2,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "int32",
+            "values": [
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                6
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "int32",
+            "values": [
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                6
+              ]
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "source",
+      "mode": "observe",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 2,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "int32",
+            "values": [
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                6
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "int32",
+            "values": [
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                6
+              ]
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "source",
+      "mode": "observe",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 2,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "int32",
+            "values": [
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                6
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "int32",
+            "values": [
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                6
+              ]
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "source",
+      "mode": "reinject",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 2,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "int32",
+            "values": [
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                6
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "int32",
+            "values": [
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                6
+              ]
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "source",
+      "mode": "reinject",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 2,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "int32",
+            "values": [
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                6
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "int32",
+            "values": [
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                6
+              ]
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "source",
+      "mode": "reinject",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 2,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "int32",
+            "values": [
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                6
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "int32",
+            "values": [
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                6
+              ]
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "source",
+      "mode": "wrong-shape",
+      "repeat": 0,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "int32",
+            "values": [
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                6
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              3,
+              2
+            ],
+            "dtype": "int32",
+            "values": [
+              [
+                [
+                  1,
+                  4
+                ],
+                [
+                  2,
+                  5
+                ],
+                [
+                  3,
+                  6
+                ]
+              ]
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": "Tuples differ: (1, 3, 2) != (3, 2)\n\nFirst differing element 0:\n1\n3\n\nFirst tuple contains 1 additional elements.\nFirst extra element 2:\n2\n\n- (1, 3, 2)\n?  ---\n\n+ (3, 2) : Shape mismatch: expected (1, 3, 2), got (3, 2). Contents: array([[1, 4],\n       [2, 5],\n       [3, 6]]). \n.",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E020-target.py",
+          "line": 9,
+          "name": "testTranspose2DAuto"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3470,
+          "name": "assertAllEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 873,
+          "name": "assertEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1090,
+          "name": "assertTupleEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1061,
+          "name": "assertSequenceEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\absl\\testing\\absltest.py",
+          "line": 2175,
+          "name": "fail"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 703,
+          "name": "fail"
+        }
+      ]
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "source",
+      "mode": "wrong-shape",
+      "repeat": 1,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "int32",
+            "values": [
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                6
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              3,
+              2
+            ],
+            "dtype": "int32",
+            "values": [
+              [
+                [
+                  1,
+                  4
+                ],
+                [
+                  2,
+                  5
+                ],
+                [
+                  3,
+                  6
+                ]
+              ]
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": "Tuples differ: (1, 3, 2) != (3, 2)\n\nFirst differing element 0:\n1\n3\n\nFirst tuple contains 1 additional elements.\nFirst extra element 2:\n2\n\n- (1, 3, 2)\n?  ---\n\n+ (3, 2) : Shape mismatch: expected (1, 3, 2), got (3, 2). Contents: array([[1, 4],\n       [2, 5],\n       [3, 6]]). \n.",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E020-target.py",
+          "line": 9,
+          "name": "testTranspose2DAuto"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3470,
+          "name": "assertAllEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 873,
+          "name": "assertEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1090,
+          "name": "assertTupleEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1061,
+          "name": "assertSequenceEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\absl\\testing\\absltest.py",
+          "line": 2175,
+          "name": "fail"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 703,
+          "name": "fail"
+        }
+      ]
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "source",
+      "mode": "wrong-shape",
+      "repeat": 2,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "int32",
+            "values": [
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                6
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              3,
+              2
+            ],
+            "dtype": "int32",
+            "values": [
+              [
+                [
+                  1,
+                  4
+                ],
+                [
+                  2,
+                  5
+                ],
+                [
+                  3,
+                  6
+                ]
+              ]
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": "Tuples differ: (1, 3, 2) != (3, 2)\n\nFirst differing element 0:\n1\n3\n\nFirst tuple contains 1 additional elements.\nFirst extra element 2:\n2\n\n- (1, 3, 2)\n?  ---\n\n+ (3, 2) : Shape mismatch: expected (1, 3, 2), got (3, 2). Contents: array([[1, 4],\n       [2, 5],\n       [3, 6]]). \n.",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E020-target.py",
+          "line": 9,
+          "name": "testTranspose2DAuto"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3470,
+          "name": "assertAllEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 873,
+          "name": "assertEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1090,
+          "name": "assertTupleEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1061,
+          "name": "assertSequenceEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\absl\\testing\\absltest.py",
+          "line": 2175,
+          "name": "fail"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 703,
+          "name": "fail"
+        }
+      ]
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "source",
+      "mode": "wrong-value",
+      "repeat": 0,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "int32",
+            "values": [
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                6
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "int32",
+            "values": [
+              [
+                11,
+                14
+              ],
+              [
+                12,
+                16
+              ],
+              [
+                13,
+                17
+              ]
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": "\nArrays are not equal\n\nnot equal where = (array([0, 0, 1, 1, 2, 2]), array([0, 1, 0, 1, 0, 1]))\nnot equal lhs = array([11, 14, 12, 16, 13, 17], dtype=int32)\nnot equal rhs = array([1, 4, 2, 5, 3, 6])\nMismatched elements: 6 / 6 (100%)\nMax absolute difference among violations: 11\nMax relative difference among violations: 10.\n ACTUAL: array([[11, 14],\n       [12, 16],\n       [13, 17]], dtype=int32)\n DESIRED: array([[1, 4],\n       [2, 5],\n       [3, 6]])",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E020-target.py",
+          "line": 9,
+          "name": "testTranspose2DAuto"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3511,
+          "name": "assertAllEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\_utils\\__init__.py",
+          "line": 85,
+          "name": "wrapper"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 1025,
+          "name": "assert_array_equal"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\contextlib.py",
+          "line": 81,
+          "name": "inner"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 889,
+          "name": "assert_array_compare"
+        }
+      ]
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "source",
+      "mode": "wrong-value",
+      "repeat": 1,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "int32",
+            "values": [
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                6
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "int32",
+            "values": [
+              [
+                11,
+                14
+              ],
+              [
+                12,
+                16
+              ],
+              [
+                13,
+                17
+              ]
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": "\nArrays are not equal\n\nnot equal where = (array([0, 0, 1, 1, 2, 2]), array([0, 1, 0, 1, 0, 1]))\nnot equal lhs = array([11, 14, 12, 16, 13, 17], dtype=int32)\nnot equal rhs = array([1, 4, 2, 5, 3, 6])\nMismatched elements: 6 / 6 (100%)\nMax absolute difference among violations: 11\nMax relative difference among violations: 10.\n ACTUAL: array([[11, 14],\n       [12, 16],\n       [13, 17]], dtype=int32)\n DESIRED: array([[1, 4],\n       [2, 5],\n       [3, 6]])",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E020-target.py",
+          "line": 9,
+          "name": "testTranspose2DAuto"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3511,
+          "name": "assertAllEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\_utils\\__init__.py",
+          "line": 85,
+          "name": "wrapper"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 1025,
+          "name": "assert_array_equal"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\contextlib.py",
+          "line": 81,
+          "name": "inner"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 889,
+          "name": "assert_array_compare"
+        }
+      ]
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "source",
+      "mode": "wrong-value",
+      "repeat": 2,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "int32",
+            "values": [
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                6
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "int32",
+            "values": [
+              [
+                11,
+                14
+              ],
+              [
+                12,
+                16
+              ],
+              [
+                13,
+                17
+              ]
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": "\nArrays are not equal\n\nnot equal where = (array([0, 0, 1, 1, 2, 2]), array([0, 1, 0, 1, 0, 1]))\nnot equal lhs = array([11, 14, 12, 16, 13, 17], dtype=int32)\nnot equal rhs = array([1, 4, 2, 5, 3, 6])\nMismatched elements: 6 / 6 (100%)\nMax absolute difference among violations: 11\nMax relative difference among violations: 10.\n ACTUAL: array([[11, 14],\n       [12, 16],\n       [13, 17]], dtype=int32)\n DESIRED: array([[1, 4],\n       [2, 5],\n       [3, 6]])",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E020-target.py",
+          "line": 9,
+          "name": "testTranspose2DAuto"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3511,
+          "name": "assertAllEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\_utils\\__init__.py",
+          "line": 85,
+          "name": "wrapper"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 1025,
+          "name": "assert_array_equal"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\contextlib.py",
+          "line": 81,
+          "name": "inner"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 889,
+          "name": "assert_array_compare"
+        }
+      ]
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "target",
+      "mode": "original",
+      "repeat": 0,
+      "status": "execution-error",
+      "phase": "counterpart-execution",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": "TypeError: Tensor.permute() argument after * must be an iterable, not NoneType",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E020-target.py",
+          "line": 8,
+          "name": "testTranspose2DAuto"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 135,
+          "name": "operation"
+        },
+        {
+          "file": "<string>",
+          "line": 4,
+          "name": "pytorch_call"
+        }
+      ]
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "target",
+      "mode": "original",
+      "repeat": 1,
+      "status": "execution-error",
+      "phase": "counterpart-execution",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": "TypeError: Tensor.permute() argument after * must be an iterable, not NoneType",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E020-target.py",
+          "line": 8,
+          "name": "testTranspose2DAuto"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 135,
+          "name": "operation"
+        },
+        {
+          "file": "<string>",
+          "line": 4,
+          "name": "pytorch_call"
+        }
+      ]
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "target",
+      "mode": "original",
+      "repeat": 2,
+      "status": "execution-error",
+      "phase": "counterpart-execution",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": "TypeError: Tensor.permute() argument after * must be an iterable, not NoneType",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E020-target.py",
+          "line": 8,
+          "name": "testTranspose2DAuto"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 135,
+          "name": "operation"
+        },
+        {
+          "file": "<string>",
+          "line": 4,
+          "name": "pytorch_call"
+        }
+      ]
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "target",
+      "mode": "observe",
+      "repeat": 0,
+      "status": "execution-error",
+      "phase": "counterpart-execution",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": "TypeError: Tensor.permute() argument after * must be an iterable, not NoneType",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E020-target.py",
+          "line": 8,
+          "name": "testTranspose2DAuto"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 135,
+          "name": "operation"
+        },
+        {
+          "file": "<string>",
+          "line": 4,
+          "name": "pytorch_call"
+        }
+      ]
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "target",
+      "mode": "observe",
+      "repeat": 1,
+      "status": "execution-error",
+      "phase": "counterpart-execution",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": "TypeError: Tensor.permute() argument after * must be an iterable, not NoneType",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E020-target.py",
+          "line": 8,
+          "name": "testTranspose2DAuto"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 135,
+          "name": "operation"
+        },
+        {
+          "file": "<string>",
+          "line": 4,
+          "name": "pytorch_call"
+        }
+      ]
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "target",
+      "mode": "observe",
+      "repeat": 2,
+      "status": "execution-error",
+      "phase": "counterpart-execution",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": "TypeError: Tensor.permute() argument after * must be an iterable, not NoneType",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E020-target.py",
+          "line": 8,
+          "name": "testTranspose2DAuto"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 135,
+          "name": "operation"
+        },
+        {
+          "file": "<string>",
+          "line": 4,
+          "name": "pytorch_call"
+        }
+      ]
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "target",
+      "mode": "reinject",
+      "repeat": 0,
+      "status": "execution-error",
+      "phase": "counterpart-execution",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": "TypeError: Tensor.permute() argument after * must be an iterable, not NoneType",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E020-target.py",
+          "line": 8,
+          "name": "testTranspose2DAuto"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 135,
+          "name": "operation"
+        },
+        {
+          "file": "<string>",
+          "line": 4,
+          "name": "pytorch_call"
+        }
+      ]
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "target",
+      "mode": "reinject",
+      "repeat": 1,
+      "status": "execution-error",
+      "phase": "counterpart-execution",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": "TypeError: Tensor.permute() argument after * must be an iterable, not NoneType",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E020-target.py",
+          "line": 8,
+          "name": "testTranspose2DAuto"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 135,
+          "name": "operation"
+        },
+        {
+          "file": "<string>",
+          "line": 4,
+          "name": "pytorch_call"
+        }
+      ]
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "target",
+      "mode": "reinject",
+      "repeat": 2,
+      "status": "execution-error",
+      "phase": "counterpart-execution",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": "TypeError: Tensor.permute() argument after * must be an iterable, not NoneType",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E020-target.py",
+          "line": 8,
+          "name": "testTranspose2DAuto"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 135,
+          "name": "operation"
+        },
+        {
+          "file": "<string>",
+          "line": 4,
+          "name": "pytorch_call"
+        }
+      ]
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "target",
+      "mode": "wrong-shape",
+      "repeat": 0,
+      "status": "execution-error",
+      "phase": "counterpart-execution",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": "TypeError: Tensor.permute() argument after * must be an iterable, not NoneType",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E020-target.py",
+          "line": 8,
+          "name": "testTranspose2DAuto"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 135,
+          "name": "operation"
+        },
+        {
+          "file": "<string>",
+          "line": 4,
+          "name": "pytorch_call"
+        }
+      ]
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "target",
+      "mode": "wrong-shape",
+      "repeat": 1,
+      "status": "execution-error",
+      "phase": "counterpart-execution",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": "TypeError: Tensor.permute() argument after * must be an iterable, not NoneType",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E020-target.py",
+          "line": 8,
+          "name": "testTranspose2DAuto"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 135,
+          "name": "operation"
+        },
+        {
+          "file": "<string>",
+          "line": 4,
+          "name": "pytorch_call"
+        }
+      ]
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "target",
+      "mode": "wrong-shape",
+      "repeat": 2,
+      "status": "execution-error",
+      "phase": "counterpart-execution",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": "TypeError: Tensor.permute() argument after * must be an iterable, not NoneType",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E020-target.py",
+          "line": 8,
+          "name": "testTranspose2DAuto"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 135,
+          "name": "operation"
+        },
+        {
+          "file": "<string>",
+          "line": 4,
+          "name": "pytorch_call"
+        }
+      ]
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "target",
+      "mode": "wrong-value",
+      "repeat": 0,
+      "status": "execution-error",
+      "phase": "counterpart-execution",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": "TypeError: Tensor.permute() argument after * must be an iterable, not NoneType",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E020-target.py",
+          "line": 8,
+          "name": "testTranspose2DAuto"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 135,
+          "name": "operation"
+        },
+        {
+          "file": "<string>",
+          "line": 4,
+          "name": "pytorch_call"
+        }
+      ]
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "target",
+      "mode": "wrong-value",
+      "repeat": 1,
+      "status": "execution-error",
+      "phase": "counterpart-execution",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": "TypeError: Tensor.permute() argument after * must be an iterable, not NoneType",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E020-target.py",
+          "line": 8,
+          "name": "testTranspose2DAuto"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 135,
+          "name": "operation"
+        },
+        {
+          "file": "<string>",
+          "line": 4,
+          "name": "pytorch_call"
+        }
+      ]
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "target",
+      "mode": "wrong-value",
+      "repeat": 2,
+      "status": "execution-error",
+      "phase": "counterpart-execution",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": "TypeError: Tensor.permute() argument after * must be an iterable, not NoneType",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E020-target.py",
+          "line": 8,
+          "name": "testTranspose2DAuto"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 135,
+          "name": "operation"
+        },
+        {
+          "file": "<string>",
+          "line": 4,
+          "name": "pytorch_call"
+        }
+      ]
+    }
+  ]
+}

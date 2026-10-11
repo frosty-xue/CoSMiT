@@ -1,0 +1,86 @@
+{
+  "unit_id": "E025",
+  "family": "concat",
+  "cohort": "expansion",
+  "provenance": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.concat.json",
+  "behavior": {
+    "status": "supported-on-qualified-inputs",
+    "scope": "recorded inputs and registered contract only",
+    "inputs": "units/E025/behavior-inputs.json"
+  },
+  "test": {
+    "origin": "newly constructed operation substitution; not historical migrated test",
+    "source_file": "units/E025/source-test.py",
+    "target_file": "units/E025/target-test.py",
+    "registration": {
+      "case_id": "E025",
+      "status": "registered",
+      "file": "upstream/pt_tensor.py",
+      "class": "TestTensorCreation",
+      "methods": [
+        {
+          "method": "test_cat2",
+          "start": 1133,
+          "end": 1152,
+          "decorators": [
+            "onlyCPU",
+            "dtypes(torch.half, torch.double, torch.int)"
+          ]
+        }
+      ],
+      "entry": "test_cat2",
+      "paths": [
+        "torch.cat"
+      ],
+      "kind": "complete-upstream-method-bodies",
+      "parameters": "original method inputs; CPU eager; device/dtype parameter fixed where required; decorator variants excluded",
+      "source_framework": "pytorch",
+      "scope": "new operation-substitution candidates; common source-framework harness; no external migration-quality claim",
+      "assertion_expressions_exact": false,
+      "source_hash": "5c3eb3e073a51de45e0c3f31e1bfbfc67ff66a6b4fe28da6a068753425457332",
+      "target_hash": "2fa067e012038d309305f5cff670e7ee8409c94dc1348a94b66e7f0dbc70ae9e"
+    },
+    "upstream_snapshot": "shared/registered-upstream/pt_tensor.py",
+    "upstream_provenance": "shared/registered-upstream-provenance.json",
+    "input_scope": "units/E025/test-input-scope.json",
+    "records": "units/E025/test-records.json",
+    "runner": "shared/retained-runner.py",
+    "obligations": [
+      "拼接后的各区段等于对应输入",
+      "split/chunk 再拼接恢复原张量",
+      "最终拼接尺寸"
+    ],
+    "scope_gaps": [
+      "值桥接复制了非连续输入，不能验证目标原生非连续布局支持",
+      "形状扰动在 narrow 处发生运行异常，未到相关断言",
+      "仅第一次操作被扰动，不能推出所有区段断言均有独立敏感性证据"
+    ],
+    "review_category": "value-only-probe-reference-candidate",
+    "scenarios": [
+      {
+        "scenario": null,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "probe-runtime-error",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true
+  },
+  "source_test_leads": [],
+  "reference_label": null,
+  "formal_intent_accuracy_eligible": false,
+  "missing": [
+    "独立限域参照标签",
+    "方法共同运行覆盖",
+    "原生类型/布局/别名等未覆盖义务不得默认为保持"
+  ],
+  "operation_files": {
+    "source": "units/E025/source-operation.py",
+    "target": "units/E025/target-operation.py"
+  },
+  "readiness": "constructed-test-evidence-packaged"
+}

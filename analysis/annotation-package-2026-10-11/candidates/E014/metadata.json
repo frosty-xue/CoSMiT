@@ -1,0 +1,21 @@
+{
+  "candidate_id": "E014",
+  "source_api": "tf.math.pow",
+  "target_calls": "torch.pow",
+  "source": {
+    "framework": "tensorflow",
+    "entry": "tensorflow_call"
+  },
+  "target": {
+    "framework": "pytorch",
+    "entry": "pytorch_call"
+  },
+  "cohort": "expansion",
+  "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.pow.json",
+  "operation_sha256": {
+    "source": "429cbe0458e47550dcb7fef7504a0abdf26b177456de527f02138d913229164c",
+    "target": "f31f3838619feb4d85caa5496989e302356b6c6b61500a399dac3765ba404d61"
+  },
+  "test_pair_available": true,
+  "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+}

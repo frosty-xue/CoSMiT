@@ -1,0 +1,21 @@
+{
+  "candidate_id": "D0047",
+  "source_api": "tf.math.log",
+  "target_calls": "torch.log",
+  "source": {
+    "framework": "tensorflow",
+    "entry": "tensorflow_call"
+  },
+  "target": {
+    "framework": "pytorch",
+    "entry": "pytorch_call"
+  },
+  "cohort": "discovery",
+  "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.log.json",
+  "operation_sha256": {
+    "source": "cb163698015cb8cfdc9ced0584a627d3e1241eaa405107f803a0ba0c265a2eec",
+    "target": "bbfec52e470c927193bdd9fdc0edb58fe6e6a8fc0e7871552231ebefa88aeaa3"
+  },
+  "test_pair_available": false,
+  "test_pair_origin": null
+}

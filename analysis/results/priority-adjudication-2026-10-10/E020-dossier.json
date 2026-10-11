@@ -1,0 +1,6783 @@
+{
+  "case_id": "E020",
+  "date": "2026-10-10",
+  "review_kind": "non-blinded specification/code/record triangulation",
+  "source_specs": {
+    "tf.transpose": "Transposes `a`, where `a` is a Tensor.\n\n  Permutes the dimensions according to the value of `perm`.\n\n  The returned tensor's dimension `i` will correspond to the input dimension\n  `perm[i]`. If `perm` is not given, it is set to (n-1...0), where n is the rank\n  of the input tensor. Hence, by default, this operation performs a regular\n  matrix transpose on 2-D input Tensors.\n\n  If conjugate is `True` and `a.dtype` is either `complex64` or `complex128`\n  then the values of `a` are conjugated and transposed.\n\n  @compatibility(numpy)\n  In `numpy` transposes are memory-efficient constant time operations as they\n  simply return a new view of the same data with adjusted `strides`.\n\n  TensorFlow does not support strides, so `transpose` returns a new tensor with\n  the items permuted.\n  @end_compatibility\n\n  For example:\n\n  >>> x = tf.constant([[1, 2, 3], [4, 5, 6]])\n  >>> tf.transpose(x)\n  <tf.Tensor: shape=(3, 2), dtype=int32, numpy=\n  array([[1, 4],\n         [2, 5],\n         [3, 6]], dtype=int32)>\n\n  Equivalently, you could call `tf.transpose(x, perm=[1, 0])`.\n\n  If `x` is complex, setting conjugate=True gives the conjugate transpose:\n\n  >>> x = tf.constant([[1 + 1j, 2 + 2j, 3 + 3j],\n  ...                  [4 + 4j, 5 + 5j, 6 + 6j]])\n  >>> tf.transpose(x, conjugate=True)\n  <tf.Tensor: shape=(3, 2), dtype=complex128, numpy=\n  array([[1.-1.j, 4.-4.j],\n         [2.-2.j, 5.-5.j],\n         [3.-3.j, 6.-6.j]])>\n\n  'perm' is more useful for n-dimensional tensors where n > 2:\n\n  >>> x = tf.constant([[[ 1,  2,  3],\n  ...                   [ 4,  5,  6]],\n  ...                  [[ 7,  8,  9],\n  ...                   [10, 11, 12]]])\n\n  As above, simply calling `tf.transpose` will default to `perm=[2,1,0]`.\n\n  To take the transpose of the matrices in dimension-0 (such as when you are\n  transposing matrices where 0 is the batch dimension), you would set\n  `perm=[0,2,1]`.\n\n  >>> tf.transpose(x, perm=[0, 2, 1])\n  <tf.Tensor: shape=(2, 3, 2), dtype=int32, numpy=\n  array([[[ 1,  4],\n          [ 2,  5],\n          [ 3,  6]],\n          [[ 7, 10],\n          [ 8, 11],\n          [ 9, 12]]], dtype=int32)>\n\n  Note: This has a shorthand `linalg.matrix_transpose`):\n\n  Args:\n    a: A `Tensor`.\n    perm: A permutation of the dimensions of `a`.  This should be a vector.\n    conjugate: Optional bool. Setting it to `True` is mathematically equivalent\n      to tf.math.conj(tf.transpose(input)).\n    name: A name for the operation (optional).\n\n  Returns:\n    A transposed `Tensor`.\n  "
+  },
+  "source_specs_origin": "runtime docstrings saved in source framework records",
+  "counterpart_code": {
+    "source": "def tensorflow_call(a,perm=None,conjugate=False):\n  return tf.transpose(a,perm,conjugate)",
+    "target": "def pytorch_call(a, perm=None, conjugate=False):\n    if conjugate:\n        a = a.conj()\n    return a.permute(*perm)"
+  },
+  "retained_registration": {
+    "case_id": "E020",
+    "status": "registered",
+    "file": "upstream/tf_transpose.py",
+    "class": "TransposeTest",
+    "methods": [
+      {
+        "method": "testTranspose2DAuto",
+        "start": 437,
+        "end": 443,
+        "decorators": []
+      }
+    ],
+    "entry": "testTranspose2DAuto",
+    "paths": [
+      "array_ops.transpose"
+    ],
+    "kind": "complete-upstream-method-bodies",
+    "parameters": "original method inputs; CPU eager; device/dtype parameter fixed where required; decorator variants excluded",
+    "source_framework": "tensorflow",
+    "scope": "new operation-substitution candidates; common source-framework harness; no external migration-quality claim",
+    "assertion_expressions_exact": true,
+    "source_hash": "cb8ab1f23f26818362dd23ec44b64bd4413960b55b24c9c8c33bbc5b235d654a",
+    "target_hash": "96a9e42217546feb89c9a19ca1eacea13ec9dd327da10f55d353759a14040406"
+  },
+  "retained_test_bodies": {
+    "source": "class Frozen(Harness):\r\n\r\n    def testTranspose2DAuto(self):\r\n        x_np = [[1, 2, 3], [4, 5, 6]]\r\n        for use_gpu in [False, True]:\r\n            with self.subTest(use_gpu=use_gpu):\r\n                with self.cached_session(use_gpu=use_gpu):\r\n                    x_tf = array_ops.transpose(x_np)\r\n                    self.assertAllEqual(x_tf, [[1, 4], [2, 5], [3, 6]])\r\n",
+    "target": "class Frozen(Harness):\r\n\r\n    def testTranspose2DAuto(self):\r\n        x_np = [[1, 2, 3], [4, 5, 6]]\r\n        for use_gpu in [False, True]:\r\n            with self.subTest(use_gpu=use_gpu):\r\n                with self.cached_session(use_gpu=use_gpu):\r\n                    x_tf = _operation(x_np)\r\n                    self.assertAllEqual(x_tf, [[1, 4], [2, 5], [3, 6]])\r\n"
+  },
+  "witness_inputs": [
+    {
+      "case_id": "E020",
+      "input_index": 24,
+      "arguments": {
+        "a": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": [
+            [
+              [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            ]
+          ]
+        },
+        "perm": {
+          "kind": "literal",
+          "value": null
+        },
+        "conjugate": {
+          "kind": "literal",
+          "value": false
+        }
+      },
+      "source": {
+        "case_id": "E020",
+        "input_index": 24,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        ],
+        "dtype": "float32",
+        "shape": [
+          4,
+          3,
+          2
+        ],
+        "calls": [
+          "tf.transpose"
+        ]
+      },
+      "target": {
+        "case_id": "E020",
+        "input_index": 24,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "error",
+        "error": "TypeError",
+        "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+        "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+        "calls": []
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    },
+    {
+      "case_id": "E020",
+      "input_index": 25,
+      "arguments": {
+        "a": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": [
+            [
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ]
+          ]
+        },
+        "perm": {
+          "kind": "literal",
+          "value": null
+        },
+        "conjugate": {
+          "kind": "literal",
+          "value": false
+        }
+      },
+      "source": {
+        "case_id": "E020",
+        "input_index": 25,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          [
+            [
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          [
+            [
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          [
+            [
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          [
+            [
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ]
+        ],
+        "dtype": "float32",
+        "shape": [
+          4,
+          3,
+          2
+        ],
+        "calls": [
+          "tf.transpose"
+        ]
+      },
+      "target": {
+        "case_id": "E020",
+        "input_index": 25,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "error",
+        "error": "TypeError",
+        "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+        "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+        "calls": []
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    },
+    {
+      "case_id": "E020",
+      "input_index": 26,
+      "arguments": {
+        "a": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": [
+            [
+              [
+                -1.0,
+                -1.0,
+                -1.0,
+                -1.0
+              ],
+              [
+                -1.0,
+                -1.0,
+                -1.0,
+                -1.0
+              ],
+              [
+                -1.0,
+                -1.0,
+                -1.0,
+                -1.0
+              ]
+            ],
+            [
+              [
+                -1.0,
+                -1.0,
+                -1.0,
+                -1.0
+              ],
+              [
+                -1.0,
+                -1.0,
+                -1.0,
+                -1.0
+              ],
+              [
+                -1.0,
+                -1.0,
+                -1.0,
+                -1.0
+              ]
+            ]
+          ]
+        },
+        "perm": {
+          "kind": "literal",
+          "value": null
+        },
+        "conjugate": {
+          "kind": "literal",
+          "value": false
+        }
+      },
+      "source": {
+        "case_id": "E020",
+        "input_index": 26,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          [
+            [
+              -1.0,
+              -1.0
+            ],
+            [
+              -1.0,
+              -1.0
+            ],
+            [
+              -1.0,
+              -1.0
+            ]
+          ],
+          [
+            [
+              -1.0,
+              -1.0
+            ],
+            [
+              -1.0,
+              -1.0
+            ],
+            [
+              -1.0,
+              -1.0
+            ]
+          ],
+          [
+            [
+              -1.0,
+              -1.0
+            ],
+            [
+              -1.0,
+              -1.0
+            ],
+            [
+              -1.0,
+              -1.0
+            ]
+          ],
+          [
+            [
+              -1.0,
+              -1.0
+            ],
+            [
+              -1.0,
+              -1.0
+            ],
+            [
+              -1.0,
+              -1.0
+            ]
+          ]
+        ],
+        "dtype": "float32",
+        "shape": [
+          4,
+          3,
+          2
+        ],
+        "calls": [
+          "tf.transpose"
+        ]
+      },
+      "target": {
+        "case_id": "E020",
+        "input_index": 26,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "error",
+        "error": "TypeError",
+        "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+        "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+        "calls": []
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    },
+    {
+      "case_id": "E020",
+      "input_index": 27,
+      "arguments": {
+        "a": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": [
+            [
+              [
+                -1.25,
+                -0.75,
+                -0.25,
+                0.25
+              ],
+              [
+                0.75,
+                1.25,
+                1.75,
+                -1.25
+              ],
+              [
+                -0.75,
+                -0.25,
+                0.25,
+                0.75
+              ]
+            ],
+            [
+              [
+                1.25,
+                1.75,
+                -1.25,
+                -0.75
+              ],
+              [
+                -0.25,
+                0.25,
+                0.75,
+                1.25
+              ],
+              [
+                1.75,
+                -1.25,
+                -0.75,
+                -0.25
+              ]
+            ]
+          ]
+        },
+        "perm": {
+          "kind": "literal",
+          "value": null
+        },
+        "conjugate": {
+          "kind": "literal",
+          "value": false
+        }
+      },
+      "source": {
+        "case_id": "E020",
+        "input_index": 27,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          [
+            [
+              -1.25,
+              1.25
+            ],
+            [
+              0.75,
+              -0.25
+            ],
+            [
+              -0.75,
+              1.75
+            ]
+          ],
+          [
+            [
+              -0.75,
+              1.75
+            ],
+            [
+              1.25,
+              0.25
+            ],
+            [
+              -0.25,
+              -1.25
+            ]
+          ],
+          [
+            [
+              -0.25,
+              -1.25
+            ],
+            [
+              1.75,
+              0.75
+            ],
+            [
+              0.25,
+              -0.75
+            ]
+          ],
+          [
+            [
+              0.25,
+              -0.75
+            ],
+            [
+              -1.25,
+              1.25
+            ],
+            [
+              0.75,
+              -0.25
+            ]
+          ]
+        ],
+        "dtype": "float32",
+        "shape": [
+          4,
+          3,
+          2
+        ],
+        "calls": [
+          "tf.transpose"
+        ]
+      },
+      "target": {
+        "case_id": "E020",
+        "input_index": 27,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "error",
+        "error": "TypeError",
+        "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+        "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+        "calls": []
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    },
+    {
+      "case_id": "E020",
+      "input_index": 28,
+      "arguments": {
+        "a": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": [
+            [
+              [
+                1.0440537929534912,
+                -0.6270847320556641,
+                -1.4948031902313232,
+                1.7887210845947266
+              ],
+              [
+                -2.1562740802764893,
+                2.7650294303894043,
+                -2.2145931720733643,
+                2.512009382247925
+              ],
+              [
+                2.0792369842529297,
+                -2.4666309356689453,
+                -0.049546483904123306,
+                -1.843047022819519
+              ]
+            ],
+            [
+              [
+                -1.0946599245071411,
+                1.8776459693908691,
+                -2.9821364879608154,
+                -1.0186461210250854
+              ],
+              [
+                0.955078661441803,
+                -2.4268741607666016,
+                -1.5930962562561035,
+                0.8896609544754028
+              ],
+              [
+                2.15034818649292,
+                0.7084599733352661,
+                1.7991971969604492,
+                1.2770377397537231
+              ]
+            ]
+          ]
+        },
+        "perm": {
+          "kind": "literal",
+          "value": null
+        },
+        "conjugate": {
+          "kind": "literal",
+          "value": false
+        }
+      },
+      "source": {
+        "case_id": "E020",
+        "input_index": 28,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          [
+            [
+              1.0440537929534912,
+              -1.0946599245071411
+            ],
+            [
+              -2.1562740802764893,
+              0.955078661441803
+            ],
+            [
+              2.0792369842529297,
+              2.15034818649292
+            ]
+          ],
+          [
+            [
+              -0.6270847320556641,
+              1.8776459693908691
+            ],
+            [
+              2.7650294303894043,
+              -2.4268741607666016
+            ],
+            [
+              -2.4666309356689453,
+              0.7084599733352661
+            ]
+          ],
+          [
+            [
+              -1.4948031902313232,
+              -2.9821364879608154
+            ],
+            [
+              -2.2145931720733643,
+              -1.5930962562561035
+            ],
+            [
+              -0.049546483904123306,
+              1.7991971969604492
+            ]
+          ],
+          [
+            [
+              1.7887210845947266,
+              -1.0186461210250854
+            ],
+            [
+              2.512009382247925,
+              0.8896609544754028
+            ],
+            [
+              -1.843047022819519,
+              1.2770377397537231
+            ]
+          ]
+        ],
+        "dtype": "float32",
+        "shape": [
+          4,
+          3,
+          2
+        ],
+        "calls": [
+          "tf.transpose"
+        ]
+      },
+      "target": {
+        "case_id": "E020",
+        "input_index": 28,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "error",
+        "error": "TypeError",
+        "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+        "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+        "calls": []
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    },
+    {
+      "case_id": "E020",
+      "input_index": 29,
+      "arguments": {
+        "a": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": [
+            [
+              [
+                2.716885805130005,
+                0.29735472798347473,
+                -2.968449354171753,
+                2.9927406311035156
+              ],
+              [
+                2.4224185943603516,
+                1.990463137626648,
+                0.8846136331558228,
+                -0.49870765209198
+              ],
+              [
+                -0.7289608120918274,
+                1.5252856016159058,
+                -0.4557168185710907,
+                -0.9034767746925354
+              ]
+            ],
+            [
+              [
+                -1.5937284231185913,
+                -1.9326666593551636,
+                0.5146124362945557,
+                -1.5364329814910889
+              ],
+              [
+                0.8739342093467712,
+                0.8698267340660095,
+                0.9695184826850891,
+                -2.365004062652588
+              ],
+              [
+                1.0145155191421509,
+                -0.38002434372901917,
+                -1.7787208557128906,
+                -1.8967660665512085
+              ]
+            ]
+          ]
+        },
+        "perm": {
+          "kind": "literal",
+          "value": null
+        },
+        "conjugate": {
+          "kind": "literal",
+          "value": false
+        }
+      },
+      "source": {
+        "case_id": "E020",
+        "input_index": 29,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          [
+            [
+              2.716885805130005,
+              -1.5937284231185913
+            ],
+            [
+              2.4224185943603516,
+              0.8739342093467712
+            ],
+            [
+              -0.7289608120918274,
+              1.0145155191421509
+            ]
+          ],
+          [
+            [
+              0.29735472798347473,
+              -1.9326666593551636
+            ],
+            [
+              1.990463137626648,
+              0.8698267340660095
+            ],
+            [
+              1.5252856016159058,
+              -0.38002434372901917
+            ]
+          ],
+          [
+            [
+              -2.968449354171753,
+              0.5146124362945557
+            ],
+            [
+              0.8846136331558228,
+              0.9695184826850891
+            ],
+            [
+              -0.4557168185710907,
+              -1.7787208557128906
+            ]
+          ],
+          [
+            [
+              2.9927406311035156,
+              -1.5364329814910889
+            ],
+            [
+              -0.49870765209198,
+              -2.365004062652588
+            ],
+            [
+              -0.9034767746925354,
+              -1.8967660665512085
+            ]
+          ]
+        ],
+        "dtype": "float32",
+        "shape": [
+          4,
+          3,
+          2
+        ],
+        "calls": [
+          "tf.transpose"
+        ]
+      },
+      "target": {
+        "case_id": "E020",
+        "input_index": 29,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "error",
+        "error": "TypeError",
+        "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+        "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+        "calls": []
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    },
+    {
+      "case_id": "E020",
+      "input_index": 30,
+      "arguments": {
+        "a": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": [
+            [
+              [
+                -0.39782267808914185,
+                1.5632747411727905,
+                0.10015057772397995,
+                0.07273107767105103
+              ],
+              [
+                -1.2970800399780273,
+                -2.376934289932251,
+                -2.762172222137451,
+                0.45402100682258606
+              ],
+              [
+                -0.30861783027648926,
+                -1.3724855184555054,
+                -2.609571933746338,
+                0.11192291229963303
+              ]
+            ],
+            [
+              [
+                1.7270828485488892,
+                2.2218165397644043,
+                2.3536951541900635,
+                -0.6095067262649536
+              ],
+              [
+                2.2109618186950684,
+                -2.0326344966888428,
+                -0.0990254133939743,
+                -2.5444869995117188
+              ],
+              [
+                1.1188017129898071,
+                2.9996612071990967,
+                2.66512393951416,
+                0.1777622252702713
+              ]
+            ]
+          ]
+        },
+        "perm": {
+          "kind": "literal",
+          "value": null
+        },
+        "conjugate": {
+          "kind": "literal",
+          "value": false
+        }
+      },
+      "source": {
+        "case_id": "E020",
+        "input_index": 30,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          [
+            [
+              -0.39782267808914185,
+              1.7270828485488892
+            ],
+            [
+              -1.2970800399780273,
+              2.2109618186950684
+            ],
+            [
+              -0.30861783027648926,
+              1.1188017129898071
+            ]
+          ],
+          [
+            [
+              1.5632747411727905,
+              2.2218165397644043
+            ],
+            [
+              -2.376934289932251,
+              -2.0326344966888428
+            ],
+            [
+              -1.3724855184555054,
+              2.9996612071990967
+            ]
+          ],
+          [
+            [
+              0.10015057772397995,
+              2.3536951541900635
+            ],
+            [
+              -2.762172222137451,
+              -0.0990254133939743
+            ],
+            [
+              -2.609571933746338,
+              2.66512393951416
+            ]
+          ],
+          [
+            [
+              0.07273107767105103,
+              -0.6095067262649536
+            ],
+            [
+              0.45402100682258606,
+              -2.5444869995117188
+            ],
+            [
+              0.11192291229963303,
+              0.1777622252702713
+            ]
+          ]
+        ],
+        "dtype": "float32",
+        "shape": [
+          4,
+          3,
+          2
+        ],
+        "calls": [
+          "tf.transpose"
+        ]
+      },
+      "target": {
+        "case_id": "E020",
+        "input_index": 30,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "error",
+        "error": "TypeError",
+        "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+        "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+        "calls": []
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    },
+    {
+      "case_id": "E020",
+      "input_index": 31,
+      "arguments": {
+        "a": {
+          "kind": "tensor",
+          "dtype": "float32",
+          "values": [
+            [
+              [
+                -0.3492180109024048,
+                -0.8902127146720886,
+                0.8455294966697693,
+                1.2800339460372925
+              ],
+              [
+                2.8815159797668457,
+                2.417922258377075,
+                0.12449807673692703,
+                0.671224057674408
+              ],
+              [
+                -0.4059784412384033,
+                -2.528738021850586,
+                2.1524360179901123,
+                -0.2372886687517166
+              ]
+            ],
+            [
+              [
+                -2.884168863296509,
+                -2.3804736137390137,
+                -0.9623075723648071,
+                -1.9603389501571655
+              ],
+              [
+                -0.5074926018714905,
+                -0.8199654221534729,
+                1.2358126640319824,
+                0.5716474056243896
+              ],
+              [
+                -2.248302698135376,
+                0.5942077040672302,
+                -0.42538079619407654,
+                0.989078164100647
+              ]
+            ]
+          ]
+        },
+        "perm": {
+          "kind": "literal",
+          "value": null
+        },
+        "conjugate": {
+          "kind": "literal",
+          "value": false
+        }
+      },
+      "source": {
+        "case_id": "E020",
+        "input_index": 31,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          [
+            [
+              -0.3492180109024048,
+              -2.884168863296509
+            ],
+            [
+              2.8815159797668457,
+              -0.5074926018714905
+            ],
+            [
+              -0.4059784412384033,
+              -2.248302698135376
+            ]
+          ],
+          [
+            [
+              -0.8902127146720886,
+              -2.3804736137390137
+            ],
+            [
+              2.417922258377075,
+              -0.8199654221534729
+            ],
+            [
+              -2.528738021850586,
+              0.5942077040672302
+            ]
+          ],
+          [
+            [
+              0.8455294966697693,
+              -0.9623075723648071
+            ],
+            [
+              0.12449807673692703,
+              1.2358126640319824
+            ],
+            [
+              2.1524360179901123,
+              -0.42538079619407654
+            ]
+          ],
+          [
+            [
+              1.2800339460372925,
+              -1.9603389501571655
+            ],
+            [
+              0.671224057674408,
+              0.5716474056243896
+            ],
+            [
+              -0.2372886687517166,
+              0.989078164100647
+            ]
+          ]
+        ],
+        "dtype": "float32",
+        "shape": [
+          4,
+          3,
+          2
+        ],
+        "calls": [
+          "tf.transpose"
+        ]
+      },
+      "target": {
+        "case_id": "E020",
+        "input_index": 31,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "error",
+        "error": "TypeError",
+        "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+        "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+        "calls": []
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    },
+    {
+      "case_id": "E020",
+      "input_index": 56,
+      "arguments": {
+        "a": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": [
+            [
+              [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            [
+              [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            ]
+          ]
+        },
+        "perm": {
+          "kind": "literal",
+          "value": null
+        },
+        "conjugate": {
+          "kind": "literal",
+          "value": false
+        }
+      },
+      "source": {
+        "case_id": "E020",
+        "input_index": 56,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        ],
+        "dtype": "float64",
+        "shape": [
+          4,
+          3,
+          2
+        ],
+        "calls": [
+          "tf.transpose"
+        ]
+      },
+      "target": {
+        "case_id": "E020",
+        "input_index": 56,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "error",
+        "error": "TypeError",
+        "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+        "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+        "calls": []
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    },
+    {
+      "case_id": "E020",
+      "input_index": 57,
+      "arguments": {
+        "a": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": [
+            [
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            ]
+          ]
+        },
+        "perm": {
+          "kind": "literal",
+          "value": null
+        },
+        "conjugate": {
+          "kind": "literal",
+          "value": false
+        }
+      },
+      "source": {
+        "case_id": "E020",
+        "input_index": 57,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          [
+            [
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          [
+            [
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          [
+            [
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          [
+            [
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ]
+        ],
+        "dtype": "float64",
+        "shape": [
+          4,
+          3,
+          2
+        ],
+        "calls": [
+          "tf.transpose"
+        ]
+      },
+      "target": {
+        "case_id": "E020",
+        "input_index": 57,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "error",
+        "error": "TypeError",
+        "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+        "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+        "calls": []
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    },
+    {
+      "case_id": "E020",
+      "input_index": 58,
+      "arguments": {
+        "a": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": [
+            [
+              [
+                -1.0,
+                -1.0,
+                -1.0,
+                -1.0
+              ],
+              [
+                -1.0,
+                -1.0,
+                -1.0,
+                -1.0
+              ],
+              [
+                -1.0,
+                -1.0,
+                -1.0,
+                -1.0
+              ]
+            ],
+            [
+              [
+                -1.0,
+                -1.0,
+                -1.0,
+                -1.0
+              ],
+              [
+                -1.0,
+                -1.0,
+                -1.0,
+                -1.0
+              ],
+              [
+                -1.0,
+                -1.0,
+                -1.0,
+                -1.0
+              ]
+            ]
+          ]
+        },
+        "perm": {
+          "kind": "literal",
+          "value": null
+        },
+        "conjugate": {
+          "kind": "literal",
+          "value": false
+        }
+      },
+      "source": {
+        "case_id": "E020",
+        "input_index": 58,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          [
+            [
+              -1.0,
+              -1.0
+            ],
+            [
+              -1.0,
+              -1.0
+            ],
+            [
+              -1.0,
+              -1.0
+            ]
+          ],
+          [
+            [
+              -1.0,
+              -1.0
+            ],
+            [
+              -1.0,
+              -1.0
+            ],
+            [
+              -1.0,
+              -1.0
+            ]
+          ],
+          [
+            [
+              -1.0,
+              -1.0
+            ],
+            [
+              -1.0,
+              -1.0
+            ],
+            [
+              -1.0,
+              -1.0
+            ]
+          ],
+          [
+            [
+              -1.0,
+              -1.0
+            ],
+            [
+              -1.0,
+              -1.0
+            ],
+            [
+              -1.0,
+              -1.0
+            ]
+          ]
+        ],
+        "dtype": "float64",
+        "shape": [
+          4,
+          3,
+          2
+        ],
+        "calls": [
+          "tf.transpose"
+        ]
+      },
+      "target": {
+        "case_id": "E020",
+        "input_index": 58,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "error",
+        "error": "TypeError",
+        "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+        "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+        "calls": []
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    },
+    {
+      "case_id": "E020",
+      "input_index": 59,
+      "arguments": {
+        "a": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": [
+            [
+              [
+                -1.25,
+                -0.75,
+                -0.25,
+                0.25
+              ],
+              [
+                0.75,
+                1.25,
+                1.75,
+                -1.25
+              ],
+              [
+                -0.75,
+                -0.25,
+                0.25,
+                0.75
+              ]
+            ],
+            [
+              [
+                1.25,
+                1.75,
+                -1.25,
+                -0.75
+              ],
+              [
+                -0.25,
+                0.25,
+                0.75,
+                1.25
+              ],
+              [
+                1.75,
+                -1.25,
+                -0.75,
+                -0.25
+              ]
+            ]
+          ]
+        },
+        "perm": {
+          "kind": "literal",
+          "value": null
+        },
+        "conjugate": {
+          "kind": "literal",
+          "value": false
+        }
+      },
+      "source": {
+        "case_id": "E020",
+        "input_index": 59,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          [
+            [
+              -1.25,
+              1.25
+            ],
+            [
+              0.75,
+              -0.25
+            ],
+            [
+              -0.75,
+              1.75
+            ]
+          ],
+          [
+            [
+              -0.75,
+              1.75
+            ],
+            [
+              1.25,
+              0.25
+            ],
+            [
+              -0.25,
+              -1.25
+            ]
+          ],
+          [
+            [
+              -0.25,
+              -1.25
+            ],
+            [
+              1.75,
+              0.75
+            ],
+            [
+              0.25,
+              -0.75
+            ]
+          ],
+          [
+            [
+              0.25,
+              -0.75
+            ],
+            [
+              -1.25,
+              1.25
+            ],
+            [
+              0.75,
+              -0.25
+            ]
+          ]
+        ],
+        "dtype": "float64",
+        "shape": [
+          4,
+          3,
+          2
+        ],
+        "calls": [
+          "tf.transpose"
+        ]
+      },
+      "target": {
+        "case_id": "E020",
+        "input_index": 59,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "error",
+        "error": "TypeError",
+        "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+        "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+        "calls": []
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    },
+    {
+      "case_id": "E020",
+      "input_index": 60,
+      "arguments": {
+        "a": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": [
+            [
+              [
+                1.1238163785287387,
+                1.7982136646682774,
+                1.7746021593805406,
+                0.029605215862769096
+              ],
+              [
+                2.2387469789131593,
+                -2.6512155778783155,
+                -1.0661296489660854,
+                0.19196006841861024
+              ],
+              [
+                0.551706768952049,
+                1.302097933481436,
+                2.982231190238478,
+                -1.1573536720474862
+              ]
+            ],
+            [
+              [
+                -0.18459888193786167,
+                2.9624256721657938,
+                -0.08867340451926964,
+                -2.4708298045503883
+              ],
+              [
+                -2.5611235137727055,
+                0.8575638293052741,
+                -0.4667838225654113,
+                0.8504499891235908
+              ],
+              [
+                2.617541040594549,
+                -1.4090439854802195,
+                1.972980355160285,
+                -1.7073116286433394
+              ]
+            ]
+          ]
+        },
+        "perm": {
+          "kind": "literal",
+          "value": null
+        },
+        "conjugate": {
+          "kind": "literal",
+          "value": false
+        }
+      },
+      "source": {
+        "case_id": "E020",
+        "input_index": 60,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          [
+            [
+              1.1238163785287387,
+              -0.18459888193786167
+            ],
+            [
+              2.2387469789131593,
+              -2.5611235137727055
+            ],
+            [
+              0.551706768952049,
+              2.617541040594549
+            ]
+          ],
+          [
+            [
+              1.7982136646682774,
+              2.9624256721657938
+            ],
+            [
+              -2.6512155778783155,
+              0.8575638293052741
+            ],
+            [
+              1.302097933481436,
+              -1.4090439854802195
+            ]
+          ],
+          [
+            [
+              1.7746021593805406,
+              -0.08867340451926964
+            ],
+            [
+              -1.0661296489660854,
+              -0.4667838225654113
+            ],
+            [
+              2.982231190238478,
+              1.972980355160285
+            ]
+          ],
+          [
+            [
+              0.029605215862769096,
+              -2.4708298045503883
+            ],
+            [
+              0.19196006841861024,
+              0.8504499891235908
+            ],
+            [
+              -1.1573536720474862,
+              -1.7073116286433394
+            ]
+          ]
+        ],
+        "dtype": "float64",
+        "shape": [
+          4,
+          3,
+          2
+        ],
+        "calls": [
+          "tf.transpose"
+        ]
+      },
+      "target": {
+        "case_id": "E020",
+        "input_index": 60,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "error",
+        "error": "TypeError",
+        "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+        "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+        "calls": []
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    },
+    {
+      "case_id": "E020",
+      "input_index": 61,
+      "arguments": {
+        "a": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": [
+            [
+              [
+                -1.8604624940106307,
+                -0.3206395692437982,
+                0.9012091152300807,
+                0.17337774417908047
+              ],
+              [
+                0.7109436846236221,
+                -0.4786997009487717,
+                0.6795915081176878,
+                1.649937517450092
+              ],
+              [
+                1.4719951401624423,
+                -1.6665218369994883,
+                -1.711800680863345,
+                -0.3090607306192066
+              ]
+            ],
+            [
+              [
+                -2.944585631961418,
+                -2.5575855173533735,
+                -1.1885137647146458,
+                1.6595073188886866
+              ],
+              [
+                1.9626015122841611,
+                2.676381058486096,
+                0.1994948903023337,
+                -0.7314286593763462
+              ],
+              [
+                -0.08980724446242672,
+                -1.1363902272143047,
+                -0.823052683730606,
+                1.53253336725896
+              ]
+            ]
+          ]
+        },
+        "perm": {
+          "kind": "literal",
+          "value": null
+        },
+        "conjugate": {
+          "kind": "literal",
+          "value": false
+        }
+      },
+      "source": {
+        "case_id": "E020",
+        "input_index": 61,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          [
+            [
+              -1.8604624940106307,
+              -2.944585631961418
+            ],
+            [
+              0.7109436846236221,
+              1.9626015122841611
+            ],
+            [
+              1.4719951401624423,
+              -0.08980724446242672
+            ]
+          ],
+          [
+            [
+              -0.3206395692437982,
+              -2.5575855173533735
+            ],
+            [
+              -0.4786997009487717,
+              2.676381058486096
+            ],
+            [
+              -1.6665218369994883,
+              -1.1363902272143047
+            ]
+          ],
+          [
+            [
+              0.9012091152300807,
+              -1.1885137647146458
+            ],
+            [
+              0.6795915081176878,
+              0.1994948903023337
+            ],
+            [
+              -1.711800680863345,
+              -0.823052683730606
+            ]
+          ],
+          [
+            [
+              0.17337774417908047,
+              1.6595073188886866
+            ],
+            [
+              1.649937517450092,
+              -0.7314286593763462
+            ],
+            [
+              -0.3090607306192066,
+              1.53253336725896
+            ]
+          ]
+        ],
+        "dtype": "float64",
+        "shape": [
+          4,
+          3,
+          2
+        ],
+        "calls": [
+          "tf.transpose"
+        ]
+      },
+      "target": {
+        "case_id": "E020",
+        "input_index": 61,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "error",
+        "error": "TypeError",
+        "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+        "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+        "calls": []
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    },
+    {
+      "case_id": "E020",
+      "input_index": 62,
+      "arguments": {
+        "a": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": [
+            [
+              [
+                1.9226153536043897,
+                -0.27201192555246134,
+                2.750524781861433,
+                1.4167196863667808
+              ],
+              [
+                -0.7640950823467532,
+                0.6881706729170887,
+                2.810950047672118,
+                0.7424496747937042
+              ],
+              [
+                -1.0485540953717738,
+                -0.3978427878449029,
+                -2.530696176246683,
+                -1.0403887904303109
+              ]
+            ],
+            [
+              [
+                2.8479847018709554,
+                0.5141170970897937,
+                -0.49842776387537713,
+                -2.5121015642001945
+              ],
+              [
+                -0.27872209976431517,
+                2.883254757586844,
+                2.661458436610708,
+                0.6781171528494387
+              ],
+              [
+                -2.4307194914433947,
+                2.5647915753677077,
+                0.2409153012739802,
+                2.695773929218487
+              ]
+            ]
+          ]
+        },
+        "perm": {
+          "kind": "literal",
+          "value": null
+        },
+        "conjugate": {
+          "kind": "literal",
+          "value": false
+        }
+      },
+      "source": {
+        "case_id": "E020",
+        "input_index": 62,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          [
+            [
+              1.9226153536043897,
+              2.8479847018709554
+            ],
+            [
+              -0.7640950823467532,
+              -0.27872209976431517
+            ],
+            [
+              -1.0485540953717738,
+              -2.4307194914433947
+            ]
+          ],
+          [
+            [
+              -0.27201192555246134,
+              0.5141170970897937
+            ],
+            [
+              0.6881706729170887,
+              2.883254757586844
+            ],
+            [
+              -0.3978427878449029,
+              2.5647915753677077
+            ]
+          ],
+          [
+            [
+              2.750524781861433,
+              -0.49842776387537713
+            ],
+            [
+              2.810950047672118,
+              2.661458436610708
+            ],
+            [
+              -2.530696176246683,
+              0.2409153012739802
+            ]
+          ],
+          [
+            [
+              1.4167196863667808,
+              -2.5121015642001945
+            ],
+            [
+              0.7424496747937042,
+              0.6781171528494387
+            ],
+            [
+              -1.0403887904303109,
+              2.695773929218487
+            ]
+          ]
+        ],
+        "dtype": "float64",
+        "shape": [
+          4,
+          3,
+          2
+        ],
+        "calls": [
+          "tf.transpose"
+        ]
+      },
+      "target": {
+        "case_id": "E020",
+        "input_index": 62,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "error",
+        "error": "TypeError",
+        "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+        "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+        "calls": []
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    },
+    {
+      "case_id": "E020",
+      "input_index": 63,
+      "arguments": {
+        "a": {
+          "kind": "tensor",
+          "dtype": "float64",
+          "values": [
+            [
+              [
+                0.8393367789436721,
+                2.2517635096710658,
+                -2.8963652105539026,
+                2.956158290769319
+              ],
+              [
+                0.02236362755184018,
+                -1.0388594772587643,
+                -1.9430111706864357,
+                0.9845886358634357
+              ],
+              [
+                -1.0428227677991304,
+                -0.9196339840554271,
+                2.5706118920167285,
+                -0.7077912776375399
+              ]
+            ],
+            [
+              [
+                1.2530285881122607,
+                -2.264674391172801,
+                0.4963768680872489,
+                0.16357234529530817
+              ],
+              [
+                -0.5959890491983053,
+                -2.8727148423949043,
+                -1.4891203428042683,
+                2.748758347977768
+              ],
+              [
+                -2.0185296415060288,
+                0.28387587553465554,
+                0.06722829711038081,
+                -2.5864355897986133
+              ]
+            ]
+          ]
+        },
+        "perm": {
+          "kind": "literal",
+          "value": null
+        },
+        "conjugate": {
+          "kind": "literal",
+          "value": false
+        }
+      },
+      "source": {
+        "case_id": "E020",
+        "input_index": 63,
+        "side": "source",
+        "repeat": 0,
+        "instrument": true,
+        "status": "ok",
+        "value": [
+          [
+            [
+              0.8393367789436721,
+              1.2530285881122607
+            ],
+            [
+              0.02236362755184018,
+              -0.5959890491983053
+            ],
+            [
+              -1.0428227677991304,
+              -2.0185296415060288
+            ]
+          ],
+          [
+            [
+              2.2517635096710658,
+              -2.264674391172801
+            ],
+            [
+              -1.0388594772587643,
+              -2.8727148423949043
+            ],
+            [
+              -0.9196339840554271,
+              0.28387587553465554
+            ]
+          ],
+          [
+            [
+              -2.8963652105539026,
+              0.4963768680872489
+            ],
+            [
+              -1.9430111706864357,
+              -1.4891203428042683
+            ],
+            [
+              2.5706118920167285,
+              0.06722829711038081
+            ]
+          ],
+          [
+            [
+              2.956158290769319,
+              0.16357234529530817
+            ],
+            [
+              0.9845886358634357,
+              2.748758347977768
+            ],
+            [
+              -0.7077912776375399,
+              -2.5864355897986133
+            ]
+          ]
+        ],
+        "dtype": "float64",
+        "shape": [
+          4,
+          3,
+          2
+        ],
+        "calls": [
+          "tf.transpose"
+        ]
+      },
+      "target": {
+        "case_id": "E020",
+        "input_index": 63,
+        "side": "target",
+        "repeat": 0,
+        "instrument": true,
+        "status": "error",
+        "error": "TypeError",
+        "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+        "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+        "calls": []
+      },
+      "raw_replay_matches": true,
+      "minimality": "not minimized"
+    }
+  ],
+  "witness_main_records": [
+    {
+      "case_id": "E020",
+      "input_index": 24,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      ],
+      "dtype": "float32",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 24,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      ],
+      "dtype": "float32",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 24,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      ],
+      "dtype": "float32",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 25,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ]
+      ],
+      "dtype": "float32",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 25,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ]
+      ],
+      "dtype": "float32",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 25,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ]
+      ],
+      "dtype": "float32",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 26,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ],
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ],
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ],
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ]
+      ],
+      "dtype": "float32",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 26,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ],
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ],
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ],
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ]
+      ],
+      "dtype": "float32",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 26,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ],
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ],
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ],
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ]
+      ],
+      "dtype": "float32",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 27,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            -1.25,
+            1.25
+          ],
+          [
+            0.75,
+            -0.25
+          ],
+          [
+            -0.75,
+            1.75
+          ]
+        ],
+        [
+          [
+            -0.75,
+            1.75
+          ],
+          [
+            1.25,
+            0.25
+          ],
+          [
+            -0.25,
+            -1.25
+          ]
+        ],
+        [
+          [
+            -0.25,
+            -1.25
+          ],
+          [
+            1.75,
+            0.75
+          ],
+          [
+            0.25,
+            -0.75
+          ]
+        ],
+        [
+          [
+            0.25,
+            -0.75
+          ],
+          [
+            -1.25,
+            1.25
+          ],
+          [
+            0.75,
+            -0.25
+          ]
+        ]
+      ],
+      "dtype": "float32",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 27,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            -1.25,
+            1.25
+          ],
+          [
+            0.75,
+            -0.25
+          ],
+          [
+            -0.75,
+            1.75
+          ]
+        ],
+        [
+          [
+            -0.75,
+            1.75
+          ],
+          [
+            1.25,
+            0.25
+          ],
+          [
+            -0.25,
+            -1.25
+          ]
+        ],
+        [
+          [
+            -0.25,
+            -1.25
+          ],
+          [
+            1.75,
+            0.75
+          ],
+          [
+            0.25,
+            -0.75
+          ]
+        ],
+        [
+          [
+            0.25,
+            -0.75
+          ],
+          [
+            -1.25,
+            1.25
+          ],
+          [
+            0.75,
+            -0.25
+          ]
+        ]
+      ],
+      "dtype": "float32",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 27,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            -1.25,
+            1.25
+          ],
+          [
+            0.75,
+            -0.25
+          ],
+          [
+            -0.75,
+            1.75
+          ]
+        ],
+        [
+          [
+            -0.75,
+            1.75
+          ],
+          [
+            1.25,
+            0.25
+          ],
+          [
+            -0.25,
+            -1.25
+          ]
+        ],
+        [
+          [
+            -0.25,
+            -1.25
+          ],
+          [
+            1.75,
+            0.75
+          ],
+          [
+            0.25,
+            -0.75
+          ]
+        ],
+        [
+          [
+            0.25,
+            -0.75
+          ],
+          [
+            -1.25,
+            1.25
+          ],
+          [
+            0.75,
+            -0.25
+          ]
+        ]
+      ],
+      "dtype": "float32",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 28,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            1.0440537929534912,
+            -1.0946599245071411
+          ],
+          [
+            -2.1562740802764893,
+            0.955078661441803
+          ],
+          [
+            2.0792369842529297,
+            2.15034818649292
+          ]
+        ],
+        [
+          [
+            -0.6270847320556641,
+            1.8776459693908691
+          ],
+          [
+            2.7650294303894043,
+            -2.4268741607666016
+          ],
+          [
+            -2.4666309356689453,
+            0.7084599733352661
+          ]
+        ],
+        [
+          [
+            -1.4948031902313232,
+            -2.9821364879608154
+          ],
+          [
+            -2.2145931720733643,
+            -1.5930962562561035
+          ],
+          [
+            -0.049546483904123306,
+            1.7991971969604492
+          ]
+        ],
+        [
+          [
+            1.7887210845947266,
+            -1.0186461210250854
+          ],
+          [
+            2.512009382247925,
+            0.8896609544754028
+          ],
+          [
+            -1.843047022819519,
+            1.2770377397537231
+          ]
+        ]
+      ],
+      "dtype": "float32",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 28,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            1.0440537929534912,
+            -1.0946599245071411
+          ],
+          [
+            -2.1562740802764893,
+            0.955078661441803
+          ],
+          [
+            2.0792369842529297,
+            2.15034818649292
+          ]
+        ],
+        [
+          [
+            -0.6270847320556641,
+            1.8776459693908691
+          ],
+          [
+            2.7650294303894043,
+            -2.4268741607666016
+          ],
+          [
+            -2.4666309356689453,
+            0.7084599733352661
+          ]
+        ],
+        [
+          [
+            -1.4948031902313232,
+            -2.9821364879608154
+          ],
+          [
+            -2.2145931720733643,
+            -1.5930962562561035
+          ],
+          [
+            -0.049546483904123306,
+            1.7991971969604492
+          ]
+        ],
+        [
+          [
+            1.7887210845947266,
+            -1.0186461210250854
+          ],
+          [
+            2.512009382247925,
+            0.8896609544754028
+          ],
+          [
+            -1.843047022819519,
+            1.2770377397537231
+          ]
+        ]
+      ],
+      "dtype": "float32",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 28,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            1.0440537929534912,
+            -1.0946599245071411
+          ],
+          [
+            -2.1562740802764893,
+            0.955078661441803
+          ],
+          [
+            2.0792369842529297,
+            2.15034818649292
+          ]
+        ],
+        [
+          [
+            -0.6270847320556641,
+            1.8776459693908691
+          ],
+          [
+            2.7650294303894043,
+            -2.4268741607666016
+          ],
+          [
+            -2.4666309356689453,
+            0.7084599733352661
+          ]
+        ],
+        [
+          [
+            -1.4948031902313232,
+            -2.9821364879608154
+          ],
+          [
+            -2.2145931720733643,
+            -1.5930962562561035
+          ],
+          [
+            -0.049546483904123306,
+            1.7991971969604492
+          ]
+        ],
+        [
+          [
+            1.7887210845947266,
+            -1.0186461210250854
+          ],
+          [
+            2.512009382247925,
+            0.8896609544754028
+          ],
+          [
+            -1.843047022819519,
+            1.2770377397537231
+          ]
+        ]
+      ],
+      "dtype": "float32",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 29,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            2.716885805130005,
+            -1.5937284231185913
+          ],
+          [
+            2.4224185943603516,
+            0.8739342093467712
+          ],
+          [
+            -0.7289608120918274,
+            1.0145155191421509
+          ]
+        ],
+        [
+          [
+            0.29735472798347473,
+            -1.9326666593551636
+          ],
+          [
+            1.990463137626648,
+            0.8698267340660095
+          ],
+          [
+            1.5252856016159058,
+            -0.38002434372901917
+          ]
+        ],
+        [
+          [
+            -2.968449354171753,
+            0.5146124362945557
+          ],
+          [
+            0.8846136331558228,
+            0.9695184826850891
+          ],
+          [
+            -0.4557168185710907,
+            -1.7787208557128906
+          ]
+        ],
+        [
+          [
+            2.9927406311035156,
+            -1.5364329814910889
+          ],
+          [
+            -0.49870765209198,
+            -2.365004062652588
+          ],
+          [
+            -0.9034767746925354,
+            -1.8967660665512085
+          ]
+        ]
+      ],
+      "dtype": "float32",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 29,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            2.716885805130005,
+            -1.5937284231185913
+          ],
+          [
+            2.4224185943603516,
+            0.8739342093467712
+          ],
+          [
+            -0.7289608120918274,
+            1.0145155191421509
+          ]
+        ],
+        [
+          [
+            0.29735472798347473,
+            -1.9326666593551636
+          ],
+          [
+            1.990463137626648,
+            0.8698267340660095
+          ],
+          [
+            1.5252856016159058,
+            -0.38002434372901917
+          ]
+        ],
+        [
+          [
+            -2.968449354171753,
+            0.5146124362945557
+          ],
+          [
+            0.8846136331558228,
+            0.9695184826850891
+          ],
+          [
+            -0.4557168185710907,
+            -1.7787208557128906
+          ]
+        ],
+        [
+          [
+            2.9927406311035156,
+            -1.5364329814910889
+          ],
+          [
+            -0.49870765209198,
+            -2.365004062652588
+          ],
+          [
+            -0.9034767746925354,
+            -1.8967660665512085
+          ]
+        ]
+      ],
+      "dtype": "float32",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 29,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            2.716885805130005,
+            -1.5937284231185913
+          ],
+          [
+            2.4224185943603516,
+            0.8739342093467712
+          ],
+          [
+            -0.7289608120918274,
+            1.0145155191421509
+          ]
+        ],
+        [
+          [
+            0.29735472798347473,
+            -1.9326666593551636
+          ],
+          [
+            1.990463137626648,
+            0.8698267340660095
+          ],
+          [
+            1.5252856016159058,
+            -0.38002434372901917
+          ]
+        ],
+        [
+          [
+            -2.968449354171753,
+            0.5146124362945557
+          ],
+          [
+            0.8846136331558228,
+            0.9695184826850891
+          ],
+          [
+            -0.4557168185710907,
+            -1.7787208557128906
+          ]
+        ],
+        [
+          [
+            2.9927406311035156,
+            -1.5364329814910889
+          ],
+          [
+            -0.49870765209198,
+            -2.365004062652588
+          ],
+          [
+            -0.9034767746925354,
+            -1.8967660665512085
+          ]
+        ]
+      ],
+      "dtype": "float32",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 30,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            -0.39782267808914185,
+            1.7270828485488892
+          ],
+          [
+            -1.2970800399780273,
+            2.2109618186950684
+          ],
+          [
+            -0.30861783027648926,
+            1.1188017129898071
+          ]
+        ],
+        [
+          [
+            1.5632747411727905,
+            2.2218165397644043
+          ],
+          [
+            -2.376934289932251,
+            -2.0326344966888428
+          ],
+          [
+            -1.3724855184555054,
+            2.9996612071990967
+          ]
+        ],
+        [
+          [
+            0.10015057772397995,
+            2.3536951541900635
+          ],
+          [
+            -2.762172222137451,
+            -0.0990254133939743
+          ],
+          [
+            -2.609571933746338,
+            2.66512393951416
+          ]
+        ],
+        [
+          [
+            0.07273107767105103,
+            -0.6095067262649536
+          ],
+          [
+            0.45402100682258606,
+            -2.5444869995117188
+          ],
+          [
+            0.11192291229963303,
+            0.1777622252702713
+          ]
+        ]
+      ],
+      "dtype": "float32",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 30,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            -0.39782267808914185,
+            1.7270828485488892
+          ],
+          [
+            -1.2970800399780273,
+            2.2109618186950684
+          ],
+          [
+            -0.30861783027648926,
+            1.1188017129898071
+          ]
+        ],
+        [
+          [
+            1.5632747411727905,
+            2.2218165397644043
+          ],
+          [
+            -2.376934289932251,
+            -2.0326344966888428
+          ],
+          [
+            -1.3724855184555054,
+            2.9996612071990967
+          ]
+        ],
+        [
+          [
+            0.10015057772397995,
+            2.3536951541900635
+          ],
+          [
+            -2.762172222137451,
+            -0.0990254133939743
+          ],
+          [
+            -2.609571933746338,
+            2.66512393951416
+          ]
+        ],
+        [
+          [
+            0.07273107767105103,
+            -0.6095067262649536
+          ],
+          [
+            0.45402100682258606,
+            -2.5444869995117188
+          ],
+          [
+            0.11192291229963303,
+            0.1777622252702713
+          ]
+        ]
+      ],
+      "dtype": "float32",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 30,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            -0.39782267808914185,
+            1.7270828485488892
+          ],
+          [
+            -1.2970800399780273,
+            2.2109618186950684
+          ],
+          [
+            -0.30861783027648926,
+            1.1188017129898071
+          ]
+        ],
+        [
+          [
+            1.5632747411727905,
+            2.2218165397644043
+          ],
+          [
+            -2.376934289932251,
+            -2.0326344966888428
+          ],
+          [
+            -1.3724855184555054,
+            2.9996612071990967
+          ]
+        ],
+        [
+          [
+            0.10015057772397995,
+            2.3536951541900635
+          ],
+          [
+            -2.762172222137451,
+            -0.0990254133939743
+          ],
+          [
+            -2.609571933746338,
+            2.66512393951416
+          ]
+        ],
+        [
+          [
+            0.07273107767105103,
+            -0.6095067262649536
+          ],
+          [
+            0.45402100682258606,
+            -2.5444869995117188
+          ],
+          [
+            0.11192291229963303,
+            0.1777622252702713
+          ]
+        ]
+      ],
+      "dtype": "float32",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 31,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            -0.3492180109024048,
+            -2.884168863296509
+          ],
+          [
+            2.8815159797668457,
+            -0.5074926018714905
+          ],
+          [
+            -0.4059784412384033,
+            -2.248302698135376
+          ]
+        ],
+        [
+          [
+            -0.8902127146720886,
+            -2.3804736137390137
+          ],
+          [
+            2.417922258377075,
+            -0.8199654221534729
+          ],
+          [
+            -2.528738021850586,
+            0.5942077040672302
+          ]
+        ],
+        [
+          [
+            0.8455294966697693,
+            -0.9623075723648071
+          ],
+          [
+            0.12449807673692703,
+            1.2358126640319824
+          ],
+          [
+            2.1524360179901123,
+            -0.42538079619407654
+          ]
+        ],
+        [
+          [
+            1.2800339460372925,
+            -1.9603389501571655
+          ],
+          [
+            0.671224057674408,
+            0.5716474056243896
+          ],
+          [
+            -0.2372886687517166,
+            0.989078164100647
+          ]
+        ]
+      ],
+      "dtype": "float32",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 31,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            -0.3492180109024048,
+            -2.884168863296509
+          ],
+          [
+            2.8815159797668457,
+            -0.5074926018714905
+          ],
+          [
+            -0.4059784412384033,
+            -2.248302698135376
+          ]
+        ],
+        [
+          [
+            -0.8902127146720886,
+            -2.3804736137390137
+          ],
+          [
+            2.417922258377075,
+            -0.8199654221534729
+          ],
+          [
+            -2.528738021850586,
+            0.5942077040672302
+          ]
+        ],
+        [
+          [
+            0.8455294966697693,
+            -0.9623075723648071
+          ],
+          [
+            0.12449807673692703,
+            1.2358126640319824
+          ],
+          [
+            2.1524360179901123,
+            -0.42538079619407654
+          ]
+        ],
+        [
+          [
+            1.2800339460372925,
+            -1.9603389501571655
+          ],
+          [
+            0.671224057674408,
+            0.5716474056243896
+          ],
+          [
+            -0.2372886687517166,
+            0.989078164100647
+          ]
+        ]
+      ],
+      "dtype": "float32",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 31,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            -0.3492180109024048,
+            -2.884168863296509
+          ],
+          [
+            2.8815159797668457,
+            -0.5074926018714905
+          ],
+          [
+            -0.4059784412384033,
+            -2.248302698135376
+          ]
+        ],
+        [
+          [
+            -0.8902127146720886,
+            -2.3804736137390137
+          ],
+          [
+            2.417922258377075,
+            -0.8199654221534729
+          ],
+          [
+            -2.528738021850586,
+            0.5942077040672302
+          ]
+        ],
+        [
+          [
+            0.8455294966697693,
+            -0.9623075723648071
+          ],
+          [
+            0.12449807673692703,
+            1.2358126640319824
+          ],
+          [
+            2.1524360179901123,
+            -0.42538079619407654
+          ]
+        ],
+        [
+          [
+            1.2800339460372925,
+            -1.9603389501571655
+          ],
+          [
+            0.671224057674408,
+            0.5716474056243896
+          ],
+          [
+            -0.2372886687517166,
+            0.989078164100647
+          ]
+        ]
+      ],
+      "dtype": "float32",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 56,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      ],
+      "dtype": "float64",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 56,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      ],
+      "dtype": "float64",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 56,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      ],
+      "dtype": "float64",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 57,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ]
+      ],
+      "dtype": "float64",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 57,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ]
+      ],
+      "dtype": "float64",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 57,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ]
+      ],
+      "dtype": "float64",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 58,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ],
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ],
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ],
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ]
+      ],
+      "dtype": "float64",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 58,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ],
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ],
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ],
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ]
+      ],
+      "dtype": "float64",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 58,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ],
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ],
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ],
+        [
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ],
+          [
+            -1.0,
+            -1.0
+          ]
+        ]
+      ],
+      "dtype": "float64",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 59,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            -1.25,
+            1.25
+          ],
+          [
+            0.75,
+            -0.25
+          ],
+          [
+            -0.75,
+            1.75
+          ]
+        ],
+        [
+          [
+            -0.75,
+            1.75
+          ],
+          [
+            1.25,
+            0.25
+          ],
+          [
+            -0.25,
+            -1.25
+          ]
+        ],
+        [
+          [
+            -0.25,
+            -1.25
+          ],
+          [
+            1.75,
+            0.75
+          ],
+          [
+            0.25,
+            -0.75
+          ]
+        ],
+        [
+          [
+            0.25,
+            -0.75
+          ],
+          [
+            -1.25,
+            1.25
+          ],
+          [
+            0.75,
+            -0.25
+          ]
+        ]
+      ],
+      "dtype": "float64",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 59,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            -1.25,
+            1.25
+          ],
+          [
+            0.75,
+            -0.25
+          ],
+          [
+            -0.75,
+            1.75
+          ]
+        ],
+        [
+          [
+            -0.75,
+            1.75
+          ],
+          [
+            1.25,
+            0.25
+          ],
+          [
+            -0.25,
+            -1.25
+          ]
+        ],
+        [
+          [
+            -0.25,
+            -1.25
+          ],
+          [
+            1.75,
+            0.75
+          ],
+          [
+            0.25,
+            -0.75
+          ]
+        ],
+        [
+          [
+            0.25,
+            -0.75
+          ],
+          [
+            -1.25,
+            1.25
+          ],
+          [
+            0.75,
+            -0.25
+          ]
+        ]
+      ],
+      "dtype": "float64",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 59,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            -1.25,
+            1.25
+          ],
+          [
+            0.75,
+            -0.25
+          ],
+          [
+            -0.75,
+            1.75
+          ]
+        ],
+        [
+          [
+            -0.75,
+            1.75
+          ],
+          [
+            1.25,
+            0.25
+          ],
+          [
+            -0.25,
+            -1.25
+          ]
+        ],
+        [
+          [
+            -0.25,
+            -1.25
+          ],
+          [
+            1.75,
+            0.75
+          ],
+          [
+            0.25,
+            -0.75
+          ]
+        ],
+        [
+          [
+            0.25,
+            -0.75
+          ],
+          [
+            -1.25,
+            1.25
+          ],
+          [
+            0.75,
+            -0.25
+          ]
+        ]
+      ],
+      "dtype": "float64",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 60,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            1.1238163785287387,
+            -0.18459888193786167
+          ],
+          [
+            2.2387469789131593,
+            -2.5611235137727055
+          ],
+          [
+            0.551706768952049,
+            2.617541040594549
+          ]
+        ],
+        [
+          [
+            1.7982136646682774,
+            2.9624256721657938
+          ],
+          [
+            -2.6512155778783155,
+            0.8575638293052741
+          ],
+          [
+            1.302097933481436,
+            -1.4090439854802195
+          ]
+        ],
+        [
+          [
+            1.7746021593805406,
+            -0.08867340451926964
+          ],
+          [
+            -1.0661296489660854,
+            -0.4667838225654113
+          ],
+          [
+            2.982231190238478,
+            1.972980355160285
+          ]
+        ],
+        [
+          [
+            0.029605215862769096,
+            -2.4708298045503883
+          ],
+          [
+            0.19196006841861024,
+            0.8504499891235908
+          ],
+          [
+            -1.1573536720474862,
+            -1.7073116286433394
+          ]
+        ]
+      ],
+      "dtype": "float64",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 60,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            1.1238163785287387,
+            -0.18459888193786167
+          ],
+          [
+            2.2387469789131593,
+            -2.5611235137727055
+          ],
+          [
+            0.551706768952049,
+            2.617541040594549
+          ]
+        ],
+        [
+          [
+            1.7982136646682774,
+            2.9624256721657938
+          ],
+          [
+            -2.6512155778783155,
+            0.8575638293052741
+          ],
+          [
+            1.302097933481436,
+            -1.4090439854802195
+          ]
+        ],
+        [
+          [
+            1.7746021593805406,
+            -0.08867340451926964
+          ],
+          [
+            -1.0661296489660854,
+            -0.4667838225654113
+          ],
+          [
+            2.982231190238478,
+            1.972980355160285
+          ]
+        ],
+        [
+          [
+            0.029605215862769096,
+            -2.4708298045503883
+          ],
+          [
+            0.19196006841861024,
+            0.8504499891235908
+          ],
+          [
+            -1.1573536720474862,
+            -1.7073116286433394
+          ]
+        ]
+      ],
+      "dtype": "float64",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 60,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            1.1238163785287387,
+            -0.18459888193786167
+          ],
+          [
+            2.2387469789131593,
+            -2.5611235137727055
+          ],
+          [
+            0.551706768952049,
+            2.617541040594549
+          ]
+        ],
+        [
+          [
+            1.7982136646682774,
+            2.9624256721657938
+          ],
+          [
+            -2.6512155778783155,
+            0.8575638293052741
+          ],
+          [
+            1.302097933481436,
+            -1.4090439854802195
+          ]
+        ],
+        [
+          [
+            1.7746021593805406,
+            -0.08867340451926964
+          ],
+          [
+            -1.0661296489660854,
+            -0.4667838225654113
+          ],
+          [
+            2.982231190238478,
+            1.972980355160285
+          ]
+        ],
+        [
+          [
+            0.029605215862769096,
+            -2.4708298045503883
+          ],
+          [
+            0.19196006841861024,
+            0.8504499891235908
+          ],
+          [
+            -1.1573536720474862,
+            -1.7073116286433394
+          ]
+        ]
+      ],
+      "dtype": "float64",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 61,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            -1.8604624940106307,
+            -2.944585631961418
+          ],
+          [
+            0.7109436846236221,
+            1.9626015122841611
+          ],
+          [
+            1.4719951401624423,
+            -0.08980724446242672
+          ]
+        ],
+        [
+          [
+            -0.3206395692437982,
+            -2.5575855173533735
+          ],
+          [
+            -0.4786997009487717,
+            2.676381058486096
+          ],
+          [
+            -1.6665218369994883,
+            -1.1363902272143047
+          ]
+        ],
+        [
+          [
+            0.9012091152300807,
+            -1.1885137647146458
+          ],
+          [
+            0.6795915081176878,
+            0.1994948903023337
+          ],
+          [
+            -1.711800680863345,
+            -0.823052683730606
+          ]
+        ],
+        [
+          [
+            0.17337774417908047,
+            1.6595073188886866
+          ],
+          [
+            1.649937517450092,
+            -0.7314286593763462
+          ],
+          [
+            -0.3090607306192066,
+            1.53253336725896
+          ]
+        ]
+      ],
+      "dtype": "float64",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 61,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            -1.8604624940106307,
+            -2.944585631961418
+          ],
+          [
+            0.7109436846236221,
+            1.9626015122841611
+          ],
+          [
+            1.4719951401624423,
+            -0.08980724446242672
+          ]
+        ],
+        [
+          [
+            -0.3206395692437982,
+            -2.5575855173533735
+          ],
+          [
+            -0.4786997009487717,
+            2.676381058486096
+          ],
+          [
+            -1.6665218369994883,
+            -1.1363902272143047
+          ]
+        ],
+        [
+          [
+            0.9012091152300807,
+            -1.1885137647146458
+          ],
+          [
+            0.6795915081176878,
+            0.1994948903023337
+          ],
+          [
+            -1.711800680863345,
+            -0.823052683730606
+          ]
+        ],
+        [
+          [
+            0.17337774417908047,
+            1.6595073188886866
+          ],
+          [
+            1.649937517450092,
+            -0.7314286593763462
+          ],
+          [
+            -0.3090607306192066,
+            1.53253336725896
+          ]
+        ]
+      ],
+      "dtype": "float64",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 61,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            -1.8604624940106307,
+            -2.944585631961418
+          ],
+          [
+            0.7109436846236221,
+            1.9626015122841611
+          ],
+          [
+            1.4719951401624423,
+            -0.08980724446242672
+          ]
+        ],
+        [
+          [
+            -0.3206395692437982,
+            -2.5575855173533735
+          ],
+          [
+            -0.4786997009487717,
+            2.676381058486096
+          ],
+          [
+            -1.6665218369994883,
+            -1.1363902272143047
+          ]
+        ],
+        [
+          [
+            0.9012091152300807,
+            -1.1885137647146458
+          ],
+          [
+            0.6795915081176878,
+            0.1994948903023337
+          ],
+          [
+            -1.711800680863345,
+            -0.823052683730606
+          ]
+        ],
+        [
+          [
+            0.17337774417908047,
+            1.6595073188886866
+          ],
+          [
+            1.649937517450092,
+            -0.7314286593763462
+          ],
+          [
+            -0.3090607306192066,
+            1.53253336725896
+          ]
+        ]
+      ],
+      "dtype": "float64",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 62,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            1.9226153536043897,
+            2.8479847018709554
+          ],
+          [
+            -0.7640950823467532,
+            -0.27872209976431517
+          ],
+          [
+            -1.0485540953717738,
+            -2.4307194914433947
+          ]
+        ],
+        [
+          [
+            -0.27201192555246134,
+            0.5141170970897937
+          ],
+          [
+            0.6881706729170887,
+            2.883254757586844
+          ],
+          [
+            -0.3978427878449029,
+            2.5647915753677077
+          ]
+        ],
+        [
+          [
+            2.750524781861433,
+            -0.49842776387537713
+          ],
+          [
+            2.810950047672118,
+            2.661458436610708
+          ],
+          [
+            -2.530696176246683,
+            0.2409153012739802
+          ]
+        ],
+        [
+          [
+            1.4167196863667808,
+            -2.5121015642001945
+          ],
+          [
+            0.7424496747937042,
+            0.6781171528494387
+          ],
+          [
+            -1.0403887904303109,
+            2.695773929218487
+          ]
+        ]
+      ],
+      "dtype": "float64",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 62,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            1.9226153536043897,
+            2.8479847018709554
+          ],
+          [
+            -0.7640950823467532,
+            -0.27872209976431517
+          ],
+          [
+            -1.0485540953717738,
+            -2.4307194914433947
+          ]
+        ],
+        [
+          [
+            -0.27201192555246134,
+            0.5141170970897937
+          ],
+          [
+            0.6881706729170887,
+            2.883254757586844
+          ],
+          [
+            -0.3978427878449029,
+            2.5647915753677077
+          ]
+        ],
+        [
+          [
+            2.750524781861433,
+            -0.49842776387537713
+          ],
+          [
+            2.810950047672118,
+            2.661458436610708
+          ],
+          [
+            -2.530696176246683,
+            0.2409153012739802
+          ]
+        ],
+        [
+          [
+            1.4167196863667808,
+            -2.5121015642001945
+          ],
+          [
+            0.7424496747937042,
+            0.6781171528494387
+          ],
+          [
+            -1.0403887904303109,
+            2.695773929218487
+          ]
+        ]
+      ],
+      "dtype": "float64",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 62,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            1.9226153536043897,
+            2.8479847018709554
+          ],
+          [
+            -0.7640950823467532,
+            -0.27872209976431517
+          ],
+          [
+            -1.0485540953717738,
+            -2.4307194914433947
+          ]
+        ],
+        [
+          [
+            -0.27201192555246134,
+            0.5141170970897937
+          ],
+          [
+            0.6881706729170887,
+            2.883254757586844
+          ],
+          [
+            -0.3978427878449029,
+            2.5647915753677077
+          ]
+        ],
+        [
+          [
+            2.750524781861433,
+            -0.49842776387537713
+          ],
+          [
+            2.810950047672118,
+            2.661458436610708
+          ],
+          [
+            -2.530696176246683,
+            0.2409153012739802
+          ]
+        ],
+        [
+          [
+            1.4167196863667808,
+            -2.5121015642001945
+          ],
+          [
+            0.7424496747937042,
+            0.6781171528494387
+          ],
+          [
+            -1.0403887904303109,
+            2.695773929218487
+          ]
+        ]
+      ],
+      "dtype": "float64",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 63,
+      "side": "source",
+      "repeat": 0,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            0.8393367789436721,
+            1.2530285881122607
+          ],
+          [
+            0.02236362755184018,
+            -0.5959890491983053
+          ],
+          [
+            -1.0428227677991304,
+            -2.0185296415060288
+          ]
+        ],
+        [
+          [
+            2.2517635096710658,
+            -2.264674391172801
+          ],
+          [
+            -1.0388594772587643,
+            -2.8727148423949043
+          ],
+          [
+            -0.9196339840554271,
+            0.28387587553465554
+          ]
+        ],
+        [
+          [
+            -2.8963652105539026,
+            0.4963768680872489
+          ],
+          [
+            -1.9430111706864357,
+            -1.4891203428042683
+          ],
+          [
+            2.5706118920167285,
+            0.06722829711038081
+          ]
+        ],
+        [
+          [
+            2.956158290769319,
+            0.16357234529530817
+          ],
+          [
+            0.9845886358634357,
+            2.748758347977768
+          ],
+          [
+            -0.7077912776375399,
+            -2.5864355897986133
+          ]
+        ]
+      ],
+      "dtype": "float64",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 63,
+      "side": "source",
+      "repeat": 1,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            0.8393367789436721,
+            1.2530285881122607
+          ],
+          [
+            0.02236362755184018,
+            -0.5959890491983053
+          ],
+          [
+            -1.0428227677991304,
+            -2.0185296415060288
+          ]
+        ],
+        [
+          [
+            2.2517635096710658,
+            -2.264674391172801
+          ],
+          [
+            -1.0388594772587643,
+            -2.8727148423949043
+          ],
+          [
+            -0.9196339840554271,
+            0.28387587553465554
+          ]
+        ],
+        [
+          [
+            -2.8963652105539026,
+            0.4963768680872489
+          ],
+          [
+            -1.9430111706864357,
+            -1.4891203428042683
+          ],
+          [
+            2.5706118920167285,
+            0.06722829711038081
+          ]
+        ],
+        [
+          [
+            2.956158290769319,
+            0.16357234529530817
+          ],
+          [
+            0.9845886358634357,
+            2.748758347977768
+          ],
+          [
+            -0.7077912776375399,
+            -2.5864355897986133
+          ]
+        ]
+      ],
+      "dtype": "float64",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 63,
+      "side": "source",
+      "repeat": 2,
+      "instrument": true,
+      "status": "ok",
+      "value": [
+        [
+          [
+            0.8393367789436721,
+            1.2530285881122607
+          ],
+          [
+            0.02236362755184018,
+            -0.5959890491983053
+          ],
+          [
+            -1.0428227677991304,
+            -2.0185296415060288
+          ]
+        ],
+        [
+          [
+            2.2517635096710658,
+            -2.264674391172801
+          ],
+          [
+            -1.0388594772587643,
+            -2.8727148423949043
+          ],
+          [
+            -0.9196339840554271,
+            0.28387587553465554
+          ]
+        ],
+        [
+          [
+            -2.8963652105539026,
+            0.4963768680872489
+          ],
+          [
+            -1.9430111706864357,
+            -1.4891203428042683
+          ],
+          [
+            2.5706118920167285,
+            0.06722829711038081
+          ]
+        ],
+        [
+          [
+            2.956158290769319,
+            0.16357234529530817
+          ],
+          [
+            0.9845886358634357,
+            2.748758347977768
+          ],
+          [
+            -0.7077912776375399,
+            -2.5864355897986133
+          ]
+        ]
+      ],
+      "dtype": "float64",
+      "shape": [
+        4,
+        3,
+        2
+      ],
+      "calls": [
+        "tf.transpose"
+      ]
+    },
+    {
+      "case_id": "E020",
+      "input_index": 24,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 24,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 24,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 25,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 25,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 25,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 26,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 26,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 26,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 27,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 27,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 27,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 28,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 28,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 28,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 29,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 29,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 29,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 30,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 30,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 30,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 31,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 31,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 31,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 56,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 56,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 56,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 57,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 57,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 57,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 58,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 58,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 58,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 59,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 59,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 59,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 60,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 60,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 60,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 61,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 61,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 61,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 62,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 62,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 62,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 63,
+      "side": "target",
+      "repeat": 0,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 63,
+      "side": "target",
+      "repeat": 1,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    },
+    {
+      "case_id": "E020",
+      "input_index": 63,
+      "side": "target",
+      "repeat": 2,
+      "instrument": true,
+      "status": "error",
+      "error": "TypeError",
+      "message": "__main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType",
+      "traceback": "Traceback (most recent call last):\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\tools\\execute_expansion.py\", line 148, in worker\n    result=env[spec[\"entry\"]](**{k:convert(v) for k,v in job[\"arguments\"].items()})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\local-sources\\E020\\target.py\", line 4, in pytorch_call\n    return a.permute(*perm)\n           ^^^^^^^^^^^^^^^^\nTypeError: __main__.worker.<locals>.wrap() argument after * must be an iterable, not NoneType\n",
+      "calls": []
+    }
+  ],
+  "retained_original_records": [
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "source",
+      "mode": "original",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "source",
+      "mode": "original",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "source",
+      "mode": "original",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "target",
+      "mode": "original",
+      "repeat": 0,
+      "status": "execution-error",
+      "phase": "counterpart-execution",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": "TypeError: Tensor.permute() argument after * must be an iterable, not NoneType",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E020-target.py",
+          "line": 8,
+          "name": "testTranspose2DAuto"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 135,
+          "name": "operation"
+        },
+        {
+          "file": "<string>",
+          "line": 4,
+          "name": "pytorch_call"
+        }
+      ]
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "target",
+      "mode": "original",
+      "repeat": 1,
+      "status": "execution-error",
+      "phase": "counterpart-execution",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": "TypeError: Tensor.permute() argument after * must be an iterable, not NoneType",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E020-target.py",
+          "line": 8,
+          "name": "testTranspose2DAuto"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 135,
+          "name": "operation"
+        },
+        {
+          "file": "<string>",
+          "line": 4,
+          "name": "pytorch_call"
+        }
+      ]
+    },
+    {
+      "case_id": "E020",
+      "scenario": null,
+      "side": "target",
+      "mode": "original",
+      "repeat": 2,
+      "status": "execution-error",
+      "phase": "counterpart-execution",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": "TypeError: Tensor.permute() argument after * must be an iterable, not NoneType",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E020-target.py",
+          "line": 8,
+          "name": "testTranspose2DAuto"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 135,
+          "name": "operation"
+        },
+        {
+          "file": "<string>",
+          "line": 4,
+          "name": "pytorch_call"
+        }
+      ]
+    }
+  ],
+  "retained_verification": {
+    "case_id": "E020",
+    "status": "checked-with-retained-bodies",
+    "kind": "complete-upstream-method-bodies",
+    "scenarios": [
+      {
+        "scenario": null,
+        "baseline_qualified": false,
+        "transparent": false,
+        "probes": {
+          "wrong-shape": "baseline-unqualified",
+          "wrong-value": "baseline-unqualified"
+        },
+        "baseline_failures": [
+          {
+            "side": "target",
+            "status": "execution-error",
+            "phase": "counterpart-execution",
+            "error": "TypeError: Tensor.permute() argument after * must be an iterable, not NoneType"
+          }
+        ]
+      }
+    ],
+    "human_review": "pending"
+  },
+  "scoped_behavior_decision": "violated-on-documented-witness-inputs",
+  "independent_gold": false,
+  "blind_review": false,
+  "full_historical_test_intent_label": null,
+  "count_as_new_discovery": false,
+  "independent_evaluation_eligible": false,
+  "constructed_test_baseline_decision": "target-operation-fails",
+  "assertion_removed": false,
+  "freeze_scope": "freeze evidence snapshot only; not independent evaluation gold"
+}

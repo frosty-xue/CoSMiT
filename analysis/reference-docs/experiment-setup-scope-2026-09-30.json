@@ -1,0 +1,41 @@
+{
+  "scope": "public discovery and reserved families; D0028 excluded; no historical controls",
+  "partitions": {
+    "discovery": {
+      "candidates": 68,
+      "families": 23,
+      "inputs": 4352,
+      "paired_executions": 13056,
+      "versions": {
+        "{\"numpy\": \"2.1.3\", \"tensorflow\": \"2.20.0\", \"torch\": \"2.9.1\"}": 13056
+      }
+    },
+    "unseen": {
+      "candidates": 12,
+      "families": 6,
+      "inputs": 768,
+      "paired_executions": 2304,
+      "versions": {
+        "{\"numpy\": \"2.1.3\", \"tensorflow\": \"2.20.0\", \"torch\": \"2.9.1\"}": 2304
+      }
+    }
+  },
+  "primary_requests": 400,
+  "requests_by_kind": {
+    "direct-llm": 80,
+    "intenttester-source-tdl": 80,
+    "intenttester-target-tdl-extension": 80,
+    "trace-llm": 80,
+    "intenttester-target-api": 80
+  },
+  "primary_status": {
+    "completed": 239,
+    "failed": 161
+  },
+  "excluded_case_ids": [
+    "D0028"
+  ],
+  "excluded_partitions": [
+    "controls"
+  ]
+}

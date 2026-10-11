@@ -1,0 +1,2934 @@
+[
+  {
+    "case_id": "E001",
+    "family": "add",
+    "entry": "_test_reference_numerics",
+    "upstream_file": "upstream/pt_binary.py",
+    "upstream_methods": [
+      {
+        "method": "assertEqualHelper",
+        "start": 86,
+        "end": 118,
+        "decorators": []
+      },
+      {
+        "method": "_test_reference_numerics",
+        "start": 122,
+        "end": 197,
+        "decorators": []
+      }
+    ],
+    "obligations": [
+      "与 NumPy 对应运算参考比较",
+      "返回张量及条件 dtype 检查"
+    ],
+    "scope_gaps": [
+      "替换上游输入生成器，仅扩充索引0、16",
+      "固定的有限输入不覆盖所有 dtype/promotion/标量分支",
+      "跨框架结果重建为源框架张量，不验证目标原生返回对象类型"
+    ],
+    "assertion_sites": {
+      "source": [
+        {
+          "line": 4,
+          "expression": "assert isinstance(actual, torch.Tensor)"
+        },
+        {
+          "line": 6,
+          "expression": "self.assertEqual(actual.item(), expected, msg=msg, **kwargs)"
+        },
+        {
+          "line": 13,
+          "expression": "self.assertEqual(actual, torch.from_numpy(expected).to(actual.dtype), msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 15,
+          "expression": "self.assertEqual(actual, expected, msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, exact_dtype=exact_dtype, rtol=0.016, atol=1e-05)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, equal_nan=equal_nan, exact_dtype=exact_dtype)"
+        },
+        {
+          "line": 10,
+          "expression": "assert actual.dtype in (torch.float16, torch.bfloat16, torch.float32)"
+        },
+        {
+          "line": 12,
+          "expression": "assert expected.dtype == torch_to_numpy_dtype_dict[actual.dtype]"
+        }
+      ],
+      "target": [
+        {
+          "line": 4,
+          "expression": "assert isinstance(actual, torch.Tensor)"
+        },
+        {
+          "line": 6,
+          "expression": "self.assertEqual(actual.item(), expected, msg=msg, **kwargs)"
+        },
+        {
+          "line": 13,
+          "expression": "self.assertEqual(actual, torch.from_numpy(expected).to(actual.dtype), msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 15,
+          "expression": "self.assertEqual(actual, expected, msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, exact_dtype=exact_dtype, rtol=0.016, atol=1e-05)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, equal_nan=equal_nan, exact_dtype=exact_dtype)"
+        },
+        {
+          "line": 10,
+          "expression": "assert actual.dtype in (torch.float16, torch.bfloat16, torch.float32)"
+        },
+        {
+          "line": 12,
+          "expression": "assert expected.dtype == torch_to_numpy_dtype_dict[actual.dtype]"
+        }
+      ]
+    },
+    "body_hashes": {
+      "source": "3b287a970da834067f184afca91dfb2fe9ebffb26b304f9eec0461aea6ec4823",
+      "target": "3b287a970da834067f184afca91dfb2fe9ebffb26b304f9eec0461aea6ec4823"
+    },
+    "scenario_count": 2,
+    "scenarios": [
+      {
+        "scenario": 0,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      },
+      {
+        "scenario": 16,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true,
+    "probe_outcomes": {
+      "rejection-retained": 4
+    },
+    "review_category": "bounded-value-shape-reference-candidate",
+    "bounded_preservation_reference_candidate": true,
+    "native_type_obligations_not_established": true,
+    "review_method": "non-blinded source/adapter inspection plus verified recorded executions",
+    "independent_gold": false,
+    "full_intent_label": null,
+    "new_model_or_framework_calls": 0
+  },
+  {
+    "case_id": "E002",
+    "family": "add",
+    "entry": "_compareCpu",
+    "upstream_file": "upstream/tf_binary.py",
+    "upstream_methods": [
+      {
+        "method": "_compareCpu",
+        "start": 79,
+        "end": 106,
+        "decorators": []
+      }
+    ],
+    "obligations": [
+      "张量/混合 NumPy 参数调用的值与 NumPy 参考接近",
+      "输出形状与参考一致"
+    ],
+    "scope_gaps": [
+      "替换上游输入生成器，仅扩充索引0、16",
+      "also_compare_variables=False，Variable 分支未覆盖",
+      "混合参数经适配均转为目标张量，不验证原生 NumPy/张量混合调用语义"
+    ],
+    "assertion_sites": {
+      "source": [
+        {
+          "line": 27,
+          "expression": "self.assertShapeEqual(np_ans, out)"
+        },
+        {
+          "line": 21,
+          "expression": "self.assertAllClose(np_ans, tf_cpu)"
+        },
+        {
+          "line": 22,
+          "expression": "self.assertAllClose(np_ans, np_left)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertAllClose(np_ans, np_right)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertAllClose(np_ans, np_var_left)"
+        },
+        {
+          "line": 26,
+          "expression": "self.assertAllClose(np_ans, np_var_right)"
+        }
+      ],
+      "target": [
+        {
+          "line": 27,
+          "expression": "self.assertShapeEqual(np_ans, out)"
+        },
+        {
+          "line": 21,
+          "expression": "self.assertAllClose(np_ans, tf_cpu)"
+        },
+        {
+          "line": 22,
+          "expression": "self.assertAllClose(np_ans, np_left)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertAllClose(np_ans, np_right)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertAllClose(np_ans, np_var_left)"
+        },
+        {
+          "line": 26,
+          "expression": "self.assertAllClose(np_ans, np_var_right)"
+        }
+      ]
+    },
+    "body_hashes": {
+      "source": "ea13b8a83b606df168aa90b076354004d4bea2c354f9c1e061a854444ba54ce7",
+      "target": "ea13b8a83b606df168aa90b076354004d4bea2c354f9c1e061a854444ba54ce7"
+    },
+    "scenario_count": 2,
+    "scenarios": [
+      {
+        "scenario": 0,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      },
+      {
+        "scenario": 16,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true,
+    "probe_outcomes": {
+      "rejection-retained": 4
+    },
+    "review_category": "bounded-value-shape-reference-candidate",
+    "bounded_preservation_reference_candidate": true,
+    "native_type_obligations_not_established": true,
+    "review_method": "non-blinded source/adapter inspection plus verified recorded executions",
+    "independent_gold": false,
+    "full_intent_label": null,
+    "new_model_or_framework_calls": 0
+  },
+  {
+    "case_id": "E003",
+    "family": "subtract",
+    "entry": "_test_reference_numerics",
+    "upstream_file": "upstream/pt_binary.py",
+    "upstream_methods": [
+      {
+        "method": "assertEqualHelper",
+        "start": 86,
+        "end": 118,
+        "decorators": []
+      },
+      {
+        "method": "_test_reference_numerics",
+        "start": 122,
+        "end": 197,
+        "decorators": []
+      }
+    ],
+    "obligations": [
+      "与 NumPy 对应运算参考比较",
+      "返回张量及条件 dtype 检查"
+    ],
+    "scope_gaps": [
+      "替换上游输入生成器，仅扩充索引0、16",
+      "固定的有限输入不覆盖所有 dtype/promotion/标量分支",
+      "跨框架结果重建为源框架张量，不验证目标原生返回对象类型"
+    ],
+    "assertion_sites": {
+      "source": [
+        {
+          "line": 4,
+          "expression": "assert isinstance(actual, torch.Tensor)"
+        },
+        {
+          "line": 6,
+          "expression": "self.assertEqual(actual.item(), expected, msg=msg, **kwargs)"
+        },
+        {
+          "line": 13,
+          "expression": "self.assertEqual(actual, torch.from_numpy(expected).to(actual.dtype), msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 15,
+          "expression": "self.assertEqual(actual, expected, msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, exact_dtype=exact_dtype, rtol=0.016, atol=1e-05)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, equal_nan=equal_nan, exact_dtype=exact_dtype)"
+        },
+        {
+          "line": 10,
+          "expression": "assert actual.dtype in (torch.float16, torch.bfloat16, torch.float32)"
+        },
+        {
+          "line": 12,
+          "expression": "assert expected.dtype == torch_to_numpy_dtype_dict[actual.dtype]"
+        }
+      ],
+      "target": [
+        {
+          "line": 4,
+          "expression": "assert isinstance(actual, torch.Tensor)"
+        },
+        {
+          "line": 6,
+          "expression": "self.assertEqual(actual.item(), expected, msg=msg, **kwargs)"
+        },
+        {
+          "line": 13,
+          "expression": "self.assertEqual(actual, torch.from_numpy(expected).to(actual.dtype), msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 15,
+          "expression": "self.assertEqual(actual, expected, msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, exact_dtype=exact_dtype, rtol=0.016, atol=1e-05)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, equal_nan=equal_nan, exact_dtype=exact_dtype)"
+        },
+        {
+          "line": 10,
+          "expression": "assert actual.dtype in (torch.float16, torch.bfloat16, torch.float32)"
+        },
+        {
+          "line": 12,
+          "expression": "assert expected.dtype == torch_to_numpy_dtype_dict[actual.dtype]"
+        }
+      ]
+    },
+    "body_hashes": {
+      "source": "3b287a970da834067f184afca91dfb2fe9ebffb26b304f9eec0461aea6ec4823",
+      "target": "3b287a970da834067f184afca91dfb2fe9ebffb26b304f9eec0461aea6ec4823"
+    },
+    "scenario_count": 2,
+    "scenarios": [
+      {
+        "scenario": 0,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      },
+      {
+        "scenario": 16,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true,
+    "probe_outcomes": {
+      "rejection-retained": 4
+    },
+    "review_category": "bounded-value-shape-reference-candidate",
+    "bounded_preservation_reference_candidate": true,
+    "native_type_obligations_not_established": true,
+    "review_method": "non-blinded source/adapter inspection plus verified recorded executions",
+    "independent_gold": false,
+    "full_intent_label": null,
+    "new_model_or_framework_calls": 0
+  },
+  {
+    "case_id": "E004",
+    "family": "subtract",
+    "entry": "_compareCpu",
+    "upstream_file": "upstream/tf_binary.py",
+    "upstream_methods": [
+      {
+        "method": "_compareCpu",
+        "start": 79,
+        "end": 106,
+        "decorators": []
+      }
+    ],
+    "obligations": [
+      "张量/混合 NumPy 参数调用的值与 NumPy 参考接近",
+      "输出形状与参考一致"
+    ],
+    "scope_gaps": [
+      "替换上游输入生成器，仅扩充索引0、16",
+      "also_compare_variables=False，Variable 分支未覆盖",
+      "混合参数经适配均转为目标张量，不验证原生 NumPy/张量混合调用语义"
+    ],
+    "assertion_sites": {
+      "source": [
+        {
+          "line": 27,
+          "expression": "self.assertShapeEqual(np_ans, out)"
+        },
+        {
+          "line": 21,
+          "expression": "self.assertAllClose(np_ans, tf_cpu)"
+        },
+        {
+          "line": 22,
+          "expression": "self.assertAllClose(np_ans, np_left)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertAllClose(np_ans, np_right)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertAllClose(np_ans, np_var_left)"
+        },
+        {
+          "line": 26,
+          "expression": "self.assertAllClose(np_ans, np_var_right)"
+        }
+      ],
+      "target": [
+        {
+          "line": 27,
+          "expression": "self.assertShapeEqual(np_ans, out)"
+        },
+        {
+          "line": 21,
+          "expression": "self.assertAllClose(np_ans, tf_cpu)"
+        },
+        {
+          "line": 22,
+          "expression": "self.assertAllClose(np_ans, np_left)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertAllClose(np_ans, np_right)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertAllClose(np_ans, np_var_left)"
+        },
+        {
+          "line": 26,
+          "expression": "self.assertAllClose(np_ans, np_var_right)"
+        }
+      ]
+    },
+    "body_hashes": {
+      "source": "ea13b8a83b606df168aa90b076354004d4bea2c354f9c1e061a854444ba54ce7",
+      "target": "ea13b8a83b606df168aa90b076354004d4bea2c354f9c1e061a854444ba54ce7"
+    },
+    "scenario_count": 2,
+    "scenarios": [
+      {
+        "scenario": 0,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      },
+      {
+        "scenario": 16,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true,
+    "probe_outcomes": {
+      "rejection-retained": 4
+    },
+    "review_category": "bounded-value-shape-reference-candidate",
+    "bounded_preservation_reference_candidate": true,
+    "native_type_obligations_not_established": true,
+    "review_method": "non-blinded source/adapter inspection plus verified recorded executions",
+    "independent_gold": false,
+    "full_intent_label": null,
+    "new_model_or_framework_calls": 0
+  },
+  {
+    "case_id": "E005",
+    "family": "multiply",
+    "entry": "_test_reference_numerics",
+    "upstream_file": "upstream/pt_binary.py",
+    "upstream_methods": [
+      {
+        "method": "assertEqualHelper",
+        "start": 86,
+        "end": 118,
+        "decorators": []
+      },
+      {
+        "method": "_test_reference_numerics",
+        "start": 122,
+        "end": 197,
+        "decorators": []
+      }
+    ],
+    "obligations": [
+      "与 NumPy 对应运算参考比较",
+      "返回张量及条件 dtype 检查"
+    ],
+    "scope_gaps": [
+      "替换上游输入生成器，仅扩充索引0、16",
+      "固定的有限输入不覆盖所有 dtype/promotion/标量分支",
+      "跨框架结果重建为源框架张量，不验证目标原生返回对象类型"
+    ],
+    "assertion_sites": {
+      "source": [
+        {
+          "line": 4,
+          "expression": "assert isinstance(actual, torch.Tensor)"
+        },
+        {
+          "line": 6,
+          "expression": "self.assertEqual(actual.item(), expected, msg=msg, **kwargs)"
+        },
+        {
+          "line": 13,
+          "expression": "self.assertEqual(actual, torch.from_numpy(expected).to(actual.dtype), msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 15,
+          "expression": "self.assertEqual(actual, expected, msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, exact_dtype=exact_dtype, rtol=0.016, atol=1e-05)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, equal_nan=equal_nan, exact_dtype=exact_dtype)"
+        },
+        {
+          "line": 10,
+          "expression": "assert actual.dtype in (torch.float16, torch.bfloat16, torch.float32)"
+        },
+        {
+          "line": 12,
+          "expression": "assert expected.dtype == torch_to_numpy_dtype_dict[actual.dtype]"
+        }
+      ],
+      "target": [
+        {
+          "line": 4,
+          "expression": "assert isinstance(actual, torch.Tensor)"
+        },
+        {
+          "line": 6,
+          "expression": "self.assertEqual(actual.item(), expected, msg=msg, **kwargs)"
+        },
+        {
+          "line": 13,
+          "expression": "self.assertEqual(actual, torch.from_numpy(expected).to(actual.dtype), msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 15,
+          "expression": "self.assertEqual(actual, expected, msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, exact_dtype=exact_dtype, rtol=0.016, atol=1e-05)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, equal_nan=equal_nan, exact_dtype=exact_dtype)"
+        },
+        {
+          "line": 10,
+          "expression": "assert actual.dtype in (torch.float16, torch.bfloat16, torch.float32)"
+        },
+        {
+          "line": 12,
+          "expression": "assert expected.dtype == torch_to_numpy_dtype_dict[actual.dtype]"
+        }
+      ]
+    },
+    "body_hashes": {
+      "source": "3b287a970da834067f184afca91dfb2fe9ebffb26b304f9eec0461aea6ec4823",
+      "target": "3b287a970da834067f184afca91dfb2fe9ebffb26b304f9eec0461aea6ec4823"
+    },
+    "scenario_count": 2,
+    "scenarios": [
+      {
+        "scenario": 0,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      },
+      {
+        "scenario": 16,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true,
+    "probe_outcomes": {
+      "rejection-retained": 4
+    },
+    "review_category": "bounded-value-shape-reference-candidate",
+    "bounded_preservation_reference_candidate": true,
+    "native_type_obligations_not_established": true,
+    "review_method": "non-blinded source/adapter inspection plus verified recorded executions",
+    "independent_gold": false,
+    "full_intent_label": null,
+    "new_model_or_framework_calls": 0
+  },
+  {
+    "case_id": "E006",
+    "family": "multiply",
+    "entry": "_compareCpu",
+    "upstream_file": "upstream/tf_binary.py",
+    "upstream_methods": [
+      {
+        "method": "_compareCpu",
+        "start": 79,
+        "end": 106,
+        "decorators": []
+      }
+    ],
+    "obligations": [
+      "张量/混合 NumPy 参数调用的值与 NumPy 参考接近",
+      "输出形状与参考一致"
+    ],
+    "scope_gaps": [
+      "替换上游输入生成器，仅扩充索引0、16",
+      "also_compare_variables=False，Variable 分支未覆盖",
+      "混合参数经适配均转为目标张量，不验证原生 NumPy/张量混合调用语义"
+    ],
+    "assertion_sites": {
+      "source": [
+        {
+          "line": 27,
+          "expression": "self.assertShapeEqual(np_ans, out)"
+        },
+        {
+          "line": 21,
+          "expression": "self.assertAllClose(np_ans, tf_cpu)"
+        },
+        {
+          "line": 22,
+          "expression": "self.assertAllClose(np_ans, np_left)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertAllClose(np_ans, np_right)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertAllClose(np_ans, np_var_left)"
+        },
+        {
+          "line": 26,
+          "expression": "self.assertAllClose(np_ans, np_var_right)"
+        }
+      ],
+      "target": [
+        {
+          "line": 27,
+          "expression": "self.assertShapeEqual(np_ans, out)"
+        },
+        {
+          "line": 21,
+          "expression": "self.assertAllClose(np_ans, tf_cpu)"
+        },
+        {
+          "line": 22,
+          "expression": "self.assertAllClose(np_ans, np_left)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertAllClose(np_ans, np_right)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertAllClose(np_ans, np_var_left)"
+        },
+        {
+          "line": 26,
+          "expression": "self.assertAllClose(np_ans, np_var_right)"
+        }
+      ]
+    },
+    "body_hashes": {
+      "source": "ea13b8a83b606df168aa90b076354004d4bea2c354f9c1e061a854444ba54ce7",
+      "target": "ea13b8a83b606df168aa90b076354004d4bea2c354f9c1e061a854444ba54ce7"
+    },
+    "scenario_count": 2,
+    "scenarios": [
+      {
+        "scenario": 0,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      },
+      {
+        "scenario": 16,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true,
+    "probe_outcomes": {
+      "rejection-retained": 4
+    },
+    "review_category": "bounded-value-shape-reference-candidate",
+    "bounded_preservation_reference_candidate": true,
+    "native_type_obligations_not_established": true,
+    "review_method": "non-blinded source/adapter inspection plus verified recorded executions",
+    "independent_gold": false,
+    "full_intent_label": null,
+    "new_model_or_framework_calls": 0
+  },
+  {
+    "case_id": "E007",
+    "family": "divide",
+    "entry": "_test_reference_numerics",
+    "upstream_file": "upstream/pt_binary.py",
+    "upstream_methods": [
+      {
+        "method": "assertEqualHelper",
+        "start": 86,
+        "end": 118,
+        "decorators": []
+      },
+      {
+        "method": "_test_reference_numerics",
+        "start": 122,
+        "end": 197,
+        "decorators": []
+      }
+    ],
+    "obligations": [
+      "与 NumPy 对应运算参考比较",
+      "返回张量及条件 dtype 检查"
+    ],
+    "scope_gaps": [
+      "替换上游输入生成器，仅扩充索引0、16",
+      "固定的有限输入不覆盖所有 dtype/promotion/标量分支",
+      "跨框架结果重建为源框架张量，不验证目标原生返回对象类型"
+    ],
+    "assertion_sites": {
+      "source": [
+        {
+          "line": 4,
+          "expression": "assert isinstance(actual, torch.Tensor)"
+        },
+        {
+          "line": 6,
+          "expression": "self.assertEqual(actual.item(), expected, msg=msg, **kwargs)"
+        },
+        {
+          "line": 13,
+          "expression": "self.assertEqual(actual, torch.from_numpy(expected).to(actual.dtype), msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 15,
+          "expression": "self.assertEqual(actual, expected, msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, exact_dtype=exact_dtype, rtol=0.016, atol=1e-05)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, equal_nan=equal_nan, exact_dtype=exact_dtype)"
+        },
+        {
+          "line": 10,
+          "expression": "assert actual.dtype in (torch.float16, torch.bfloat16, torch.float32)"
+        },
+        {
+          "line": 12,
+          "expression": "assert expected.dtype == torch_to_numpy_dtype_dict[actual.dtype]"
+        }
+      ],
+      "target": [
+        {
+          "line": 4,
+          "expression": "assert isinstance(actual, torch.Tensor)"
+        },
+        {
+          "line": 6,
+          "expression": "self.assertEqual(actual.item(), expected, msg=msg, **kwargs)"
+        },
+        {
+          "line": 13,
+          "expression": "self.assertEqual(actual, torch.from_numpy(expected).to(actual.dtype), msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 15,
+          "expression": "self.assertEqual(actual, expected, msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, exact_dtype=exact_dtype, rtol=0.016, atol=1e-05)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, equal_nan=equal_nan, exact_dtype=exact_dtype)"
+        },
+        {
+          "line": 10,
+          "expression": "assert actual.dtype in (torch.float16, torch.bfloat16, torch.float32)"
+        },
+        {
+          "line": 12,
+          "expression": "assert expected.dtype == torch_to_numpy_dtype_dict[actual.dtype]"
+        }
+      ]
+    },
+    "body_hashes": {
+      "source": "3b287a970da834067f184afca91dfb2fe9ebffb26b304f9eec0461aea6ec4823",
+      "target": "3b287a970da834067f184afca91dfb2fe9ebffb26b304f9eec0461aea6ec4823"
+    },
+    "scenario_count": 2,
+    "scenarios": [
+      {
+        "scenario": 0,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      },
+      {
+        "scenario": 16,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true,
+    "probe_outcomes": {
+      "rejection-retained": 4
+    },
+    "review_category": "bounded-value-shape-reference-candidate",
+    "bounded_preservation_reference_candidate": true,
+    "native_type_obligations_not_established": true,
+    "review_method": "non-blinded source/adapter inspection plus verified recorded executions",
+    "independent_gold": false,
+    "full_intent_label": null,
+    "new_model_or_framework_calls": 0
+  },
+  {
+    "case_id": "E008",
+    "family": "divide",
+    "entry": "_compareCpu",
+    "upstream_file": "upstream/tf_binary.py",
+    "upstream_methods": [
+      {
+        "method": "_compareCpu",
+        "start": 79,
+        "end": 106,
+        "decorators": []
+      }
+    ],
+    "obligations": [
+      "张量/混合 NumPy 参数调用的值与 NumPy 参考接近",
+      "输出形状与参考一致"
+    ],
+    "scope_gaps": [
+      "替换上游输入生成器，仅扩充索引0、16",
+      "also_compare_variables=False，Variable 分支未覆盖",
+      "混合参数经适配均转为目标张量，不验证原生 NumPy/张量混合调用语义"
+    ],
+    "assertion_sites": {
+      "source": [
+        {
+          "line": 27,
+          "expression": "self.assertShapeEqual(np_ans, out)"
+        },
+        {
+          "line": 21,
+          "expression": "self.assertAllClose(np_ans, tf_cpu)"
+        },
+        {
+          "line": 22,
+          "expression": "self.assertAllClose(np_ans, np_left)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertAllClose(np_ans, np_right)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertAllClose(np_ans, np_var_left)"
+        },
+        {
+          "line": 26,
+          "expression": "self.assertAllClose(np_ans, np_var_right)"
+        }
+      ],
+      "target": [
+        {
+          "line": 27,
+          "expression": "self.assertShapeEqual(np_ans, out)"
+        },
+        {
+          "line": 21,
+          "expression": "self.assertAllClose(np_ans, tf_cpu)"
+        },
+        {
+          "line": 22,
+          "expression": "self.assertAllClose(np_ans, np_left)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertAllClose(np_ans, np_right)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertAllClose(np_ans, np_var_left)"
+        },
+        {
+          "line": 26,
+          "expression": "self.assertAllClose(np_ans, np_var_right)"
+        }
+      ]
+    },
+    "body_hashes": {
+      "source": "ea13b8a83b606df168aa90b076354004d4bea2c354f9c1e061a854444ba54ce7",
+      "target": "ea13b8a83b606df168aa90b076354004d4bea2c354f9c1e061a854444ba54ce7"
+    },
+    "scenario_count": 2,
+    "scenarios": [
+      {
+        "scenario": 0,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      },
+      {
+        "scenario": 16,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true,
+    "probe_outcomes": {
+      "rejection-retained": 4
+    },
+    "review_category": "bounded-value-shape-reference-candidate",
+    "bounded_preservation_reference_candidate": true,
+    "native_type_obligations_not_established": true,
+    "review_method": "non-blinded source/adapter inspection plus verified recorded executions",
+    "independent_gold": false,
+    "full_intent_label": null,
+    "new_model_or_framework_calls": 0
+  },
+  {
+    "case_id": "E009",
+    "family": "maximum",
+    "entry": "_test_reference_numerics",
+    "upstream_file": "upstream/pt_binary.py",
+    "upstream_methods": [
+      {
+        "method": "assertEqualHelper",
+        "start": 86,
+        "end": 118,
+        "decorators": []
+      },
+      {
+        "method": "_test_reference_numerics",
+        "start": 122,
+        "end": 197,
+        "decorators": []
+      }
+    ],
+    "obligations": [
+      "与 NumPy 对应运算参考比较",
+      "返回张量及条件 dtype 检查"
+    ],
+    "scope_gaps": [
+      "替换上游输入生成器，仅扩充索引0、16",
+      "固定的有限输入不覆盖所有 dtype/promotion/标量分支",
+      "跨框架结果重建为源框架张量，不验证目标原生返回对象类型"
+    ],
+    "assertion_sites": {
+      "source": [
+        {
+          "line": 4,
+          "expression": "assert isinstance(actual, torch.Tensor)"
+        },
+        {
+          "line": 6,
+          "expression": "self.assertEqual(actual.item(), expected, msg=msg, **kwargs)"
+        },
+        {
+          "line": 13,
+          "expression": "self.assertEqual(actual, torch.from_numpy(expected).to(actual.dtype), msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 15,
+          "expression": "self.assertEqual(actual, expected, msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, exact_dtype=exact_dtype, rtol=0.016, atol=1e-05)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, equal_nan=equal_nan, exact_dtype=exact_dtype)"
+        },
+        {
+          "line": 10,
+          "expression": "assert actual.dtype in (torch.float16, torch.bfloat16, torch.float32)"
+        },
+        {
+          "line": 12,
+          "expression": "assert expected.dtype == torch_to_numpy_dtype_dict[actual.dtype]"
+        }
+      ],
+      "target": [
+        {
+          "line": 4,
+          "expression": "assert isinstance(actual, torch.Tensor)"
+        },
+        {
+          "line": 6,
+          "expression": "self.assertEqual(actual.item(), expected, msg=msg, **kwargs)"
+        },
+        {
+          "line": 13,
+          "expression": "self.assertEqual(actual, torch.from_numpy(expected).to(actual.dtype), msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 15,
+          "expression": "self.assertEqual(actual, expected, msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, exact_dtype=exact_dtype, rtol=0.016, atol=1e-05)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, equal_nan=equal_nan, exact_dtype=exact_dtype)"
+        },
+        {
+          "line": 10,
+          "expression": "assert actual.dtype in (torch.float16, torch.bfloat16, torch.float32)"
+        },
+        {
+          "line": 12,
+          "expression": "assert expected.dtype == torch_to_numpy_dtype_dict[actual.dtype]"
+        }
+      ]
+    },
+    "body_hashes": {
+      "source": "3b287a970da834067f184afca91dfb2fe9ebffb26b304f9eec0461aea6ec4823",
+      "target": "3b287a970da834067f184afca91dfb2fe9ebffb26b304f9eec0461aea6ec4823"
+    },
+    "scenario_count": 2,
+    "scenarios": [
+      {
+        "scenario": 0,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      },
+      {
+        "scenario": 16,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true,
+    "probe_outcomes": {
+      "rejection-retained": 4
+    },
+    "review_category": "bounded-value-shape-reference-candidate",
+    "bounded_preservation_reference_candidate": true,
+    "native_type_obligations_not_established": true,
+    "review_method": "non-blinded source/adapter inspection plus verified recorded executions",
+    "independent_gold": false,
+    "full_intent_label": null,
+    "new_model_or_framework_calls": 0
+  },
+  {
+    "case_id": "E010",
+    "family": "maximum",
+    "entry": "_compareCpu",
+    "upstream_file": "upstream/tf_binary.py",
+    "upstream_methods": [
+      {
+        "method": "_compareCpu",
+        "start": 79,
+        "end": 106,
+        "decorators": []
+      }
+    ],
+    "obligations": [
+      "张量/混合 NumPy 参数调用的值与 NumPy 参考接近",
+      "输出形状与参考一致"
+    ],
+    "scope_gaps": [
+      "替换上游输入生成器，仅扩充索引0、16",
+      "also_compare_variables=False，Variable 分支未覆盖",
+      "混合参数经适配均转为目标张量，不验证原生 NumPy/张量混合调用语义"
+    ],
+    "assertion_sites": {
+      "source": [
+        {
+          "line": 27,
+          "expression": "self.assertShapeEqual(np_ans, out)"
+        },
+        {
+          "line": 21,
+          "expression": "self.assertAllClose(np_ans, tf_cpu)"
+        },
+        {
+          "line": 22,
+          "expression": "self.assertAllClose(np_ans, np_left)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertAllClose(np_ans, np_right)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertAllClose(np_ans, np_var_left)"
+        },
+        {
+          "line": 26,
+          "expression": "self.assertAllClose(np_ans, np_var_right)"
+        }
+      ],
+      "target": [
+        {
+          "line": 27,
+          "expression": "self.assertShapeEqual(np_ans, out)"
+        },
+        {
+          "line": 21,
+          "expression": "self.assertAllClose(np_ans, tf_cpu)"
+        },
+        {
+          "line": 22,
+          "expression": "self.assertAllClose(np_ans, np_left)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertAllClose(np_ans, np_right)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertAllClose(np_ans, np_var_left)"
+        },
+        {
+          "line": 26,
+          "expression": "self.assertAllClose(np_ans, np_var_right)"
+        }
+      ]
+    },
+    "body_hashes": {
+      "source": "ea13b8a83b606df168aa90b076354004d4bea2c354f9c1e061a854444ba54ce7",
+      "target": "ea13b8a83b606df168aa90b076354004d4bea2c354f9c1e061a854444ba54ce7"
+    },
+    "scenario_count": 2,
+    "scenarios": [
+      {
+        "scenario": 0,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      },
+      {
+        "scenario": 16,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true,
+    "probe_outcomes": {
+      "rejection-retained": 4
+    },
+    "review_category": "bounded-value-shape-reference-candidate",
+    "bounded_preservation_reference_candidate": true,
+    "native_type_obligations_not_established": true,
+    "review_method": "non-blinded source/adapter inspection plus verified recorded executions",
+    "independent_gold": false,
+    "full_intent_label": null,
+    "new_model_or_framework_calls": 0
+  },
+  {
+    "case_id": "E011",
+    "family": "minimum",
+    "entry": "_test_reference_numerics",
+    "upstream_file": "upstream/pt_binary.py",
+    "upstream_methods": [
+      {
+        "method": "assertEqualHelper",
+        "start": 86,
+        "end": 118,
+        "decorators": []
+      },
+      {
+        "method": "_test_reference_numerics",
+        "start": 122,
+        "end": 197,
+        "decorators": []
+      }
+    ],
+    "obligations": [
+      "与 NumPy 对应运算参考比较",
+      "返回张量及条件 dtype 检查"
+    ],
+    "scope_gaps": [
+      "替换上游输入生成器，仅扩充索引0、16",
+      "固定的有限输入不覆盖所有 dtype/promotion/标量分支",
+      "跨框架结果重建为源框架张量，不验证目标原生返回对象类型"
+    ],
+    "assertion_sites": {
+      "source": [
+        {
+          "line": 4,
+          "expression": "assert isinstance(actual, torch.Tensor)"
+        },
+        {
+          "line": 6,
+          "expression": "self.assertEqual(actual.item(), expected, msg=msg, **kwargs)"
+        },
+        {
+          "line": 13,
+          "expression": "self.assertEqual(actual, torch.from_numpy(expected).to(actual.dtype), msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 15,
+          "expression": "self.assertEqual(actual, expected, msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, exact_dtype=exact_dtype, rtol=0.016, atol=1e-05)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, equal_nan=equal_nan, exact_dtype=exact_dtype)"
+        },
+        {
+          "line": 10,
+          "expression": "assert actual.dtype in (torch.float16, torch.bfloat16, torch.float32)"
+        },
+        {
+          "line": 12,
+          "expression": "assert expected.dtype == torch_to_numpy_dtype_dict[actual.dtype]"
+        }
+      ],
+      "target": [
+        {
+          "line": 4,
+          "expression": "assert isinstance(actual, torch.Tensor)"
+        },
+        {
+          "line": 6,
+          "expression": "self.assertEqual(actual.item(), expected, msg=msg, **kwargs)"
+        },
+        {
+          "line": 13,
+          "expression": "self.assertEqual(actual, torch.from_numpy(expected).to(actual.dtype), msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 15,
+          "expression": "self.assertEqual(actual, expected, msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, exact_dtype=exact_dtype, rtol=0.016, atol=1e-05)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, equal_nan=equal_nan, exact_dtype=exact_dtype)"
+        },
+        {
+          "line": 10,
+          "expression": "assert actual.dtype in (torch.float16, torch.bfloat16, torch.float32)"
+        },
+        {
+          "line": 12,
+          "expression": "assert expected.dtype == torch_to_numpy_dtype_dict[actual.dtype]"
+        }
+      ]
+    },
+    "body_hashes": {
+      "source": "3b287a970da834067f184afca91dfb2fe9ebffb26b304f9eec0461aea6ec4823",
+      "target": "3b287a970da834067f184afca91dfb2fe9ebffb26b304f9eec0461aea6ec4823"
+    },
+    "scenario_count": 2,
+    "scenarios": [
+      {
+        "scenario": 0,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      },
+      {
+        "scenario": 16,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true,
+    "probe_outcomes": {
+      "rejection-retained": 4
+    },
+    "review_category": "bounded-value-shape-reference-candidate",
+    "bounded_preservation_reference_candidate": true,
+    "native_type_obligations_not_established": true,
+    "review_method": "non-blinded source/adapter inspection plus verified recorded executions",
+    "independent_gold": false,
+    "full_intent_label": null,
+    "new_model_or_framework_calls": 0
+  },
+  {
+    "case_id": "E012",
+    "family": "minimum",
+    "entry": "_compareCpu",
+    "upstream_file": "upstream/tf_binary.py",
+    "upstream_methods": [
+      {
+        "method": "_compareCpu",
+        "start": 79,
+        "end": 106,
+        "decorators": []
+      }
+    ],
+    "obligations": [
+      "张量/混合 NumPy 参数调用的值与 NumPy 参考接近",
+      "输出形状与参考一致"
+    ],
+    "scope_gaps": [
+      "替换上游输入生成器，仅扩充索引0、16",
+      "also_compare_variables=False，Variable 分支未覆盖",
+      "混合参数经适配均转为目标张量，不验证原生 NumPy/张量混合调用语义"
+    ],
+    "assertion_sites": {
+      "source": [
+        {
+          "line": 27,
+          "expression": "self.assertShapeEqual(np_ans, out)"
+        },
+        {
+          "line": 21,
+          "expression": "self.assertAllClose(np_ans, tf_cpu)"
+        },
+        {
+          "line": 22,
+          "expression": "self.assertAllClose(np_ans, np_left)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertAllClose(np_ans, np_right)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertAllClose(np_ans, np_var_left)"
+        },
+        {
+          "line": 26,
+          "expression": "self.assertAllClose(np_ans, np_var_right)"
+        }
+      ],
+      "target": [
+        {
+          "line": 27,
+          "expression": "self.assertShapeEqual(np_ans, out)"
+        },
+        {
+          "line": 21,
+          "expression": "self.assertAllClose(np_ans, tf_cpu)"
+        },
+        {
+          "line": 22,
+          "expression": "self.assertAllClose(np_ans, np_left)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertAllClose(np_ans, np_right)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertAllClose(np_ans, np_var_left)"
+        },
+        {
+          "line": 26,
+          "expression": "self.assertAllClose(np_ans, np_var_right)"
+        }
+      ]
+    },
+    "body_hashes": {
+      "source": "ea13b8a83b606df168aa90b076354004d4bea2c354f9c1e061a854444ba54ce7",
+      "target": "ea13b8a83b606df168aa90b076354004d4bea2c354f9c1e061a854444ba54ce7"
+    },
+    "scenario_count": 2,
+    "scenarios": [
+      {
+        "scenario": 0,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      },
+      {
+        "scenario": 16,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true,
+    "probe_outcomes": {
+      "rejection-retained": 4
+    },
+    "review_category": "bounded-value-shape-reference-candidate",
+    "bounded_preservation_reference_candidate": true,
+    "native_type_obligations_not_established": true,
+    "review_method": "non-blinded source/adapter inspection plus verified recorded executions",
+    "independent_gold": false,
+    "full_intent_label": null,
+    "new_model_or_framework_calls": 0
+  },
+  {
+    "case_id": "E013",
+    "family": "power",
+    "entry": "_test_reference_numerics",
+    "upstream_file": "upstream/pt_binary.py",
+    "upstream_methods": [
+      {
+        "method": "assertEqualHelper",
+        "start": 86,
+        "end": 118,
+        "decorators": []
+      },
+      {
+        "method": "_test_reference_numerics",
+        "start": 122,
+        "end": 197,
+        "decorators": []
+      }
+    ],
+    "obligations": [
+      "与 NumPy 对应运算参考比较",
+      "返回张量及条件 dtype 检查"
+    ],
+    "scope_gaps": [
+      "替换上游输入生成器，仅扩充索引0、16",
+      "固定的有限输入不覆盖所有 dtype/promotion/标量分支",
+      "跨框架结果重建为源框架张量，不验证目标原生返回对象类型"
+    ],
+    "assertion_sites": {
+      "source": [
+        {
+          "line": 4,
+          "expression": "assert isinstance(actual, torch.Tensor)"
+        },
+        {
+          "line": 6,
+          "expression": "self.assertEqual(actual.item(), expected, msg=msg, **kwargs)"
+        },
+        {
+          "line": 13,
+          "expression": "self.assertEqual(actual, torch.from_numpy(expected).to(actual.dtype), msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 15,
+          "expression": "self.assertEqual(actual, expected, msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, exact_dtype=exact_dtype, rtol=0.016, atol=1e-05)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, equal_nan=equal_nan, exact_dtype=exact_dtype)"
+        },
+        {
+          "line": 10,
+          "expression": "assert actual.dtype in (torch.float16, torch.bfloat16, torch.float32)"
+        },
+        {
+          "line": 12,
+          "expression": "assert expected.dtype == torch_to_numpy_dtype_dict[actual.dtype]"
+        }
+      ],
+      "target": [
+        {
+          "line": 4,
+          "expression": "assert isinstance(actual, torch.Tensor)"
+        },
+        {
+          "line": 6,
+          "expression": "self.assertEqual(actual.item(), expected, msg=msg, **kwargs)"
+        },
+        {
+          "line": 13,
+          "expression": "self.assertEqual(actual, torch.from_numpy(expected).to(actual.dtype), msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 15,
+          "expression": "self.assertEqual(actual, expected, msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, exact_dtype=exact_dtype, rtol=0.016, atol=1e-05)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, equal_nan=equal_nan, exact_dtype=exact_dtype)"
+        },
+        {
+          "line": 10,
+          "expression": "assert actual.dtype in (torch.float16, torch.bfloat16, torch.float32)"
+        },
+        {
+          "line": 12,
+          "expression": "assert expected.dtype == torch_to_numpy_dtype_dict[actual.dtype]"
+        }
+      ]
+    },
+    "body_hashes": {
+      "source": "3b287a970da834067f184afca91dfb2fe9ebffb26b304f9eec0461aea6ec4823",
+      "target": "3b287a970da834067f184afca91dfb2fe9ebffb26b304f9eec0461aea6ec4823"
+    },
+    "scenario_count": 2,
+    "scenarios": [
+      {
+        "scenario": 0,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      },
+      {
+        "scenario": 16,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true,
+    "probe_outcomes": {
+      "rejection-retained": 4
+    },
+    "review_category": "bounded-value-shape-reference-candidate",
+    "bounded_preservation_reference_candidate": true,
+    "native_type_obligations_not_established": true,
+    "review_method": "non-blinded source/adapter inspection plus verified recorded executions",
+    "independent_gold": false,
+    "full_intent_label": null,
+    "new_model_or_framework_calls": 0
+  },
+  {
+    "case_id": "E014",
+    "family": "power",
+    "entry": "_compareCpu",
+    "upstream_file": "upstream/tf_binary.py",
+    "upstream_methods": [
+      {
+        "method": "_compareCpu",
+        "start": 79,
+        "end": 106,
+        "decorators": []
+      }
+    ],
+    "obligations": [
+      "张量/混合 NumPy 参数调用的值与 NumPy 参考接近",
+      "输出形状与参考一致"
+    ],
+    "scope_gaps": [
+      "替换上游输入生成器，仅扩充索引0、16",
+      "also_compare_variables=False，Variable 分支未覆盖",
+      "混合参数经适配均转为目标张量，不验证原生 NumPy/张量混合调用语义"
+    ],
+    "assertion_sites": {
+      "source": [
+        {
+          "line": 27,
+          "expression": "self.assertShapeEqual(np_ans, out)"
+        },
+        {
+          "line": 21,
+          "expression": "self.assertAllClose(np_ans, tf_cpu)"
+        },
+        {
+          "line": 22,
+          "expression": "self.assertAllClose(np_ans, np_left)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertAllClose(np_ans, np_right)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertAllClose(np_ans, np_var_left)"
+        },
+        {
+          "line": 26,
+          "expression": "self.assertAllClose(np_ans, np_var_right)"
+        }
+      ],
+      "target": [
+        {
+          "line": 27,
+          "expression": "self.assertShapeEqual(np_ans, out)"
+        },
+        {
+          "line": 21,
+          "expression": "self.assertAllClose(np_ans, tf_cpu)"
+        },
+        {
+          "line": 22,
+          "expression": "self.assertAllClose(np_ans, np_left)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertAllClose(np_ans, np_right)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertAllClose(np_ans, np_var_left)"
+        },
+        {
+          "line": 26,
+          "expression": "self.assertAllClose(np_ans, np_var_right)"
+        }
+      ]
+    },
+    "body_hashes": {
+      "source": "ea13b8a83b606df168aa90b076354004d4bea2c354f9c1e061a854444ba54ce7",
+      "target": "ea13b8a83b606df168aa90b076354004d4bea2c354f9c1e061a854444ba54ce7"
+    },
+    "scenario_count": 2,
+    "scenarios": [
+      {
+        "scenario": 0,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      },
+      {
+        "scenario": 16,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true,
+    "probe_outcomes": {
+      "rejection-retained": 4
+    },
+    "review_category": "bounded-value-shape-reference-candidate",
+    "bounded_preservation_reference_candidate": true,
+    "native_type_obligations_not_established": true,
+    "review_method": "non-blinded source/adapter inspection plus verified recorded executions",
+    "independent_gold": false,
+    "full_intent_label": null,
+    "new_model_or_framework_calls": 0
+  },
+  {
+    "case_id": "E015",
+    "family": "atan2",
+    "entry": "_test_reference_numerics",
+    "upstream_file": "upstream/pt_binary.py",
+    "upstream_methods": [
+      {
+        "method": "assertEqualHelper",
+        "start": 86,
+        "end": 118,
+        "decorators": []
+      },
+      {
+        "method": "_test_reference_numerics",
+        "start": 122,
+        "end": 197,
+        "decorators": []
+      }
+    ],
+    "obligations": [
+      "与 NumPy 对应运算参考比较",
+      "返回张量及条件 dtype 检查"
+    ],
+    "scope_gaps": [
+      "替换上游输入生成器，仅扩充索引0、16",
+      "固定的有限输入不覆盖所有 dtype/promotion/标量分支",
+      "跨框架结果重建为源框架张量，不验证目标原生返回对象类型"
+    ],
+    "assertion_sites": {
+      "source": [
+        {
+          "line": 4,
+          "expression": "assert isinstance(actual, torch.Tensor)"
+        },
+        {
+          "line": 6,
+          "expression": "self.assertEqual(actual.item(), expected, msg=msg, **kwargs)"
+        },
+        {
+          "line": 13,
+          "expression": "self.assertEqual(actual, torch.from_numpy(expected).to(actual.dtype), msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 15,
+          "expression": "self.assertEqual(actual, expected, msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, exact_dtype=exact_dtype, rtol=0.016, atol=1e-05)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, equal_nan=equal_nan, exact_dtype=exact_dtype)"
+        },
+        {
+          "line": 10,
+          "expression": "assert actual.dtype in (torch.float16, torch.bfloat16, torch.float32)"
+        },
+        {
+          "line": 12,
+          "expression": "assert expected.dtype == torch_to_numpy_dtype_dict[actual.dtype]"
+        }
+      ],
+      "target": [
+        {
+          "line": 4,
+          "expression": "assert isinstance(actual, torch.Tensor)"
+        },
+        {
+          "line": 6,
+          "expression": "self.assertEqual(actual.item(), expected, msg=msg, **kwargs)"
+        },
+        {
+          "line": 13,
+          "expression": "self.assertEqual(actual, torch.from_numpy(expected).to(actual.dtype), msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 15,
+          "expression": "self.assertEqual(actual, expected, msg, exact_device=False, **kwargs)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, exact_dtype=exact_dtype, rtol=0.016, atol=1e-05)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, equal_nan=equal_nan, exact_dtype=exact_dtype)"
+        },
+        {
+          "line": 10,
+          "expression": "assert actual.dtype in (torch.float16, torch.bfloat16, torch.float32)"
+        },
+        {
+          "line": 12,
+          "expression": "assert expected.dtype == torch_to_numpy_dtype_dict[actual.dtype]"
+        }
+      ]
+    },
+    "body_hashes": {
+      "source": "3b287a970da834067f184afca91dfb2fe9ebffb26b304f9eec0461aea6ec4823",
+      "target": "3b287a970da834067f184afca91dfb2fe9ebffb26b304f9eec0461aea6ec4823"
+    },
+    "scenario_count": 2,
+    "scenarios": [
+      {
+        "scenario": 0,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      },
+      {
+        "scenario": 16,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true,
+    "probe_outcomes": {
+      "rejection-retained": 4
+    },
+    "review_category": "bounded-value-shape-reference-candidate",
+    "bounded_preservation_reference_candidate": true,
+    "native_type_obligations_not_established": true,
+    "review_method": "non-blinded source/adapter inspection plus verified recorded executions",
+    "independent_gold": false,
+    "full_intent_label": null,
+    "new_model_or_framework_calls": 0
+  },
+  {
+    "case_id": "E016",
+    "family": "atan2",
+    "entry": "_compareCpu",
+    "upstream_file": "upstream/tf_binary.py",
+    "upstream_methods": [
+      {
+        "method": "_compareCpu",
+        "start": 79,
+        "end": 106,
+        "decorators": []
+      }
+    ],
+    "obligations": [
+      "张量/混合 NumPy 参数调用的值与 NumPy 参考接近",
+      "输出形状与参考一致"
+    ],
+    "scope_gaps": [
+      "替换上游输入生成器，仅扩充索引0、16",
+      "also_compare_variables=False，Variable 分支未覆盖",
+      "混合参数经适配均转为目标张量，不验证原生 NumPy/张量混合调用语义"
+    ],
+    "assertion_sites": {
+      "source": [
+        {
+          "line": 27,
+          "expression": "self.assertShapeEqual(np_ans, out)"
+        },
+        {
+          "line": 21,
+          "expression": "self.assertAllClose(np_ans, tf_cpu)"
+        },
+        {
+          "line": 22,
+          "expression": "self.assertAllClose(np_ans, np_left)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertAllClose(np_ans, np_right)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertAllClose(np_ans, np_var_left)"
+        },
+        {
+          "line": 26,
+          "expression": "self.assertAllClose(np_ans, np_var_right)"
+        }
+      ],
+      "target": [
+        {
+          "line": 27,
+          "expression": "self.assertShapeEqual(np_ans, out)"
+        },
+        {
+          "line": 21,
+          "expression": "self.assertAllClose(np_ans, tf_cpu)"
+        },
+        {
+          "line": 22,
+          "expression": "self.assertAllClose(np_ans, np_left)"
+        },
+        {
+          "line": 23,
+          "expression": "self.assertAllClose(np_ans, np_right)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertAllClose(np_ans, np_var_left)"
+        },
+        {
+          "line": 26,
+          "expression": "self.assertAllClose(np_ans, np_var_right)"
+        }
+      ]
+    },
+    "body_hashes": {
+      "source": "ea13b8a83b606df168aa90b076354004d4bea2c354f9c1e061a854444ba54ce7",
+      "target": "ea13b8a83b606df168aa90b076354004d4bea2c354f9c1e061a854444ba54ce7"
+    },
+    "scenario_count": 2,
+    "scenarios": [
+      {
+        "scenario": 0,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      },
+      {
+        "scenario": 16,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true,
+    "probe_outcomes": {
+      "rejection-retained": 4
+    },
+    "review_category": "bounded-value-shape-reference-candidate",
+    "bounded_preservation_reference_candidate": true,
+    "native_type_obligations_not_established": true,
+    "review_method": "non-blinded source/adapter inspection plus verified recorded executions",
+    "independent_gold": false,
+    "full_intent_label": null,
+    "new_model_or_framework_calls": 0
+  },
+  {
+    "case_id": "E018",
+    "family": "reshape",
+    "entry": "testFloatBasic",
+    "upstream_file": "upstream/tf_reshape.py",
+    "upstream_methods": [
+      {
+        "method": "_testReshape",
+        "start": 33,
+        "end": 46,
+        "decorators": []
+      },
+      {
+        "method": "_testBothReshape",
+        "start": 60,
+        "end": 62,
+        "decorators": []
+      },
+      {
+        "method": "testFloatBasic",
+        "start": 68,
+        "end": 70,
+        "decorators": []
+      }
+    ],
+    "obligations": [
+      "输出形状符合 NumPy reshape",
+      "静态形状与运行结果形状相符",
+      "int64 shape 参数调用"
+    ],
+    "scope_gaps": [
+      "原方法无数值相等断言，数值扰动接受不构成丢失",
+      "桥接将 shape 参数张量转为 Python 值，不能确认目标原生 int64 参数支持"
+    ],
+    "assertion_sites": {
+      "source": [
+        {
+          "line": 8,
+          "expression": "self.assertEqual(tf_ans.get_shape(), out.shape)"
+        },
+        {
+          "line": 9,
+          "expression": "self.assertShapeEqual(np_ans, tf_ans)"
+        },
+        {
+          "line": 13,
+          "expression": "self.assertEqual(tf_ans.get_shape(), out.shape)"
+        },
+        {
+          "line": 14,
+          "expression": "self.assertShapeEqual(np_ans, tf_ans)"
+        }
+      ],
+      "target": [
+        {
+          "line": 8,
+          "expression": "self.assertEqual(tf_ans.get_shape(), out.shape)"
+        },
+        {
+          "line": 9,
+          "expression": "self.assertShapeEqual(np_ans, tf_ans)"
+        },
+        {
+          "line": 13,
+          "expression": "self.assertEqual(tf_ans.get_shape(), out.shape)"
+        },
+        {
+          "line": 14,
+          "expression": "self.assertShapeEqual(np_ans, tf_ans)"
+        }
+      ]
+    },
+    "body_hashes": {
+      "source": "f372ddcc5a00781e125704624a9a8a4e269daa390b880d73f6df6f36980f1c76",
+      "target": "af1c3218f82fcd82ac88fa7233f17ae34f57c37afdafc73e81853b8a0f51dd0d"
+    },
+    "scenario_count": 1,
+    "scenarios": [
+      {
+        "scenario": null,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "source-does-not-reject"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true,
+    "probe_outcomes": {
+      "rejection-retained": 1,
+      "source-does-not-reject": 1
+    },
+    "review_category": "shape-only-reference-candidate",
+    "bounded_preservation_reference_candidate": true,
+    "native_type_obligations_not_established": true,
+    "review_method": "non-blinded source/adapter inspection plus verified recorded executions",
+    "independent_gold": false,
+    "full_intent_label": null,
+    "new_model_or_framework_calls": 0
+  },
+  {
+    "case_id": "E019",
+    "family": "transpose",
+    "entry": "test_transposes",
+    "upstream_file": "upstream/pt_view.py",
+    "upstream_methods": [
+      {
+        "method": "test_transposes",
+        "start": 1430,
+        "end": 1444,
+        "decorators": [
+          "dtypes(*all_types_and_complex_and(torch.half, torch.bfloat16, torch.bool))"
+        ]
+      }
+    ],
+    "obligations": [
+      "转置结果与 T/H/mT/mH/adjoint 关系一致"
+    ],
+    "scope_gaps": [
+      "运行固定 CPU float32，不覆盖复数共轭分支语义",
+      "值桥接复制输入/输出，不验证视图别名或存储共享"
+    ],
+    "assertion_sites": {
+      "source": [
+        {
+          "line": 15,
+          "expression": "self.assertEqual(t2, t1)"
+        }
+      ],
+      "target": [
+        {
+          "line": 15,
+          "expression": "self.assertEqual(t2, t1)"
+        }
+      ]
+    },
+    "body_hashes": {
+      "source": "67e25fed2ec6c15422a6b0dfde2161a36836b751e79b02ea0674cf93d332c8b5",
+      "target": "a26c84c19441031425a7bbe862f0d9c5d1e740503f5090f9d87cbc704f788e64"
+    },
+    "scenario_count": 1,
+    "scenarios": [
+      {
+        "scenario": null,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true,
+    "probe_outcomes": {
+      "rejection-retained": 2
+    },
+    "review_category": "bounded-value-shape-reference-candidate",
+    "bounded_preservation_reference_candidate": true,
+    "native_type_obligations_not_established": true,
+    "review_method": "non-blinded source/adapter inspection plus verified recorded executions",
+    "independent_gold": false,
+    "full_intent_label": null,
+    "new_model_or_framework_calls": 0
+  },
+  {
+    "case_id": "E020",
+    "family": "transpose",
+    "entry": "testTranspose2DAuto",
+    "upstream_file": "upstream/tf_transpose.py",
+    "upstream_methods": [
+      {
+        "method": "testTranspose2DAuto",
+        "start": 437,
+        "end": 443,
+        "decorators": []
+      }
+    ],
+    "obligations": [
+      "省略 perm 时二维默认转置的结果值"
+    ],
+    "scope_gaps": [
+      "目标基线失败，不进入扰动拒绝保持评价"
+    ],
+    "assertion_sites": {
+      "source": [
+        {
+          "line": 9,
+          "expression": "self.assertAllEqual(x_tf, [[1, 4], [2, 5], [3, 6]])"
+        }
+      ],
+      "target": [
+        {
+          "line": 9,
+          "expression": "self.assertAllEqual(x_tf, [[1, 4], [2, 5], [3, 6]])"
+        }
+      ]
+    },
+    "body_hashes": {
+      "source": "cb8ab1f23f26818362dd23ec44b64bd4413960b55b24c9c8c33bbc5b235d654a",
+      "target": "96a9e42217546feb89c9a19ca1eacea13ec9dd327da10f55d353759a14040406"
+    },
+    "scenario_count": 1,
+    "scenarios": [
+      {
+        "scenario": null,
+        "baseline_qualified": false,
+        "transparent": false,
+        "probes": {
+          "wrong-shape": "baseline-unqualified",
+          "wrong-value": "baseline-unqualified"
+        },
+        "baseline_failures": [
+          {
+            "side": "target",
+            "status": "execution-error",
+            "phase": "counterpart-execution",
+            "error": "TypeError: Tensor.permute() argument after * must be an iterable, not NoneType"
+          }
+        ]
+      }
+    ],
+    "baseline_and_transparency_passed": false,
+    "probe_outcomes": {
+      "baseline-unqualified": 2
+    },
+    "review_category": "baseline-behavior-failure",
+    "bounded_preservation_reference_candidate": false,
+    "native_type_obligations_not_established": true,
+    "review_method": "non-blinded source/adapter inspection plus verified recorded executions",
+    "independent_gold": false,
+    "full_intent_label": null,
+    "new_model_or_framework_calls": 0
+  },
+  {
+    "case_id": "E022",
+    "family": "squeeze",
+    "entry": "testSqueeze",
+    "upstream_file": "upstream/tf_shape.py",
+    "upstream_methods": [
+      {
+        "method": "_compareSqueeze",
+        "start": 297,
+        "end": 308,
+        "decorators": []
+      },
+      {
+        "method": "_compareSqueezeAll",
+        "start": 310,
+        "end": 314,
+        "decorators": []
+      },
+      {
+        "method": "testSqueeze",
+        "start": 316,
+        "end": 325,
+        "decorators": []
+      }
+    ],
+    "obligations": [
+      "去掉单位轴后的形状符合 NumPy",
+      "输出值符合 NumPy squeeze"
+    ],
+    "scope_gaps": [
+      "测试正文含 GPU 上下文但执行限制为 CPU，不能计为独立 GPU 验证",
+      "零值输入和既定形状不能代表全部数值域"
+    ],
+    "assertion_sites": {
+      "source": [
+        {
+          "line": 13,
+          "expression": "self.assertShapeEqual(np_ans, tensor)"
+        },
+        {
+          "line": 14,
+          "expression": "self.assertAllEqual(np_ans, tf_ans)"
+        }
+      ],
+      "target": [
+        {
+          "line": 13,
+          "expression": "self.assertShapeEqual(np_ans, tensor)"
+        },
+        {
+          "line": 14,
+          "expression": "self.assertAllEqual(np_ans, tf_ans)"
+        }
+      ]
+    },
+    "body_hashes": {
+      "source": "51a67d1a2260e1c81df40a630530c8b14db5a75f0510cb14b0926323892175e1",
+      "target": "0476356936f6301c92e083430d64ca7e6277eb7e0cb8f1bd3e0b34e90a51e790"
+    },
+    "scenario_count": 1,
+    "scenarios": [
+      {
+        "scenario": null,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true,
+    "probe_outcomes": {
+      "rejection-retained": 2
+    },
+    "review_category": "bounded-value-shape-reference-candidate",
+    "bounded_preservation_reference_candidate": true,
+    "native_type_obligations_not_established": true,
+    "review_method": "non-blinded source/adapter inspection plus verified recorded executions",
+    "independent_gold": false,
+    "full_intent_label": null,
+    "new_model_or_framework_calls": 0
+  },
+  {
+    "case_id": "E024",
+    "family": "expand_dims",
+    "entry": "testExpandDimsDimType",
+    "upstream_file": "upstream/tf_shape.py",
+    "upstream_methods": [
+      {
+        "method": "testExpandDimsDimType",
+        "start": 287,
+        "end": 295,
+        "decorators": []
+      }
+    ],
+    "obligations": [
+      "axis=0 扩维结果的值与形状",
+      "原方法的 axis int32/int64 张量参数兼容性"
+    ],
+    "scope_gaps": [
+      "适配器将轴张量转为 Python int，目标原生轴 dtype 兼容性未验证",
+      "仅限 axis=0 与长度2零向量"
+    ],
+    "assertion_sites": {
+      "source": [
+        {
+          "line": 10,
+          "expression": "self.assertShapeEqual(np_ans, tensor)"
+        },
+        {
+          "line": 11,
+          "expression": "self.assertAllEqual(np_ans, tf_ans)"
+        }
+      ],
+      "target": [
+        {
+          "line": 10,
+          "expression": "self.assertShapeEqual(np_ans, tensor)"
+        },
+        {
+          "line": 11,
+          "expression": "self.assertAllEqual(np_ans, tf_ans)"
+        }
+      ]
+    },
+    "body_hashes": {
+      "source": "00c67b5ef2fdb9370bef12b74a455d48499ea834c35d323242942d02d4e8dda6",
+      "target": "8576c3e8b9b2e702ee58d6f95f29e70b99bd1a44ffac115aa335bd3db9a1b3c8"
+    },
+    "scenario_count": 1,
+    "scenarios": [
+      {
+        "scenario": null,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true,
+    "probe_outcomes": {
+      "rejection-retained": 2
+    },
+    "review_category": "bounded-value-shape-reference-candidate",
+    "bounded_preservation_reference_candidate": true,
+    "native_type_obligations_not_established": true,
+    "review_method": "non-blinded source/adapter inspection plus verified recorded executions",
+    "independent_gold": false,
+    "full_intent_label": null,
+    "new_model_or_framework_calls": 0
+  },
+  {
+    "case_id": "E025",
+    "family": "concat",
+    "entry": "test_cat2",
+    "upstream_file": "upstream/pt_tensor.py",
+    "upstream_methods": [
+      {
+        "method": "test_cat2",
+        "start": 1133,
+        "end": 1152,
+        "decorators": [
+          "onlyCPU",
+          "dtypes(torch.half, torch.double, torch.int)"
+        ]
+      }
+    ],
+    "obligations": [
+      "拼接后的各区段等于对应输入",
+      "split/chunk 再拼接恢复原张量",
+      "最终拼接尺寸"
+    ],
+    "scope_gaps": [
+      "值桥接复制了非连续输入，不能验证目标原生非连续布局支持",
+      "形状扰动在 narrow 处发生运行异常，未到相关断言",
+      "仅第一次操作被扰动，不能推出所有区段断言均有独立敏感性证据"
+    ],
+    "assertion_sites": {
+      "source": [
+        {
+          "line": 15,
+          "expression": "self.assertEqual(torch.cat(torch.split(x, 7)), x)"
+        },
+        {
+          "line": 16,
+          "expression": "self.assertEqual(torch.cat(torch.chunk(x, 7)), x)"
+        },
+        {
+          "line": 19,
+          "expression": "self.assertEqual(z.size(), (21, SIZE, SIZE))"
+        },
+        {
+          "line": 11,
+          "expression": "self.assertEqual(res1.narrow(pos_dim, 0, 13), x, atol=0, rtol=0)"
+        },
+        {
+          "line": 12,
+          "expression": "self.assertEqual(res1.narrow(pos_dim, 13, 17), y, atol=0, rtol=0)"
+        },
+        {
+          "line": 13,
+          "expression": "self.assertEqual(res1.narrow(pos_dim, 30, 19), z, atol=0, rtol=0)"
+        }
+      ],
+      "target": [
+        {
+          "line": 15,
+          "expression": "self.assertEqual(_operation(torch.split(x, 7)), x)"
+        },
+        {
+          "line": 16,
+          "expression": "self.assertEqual(_operation(torch.chunk(x, 7)), x)"
+        },
+        {
+          "line": 19,
+          "expression": "self.assertEqual(z.size(), (21, SIZE, SIZE))"
+        },
+        {
+          "line": 11,
+          "expression": "self.assertEqual(res1.narrow(pos_dim, 0, 13), x, atol=0, rtol=0)"
+        },
+        {
+          "line": 12,
+          "expression": "self.assertEqual(res1.narrow(pos_dim, 13, 17), y, atol=0, rtol=0)"
+        },
+        {
+          "line": 13,
+          "expression": "self.assertEqual(res1.narrow(pos_dim, 30, 19), z, atol=0, rtol=0)"
+        }
+      ]
+    },
+    "body_hashes": {
+      "source": "5c3eb3e073a51de45e0c3f31e1bfbfc67ff66a6b4fe28da6a068753425457332",
+      "target": "2fa067e012038d309305f5cff670e7ee8409c94dc1348a94b66e7f0dbc70ae9e"
+    },
+    "scenario_count": 1,
+    "scenarios": [
+      {
+        "scenario": null,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "probe-runtime-error",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true,
+    "probe_outcomes": {
+      "probe-runtime-error": 1,
+      "rejection-retained": 1
+    },
+    "review_category": "value-only-probe-reference-candidate",
+    "bounded_preservation_reference_candidate": true,
+    "native_type_obligations_not_established": true,
+    "review_method": "non-blinded source/adapter inspection plus verified recorded executions",
+    "independent_gold": false,
+    "full_intent_label": null,
+    "new_model_or_framework_calls": 0
+  },
+  {
+    "case_id": "E026",
+    "family": "concat",
+    "entry": "testConcatTuple",
+    "upstream_file": "upstream/tf_concat.py",
+    "upstream_methods": [
+      {
+        "method": "testConcatTuple",
+        "start": 550,
+        "end": 556,
+        "decorators": []
+      }
+    ],
+    "obligations": [
+      "list 与 tuple 两种容器输入的拼接结果一致"
+    ],
+    "scope_gaps": [
+      "适配器将 list 和 tuple 都变成 list，原生容器类型义务被归一化",
+      "原断言是两次调用的关系检查，不提供完整独立期望值",
+      "一次扰动只影响第一次调用，不代表普遍容器语义保持"
+    ],
+    "assertion_sites": {
+      "source": [
+        {
+          "line": 8,
+          "expression": "self.assertAllEqual(self.evaluate(concat_list_t), self.evaluate(concat_tuple_t))"
+        }
+      ],
+      "target": [
+        {
+          "line": 8,
+          "expression": "self.assertAllEqual(self.evaluate(concat_list_t), self.evaluate(concat_tuple_t))"
+        }
+      ]
+    },
+    "body_hashes": {
+      "source": "129501431c8c32a8773e85870efd8f608a325aadb12e93172b6c16fa58299e2a",
+      "target": "527128d289d884ae4c819e85b5893c868037e20e2a076c3e946d7ca695099ee7"
+    },
+    "scenario_count": 1,
+    "scenarios": [
+      {
+        "scenario": null,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true,
+    "probe_outcomes": {
+      "rejection-retained": 2
+    },
+    "review_category": "container-obligation-erased-by-adapter",
+    "bounded_preservation_reference_candidate": false,
+    "native_type_obligations_not_established": true,
+    "review_method": "non-blinded source/adapter inspection plus verified recorded executions",
+    "independent_gold": false,
+    "full_intent_label": null,
+    "new_model_or_framework_calls": 0
+  },
+  {
+    "case_id": "E027",
+    "family": "stack",
+    "entry": "test_stack",
+    "upstream_file": "upstream/pt_tensor.py",
+    "upstream_methods": [
+      {
+        "method": "test_stack",
+        "start": 1164,
+        "end": 1177,
+        "decorators": []
+      }
+    ],
+    "obligations": [
+      "正负轴 stack 结果一致",
+      "stack 输出尺寸",
+      "沿新增轴取切片可恢复各输入"
+    ],
+    "scope_gaps": [
+      "值桥接不验证存储共享/布局或原生返回对象",
+      "仅第一次调用受到扰动，不能扩展为每个 dtype/axis 都有敏感性覆盖"
+    ],
+    "assertion_sites": {
+      "source": [
+        {
+          "line": 12,
+          "expression": "self.assertEqual(res, res_neg)"
+        },
+        {
+          "line": 13,
+          "expression": "self.assertEqual(res.size(), expected_size)"
+        },
+        {
+          "line": 14,
+          "expression": "self.assertEqual(res.select(dim, 0), x, atol=0, rtol=0)"
+        },
+        {
+          "line": 15,
+          "expression": "self.assertEqual(res.select(dim, 1), y, atol=0, rtol=0)"
+        },
+        {
+          "line": 16,
+          "expression": "self.assertEqual(res.select(dim, 2), z, atol=0, rtol=0)"
+        }
+      ],
+      "target": [
+        {
+          "line": 12,
+          "expression": "self.assertEqual(res, res_neg)"
+        },
+        {
+          "line": 13,
+          "expression": "self.assertEqual(res.size(), expected_size)"
+        },
+        {
+          "line": 14,
+          "expression": "self.assertEqual(res.select(dim, 0), x, atol=0, rtol=0)"
+        },
+        {
+          "line": 15,
+          "expression": "self.assertEqual(res.select(dim, 1), y, atol=0, rtol=0)"
+        },
+        {
+          "line": 16,
+          "expression": "self.assertEqual(res.select(dim, 2), z, atol=0, rtol=0)"
+        }
+      ]
+    },
+    "body_hashes": {
+      "source": "268cf4cf438385f268b64a88d912748042625cd289d3c22f47be32150754a769",
+      "target": "60f409329d00507ca465e9fb04d0d85d607f9a939bf3241fdf61a8d0618d63b0"
+    },
+    "scenario_count": 1,
+    "scenarios": [
+      {
+        "scenario": null,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true,
+    "probe_outcomes": {
+      "rejection-retained": 2
+    },
+    "review_category": "bounded-value-shape-reference-candidate",
+    "bounded_preservation_reference_candidate": true,
+    "native_type_obligations_not_established": true,
+    "review_method": "non-blinded source/adapter inspection plus verified recorded executions",
+    "independent_gold": false,
+    "full_intent_label": null,
+    "new_model_or_framework_calls": 0
+  },
+  {
+    "case_id": "E028",
+    "family": "stack",
+    "entry": "testSimple",
+    "upstream_file": "upstream/tf_stack.py",
+    "upstream_methods": [
+      {
+        "method": "randn",
+        "start": 46,
+        "end": 51,
+        "decorators": []
+      },
+      {
+        "method": "testSimple",
+        "start": 53,
+        "end": 71,
+        "decorators": []
+      }
+    ],
+    "obligations": [
+      "对指定形状、轴、dtype 的 split 后 stack 恢复原数据"
+    ],
+    "scope_gaps": [
+      "float8_e5m2 输入在适配器转换时失败",
+      "属于 harness 能力限制，不是 counterpart 缺陷",
+      "整体方法没有通过，不将此前循环部分成功算成完整通过"
+    ],
+    "assertion_sites": {
+      "source": [
+        {
+          "line": 20,
+          "expression": "self.assertAllEqual(c, data)"
+        }
+      ],
+      "target": [
+        {
+          "line": 20,
+          "expression": "self.assertAllEqual(c, data)"
+        }
+      ]
+    },
+    "body_hashes": {
+      "source": "803da072a7696eabc9cdb1b781df32350ccffc492e13b338a5a1453a4357447b",
+      "target": "0cf7cbba7171e761392b5614c65562acd9de405e143d1d0ff051f06c33486f81"
+    },
+    "scenario_count": 1,
+    "scenarios": [
+      {
+        "scenario": null,
+        "baseline_qualified": false,
+        "transparent": false,
+        "probes": {
+          "wrong-shape": "baseline-unqualified",
+          "wrong-value": "baseline-unqualified"
+        },
+        "baseline_failures": [
+          {
+            "side": "target",
+            "status": "execution-error",
+            "phase": "argument-adapter",
+            "error": "TypeError: can't convert np.ndarray of type ml_dtypes.float8_e5m2. The only supported types are: float64, float32, float16, complex64, complex128, int64, int32, int16, int8, uint64, uint32, uint16, uint8, and bool."
+          }
+        ]
+      }
+    ],
+    "baseline_and_transparency_passed": false,
+    "probe_outcomes": {
+      "baseline-unqualified": 2
+    },
+    "review_category": "adapter-blocked",
+    "bounded_preservation_reference_candidate": false,
+    "native_type_obligations_not_established": true,
+    "review_method": "non-blinded source/adapter inspection plus verified recorded executions",
+    "independent_gold": false,
+    "full_intent_label": null,
+    "new_model_or_framework_calls": 0
+  },
+  {
+    "case_id": "E029",
+    "family": "clip",
+    "entry": "test_clamp",
+    "upstream_file": "upstream/pt_torch.py",
+    "upstream_methods": [
+      {
+        "method": "test_clamp",
+        "start": 6489,
+        "end": 6528,
+        "decorators": [
+          "dtypes(torch.int64, torch.float32, torch.float64)"
+        ]
+      }
+    ],
+    "obligations": [
+      "双侧/单侧裁剪值",
+      "裁剪界限及输入广播结果"
+    ],
+    "scope_gaps": [
+      "目标单侧 None 处理失败，后续断言可能未到达",
+      "固定 CPU float64；非连续布局经桥接复制，不证明布局语义保持"
+    ],
+    "assertion_sites": {
+      "source": [
+        {
+          "line": 11,
+          "expression": "self.assertEqual(expect, actual)"
+        },
+        {
+          "line": 13,
+          "expression": "self.assertEqual(expect, actual)"
+        },
+        {
+          "line": 16,
+          "expression": "self.assertEqual(expect, actual)"
+        },
+        {
+          "line": 19,
+          "expression": "self.assertEqual(expect, actual)"
+        },
+        {
+          "line": 22,
+          "expression": "self.assertEqual(expect, actual)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertEqual(expect, actual)"
+        }
+      ],
+      "target": [
+        {
+          "line": 11,
+          "expression": "self.assertEqual(expect, actual)"
+        },
+        {
+          "line": 13,
+          "expression": "self.assertEqual(expect, actual)"
+        },
+        {
+          "line": 16,
+          "expression": "self.assertEqual(expect, actual)"
+        },
+        {
+          "line": 19,
+          "expression": "self.assertEqual(expect, actual)"
+        },
+        {
+          "line": 22,
+          "expression": "self.assertEqual(expect, actual)"
+        },
+        {
+          "line": 25,
+          "expression": "self.assertEqual(expect, actual)"
+        }
+      ]
+    },
+    "body_hashes": {
+      "source": "40f3a585455d562e85c18ad25c2018a678b4da94f29e4d66450d477cd3fd297f",
+      "target": "58cc1f62940838b8a79b6d98d4147cb151b150f5f6593fb957637b7d7a71d4a6"
+    },
+    "scenario_count": 1,
+    "scenarios": [
+      {
+        "scenario": null,
+        "baseline_qualified": false,
+        "transparent": false,
+        "probes": {
+          "wrong-shape": "baseline-unqualified",
+          "wrong-value": "baseline-unqualified"
+        },
+        "baseline_failures": [
+          {
+            "side": "target",
+            "status": "execution-error",
+            "phase": "counterpart-execution",
+            "error": "ValueError: Attempt to convert a value (None) with an unsupported type (<class 'NoneType'>) to a Tensor."
+          }
+        ]
+      }
+    ],
+    "baseline_and_transparency_passed": false,
+    "probe_outcomes": {
+      "baseline-unqualified": 2
+    },
+    "review_category": "baseline-behavior-failure",
+    "bounded_preservation_reference_candidate": false,
+    "native_type_obligations_not_established": true,
+    "review_method": "non-blinded source/adapter inspection plus verified recorded executions",
+    "independent_gold": false,
+    "full_intent_label": null,
+    "new_model_or_framework_calls": 0
+  },
+  {
+    "case_id": "E030",
+    "family": "clip",
+    "entry": "testClipByValue",
+    "upstream_file": "upstream/tf_clip.py",
+    "upstream_methods": [
+      {
+        "method": "testClipByValue",
+        "start": 35,
+        "end": 43,
+        "decorators": []
+      }
+    ],
+    "obligations": [
+      "2×3 输入裁剪结果与期望值接近"
+    ],
+    "scope_gaps": [
+      "原方法未覆盖标量输入，不能给标量形状保持标签",
+      "本层通过不能推翻 E030 既有标量行为违反"
+    ],
+    "assertion_sites": {
+      "source": [
+        {
+          "line": 10,
+          "expression": "self.assertAllClose(np_ans, tf_ans)"
+        }
+      ],
+      "target": [
+        {
+          "line": 10,
+          "expression": "self.assertAllClose(np_ans, tf_ans)"
+        }
+      ]
+    },
+    "body_hashes": {
+      "source": "2be24540ac323eb99cbb9e1e0a3c4a765f7b5ca0b767f392a887d1a5949df417",
+      "target": "24befe68ddb78a701e9d02ad587327a17ca04246452db3af6ff9637864d59b73"
+    },
+    "scenario_count": 1,
+    "scenarios": [
+      {
+        "scenario": null,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true,
+    "probe_outcomes": {
+      "rejection-retained": 2
+    },
+    "review_category": "bounded-value-shape-reference-candidate",
+    "bounded_preservation_reference_candidate": true,
+    "native_type_obligations_not_established": true,
+    "review_method": "non-blinded source/adapter inspection plus verified recorded executions",
+    "independent_gold": false,
+    "full_intent_label": null,
+    "new_model_or_framework_calls": 0
+  }
+]

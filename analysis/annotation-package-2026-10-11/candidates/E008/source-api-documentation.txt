@@ -1,0 +1,18 @@
+Computes Python style division of `x` by `y`.
+
+  For example:
+
+  >>> x = tf.constant([16, 12, 11])
+  >>> y = tf.constant([4, 6, 2])
+  >>> tf.divide(x,y)
+  <tf.Tensor: shape=(3,), dtype=float64,
+  numpy=array([4. , 2. , 5.5])>
+
+  Args:
+    x: A `Tensor`
+    y: A `Tensor`
+    name: A name for the operation (optional).
+
+  Returns:
+    A `Tensor` with same shape as input
+  

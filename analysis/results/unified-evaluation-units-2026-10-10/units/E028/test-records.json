@@ -1,0 +1,1822 @@
+{
+  "versions": {
+    "tensorflow": "2.20.0",
+    "torch": "2.9.1+cpu",
+    "numpy": "2.1.3",
+    "python": "3.11.16 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:36:16) [MSC v.1942 64 bit (AMD64)]"
+  },
+  "records": [
+    {
+      "case_id": "E028",
+      "scenario": null,
+      "side": "source",
+      "mode": "original",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E028",
+      "scenario": null,
+      "side": "source",
+      "mode": "original",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E028",
+      "scenario": null,
+      "side": "source",
+      "mode": "original",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E028",
+      "scenario": null,
+      "side": "source",
+      "mode": "observe",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 108,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E028",
+      "scenario": null,
+      "side": "source",
+      "mode": "observe",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 108,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E028",
+      "scenario": null,
+      "side": "source",
+      "mode": "observe",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 108,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E028",
+      "scenario": null,
+      "side": "source",
+      "mode": "reinject",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 108,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E028",
+      "scenario": null,
+      "side": "source",
+      "mode": "reinject",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 108,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E028",
+      "scenario": null,
+      "side": "source",
+      "mode": "reinject",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 108,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E028",
+      "scenario": null,
+      "side": "source",
+      "mode": "wrong-shape",
+      "repeat": 0,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              [
+                false,
+                true
+              ]
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": "Tuples differ: (1, 2) != (2,)\n\nFirst differing element 0:\n1\n2\n\nFirst tuple contains 1 additional elements.\nFirst extra element 1:\n2\n\n- (1, 2)\n+ (2,) : Shape mismatch: expected (1, 2), got (2,). Contents: array([False,  True]). \n.",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E028-target.py",
+          "line": 20,
+          "name": "testSimple"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3470,
+          "name": "assertAllEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 873,
+          "name": "assertEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1090,
+          "name": "assertTupleEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1061,
+          "name": "assertSequenceEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\absl\\testing\\absltest.py",
+          "line": 2175,
+          "name": "fail"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 703,
+          "name": "fail"
+        }
+      ]
+    },
+    {
+      "case_id": "E028",
+      "scenario": null,
+      "side": "source",
+      "mode": "wrong-shape",
+      "repeat": 1,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              [
+                false,
+                true
+              ]
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": "Tuples differ: (1, 2) != (2,)\n\nFirst differing element 0:\n1\n2\n\nFirst tuple contains 1 additional elements.\nFirst extra element 1:\n2\n\n- (1, 2)\n+ (2,) : Shape mismatch: expected (1, 2), got (2,). Contents: array([False,  True]). \n.",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E028-target.py",
+          "line": 20,
+          "name": "testSimple"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3470,
+          "name": "assertAllEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 873,
+          "name": "assertEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1090,
+          "name": "assertTupleEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1061,
+          "name": "assertSequenceEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\absl\\testing\\absltest.py",
+          "line": 2175,
+          "name": "fail"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 703,
+          "name": "fail"
+        }
+      ]
+    },
+    {
+      "case_id": "E028",
+      "scenario": null,
+      "side": "source",
+      "mode": "wrong-shape",
+      "repeat": 2,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              [
+                false,
+                true
+              ]
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": "Tuples differ: (1, 2) != (2,)\n\nFirst differing element 0:\n1\n2\n\nFirst tuple contains 1 additional elements.\nFirst extra element 1:\n2\n\n- (1, 2)\n+ (2,) : Shape mismatch: expected (1, 2), got (2,). Contents: array([False,  True]). \n.",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E028-target.py",
+          "line": 20,
+          "name": "testSimple"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3470,
+          "name": "assertAllEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 873,
+          "name": "assertEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1090,
+          "name": "assertTupleEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1061,
+          "name": "assertSequenceEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\absl\\testing\\absltest.py",
+          "line": 2175,
+          "name": "fail"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 703,
+          "name": "fail"
+        }
+      ]
+    },
+    {
+      "case_id": "E028",
+      "scenario": null,
+      "side": "source",
+      "mode": "wrong-value",
+      "repeat": 0,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              true,
+              false
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": "\nArrays are not equal\n\nnot equal where = (array([0, 1]),)\nnot equal lhs = array([ True, False])\nnot equal rhs = array([False,  True])\nMismatched elements: 2 / 2 (100%)\n ACTUAL: array([ True, False])\n DESIRED: array([False,  True])",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E028-target.py",
+          "line": 20,
+          "name": "testSimple"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3511,
+          "name": "assertAllEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\_utils\\__init__.py",
+          "line": 85,
+          "name": "wrapper"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 1025,
+          "name": "assert_array_equal"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\contextlib.py",
+          "line": 81,
+          "name": "inner"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 889,
+          "name": "assert_array_compare"
+        }
+      ]
+    },
+    {
+      "case_id": "E028",
+      "scenario": null,
+      "side": "source",
+      "mode": "wrong-value",
+      "repeat": 1,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              true,
+              false
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": "\nArrays are not equal\n\nnot equal where = (array([0, 1]),)\nnot equal lhs = array([ True, False])\nnot equal rhs = array([False,  True])\nMismatched elements: 2 / 2 (100%)\n ACTUAL: array([ True, False])\n DESIRED: array([False,  True])",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E028-target.py",
+          "line": 20,
+          "name": "testSimple"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3511,
+          "name": "assertAllEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\_utils\\__init__.py",
+          "line": 85,
+          "name": "wrapper"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 1025,
+          "name": "assert_array_equal"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\contextlib.py",
+          "line": 81,
+          "name": "inner"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 889,
+          "name": "assert_array_compare"
+        }
+      ]
+    },
+    {
+      "case_id": "E028",
+      "scenario": null,
+      "side": "source",
+      "mode": "wrong-value",
+      "repeat": 2,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              true,
+              false
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": "\nArrays are not equal\n\nnot equal where = (array([0, 1]),)\nnot equal lhs = array([ True, False])\nnot equal rhs = array([False,  True])\nMismatched elements: 2 / 2 (100%)\n ACTUAL: array([ True, False])\n DESIRED: array([False,  True])",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E028-target.py",
+          "line": 20,
+          "name": "testSimple"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3511,
+          "name": "assertAllEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\_utils\\__init__.py",
+          "line": 85,
+          "name": "wrapper"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 1025,
+          "name": "assert_array_equal"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\contextlib.py",
+          "line": 81,
+          "name": "inner"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 889,
+          "name": "assert_array_compare"
+        }
+      ]
+    },
+    {
+      "case_id": "E028",
+      "scenario": null,
+      "side": "target",
+      "mode": "original",
+      "repeat": 0,
+      "status": "execution-error",
+      "phase": "argument-adapter",
+      "operation_count": 4,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": "TypeError: can't convert np.ndarray of type ml_dtypes.float8_e5m2. The only supported types are: float64, float32, float16, complex64, complex128, int64, int32, int16, int8, uint64, uint32, uint16, uint8, and bool.",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E028-target.py",
+          "line": 19,
+          "name": "testSimple"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 129,
+          "name": "operation"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 129,
+          "name": "<listcomp>"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 126,
+          "name": "convert_tensor"
+        }
+      ]
+    },
+    {
+      "case_id": "E028",
+      "scenario": null,
+      "side": "target",
+      "mode": "original",
+      "repeat": 1,
+      "status": "execution-error",
+      "phase": "argument-adapter",
+      "operation_count": 4,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": "TypeError: can't convert np.ndarray of type ml_dtypes.float8_e5m2. The only supported types are: float64, float32, float16, complex64, complex128, int64, int32, int16, int8, uint64, uint32, uint16, uint8, and bool.",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E028-target.py",
+          "line": 19,
+          "name": "testSimple"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 129,
+          "name": "operation"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 129,
+          "name": "<listcomp>"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 126,
+          "name": "convert_tensor"
+        }
+      ]
+    },
+    {
+      "case_id": "E028",
+      "scenario": null,
+      "side": "target",
+      "mode": "original",
+      "repeat": 2,
+      "status": "execution-error",
+      "phase": "argument-adapter",
+      "operation_count": 4,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": "TypeError: can't convert np.ndarray of type ml_dtypes.float8_e5m2. The only supported types are: float64, float32, float16, complex64, complex128, int64, int32, int16, int8, uint64, uint32, uint16, uint8, and bool.",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E028-target.py",
+          "line": 19,
+          "name": "testSimple"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 129,
+          "name": "operation"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 129,
+          "name": "<listcomp>"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 126,
+          "name": "convert_tensor"
+        }
+      ]
+    },
+    {
+      "case_id": "E028",
+      "scenario": null,
+      "side": "target",
+      "mode": "observe",
+      "repeat": 0,
+      "status": "execution-error",
+      "phase": "argument-adapter",
+      "operation_count": 4,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": "TypeError: can't convert np.ndarray of type ml_dtypes.float8_e5m2. The only supported types are: float64, float32, float16, complex64, complex128, int64, int32, int16, int8, uint64, uint32, uint16, uint8, and bool.",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E028-target.py",
+          "line": 19,
+          "name": "testSimple"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 129,
+          "name": "operation"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 129,
+          "name": "<listcomp>"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 126,
+          "name": "convert_tensor"
+        }
+      ]
+    },
+    {
+      "case_id": "E028",
+      "scenario": null,
+      "side": "target",
+      "mode": "observe",
+      "repeat": 1,
+      "status": "execution-error",
+      "phase": "argument-adapter",
+      "operation_count": 4,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": "TypeError: can't convert np.ndarray of type ml_dtypes.float8_e5m2. The only supported types are: float64, float32, float16, complex64, complex128, int64, int32, int16, int8, uint64, uint32, uint16, uint8, and bool.",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E028-target.py",
+          "line": 19,
+          "name": "testSimple"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 129,
+          "name": "operation"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 129,
+          "name": "<listcomp>"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 126,
+          "name": "convert_tensor"
+        }
+      ]
+    },
+    {
+      "case_id": "E028",
+      "scenario": null,
+      "side": "target",
+      "mode": "observe",
+      "repeat": 2,
+      "status": "execution-error",
+      "phase": "argument-adapter",
+      "operation_count": 4,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": "TypeError: can't convert np.ndarray of type ml_dtypes.float8_e5m2. The only supported types are: float64, float32, float16, complex64, complex128, int64, int32, int16, int8, uint64, uint32, uint16, uint8, and bool.",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E028-target.py",
+          "line": 19,
+          "name": "testSimple"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 129,
+          "name": "operation"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 129,
+          "name": "<listcomp>"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 126,
+          "name": "convert_tensor"
+        }
+      ]
+    },
+    {
+      "case_id": "E028",
+      "scenario": null,
+      "side": "target",
+      "mode": "reinject",
+      "repeat": 0,
+      "status": "execution-error",
+      "phase": "argument-adapter",
+      "operation_count": 4,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": "TypeError: can't convert np.ndarray of type ml_dtypes.float8_e5m2. The only supported types are: float64, float32, float16, complex64, complex128, int64, int32, int16, int8, uint64, uint32, uint16, uint8, and bool.",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E028-target.py",
+          "line": 19,
+          "name": "testSimple"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 129,
+          "name": "operation"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 129,
+          "name": "<listcomp>"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 126,
+          "name": "convert_tensor"
+        }
+      ]
+    },
+    {
+      "case_id": "E028",
+      "scenario": null,
+      "side": "target",
+      "mode": "reinject",
+      "repeat": 1,
+      "status": "execution-error",
+      "phase": "argument-adapter",
+      "operation_count": 4,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": "TypeError: can't convert np.ndarray of type ml_dtypes.float8_e5m2. The only supported types are: float64, float32, float16, complex64, complex128, int64, int32, int16, int8, uint64, uint32, uint16, uint8, and bool.",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E028-target.py",
+          "line": 19,
+          "name": "testSimple"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 129,
+          "name": "operation"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 129,
+          "name": "<listcomp>"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 126,
+          "name": "convert_tensor"
+        }
+      ]
+    },
+    {
+      "case_id": "E028",
+      "scenario": null,
+      "side": "target",
+      "mode": "reinject",
+      "repeat": 2,
+      "status": "execution-error",
+      "phase": "argument-adapter",
+      "operation_count": 4,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": "TypeError: can't convert np.ndarray of type ml_dtypes.float8_e5m2. The only supported types are: float64, float32, float16, complex64, complex128, int64, int32, int16, int8, uint64, uint32, uint16, uint8, and bool.",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E028-target.py",
+          "line": 19,
+          "name": "testSimple"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 129,
+          "name": "operation"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 129,
+          "name": "<listcomp>"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 126,
+          "name": "convert_tensor"
+        }
+      ]
+    },
+    {
+      "case_id": "E028",
+      "scenario": null,
+      "side": "target",
+      "mode": "wrong-shape",
+      "repeat": 0,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              [
+                false,
+                true
+              ]
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": "Tuples differ: (1, 2) != (2,)\n\nFirst differing element 0:\n1\n2\n\nFirst tuple contains 1 additional elements.\nFirst extra element 1:\n2\n\n- (1, 2)\n+ (2,) : Shape mismatch: expected (1, 2), got (2,). Contents: array([False,  True]). \n.",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E028-target.py",
+          "line": 20,
+          "name": "testSimple"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3470,
+          "name": "assertAllEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 873,
+          "name": "assertEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1090,
+          "name": "assertTupleEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1061,
+          "name": "assertSequenceEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\absl\\testing\\absltest.py",
+          "line": 2175,
+          "name": "fail"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 703,
+          "name": "fail"
+        }
+      ]
+    },
+    {
+      "case_id": "E028",
+      "scenario": null,
+      "side": "target",
+      "mode": "wrong-shape",
+      "repeat": 1,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              [
+                false,
+                true
+              ]
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": "Tuples differ: (1, 2) != (2,)\n\nFirst differing element 0:\n1\n2\n\nFirst tuple contains 1 additional elements.\nFirst extra element 1:\n2\n\n- (1, 2)\n+ (2,) : Shape mismatch: expected (1, 2), got (2,). Contents: array([False,  True]). \n.",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E028-target.py",
+          "line": 20,
+          "name": "testSimple"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3470,
+          "name": "assertAllEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 873,
+          "name": "assertEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1090,
+          "name": "assertTupleEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1061,
+          "name": "assertSequenceEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\absl\\testing\\absltest.py",
+          "line": 2175,
+          "name": "fail"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 703,
+          "name": "fail"
+        }
+      ]
+    },
+    {
+      "case_id": "E028",
+      "scenario": null,
+      "side": "target",
+      "mode": "wrong-shape",
+      "repeat": 2,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              [
+                false,
+                true
+              ]
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": "Tuples differ: (1, 2) != (2,)\n\nFirst differing element 0:\n1\n2\n\nFirst tuple contains 1 additional elements.\nFirst extra element 1:\n2\n\n- (1, 2)\n+ (2,) : Shape mismatch: expected (1, 2), got (2,). Contents: array([False,  True]). \n.",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E028-target.py",
+          "line": 20,
+          "name": "testSimple"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3470,
+          "name": "assertAllEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 873,
+          "name": "assertEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1090,
+          "name": "assertTupleEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1061,
+          "name": "assertSequenceEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\absl\\testing\\absltest.py",
+          "line": 2175,
+          "name": "fail"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 703,
+          "name": "fail"
+        }
+      ]
+    },
+    {
+      "case_id": "E028",
+      "scenario": null,
+      "side": "target",
+      "mode": "wrong-value",
+      "repeat": 0,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              true,
+              false
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": "\nArrays are not equal\n\nnot equal where = (array([0, 1]),)\nnot equal lhs = array([ True, False])\nnot equal rhs = array([False,  True])\nMismatched elements: 2 / 2 (100%)\n ACTUAL: array([ True, False])\n DESIRED: array([False,  True])",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E028-target.py",
+          "line": 20,
+          "name": "testSimple"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3511,
+          "name": "assertAllEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\_utils\\__init__.py",
+          "line": 85,
+          "name": "wrapper"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 1025,
+          "name": "assert_array_equal"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\contextlib.py",
+          "line": 81,
+          "name": "inner"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 889,
+          "name": "assert_array_compare"
+        }
+      ]
+    },
+    {
+      "case_id": "E028",
+      "scenario": null,
+      "side": "target",
+      "mode": "wrong-value",
+      "repeat": 1,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              true,
+              false
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": "\nArrays are not equal\n\nnot equal where = (array([0, 1]),)\nnot equal lhs = array([ True, False])\nnot equal rhs = array([False,  True])\nMismatched elements: 2 / 2 (100%)\n ACTUAL: array([ True, False])\n DESIRED: array([False,  True])",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E028-target.py",
+          "line": 20,
+          "name": "testSimple"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3511,
+          "name": "assertAllEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\_utils\\__init__.py",
+          "line": 85,
+          "name": "wrapper"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 1025,
+          "name": "assert_array_equal"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\contextlib.py",
+          "line": 81,
+          "name": "inner"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 889,
+          "name": "assert_array_compare"
+        }
+      ]
+    },
+    {
+      "case_id": "E028",
+      "scenario": null,
+      "side": "target",
+      "mode": "wrong-value",
+      "repeat": 2,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              false,
+              true
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2
+            ],
+            "dtype": "bool",
+            "values": [
+              true,
+              false
+            ]
+          },
+          "input_shapes": {}
+        }
+      ],
+      "error": "\nArrays are not equal\n\nnot equal where = (array([0, 1]),)\nnot equal lhs = array([ True, False])\nnot equal rhs = array([False,  True])\nMismatched elements: 2 / 2 (100%)\n ACTUAL: array([ True, False])\n DESIRED: array([False,  True])",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E028-target.py",
+          "line": 20,
+          "name": "testSimple"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3511,
+          "name": "assertAllEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\_utils\\__init__.py",
+          "line": 85,
+          "name": "wrapper"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 1025,
+          "name": "assert_array_equal"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\contextlib.py",
+          "line": 81,
+          "name": "inner"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 889,
+          "name": "assert_array_compare"
+        }
+      ]
+    }
+  ]
+}

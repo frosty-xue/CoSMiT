@@ -1,0 +1,1987 @@
+{
+  "versions": {
+    "tensorflow": "2.20.0",
+    "torch": "2.9.1+cpu",
+    "numpy": "2.1.3",
+    "python": "3.11.16 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:36:16) [MSC v.1942 64 bit (AMD64)]"
+  },
+  "records": [
+    {
+      "case_id": "E019",
+      "scenario": null,
+      "side": "source",
+      "mode": "original",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E019",
+      "scenario": null,
+      "side": "source",
+      "mode": "original",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E019",
+      "scenario": null,
+      "side": "source",
+      "mode": "original",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E019",
+      "scenario": null,
+      "side": "source",
+      "mode": "observe",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 8,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "input_shapes": {
+            "input": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E019",
+      "scenario": null,
+      "side": "source",
+      "mode": "observe",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 8,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "input_shapes": {
+            "input": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E019",
+      "scenario": null,
+      "side": "source",
+      "mode": "observe",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 8,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "input_shapes": {
+            "input": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E019",
+      "scenario": null,
+      "side": "source",
+      "mode": "reinject",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 8,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "input_shapes": {
+            "input": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E019",
+      "scenario": null,
+      "side": "source",
+      "mode": "reinject",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 8,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "input_shapes": {
+            "input": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E019",
+      "scenario": null,
+      "side": "source",
+      "mode": "reinject",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 8,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "input_shapes": {
+            "input": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E019",
+      "scenario": null,
+      "side": "source",
+      "mode": "wrong-shape",
+      "repeat": 0,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                [
+                  -8.478373527526855,
+                  -2.400455951690674
+                ],
+                [
+                  -1.7658257484436035,
+                  -7.950586795806885
+                ],
+                [
+                  -4.3228044509887695,
+                  3.611604690551758
+                ]
+              ]
+            ]
+          },
+          "input_shapes": {
+            "input": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "The values for attribute 'shape' do not match: torch.Size([1, 3, 2]) != torch.Size([3, 2]).",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 173,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E019-target.py",
+          "line": 15,
+          "name": "test_transposes"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\torch\\testing\\_internal\\common_utils.py",
+          "line": 4179,
+          "name": "assertEqual"
+        }
+      ]
+    },
+    {
+      "case_id": "E019",
+      "scenario": null,
+      "side": "source",
+      "mode": "wrong-shape",
+      "repeat": 1,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                [
+                  -8.478373527526855,
+                  -2.400455951690674
+                ],
+                [
+                  -1.7658257484436035,
+                  -7.950586795806885
+                ],
+                [
+                  -4.3228044509887695,
+                  3.611604690551758
+                ]
+              ]
+            ]
+          },
+          "input_shapes": {
+            "input": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "The values for attribute 'shape' do not match: torch.Size([1, 3, 2]) != torch.Size([3, 2]).",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 173,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E019-target.py",
+          "line": 15,
+          "name": "test_transposes"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\torch\\testing\\_internal\\common_utils.py",
+          "line": 4179,
+          "name": "assertEqual"
+        }
+      ]
+    },
+    {
+      "case_id": "E019",
+      "scenario": null,
+      "side": "source",
+      "mode": "wrong-shape",
+      "repeat": 2,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                [
+                  -8.478373527526855,
+                  -2.400455951690674
+                ],
+                [
+                  -1.7658257484436035,
+                  -7.950586795806885
+                ],
+                [
+                  -4.3228044509887695,
+                  3.611604690551758
+                ]
+              ]
+            ]
+          },
+          "input_shapes": {
+            "input": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "The values for attribute 'shape' do not match: torch.Size([1, 3, 2]) != torch.Size([3, 2]).",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 173,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E019-target.py",
+          "line": 15,
+          "name": "test_transposes"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\torch\\testing\\_internal\\common_utils.py",
+          "line": 4179,
+          "name": "assertEqual"
+        }
+      ]
+    },
+    {
+      "case_id": "E019",
+      "scenario": null,
+      "side": "source",
+      "mode": "wrong-value",
+      "repeat": 0,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                3.217301368713379,
+                8.079635620117188
+              ],
+              [
+                8.587339401245117,
+                3.639530658721924
+              ],
+              [
+                6.541756629943848,
+                14.333925247192383
+              ]
+            ]
+          },
+          "input_shapes": {
+            "input": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 6 / 6 (100.0%)\nGreatest absolute difference: 11.695674896240234 at index (0, 0) (up to 1e-05 allowed)\nGreatest relative difference: 5.863072872161865 at index (1, 0) (up to 1.3e-06 allowed)",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 173,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E019-target.py",
+          "line": 15,
+          "name": "test_transposes"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\torch\\testing\\_internal\\common_utils.py",
+          "line": 4179,
+          "name": "assertEqual"
+        }
+      ]
+    },
+    {
+      "case_id": "E019",
+      "scenario": null,
+      "side": "source",
+      "mode": "wrong-value",
+      "repeat": 1,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                3.217301368713379,
+                8.079635620117188
+              ],
+              [
+                8.587339401245117,
+                3.639530658721924
+              ],
+              [
+                6.541756629943848,
+                14.333925247192383
+              ]
+            ]
+          },
+          "input_shapes": {
+            "input": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 6 / 6 (100.0%)\nGreatest absolute difference: 11.695674896240234 at index (0, 0) (up to 1e-05 allowed)\nGreatest relative difference: 5.863072872161865 at index (1, 0) (up to 1.3e-06 allowed)",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 173,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E019-target.py",
+          "line": 15,
+          "name": "test_transposes"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\torch\\testing\\_internal\\common_utils.py",
+          "line": 4179,
+          "name": "assertEqual"
+        }
+      ]
+    },
+    {
+      "case_id": "E019",
+      "scenario": null,
+      "side": "source",
+      "mode": "wrong-value",
+      "repeat": 2,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                3.217301368713379,
+                8.079635620117188
+              ],
+              [
+                8.587339401245117,
+                3.639530658721924
+              ],
+              [
+                6.541756629943848,
+                14.333925247192383
+              ]
+            ]
+          },
+          "input_shapes": {
+            "input": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 6 / 6 (100.0%)\nGreatest absolute difference: 11.695674896240234 at index (0, 0) (up to 1e-05 allowed)\nGreatest relative difference: 5.863072872161865 at index (1, 0) (up to 1.3e-06 allowed)",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 173,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E019-target.py",
+          "line": 15,
+          "name": "test_transposes"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\torch\\testing\\_internal\\common_utils.py",
+          "line": 4179,
+          "name": "assertEqual"
+        }
+      ]
+    },
+    {
+      "case_id": "E019",
+      "scenario": null,
+      "side": "target",
+      "mode": "original",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 8,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "input_shapes": {
+            "input": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E019",
+      "scenario": null,
+      "side": "target",
+      "mode": "original",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 8,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "input_shapes": {
+            "input": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E019",
+      "scenario": null,
+      "side": "target",
+      "mode": "original",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 8,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "input_shapes": {
+            "input": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E019",
+      "scenario": null,
+      "side": "target",
+      "mode": "observe",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 8,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "input_shapes": {
+            "input": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E019",
+      "scenario": null,
+      "side": "target",
+      "mode": "observe",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 8,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "input_shapes": {
+            "input": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E019",
+      "scenario": null,
+      "side": "target",
+      "mode": "observe",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 8,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "input_shapes": {
+            "input": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E019",
+      "scenario": null,
+      "side": "target",
+      "mode": "reinject",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 8,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "input_shapes": {
+            "input": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E019",
+      "scenario": null,
+      "side": "target",
+      "mode": "reinject",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 8,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "input_shapes": {
+            "input": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E019",
+      "scenario": null,
+      "side": "target",
+      "mode": "reinject",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 8,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "input_shapes": {
+            "input": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E019",
+      "scenario": null,
+      "side": "target",
+      "mode": "wrong-shape",
+      "repeat": 0,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                [
+                  -8.478373527526855,
+                  -2.400455951690674
+                ],
+                [
+                  -1.7658257484436035,
+                  -7.950586795806885
+                ],
+                [
+                  -4.3228044509887695,
+                  3.611604690551758
+                ]
+              ]
+            ]
+          },
+          "input_shapes": {
+            "input": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "The values for attribute 'shape' do not match: torch.Size([1, 3, 2]) != torch.Size([3, 2]).",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 173,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E019-target.py",
+          "line": 15,
+          "name": "test_transposes"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\torch\\testing\\_internal\\common_utils.py",
+          "line": 4179,
+          "name": "assertEqual"
+        }
+      ]
+    },
+    {
+      "case_id": "E019",
+      "scenario": null,
+      "side": "target",
+      "mode": "wrong-shape",
+      "repeat": 1,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                [
+                  -8.478373527526855,
+                  -2.400455951690674
+                ],
+                [
+                  -1.7658257484436035,
+                  -7.950586795806885
+                ],
+                [
+                  -4.3228044509887695,
+                  3.611604690551758
+                ]
+              ]
+            ]
+          },
+          "input_shapes": {
+            "input": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "The values for attribute 'shape' do not match: torch.Size([1, 3, 2]) != torch.Size([3, 2]).",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 173,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E019-target.py",
+          "line": 15,
+          "name": "test_transposes"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\torch\\testing\\_internal\\common_utils.py",
+          "line": 4179,
+          "name": "assertEqual"
+        }
+      ]
+    },
+    {
+      "case_id": "E019",
+      "scenario": null,
+      "side": "target",
+      "mode": "wrong-shape",
+      "repeat": 2,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                [
+                  -8.478373527526855,
+                  -2.400455951690674
+                ],
+                [
+                  -1.7658257484436035,
+                  -7.950586795806885
+                ],
+                [
+                  -4.3228044509887695,
+                  3.611604690551758
+                ]
+              ]
+            ]
+          },
+          "input_shapes": {
+            "input": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "The values for attribute 'shape' do not match: torch.Size([1, 3, 2]) != torch.Size([3, 2]).",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 173,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E019-target.py",
+          "line": 15,
+          "name": "test_transposes"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\torch\\testing\\_internal\\common_utils.py",
+          "line": 4179,
+          "name": "assertEqual"
+        }
+      ]
+    },
+    {
+      "case_id": "E019",
+      "scenario": null,
+      "side": "target",
+      "mode": "wrong-value",
+      "repeat": 0,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                3.217301368713379,
+                8.079635620117188
+              ],
+              [
+                8.587339401245117,
+                3.639530658721924
+              ],
+              [
+                6.541756629943848,
+                14.333925247192383
+              ]
+            ]
+          },
+          "input_shapes": {
+            "input": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 6 / 6 (100.0%)\nGreatest absolute difference: 11.695674896240234 at index (0, 0) (up to 1e-05 allowed)\nGreatest relative difference: 5.863072872161865 at index (1, 0) (up to 1.3e-06 allowed)",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 173,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E019-target.py",
+          "line": 15,
+          "name": "test_transposes"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\torch\\testing\\_internal\\common_utils.py",
+          "line": 4179,
+          "name": "assertEqual"
+        }
+      ]
+    },
+    {
+      "case_id": "E019",
+      "scenario": null,
+      "side": "target",
+      "mode": "wrong-value",
+      "repeat": 1,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                3.217301368713379,
+                8.079635620117188
+              ],
+              [
+                8.587339401245117,
+                3.639530658721924
+              ],
+              [
+                6.541756629943848,
+                14.333925247192383
+              ]
+            ]
+          },
+          "input_shapes": {
+            "input": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 6 / 6 (100.0%)\nGreatest absolute difference: 11.695674896240234 at index (0, 0) (up to 1e-05 allowed)\nGreatest relative difference: 5.863072872161865 at index (1, 0) (up to 1.3e-06 allowed)",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 173,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E019-target.py",
+          "line": 15,
+          "name": "test_transposes"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\torch\\testing\\_internal\\common_utils.py",
+          "line": 4179,
+          "name": "assertEqual"
+        }
+      ]
+    },
+    {
+      "case_id": "E019",
+      "scenario": null,
+      "side": "target",
+      "mode": "wrong-value",
+      "repeat": 2,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                -8.478373527526855,
+                -2.400455951690674
+              ],
+              [
+                -1.7658257484436035,
+                -7.950586795806885
+              ],
+              [
+                -4.3228044509887695,
+                3.611604690551758
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              3,
+              2
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                3.217301368713379,
+                8.079635620117188
+              ],
+              [
+                8.587339401245117,
+                3.639530658721924
+              ],
+              [
+                6.541756629943848,
+                14.333925247192383
+              ]
+            ]
+          },
+          "input_shapes": {
+            "input": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 6 / 6 (100.0%)\nGreatest absolute difference: 11.695674896240234 at index (0, 0) (up to 1e-05 allowed)\nGreatest relative difference: 5.863072872161865 at index (1, 0) (up to 1.3e-06 allowed)",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 173,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E019-target.py",
+          "line": 15,
+          "name": "test_transposes"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\torch\\testing\\_internal\\common_utils.py",
+          "line": 4179,
+          "name": "assertEqual"
+        }
+      ]
+    }
+  ]
+}

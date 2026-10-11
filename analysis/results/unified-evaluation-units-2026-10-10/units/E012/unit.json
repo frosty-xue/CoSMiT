@@ -1,0 +1,90 @@
+{
+  "unit_id": "E012",
+  "family": "minimum",
+  "cohort": "expansion",
+  "provenance": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.minimum.json",
+  "behavior": {
+    "status": "supported-on-qualified-inputs",
+    "scope": "recorded inputs and registered contract only",
+    "inputs": "units/E012/behavior-inputs.json"
+  },
+  "test": {
+    "origin": "newly constructed operation substitution; not historical migrated test",
+    "source_file": "units/E012/source-test.py",
+    "target_file": "units/E012/target-test.py",
+    "registration": {
+      "case_id": "E012",
+      "status": "registered",
+      "file": "upstream/tf_binary.py",
+      "class": "BinaryOpTest",
+      "methods": [
+        {
+          "method": "_compareCpu",
+          "start": 79,
+          "end": 106,
+          "decorators": []
+        }
+      ],
+      "entry": "_compareCpu",
+      "paths": [],
+      "kind": "complete-upstream-helper-bodies",
+      "parameters": "frozen expansion input indices 0 and 16; replaces upstream sample generator, not original whole test setup",
+      "source_framework": "tensorflow",
+      "scope": "new operation-substitution candidates; common source-framework harness; no external migration-quality claim",
+      "assertion_expressions_exact": true,
+      "source_hash": "ea13b8a83b606df168aa90b076354004d4bea2c354f9c1e061a854444ba54ce7",
+      "target_hash": "ea13b8a83b606df168aa90b076354004d4bea2c354f9c1e061a854444ba54ce7"
+    },
+    "upstream_snapshot": "shared/registered-upstream/tf_binary.py",
+    "upstream_provenance": "shared/registered-upstream-provenance.json",
+    "input_scope": "units/E012/test-input-scope.json",
+    "records": "units/E012/test-records.json",
+    "runner": "shared/retained-runner.py",
+    "obligations": [
+      "张量/混合 NumPy 参数调用的值与 NumPy 参考接近",
+      "输出形状与参考一致"
+    ],
+    "scope_gaps": [
+      "替换上游输入生成器，仅扩充索引0、16",
+      "also_compare_variables=False，Variable 分支未覆盖",
+      "混合参数经适配均转为目标张量，不验证原生 NumPy/张量混合调用语义"
+    ],
+    "review_category": "bounded-value-shape-reference-candidate",
+    "scenarios": [
+      {
+        "scenario": 0,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      },
+      {
+        "scenario": 16,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true
+  },
+  "source_test_leads": [],
+  "reference_label": null,
+  "formal_intent_accuracy_eligible": false,
+  "missing": [
+    "独立限域参照标签",
+    "方法共同运行覆盖",
+    "原生类型/布局/别名等未覆盖义务不得默认为保持"
+  ],
+  "operation_files": {
+    "source": "units/E012/source-operation.py",
+    "target": "units/E012/target-operation.py"
+  },
+  "readiness": "constructed-test-evidence-packaged"
+}

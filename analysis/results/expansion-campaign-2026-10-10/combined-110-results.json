@@ -1,0 +1,4006 @@
+{
+  "primary": [
+    {
+      "case_id": "D0001",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0002",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0003",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0004",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0005",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0006",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0007",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0008",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0009",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0010",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "undetermined",
+        "intenttester-target-tdl-extension": "undetermined",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0011",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "rejected",
+        "intenttester-target-tdl-extension": "rejected",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0012",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "rejected",
+        "intenttester-target-tdl-extension": "rejected",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0013",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0014",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0015",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "undetermined",
+        "intenttester-target-tdl-extension": "undetermined",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0016",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "undetermined",
+        "intenttester-target-tdl-extension": "undetermined",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0017",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0018",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0019",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0020",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0021",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0022",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0023",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0024",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0025",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0026",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0027",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0029",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "preserved",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0030",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "preserved",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "rejected",
+        "intenttester-target-tdl-extension": "rejected",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0031",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0032",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0033",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0034",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0035",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "undetermined",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0036",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "undetermined",
+        "intenttester-target-tdl-extension": "undetermined",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0037",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "undetermined",
+        "intenttester-target-tdl-extension": "undetermined",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0038",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0039",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0040",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0041",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0042",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0043",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0044",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "preserved",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0045",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0046",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0047",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "undetermined",
+        "intenttester-target-tdl-extension": "undetermined",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0048",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0049",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0050",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0051",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0052",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0053",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "preserved",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0054",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0055",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0056",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0057",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0058",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0059",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0060",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "preserved",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0061",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0062",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0063",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0064",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0065",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "preserved",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0066",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0067",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0068",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0069",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "H001",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "preserved",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "H002",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "preserved",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "H003",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "rejected",
+        "intenttester-target-tdl-extension": "rejected",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "H004",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "H005",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "preserved",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "H006",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "H007",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "H008",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "preserved",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "rejected",
+        "intenttester-target-tdl-extension": "rejected",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "H009",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "H010",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "rejected",
+        "intenttester-target-tdl-extension": "rejected",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "H011",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "invalid-assumption",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "undetermined",
+        "intenttester-target-tdl-extension": "rejected",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "H012",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "preserved",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "rejected",
+        "intenttester-target-tdl-extension": "rejected",
+        "docter-historical-constraints": "violated"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "E001",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "undetermined",
+        "intenttester-target-tdl-extension": "undetermined",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "docter-historical-constraints": "satisfied"
+      },
+      "request_statuses": {
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-source-tdl": "failed",
+        "intenttester-target-api": "failed",
+        "intenttester-target-tdl-extension": "failed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E002",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "rejected",
+        "intenttester-target-tdl-extension": "rejected",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "docter-historical-constraints": "undetermined"
+      },
+      "request_statuses": {
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E003",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "docter-historical-constraints": "undetermined"
+      },
+      "request_statuses": {
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E004",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "undetermined",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "undetermined"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "failed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E005",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "undetermined",
+        "intenttester-target-tdl-extension": "undetermined",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "satisfied"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "failed",
+        "intenttester-target-tdl-extension": "failed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E006",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "undetermined"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E007",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "undetermined",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "violated"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "failed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E008",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "undetermined",
+        "intenttester-target-tdl-extension": "undetermined",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "undetermined"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "failed",
+        "intenttester-target-api": "failed",
+        "intenttester-target-tdl-extension": "failed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E009",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "undetermined"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E010",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "undetermined"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E011",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "undetermined"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E012",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "undetermined",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "undetermined"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "failed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E013",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "rejected",
+        "intenttester-target-tdl-extension": "rejected",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "violated"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "failed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E014",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "satisfied"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E015",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "rejected",
+        "intenttester-target-tdl-extension": "rejected",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "satisfied"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E016",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "undetermined"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E017",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "violated"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E018",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "undetermined",
+        "intenttester-target-tdl-extension": "undetermined",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "violated"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "failed",
+        "intenttester-target-api": "failed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E019",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "undetermined",
+        "intenttester-target-tdl-extension": "undetermined",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "satisfied"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "failed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E020",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "undetermined",
+        "dllens-port": "undetermined",
+        "self-test": "failed",
+        "target-binding": "not-observed-on-all-inputs",
+        "intenttester-verifier-port": "undetermined",
+        "intenttester-target-tdl-extension": "undetermined",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "satisfied"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "failed",
+        "intenttester-target-api": "failed",
+        "intenttester-target-tdl-extension": "failed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "discrepancy-replayed"
+    },
+    {
+      "case_id": "E021",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "undetermined",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "not-observed-on-all-inputs",
+        "intenttester-verifier-port": "undetermined",
+        "intenttester-target-tdl-extension": "undetermined",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "violated"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "failed",
+        "intenttester-target-api": "failed",
+        "intenttester-target-tdl-extension": "failed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "undetermined-binding"
+    },
+    {
+      "case_id": "E022",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "undetermined",
+        "intenttester-target-tdl-extension": "rejected",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "violated"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "failed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E023",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "undetermined",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "satisfied"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "failed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E024",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "undetermined",
+        "intenttester-target-tdl-extension": "undetermined",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "satisfied"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "failed",
+        "intenttester-target-api": "failed",
+        "intenttester-target-tdl-extension": "failed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E025",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "violated"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E026",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "violated"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E027",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "violated"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E028",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "violated"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E029",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "refuted",
+        "dllens-port": "undetermined",
+        "self-test": "failed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "rejected",
+        "intenttester-target-tdl-extension": "rejected",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "satisfied"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "discrepancy-replayed"
+    },
+    {
+      "case_id": "E030",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "refuted",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "undetermined",
+        "intenttester-target-tdl-extension": "undetermined",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "undetermined"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "failed",
+        "intenttester-target-api": "failed",
+        "intenttester-target-tdl-extension": "failed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "discrepancy-replayed"
+    }
+  ],
+  "retry-view": [
+    {
+      "case_id": "D0001",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0002",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0003",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "preserved",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0004",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0005",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0006",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0007",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0008",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0009",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0010",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "undetermined",
+        "intenttester-target-tdl-extension": "undetermined",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0011",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "rejected",
+        "intenttester-target-tdl-extension": "rejected",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0012",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "rejected",
+        "intenttester-target-tdl-extension": "rejected",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0013",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0014",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0015",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "undetermined",
+        "intenttester-target-tdl-extension": "undetermined",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0016",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "undetermined",
+        "intenttester-target-tdl-extension": "undetermined",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0017",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0018",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0019",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0020",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0021",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0022",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0023",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0024",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0025",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0026",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0027",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0029",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "preserved",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0030",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "preserved",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "rejected",
+        "intenttester-target-tdl-extension": "rejected",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0031",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0032",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0033",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0034",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0035",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "undetermined",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0036",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0037",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "preserved",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0038",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0039",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0040",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0041",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0042",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0043",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0044",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "preserved",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0045",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0046",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0047",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0048",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0049",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0050",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0051",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0052",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0053",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "preserved",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0054",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0055",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0056",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0057",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0058",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0059",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0060",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "preserved",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0061",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0062",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0063",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0064",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0065",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "preserved",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0066",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0067",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0068",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "D0069",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "H001",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "preserved",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "H002",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "preserved",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "H003",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "rejected",
+        "intenttester-target-tdl-extension": "rejected",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "H004",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "H005",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "preserved",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "H006",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "H007",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "H008",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "preserved",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "rejected",
+        "intenttester-target-tdl-extension": "rejected",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "H009",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "H010",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "rejected",
+        "intenttester-target-tdl-extension": "rejected",
+        "docter-historical-constraints": "satisfied"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "H011",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "invalid-assumption",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "undetermined",
+        "intenttester-target-tdl-extension": "rejected",
+        "docter-historical-constraints": "undetermined"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "H012",
+      "cohort": "original-80",
+      "methods": {
+        "self-test": "passed",
+        "target-binding": "observed",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "direct-llm": "preserved",
+        "trace-llm": "failed",
+        "intenttester-verifier-port": "rejected",
+        "intenttester-target-tdl-extension": "rejected",
+        "docter-historical-constraints": "violated"
+      },
+      "reference_label": null
+    },
+    {
+      "case_id": "E001",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "docter-historical-constraints": "satisfied"
+      },
+      "request_statuses": {
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E002",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "rejected",
+        "intenttester-target-tdl-extension": "rejected",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "docter-historical-constraints": "undetermined"
+      },
+      "request_statuses": {
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E003",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "docter-historical-constraints": "undetermined"
+      },
+      "request_statuses": {
+        "direct-llm": "failed",
+        "trace-llm": "failed",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E004",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "undetermined"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E005",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "satisfied"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E006",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "undetermined"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E007",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "violated"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E008",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "undetermined"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E009",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "undetermined"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E010",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "undetermined"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E011",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "undetermined"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E012",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "undetermined"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E013",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "rejected",
+        "intenttester-target-tdl-extension": "rejected",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "violated"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E014",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "satisfied"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E015",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "rejected",
+        "intenttester-target-tdl-extension": "rejected",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "satisfied"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E016",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "undetermined"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E017",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "violated"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E018",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "violated"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E019",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "satisfied"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E020",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "undetermined",
+        "dllens-port": "undetermined",
+        "self-test": "failed",
+        "target-binding": "not-observed-on-all-inputs",
+        "intenttester-verifier-port": "rejected",
+        "intenttester-target-tdl-extension": "rejected",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "satisfied"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "discrepancy-replayed"
+    },
+    {
+      "case_id": "E021",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "undetermined",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "not-observed-on-all-inputs",
+        "intenttester-verifier-port": "rejected",
+        "intenttester-target-tdl-extension": "rejected",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "violated"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "undetermined-binding"
+    },
+    {
+      "case_id": "E022",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "rejected",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "violated"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E023",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "satisfied"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E024",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "undetermined",
+        "intenttester-target-tdl-extension": "undetermined",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "satisfied"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "failed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E025",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "violated"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E026",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "violated"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E027",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "violated"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E028",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "supported-on-tested-inputs",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "accepted",
+        "intenttester-target-tdl-extension": "accepted",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "violated"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "supported-on-qualified-inputs"
+    },
+    {
+      "case_id": "E029",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "refuted",
+        "dllens-port": "undetermined",
+        "self-test": "failed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "rejected",
+        "intenttester-target-tdl-extension": "rejected",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "satisfied"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "discrepancy-replayed"
+    },
+    {
+      "case_id": "E030",
+      "cohort": "expansion-30",
+      "methods": {
+        "cosmit-registered-clauses": "refuted",
+        "dllens-port": "no-difference-on-tested-inputs",
+        "self-test": "passed",
+        "target-binding": "observed",
+        "intenttester-verifier-port": "rejected",
+        "intenttester-target-tdl-extension": "rejected",
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "docter-historical-constraints": "undetermined"
+      },
+      "request_statuses": {
+        "direct-llm": "not-run",
+        "trace-llm": "not-run",
+        "intenttester-source-tdl": "completed",
+        "intenttester-target-api": "completed",
+        "intenttester-target-tdl-extension": "completed"
+      },
+      "reference_label": null,
+      "historical_behavior_audit": "discrepancy-replayed"
+    }
+  ]
+}

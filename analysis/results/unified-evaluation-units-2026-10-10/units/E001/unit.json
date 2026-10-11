@@ -1,0 +1,96 @@
+{
+  "unit_id": "E001",
+  "family": "add",
+  "cohort": "expansion",
+  "provenance": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.add.json",
+  "behavior": {
+    "status": "supported-on-qualified-inputs",
+    "scope": "recorded inputs and registered contract only",
+    "inputs": "units/E001/behavior-inputs.json"
+  },
+  "test": {
+    "origin": "newly constructed operation substitution; not historical migrated test",
+    "source_file": "units/E001/source-test.py",
+    "target_file": "units/E001/target-test.py",
+    "registration": {
+      "case_id": "E001",
+      "status": "registered",
+      "file": "upstream/pt_binary.py",
+      "class": "TestBinaryUfuncs",
+      "methods": [
+        {
+          "method": "assertEqualHelper",
+          "start": 86,
+          "end": 118,
+          "decorators": []
+        },
+        {
+          "method": "_test_reference_numerics",
+          "start": 122,
+          "end": 197,
+          "decorators": []
+        }
+      ],
+      "entry": "_test_reference_numerics",
+      "paths": [],
+      "kind": "complete-upstream-helper-bodies",
+      "parameters": "frozen expansion input indices 0 and 16; replaces upstream sample generator, not original whole test setup",
+      "source_framework": "pytorch",
+      "scope": "new operation-substitution candidates; common source-framework harness; no external migration-quality claim",
+      "assertion_expressions_exact": true,
+      "source_hash": "3b287a970da834067f184afca91dfb2fe9ebffb26b304f9eec0461aea6ec4823",
+      "target_hash": "3b287a970da834067f184afca91dfb2fe9ebffb26b304f9eec0461aea6ec4823"
+    },
+    "upstream_snapshot": "shared/registered-upstream/pt_binary.py",
+    "upstream_provenance": "shared/registered-upstream-provenance.json",
+    "input_scope": "units/E001/test-input-scope.json",
+    "records": "units/E001/test-records.json",
+    "runner": "shared/retained-runner.py",
+    "obligations": [
+      "与 NumPy 对应运算参考比较",
+      "返回张量及条件 dtype 检查"
+    ],
+    "scope_gaps": [
+      "替换上游输入生成器，仅扩充索引0、16",
+      "固定的有限输入不覆盖所有 dtype/promotion/标量分支",
+      "跨框架结果重建为源框架张量，不验证目标原生返回对象类型"
+    ],
+    "review_category": "bounded-value-shape-reference-candidate",
+    "scenarios": [
+      {
+        "scenario": 0,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      },
+      {
+        "scenario": 16,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true
+  },
+  "source_test_leads": [],
+  "reference_label": null,
+  "formal_intent_accuracy_eligible": false,
+  "missing": [
+    "独立限域参照标签",
+    "方法共同运行覆盖",
+    "原生类型/布局/别名等未覆盖义务不得默认为保持"
+  ],
+  "operation_files": {
+    "source": "units/E001/source-operation.py",
+    "target": "units/E001/target-operation.py"
+  },
+  "readiness": "constructed-test-evidence-packaged"
+}

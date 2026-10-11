@@ -1,0 +1,80 @@
+{
+  "unit_id": "E030",
+  "family": "clip",
+  "cohort": "expansion",
+  "provenance": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.clip_by_value.json",
+  "behavior": {
+    "status": "discrepancy-replayed",
+    "scope": "recorded inputs and registered contract only",
+    "inputs": "units/E030/behavior-inputs.json"
+  },
+  "test": {
+    "origin": "newly constructed operation substitution; not historical migrated test",
+    "source_file": "units/E030/source-test.py",
+    "target_file": "units/E030/target-test.py",
+    "registration": {
+      "case_id": "E030",
+      "status": "registered",
+      "file": "upstream/tf_clip.py",
+      "class": "ClipTest",
+      "methods": [
+        {
+          "method": "testClipByValue",
+          "start": 35,
+          "end": 43,
+          "decorators": []
+        }
+      ],
+      "entry": "testClipByValue",
+      "paths": [
+        "clip_ops.clip_by_value"
+      ],
+      "kind": "complete-upstream-method-bodies",
+      "parameters": "original method inputs; CPU eager; device/dtype parameter fixed where required; decorator variants excluded",
+      "source_framework": "tensorflow",
+      "scope": "new operation-substitution candidates; common source-framework harness; no external migration-quality claim",
+      "assertion_expressions_exact": true,
+      "source_hash": "2be24540ac323eb99cbb9e1e0a3c4a765f7b5ca0b767f392a887d1a5949df417",
+      "target_hash": "24befe68ddb78a701e9d02ad587327a17ca04246452db3af6ff9637864d59b73"
+    },
+    "upstream_snapshot": "shared/registered-upstream/tf_clip.py",
+    "upstream_provenance": "shared/registered-upstream-provenance.json",
+    "input_scope": "units/E030/test-input-scope.json",
+    "records": "units/E030/test-records.json",
+    "runner": "shared/retained-runner.py",
+    "obligations": [
+      "2×3 输入裁剪结果与期望值接近"
+    ],
+    "scope_gaps": [
+      "原方法未覆盖标量输入，不能给标量形状保持标签",
+      "本层通过不能推翻 E030 既有标量行为违反"
+    ],
+    "review_category": "bounded-value-shape-reference-candidate",
+    "scenarios": [
+      {
+        "scenario": null,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true
+  },
+  "source_test_leads": [],
+  "reference_label": null,
+  "formal_intent_accuracy_eligible": false,
+  "missing": [
+    "独立限域参照标签",
+    "方法共同运行覆盖",
+    "原生类型/布局/别名等未覆盖义务不得默认为保持"
+  ],
+  "operation_files": {
+    "source": "units/E030/source-operation.py",
+    "target": "units/E030/target-operation.py"
+  },
+  "readiness": "constructed-test-evidence-packaged"
+}

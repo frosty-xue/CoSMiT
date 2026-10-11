@@ -1,0 +1,21 @@
+{
+  "candidate_id": "D0052",
+  "source_api": "tf.math.sigmoid",
+  "target_calls": "torch.sigmoid",
+  "source": {
+    "framework": "tensorflow",
+    "entry": "tensorflow_call"
+  },
+  "target": {
+    "framework": "pytorch",
+    "entry": "pytorch_call"
+  },
+  "cohort": "discovery",
+  "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.sigmoid.json",
+  "operation_sha256": {
+    "source": "637740d071840349e13af8b8ff330ff4b44990917b5d8a6e9edc0ff7452d1c70",
+    "target": "de04957bf26c4b9991d26b490c7533ccacc00c36222e63c5b9dbb1693e94039d"
+  },
+  "test_pair_available": false,
+  "test_pair_origin": null
+}

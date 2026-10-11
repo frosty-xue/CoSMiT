@@ -1,0 +1,27 @@
+{
+  "registered_pairs": 27,
+  "unexecuted_aliasing_obligations": [
+    "E017",
+    "E021",
+    "E023"
+  ],
+  "category_counts": {
+    "bounded-value-shape-reference-candidate": 21,
+    "shape-only-reference-candidate": 1,
+    "baseline-behavior-failure": 2,
+    "value-only-probe-reference-candidate": 1,
+    "container-obligation-erased-by-adapter": 1,
+    "adapter-blocked": 1
+  },
+  "baseline_and_transparency_passed": 24,
+  "bounded_reference_candidates": 23,
+  "formal_gold_labels": 0,
+  "verified_probe_counts": {
+    "rejection-retained": 78,
+    "source-does-not-reject": 1,
+    "baseline-unqualified": 6,
+    "probe-runtime-error": 1
+  },
+  "new_framework_calls": 0,
+  "warning": "reference candidates are scope-restricted and selected after observing outcomes; not a blind accuracy test set"
+}

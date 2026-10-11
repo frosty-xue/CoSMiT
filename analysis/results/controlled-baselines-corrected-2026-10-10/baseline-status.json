@@ -1,0 +1,49 @@
+{
+  "dllens-existing-comparator-port": {
+    "status": "executed-on-recorded-observations",
+    "entry": "verification_ports.dllens_comparator",
+    "original_commit": "0f617e92c34d60bfdd3bc06d80c17d938879ed9c",
+    "comparator_sha256": "4a6c55added113ee8ab43336de43a24f5735dd56f303e29f877235b575bb3707",
+    "port_sha256": "088a2ced882e4777d819558a735c660ec6ce0c5fb17908044484e9f273944f49",
+    "comparisons": 27,
+    "new_framework_test_executions": 0
+  },
+  "docter-constraint-port": {
+    "status": "not-run",
+    "entry": "verification_ports.check_docter",
+    "blockers": [
+      "pinned DocTer constraint files absent",
+      "actual test argument packet must be serialized for each selected call"
+    ],
+    "scope": "API input admissibility; satisfied does not imply assertion preservation"
+  },
+  "intenttester-verifier-port": {
+    "status": "not-run",
+    "entry": "prepare_llm_jobs / run_verifier_llm.py",
+    "blockers": [
+      "original source lock and pinned VerificationAgent.java template absent",
+      "model endpoint and credential configuration absent"
+    ],
+    "additional_adaptation": "helper/harness-based tests must be packaged with sufficient context; old unary function packet cannot be blindly reused"
+  },
+  "direct-llm-and-trace-llm": {
+    "status": "not-run",
+    "blockers": [
+      "model endpoint and credential configuration absent"
+    ]
+  },
+  "target-binding-native-api": {
+    "status": "not-run",
+    "blockers": [
+      "current retained records count wrapper boundary calls, not independently instrumented native target API calls"
+    ]
+  },
+  "transfuzz": {
+    "status": "reference-only",
+    "reason": "existing project protocol excludes it from experiment baselines"
+  },
+  "previous-static-and-execution-checks": {
+    "status": "supplementary controls, not replacements for project baselines"
+  },
+  "answer_key_read_by_comparator": false
+}

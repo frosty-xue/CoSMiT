@@ -1,0 +1,21 @@
+{
+  "candidate_id": "D0003",
+  "source_api": "torch.arccos",
+  "target_calls": "tf.acos",
+  "source": {
+    "framework": "pytorch",
+    "entry": "pytorch_call"
+  },
+  "target": {
+    "framework": "tensorflow",
+    "entry": "tensorflow_call"
+  },
+  "cohort": "discovery",
+  "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.arccos.json",
+  "operation_sha256": {
+    "source": "462dc762aa3250e0cd0499cf5a3a67412a636126bafe021a9a3a168f3ce76211",
+    "target": "a75cda56e7cbd493ecc13e91840ad8e02d7334c6e18ba557c2c96c5a2e971a7a"
+  },
+  "test_pair_available": false,
+  "test_pair_origin": null
+}

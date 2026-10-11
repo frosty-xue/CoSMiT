@@ -1,0 +1,2053 @@
+{
+  "versions": {
+    "tensorflow": "2.20.0",
+    "torch": "2.9.1+cpu",
+    "numpy": "2.1.3",
+    "python": "3.11.16 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:36:16) [MSC v.1942 64 bit (AMD64)]"
+  },
+  "records": [
+    {
+      "case_id": "E018",
+      "scenario": null,
+      "side": "source",
+      "mode": "original",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E018",
+      "scenario": null,
+      "side": "source",
+      "mode": "original",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E018",
+      "scenario": null,
+      "side": "source",
+      "mode": "original",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 0,
+      "first_observation": [],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E018",
+      "scenario": null,
+      "side": "source",
+      "mode": "observe",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 4,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "input_shapes": {
+            "tensor": [
+              1,
+              6
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E018",
+      "scenario": null,
+      "side": "source",
+      "mode": "observe",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 4,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "input_shapes": {
+            "tensor": [
+              1,
+              6
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E018",
+      "scenario": null,
+      "side": "source",
+      "mode": "observe",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 4,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "input_shapes": {
+            "tensor": [
+              1,
+              6
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E018",
+      "scenario": null,
+      "side": "source",
+      "mode": "reinject",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 4,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "input_shapes": {
+            "tensor": [
+              1,
+              6
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E018",
+      "scenario": null,
+      "side": "source",
+      "mode": "reinject",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 4,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "input_shapes": {
+            "tensor": [
+              1,
+              6
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E018",
+      "scenario": null,
+      "side": "source",
+      "mode": "reinject",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 4,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "input_shapes": {
+            "tensor": [
+              1,
+              6
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E018",
+      "scenario": null,
+      "side": "source",
+      "mode": "wrong-shape",
+      "repeat": 0,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                [
+                  1.0,
+                  2.0,
+                  3.0
+                ],
+                [
+                  4.0,
+                  5.0,
+                  6.0
+                ]
+              ]
+            ]
+          },
+          "input_shapes": {
+            "tensor": [
+              1,
+              6
+            ]
+          }
+        }
+      ],
+      "error": "Tuples differ: (2,) != (3,)\n\nFirst differing element 0:\n2\n3\n\n- (2,)\n?  ^\n\n+ (3,)\n?  ^\n : Shape mismatch: expected (2,), got (3,). Contents: array([1, 2, 3]). \n.",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E018-target.py",
+          "line": 22,
+          "name": "testFloatBasic"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E018-target.py",
+          "line": 17,
+          "name": "_testBothReshape"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E018-target.py",
+          "line": 9,
+          "name": "_testReshape"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3795,
+          "name": "assertShapeEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3470,
+          "name": "assertAllEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 873,
+          "name": "assertEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1090,
+          "name": "assertTupleEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1061,
+          "name": "assertSequenceEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\absl\\testing\\absltest.py",
+          "line": 2175,
+          "name": "fail"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 703,
+          "name": "fail"
+        }
+      ]
+    },
+    {
+      "case_id": "E018",
+      "scenario": null,
+      "side": "source",
+      "mode": "wrong-shape",
+      "repeat": 1,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                [
+                  1.0,
+                  2.0,
+                  3.0
+                ],
+                [
+                  4.0,
+                  5.0,
+                  6.0
+                ]
+              ]
+            ]
+          },
+          "input_shapes": {
+            "tensor": [
+              1,
+              6
+            ]
+          }
+        }
+      ],
+      "error": "Tuples differ: (2,) != (3,)\n\nFirst differing element 0:\n2\n3\n\n- (2,)\n?  ^\n\n+ (3,)\n?  ^\n : Shape mismatch: expected (2,), got (3,). Contents: array([1, 2, 3]). \n.",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E018-target.py",
+          "line": 22,
+          "name": "testFloatBasic"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E018-target.py",
+          "line": 17,
+          "name": "_testBothReshape"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E018-target.py",
+          "line": 9,
+          "name": "_testReshape"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3795,
+          "name": "assertShapeEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3470,
+          "name": "assertAllEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 873,
+          "name": "assertEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1090,
+          "name": "assertTupleEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1061,
+          "name": "assertSequenceEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\absl\\testing\\absltest.py",
+          "line": 2175,
+          "name": "fail"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 703,
+          "name": "fail"
+        }
+      ]
+    },
+    {
+      "case_id": "E018",
+      "scenario": null,
+      "side": "source",
+      "mode": "wrong-shape",
+      "repeat": 2,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                [
+                  1.0,
+                  2.0,
+                  3.0
+                ],
+                [
+                  4.0,
+                  5.0,
+                  6.0
+                ]
+              ]
+            ]
+          },
+          "input_shapes": {
+            "tensor": [
+              1,
+              6
+            ]
+          }
+        }
+      ],
+      "error": "Tuples differ: (2,) != (3,)\n\nFirst differing element 0:\n2\n3\n\n- (2,)\n?  ^\n\n+ (3,)\n?  ^\n : Shape mismatch: expected (2,), got (3,). Contents: array([1, 2, 3]). \n.",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E018-target.py",
+          "line": 22,
+          "name": "testFloatBasic"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E018-target.py",
+          "line": 17,
+          "name": "_testBothReshape"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E018-target.py",
+          "line": 9,
+          "name": "_testReshape"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3795,
+          "name": "assertShapeEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3470,
+          "name": "assertAllEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 873,
+          "name": "assertEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1090,
+          "name": "assertTupleEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1061,
+          "name": "assertSequenceEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\absl\\testing\\absltest.py",
+          "line": 2175,
+          "name": "fail"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 703,
+          "name": "fail"
+        }
+      ]
+    },
+    {
+      "case_id": "E018",
+      "scenario": null,
+      "side": "source",
+      "mode": "wrong-value",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 4,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                11.199999809265137,
+                12.399999618530273,
+                13.600000381469727
+              ],
+              [
+                14.800000190734863,
+                16.0,
+                17.200000762939453
+              ]
+            ]
+          },
+          "input_shapes": {
+            "tensor": [
+              1,
+              6
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E018",
+      "scenario": null,
+      "side": "source",
+      "mode": "wrong-value",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 4,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                11.199999809265137,
+                12.399999618530273,
+                13.600000381469727
+              ],
+              [
+                14.800000190734863,
+                16.0,
+                17.200000762939453
+              ]
+            ]
+          },
+          "input_shapes": {
+            "tensor": [
+              1,
+              6
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E018",
+      "scenario": null,
+      "side": "source",
+      "mode": "wrong-value",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 4,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                11.199999809265137,
+                12.399999618530273,
+                13.600000381469727
+              ],
+              [
+                14.800000190734863,
+                16.0,
+                17.200000762939453
+              ]
+            ]
+          },
+          "input_shapes": {
+            "tensor": [
+              1,
+              6
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E018",
+      "scenario": null,
+      "side": "target",
+      "mode": "original",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 4,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "input_shapes": {
+            "tensor": [
+              1,
+              6
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E018",
+      "scenario": null,
+      "side": "target",
+      "mode": "original",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 4,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "input_shapes": {
+            "tensor": [
+              1,
+              6
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E018",
+      "scenario": null,
+      "side": "target",
+      "mode": "original",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 4,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "input_shapes": {
+            "tensor": [
+              1,
+              6
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E018",
+      "scenario": null,
+      "side": "target",
+      "mode": "observe",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 4,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "input_shapes": {
+            "tensor": [
+              1,
+              6
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E018",
+      "scenario": null,
+      "side": "target",
+      "mode": "observe",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 4,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "input_shapes": {
+            "tensor": [
+              1,
+              6
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E018",
+      "scenario": null,
+      "side": "target",
+      "mode": "observe",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 4,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "input_shapes": {
+            "tensor": [
+              1,
+              6
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E018",
+      "scenario": null,
+      "side": "target",
+      "mode": "reinject",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 4,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "input_shapes": {
+            "tensor": [
+              1,
+              6
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E018",
+      "scenario": null,
+      "side": "target",
+      "mode": "reinject",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 4,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "input_shapes": {
+            "tensor": [
+              1,
+              6
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E018",
+      "scenario": null,
+      "side": "target",
+      "mode": "reinject",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 4,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "input_shapes": {
+            "tensor": [
+              1,
+              6
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E018",
+      "scenario": null,
+      "side": "target",
+      "mode": "wrong-shape",
+      "repeat": 0,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                [
+                  1.0,
+                  2.0,
+                  3.0
+                ],
+                [
+                  4.0,
+                  5.0,
+                  6.0
+                ]
+              ]
+            ]
+          },
+          "input_shapes": {
+            "tensor": [
+              1,
+              6
+            ]
+          }
+        }
+      ],
+      "error": "Tuples differ: (2,) != (3,)\n\nFirst differing element 0:\n2\n3\n\n- (2,)\n?  ^\n\n+ (3,)\n?  ^\n : Shape mismatch: expected (2,), got (3,). Contents: array([1, 2, 3]). \n.",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E018-target.py",
+          "line": 22,
+          "name": "testFloatBasic"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E018-target.py",
+          "line": 17,
+          "name": "_testBothReshape"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E018-target.py",
+          "line": 9,
+          "name": "_testReshape"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3795,
+          "name": "assertShapeEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3470,
+          "name": "assertAllEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 873,
+          "name": "assertEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1090,
+          "name": "assertTupleEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1061,
+          "name": "assertSequenceEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\absl\\testing\\absltest.py",
+          "line": 2175,
+          "name": "fail"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 703,
+          "name": "fail"
+        }
+      ]
+    },
+    {
+      "case_id": "E018",
+      "scenario": null,
+      "side": "target",
+      "mode": "wrong-shape",
+      "repeat": 1,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                [
+                  1.0,
+                  2.0,
+                  3.0
+                ],
+                [
+                  4.0,
+                  5.0,
+                  6.0
+                ]
+              ]
+            ]
+          },
+          "input_shapes": {
+            "tensor": [
+              1,
+              6
+            ]
+          }
+        }
+      ],
+      "error": "Tuples differ: (2,) != (3,)\n\nFirst differing element 0:\n2\n3\n\n- (2,)\n?  ^\n\n+ (3,)\n?  ^\n : Shape mismatch: expected (2,), got (3,). Contents: array([1, 2, 3]). \n.",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E018-target.py",
+          "line": 22,
+          "name": "testFloatBasic"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E018-target.py",
+          "line": 17,
+          "name": "_testBothReshape"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E018-target.py",
+          "line": 9,
+          "name": "_testReshape"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3795,
+          "name": "assertShapeEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3470,
+          "name": "assertAllEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 873,
+          "name": "assertEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1090,
+          "name": "assertTupleEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1061,
+          "name": "assertSequenceEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\absl\\testing\\absltest.py",
+          "line": 2175,
+          "name": "fail"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 703,
+          "name": "fail"
+        }
+      ]
+    },
+    {
+      "case_id": "E018",
+      "scenario": null,
+      "side": "target",
+      "mode": "wrong-shape",
+      "repeat": 2,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 1,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                [
+                  1.0,
+                  2.0,
+                  3.0
+                ],
+                [
+                  4.0,
+                  5.0,
+                  6.0
+                ]
+              ]
+            ]
+          },
+          "input_shapes": {
+            "tensor": [
+              1,
+              6
+            ]
+          }
+        }
+      ],
+      "error": "Tuples differ: (2,) != (3,)\n\nFirst differing element 0:\n2\n3\n\n- (2,)\n?  ^\n\n+ (3,)\n?  ^\n : Shape mismatch: expected (2,), got (3,). Contents: array([1, 2, 3]). \n.",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 176,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E018-target.py",
+          "line": 22,
+          "name": "testFloatBasic"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E018-target.py",
+          "line": 17,
+          "name": "_testBothReshape"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E018-target.py",
+          "line": 9,
+          "name": "_testReshape"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3795,
+          "name": "assertShapeEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3470,
+          "name": "assertAllEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 873,
+          "name": "assertEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1090,
+          "name": "assertTupleEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1061,
+          "name": "assertSequenceEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\absl\\testing\\absltest.py",
+          "line": 2175,
+          "name": "fail"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 703,
+          "name": "fail"
+        }
+      ]
+    },
+    {
+      "case_id": "E018",
+      "scenario": null,
+      "side": "target",
+      "mode": "wrong-value",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 4,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                11.199999809265137,
+                12.399999618530273,
+                13.600000381469727
+              ],
+              [
+                14.800000190734863,
+                16.0,
+                17.200000762939453
+              ]
+            ]
+          },
+          "input_shapes": {
+            "tensor": [
+              1,
+              6
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E018",
+      "scenario": null,
+      "side": "target",
+      "mode": "wrong-value",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 4,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                11.199999809265137,
+                12.399999618530273,
+                13.600000381469727
+              ],
+              [
+                14.800000190734863,
+                16.0,
+                17.200000762939453
+              ]
+            ]
+          },
+          "input_shapes": {
+            "tensor": [
+              1,
+              6
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E018",
+      "scenario": null,
+      "side": "target",
+      "mode": "wrong-value",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 4,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                1.0,
+                2.0,
+                3.0
+              ],
+              [
+                4.0,
+                5.0,
+                6.0
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                11.199999809265137,
+                12.399999618530273,
+                13.600000381469727
+              ],
+              [
+                14.800000190734863,
+                16.0,
+                17.200000762939453
+              ]
+            ]
+          },
+          "input_shapes": {
+            "tensor": [
+              1,
+              6
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    }
+  ]
+}

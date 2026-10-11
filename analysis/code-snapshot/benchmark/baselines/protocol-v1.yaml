@@ -1,0 +1,90 @@
+schema_version: 1
+frozen_date: '2026-09-16'
+scope: migration-property-preservation-and-counterexample-validity
+status: source-and-comparison-policy-frozen-not-formal-experiment-ready
+source_lock: artifacts/baselines/20260916-v1/sources/sources.lock.json
+rules:
+  - Freeze source/target candidates before running verifiers; do not regenerate per verifier.
+  - Separate migration-property violations from library bugs and invalid test/oracle assumptions.
+  - Preserve execution errors, unknowns, exclusions and reasons in the common denominator.
+  - Share source specifications and candidate context across applicable methods; hide adjudication labels.
+  - Keep author-original comparators distinct from explicitly named stricter sensitivity variants.
+  - Record model identifier, parameters, tokens, requests, runtime and execution budget separately.
+  - Native-cost and cost-matched comparisons must be separate experiments.
+  - Split by source/API/bug family with alias and near-duplicate grouping before holdout evaluation.
+  - Public author-filtered outputs are a selected population, not the full generated distribution.
+  - Repeated inputs, verifier calls and migration directions do not create independent source groups.
+  - LLM agreement alone is not reference truth; use specification and execution evidence, retaining unknowns.
+baselines:
+  - id: dllens-original-comparator-component
+    commit: 0f617e92c34d60bfdd3bc06d80c17d938879ed9c
+    role: paired-output-consistency
+    available: original-functions-and-public-pairs
+    reproduction: adapted-component-smoke
+    original_parameters:
+      atol: 0.1
+      rtol: numpy-default-1e-5
+      equal_nan: true
+      ndarray_normalization: squeeze-then-flatten
+    adaptation:
+      - Only reviewed abs examples replayed; original counterpart and comparator bodies unchanged.
+      - Same concrete source tensor converted through NumPy to the target framework.
+      - Original generation, mutation, constraint extraction and input converter are not reproduced.
+      - macOS arm64 smoke uses TensorFlow 2.16.2 instead of authors requirement 2.10.0.
+    full_pipeline_blocker: four imported local modules absent from pinned public tree
+  - id: transfuzz-self-validation
+    commit: d6e79ca2f424fbdad379d5f139303cd81e7d6cbb
+    paper_version: arXiv-2602.23065v2
+    role: transferred-bug-report-counterexample-validation
+    available: paper-and-placeholder-repository-only
+    reproduction: not-run
+    protocol_reference: paper-section-3.5-section-4.5-appendix-D-E
+    checks:
+      - same-bug-type
+      - real-mismatch-or-same-bug-pattern-conditional-branch
+      - bug-free-oracle-validation
+      - source-criteria-based-validation
+    repeated_check_rule: reject-if-any-repetition-fails
+    repeated_checks_per_applicable_prompt: 3
+    requirements:
+      - Original issue and bug determination criteria, plus instrumented target execution.
+      - Generic source tests without issue context require a separately named adaptation.
+      - All prompts and instrumentation must be implemented and tested before reporting reproduction.
+    full_pipeline_blocker: no implementation or validation dataset in pinned official repository
+  - id: intenttester-verification
+    commit: a906b7c49bbe0dec4d1d8b911e97281b7ce63063
+    role: intent-and-execution-verification-reference
+    available: partial-code-and-published-migration-outputs
+    reproduction: prior-unmodified-build-failed
+    evidence: benchmark/public_systems/system-reproduction-trace.json
+    full_pipeline_blocker: missing-FileUtil-members-and-Python-testreuse-dependency
+    pt_tf_status: requires-domain-adaptation-not-an-official-supported-baseline-run
+  - id: docter-constraints
+    commit: fb49c2169779053edf8b6f80c81fc043aa06f804
+    role: input-constraint-component
+    available: 2415-public-constraint-yamls-and-pinned-container-reference
+    reproduction: constraint-files-parsed-fuzzer-not-run
+    docker_image: dnxie/docter@sha256:19f6327cbd3799e188fff2b12a04d8cda16f8c4b75caed0be025c63a34b6af67
+    docker_platform: linux/amd64
+    docker_layers_downloaded: false
+    restrictions:
+      - Constraints are version-specific and cannot establish source-property or oracle correctness.
+      - Constraint extractor and fuzzer code are distributed in the container, not this git tree.
+internal_controls:
+  direct_llm:
+    runner: benchmark/rqs/run_llm_baselines.py
+    state: existing-bounded-development-run-only
+  llm_with_execution:
+    state: comparison-design-only-no-new-run-in-this-freeze
+formal_evaluation:
+  status: pending-dataset-and-adapters
+  development_exposure:
+    - abs API family in both directions, including torch.Tensor.abs / torch.abs / tf.abs aliases
+  holdout_rule: exclude-explored-abs-family-from-unseen-api-holdout
+  report:
+    - true-migration-violation-recall
+    - invalid-test-or-assumption-rejection
+    - valid-case-false-rejection
+    - decision-coverage-and-unknown-rate
+    - grouped-confidence-intervals
+    - cost-and-runtime

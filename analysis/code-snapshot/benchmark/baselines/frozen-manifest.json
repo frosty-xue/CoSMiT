@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-16",
+  "archive_directory": "artifacts/baselines/20260916-v1/sources",
+  "sources_lock_sha256": "eeed705c74900aff0dea4761a8c7e152d5545d52341be21e4c60678cadaaed22",
+  "sources": [
+    {
+      "name": "transfuzz",
+      "checkout": "tmp/baseline-sources/transfuzz",
+      "commit": "d6e79ca2f424fbdad379d5f139303cd81e7d6cbb",
+      "tree": "f66f77095f907d123019281d48a884173cae8163",
+      "remote": "https://github.com/transfuzz/transfuzz.git",
+      "commit_date": "2025-10-10T10:38:31+08:00",
+      "archive": "transfuzz-d6e79ca2f424fbdad379d5f139303cd81e7d6cbb.tar.gz",
+      "archive_sha256": "1604c01a53bef0d5b3a296105d8ee8ea3e463d99d6af6eb2ff581b9ef0ab54e1",
+      "tracked_file_count": 1,
+      "status": "placeholder-only-no-code"
+    },
+    {
+      "name": "dllens",
+      "checkout": "tmp/baseline-sources/dllens",
+      "commit": "0f617e92c34d60bfdd3bc06d80c17d938879ed9c",
+      "tree": "a1f2ed01e8b1186c71a429a06645c82ab4a1b1b7",
+      "remote": "https://github.com/maybeLee/DLLens.git",
+      "commit_date": "2025-08-15T23:57:21+08:00",
+      "archive": "dllens-0f617e92c34d60bfdd3bc06d80c17d938879ed9c.tar.gz",
+      "archive_sha256": "f0c371657c5daf328ef72b9a60f2115b5695729e50d659025a987088069775e3",
+      "tracked_file_count": 2914,
+      "status": "partial-code-and-data-component-replay"
+    },
+    {
+      "name": "docter",
+      "checkout": "tmp/baseline-sources/docter",
+      "commit": "fb49c2169779053edf8b6f80c81fc043aa06f804",
+      "tree": "0b14d9e530e029e0d0a4a109f814a62aac6088c7",
+      "remote": "https://github.com/lin-tan/DocTer.git",
+      "commit_date": "2022-07-19T18:03:01-04:00",
+      "archive": "docter-fb49c2169779053edf8b6f80c81fc043aa06f804.tar.gz",
+      "archive_sha256": "5349f20088003ed279c974cf152bb7a4119653e711f6fc4c9fabffa8e0f8b820",
+      "tracked_file_count": 2431,
+      "status": "constraint-data-only-container-not-run"
+    },
+    {
+      "name": "intenttester",
+      "checkout": "tmp/intenttest-baseline",
+      "commit": "a906b7c49bbe0dec4d1d8b911e97281b7ce63063",
+      "tree": "b70c9e74d5471c374183f114aaaf9df17679f8fa",
+      "remote": "https://github.com/testmigrator/intenttest.git",
+      "commit_date": "2026-04-20T20:24:51+08:00",
+      "archive": "intenttester-a906b7c49bbe0dec4d1d8b911e97281b7ce63063.tar.gz",
+      "archive_sha256": "564bb227c5eef94bcf73ad2d7d5999c5fd15723c1eb2bbb99464c3338d27c678",
+      "tracked_file_count": 11521,
+      "status": "published-outputs-prior-build-blocked"
+    }
+  ],
+  "data_summary": {
+    "dllens_candidate_files": 1401,
+    "dllens_directions": {
+      "pt2tf": 712,
+      "tf2pt": 689
+    },
+    "dllens_total_sample_input_entries": 19188,
+    "docter_constraint_files": 2415,
+    "docter_version_directories": {
+      "mxner1.6": 1006,
+      "pytorch1.5": 498,
+      "tensorflow2.1": 911
+    }
+  },
+  "paper": {
+    "url": "https://arxiv.org/pdf/2602.23065v2",
+    "path": "artifacts/baselines/20260916-v1/transfuzz-2602.23065v2.pdf",
+    "sha256": "bdb1f30daa4584a38edf5cb88fd5859bbc5d6e52bbb0ad52e84af1262fdeef72"
+  },
+  "docker": {
+    "reference": "dnxie/docter@sha256:19f6327cbd3799e188fff2b12a04d8cda16f8c4b75caed0be025c63a34b6af67",
+    "platform": "linux/amd64",
+    "layers_downloaded": false
+  },
+  "license_files": {
+    "transfuzz": "none-observed",
+    "dllens": "none-observed",
+    "intenttester": "none-observed",
+    "docter": "BSD-3-Clause"
+  },
+  "formal_experiment_status": "not-run"
+}

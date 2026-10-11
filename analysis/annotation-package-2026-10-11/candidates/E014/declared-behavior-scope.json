@@ -1,0 +1,279 @@
+{
+  "description": "For source-valid inputs in the registered finite domain, preserve the source operation value, operation-derived output shape and dtype. The registered source reference is: broadcasted scalar math.pow(a,b).",
+  "clauses": [
+    "source-reference-validity",
+    "value",
+    "operation-derived-shape",
+    "dtype",
+    "actual-target-operation-binding"
+  ],
+  "family": "power",
+  "registered_domain": [
+    "CPU, dense finite real tensors; input rank <= 3, output rank <= 4; <= 256 elements per tensor",
+    "same dtype across tensor operands; float32 and float64 evaluated separately",
+    "source-valid inputs only; source runtime/signature errors retained separately",
+    "no NaN/Inf, complex, sparse, gradients, devices or implicit mixed-dtype promotion in this batch",
+    "broadcast-compatible input shapes; values in [-4,4]",
+    "base in [0.25,4], exponent in [-3,3]; positive base only for this batch"
+  ],
+  "domain_clarification": "rank up to 4 for the explicitly planned squeeze [1,2,1,3] stratum; otherwise rank <=3; no gradients/nonfinite/sparse/mixed dtype",
+  "tolerances_by_input_index": {
+    "0": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "1": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "2": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "3": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "4": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "5": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "6": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "7": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "8": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "9": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "10": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "11": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "12": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "13": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "14": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "15": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "16": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "17": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "18": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "19": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "20": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "21": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "22": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "23": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "24": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "25": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "26": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "27": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "28": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "29": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "30": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "31": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "32": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "33": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "34": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "35": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "36": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "37": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "38": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "39": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "40": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "41": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "42": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "43": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "44": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "45": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "46": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "47": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "48": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "49": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "50": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "51": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "52": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "53": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "54": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "55": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "56": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "57": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "58": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "59": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "60": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "61": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "62": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "63": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  "scope": "source-qualified finite domain; source failures retained; no full-API equivalence"
+}

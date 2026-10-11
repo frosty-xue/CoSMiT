@@ -1,0 +1,16 @@
+{
+  "recovery": "minimal new lock from locally available pinned Git blob; original lock is absent",
+  "sources": [
+    {
+      "name": "dllens",
+      "commit": "0f617e92c34d60bfdd3bc06d80c17d938879ed9c",
+      "checkout": "F:\\codes\\python\\CoSMiT\\artifacts\\analysis\\controlled-baselines-corrected-2026-10-10\\recovered-sources\\dllens",
+      "files": [
+        {
+          "path": "codes/counterpart/evaluate_counterpart.py",
+          "sha256": "4a6c55added113ee8ab43336de43a24f5735dd56f303e29f877235b575bb3707"
+        }
+      ]
+    }
+  ]
+}

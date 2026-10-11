@@ -1,0 +1,5110 @@
+{
+  "versions": {
+    "tensorflow": "2.20.0",
+    "torch": "2.9.1+cpu",
+    "numpy": "2.1.3",
+    "python": "3.11.16 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:36:16) [MSC v.1942 64 bit (AMD64)]"
+  },
+  "records": [
+    {
+      "case_id": "E002",
+      "scenario": 0,
+      "side": "source",
+      "mode": "original",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              3
+            ],
+            "y": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 0,
+      "side": "source",
+      "mode": "original",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              3
+            ],
+            "y": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 0,
+      "side": "source",
+      "mode": "original",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              3
+            ],
+            "y": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 0,
+      "side": "source",
+      "mode": "observe",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              3
+            ],
+            "y": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 0,
+      "side": "source",
+      "mode": "observe",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              3
+            ],
+            "y": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 0,
+      "side": "source",
+      "mode": "observe",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              3
+            ],
+            "y": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 0,
+      "side": "source",
+      "mode": "reinject",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              3
+            ],
+            "y": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 0,
+      "side": "source",
+      "mode": "reinject",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              3
+            ],
+            "y": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 0,
+      "side": "source",
+      "mode": "reinject",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              3
+            ],
+            "y": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 0,
+      "side": "source",
+      "mode": "wrong-shape",
+      "repeat": 0,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                [
+                  0.5,
+                  0.5,
+                  0.5
+                ],
+                [
+                  0.5,
+                  0.5,
+                  0.5
+                ]
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              3
+            ],
+            "y": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "Tuples differ: (2, 3) != (1, 2, 3)\n\nFirst differing element 0:\n2\n1\n\nSecond tuple contains 1 additional elements.\nFirst extra element 2:\n3\n\n- (2, 3)\n+ (1, 2, 3)\n?  +++\n : Shape mismatch: expected (2, 3), got (1, 2, 3) with contents [[[0.5 0.5 0.5]\n  [0.5 0.5 0.5]]].",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 172,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E002-target.py",
+          "line": 21,
+          "name": "_compareCpu"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3377,
+          "name": "assertAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3333,
+          "name": "_assertAllCloseRecursive"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3228,
+          "name": "_assertArrayLikeAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 873,
+          "name": "assertEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1090,
+          "name": "assertTupleEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1061,
+          "name": "assertSequenceEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\absl\\testing\\absltest.py",
+          "line": 2175,
+          "name": "fail"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 703,
+          "name": "fail"
+        }
+      ]
+    },
+    {
+      "case_id": "E002",
+      "scenario": 0,
+      "side": "source",
+      "mode": "wrong-shape",
+      "repeat": 1,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                [
+                  0.5,
+                  0.5,
+                  0.5
+                ],
+                [
+                  0.5,
+                  0.5,
+                  0.5
+                ]
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              3
+            ],
+            "y": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "Tuples differ: (2, 3) != (1, 2, 3)\n\nFirst differing element 0:\n2\n1\n\nSecond tuple contains 1 additional elements.\nFirst extra element 2:\n3\n\n- (2, 3)\n+ (1, 2, 3)\n?  +++\n : Shape mismatch: expected (2, 3), got (1, 2, 3) with contents [[[0.5 0.5 0.5]\n  [0.5 0.5 0.5]]].",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 172,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E002-target.py",
+          "line": 21,
+          "name": "_compareCpu"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3377,
+          "name": "assertAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3333,
+          "name": "_assertAllCloseRecursive"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3228,
+          "name": "_assertArrayLikeAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 873,
+          "name": "assertEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1090,
+          "name": "assertTupleEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1061,
+          "name": "assertSequenceEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\absl\\testing\\absltest.py",
+          "line": 2175,
+          "name": "fail"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 703,
+          "name": "fail"
+        }
+      ]
+    },
+    {
+      "case_id": "E002",
+      "scenario": 0,
+      "side": "source",
+      "mode": "wrong-shape",
+      "repeat": 2,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                [
+                  0.5,
+                  0.5,
+                  0.5
+                ],
+                [
+                  0.5,
+                  0.5,
+                  0.5
+                ]
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              3
+            ],
+            "y": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "Tuples differ: (2, 3) != (1, 2, 3)\n\nFirst differing element 0:\n2\n1\n\nSecond tuple contains 1 additional elements.\nFirst extra element 2:\n3\n\n- (2, 3)\n+ (1, 2, 3)\n?  +++\n : Shape mismatch: expected (2, 3), got (1, 2, 3) with contents [[[0.5 0.5 0.5]\n  [0.5 0.5 0.5]]].",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 172,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E002-target.py",
+          "line": 21,
+          "name": "_compareCpu"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3377,
+          "name": "assertAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3333,
+          "name": "_assertAllCloseRecursive"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3228,
+          "name": "_assertArrayLikeAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 873,
+          "name": "assertEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1090,
+          "name": "assertTupleEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1061,
+          "name": "assertSequenceEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\absl\\testing\\absltest.py",
+          "line": 2175,
+          "name": "fail"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 703,
+          "name": "fail"
+        }
+      ]
+    },
+    {
+      "case_id": "E002",
+      "scenario": 0,
+      "side": "source",
+      "mode": "wrong-value",
+      "repeat": 0,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                10.600000381469727,
+                10.600000381469727,
+                10.600000381469727
+              ],
+              [
+                10.600000381469727,
+                10.600000381469727,
+                10.600000381469727
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              3
+            ],
+            "y": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "\nNot equal to tolerance rtol=1e-06, atol=1e-06\nMismatched value: a is different from b. \nnot close where = (array([0, 0, 0, 1, 1, 1]), array([0, 1, 2, 0, 1, 2]))\nnot close lhs = [0.5 0.5 0.5 0.5 0.5 0.5]\nnot close rhs = [10.6 10.6 10.6 10.6 10.6 10.6]\nnot close dif = [10.1 10.1 10.1 10.1 10.1 10.1]\nnot close tol = [1.1600001e-05 1.1600001e-05 1.1600001e-05 1.1600001e-05 1.1600001e-05\n 1.1600001e-05]\ndtype = float32, shape = (2, 3)\nMismatched elements: 6 / 6 (100%)\nMax absolute difference among violations: 10.1\nMax relative difference among violations: 0.9528302\n ACTUAL: array([[0.5, 0.5, 0.5],\n       [0.5, 0.5, 0.5]], dtype=float32)\n DESIRED: array([[10.6, 10.6, 10.6],\n       [10.6, 10.6, 10.6]], dtype=float32)",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 172,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E002-target.py",
+          "line": 21,
+          "name": "_compareCpu"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3377,
+          "name": "assertAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3333,
+          "name": "_assertAllCloseRecursive"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3270,
+          "name": "_assertArrayLikeAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 1691,
+          "name": "assert_allclose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\contextlib.py",
+          "line": 81,
+          "name": "inner"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 889,
+          "name": "assert_array_compare"
+        }
+      ]
+    },
+    {
+      "case_id": "E002",
+      "scenario": 0,
+      "side": "source",
+      "mode": "wrong-value",
+      "repeat": 1,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                10.600000381469727,
+                10.600000381469727,
+                10.600000381469727
+              ],
+              [
+                10.600000381469727,
+                10.600000381469727,
+                10.600000381469727
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              3
+            ],
+            "y": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "\nNot equal to tolerance rtol=1e-06, atol=1e-06\nMismatched value: a is different from b. \nnot close where = (array([0, 0, 0, 1, 1, 1]), array([0, 1, 2, 0, 1, 2]))\nnot close lhs = [0.5 0.5 0.5 0.5 0.5 0.5]\nnot close rhs = [10.6 10.6 10.6 10.6 10.6 10.6]\nnot close dif = [10.1 10.1 10.1 10.1 10.1 10.1]\nnot close tol = [1.1600001e-05 1.1600001e-05 1.1600001e-05 1.1600001e-05 1.1600001e-05\n 1.1600001e-05]\ndtype = float32, shape = (2, 3)\nMismatched elements: 6 / 6 (100%)\nMax absolute difference among violations: 10.1\nMax relative difference among violations: 0.9528302\n ACTUAL: array([[0.5, 0.5, 0.5],\n       [0.5, 0.5, 0.5]], dtype=float32)\n DESIRED: array([[10.6, 10.6, 10.6],\n       [10.6, 10.6, 10.6]], dtype=float32)",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 172,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E002-target.py",
+          "line": 21,
+          "name": "_compareCpu"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3377,
+          "name": "assertAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3333,
+          "name": "_assertAllCloseRecursive"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3270,
+          "name": "_assertArrayLikeAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 1691,
+          "name": "assert_allclose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\contextlib.py",
+          "line": 81,
+          "name": "inner"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 889,
+          "name": "assert_array_compare"
+        }
+      ]
+    },
+    {
+      "case_id": "E002",
+      "scenario": 0,
+      "side": "source",
+      "mode": "wrong-value",
+      "repeat": 2,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                10.600000381469727,
+                10.600000381469727,
+                10.600000381469727
+              ],
+              [
+                10.600000381469727,
+                10.600000381469727,
+                10.600000381469727
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              3
+            ],
+            "y": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "\nNot equal to tolerance rtol=1e-06, atol=1e-06\nMismatched value: a is different from b. \nnot close where = (array([0, 0, 0, 1, 1, 1]), array([0, 1, 2, 0, 1, 2]))\nnot close lhs = [0.5 0.5 0.5 0.5 0.5 0.5]\nnot close rhs = [10.6 10.6 10.6 10.6 10.6 10.6]\nnot close dif = [10.1 10.1 10.1 10.1 10.1 10.1]\nnot close tol = [1.1600001e-05 1.1600001e-05 1.1600001e-05 1.1600001e-05 1.1600001e-05\n 1.1600001e-05]\ndtype = float32, shape = (2, 3)\nMismatched elements: 6 / 6 (100%)\nMax absolute difference among violations: 10.1\nMax relative difference among violations: 0.9528302\n ACTUAL: array([[0.5, 0.5, 0.5],\n       [0.5, 0.5, 0.5]], dtype=float32)\n DESIRED: array([[10.6, 10.6, 10.6],\n       [10.6, 10.6, 10.6]], dtype=float32)",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 172,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E002-target.py",
+          "line": 21,
+          "name": "_compareCpu"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3377,
+          "name": "assertAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3333,
+          "name": "_assertAllCloseRecursive"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3270,
+          "name": "_assertArrayLikeAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 1691,
+          "name": "assert_allclose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\contextlib.py",
+          "line": 81,
+          "name": "inner"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 889,
+          "name": "assert_array_compare"
+        }
+      ]
+    },
+    {
+      "case_id": "E002",
+      "scenario": 0,
+      "side": "target",
+      "mode": "original",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              3
+            ],
+            "y": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 0,
+      "side": "target",
+      "mode": "original",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              3
+            ],
+            "y": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 0,
+      "side": "target",
+      "mode": "original",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              3
+            ],
+            "y": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 0,
+      "side": "target",
+      "mode": "observe",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              3
+            ],
+            "y": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 0,
+      "side": "target",
+      "mode": "observe",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              3
+            ],
+            "y": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 0,
+      "side": "target",
+      "mode": "observe",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              3
+            ],
+            "y": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 0,
+      "side": "target",
+      "mode": "reinject",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              3
+            ],
+            "y": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 0,
+      "side": "target",
+      "mode": "reinject",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              3
+            ],
+            "y": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 0,
+      "side": "target",
+      "mode": "reinject",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              3
+            ],
+            "y": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 0,
+      "side": "target",
+      "mode": "wrong-shape",
+      "repeat": 0,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                [
+                  0.5,
+                  0.5,
+                  0.5
+                ],
+                [
+                  0.5,
+                  0.5,
+                  0.5
+                ]
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              3
+            ],
+            "y": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "Tuples differ: (2, 3) != (1, 2, 3)\n\nFirst differing element 0:\n2\n1\n\nSecond tuple contains 1 additional elements.\nFirst extra element 2:\n3\n\n- (2, 3)\n+ (1, 2, 3)\n?  +++\n : Shape mismatch: expected (2, 3), got (1, 2, 3) with contents [[[0.5 0.5 0.5]\n  [0.5 0.5 0.5]]].",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 172,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E002-target.py",
+          "line": 21,
+          "name": "_compareCpu"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3377,
+          "name": "assertAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3333,
+          "name": "_assertAllCloseRecursive"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3228,
+          "name": "_assertArrayLikeAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 873,
+          "name": "assertEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1090,
+          "name": "assertTupleEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1061,
+          "name": "assertSequenceEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\absl\\testing\\absltest.py",
+          "line": 2175,
+          "name": "fail"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 703,
+          "name": "fail"
+        }
+      ]
+    },
+    {
+      "case_id": "E002",
+      "scenario": 0,
+      "side": "target",
+      "mode": "wrong-shape",
+      "repeat": 1,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                [
+                  0.5,
+                  0.5,
+                  0.5
+                ],
+                [
+                  0.5,
+                  0.5,
+                  0.5
+                ]
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              3
+            ],
+            "y": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "Tuples differ: (2, 3) != (1, 2, 3)\n\nFirst differing element 0:\n2\n1\n\nSecond tuple contains 1 additional elements.\nFirst extra element 2:\n3\n\n- (2, 3)\n+ (1, 2, 3)\n?  +++\n : Shape mismatch: expected (2, 3), got (1, 2, 3) with contents [[[0.5 0.5 0.5]\n  [0.5 0.5 0.5]]].",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 172,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E002-target.py",
+          "line": 21,
+          "name": "_compareCpu"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3377,
+          "name": "assertAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3333,
+          "name": "_assertAllCloseRecursive"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3228,
+          "name": "_assertArrayLikeAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 873,
+          "name": "assertEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1090,
+          "name": "assertTupleEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1061,
+          "name": "assertSequenceEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\absl\\testing\\absltest.py",
+          "line": 2175,
+          "name": "fail"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 703,
+          "name": "fail"
+        }
+      ]
+    },
+    {
+      "case_id": "E002",
+      "scenario": 0,
+      "side": "target",
+      "mode": "wrong-shape",
+      "repeat": 2,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                [
+                  0.5,
+                  0.5,
+                  0.5
+                ],
+                [
+                  0.5,
+                  0.5,
+                  0.5
+                ]
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              3
+            ],
+            "y": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "Tuples differ: (2, 3) != (1, 2, 3)\n\nFirst differing element 0:\n2\n1\n\nSecond tuple contains 1 additional elements.\nFirst extra element 2:\n3\n\n- (2, 3)\n+ (1, 2, 3)\n?  +++\n : Shape mismatch: expected (2, 3), got (1, 2, 3) with contents [[[0.5 0.5 0.5]\n  [0.5 0.5 0.5]]].",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 172,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E002-target.py",
+          "line": 21,
+          "name": "_compareCpu"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3377,
+          "name": "assertAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3333,
+          "name": "_assertAllCloseRecursive"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3228,
+          "name": "_assertArrayLikeAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 873,
+          "name": "assertEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1090,
+          "name": "assertTupleEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1061,
+          "name": "assertSequenceEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\absl\\testing\\absltest.py",
+          "line": 2175,
+          "name": "fail"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 703,
+          "name": "fail"
+        }
+      ]
+    },
+    {
+      "case_id": "E002",
+      "scenario": 0,
+      "side": "target",
+      "mode": "wrong-value",
+      "repeat": 0,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                10.600000381469727,
+                10.600000381469727,
+                10.600000381469727
+              ],
+              [
+                10.600000381469727,
+                10.600000381469727,
+                10.600000381469727
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              3
+            ],
+            "y": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "\nNot equal to tolerance rtol=1e-06, atol=1e-06\nMismatched value: a is different from b. \nnot close where = (array([0, 0, 0, 1, 1, 1]), array([0, 1, 2, 0, 1, 2]))\nnot close lhs = [0.5 0.5 0.5 0.5 0.5 0.5]\nnot close rhs = [10.6 10.6 10.6 10.6 10.6 10.6]\nnot close dif = [10.1 10.1 10.1 10.1 10.1 10.1]\nnot close tol = [1.1600001e-05 1.1600001e-05 1.1600001e-05 1.1600001e-05 1.1600001e-05\n 1.1600001e-05]\ndtype = float32, shape = (2, 3)\nMismatched elements: 6 / 6 (100%)\nMax absolute difference among violations: 10.1\nMax relative difference among violations: 0.9528302\n ACTUAL: array([[0.5, 0.5, 0.5],\n       [0.5, 0.5, 0.5]], dtype=float32)\n DESIRED: array([[10.6, 10.6, 10.6],\n       [10.6, 10.6, 10.6]], dtype=float32)",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 172,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E002-target.py",
+          "line": 21,
+          "name": "_compareCpu"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3377,
+          "name": "assertAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3333,
+          "name": "_assertAllCloseRecursive"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3270,
+          "name": "_assertArrayLikeAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 1691,
+          "name": "assert_allclose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\contextlib.py",
+          "line": 81,
+          "name": "inner"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 889,
+          "name": "assert_array_compare"
+        }
+      ]
+    },
+    {
+      "case_id": "E002",
+      "scenario": 0,
+      "side": "target",
+      "mode": "wrong-value",
+      "repeat": 1,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                10.600000381469727,
+                10.600000381469727,
+                10.600000381469727
+              ],
+              [
+                10.600000381469727,
+                10.600000381469727,
+                10.600000381469727
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              3
+            ],
+            "y": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "\nNot equal to tolerance rtol=1e-06, atol=1e-06\nMismatched value: a is different from b. \nnot close where = (array([0, 0, 0, 1, 1, 1]), array([0, 1, 2, 0, 1, 2]))\nnot close lhs = [0.5 0.5 0.5 0.5 0.5 0.5]\nnot close rhs = [10.6 10.6 10.6 10.6 10.6 10.6]\nnot close dif = [10.1 10.1 10.1 10.1 10.1 10.1]\nnot close tol = [1.1600001e-05 1.1600001e-05 1.1600001e-05 1.1600001e-05 1.1600001e-05\n 1.1600001e-05]\ndtype = float32, shape = (2, 3)\nMismatched elements: 6 / 6 (100%)\nMax absolute difference among violations: 10.1\nMax relative difference among violations: 0.9528302\n ACTUAL: array([[0.5, 0.5, 0.5],\n       [0.5, 0.5, 0.5]], dtype=float32)\n DESIRED: array([[10.6, 10.6, 10.6],\n       [10.6, 10.6, 10.6]], dtype=float32)",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 172,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E002-target.py",
+          "line": 21,
+          "name": "_compareCpu"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3377,
+          "name": "assertAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3333,
+          "name": "_assertAllCloseRecursive"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3270,
+          "name": "_assertArrayLikeAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 1691,
+          "name": "assert_allclose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\contextlib.py",
+          "line": 81,
+          "name": "inner"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 889,
+          "name": "assert_array_compare"
+        }
+      ]
+    },
+    {
+      "case_id": "E002",
+      "scenario": 0,
+      "side": "target",
+      "mode": "wrong-value",
+      "repeat": 2,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                10.600000381469727,
+                10.600000381469727,
+                10.600000381469727
+              ],
+              [
+                10.600000381469727,
+                10.600000381469727,
+                10.600000381469727
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              3
+            ],
+            "y": [
+              2,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "\nNot equal to tolerance rtol=1e-06, atol=1e-06\nMismatched value: a is different from b. \nnot close where = (array([0, 0, 0, 1, 1, 1]), array([0, 1, 2, 0, 1, 2]))\nnot close lhs = [0.5 0.5 0.5 0.5 0.5 0.5]\nnot close rhs = [10.6 10.6 10.6 10.6 10.6 10.6]\nnot close dif = [10.1 10.1 10.1 10.1 10.1 10.1]\nnot close tol = [1.1600001e-05 1.1600001e-05 1.1600001e-05 1.1600001e-05 1.1600001e-05\n 1.1600001e-05]\ndtype = float32, shape = (2, 3)\nMismatched elements: 6 / 6 (100%)\nMax absolute difference among violations: 10.1\nMax relative difference among violations: 0.9528302\n ACTUAL: array([[0.5, 0.5, 0.5],\n       [0.5, 0.5, 0.5]], dtype=float32)\n DESIRED: array([[10.6, 10.6, 10.6],\n       [10.6, 10.6, 10.6]], dtype=float32)",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 172,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E002-target.py",
+          "line": 21,
+          "name": "_compareCpu"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3377,
+          "name": "assertAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3333,
+          "name": "_assertAllCloseRecursive"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3270,
+          "name": "_assertArrayLikeAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 1691,
+          "name": "assert_allclose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\contextlib.py",
+          "line": 81,
+          "name": "inner"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 889,
+          "name": "assert_array_compare"
+        }
+      ]
+    },
+    {
+      "case_id": "E002",
+      "scenario": 16,
+      "side": "source",
+      "mode": "original",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              1
+            ],
+            "y": [
+              1,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 16,
+      "side": "source",
+      "mode": "original",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              1
+            ],
+            "y": [
+              1,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 16,
+      "side": "source",
+      "mode": "original",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              1
+            ],
+            "y": [
+              1,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 16,
+      "side": "source",
+      "mode": "observe",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              1
+            ],
+            "y": [
+              1,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 16,
+      "side": "source",
+      "mode": "observe",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              1
+            ],
+            "y": [
+              1,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 16,
+      "side": "source",
+      "mode": "observe",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              1
+            ],
+            "y": [
+              1,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 16,
+      "side": "source",
+      "mode": "reinject",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              1
+            ],
+            "y": [
+              1,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 16,
+      "side": "source",
+      "mode": "reinject",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              1
+            ],
+            "y": [
+              1,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 16,
+      "side": "source",
+      "mode": "reinject",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              1
+            ],
+            "y": [
+              1,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 16,
+      "side": "source",
+      "mode": "wrong-shape",
+      "repeat": 0,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                [
+                  0.5,
+                  0.5,
+                  0.5
+                ],
+                [
+                  0.5,
+                  0.5,
+                  0.5
+                ]
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              1
+            ],
+            "y": [
+              1,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "Tuples differ: (2, 3) != (1, 2, 3)\n\nFirst differing element 0:\n2\n1\n\nSecond tuple contains 1 additional elements.\nFirst extra element 2:\n3\n\n- (2, 3)\n+ (1, 2, 3)\n?  +++\n : Shape mismatch: expected (2, 3), got (1, 2, 3) with contents [[[0.5 0.5 0.5]\n  [0.5 0.5 0.5]]].",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 172,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E002-target.py",
+          "line": 21,
+          "name": "_compareCpu"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3377,
+          "name": "assertAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3333,
+          "name": "_assertAllCloseRecursive"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3228,
+          "name": "_assertArrayLikeAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 873,
+          "name": "assertEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1090,
+          "name": "assertTupleEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1061,
+          "name": "assertSequenceEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\absl\\testing\\absltest.py",
+          "line": 2175,
+          "name": "fail"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 703,
+          "name": "fail"
+        }
+      ]
+    },
+    {
+      "case_id": "E002",
+      "scenario": 16,
+      "side": "source",
+      "mode": "wrong-shape",
+      "repeat": 1,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                [
+                  0.5,
+                  0.5,
+                  0.5
+                ],
+                [
+                  0.5,
+                  0.5,
+                  0.5
+                ]
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              1
+            ],
+            "y": [
+              1,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "Tuples differ: (2, 3) != (1, 2, 3)\n\nFirst differing element 0:\n2\n1\n\nSecond tuple contains 1 additional elements.\nFirst extra element 2:\n3\n\n- (2, 3)\n+ (1, 2, 3)\n?  +++\n : Shape mismatch: expected (2, 3), got (1, 2, 3) with contents [[[0.5 0.5 0.5]\n  [0.5 0.5 0.5]]].",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 172,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E002-target.py",
+          "line": 21,
+          "name": "_compareCpu"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3377,
+          "name": "assertAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3333,
+          "name": "_assertAllCloseRecursive"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3228,
+          "name": "_assertArrayLikeAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 873,
+          "name": "assertEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1090,
+          "name": "assertTupleEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1061,
+          "name": "assertSequenceEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\absl\\testing\\absltest.py",
+          "line": 2175,
+          "name": "fail"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 703,
+          "name": "fail"
+        }
+      ]
+    },
+    {
+      "case_id": "E002",
+      "scenario": 16,
+      "side": "source",
+      "mode": "wrong-shape",
+      "repeat": 2,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                [
+                  0.5,
+                  0.5,
+                  0.5
+                ],
+                [
+                  0.5,
+                  0.5,
+                  0.5
+                ]
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              1
+            ],
+            "y": [
+              1,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "Tuples differ: (2, 3) != (1, 2, 3)\n\nFirst differing element 0:\n2\n1\n\nSecond tuple contains 1 additional elements.\nFirst extra element 2:\n3\n\n- (2, 3)\n+ (1, 2, 3)\n?  +++\n : Shape mismatch: expected (2, 3), got (1, 2, 3) with contents [[[0.5 0.5 0.5]\n  [0.5 0.5 0.5]]].",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 172,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E002-target.py",
+          "line": 21,
+          "name": "_compareCpu"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3377,
+          "name": "assertAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3333,
+          "name": "_assertAllCloseRecursive"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3228,
+          "name": "_assertArrayLikeAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 873,
+          "name": "assertEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1090,
+          "name": "assertTupleEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1061,
+          "name": "assertSequenceEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\absl\\testing\\absltest.py",
+          "line": 2175,
+          "name": "fail"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 703,
+          "name": "fail"
+        }
+      ]
+    },
+    {
+      "case_id": "E002",
+      "scenario": 16,
+      "side": "source",
+      "mode": "wrong-value",
+      "repeat": 0,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                10.600000381469727,
+                10.600000381469727,
+                10.600000381469727
+              ],
+              [
+                10.600000381469727,
+                10.600000381469727,
+                10.600000381469727
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              1
+            ],
+            "y": [
+              1,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "\nNot equal to tolerance rtol=1e-06, atol=1e-06\nMismatched value: a is different from b. \nnot close where = (array([0, 0, 0, 1, 1, 1]), array([0, 1, 2, 0, 1, 2]))\nnot close lhs = [0.5 0.5 0.5 0.5 0.5 0.5]\nnot close rhs = [10.6 10.6 10.6 10.6 10.6 10.6]\nnot close dif = [10.1 10.1 10.1 10.1 10.1 10.1]\nnot close tol = [1.1600001e-05 1.1600001e-05 1.1600001e-05 1.1600001e-05 1.1600001e-05\n 1.1600001e-05]\ndtype = float32, shape = (2, 3)\nMismatched elements: 6 / 6 (100%)\nMax absolute difference among violations: 10.1\nMax relative difference among violations: 0.9528302\n ACTUAL: array([[0.5, 0.5, 0.5],\n       [0.5, 0.5, 0.5]], dtype=float32)\n DESIRED: array([[10.6, 10.6, 10.6],\n       [10.6, 10.6, 10.6]], dtype=float32)",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 172,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E002-target.py",
+          "line": 21,
+          "name": "_compareCpu"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3377,
+          "name": "assertAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3333,
+          "name": "_assertAllCloseRecursive"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3270,
+          "name": "_assertArrayLikeAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 1691,
+          "name": "assert_allclose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\contextlib.py",
+          "line": 81,
+          "name": "inner"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 889,
+          "name": "assert_array_compare"
+        }
+      ]
+    },
+    {
+      "case_id": "E002",
+      "scenario": 16,
+      "side": "source",
+      "mode": "wrong-value",
+      "repeat": 1,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                10.600000381469727,
+                10.600000381469727,
+                10.600000381469727
+              ],
+              [
+                10.600000381469727,
+                10.600000381469727,
+                10.600000381469727
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              1
+            ],
+            "y": [
+              1,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "\nNot equal to tolerance rtol=1e-06, atol=1e-06\nMismatched value: a is different from b. \nnot close where = (array([0, 0, 0, 1, 1, 1]), array([0, 1, 2, 0, 1, 2]))\nnot close lhs = [0.5 0.5 0.5 0.5 0.5 0.5]\nnot close rhs = [10.6 10.6 10.6 10.6 10.6 10.6]\nnot close dif = [10.1 10.1 10.1 10.1 10.1 10.1]\nnot close tol = [1.1600001e-05 1.1600001e-05 1.1600001e-05 1.1600001e-05 1.1600001e-05\n 1.1600001e-05]\ndtype = float32, shape = (2, 3)\nMismatched elements: 6 / 6 (100%)\nMax absolute difference among violations: 10.1\nMax relative difference among violations: 0.9528302\n ACTUAL: array([[0.5, 0.5, 0.5],\n       [0.5, 0.5, 0.5]], dtype=float32)\n DESIRED: array([[10.6, 10.6, 10.6],\n       [10.6, 10.6, 10.6]], dtype=float32)",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 172,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E002-target.py",
+          "line": 21,
+          "name": "_compareCpu"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3377,
+          "name": "assertAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3333,
+          "name": "_assertAllCloseRecursive"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3270,
+          "name": "_assertArrayLikeAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 1691,
+          "name": "assert_allclose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\contextlib.py",
+          "line": 81,
+          "name": "inner"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 889,
+          "name": "assert_array_compare"
+        }
+      ]
+    },
+    {
+      "case_id": "E002",
+      "scenario": 16,
+      "side": "source",
+      "mode": "wrong-value",
+      "repeat": 2,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                10.600000381469727,
+                10.600000381469727,
+                10.600000381469727
+              ],
+              [
+                10.600000381469727,
+                10.600000381469727,
+                10.600000381469727
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              1
+            ],
+            "y": [
+              1,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "\nNot equal to tolerance rtol=1e-06, atol=1e-06\nMismatched value: a is different from b. \nnot close where = (array([0, 0, 0, 1, 1, 1]), array([0, 1, 2, 0, 1, 2]))\nnot close lhs = [0.5 0.5 0.5 0.5 0.5 0.5]\nnot close rhs = [10.6 10.6 10.6 10.6 10.6 10.6]\nnot close dif = [10.1 10.1 10.1 10.1 10.1 10.1]\nnot close tol = [1.1600001e-05 1.1600001e-05 1.1600001e-05 1.1600001e-05 1.1600001e-05\n 1.1600001e-05]\ndtype = float32, shape = (2, 3)\nMismatched elements: 6 / 6 (100%)\nMax absolute difference among violations: 10.1\nMax relative difference among violations: 0.9528302\n ACTUAL: array([[0.5, 0.5, 0.5],\n       [0.5, 0.5, 0.5]], dtype=float32)\n DESIRED: array([[10.6, 10.6, 10.6],\n       [10.6, 10.6, 10.6]], dtype=float32)",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 172,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E002-target.py",
+          "line": 21,
+          "name": "_compareCpu"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3377,
+          "name": "assertAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3333,
+          "name": "_assertAllCloseRecursive"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3270,
+          "name": "_assertArrayLikeAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 1691,
+          "name": "assert_allclose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\contextlib.py",
+          "line": 81,
+          "name": "inner"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 889,
+          "name": "assert_array_compare"
+        }
+      ]
+    },
+    {
+      "case_id": "E002",
+      "scenario": 16,
+      "side": "target",
+      "mode": "original",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              1
+            ],
+            "y": [
+              1,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 16,
+      "side": "target",
+      "mode": "original",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              1
+            ],
+            "y": [
+              1,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 16,
+      "side": "target",
+      "mode": "original",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              1
+            ],
+            "y": [
+              1,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 16,
+      "side": "target",
+      "mode": "observe",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              1
+            ],
+            "y": [
+              1,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 16,
+      "side": "target",
+      "mode": "observe",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              1
+            ],
+            "y": [
+              1,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 16,
+      "side": "target",
+      "mode": "observe",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              1
+            ],
+            "y": [
+              1,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 16,
+      "side": "target",
+      "mode": "reinject",
+      "repeat": 0,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              1
+            ],
+            "y": [
+              1,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 16,
+      "side": "target",
+      "mode": "reinject",
+      "repeat": 1,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              1
+            ],
+            "y": [
+              1,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 16,
+      "side": "target",
+      "mode": "reinject",
+      "repeat": 2,
+      "status": "passed",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              1
+            ],
+            "y": [
+              1,
+              3
+            ]
+          }
+        }
+      ],
+      "error": null,
+      "frames": []
+    },
+    {
+      "case_id": "E002",
+      "scenario": 16,
+      "side": "target",
+      "mode": "wrong-shape",
+      "repeat": 0,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                [
+                  0.5,
+                  0.5,
+                  0.5
+                ],
+                [
+                  0.5,
+                  0.5,
+                  0.5
+                ]
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              1
+            ],
+            "y": [
+              1,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "Tuples differ: (2, 3) != (1, 2, 3)\n\nFirst differing element 0:\n2\n1\n\nSecond tuple contains 1 additional elements.\nFirst extra element 2:\n3\n\n- (2, 3)\n+ (1, 2, 3)\n?  +++\n : Shape mismatch: expected (2, 3), got (1, 2, 3) with contents [[[0.5 0.5 0.5]\n  [0.5 0.5 0.5]]].",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 172,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E002-target.py",
+          "line": 21,
+          "name": "_compareCpu"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3377,
+          "name": "assertAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3333,
+          "name": "_assertAllCloseRecursive"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3228,
+          "name": "_assertArrayLikeAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 873,
+          "name": "assertEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1090,
+          "name": "assertTupleEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1061,
+          "name": "assertSequenceEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\absl\\testing\\absltest.py",
+          "line": 2175,
+          "name": "fail"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 703,
+          "name": "fail"
+        }
+      ]
+    },
+    {
+      "case_id": "E002",
+      "scenario": 16,
+      "side": "target",
+      "mode": "wrong-shape",
+      "repeat": 1,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                [
+                  0.5,
+                  0.5,
+                  0.5
+                ],
+                [
+                  0.5,
+                  0.5,
+                  0.5
+                ]
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              1
+            ],
+            "y": [
+              1,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "Tuples differ: (2, 3) != (1, 2, 3)\n\nFirst differing element 0:\n2\n1\n\nSecond tuple contains 1 additional elements.\nFirst extra element 2:\n3\n\n- (2, 3)\n+ (1, 2, 3)\n?  +++\n : Shape mismatch: expected (2, 3), got (1, 2, 3) with contents [[[0.5 0.5 0.5]\n  [0.5 0.5 0.5]]].",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 172,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E002-target.py",
+          "line": 21,
+          "name": "_compareCpu"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3377,
+          "name": "assertAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3333,
+          "name": "_assertAllCloseRecursive"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3228,
+          "name": "_assertArrayLikeAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 873,
+          "name": "assertEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1090,
+          "name": "assertTupleEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1061,
+          "name": "assertSequenceEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\absl\\testing\\absltest.py",
+          "line": 2175,
+          "name": "fail"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 703,
+          "name": "fail"
+        }
+      ]
+    },
+    {
+      "case_id": "E002",
+      "scenario": 16,
+      "side": "target",
+      "mode": "wrong-shape",
+      "repeat": 2,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              1,
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                [
+                  0.5,
+                  0.5,
+                  0.5
+                ],
+                [
+                  0.5,
+                  0.5,
+                  0.5
+                ]
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              1
+            ],
+            "y": [
+              1,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "Tuples differ: (2, 3) != (1, 2, 3)\n\nFirst differing element 0:\n2\n1\n\nSecond tuple contains 1 additional elements.\nFirst extra element 2:\n3\n\n- (2, 3)\n+ (1, 2, 3)\n?  +++\n : Shape mismatch: expected (2, 3), got (1, 2, 3) with contents [[[0.5 0.5 0.5]\n  [0.5 0.5 0.5]]].",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 172,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E002-target.py",
+          "line": 21,
+          "name": "_compareCpu"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3377,
+          "name": "assertAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3333,
+          "name": "_assertAllCloseRecursive"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3228,
+          "name": "_assertArrayLikeAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 873,
+          "name": "assertEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1090,
+          "name": "assertTupleEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 1061,
+          "name": "assertSequenceEqual"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\absl\\testing\\absltest.py",
+          "line": 2175,
+          "name": "fail"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\unittest\\case.py",
+          "line": 703,
+          "name": "fail"
+        }
+      ]
+    },
+    {
+      "case_id": "E002",
+      "scenario": 16,
+      "side": "target",
+      "mode": "wrong-value",
+      "repeat": 0,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                10.600000381469727,
+                10.600000381469727,
+                10.600000381469727
+              ],
+              [
+                10.600000381469727,
+                10.600000381469727,
+                10.600000381469727
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              1
+            ],
+            "y": [
+              1,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "\nNot equal to tolerance rtol=1e-06, atol=1e-06\nMismatched value: a is different from b. \nnot close where = (array([0, 0, 0, 1, 1, 1]), array([0, 1, 2, 0, 1, 2]))\nnot close lhs = [0.5 0.5 0.5 0.5 0.5 0.5]\nnot close rhs = [10.6 10.6 10.6 10.6 10.6 10.6]\nnot close dif = [10.1 10.1 10.1 10.1 10.1 10.1]\nnot close tol = [1.1600001e-05 1.1600001e-05 1.1600001e-05 1.1600001e-05 1.1600001e-05\n 1.1600001e-05]\ndtype = float32, shape = (2, 3)\nMismatched elements: 6 / 6 (100%)\nMax absolute difference among violations: 10.1\nMax relative difference among violations: 0.9528302\n ACTUAL: array([[0.5, 0.5, 0.5],\n       [0.5, 0.5, 0.5]], dtype=float32)\n DESIRED: array([[10.6, 10.6, 10.6],\n       [10.6, 10.6, 10.6]], dtype=float32)",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 172,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E002-target.py",
+          "line": 21,
+          "name": "_compareCpu"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3377,
+          "name": "assertAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3333,
+          "name": "_assertAllCloseRecursive"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3270,
+          "name": "_assertArrayLikeAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 1691,
+          "name": "assert_allclose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\contextlib.py",
+          "line": 81,
+          "name": "inner"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 889,
+          "name": "assert_array_compare"
+        }
+      ]
+    },
+    {
+      "case_id": "E002",
+      "scenario": 16,
+      "side": "target",
+      "mode": "wrong-value",
+      "repeat": 1,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                10.600000381469727,
+                10.600000381469727,
+                10.600000381469727
+              ],
+              [
+                10.600000381469727,
+                10.600000381469727,
+                10.600000381469727
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              1
+            ],
+            "y": [
+              1,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "\nNot equal to tolerance rtol=1e-06, atol=1e-06\nMismatched value: a is different from b. \nnot close where = (array([0, 0, 0, 1, 1, 1]), array([0, 1, 2, 0, 1, 2]))\nnot close lhs = [0.5 0.5 0.5 0.5 0.5 0.5]\nnot close rhs = [10.6 10.6 10.6 10.6 10.6 10.6]\nnot close dif = [10.1 10.1 10.1 10.1 10.1 10.1]\nnot close tol = [1.1600001e-05 1.1600001e-05 1.1600001e-05 1.1600001e-05 1.1600001e-05\n 1.1600001e-05]\ndtype = float32, shape = (2, 3)\nMismatched elements: 6 / 6 (100%)\nMax absolute difference among violations: 10.1\nMax relative difference among violations: 0.9528302\n ACTUAL: array([[0.5, 0.5, 0.5],\n       [0.5, 0.5, 0.5]], dtype=float32)\n DESIRED: array([[10.6, 10.6, 10.6],\n       [10.6, 10.6, 10.6]], dtype=float32)",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 172,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E002-target.py",
+          "line": 21,
+          "name": "_compareCpu"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3377,
+          "name": "assertAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3333,
+          "name": "_assertAllCloseRecursive"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3270,
+          "name": "_assertArrayLikeAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 1691,
+          "name": "assert_allclose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\contextlib.py",
+          "line": 81,
+          "name": "inner"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 889,
+          "name": "assert_array_compare"
+        }
+      ]
+    },
+    {
+      "case_id": "E002",
+      "scenario": 16,
+      "side": "target",
+      "mode": "wrong-value",
+      "repeat": 2,
+      "status": "assertion-rejected",
+      "phase": "source-test",
+      "operation_count": 3,
+      "first_observation": [
+        {
+          "native": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                0.5,
+                0.5,
+                0.5
+              ],
+              [
+                0.5,
+                0.5,
+                0.5
+              ]
+            ]
+          },
+          "delivered": {
+            "shape": [
+              2,
+              3
+            ],
+            "dtype": "float32",
+            "values": [
+              [
+                10.600000381469727,
+                10.600000381469727,
+                10.600000381469727
+              ],
+              [
+                10.600000381469727,
+                10.600000381469727,
+                10.600000381469727
+              ]
+            ]
+          },
+          "input_shapes": {
+            "x": [
+              2,
+              1
+            ],
+            "y": [
+              1,
+              3
+            ]
+          }
+        }
+      ],
+      "error": "\nNot equal to tolerance rtol=1e-06, atol=1e-06\nMismatched value: a is different from b. \nnot close where = (array([0, 0, 0, 1, 1, 1]), array([0, 1, 2, 0, 1, 2]))\nnot close lhs = [0.5 0.5 0.5 0.5 0.5 0.5]\nnot close rhs = [10.6 10.6 10.6 10.6 10.6 10.6]\nnot close dif = [10.1 10.1 10.1 10.1 10.1 10.1]\nnot close tol = [1.1600001e-05 1.1600001e-05 1.1600001e-05 1.1600001e-05 1.1600001e-05\n 1.1600001e-05]\ndtype = float32, shape = (2, 3)\nMismatched elements: 6 / 6 (100%)\nMax absolute difference among violations: 10.1\nMax relative difference among violations: 0.9528302\n ACTUAL: array([[0.5, 0.5, 0.5],\n       [0.5, 0.5, 0.5]], dtype=float32)\n DESIRED: array([[10.6, 10.6, 10.6],\n       [10.6, 10.6, 10.6]], dtype=float32)",
+      "frames": [
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained.py",
+          "line": 172,
+          "name": "execute"
+        },
+        {
+          "file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\retained\\E002-target.py",
+          "line": 21,
+          "name": "_compareCpu"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 1756,
+          "name": "decorated"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3377,
+          "name": "assertAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3333,
+          "name": "_assertAllCloseRecursive"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\tensorflow\\python\\framework\\test_util.py",
+          "line": 3270,
+          "name": "_assertArrayLikeAllClose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 1691,
+          "name": "assert_allclose"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\contextlib.py",
+          "line": 81,
+          "name": "inner"
+        },
+        {
+          "file": "F:\\environment\\python\\miniconda3\\envs\\tf220\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py",
+          "line": 889,
+          "name": "assert_array_compare"
+        }
+      ]
+    }
+  ]
+}

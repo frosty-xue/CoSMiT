@@ -1,0 +1,21 @@
+{
+  "candidate_id": "H012",
+  "source_api": "tf.math.cumprod",
+  "target_calls": "torch.cumprod",
+  "source": {
+    "framework": "tensorflow",
+    "entry": "tensorflow_call"
+  },
+  "target": {
+    "framework": "pytorch",
+    "entry": "pytorch_call"
+  },
+  "cohort": "unseen",
+  "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.cumprod.json",
+  "operation_sha256": {
+    "source": "42d8227aa52a08512b6670343362e1d392581a0ffa427ca1608d201fafd2518a",
+    "target": "14901ceccfd26c453e64860adf0e8c5aff3111f4571eedba3b8e0495ff931bdd"
+  },
+  "test_pair_available": false,
+  "test_pair_origin": null
+}

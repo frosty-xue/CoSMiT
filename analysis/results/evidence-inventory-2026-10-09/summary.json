@@ -1,0 +1,15 @@
+{
+  "candidates": 110,
+  "hash_verified_counterpart_functions": 220,
+  "counterparts_with_assertion_syntax": 0,
+  "retained_body_pairs": 27,
+  "historical_migrated_test_pairs_established": 0,
+  "independent_full_intent_labels": 0,
+  "priority_cases": 11,
+  "behavior_evidence": {
+    "supported-on-tested-inputs": 80,
+    "supported-on-qualified-inputs": 26,
+    "discrepancy-replayed": 3,
+    "undetermined-binding": 1
+  }
+}

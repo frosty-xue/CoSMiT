@@ -1,0 +1,93 @@
+{
+  "unit_id": "E022",
+  "family": "squeeze",
+  "cohort": "expansion",
+  "provenance": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.squeeze.json",
+  "behavior": {
+    "status": "supported-on-qualified-inputs",
+    "scope": "recorded inputs and registered contract only",
+    "inputs": "units/E022/behavior-inputs.json"
+  },
+  "test": {
+    "origin": "newly constructed operation substitution; not historical migrated test",
+    "source_file": "units/E022/source-test.py",
+    "target_file": "units/E022/target-test.py",
+    "registration": {
+      "case_id": "E022",
+      "status": "registered",
+      "file": "upstream/tf_shape.py",
+      "class": "ShapeOpsTest",
+      "methods": [
+        {
+          "method": "_compareSqueeze",
+          "start": 297,
+          "end": 308,
+          "decorators": []
+        },
+        {
+          "method": "_compareSqueezeAll",
+          "start": 310,
+          "end": 314,
+          "decorators": []
+        },
+        {
+          "method": "testSqueeze",
+          "start": 316,
+          "end": 325,
+          "decorators": []
+        }
+      ],
+      "entry": "testSqueeze",
+      "paths": [
+        "array_ops.squeeze"
+      ],
+      "kind": "complete-upstream-method-bodies",
+      "parameters": "original method inputs; CPU eager; device/dtype parameter fixed where required; decorator variants excluded",
+      "source_framework": "tensorflow",
+      "scope": "new operation-substitution candidates; common source-framework harness; no external migration-quality claim",
+      "assertion_expressions_exact": true,
+      "source_hash": "51a67d1a2260e1c81df40a630530c8b14db5a75f0510cb14b0926323892175e1",
+      "target_hash": "0476356936f6301c92e083430d64ca7e6277eb7e0cb8f1bd3e0b34e90a51e790"
+    },
+    "upstream_snapshot": "shared/registered-upstream/tf_shape.py",
+    "upstream_provenance": "shared/registered-upstream-provenance.json",
+    "input_scope": "units/E022/test-input-scope.json",
+    "records": "units/E022/test-records.json",
+    "runner": "shared/retained-runner.py",
+    "obligations": [
+      "去掉单位轴后的形状符合 NumPy",
+      "输出值符合 NumPy squeeze"
+    ],
+    "scope_gaps": [
+      "测试正文含 GPU 上下文但执行限制为 CPU，不能计为独立 GPU 验证",
+      "零值输入和既定形状不能代表全部数值域"
+    ],
+    "review_category": "bounded-value-shape-reference-candidate",
+    "scenarios": [
+      {
+        "scenario": null,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true
+  },
+  "source_test_leads": [],
+  "reference_label": null,
+  "formal_intent_accuracy_eligible": false,
+  "missing": [
+    "独立限域参照标签",
+    "方法共同运行覆盖",
+    "原生类型/布局/别名等未覆盖义务不得默认为保持"
+  ],
+  "operation_files": {
+    "source": "units/E022/source-operation.py",
+    "target": "units/E022/target-operation.py"
+  },
+  "readiness": "constructed-test-evidence-packaged"
+}

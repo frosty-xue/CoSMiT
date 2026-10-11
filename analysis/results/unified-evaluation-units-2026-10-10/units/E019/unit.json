@@ -1,0 +1,82 @@
+{
+  "unit_id": "E019",
+  "family": "transpose",
+  "cohort": "expansion",
+  "provenance": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.transpose.json",
+  "behavior": {
+    "status": "supported-on-qualified-inputs",
+    "scope": "recorded inputs and registered contract only",
+    "inputs": "units/E019/behavior-inputs.json"
+  },
+  "test": {
+    "origin": "newly constructed operation substitution; not historical migrated test",
+    "source_file": "units/E019/source-test.py",
+    "target_file": "units/E019/target-test.py",
+    "registration": {
+      "case_id": "E019",
+      "status": "registered",
+      "file": "upstream/pt_view.py",
+      "class": "TestOldViewOps",
+      "methods": [
+        {
+          "method": "test_transposes",
+          "start": 1430,
+          "end": 1444,
+          "decorators": [
+            "dtypes(*all_types_and_complex_and(torch.half, torch.bfloat16, torch.bool))"
+          ]
+        }
+      ],
+      "entry": "test_transposes",
+      "paths": [
+        "METHOD:transpose"
+      ],
+      "kind": "complete-upstream-method-bodies",
+      "parameters": "original method inputs; CPU eager; device/dtype parameter fixed where required; decorator variants excluded",
+      "source_framework": "pytorch",
+      "scope": "new operation-substitution candidates; common source-framework harness; no external migration-quality claim",
+      "assertion_expressions_exact": true,
+      "source_hash": "67e25fed2ec6c15422a6b0dfde2161a36836b751e79b02ea0674cf93d332c8b5",
+      "target_hash": "a26c84c19441031425a7bbe862f0d9c5d1e740503f5090f9d87cbc704f788e64"
+    },
+    "upstream_snapshot": "shared/registered-upstream/pt_view.py",
+    "upstream_provenance": "shared/registered-upstream-provenance.json",
+    "input_scope": "units/E019/test-input-scope.json",
+    "records": "units/E019/test-records.json",
+    "runner": "shared/retained-runner.py",
+    "obligations": [
+      "转置结果与 T/H/mT/mH/adjoint 关系一致"
+    ],
+    "scope_gaps": [
+      "运行固定 CPU float32，不覆盖复数共轭分支语义",
+      "值桥接复制输入/输出，不验证视图别名或存储共享"
+    ],
+    "review_category": "bounded-value-shape-reference-candidate",
+    "scenarios": [
+      {
+        "scenario": null,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true
+  },
+  "source_test_leads": [],
+  "reference_label": null,
+  "formal_intent_accuracy_eligible": false,
+  "missing": [
+    "独立限域参照标签",
+    "方法共同运行覆盖",
+    "原生类型/布局/别名等未覆盖义务不得默认为保持"
+  ],
+  "operation_files": {
+    "source": "units/E019/source-operation.py",
+    "target": "units/E019/target-operation.py"
+  },
+  "readiness": "constructed-test-evidence-packaged"
+}

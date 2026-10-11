@@ -1,0 +1,112 @@
+schema_version: 2
+frozen_date: '2026-09-16'
+supersedes: protocol-v1.yaml
+status: implemented-development-experiment
+scope: migration-property-preservation-and-counterexample-validity
+source_lock: artifacts/baselines/20260916-v1/sources/sources.lock.json
+rules:
+- Freeze source/target candidates before running verifiers; do not regenerate per
+  verifier.
+- Separate migration-property violations from library bugs and invalid test/oracle
+  assumptions.
+- Preserve execution errors, unknowns, exclusions and reasons in the common denominator.
+- Share source specifications and candidate context across applicable methods; hide
+  adjudication labels.
+- Record model identifier, parameters, tokens, requests, runtime and execution budget
+  separately.
+- Native-cost and cost-matched comparisons must be separate experiments.
+- Split by source/API/bug family with alias and near-duplicate grouping before holdout
+  evaluation.
+- Public author-filtered outputs are a selected population, not the full generated
+  distribution.
+- Repeated inputs, verifier calls and migration directions do not create independent
+  source groups.
+- LLM agreement alone is not reference truth; use specification and execution evidence,
+  retaining unknowns.
+method_references:
+- name: TransFuzz
+  role: method-reference-only
+  paper: https://arxiv.org/abs/2602.23065v2
+  included_in_baselines: false
+  implementation_required: false
+baselines:
+- id: dllens-port
+  implementation: verification_ports.py + experiment_worker.py
+  function: same-input execution, typed observations, finite-value mutation, output
+    comparison, JSON records
+- id: docter-literal-constraint-port
+  implementation: verification_ports.py:check_docter
+  role: constraint-component-not-preservation-verdict
+  supports:
+  - required
+  - tensor_t
+  - dtype
+  - structure
+  - literal ndim
+  - numeric enum
+  unsupported_fields: undetermined
+  historical_version_compatibility: not-established; reported separately
+- id: intenttester-verifier-port
+  implementation: verification_ports.py:prepare_llm_jobs + run_verifier_llm.py
+  original_prompt_source: VerificationAgent.java
+  checks:
+  - source TDL faithfulness
+  - target syntax/API usage
+  input: source contract encoded as TDL and fixed target test
+  output: strict boolean/null JSON with reason
+- id: intenttester-target-tdl-extension
+  role: separately named stronger comparison
+  extends: intenttester-verifier-port
+  additional_check: apply original TDL faithfulness prompt to target code
+- id: direct-llm
+  observations: false
+- id: trace-llm
+  observations: raw source/target execution only; no other method verdicts
+- id: self-test
+  role: execution-only
+- id: target-binding
+  role: actual registered target call observed
+system_under_test:
+  id: cosmit-registered-clauses
+  implementation: src/cosmit/engine/certification.py:evaluate
+  clauses:
+  - value
+  - shape
+  - dtype
+  scope: externally registered source clauses, not automatic intent extraction
+  stable_violation: same input/clause/source and target observations across three
+    real executions
+development:
+  packet: artifacts/baselines/20260916-v2/development/packet.json
+  reference_key: separate control-key.json; not read by execution or LLM stages
+  cases: 10
+  source_groups: 1
+  inputs_per_case: 2
+  repeats_per_input: 3
+  pairs_per_case: 6
+  model_jobs_prepared_per_case: 5
+  formal_eligible: false
+  holdout_excluded_family: absolute-value and API aliases
+experiment_steps:
+- freeze candidates/provenance and source-derived contracts
+- group split before evaluating future formal data
+- bounded isolated worker executes same concrete inputs
+- apply original DLLens comparator, literal DocTer constraints and CoSMiT clauses
+- prepare and execute label-free model requests
+- join outcomes with independent reference only in evaluation phase
+- report candidate/group denominators, unknowns, failures and costs
+formal_evaluation:
+  status: pending independent multi-source dataset and broader contract/domain adapters
+  development_exposure:
+  - abs API family in both directions, including torch.Tensor.abs / torch.abs / tf.abs
+    aliases
+  holdout_rule: exclude-explored-abs-family-from-unseen-api-holdout
+  report:
+  - true-migration-violation-recall
+  - invalid-test-or-assumption-rejection
+  - valid-case-false-rejection
+  - decision-coverage-and-unknown-rate
+  - grouped-confidence-intervals
+  - cost-and-runtime
+recording_policy: Record method definition, parameters, versions and execution results;
+  no implementation-difference checklist.

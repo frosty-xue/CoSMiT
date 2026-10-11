@@ -1,0 +1,3778 @@
+[
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          0.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          0.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          1.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          1.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -3.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -3.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -3.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -3.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          1.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -2.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          2.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -1.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -1.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          0.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          1.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -1.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -3.0,
+          3.0,
+          -3.0
+        ],
+        [
+          3.0,
+          -3.0,
+          3.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -3.0,
+          3.0
+        ],
+        [
+          -3.0,
+          3.0
+        ],
+        [
+          -3.0,
+          3.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -3.0,
+          -2.0,
+          -1.0
+        ],
+        [
+          0.0,
+          1.0,
+          2.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -3.0,
+          -2.0
+        ],
+        [
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          2.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -1.0,
+          -2.0,
+          -1.0
+        ],
+        [
+          1.0,
+          -2.0,
+          -2.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          2.0,
+          0.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          -3.0,
+          1.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          3.0,
+          -2.0,
+          -3.0
+        ],
+        [
+          1.0,
+          -3.0,
+          3.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -2.0,
+          1.0
+        ],
+        [
+          -1.0,
+          -2.0
+        ],
+        [
+          3.0,
+          0.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          2.0,
+          -2.0,
+          -3.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          1.0,
+          -2.0
+        ],
+        [
+          1.0,
+          1.0
+        ],
+        [
+          -2.0,
+          0.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -1.0,
+          -2.0,
+          2.0
+        ],
+        [
+          -3.0,
+          2.0,
+          2.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          2.0,
+          -3.0
+        ],
+        [
+          -2.0,
+          0.0
+        ],
+        [
+          1.0,
+          3.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -3.0,
+          3.0
+        ],
+        [
+          -3.0,
+          3.0
+        ],
+        [
+          -3.0,
+          3.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -3.0,
+          3.0,
+          -3.0,
+          3.0
+        ],
+        [
+          -3.0,
+          3.0,
+          -3.0,
+          3.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -3.0,
+          -2.0
+        ],
+        [
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          2.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -3.0,
+          -2.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          2.0,
+          3.0,
+          -3.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          1.0,
+          -1.0
+        ],
+        [
+          3.0,
+          1.0
+        ],
+        [
+          -3.0,
+          -1.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          2.0,
+          -3.0,
+          -3.0,
+          -2.0
+        ],
+        [
+          -2.0,
+          -1.0,
+          2.0,
+          2.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          2.0,
+          -3.0
+        ],
+        [
+          3.0,
+          -1.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          1.0,
+          2.0,
+          0.0,
+          0.0
+        ],
+        [
+          -1.0,
+          -3.0,
+          -3.0,
+          -3.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          2.0,
+          -1.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          -3.0,
+          2.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          2.0,
+          1.0,
+          2.0,
+          -1.0
+        ],
+        [
+          -3.0,
+          3.0,
+          3.0,
+          -1.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          2.0,
+          1.0
+        ],
+        [
+          -3.0,
+          0.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          2.0,
+          1.0,
+          -2.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          -1.0,
+          -3.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -3.0,
+          3.0
+        ],
+        [
+          -3.0,
+          3.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -3.0,
+          3.0
+        ],
+        [
+          -3.0,
+          3.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -3.0,
+          -2.0
+        ],
+        [
+          -1.0,
+          0.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -3.0,
+          -2.0
+        ],
+        [
+          -1.0,
+          0.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          2.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          -1.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          1.0,
+          -3.0
+        ],
+        [
+          -2.0,
+          3.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -3.0,
+          3.0
+        ],
+        [
+          -1.0,
+          -2.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -1.0,
+          -2.0
+        ],
+        [
+          3.0,
+          -3.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -2.0,
+          0.0
+        ],
+        [
+          -2.0,
+          0.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -1.0,
+          -1.0
+        ],
+        [
+          -3.0,
+          2.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -3.0,
+          -1.0
+        ],
+        [
+          2.0,
+          -1.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          0.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          0.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          1.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          1.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -3.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -3.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -3.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -3.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          1.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -3.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          1.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -2.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          0.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          1.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          1.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -3.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -3.0,
+          3.0,
+          -3.0
+        ],
+        [
+          3.0,
+          -3.0,
+          3.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -3.0,
+          3.0
+        ],
+        [
+          -3.0,
+          3.0
+        ],
+        [
+          -3.0,
+          3.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -3.0,
+          -2.0,
+          -1.0
+        ],
+        [
+          0.0,
+          1.0,
+          2.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -3.0,
+          -2.0
+        ],
+        [
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          2.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          2.0,
+          -3.0,
+          -3.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          3.0,
+          -3.0
+        ],
+        [
+          0.0,
+          3.0
+        ],
+        [
+          -3.0,
+          -3.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -1.0,
+          3.0,
+          -1.0
+        ],
+        [
+          3.0,
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.0
+        ],
+        [
+          0.0,
+          -3.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -1.0,
+          2.0,
+          1.0
+        ],
+        [
+          -2.0,
+          -2.0,
+          -1.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -1.0,
+          1.0
+        ],
+        [
+          -2.0,
+          -1.0
+        ],
+        [
+          -2.0,
+          -1.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -2.0,
+          0.0,
+          2.0
+        ],
+        [
+          0.0,
+          3.0,
+          3.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          1.0,
+          -2.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          -3.0,
+          3.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -3.0,
+          3.0
+        ],
+        [
+          -3.0,
+          3.0
+        ],
+        [
+          -3.0,
+          3.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -3.0,
+          3.0,
+          -3.0,
+          3.0
+        ],
+        [
+          -3.0,
+          3.0,
+          -3.0,
+          3.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -3.0,
+          -2.0
+        ],
+        [
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          2.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -3.0,
+          -2.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          2.0,
+          3.0,
+          -3.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          0.0,
+          3.0
+        ],
+        [
+          -2.0,
+          3.0
+        ],
+        [
+          -1.0,
+          1.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -2.0,
+          -1.0,
+          2.0,
+          2.0
+        ],
+        [
+          -3.0,
+          3.0,
+          2.0,
+          2.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          1.0,
+          -1.0
+        ],
+        [
+          0.0,
+          -2.0
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          2.0,
+          2.0,
+          2.0,
+          1.0
+        ],
+        [
+          1.0,
+          3.0,
+          2.0,
+          2.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -2.0,
+          -2.0
+        ],
+        [
+          2.0,
+          -1.0
+        ],
+        [
+          2.0,
+          1.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -1.0,
+          2.0,
+          3.0,
+          2.0
+        ],
+        [
+          -1.0,
+          2.0,
+          -2.0,
+          3.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          2.0,
+          3.0
+        ],
+        [
+          -3.0,
+          1.0
+        ],
+        [
+          2.0,
+          -1.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          0.0,
+          3.0,
+          2.0,
+          -3.0
+        ],
+        [
+          0.0,
+          2.0,
+          1.0,
+          3.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -3.0,
+          3.0
+        ],
+        [
+          -3.0,
+          3.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -3.0,
+          3.0
+        ],
+        [
+          -3.0,
+          3.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -3.0,
+          -2.0
+        ],
+        [
+          -1.0,
+          0.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -3.0,
+          -2.0
+        ],
+        [
+          -1.0,
+          0.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -2.0,
+          0.0
+        ],
+        [
+          2.0,
+          2.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -1.0,
+          0.0
+        ],
+        [
+          3.0,
+          -1.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -2.0,
+          -1.0
+        ],
+        [
+          -1.0,
+          2.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          1.0,
+          -2.0
+        ],
+        [
+          -2.0,
+          -3.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          3.0,
+          -2.0
+        ],
+        [
+          -1.0,
+          2.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          0.0,
+          -3.0
+        ],
+        [
+          0.0,
+          -3.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  },
+  {
+    "a": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          2.0,
+          0.0
+        ],
+        [
+          1.0,
+          2.0
+        ]
+      ]
+    },
+    "b": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -3.0,
+          -3.0
+        ],
+        [
+          -3.0,
+          2.0
+        ]
+      ]
+    },
+    "transpose_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "transpose_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_a": {
+      "kind": "literal",
+      "value": false
+    },
+    "adjoint_b": {
+      "kind": "literal",
+      "value": false
+    },
+    "a_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "b_is_sparse": {
+      "kind": "literal",
+      "value": false
+    },
+    "output_type": {
+      "kind": "literal",
+      "value": null
+    }
+  }
+]

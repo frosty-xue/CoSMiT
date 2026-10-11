@@ -1,0 +1,115 @@
+{
+  "domain_id": "reserved-matrix-ops-v1",
+  "family": "cumsum",
+  "description": "Python scalar cumulative sum along registered axis; preserve operation-derived shape and input floating dtype on the registered domain.",
+  "clauses": [
+    "value",
+    "shape",
+    "dtype"
+  ],
+  "domain": {
+    "seed": 20260916,
+    "dtype": [
+      "float32",
+      "float64"
+    ],
+    "count": "2 dtypes x 4 shape configurations x 8 deterministic boundary/random settings",
+    "values": "small integers in [-3,3] represented in floating dtype; deterministic integer grids and seeded random values",
+    "matrix_shapes": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "matmul_shapes": [
+      [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      [
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    ],
+    "det_shapes": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ]
+    ],
+    "det_condition": "strictly diagonally dominant matrices; add row absolute off-diagonal sum plus one to diagonal, preventing singularity; no filtering using target results",
+    "axis": "alternate valid axes 0,1,-1,-2 across input settings for prod/cumulative families",
+    "keepdim": "alternate false/true for prod",
+    "tf_matmul_flags": "transpose_a/b, adjoint_a/b, a_is_sparse/b_is_sparse false; output_type None",
+    "tf_cumulative_flags": "exclusive and reverse false; restricted supported domain recorded, no universal API claim"
+  },
+  "exclusions": "No gradient, nonfinite, complex, integer dtype, sparse, batching for matrix multiplication, or unregistered optional-flag semantics",
+  "atol": 1e-06,
+  "rtol": 1e-05,
+  "tolerance_by_dtype": {
+    "float32": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    },
+    "float64": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  }
+}

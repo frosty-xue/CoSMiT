@@ -1,0 +1,21 @@
+{
+  "candidate_id": "D0006",
+  "source_api": "torch.asin",
+  "target_calls": "tf.asin",
+  "source": {
+    "framework": "pytorch",
+    "entry": "pytorch_call"
+  },
+  "target": {
+    "framework": "tensorflow",
+    "entry": "tensorflow_call"
+  },
+  "cohort": "discovery",
+  "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.asin.json",
+  "operation_sha256": {
+    "source": "b4b369b41af63bafd46e981eb5548184dc76ccfceb719c8fa4d3b58fac54fb79",
+    "target": "c7ae60e6b3cb44b3d7705683a971429b21caeefcccce2678085984296498edc1"
+  },
+  "test_pair_available": false,
+  "test_pair_origin": null
+}

@@ -1,0 +1,9 @@
+{
+  "copied_files": 1873,
+  "copied_bytes": 298008896,
+  "source_destination_sha256_match": true,
+  "configured_secret_scan_passed": true,
+  "original_files_removed": 0,
+  "new_model_calls": 0,
+  "new_framework_executions": 0
+}

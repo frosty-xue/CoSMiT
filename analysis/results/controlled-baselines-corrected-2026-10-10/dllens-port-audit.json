@@ -1,0 +1,92 @@
+[
+  {
+    "sample_id": "S001",
+    "recorded_unperturbed_first_return_agreement": [
+      true,
+      true,
+      true
+    ],
+    "classification_rule": "no difference -> preserved proxy; not proof of assertion preservation",
+    "method_scope": "existing DLLens comparator port on recorded outputs; no full fuzzer run"
+  },
+  {
+    "sample_id": "S002",
+    "recorded_unperturbed_first_return_agreement": [
+      true,
+      true,
+      true
+    ],
+    "classification_rule": "no difference -> preserved proxy; not proof of assertion preservation",
+    "method_scope": "existing DLLens comparator port on recorded outputs; no full fuzzer run"
+  },
+  {
+    "sample_id": "S003",
+    "recorded_unperturbed_first_return_agreement": [
+      true,
+      true,
+      true
+    ],
+    "classification_rule": "no difference -> preserved proxy; not proof of assertion preservation",
+    "method_scope": "existing DLLens comparator port on recorded outputs; no full fuzzer run"
+  },
+  {
+    "sample_id": "S004",
+    "recorded_unperturbed_first_return_agreement": [
+      true,
+      true,
+      true
+    ],
+    "classification_rule": "no difference -> preserved proxy; not proof of assertion preservation",
+    "method_scope": "existing DLLens comparator port on recorded outputs; no full fuzzer run"
+  },
+  {
+    "sample_id": "S005",
+    "recorded_unperturbed_first_return_agreement": [
+      true,
+      true,
+      true
+    ],
+    "classification_rule": "no difference -> preserved proxy; not proof of assertion preservation",
+    "method_scope": "existing DLLens comparator port on recorded outputs; no full fuzzer run"
+  },
+  {
+    "sample_id": "S006",
+    "recorded_unperturbed_first_return_agreement": [
+      true,
+      true,
+      true
+    ],
+    "classification_rule": "no difference -> preserved proxy; not proof of assertion preservation",
+    "method_scope": "existing DLLens comparator port on recorded outputs; no full fuzzer run"
+  },
+  {
+    "sample_id": "S007",
+    "recorded_unperturbed_first_return_agreement": [
+      true,
+      true,
+      true
+    ],
+    "classification_rule": "no difference -> preserved proxy; not proof of assertion preservation",
+    "method_scope": "existing DLLens comparator port on recorded outputs; no full fuzzer run"
+  },
+  {
+    "sample_id": "S008",
+    "recorded_unperturbed_first_return_agreement": [
+      true,
+      true,
+      true
+    ],
+    "classification_rule": "no difference -> preserved proxy; not proof of assertion preservation",
+    "method_scope": "existing DLLens comparator port on recorded outputs; no full fuzzer run"
+  },
+  {
+    "sample_id": "S009",
+    "recorded_unperturbed_first_return_agreement": [
+      true,
+      true,
+      true
+    ],
+    "classification_rule": "no difference -> preserved proxy; not proof of assertion preservation",
+    "method_scope": "existing DLLens comparator port on recorded outputs; no full fuzzer run"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "candidates": 110,
+  "constructed_test_pairs": 27,
+  "operation_sources": 220,
+  "behavior_inputs": 7040,
+  "observation_rows": 21120,
+  "local_markdown_links_verified": 1096,
+  "decision_fields_excluded": [
+    "clause_results",
+    "dllens_agrees",
+    "expected",
+    "formal_gold",
+    "predictions",
+    "reference_label",
+    "source_reference_supported",
+    "stable_witness_inputs"
+  ],
+  "zip_files": 1065,
+  "zip_bytes": 2081237,
+  "zip_sha256": "019b6e1886569ec7097e0a8577be70e114eb633e03fc30edad4fa6f597e0d03c",
+  "new_model_calls": 0,
+  "new_framework_executions": 0
+}

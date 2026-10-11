@@ -21,7 +21,7 @@ def execute(
     jobs = []
     for file in sorted(experiment.glob("*/llm-jobs.json")):
         jobs.extend(
-            j for j in json.loads(file.read_text()) if not case_id or j["case_id"] == case_id
+            j for j in json.loads(file.read_text(encoding="utf-8")) if not case_id or j["case_id"] == case_id
         )
     if not jobs or limit < 1 or limit > len(jobs):
         raise ValueError("explicit nonempty request limit required")
@@ -70,6 +70,10 @@ def execute(
             record.update(parsed=parse_model_answer(answer, job["kind"]), status="completed")
         except Exception as error:  # noqa: BLE001 -- retain incomplete/invalid model responses
             record.update(status="failed", error_type=type(error).__name__)
+            cause = getattr(error, "reason", None)
+            if isinstance(cause, BaseException):
+                # Diagnostic types only: HTTP bodies/messages may echo secrets.
+                record.update(network_cause_type=type(cause).__name__, network_errno=getattr(cause, "errno", None))
             if isinstance(error, transport.RejectedResponse):
                 record.update(
                     request=error.request_payload, response=error.response, reason=error.reason

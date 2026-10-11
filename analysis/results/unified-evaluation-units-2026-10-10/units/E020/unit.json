@@ -1,0 +1,86 @@
+{
+  "unit_id": "E020",
+  "family": "transpose",
+  "cohort": "expansion",
+  "provenance": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.transpose.json",
+  "behavior": {
+    "status": "discrepancy-replayed",
+    "scope": "recorded inputs and registered contract only",
+    "inputs": "units/E020/behavior-inputs.json"
+  },
+  "test": {
+    "origin": "newly constructed operation substitution; not historical migrated test",
+    "source_file": "units/E020/source-test.py",
+    "target_file": "units/E020/target-test.py",
+    "registration": {
+      "case_id": "E020",
+      "status": "registered",
+      "file": "upstream/tf_transpose.py",
+      "class": "TransposeTest",
+      "methods": [
+        {
+          "method": "testTranspose2DAuto",
+          "start": 437,
+          "end": 443,
+          "decorators": []
+        }
+      ],
+      "entry": "testTranspose2DAuto",
+      "paths": [
+        "array_ops.transpose"
+      ],
+      "kind": "complete-upstream-method-bodies",
+      "parameters": "original method inputs; CPU eager; device/dtype parameter fixed where required; decorator variants excluded",
+      "source_framework": "tensorflow",
+      "scope": "new operation-substitution candidates; common source-framework harness; no external migration-quality claim",
+      "assertion_expressions_exact": true,
+      "source_hash": "cb8ab1f23f26818362dd23ec44b64bd4413960b55b24c9c8c33bbc5b235d654a",
+      "target_hash": "96a9e42217546feb89c9a19ca1eacea13ec9dd327da10f55d353759a14040406"
+    },
+    "upstream_snapshot": "shared/registered-upstream/tf_transpose.py",
+    "upstream_provenance": "shared/registered-upstream-provenance.json",
+    "input_scope": "units/E020/test-input-scope.json",
+    "records": "units/E020/test-records.json",
+    "runner": "shared/retained-runner.py",
+    "obligations": [
+      "省略 perm 时二维默认转置的结果值"
+    ],
+    "scope_gaps": [
+      "目标基线失败，不进入扰动拒绝保持评价"
+    ],
+    "review_category": "baseline-behavior-failure",
+    "scenarios": [
+      {
+        "scenario": null,
+        "baseline_qualified": false,
+        "transparent": false,
+        "probes": {
+          "wrong-shape": "baseline-unqualified",
+          "wrong-value": "baseline-unqualified"
+        },
+        "baseline_failures": [
+          {
+            "side": "target",
+            "status": "execution-error",
+            "phase": "counterpart-execution",
+            "error": "TypeError: Tensor.permute() argument after * must be an iterable, not NoneType"
+          }
+        ]
+      }
+    ],
+    "baseline_and_transparency_passed": false
+  },
+  "source_test_leads": [],
+  "reference_label": null,
+  "formal_intent_accuracy_eligible": false,
+  "missing": [
+    "独立限域参照标签",
+    "方法共同运行覆盖",
+    "原生类型/布局/别名等未覆盖义务不得默认为保持"
+  ],
+  "operation_files": {
+    "source": "units/E020/source-operation.py",
+    "target": "units/E020/target-operation.py"
+  },
+  "readiness": "constructed-test-evidence-packaged"
+}

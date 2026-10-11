@@ -1,0 +1,50 @@
+schema_version: 3
+supersedes: protocol-v2.yaml
+status: background-campaign-started
+scope: shared-public-discovery-candidate-experiment
+packet: artifacts/baselines/20260916-common-v3/packet.json
+campaign_status: artifacts/baselines/20260916-common-v3/campaign-status.json
+cases: 69
+source_property_families: 24
+formal_eligible: false
+partition: public-discovery-exposed-families
+budget:
+  inputs_per_case: 64
+  executions_per_input: 3
+  max_pairs_per_case: 192
+  model_requests_per_case: 5
+  model_requests_total: 345
+  model_concurrency: 2
+  model: DeepSeek-R1
+  temperature: 0
+  max_tokens: 4096
+source_checks:
+  domain: bounded-unary-v1
+  value_reference: independent Python scalar mathematics on typed inputs
+  shape_dtype: preserved relative to typed source input
+  invalid_source_assumption: separate outcome; never a positive or target violation
+methods:
+  - self-test
+  - target-binding
+  - dllens-port
+  - docter-literal-constraint-port
+  - cosmit-registered-clauses
+  - direct-llm
+  - trace-llm
+  - intenttester-verifier-port
+  - intenttester-target-tdl-extension
+binding:
+  kind: runtime registered operation observation
+  arithmetic_reciprocal: torch.Tensor.__rtruediv__
+  composite_expression: outer target API observed; not exhaustive suboperation coverage
+model_scheduling:
+  existing_control_batch: finish 45 pending requests before starting the new 345
+  duplicate_completed_requests: forbidden
+  automatic_retries: 0
+  infrastructure_retry: at most one separately recorded justified attempt
+holdout:
+  exposure_exclusions: artifacts/baselines/20260916-common-v3/exposure-exclusions.json
+  status: not-yet-frozen-or-executed
+method_reference_only:
+  - TransFuzz
+recording_policy: Preserve candidates, inputs, all failures, code snapshots and costs; no implementation-difference checklist.

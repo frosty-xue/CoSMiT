@@ -1,0 +1,16 @@
+{
+  "units": 110,
+  "behavior_units": 110,
+  "constructed_test_pairs": 27,
+  "initial_candidates_with_direct_source_test_leads": 53,
+  "initial_candidates_without_direct_source_test_leads": 27,
+  "initial_historical_test_pairs_established": 0,
+  "formal_intent_accuracy_units": 0,
+  "readiness_counts": {
+    "behavior-only-with-source-test-leads": 53,
+    "behavior-only-source-test-unresolved": 27,
+    "constructed-test-evidence-packaged": 27,
+    "behavior-only-unresolved-aliasing": 3
+  },
+  "new_framework_or_model_calls": 0
+}

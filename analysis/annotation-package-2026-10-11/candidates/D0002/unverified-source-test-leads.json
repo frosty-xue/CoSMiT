@@ -1,0 +1,14 @@
+[
+  {
+    "framework": "pytorch",
+    "file": "shared/source-search/pytorch/test/test_unary_ufuncs.py",
+    "class": "TestUnaryUfuncs",
+    "method": "test_complex_edge_values",
+    "start": 560,
+    "end": 573,
+    "commit": "d38164a545b4a4e4e0cf73ce67173f70574890b6",
+    "matched_symbols": [
+      "torch.acos"
+    ]
+  }
+]

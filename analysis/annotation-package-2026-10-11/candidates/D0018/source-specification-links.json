@@ -1,0 +1,16 @@
+[
+  {
+    "path": "specifications/torch-docs.py",
+    "url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.1.0/torch/_torch_docs.py",
+    "sha256": "3afb64cf9ec7255486ddc174fa5f0779ab20353eadaebba3b1c20e7bc477ecb9",
+    "status": "downloaded",
+    "start_line": 2518,
+    "end_line": 2550
+  },
+  {
+    "path": "specifications/tf-reciprocal.pbtxt",
+    "url": "https://raw.githubusercontent.com/tensorflow/tensorflow/v2.16.2/tensorflow/core/api_def/base_api/api_def_Reciprocal.pbtxt",
+    "sha256": "e67c76dabacfae8c6d505ffd554a0b01d6da1d669bc16bd592ed43b7d35095e4",
+    "status": "downloaded"
+  }
+]

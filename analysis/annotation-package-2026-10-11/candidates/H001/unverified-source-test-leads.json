@@ -1,0 +1,86 @@
+[
+  {
+    "framework": "pytorch",
+    "file": "shared/source-search/pytorch/test/test_reductions.py",
+    "class": "TestReductions",
+    "method": "test_prod_integer_upcast",
+    "start": 954,
+    "end": 956,
+    "commit": "d38164a545b4a4e4e0cf73ce67173f70574890b6",
+    "matched_symbols": [
+      "torch.prod"
+    ]
+  },
+  {
+    "framework": "pytorch",
+    "file": "shared/source-search/pytorch/test/test_reductions.py",
+    "class": "TestReductions",
+    "method": "test_prod_gpu",
+    "start": 1486,
+    "end": 1497,
+    "commit": "d38164a545b4a4e4e0cf73ce67173f70574890b6",
+    "matched_symbols": [
+      "torch.prod"
+    ]
+  },
+  {
+    "framework": "pytorch",
+    "file": "shared/source-search/pytorch/test/test_reductions.py",
+    "class": "TestReductions",
+    "method": "test_prod",
+    "start": 1501,
+    "end": 1506,
+    "commit": "d38164a545b4a4e4e0cf73ce67173f70574890b6",
+    "matched_symbols": [
+      "torch.prod"
+    ]
+  },
+  {
+    "framework": "pytorch",
+    "file": "shared/source-search/pytorch/test/test_reductions.py",
+    "class": "TestReductions",
+    "method": "test_prod_lowp",
+    "start": 1510,
+    "end": 1518,
+    "commit": "d38164a545b4a4e4e0cf73ce67173f70574890b6",
+    "matched_symbols": [
+      "torch.prod"
+    ]
+  },
+  {
+    "framework": "pytorch",
+    "file": "shared/source-search/pytorch/test/test_reductions.py",
+    "class": "TestReductions",
+    "method": "test_prod_bool",
+    "start": 1520,
+    "end": 1535,
+    "commit": "d38164a545b4a4e4e0cf73ce67173f70574890b6",
+    "matched_symbols": [
+      "torch.prod"
+    ]
+  },
+  {
+    "framework": "pytorch",
+    "file": "shared/source-search/pytorch/test/test_reductions.py",
+    "class": "TestReductions",
+    "method": "test_tensor_reduce_ops_empty",
+    "start": 3570,
+    "end": 3629,
+    "commit": "d38164a545b4a4e4e0cf73ce67173f70574890b6",
+    "matched_symbols": [
+      "torch.prod"
+    ]
+  },
+  {
+    "framework": "pytorch",
+    "file": "shared/source-search/pytorch/test/test_reductions.py",
+    "class": "TestReductions",
+    "method": "test_reduce_dtype",
+    "start": 3662,
+    "end": 3685,
+    "commit": "d38164a545b4a4e4e0cf73ce67173f70574890b6",
+    "matched_symbols": [
+      "torch.prod"
+    ]
+  }
+]

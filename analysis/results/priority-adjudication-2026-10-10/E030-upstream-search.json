@@ -1,0 +1,66 @@
+{
+  "searched_file": "F:\\codes\\python\\CoSMiT\\datasets\\expansion-2026-09-18\\assertion-batch-2026-09-28\\upstream\\tf_clip.py",
+  "methods": [
+    {
+      "method": "testClipByValue",
+      "start": 35,
+      "end": 43,
+      "body": "def testClipByValue(self):\n    with self.session():\n      x = constant_op.constant([-5.0, 2.0, 3.0, 4.0, 5.0, 6.0], shape=[2, 3])\n      np_ans = [[-4.4, 2.0, 3.0], [4.0, 4.4, 4.4]]\n      clip_value = 4.4\n      ans = clip_ops.clip_by_value(x, -clip_value, clip_value)\n      tf_ans = self.evaluate(ans)\n\n    self.assertAllClose(np_ans, tf_ans)"
+    },
+    {
+      "method": "testClipByValue0Type",
+      "start": 46,
+      "end": 65,
+      "body": "def testClipByValue0Type(self):\n    for dtype in [\n        dtypes.float16,\n        dtypes.float32,\n        dtypes.float64,\n        dtypes.bfloat16,\n        dtypes.int16,\n        dtypes.int32,\n        dtypes.int64,\n        dtypes.uint8,\n    ]:\n      with self.cached_session():\n        x = constant_op.constant([1, 2, 3, 4, 5, 6], shape=[2, 3], dtype=dtype)\n        np_ans = [[2, 2, 3], [4, 4, 4]]\n        clip_value_min = 2\n        clip_value_max = 4\n        ans = clip_ops.clip_by_value(x, clip_value_min, clip_value_max)\n        tf_ans = self.evaluate(ans)\n\n      self.assertAllClose(np_ans, tf_ans)"
+    },
+    {
+      "method": "testClipByValue1Type",
+      "start": 68,
+      "end": 88,
+      "body": "def testClipByValue1Type(self):\n    for dtype in [\n        dtypes.float16,\n        dtypes.float32,\n        dtypes.float64,\n        dtypes.bfloat16,\n        dtypes.int16,\n        dtypes.int32,\n        dtypes.int64,\n        dtypes.uint8,\n    ]:\n      with self.cached_session():\n        x = constant_op.constant([1, 2, 3, 4, 5, 6], shape=[2, 3], dtype=dtype)\n        np_ans = [[2, 2, 3], [4, 4, 4]]\n        clip_value_min = constant_op.constant(\n            [2, 2, 2, 3, 3, 3], shape=[2, 3], dtype=dtype)\n        clip_value_max = 4\n        ans = clip_ops.clip_by_value(x, clip_value_min, clip_value_max)\n        tf_ans = self.evaluate(ans)\n\n      self.assertAllClose(np_ans, tf_ans)"
+    },
+    {
+      "method": "testClipByValue2Type",
+      "start": 91,
+      "end": 111,
+      "body": "def testClipByValue2Type(self):\n    for dtype in [\n        dtypes.float16,\n        dtypes.float32,\n        dtypes.float64,\n        dtypes.bfloat16,\n        dtypes.int16,\n        dtypes.int32,\n        dtypes.int64,\n        dtypes.uint8,\n    ]:\n      with self.cached_session():\n        x = constant_op.constant([1, 2, 3, 4, 5, 6], shape=[2, 3], dtype=dtype)\n        np_ans = [[4, 4, 4], [4, 5, 6]]\n        clip_value_min = 4\n        clip_value_max = constant_op.constant(\n            [6, 6, 6, 6, 6, 6], shape=[2, 3], dtype=dtype)\n        ans = clip_ops.clip_by_value(x, clip_value_min, clip_value_max)\n        tf_ans = self.evaluate(ans)\n\n      self.assertAllClose(np_ans, tf_ans)"
+    },
+    {
+      "method": "testClipByValue3Type",
+      "start": 114,
+      "end": 135,
+      "body": "def testClipByValue3Type(self):\n    for dtype in [\n        dtypes.float16,\n        dtypes.float32,\n        dtypes.float64,\n        dtypes.bfloat16,\n        dtypes.int16,\n        dtypes.int32,\n        dtypes.int64,\n        dtypes.uint8,\n    ]:\n      with self.cached_session():\n        x = constant_op.constant([1, 2, 3, 4, 5, 6], shape=[2, 3], dtype=dtype)\n        np_ans = [[2, 2, 3], [5, 5, 6]]\n        clip_value_min = constant_op.constant(\n            [2, 2, 2, 5, 5, 5], shape=[2, 3], dtype=dtype)\n        clip_value_max = constant_op.constant(\n            [5, 5, 5, 7, 7, 7], shape=[2, 3], dtype=dtype)\n        ans = clip_ops.clip_by_value(x, clip_value_min, clip_value_max)\n        tf_ans = self.evaluate(ans)\n\n      self.assertAllClose(np_ans, tf_ans)"
+    },
+    {
+      "method": "testClipByValueGradient",
+      "start": 137,
+      "end": 192,
+      "body": "def testClipByValueGradient(self):\n    def grad(x, y, z, clip_fn):\n      x = constant_op.constant(x, dtype=dtypes.float32)\n      y = constant_op.constant(y, dtype=dtypes.float32)\n      z = constant_op.constant(z, dtype=dtypes.float32)\n      with backprop.GradientTape() as tape:\n        tape.watch(x)\n        tape.watch(y)\n        tape.watch(z)\n        output = clip_fn(x, y, z)\n      return tape.gradient(output, [x, y, z])\n\n    for f in (clip_ops.clip_by_value, gen_math_ops._clip_by_value):\n      with self.subTest(f=f):\n        # Input: [Scalar, Scalar, Scalar]\n        xg, yg, zg = grad(0, -1, 1, clip_fn=f)\n        self.assertEqual(self.evaluate(xg), 1)\n        self.assertEqual(self.evaluate(yg), 0)\n        self.assertEqual(self.evaluate(zg), 0)\n\n        # Input: [Scalar, Scalar, Scalar]\n        xg, yg, zg = grad(2, -1, 1, clip_fn=f)\n        self.assertEqual(self.evaluate(xg), 0)\n        self.assertEqual(self.evaluate(yg), 0)\n        self.assertEqual(self.evaluate(zg), 1)\n\n        # Input: [Vector, Scalar, Scalar]\n        xg, yg, zg = grad([0, -2, 2, -2], -1, 1, clip_fn=f)\n        self.assertAllEqual(self.evaluate(xg), [1, 0, 0, 0])\n        self.assertEqual(self.evaluate(yg), 2)\n        self.assertEqual(self.evaluate(zg), 1)\n\n        # Input: [Vector, Vector, Scalar]\n        xg, yg, zg = grad([-1, -2, 0, 2], [-2, -1, -3, 0], 1, clip_fn=f)\n        self.assertAllEqual(self.evaluate(xg), [1, 0, 1, 0])\n        self.assertAllEqual(self.evaluate(yg), [0, 1, 0, 0])\n        self.assertEqual(self.evaluate(zg), 1)\n\n        # Input: [Vector, Vector, Vector]\n        xg, yg, zg = grad(\n            [-1, -2, 0, 2], [-2, -1, -3, 0], [1, 2, -1, 1], clip_fn=f\n        )\n        self.assertAllEqual(self.evaluate(xg), [1, 0, 0, 0])\n        self.assertAllEqual(self.evaluate(yg), [0, 1, 0, 0])\n        self.assertAllEqual(self.evaluate(zg), [0, 0, 1, 1])\n\n    # Only test the following with `clip_ops.clip_by_value`, as\n    # `gen_math_ops._clip_by_value` requires the min and max values to be\n    # scalar or the same shape as the input.\n\n    # Input: [Matrix, Vector, Matrix]\n    xg, yg, zg = grad([[-2, 3], [2, -1]], [-1, -2], [[1, 2], [3, 4]],\n                      clip_fn=clip_ops.clip_by_value)\n    self.assertAllEqual(self.evaluate(xg), [[0, 0], [1, 1]])\n    self.assertAllEqual(self.evaluate(yg), [1, 0])\n    self.assertAllEqual(self.evaluate(zg), [[0, 1], [0, 0]])"
+    },
+    {
+      "method": "testClipByValueBadShape",
+      "start": 194,
+      "end": 202,
+      "body": "def testClipByValueBadShape(self):\n    with self.session():\n      x = constant_op.constant([-5.0, 2.0, 3.0, 4.0, 5.0, 6.0], shape=[2, 3, 1])\n      # Use a nonsensical shape.\n      clip = constant_op.constant([1.0, 2.0])\n      with self.assertRaises(ValueError):\n        _ = clip_ops.clip_by_value(x, -clip, clip)  # pylint: disable=invalid-unary-operand-type\n      with self.assertRaises(ValueError):\n        _ = clip_ops.clip_by_value(x, 1.0, clip)"
+    },
+    {
+      "method": "testClipByValueNonFinite",
+      "start": 204,
+      "end": 213,
+      "body": "def testClipByValueNonFinite(self):\n    # TODO(b/78016351): Enable test on GPU once the bug is fixed.\n    with self.cached_session():\n      x = constant_op.constant([float('NaN'), float('Inf'), -float('Inf')])\n      np_ans = [float('NaN'), 4.0, -4.0]\n      clip_value = 4.0\n      ans = clip_ops.clip_by_value(x, -clip_value, clip_value)\n      tf_ans = self.evaluate(ans)\n\n    self.assertAllClose(np_ans, tf_ans)"
+    },
+    {
+      "method": "testClipByValueWithIndexedSlicesClipped",
+      "start": 230,
+      "end": 247,
+      "body": "def testClipByValueWithIndexedSlicesClipped(self):\n    values = [[[-3.0, 0.0, 0.0], [4.0, 0.0, 0.0]],\n              [[0.0, 2.0, 0.0], [0.0, 0.0, -1.0]]]\n    indices = [2, 6]\n    shape = [10, 2, 3]\n    # [-2.0, 2.0]\n    self._testClipIndexedSlicesByValue(values, indices, shape, -2.0, 2.0,\n                                       [[[-2.0, 0.0, 0.0], [2.0, 0.0, 0.0]],\n                                        [[0.0, 2.0, 0.0], [0.0, 0.0, -1.0]]])\n    # [1.0, 2.0]\n    self._testClipIndexedSlicesByValue(values, indices, shape, 1.0, 2.0,\n                                       [[[1.0, 1.0, 1.0], [2.0, 1.0, 1.0]],\n                                        [[1.0, 2.0, 1.0], [1.0, 1.0, 1.0]]])\n    # [-2.0, -1.0]\n    self._testClipIndexedSlicesByValue(\n        values, indices, shape, -2.0, -1.0,\n        [[[-2.0, -1.0, -1.0], [-1.0, -1.0, -1.0]],\n         [[-1.0, -1.0, -1.0], [-1.0, -1.0, -1.0]]])"
+    },
+    {
+      "method": "testClipByValueEmptyTensor",
+      "start": 560,
+      "end": 568,
+      "body": "def testClipByValueEmptyTensor(self):\n    # Test case for GitHub issue 19337\n    zero = array_ops.placeholder(dtype=dtypes.float32, shape=None)\n    x = clip_ops.clip_by_value(zero, zero, zero)\n    y = clip_ops.clip_by_value(zero, 1.0, 1.0)\n    z = clip_ops.clip_by_value(zero, zero, 1.0)\n    w = clip_ops.clip_by_value(zero, 1.0, zero)\n    with self.session() as sess:\n      sess.run([x, y, z, w], feed_dict={zero: np.zeros((7, 0))})"
+    }
+  ],
+  "scope": "local fixed snapshot only; no exhaustive upstream repository claim"
+}

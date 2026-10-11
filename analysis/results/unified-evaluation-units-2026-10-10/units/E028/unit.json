@@ -1,0 +1,94 @@
+{
+  "unit_id": "E028",
+  "family": "stack",
+  "cohort": "expansion",
+  "provenance": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.stack.json",
+  "behavior": {
+    "status": "supported-on-qualified-inputs",
+    "scope": "recorded inputs and registered contract only",
+    "inputs": "units/E028/behavior-inputs.json"
+  },
+  "test": {
+    "origin": "newly constructed operation substitution; not historical migrated test",
+    "source_file": "units/E028/source-test.py",
+    "target_file": "units/E028/target-test.py",
+    "registration": {
+      "case_id": "E028",
+      "status": "registered",
+      "file": "upstream/tf_stack.py",
+      "class": "StackOpTest",
+      "methods": [
+        {
+          "method": "randn",
+          "start": 46,
+          "end": 51,
+          "decorators": []
+        },
+        {
+          "method": "testSimple",
+          "start": 53,
+          "end": 71,
+          "decorators": []
+        }
+      ],
+      "entry": "testSimple",
+      "paths": [
+        "array_ops_stack.stack"
+      ],
+      "kind": "complete-upstream-method-bodies",
+      "parameters": "original method inputs; CPU eager; device/dtype parameter fixed where required; decorator variants excluded",
+      "source_framework": "tensorflow",
+      "scope": "new operation-substitution candidates; common source-framework harness; no external migration-quality claim",
+      "assertion_expressions_exact": true,
+      "source_hash": "803da072a7696eabc9cdb1b781df32350ccffc492e13b338a5a1453a4357447b",
+      "target_hash": "0cf7cbba7171e761392b5614c65562acd9de405e143d1d0ff051f06c33486f81"
+    },
+    "upstream_snapshot": "shared/registered-upstream/tf_stack.py",
+    "upstream_provenance": "shared/registered-upstream-provenance.json",
+    "input_scope": "units/E028/test-input-scope.json",
+    "records": "units/E028/test-records.json",
+    "runner": "shared/retained-runner.py",
+    "obligations": [
+      "对指定形状、轴、dtype 的 split 后 stack 恢复原数据"
+    ],
+    "scope_gaps": [
+      "float8_e5m2 输入在适配器转换时失败",
+      "属于 harness 能力限制，不是 counterpart 缺陷",
+      "整体方法没有通过，不将此前循环部分成功算成完整通过"
+    ],
+    "review_category": "adapter-blocked",
+    "scenarios": [
+      {
+        "scenario": null,
+        "baseline_qualified": false,
+        "transparent": false,
+        "probes": {
+          "wrong-shape": "baseline-unqualified",
+          "wrong-value": "baseline-unqualified"
+        },
+        "baseline_failures": [
+          {
+            "side": "target",
+            "status": "execution-error",
+            "phase": "argument-adapter",
+            "error": "TypeError: can't convert np.ndarray of type ml_dtypes.float8_e5m2. The only supported types are: float64, float32, float16, complex64, complex128, int64, int32, int16, int8, uint64, uint32, uint16, uint8, and bool."
+          }
+        ]
+      }
+    ],
+    "baseline_and_transparency_passed": false
+  },
+  "source_test_leads": [],
+  "reference_label": null,
+  "formal_intent_accuracy_eligible": false,
+  "missing": [
+    "独立限域参照标签",
+    "方法共同运行覆盖",
+    "原生类型/布局/别名等未覆盖义务不得默认为保持"
+  ],
+  "operation_files": {
+    "source": "units/E028/source-operation.py",
+    "target": "units/E028/target-operation.py"
+  },
+  "readiness": "constructed-test-evidence-packaged"
+}

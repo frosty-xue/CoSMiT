@@ -1,0 +1,12 @@
+{
+  "syntax_checked": 4,
+  "saved_observation_rows": 5760,
+  "qualified_pairs": 5712,
+  "verified_edge_cases": [
+    "E020 pre-call error retains binding abstention",
+    "E021 excludes 16 source-invalid inputs",
+    "E029 and E030 each have 16 stable core witnesses",
+    "E030 dense comparator accepts its shape mismatch"
+  ],
+  "new_model_or_framework_calls": 0
+}

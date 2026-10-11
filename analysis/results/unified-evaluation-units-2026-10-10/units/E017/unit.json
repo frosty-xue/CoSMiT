@@ -1,0 +1,25 @@
+{
+  "unit_id": "E017",
+  "family": "reshape",
+  "cohort": "expansion",
+  "provenance": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.reshape.json",
+  "behavior": {
+    "status": "supported-on-qualified-inputs",
+    "scope": "recorded inputs and registered contract only",
+    "inputs": "units/E017/behavior-inputs.json"
+  },
+  "test": null,
+  "source_test_leads": [],
+  "reference_label": null,
+  "formal_intent_accuracy_eligible": false,
+  "missing": [
+    "selected PyTorch view tests require storage aliasing and mutation propagation; cross-framework value bridge cannot preserve or certify these obligations",
+    "可执行原/目标测试对",
+    "独立限域参照标签"
+  ],
+  "operation_files": {
+    "source": "units/E017/source-operation.py",
+    "target": "units/E017/target-operation.py"
+  },
+  "readiness": "behavior-only-unresolved-aliasing"
+}

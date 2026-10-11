@@ -1,0 +1,21 @@
+{
+  "candidate_id": "D0061",
+  "source_api": "tf.round",
+  "target_calls": "torch.round",
+  "source": {
+    "framework": "tensorflow",
+    "entry": "tensorflow_call"
+  },
+  "target": {
+    "framework": "pytorch",
+    "entry": "pytorch_call"
+  },
+  "cohort": "discovery",
+  "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.round.json",
+  "operation_sha256": {
+    "source": "8baf7dd3dd0e0de85d5739fcc698a8f4138a825a0db7de02f53e41dc568db212",
+    "target": "fdcb3a244b345a8cde74dcc4b6fb80d9c214f545c9d3add8bf4bc4b09da58e28"
+  },
+  "test_pair_available": false,
+  "test_pair_origin": null
+}

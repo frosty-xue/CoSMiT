@@ -1,0 +1,58 @@
+{
+  "unit_id": "D0016",
+  "family": "neg",
+  "cohort": "discovery",
+  "provenance": "F:\\codes\\python\\DLLens\\data\\working_dir\\rq1\\dllens\\pytorch\\counterparts\\torch.neg.json",
+  "behavior": {
+    "status": "supported-on-tested-inputs",
+    "scope": "recorded inputs and registered contract only",
+    "inputs": "units/D0016/behavior-inputs.json",
+    "contract": "units/D0016/behavior-contract.json"
+  },
+  "test": null,
+  "source_test_leads": [],
+  "reference_label": null,
+  "formal_intent_accuracy_eligible": false,
+  "missing": [
+    "来源可追溯的迁移测试及断言",
+    "上游方法义务与当前输入域的语义匹配",
+    "上游快照与运行版本对齐",
+    "输入生成器及helper依赖闭合",
+    "独立限域参照标签"
+  ],
+  "operation_files": {
+    "source": "units/D0016/source-operation.py",
+    "target": "units/D0016/target-operation.py"
+  },
+  "generic_helper_leads": [
+    {
+      "framework": "pytorch",
+      "file": "shared/source-search/pytorch/test/test_unary_ufuncs.py",
+      "class": "TestUnaryUfuncs",
+      "method": "_test_reference_numerics",
+      "start": 185,
+      "end": 268,
+      "assertions": [
+        {
+          "line": 197,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, exact_dtype=exact_dtype, rtol=0.001, atol=0.01)"
+        },
+        {
+          "line": 208,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, exact_dtype=exact_dtype, rtol=0.016, atol=1e-05)"
+        },
+        {
+          "line": 218,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, exact_dtype=exact_dtype, rtol=0.0012, atol=0.001)"
+        },
+        {
+          "line": 228,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, equal_nan=equal_nan, exact_dtype=exact_dtype)"
+        }
+      ],
+      "helper_dependencies": [],
+      "commit": "d38164a545b4a4e4e0cf73ce67173f70574890b6"
+    }
+  ],
+  "readiness": "behavior-only-source-test-unresolved"
+}

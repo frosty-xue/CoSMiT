@@ -1,0 +1,21 @@
+{
+  "candidate_id": "H007",
+  "source_api": "tf.reduce_prod",
+  "target_calls": "torch.prod",
+  "source": {
+    "framework": "tensorflow",
+    "entry": "tensorflow_call"
+  },
+  "target": {
+    "framework": "pytorch",
+    "entry": "pytorch_call"
+  },
+  "cohort": "unseen",
+  "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.reduce_prod.json",
+  "operation_sha256": {
+    "source": "d4a698fe610214d24713e107346f9643300ea4955592acfdb8bae86d1e5a429b",
+    "target": "3407f2f2fdc933f973e94a52081dfb4f7991b2f96b74c7aefa2897d4567851e9"
+  },
+  "test_pair_available": false,
+  "test_pair_origin": null
+}

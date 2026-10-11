@@ -1,0 +1,742 @@
+{
+  "framework_snapshots": [
+    {
+      "framework": "pytorch",
+      "checkout": "F:\\codes\\python\\frameworks\\pytorch",
+      "commit": "d38164a545b4a4e4e0cf73ce67173f70574890b6",
+      "searched_python_files": 4,
+      "version_alignment": "not established against execution versions"
+    },
+    {
+      "framework": "tensorflow",
+      "checkout": "F:\\codes\\python\\frameworks\\tensorflow",
+      "commit": "72fbba3d20f4616d7312b5e2b7f79daf6e82f2fa",
+      "searched_python_files": 4,
+      "version_alignment": "not established against execution versions"
+    }
+  ],
+  "per_candidate": [
+    {
+      "unit_id": "D0001",
+      "family": "abs",
+      "source_api": "torch.abs",
+      "direct_lead_count": 4,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0002",
+      "family": "acos",
+      "source_api": "torch.acos",
+      "direct_lead_count": 1,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0003",
+      "family": "acos",
+      "source_api": "torch.arccos",
+      "direct_lead_count": 0,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0004",
+      "family": "asin",
+      "source_api": "torch.arcsin",
+      "direct_lead_count": 0,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0005",
+      "family": "atan",
+      "source_api": "torch.arctan",
+      "direct_lead_count": 0,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0006",
+      "family": "asin",
+      "source_api": "torch.asin",
+      "direct_lead_count": 0,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0007",
+      "family": "atan",
+      "source_api": "torch.atan",
+      "direct_lead_count": 0,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0008",
+      "family": "ceil",
+      "source_api": "torch.ceil",
+      "direct_lead_count": 1,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0009",
+      "family": "cos",
+      "source_api": "torch.cos",
+      "direct_lead_count": 5,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0010",
+      "family": "cosh",
+      "source_api": "torch.cosh",
+      "direct_lead_count": 0,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0011",
+      "family": "exp",
+      "source_api": "torch.exp",
+      "direct_lead_count": 6,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": true
+    },
+    {
+      "unit_id": "D0012",
+      "family": "expm1",
+      "source_api": "torch.expm1",
+      "direct_lead_count": 0,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": true
+    },
+    {
+      "unit_id": "D0013",
+      "family": "floor",
+      "source_api": "torch.floor",
+      "direct_lead_count": 1,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0014",
+      "family": "log",
+      "source_api": "torch.log",
+      "direct_lead_count": 3,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0015",
+      "family": "log1p",
+      "source_api": "torch.log1p",
+      "direct_lead_count": 1,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0016",
+      "family": "neg",
+      "source_api": "torch.neg",
+      "direct_lead_count": 0,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0017",
+      "family": "neg",
+      "source_api": "torch.negative",
+      "direct_lead_count": 0,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0018",
+      "family": "reciprocal",
+      "source_api": "torch.reciprocal",
+      "direct_lead_count": 0,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0019",
+      "family": "round",
+      "source_api": "torch.round",
+      "direct_lead_count": 0,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0020",
+      "family": "sigmoid",
+      "source_api": "torch.sigmoid",
+      "direct_lead_count": 2,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0021",
+      "family": "sign",
+      "source_api": "torch.sign",
+      "direct_lead_count": 0,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0022",
+      "family": "sin",
+      "source_api": "torch.sin",
+      "direct_lead_count": 0,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0023",
+      "family": "sinh",
+      "source_api": "torch.sinh",
+      "direct_lead_count": 0,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0024",
+      "family": "sqrt",
+      "source_api": "torch.sqrt",
+      "direct_lead_count": 4,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0025",
+      "family": "square",
+      "source_api": "torch.square",
+      "direct_lead_count": 0,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0026",
+      "family": "tan",
+      "source_api": "torch.tan",
+      "direct_lead_count": 0,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0027",
+      "family": "tanh",
+      "source_api": "torch.tanh",
+      "direct_lead_count": 0,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0029",
+      "family": "abs",
+      "source_api": "tf.abs",
+      "direct_lead_count": 12,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0030",
+      "family": "acos",
+      "source_api": "tf.acos",
+      "direct_lead_count": 5,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": true
+    },
+    {
+      "unit_id": "D0031",
+      "family": "asin",
+      "source_api": "tf.asin",
+      "direct_lead_count": 7,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0032",
+      "family": "atan",
+      "source_api": "tf.atan",
+      "direct_lead_count": 7,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0033",
+      "family": "cos",
+      "source_api": "tf.cos",
+      "direct_lead_count": 8,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0034",
+      "family": "cosh",
+      "source_api": "tf.cosh",
+      "direct_lead_count": 7,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0035",
+      "family": "exp",
+      "source_api": "tf.exp",
+      "direct_lead_count": 7,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0036",
+      "family": "floor",
+      "source_api": "tf.floor",
+      "direct_lead_count": 0,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0037",
+      "family": "abs",
+      "source_api": "tf.math.abs",
+      "direct_lead_count": 12,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0038",
+      "family": "acos",
+      "source_api": "tf.math.acos",
+      "direct_lead_count": 5,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0039",
+      "family": "asin",
+      "source_api": "tf.math.asin",
+      "direct_lead_count": 7,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0040",
+      "family": "atan",
+      "source_api": "tf.math.atan",
+      "direct_lead_count": 7,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0041",
+      "family": "ceil",
+      "source_api": "tf.math.ceil",
+      "direct_lead_count": 0,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0042",
+      "family": "cos",
+      "source_api": "tf.math.cos",
+      "direct_lead_count": 8,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0043",
+      "family": "cosh",
+      "source_api": "tf.math.cosh",
+      "direct_lead_count": 7,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0044",
+      "family": "exp",
+      "source_api": "tf.math.exp",
+      "direct_lead_count": 7,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0045",
+      "family": "expm1",
+      "source_api": "tf.math.expm1",
+      "direct_lead_count": 7,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0046",
+      "family": "floor",
+      "source_api": "tf.math.floor",
+      "direct_lead_count": 0,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0047",
+      "family": "log",
+      "source_api": "tf.math.log",
+      "direct_lead_count": 7,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0048",
+      "family": "log1p",
+      "source_api": "tf.math.log1p",
+      "direct_lead_count": 7,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0049",
+      "family": "neg",
+      "source_api": "tf.math.negative",
+      "direct_lead_count": 11,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0050",
+      "family": "reciprocal",
+      "source_api": "tf.math.reciprocal",
+      "direct_lead_count": 7,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0051",
+      "family": "round",
+      "source_api": "tf.math.round",
+      "direct_lead_count": 2,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0052",
+      "family": "sigmoid",
+      "source_api": "tf.math.sigmoid",
+      "direct_lead_count": 6,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0053",
+      "family": "sign",
+      "source_api": "tf.math.sign",
+      "direct_lead_count": 12,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0054",
+      "family": "sin",
+      "source_api": "tf.math.sin",
+      "direct_lead_count": 7,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0055",
+      "family": "sinh",
+      "source_api": "tf.math.sinh",
+      "direct_lead_count": 7,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0056",
+      "family": "sqrt",
+      "source_api": "tf.math.sqrt",
+      "direct_lead_count": 6,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0057",
+      "family": "square",
+      "source_api": "tf.math.square",
+      "direct_lead_count": 13,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0058",
+      "family": "tan",
+      "source_api": "tf.math.tan",
+      "direct_lead_count": 5,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0059",
+      "family": "tanh",
+      "source_api": "tf.math.tanh",
+      "direct_lead_count": 8,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0060",
+      "family": "neg",
+      "source_api": "tf.negative",
+      "direct_lead_count": 11,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0061",
+      "family": "round",
+      "source_api": "tf.round",
+      "direct_lead_count": 2,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0062",
+      "family": "sigmoid",
+      "source_api": "tf.sigmoid",
+      "direct_lead_count": 6,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0063",
+      "family": "sign",
+      "source_api": "tf.sign",
+      "direct_lead_count": 12,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0064",
+      "family": "sin",
+      "source_api": "tf.sin",
+      "direct_lead_count": 7,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0065",
+      "family": "sinh",
+      "source_api": "tf.sinh",
+      "direct_lead_count": 7,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0066",
+      "family": "sqrt",
+      "source_api": "tf.sqrt",
+      "direct_lead_count": 6,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0067",
+      "family": "square",
+      "source_api": "tf.square",
+      "direct_lead_count": 13,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0068",
+      "family": "tan",
+      "source_api": "tf.tan",
+      "direct_lead_count": 5,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "D0069",
+      "family": "tanh",
+      "source_api": "tf.tanh",
+      "direct_lead_count": 8,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "H001",
+      "family": "prod",
+      "source_api": "torch.prod",
+      "direct_lead_count": 7,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "H002",
+      "family": "matmul",
+      "source_api": "torch.matmul",
+      "direct_lead_count": 1,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "H003",
+      "family": "det",
+      "source_api": "torch.det",
+      "direct_lead_count": 0,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": true
+    },
+    {
+      "unit_id": "H004",
+      "family": "trace",
+      "source_api": "torch.trace",
+      "direct_lead_count": 0,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "H005",
+      "family": "cumsum",
+      "source_api": "torch.cumsum",
+      "direct_lead_count": 2,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "H006",
+      "family": "cumprod",
+      "source_api": "torch.cumprod",
+      "direct_lead_count": 2,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "H007",
+      "family": "prod",
+      "source_api": "tf.reduce_prod",
+      "direct_lead_count": 5,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "H008",
+      "family": "matmul",
+      "source_api": "tf.matmul",
+      "direct_lead_count": 0,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": true
+    },
+    {
+      "unit_id": "H009",
+      "family": "det",
+      "source_api": "tf.linalg.det",
+      "direct_lead_count": 0,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": false
+    },
+    {
+      "unit_id": "H010",
+      "family": "trace",
+      "source_api": "tf.linalg.trace",
+      "direct_lead_count": 0,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": true
+    },
+    {
+      "unit_id": "H011",
+      "family": "cumsum",
+      "source_api": "tf.cumsum",
+      "direct_lead_count": 0,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": true
+    },
+    {
+      "unit_id": "H012",
+      "family": "cumprod",
+      "source_api": "tf.math.cumprod",
+      "direct_lead_count": 0,
+      "generic_helper_count": 1,
+      "test_pair_established": false,
+      "priority": true
+    }
+  ],
+  "method": "AST exact API attribute references; generic helper leads separate",
+  "limits": "local sparse checkouts only; not a full upstream repository search; no migration provenance inferred"
+}

@@ -1,0 +1,831 @@
+{
+  "positive_class": "controlled assertion loss",
+  "samples": 9,
+  "underlying_tests": 3,
+  "development_only": true,
+  "metrics": {
+    "normal-execution": {
+      "counts": {
+        "FN": 6,
+        "TN": 3
+      },
+      "coverage": 1.0,
+      "accuracy_on_determined": 0.3333333333333333,
+      "precision": null,
+      "recall_on_determined": 0.0,
+      "end_to_end_detection_rate": 0.0,
+      "false_rejection_rate_on_determined": 0.0,
+      "f1": 0.0,
+      "rows": [
+        {
+          "sample_id": "S001",
+          "reference": "assertion-loss",
+          "prediction": "preserved",
+          "bucket": "FN"
+        },
+        {
+          "sample_id": "S002",
+          "reference": "assertion-loss",
+          "prediction": "preserved",
+          "bucket": "FN"
+        },
+        {
+          "sample_id": "S003",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "preserved",
+          "bucket": "TN"
+        },
+        {
+          "sample_id": "S004",
+          "reference": "assertion-loss",
+          "prediction": "preserved",
+          "bucket": "FN"
+        },
+        {
+          "sample_id": "S005",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "preserved",
+          "bucket": "TN"
+        },
+        {
+          "sample_id": "S006",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "preserved",
+          "bucket": "TN"
+        },
+        {
+          "sample_id": "S007",
+          "reference": "assertion-loss",
+          "prediction": "preserved",
+          "bucket": "FN"
+        },
+        {
+          "sample_id": "S008",
+          "reference": "assertion-loss",
+          "prediction": "preserved",
+          "bucket": "FN"
+        },
+        {
+          "sample_id": "S009",
+          "reference": "assertion-loss",
+          "prediction": "preserved",
+          "bucket": "FN"
+        }
+      ]
+    },
+    "assertion-present": {
+      "counts": {
+        "FN": 3,
+        "TN": 3,
+        "TP": 3
+      },
+      "coverage": 1.0,
+      "accuracy_on_determined": 0.6666666666666666,
+      "precision": 1.0,
+      "recall_on_determined": 0.5,
+      "end_to_end_detection_rate": 0.5,
+      "false_rejection_rate_on_determined": 0.0,
+      "f1": 0.6666666666666666,
+      "rows": [
+        {
+          "sample_id": "S001",
+          "reference": "assertion-loss",
+          "prediction": "preserved",
+          "bucket": "FN"
+        },
+        {
+          "sample_id": "S002",
+          "reference": "assertion-loss",
+          "prediction": "preserved",
+          "bucket": "FN"
+        },
+        {
+          "sample_id": "S003",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "preserved",
+          "bucket": "TN"
+        },
+        {
+          "sample_id": "S004",
+          "reference": "assertion-loss",
+          "prediction": "violated",
+          "bucket": "TP"
+        },
+        {
+          "sample_id": "S005",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "preserved",
+          "bucket": "TN"
+        },
+        {
+          "sample_id": "S006",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "preserved",
+          "bucket": "TN"
+        },
+        {
+          "sample_id": "S007",
+          "reference": "assertion-loss",
+          "prediction": "preserved",
+          "bucket": "FN"
+        },
+        {
+          "sample_id": "S008",
+          "reference": "assertion-loss",
+          "prediction": "violated",
+          "bucket": "TP"
+        },
+        {
+          "sample_id": "S009",
+          "reference": "assertion-loss",
+          "prediction": "violated",
+          "bucket": "TP"
+        }
+      ]
+    },
+    "nonvacuous-assertion-present": {
+      "counts": {
+        "TP": 6,
+        "TN": 3
+      },
+      "coverage": 1.0,
+      "accuracy_on_determined": 1.0,
+      "precision": 1.0,
+      "recall_on_determined": 1.0,
+      "end_to_end_detection_rate": 1.0,
+      "false_rejection_rate_on_determined": 0.0,
+      "f1": 1.0,
+      "rows": [
+        {
+          "sample_id": "S001",
+          "reference": "assertion-loss",
+          "prediction": "violated",
+          "bucket": "TP"
+        },
+        {
+          "sample_id": "S002",
+          "reference": "assertion-loss",
+          "prediction": "violated",
+          "bucket": "TP"
+        },
+        {
+          "sample_id": "S003",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "preserved",
+          "bucket": "TN"
+        },
+        {
+          "sample_id": "S004",
+          "reference": "assertion-loss",
+          "prediction": "violated",
+          "bucket": "TP"
+        },
+        {
+          "sample_id": "S005",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "preserved",
+          "bucket": "TN"
+        },
+        {
+          "sample_id": "S006",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "preserved",
+          "bucket": "TN"
+        },
+        {
+          "sample_id": "S007",
+          "reference": "assertion-loss",
+          "prediction": "violated",
+          "bucket": "TP"
+        },
+        {
+          "sample_id": "S008",
+          "reference": "assertion-loss",
+          "prediction": "violated",
+          "bucket": "TP"
+        },
+        {
+          "sample_id": "S009",
+          "reference": "assertion-loss",
+          "prediction": "violated",
+          "bucket": "TP"
+        }
+      ]
+    },
+    "operation-observation-equality": {
+      "counts": {
+        "FN": 6,
+        "TN": 3
+      },
+      "coverage": 1.0,
+      "accuracy_on_determined": 0.3333333333333333,
+      "precision": null,
+      "recall_on_determined": 0.0,
+      "end_to_end_detection_rate": 0.0,
+      "false_rejection_rate_on_determined": 0.0,
+      "f1": 0.0,
+      "rows": [
+        {
+          "sample_id": "S001",
+          "reference": "assertion-loss",
+          "prediction": "preserved",
+          "bucket": "FN"
+        },
+        {
+          "sample_id": "S002",
+          "reference": "assertion-loss",
+          "prediction": "preserved",
+          "bucket": "FN"
+        },
+        {
+          "sample_id": "S003",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "preserved",
+          "bucket": "TN"
+        },
+        {
+          "sample_id": "S004",
+          "reference": "assertion-loss",
+          "prediction": "preserved",
+          "bucket": "FN"
+        },
+        {
+          "sample_id": "S005",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "preserved",
+          "bucket": "TN"
+        },
+        {
+          "sample_id": "S006",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "preserved",
+          "bucket": "TN"
+        },
+        {
+          "sample_id": "S007",
+          "reference": "assertion-loss",
+          "prediction": "preserved",
+          "bucket": "FN"
+        },
+        {
+          "sample_id": "S008",
+          "reference": "assertion-loss",
+          "prediction": "preserved",
+          "bucket": "FN"
+        },
+        {
+          "sample_id": "S009",
+          "reference": "assertion-loss",
+          "prediction": "preserved",
+          "bucket": "FN"
+        }
+      ]
+    },
+    "cosmit-core-recorded-test-outcome-adapter": {
+      "counts": {
+        "TP": 6,
+        "TN": 3
+      },
+      "coverage": 1.0,
+      "accuracy_on_determined": 1.0,
+      "precision": 1.0,
+      "recall_on_determined": 1.0,
+      "end_to_end_detection_rate": 1.0,
+      "false_rejection_rate_on_determined": 0.0,
+      "f1": 1.0,
+      "rows": [
+        {
+          "sample_id": "S001",
+          "reference": "assertion-loss",
+          "prediction": "violated",
+          "bucket": "TP"
+        },
+        {
+          "sample_id": "S002",
+          "reference": "assertion-loss",
+          "prediction": "violated",
+          "bucket": "TP"
+        },
+        {
+          "sample_id": "S003",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "preserved",
+          "bucket": "TN"
+        },
+        {
+          "sample_id": "S004",
+          "reference": "assertion-loss",
+          "prediction": "violated",
+          "bucket": "TP"
+        },
+        {
+          "sample_id": "S005",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "preserved",
+          "bucket": "TN"
+        },
+        {
+          "sample_id": "S006",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "preserved",
+          "bucket": "TN"
+        },
+        {
+          "sample_id": "S007",
+          "reference": "assertion-loss",
+          "prediction": "violated",
+          "bucket": "TP"
+        },
+        {
+          "sample_id": "S008",
+          "reference": "assertion-loss",
+          "prediction": "violated",
+          "bucket": "TP"
+        },
+        {
+          "sample_id": "S009",
+          "reference": "assertion-loss",
+          "prediction": "violated",
+          "bucket": "TP"
+        }
+      ]
+    },
+    "direct-llm": {
+      "counts": {
+        "not-run": 9
+      },
+      "coverage": 0.0,
+      "accuracy_on_determined": null,
+      "precision": null,
+      "recall_on_determined": null,
+      "end_to_end_detection_rate": null,
+      "false_rejection_rate_on_determined": null,
+      "f1": null,
+      "rows": [
+        {
+          "sample_id": "S001",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S002",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S003",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S004",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S005",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S006",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S007",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S008",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S009",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        }
+      ]
+    },
+    "dllens-existing-comparator-port": {
+      "counts": {
+        "FN": 6,
+        "TN": 3
+      },
+      "coverage": 1.0,
+      "accuracy_on_determined": 0.3333333333333333,
+      "precision": null,
+      "recall_on_determined": 0.0,
+      "end_to_end_detection_rate": 0.0,
+      "false_rejection_rate_on_determined": 0.0,
+      "f1": 0.0,
+      "rows": [
+        {
+          "sample_id": "S001",
+          "reference": "assertion-loss",
+          "prediction": "preserved",
+          "bucket": "FN"
+        },
+        {
+          "sample_id": "S002",
+          "reference": "assertion-loss",
+          "prediction": "preserved",
+          "bucket": "FN"
+        },
+        {
+          "sample_id": "S003",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "preserved",
+          "bucket": "TN"
+        },
+        {
+          "sample_id": "S004",
+          "reference": "assertion-loss",
+          "prediction": "preserved",
+          "bucket": "FN"
+        },
+        {
+          "sample_id": "S005",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "preserved",
+          "bucket": "TN"
+        },
+        {
+          "sample_id": "S006",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "preserved",
+          "bucket": "TN"
+        },
+        {
+          "sample_id": "S007",
+          "reference": "assertion-loss",
+          "prediction": "preserved",
+          "bucket": "FN"
+        },
+        {
+          "sample_id": "S008",
+          "reference": "assertion-loss",
+          "prediction": "preserved",
+          "bucket": "FN"
+        },
+        {
+          "sample_id": "S009",
+          "reference": "assertion-loss",
+          "prediction": "preserved",
+          "bucket": "FN"
+        }
+      ]
+    },
+    "docter-constraint-port": {
+      "counts": {
+        "not-run": 9
+      },
+      "coverage": 0.0,
+      "accuracy_on_determined": null,
+      "precision": null,
+      "recall_on_determined": null,
+      "end_to_end_detection_rate": null,
+      "false_rejection_rate_on_determined": null,
+      "f1": null,
+      "rows": [
+        {
+          "sample_id": "S001",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S002",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S003",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S004",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S005",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S006",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S007",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S008",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S009",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        }
+      ]
+    },
+    "intenttester-verifier-port": {
+      "counts": {
+        "not-run": 9
+      },
+      "coverage": 0.0,
+      "accuracy_on_determined": null,
+      "precision": null,
+      "recall_on_determined": null,
+      "end_to_end_detection_rate": null,
+      "false_rejection_rate_on_determined": null,
+      "f1": null,
+      "rows": [
+        {
+          "sample_id": "S001",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S002",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S003",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S004",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S005",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S006",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S007",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S008",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S009",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        }
+      ]
+    },
+    "intenttester-target-tdl-extension": {
+      "counts": {
+        "not-run": 9
+      },
+      "coverage": 0.0,
+      "accuracy_on_determined": null,
+      "precision": null,
+      "recall_on_determined": null,
+      "end_to_end_detection_rate": null,
+      "false_rejection_rate_on_determined": null,
+      "f1": null,
+      "rows": [
+        {
+          "sample_id": "S001",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S002",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S003",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S004",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S005",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S006",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S007",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S008",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S009",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        }
+      ]
+    },
+    "trace-llm": {
+      "counts": {
+        "not-run": 9
+      },
+      "coverage": 0.0,
+      "accuracy_on_determined": null,
+      "precision": null,
+      "recall_on_determined": null,
+      "end_to_end_detection_rate": null,
+      "false_rejection_rate_on_determined": null,
+      "f1": null,
+      "rows": [
+        {
+          "sample_id": "S001",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S002",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S003",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S004",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S005",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S006",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S007",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S008",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S009",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        }
+      ]
+    },
+    "target-binding-native-api": {
+      "counts": {
+        "not-run": 9
+      },
+      "coverage": 0.0,
+      "accuracy_on_determined": null,
+      "precision": null,
+      "recall_on_determined": null,
+      "end_to_end_detection_rate": null,
+      "false_rejection_rate_on_determined": null,
+      "f1": null,
+      "rows": [
+        {
+          "sample_id": "S001",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S002",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S003",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S004",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S005",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S006",
+          "reference": "preserved-in-declared-probe-scope",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S007",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S008",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        },
+        {
+          "sample_id": "S009",
+          "reference": "assertion-loss",
+          "prediction": "not-run",
+          "bucket": "not-run"
+        }
+      ]
+    }
+  }
+}

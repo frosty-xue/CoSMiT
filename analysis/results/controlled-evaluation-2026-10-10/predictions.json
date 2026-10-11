@@ -1,0 +1,101 @@
+[
+  {
+    "sample_id": "S001",
+    "predictions": {
+      "normal-execution": "preserved",
+      "assertion-present": "preserved",
+      "nonvacuous-assertion-present": "violated",
+      "operation-observation-equality": "preserved",
+      "cosmit-core-recorded-test-outcome-adapter": "violated",
+      "direct-llm": "not-run"
+    }
+  },
+  {
+    "sample_id": "S002",
+    "predictions": {
+      "normal-execution": "preserved",
+      "assertion-present": "preserved",
+      "nonvacuous-assertion-present": "violated",
+      "operation-observation-equality": "preserved",
+      "cosmit-core-recorded-test-outcome-adapter": "violated",
+      "direct-llm": "not-run"
+    }
+  },
+  {
+    "sample_id": "S003",
+    "predictions": {
+      "normal-execution": "preserved",
+      "assertion-present": "preserved",
+      "nonvacuous-assertion-present": "preserved",
+      "operation-observation-equality": "preserved",
+      "cosmit-core-recorded-test-outcome-adapter": "preserved",
+      "direct-llm": "not-run"
+    }
+  },
+  {
+    "sample_id": "S004",
+    "predictions": {
+      "normal-execution": "preserved",
+      "assertion-present": "violated",
+      "nonvacuous-assertion-present": "violated",
+      "operation-observation-equality": "preserved",
+      "cosmit-core-recorded-test-outcome-adapter": "violated",
+      "direct-llm": "not-run"
+    }
+  },
+  {
+    "sample_id": "S005",
+    "predictions": {
+      "normal-execution": "preserved",
+      "assertion-present": "preserved",
+      "nonvacuous-assertion-present": "preserved",
+      "operation-observation-equality": "preserved",
+      "cosmit-core-recorded-test-outcome-adapter": "preserved",
+      "direct-llm": "not-run"
+    }
+  },
+  {
+    "sample_id": "S006",
+    "predictions": {
+      "normal-execution": "preserved",
+      "assertion-present": "preserved",
+      "nonvacuous-assertion-present": "preserved",
+      "operation-observation-equality": "preserved",
+      "cosmit-core-recorded-test-outcome-adapter": "preserved",
+      "direct-llm": "not-run"
+    }
+  },
+  {
+    "sample_id": "S007",
+    "predictions": {
+      "normal-execution": "preserved",
+      "assertion-present": "preserved",
+      "nonvacuous-assertion-present": "violated",
+      "operation-observation-equality": "preserved",
+      "cosmit-core-recorded-test-outcome-adapter": "violated",
+      "direct-llm": "not-run"
+    }
+  },
+  {
+    "sample_id": "S008",
+    "predictions": {
+      "normal-execution": "preserved",
+      "assertion-present": "violated",
+      "nonvacuous-assertion-present": "violated",
+      "operation-observation-equality": "preserved",
+      "cosmit-core-recorded-test-outcome-adapter": "violated",
+      "direct-llm": "not-run"
+    }
+  },
+  {
+    "sample_id": "S009",
+    "predictions": {
+      "normal-execution": "preserved",
+      "assertion-present": "violated",
+      "nonvacuous-assertion-present": "violated",
+      "operation-observation-equality": "preserved",
+      "cosmit-core-recorded-test-outcome-adapter": "violated",
+      "direct-llm": "not-run"
+    }
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "candidate_id": "E007",
+  "source_api": "torch.div",
+  "target_calls": "tf.cast, tf.divide",
+  "source": {
+    "framework": "pytorch",
+    "entry": "pytorch_call"
+  },
+  "target": {
+    "framework": "tensorflow",
+    "entry": "tensorflow_call"
+  },
+  "cohort": "expansion",
+  "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.div.json",
+  "operation_sha256": {
+    "source": "b31ca3d427f62ecba4fadd4baadb870c749117e3fe267fd5c9b7ab0d5c39dd02",
+    "target": "5d8675146746f9aa778ce35012dd241313a7504b1f4979823e1ffba131637c40"
+  },
+  "test_pair_available": true,
+  "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+}

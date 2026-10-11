@@ -1,0 +1,21 @@
+{
+  "candidate_id": "D0027",
+  "source_api": "torch.tanh",
+  "target_calls": "tf.tanh",
+  "source": {
+    "framework": "pytorch",
+    "entry": "pytorch_call"
+  },
+  "target": {
+    "framework": "tensorflow",
+    "entry": "tensorflow_call"
+  },
+  "cohort": "discovery",
+  "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.tanh.json",
+  "operation_sha256": {
+    "source": "0ecefee020999255930ec9aaa161092b6d89c9612fa01fd254b20c60df4f9fed",
+    "target": "966e358e965d9e979cfb6d1d2060db9c533920d53a35605bb77c3cc750ecffac"
+  },
+  "test_pair_available": false,
+  "test_pair_origin": null
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "framework": "pytorch",
+    "file": "shared/source-search/pytorch/test/test_unary_ufuncs.py",
+    "class": "TestUnaryUfuncs",
+    "method": "test_log1p_complex",
+    "start": 1181,
+    "end": 1233,
+    "commit": "d38164a545b4a4e4e0cf73ce67173f70574890b6",
+    "matched_symbols": [
+      "torch.log1p"
+    ]
+  }
+]

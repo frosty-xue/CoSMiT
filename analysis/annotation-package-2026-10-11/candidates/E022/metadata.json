@@ -1,0 +1,21 @@
+{
+  "candidate_id": "E022",
+  "source_api": "tf.squeeze",
+  "target_calls": "input.squeeze",
+  "source": {
+    "framework": "tensorflow",
+    "entry": "tensorflow_call"
+  },
+  "target": {
+    "framework": "pytorch",
+    "entry": "pytorch_call"
+  },
+  "cohort": "expansion",
+  "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.squeeze.json",
+  "operation_sha256": {
+    "source": "e8e0586821bb6db2ca632d766d89b4d99ab45ac4fdcc2693e3dcd16a88804673",
+    "target": "5d9aefa2ba18eb57709398ecd1a50b494dfea2ea8be687d0f070f6e51669b71c"
+  },
+  "test_pair_available": true,
+  "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+}

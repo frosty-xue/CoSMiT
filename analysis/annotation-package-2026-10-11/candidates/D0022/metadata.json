@@ -1,0 +1,21 @@
+{
+  "candidate_id": "D0022",
+  "source_api": "torch.sin",
+  "target_calls": "tf.sin",
+  "source": {
+    "framework": "pytorch",
+    "entry": "pytorch_call"
+  },
+  "target": {
+    "framework": "tensorflow",
+    "entry": "tensorflow_call"
+  },
+  "cohort": "discovery",
+  "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.sin.json",
+  "operation_sha256": {
+    "source": "e6c50f52c05432ca9d199de561cb155be93e84a817dab192851514870cdc2424",
+    "target": "3b9d0b171763f08a6a3199781027e48edb5ea7f1f46eaae03adf2b2d705bfba2"
+  },
+  "test_pair_available": false,
+  "test_pair_origin": null
+}

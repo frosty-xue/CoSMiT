@@ -1,0 +1,81 @@
+{
+  "unit_id": "E024",
+  "family": "expand_dims",
+  "cohort": "expansion",
+  "provenance": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.expand_dims.json",
+  "behavior": {
+    "status": "supported-on-qualified-inputs",
+    "scope": "recorded inputs and registered contract only",
+    "inputs": "units/E024/behavior-inputs.json"
+  },
+  "test": {
+    "origin": "newly constructed operation substitution; not historical migrated test",
+    "source_file": "units/E024/source-test.py",
+    "target_file": "units/E024/target-test.py",
+    "registration": {
+      "case_id": "E024",
+      "status": "registered",
+      "file": "upstream/tf_shape.py",
+      "class": "ShapeOpsTest",
+      "methods": [
+        {
+          "method": "testExpandDimsDimType",
+          "start": 287,
+          "end": 295,
+          "decorators": []
+        }
+      ],
+      "entry": "testExpandDimsDimType",
+      "paths": [
+        "array_ops.expand_dims"
+      ],
+      "kind": "complete-upstream-method-bodies",
+      "parameters": "original method inputs; CPU eager; device/dtype parameter fixed where required; decorator variants excluded",
+      "source_framework": "tensorflow",
+      "scope": "new operation-substitution candidates; common source-framework harness; no external migration-quality claim",
+      "assertion_expressions_exact": true,
+      "source_hash": "00c67b5ef2fdb9370bef12b74a455d48499ea834c35d323242942d02d4e8dda6",
+      "target_hash": "8576c3e8b9b2e702ee58d6f95f29e70b99bd1a44ffac115aa335bd3db9a1b3c8"
+    },
+    "upstream_snapshot": "shared/registered-upstream/tf_shape.py",
+    "upstream_provenance": "shared/registered-upstream-provenance.json",
+    "input_scope": "units/E024/test-input-scope.json",
+    "records": "units/E024/test-records.json",
+    "runner": "shared/retained-runner.py",
+    "obligations": [
+      "axis=0 扩维结果的值与形状",
+      "原方法的 axis int32/int64 张量参数兼容性"
+    ],
+    "scope_gaps": [
+      "适配器将轴张量转为 Python int，目标原生轴 dtype 兼容性未验证",
+      "仅限 axis=0 与长度2零向量"
+    ],
+    "review_category": "bounded-value-shape-reference-candidate",
+    "scenarios": [
+      {
+        "scenario": null,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true
+  },
+  "source_test_leads": [],
+  "reference_label": null,
+  "formal_intent_accuracy_eligible": false,
+  "missing": [
+    "独立限域参照标签",
+    "方法共同运行覆盖",
+    "原生类型/布局/别名等未覆盖义务不得默认为保持"
+  ],
+  "operation_files": {
+    "source": "units/E024/source-operation.py",
+    "target": "units/E024/target-operation.py"
+  },
+  "readiness": "constructed-test-evidence-packaged"
+}

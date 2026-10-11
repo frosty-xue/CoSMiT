@@ -1,0 +1,291 @@
+{
+  "unit_id": "D0011",
+  "family": "exp",
+  "cohort": "discovery",
+  "provenance": "F:\\codes\\python\\DLLens\\data\\working_dir\\rq1\\dllens\\pytorch\\counterparts\\torch.exp.json",
+  "behavior": {
+    "status": "supported-on-tested-inputs",
+    "scope": "recorded inputs and registered contract only",
+    "inputs": "units/D0011/behavior-inputs.json",
+    "contract": "units/D0011/behavior-contract.json"
+  },
+  "test": null,
+  "source_test_leads": [
+    {
+      "framework": "pytorch",
+      "file": "shared/source-search/pytorch/test/test_binary_ufuncs.py",
+      "class": "TestBinaryUfuncs",
+      "method": "test_out_resize_warning",
+      "start": 1165,
+      "end": 1198,
+      "assertions": [
+        {
+          "line": 1181,
+          "expression": "self.assertEqual(len(w), 0)"
+        },
+        {
+          "line": 1185,
+          "expression": "self.assertEqual(len(w), 1)"
+        },
+        {
+          "line": 1198,
+          "expression": "self.assertEqual(len(w), 1)"
+        }
+      ],
+      "helper_dependencies": [],
+      "commit": "d38164a545b4a4e4e0cf73ce67173f70574890b6",
+      "matched_symbols": [
+        "torch.exp"
+      ],
+      "status": "syntactic lead; obligation, input-domain and helper closure not yet reviewed"
+    },
+    {
+      "framework": "pytorch",
+      "file": "shared/source-search/pytorch/test/test_nn.py",
+      "class": "TestNN",
+      "method": "test_adaptive_log_softmax",
+      "start": 7105,
+      "end": 7203,
+      "assertions": [
+        {
+          "line": 7141,
+          "expression": "self.assertEqual(asfm.head.weight.size(), (5 + 3, 16))"
+        },
+        {
+          "line": 7142,
+          "expression": "self.assertEqual(asfm.tail[0][1].weight.size(), (5, 8))"
+        },
+        {
+          "line": 7143,
+          "expression": "self.assertEqual(asfm.tail[1][1].weight.size(), (5, 4))"
+        },
+        {
+          "line": 7144,
+          "expression": "self.assertEqual(asfm.tail[2][1].weight.size(), (5, 2))"
+        },
+        {
+          "line": 7145,
+          "expression": "self.assertEqual(asfm(x, y).output.size(), (2,))"
+        },
+        {
+          "line": 7153,
+          "expression": "self.assertEqual(asfm(x, y).output.squeeze(0), asfm(x2, y2).output)"
+        },
+        {
+          "line": 7160,
+          "expression": "self.assertEqual(torch.exp(logprob_out).data.sum(1), torch.ones(4))"
+        },
+        {
+          "line": 7180,
+          "expression": "self.assertEqual(out, asfm.log_prob(x).argmax(dim=1))"
+        },
+        {
+          "line": 7189,
+          "expression": "self.assertEqual(out, asfm.log_prob(x).argmax(dim=1))"
+        },
+        {
+          "line": 7203,
+          "expression": "self.assertEqual(out, asfm.log_prob(x).argmax(dim=1))"
+        },
+        {
+          "line": 7107,
+          "expression": "self.assertRaises(ValueError)"
+        },
+        {
+          "line": 7110,
+          "expression": "self.assertRaises(ValueError)"
+        },
+        {
+          "line": 7113,
+          "expression": "self.assertRaises(ValueError)"
+        },
+        {
+          "line": 7116,
+          "expression": "self.assertRaisesRegex(ValueError, 'cutoffs should be a sequence of unique,')"
+        },
+        {
+          "line": 7123,
+          "expression": "self.assertRaisesRegex(RuntimeError, 'Input and target should have the same size')"
+        },
+        {
+          "line": 7130,
+          "expression": "self.assertRaisesRegex(RuntimeError, 'Target values should be in')"
+        },
+        {
+          "line": 7167,
+          "expression": "self.assertEqual(out, logprob_out.gather(1, y.unsqueeze(1)).squeeze())"
+        },
+        {
+          "line": 7168,
+          "expression": "self.assertEqual(loss, F.nll_loss(logprob_out, y))"
+        }
+      ],
+      "helper_dependencies": [],
+      "commit": "d38164a545b4a4e4e0cf73ce67173f70574890b6",
+      "matched_symbols": [
+        "torch.exp"
+      ],
+      "status": "syntactic lead; obligation, input-domain and helper closure not yet reviewed"
+    },
+    {
+      "framework": "pytorch",
+      "file": "shared/source-search/pytorch/test/test_nn.py",
+      "class": "TestNNDeviceType",
+      "method": "test_masked_softmax_mask_types",
+      "start": 10426,
+      "end": 10478,
+      "assertions": [
+        {
+          "line": 10474,
+          "expression": "self.assertEqual(pt_res.masked_fill(mask_out, 0), native_res.masked_fill(mask_out, 0), exact_dtype=True)"
+        }
+      ],
+      "helper_dependencies": [],
+      "commit": "d38164a545b4a4e4e0cf73ce67173f70574890b6",
+      "matched_symbols": [
+        "torch.exp"
+      ],
+      "status": "syntactic lead; obligation, input-domain and helper closure not yet reviewed"
+    },
+    {
+      "framework": "pytorch",
+      "file": "shared/source-search/pytorch/test/test_nn.py",
+      "class": "TestNNDeviceType",
+      "method": "test_masked_softmax",
+      "start": 10523,
+      "end": 10554,
+      "assertions": [
+        {
+          "line": 10550,
+          "expression": "self.assertEqual(pt_res.masked_fill(mask_out, 0), native_res.masked_fill(mask_out, 0), exact_dtype=True)"
+        }
+      ],
+      "helper_dependencies": [],
+      "commit": "d38164a545b4a4e4e0cf73ce67173f70574890b6",
+      "matched_symbols": [
+        "torch.exp"
+      ],
+      "status": "syntactic lead; obligation, input-domain and helper closure not yet reviewed"
+    },
+    {
+      "framework": "pytorch",
+      "file": "shared/source-search/pytorch/test/test_unary_ufuncs.py",
+      "class": "TestUnaryUfuncs",
+      "method": "test_exp_slow",
+      "start": 982,
+      "end": 988,
+      "assertions": [
+        {
+          "line": 988,
+          "expression": "self.assertEqual(a, b.expand(2 ** 31))"
+        }
+      ],
+      "helper_dependencies": [],
+      "commit": "d38164a545b4a4e4e0cf73ce67173f70574890b6",
+      "matched_symbols": [
+        "torch.exp"
+      ],
+      "status": "syntactic lead; obligation, input-domain and helper closure not yet reviewed"
+    },
+    {
+      "framework": "pytorch",
+      "file": "shared/source-search/pytorch/test/test_unary_ufuncs.py",
+      "class": "TestUnaryUfuncs",
+      "method": "test_exp",
+      "start": 1757,
+      "end": 1837,
+      "assertions": [
+        {
+          "line": 1776,
+          "expression": "self.assertTrue(math.isinf(inf_real_zero_imag_out.real))"
+        },
+        {
+          "line": 1795,
+          "expression": "self.assertTrue(math.isnan(zero_real_inf_imag_out.real))"
+        },
+        {
+          "line": 1796,
+          "expression": "self.assertTrue(math.isnan(zero_real_inf_imag_out.imag))"
+        },
+        {
+          "line": 1834,
+          "expression": "self.assertTrue(math.isnan(nan_real_inf_imag_out.real))"
+        },
+        {
+          "line": 1835,
+          "expression": "self.assertTrue(math.isnan(nan_real_inf_imag_out.imag))"
+        },
+        {
+          "line": 1788,
+          "expression": "self.assertEqual(inf_real_zero_imag_out.imag, 0, atol=0, rtol=0)"
+        },
+        {
+          "line": 1811,
+          "expression": "self.assertTrue(math.isinf(inf_real_imag_out.real))"
+        },
+        {
+          "line": 1812,
+          "expression": "self.assertTrue(math.isnan(inf_real_imag_out.imag))"
+        },
+        {
+          "line": 1826,
+          "expression": "self.assertTrue(math.isinf(inf_real_nan_imag_out.real))"
+        },
+        {
+          "line": 1827,
+          "expression": "self.assertTrue(math.isnan(inf_real_nan_imag_out.imag))"
+        }
+      ],
+      "helper_dependencies": [],
+      "commit": "d38164a545b4a4e4e0cf73ce67173f70574890b6",
+      "matched_symbols": [
+        "torch.exp"
+      ],
+      "status": "syntactic lead; obligation, input-domain and helper closure not yet reviewed"
+    }
+  ],
+  "reference_label": null,
+  "formal_intent_accuracy_eligible": false,
+  "missing": [
+    "来源可追溯的迁移测试及断言",
+    "上游方法义务与当前输入域的语义匹配",
+    "上游快照与运行版本对齐",
+    "输入生成器及helper依赖闭合",
+    "独立限域参照标签"
+  ],
+  "operation_files": {
+    "source": "units/D0011/source-operation.py",
+    "target": "units/D0011/target-operation.py"
+  },
+  "generic_helper_leads": [
+    {
+      "framework": "pytorch",
+      "file": "shared/source-search/pytorch/test/test_unary_ufuncs.py",
+      "class": "TestUnaryUfuncs",
+      "method": "_test_reference_numerics",
+      "start": 185,
+      "end": 268,
+      "assertions": [
+        {
+          "line": 197,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, exact_dtype=exact_dtype, rtol=0.001, atol=0.01)"
+        },
+        {
+          "line": 208,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, exact_dtype=exact_dtype, rtol=0.016, atol=1e-05)"
+        },
+        {
+          "line": 218,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, exact_dtype=exact_dtype, rtol=0.0012, atol=0.001)"
+        },
+        {
+          "line": 228,
+          "expression": "self.assertEqualHelper(actual, expected, msg, dtype=dtype, equal_nan=equal_nan, exact_dtype=exact_dtype)"
+        }
+      ],
+      "helper_dependencies": [],
+      "commit": "d38164a545b4a4e4e0cf73ce67173f70574890b6"
+    }
+  ],
+  "readiness": "behavior-only-with-source-test-leads"
+}

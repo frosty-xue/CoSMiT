@@ -1,0 +1,21 @@
+{
+  "candidate_id": "D0058",
+  "source_api": "tf.math.tan",
+  "target_calls": "torch.tan",
+  "source": {
+    "framework": "tensorflow",
+    "entry": "tensorflow_call"
+  },
+  "target": {
+    "framework": "pytorch",
+    "entry": "pytorch_call"
+  },
+  "cohort": "discovery",
+  "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.tan.json",
+  "operation_sha256": {
+    "source": "a70f548d72c798dec6646ab6ed85c0dd80dfee499a7660a8958510a803840d1b",
+    "target": "52e99f249fbb980a69f47b69388351e893f2739ad83c4c14cbdd9c6c01d6bcad"
+  },
+  "test_pair_available": false,
+  "test_pair_origin": null
+}

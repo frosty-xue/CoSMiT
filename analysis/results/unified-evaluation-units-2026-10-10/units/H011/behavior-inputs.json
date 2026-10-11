@@ -1,0 +1,1810 @@
+[
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          0.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 0
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          1.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -3.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -3.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -2
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          1.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 0
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -2.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          2.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -1.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -2
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 0
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -3.0,
+          3.0
+        ],
+        [
+          -3.0,
+          3.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -3.0,
+          -2.0
+        ],
+        [
+          -1.0,
+          0.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -2
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          -1.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 0
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -1.0,
+          -2.0
+        ],
+        [
+          -1.0,
+          1.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -2.0,
+          -2.0
+        ],
+        [
+          2.0,
+          0.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          2.0,
+          0.0
+        ],
+        [
+          -3.0,
+          1.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -2
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 0
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -3.0,
+          3.0,
+          -3.0
+        ],
+        [
+          3.0,
+          -3.0,
+          3.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -3.0,
+          -2.0,
+          -1.0
+        ],
+        [
+          0.0,
+          1.0,
+          2.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -2
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          3.0,
+          -2.0,
+          -3.0
+        ],
+        [
+          1.0,
+          -3.0,
+          3.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 0
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -2.0,
+          1.0,
+          -1.0
+        ],
+        [
+          -2.0,
+          3.0,
+          0.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          2.0,
+          -2.0,
+          -3.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          1.0,
+          -2.0,
+          1.0
+        ],
+        [
+          1.0,
+          -2.0,
+          0.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -2
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 0
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -3.0,
+          3.0
+        ],
+        [
+          -3.0,
+          3.0
+        ],
+        [
+          -3.0,
+          3.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -3.0,
+          -2.0
+        ],
+        [
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          2.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -2
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          -1.0,
+          -2.0
+        ],
+        [
+          2.0,
+          -3.0
+        ],
+        [
+          2.0,
+          2.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 0
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          2.0,
+          -3.0
+        ],
+        [
+          -2.0,
+          0.0
+        ],
+        [
+          1.0,
+          3.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          1.0,
+          -1.0
+        ],
+        [
+          3.0,
+          1.0
+        ],
+        [
+          -3.0,
+          -1.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float32",
+      "values": [
+        [
+          2.0,
+          -3.0
+        ],
+        [
+          -3.0,
+          -2.0
+        ],
+        [
+          -2.0,
+          -1.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -2
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          0.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 0
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          1.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -3.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -3.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -2
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          2.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 0
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          2.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          0.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          0.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -2
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 0
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -3.0,
+          3.0
+        ],
+        [
+          -3.0,
+          3.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -3.0,
+          -2.0
+        ],
+        [
+          -1.0,
+          0.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -2
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          2.0,
+          -3.0
+        ],
+        [
+          3.0,
+          -1.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 0
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          1.0,
+          2.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -1.0,
+          -3.0
+        ],
+        [
+          -3.0,
+          -3.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          2.0,
+          -1.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -2
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 0
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -3.0,
+          3.0,
+          -3.0
+        ],
+        [
+          3.0,
+          -3.0,
+          3.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -3.0,
+          -2.0,
+          -1.0
+        ],
+        [
+          0.0,
+          1.0,
+          2.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -2
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -3.0,
+          2.0,
+          2.0
+        ],
+        [
+          1.0,
+          2.0,
+          -1.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 0
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -3.0,
+          3.0,
+          3.0
+        ],
+        [
+          -1.0,
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          2.0,
+          1.0,
+          -3.0
+        ],
+        [
+          0.0,
+          2.0,
+          1.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -2.0,
+          0.0,
+          0.0
+        ],
+        [
+          -1.0,
+          -1.0,
+          -3.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -2
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 0
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -3.0,
+          3.0
+        ],
+        [
+          -3.0,
+          3.0
+        ],
+        [
+          -3.0,
+          3.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -3.0,
+          -2.0
+        ],
+        [
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          2.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -2
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          2.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 0
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          -3.0
+        ],
+        [
+          -2.0,
+          3.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": 1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          -3.0,
+          3.0
+        ],
+        [
+          -1.0,
+          -2.0
+        ],
+        [
+          -1.0,
+          -2.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -1
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  },
+  {
+    "x": {
+      "kind": "tensor",
+      "dtype": "float64",
+      "values": [
+        [
+          3.0,
+          -3.0
+        ],
+        [
+          -2.0,
+          0.0
+        ],
+        [
+          -2.0,
+          0.0
+        ]
+      ]
+    },
+    "axis": {
+      "kind": "literal",
+      "value": -2
+    },
+    "exclusive": {
+      "kind": "literal",
+      "value": false
+    },
+    "reverse": {
+      "kind": "literal",
+      "value": false
+    }
+  }
+]

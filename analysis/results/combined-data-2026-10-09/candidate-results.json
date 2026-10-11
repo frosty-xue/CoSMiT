@@ -1,0 +1,926 @@
+[
+  {
+    "case_id": "D0001",
+    "batch": "initial",
+    "family": "abs",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.abs.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0002",
+    "batch": "initial",
+    "family": "acos",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.acos.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0003",
+    "batch": "initial",
+    "family": "acos",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.arccos.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0004",
+    "batch": "initial",
+    "family": "asin",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.arcsin.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0005",
+    "batch": "initial",
+    "family": "atan",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.arctan.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0006",
+    "batch": "initial",
+    "family": "asin",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.asin.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0007",
+    "batch": "initial",
+    "family": "atan",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.atan.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0008",
+    "batch": "initial",
+    "family": "ceil",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.ceil.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0009",
+    "batch": "initial",
+    "family": "cos",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.cos.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0010",
+    "batch": "initial",
+    "family": "cosh",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.cosh.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0011",
+    "batch": "initial",
+    "family": "exp",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.exp.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0012",
+    "batch": "initial",
+    "family": "expm1",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.expm1.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0013",
+    "batch": "initial",
+    "family": "floor",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.floor.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0014",
+    "batch": "initial",
+    "family": "log",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.log.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0015",
+    "batch": "initial",
+    "family": "log1p",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.log1p.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0016",
+    "batch": "initial",
+    "family": "neg",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.neg.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0017",
+    "batch": "initial",
+    "family": "neg",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.negative.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0018",
+    "batch": "initial",
+    "family": "reciprocal",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.reciprocal.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0019",
+    "batch": "initial",
+    "family": "round",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.round.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0020",
+    "batch": "initial",
+    "family": "sigmoid",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.sigmoid.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0021",
+    "batch": "initial",
+    "family": "sign",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.sign.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0022",
+    "batch": "initial",
+    "family": "sin",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.sin.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0023",
+    "batch": "initial",
+    "family": "sinh",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.sinh.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0024",
+    "batch": "initial",
+    "family": "sqrt",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.sqrt.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0025",
+    "batch": "initial",
+    "family": "square",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.square.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0026",
+    "batch": "initial",
+    "family": "tan",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.tan.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0027",
+    "batch": "initial",
+    "family": "tanh",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.tanh.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0029",
+    "batch": "initial",
+    "family": "abs",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.abs.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0030",
+    "batch": "initial",
+    "family": "acos",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.acos.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0031",
+    "batch": "initial",
+    "family": "asin",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.asin.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0032",
+    "batch": "initial",
+    "family": "atan",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.atan.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0033",
+    "batch": "initial",
+    "family": "cos",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.cos.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0034",
+    "batch": "initial",
+    "family": "cosh",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.cosh.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0035",
+    "batch": "initial",
+    "family": "exp",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.exp.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0036",
+    "batch": "initial",
+    "family": "floor",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.floor.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0037",
+    "batch": "initial",
+    "family": "abs",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.abs.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0038",
+    "batch": "initial",
+    "family": "acos",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.acos.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0039",
+    "batch": "initial",
+    "family": "asin",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.asin.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0040",
+    "batch": "initial",
+    "family": "atan",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.atan.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0041",
+    "batch": "initial",
+    "family": "ceil",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.ceil.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0042",
+    "batch": "initial",
+    "family": "cos",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.cos.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0043",
+    "batch": "initial",
+    "family": "cosh",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.cosh.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0044",
+    "batch": "initial",
+    "family": "exp",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.exp.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0045",
+    "batch": "initial",
+    "family": "expm1",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.expm1.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0046",
+    "batch": "initial",
+    "family": "floor",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.floor.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0047",
+    "batch": "initial",
+    "family": "log",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.log.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0048",
+    "batch": "initial",
+    "family": "log1p",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.log1p.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0049",
+    "batch": "initial",
+    "family": "neg",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.negative.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0050",
+    "batch": "initial",
+    "family": "reciprocal",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.reciprocal.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0051",
+    "batch": "initial",
+    "family": "round",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.round.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0052",
+    "batch": "initial",
+    "family": "sigmoid",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.sigmoid.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0053",
+    "batch": "initial",
+    "family": "sign",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.sign.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0054",
+    "batch": "initial",
+    "family": "sin",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.sin.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0055",
+    "batch": "initial",
+    "family": "sinh",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.sinh.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0056",
+    "batch": "initial",
+    "family": "sqrt",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.sqrt.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0057",
+    "batch": "initial",
+    "family": "square",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.square.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0058",
+    "batch": "initial",
+    "family": "tan",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.tan.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0059",
+    "batch": "initial",
+    "family": "tanh",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.tanh.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0060",
+    "batch": "initial",
+    "family": "neg",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.negative.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0061",
+    "batch": "initial",
+    "family": "round",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.round.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0062",
+    "batch": "initial",
+    "family": "sigmoid",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.sigmoid.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0063",
+    "batch": "initial",
+    "family": "sign",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.sign.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0064",
+    "batch": "initial",
+    "family": "sin",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.sin.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0065",
+    "batch": "initial",
+    "family": "sinh",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.sinh.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0066",
+    "batch": "initial",
+    "family": "sqrt",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.sqrt.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0067",
+    "batch": "initial",
+    "family": "square",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.square.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0068",
+    "batch": "initial",
+    "family": "tan",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.tan.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "D0069",
+    "batch": "initial",
+    "family": "tanh",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.tanh.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "H001",
+    "batch": "initial",
+    "family": "prod",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.prod.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "H002",
+    "batch": "initial",
+    "family": "matmul",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.matmul.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "H003",
+    "batch": "initial",
+    "family": "det",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.det.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "H004",
+    "batch": "initial",
+    "family": "trace",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.trace.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "H005",
+    "batch": "initial",
+    "family": "cumsum",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.cumsum.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "H006",
+    "batch": "initial",
+    "family": "cumprod",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.cumprod.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "H007",
+    "batch": "initial",
+    "family": "prod",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.reduce_prod.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "H008",
+    "batch": "initial",
+    "family": "matmul",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.matmul.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "H009",
+    "batch": "initial",
+    "family": "det",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.linalg.det.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "H010",
+    "batch": "initial",
+    "family": "trace",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.linalg.trace.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "H011",
+    "batch": "initial",
+    "family": "cumsum",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.cumsum.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "H012",
+    "batch": "initial",
+    "family": "cumprod",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.cumprod.json",
+    "status": "supported_in_registered_scope"
+  },
+  {
+    "case_id": "E001",
+    "family": "add",
+    "status": "supported-on-qualified-inputs",
+    "qualified_inputs": 64,
+    "source_unqualified_inputs": 0,
+    "outcomes": {
+      "supported": 64
+    },
+    "batch": "expansion",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.add.json"
+  },
+  {
+    "case_id": "E002",
+    "family": "add",
+    "status": "supported-on-qualified-inputs",
+    "qualified_inputs": 64,
+    "source_unqualified_inputs": 0,
+    "outcomes": {
+      "supported": 64
+    },
+    "batch": "expansion",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.add.json"
+  },
+  {
+    "case_id": "E003",
+    "family": "subtract",
+    "status": "supported-on-qualified-inputs",
+    "qualified_inputs": 64,
+    "source_unqualified_inputs": 0,
+    "outcomes": {
+      "supported": 64
+    },
+    "batch": "expansion",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.sub.json"
+  },
+  {
+    "case_id": "E004",
+    "family": "subtract",
+    "status": "supported-on-qualified-inputs",
+    "qualified_inputs": 64,
+    "source_unqualified_inputs": 0,
+    "outcomes": {
+      "supported": 64
+    },
+    "batch": "expansion",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.subtract.json"
+  },
+  {
+    "case_id": "E005",
+    "family": "multiply",
+    "status": "supported-on-qualified-inputs",
+    "qualified_inputs": 64,
+    "source_unqualified_inputs": 0,
+    "outcomes": {
+      "supported": 64
+    },
+    "batch": "expansion",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.mul.json"
+  },
+  {
+    "case_id": "E006",
+    "family": "multiply",
+    "status": "supported-on-qualified-inputs",
+    "qualified_inputs": 64,
+    "source_unqualified_inputs": 0,
+    "outcomes": {
+      "supported": 64
+    },
+    "batch": "expansion",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.multiply.json"
+  },
+  {
+    "case_id": "E007",
+    "family": "divide",
+    "status": "supported-on-qualified-inputs",
+    "qualified_inputs": 64,
+    "source_unqualified_inputs": 0,
+    "outcomes": {
+      "supported": 64
+    },
+    "batch": "expansion",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.div.json"
+  },
+  {
+    "case_id": "E008",
+    "family": "divide",
+    "status": "supported-on-qualified-inputs",
+    "qualified_inputs": 64,
+    "source_unqualified_inputs": 0,
+    "outcomes": {
+      "supported": 64
+    },
+    "batch": "expansion",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.divide.json"
+  },
+  {
+    "case_id": "E009",
+    "family": "maximum",
+    "status": "supported-on-qualified-inputs",
+    "qualified_inputs": 64,
+    "source_unqualified_inputs": 0,
+    "outcomes": {
+      "supported": 64
+    },
+    "batch": "expansion",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.maximum.json"
+  },
+  {
+    "case_id": "E010",
+    "family": "maximum",
+    "status": "supported-on-qualified-inputs",
+    "qualified_inputs": 64,
+    "source_unqualified_inputs": 0,
+    "outcomes": {
+      "supported": 64
+    },
+    "batch": "expansion",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.maximum.json"
+  },
+  {
+    "case_id": "E011",
+    "family": "minimum",
+    "status": "supported-on-qualified-inputs",
+    "qualified_inputs": 64,
+    "source_unqualified_inputs": 0,
+    "outcomes": {
+      "supported": 64
+    },
+    "batch": "expansion",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.minimum.json"
+  },
+  {
+    "case_id": "E012",
+    "family": "minimum",
+    "status": "supported-on-qualified-inputs",
+    "qualified_inputs": 64,
+    "source_unqualified_inputs": 0,
+    "outcomes": {
+      "supported": 64
+    },
+    "batch": "expansion",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.minimum.json"
+  },
+  {
+    "case_id": "E013",
+    "family": "power",
+    "status": "supported-on-qualified-inputs",
+    "qualified_inputs": 64,
+    "source_unqualified_inputs": 0,
+    "outcomes": {
+      "supported": 64
+    },
+    "batch": "expansion",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.pow.json"
+  },
+  {
+    "case_id": "E014",
+    "family": "power",
+    "status": "supported-on-qualified-inputs",
+    "qualified_inputs": 64,
+    "source_unqualified_inputs": 0,
+    "outcomes": {
+      "supported": 64
+    },
+    "batch": "expansion",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.pow.json"
+  },
+  {
+    "case_id": "E015",
+    "family": "atan2",
+    "status": "supported-on-qualified-inputs",
+    "qualified_inputs": 64,
+    "source_unqualified_inputs": 0,
+    "outcomes": {
+      "supported": 64
+    },
+    "batch": "expansion",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.atan2.json"
+  },
+  {
+    "case_id": "E016",
+    "family": "atan2",
+    "status": "supported-on-qualified-inputs",
+    "qualified_inputs": 64,
+    "source_unqualified_inputs": 0,
+    "outcomes": {
+      "supported": 64
+    },
+    "batch": "expansion",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.atan2.json"
+  },
+  {
+    "case_id": "E017",
+    "family": "reshape",
+    "status": "supported-on-qualified-inputs",
+    "qualified_inputs": 64,
+    "source_unqualified_inputs": 0,
+    "outcomes": {
+      "supported": 64
+    },
+    "batch": "expansion",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.reshape.json"
+  },
+  {
+    "case_id": "E018",
+    "family": "reshape",
+    "status": "supported-on-qualified-inputs",
+    "qualified_inputs": 64,
+    "source_unqualified_inputs": 0,
+    "outcomes": {
+      "supported": 64
+    },
+    "batch": "expansion",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.reshape.json"
+  },
+  {
+    "case_id": "E019",
+    "family": "transpose",
+    "status": "supported-on-qualified-inputs",
+    "qualified_inputs": 64,
+    "source_unqualified_inputs": 0,
+    "outcomes": {
+      "supported": 64
+    },
+    "batch": "expansion",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.transpose.json"
+  },
+  {
+    "case_id": "E020",
+    "family": "transpose",
+    "status": "discrepancy-replayed",
+    "qualified_inputs": 64,
+    "source_unqualified_inputs": 0,
+    "outcomes": {
+      "supported": 48,
+      "target-exception": 16
+    },
+    "batch": "expansion",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.transpose.json"
+  },
+  {
+    "case_id": "E021",
+    "family": "squeeze",
+    "status": "undetermined-binding",
+    "qualified_inputs": 48,
+    "source_unqualified_inputs": 16,
+    "outcomes": {
+      "supported": 32,
+      "unbound": 16
+    },
+    "batch": "expansion",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.squeeze.json"
+  },
+  {
+    "case_id": "E022",
+    "family": "squeeze",
+    "status": "supported-on-qualified-inputs",
+    "qualified_inputs": 64,
+    "source_unqualified_inputs": 0,
+    "outcomes": {
+      "supported": 64
+    },
+    "batch": "expansion",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.squeeze.json"
+  },
+  {
+    "case_id": "E023",
+    "family": "expand_dims",
+    "status": "supported-on-qualified-inputs",
+    "qualified_inputs": 64,
+    "source_unqualified_inputs": 0,
+    "outcomes": {
+      "supported": 64
+    },
+    "batch": "expansion",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.unsqueeze.json"
+  },
+  {
+    "case_id": "E024",
+    "family": "expand_dims",
+    "status": "supported-on-qualified-inputs",
+    "qualified_inputs": 64,
+    "source_unqualified_inputs": 0,
+    "outcomes": {
+      "supported": 64
+    },
+    "batch": "expansion",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.expand_dims.json"
+  },
+  {
+    "case_id": "E025",
+    "family": "concat",
+    "status": "supported-on-qualified-inputs",
+    "qualified_inputs": 64,
+    "source_unqualified_inputs": 0,
+    "outcomes": {
+      "supported": 64
+    },
+    "batch": "expansion",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.concat.json"
+  },
+  {
+    "case_id": "E026",
+    "family": "concat",
+    "status": "supported-on-qualified-inputs",
+    "qualified_inputs": 64,
+    "source_unqualified_inputs": 0,
+    "outcomes": {
+      "supported": 64
+    },
+    "batch": "expansion",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.concat.json"
+  },
+  {
+    "case_id": "E027",
+    "family": "stack",
+    "status": "supported-on-qualified-inputs",
+    "qualified_inputs": 64,
+    "source_unqualified_inputs": 0,
+    "outcomes": {
+      "supported": 64
+    },
+    "batch": "expansion",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.stack.json"
+  },
+  {
+    "case_id": "E028",
+    "family": "stack",
+    "status": "supported-on-qualified-inputs",
+    "qualified_inputs": 64,
+    "source_unqualified_inputs": 0,
+    "outcomes": {
+      "supported": 64
+    },
+    "batch": "expansion",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.stack.json"
+  },
+  {
+    "case_id": "E029",
+    "family": "clip",
+    "status": "discrepancy-replayed",
+    "qualified_inputs": 64,
+    "source_unqualified_inputs": 0,
+    "outcomes": {
+      "supported": 48,
+      "target-exception": 16
+    },
+    "batch": "expansion",
+    "upstream_path": "data/working_dir/rq1/dllens/pytorch/counterparts/torch.clip.json"
+  },
+  {
+    "case_id": "E030",
+    "family": "clip",
+    "status": "discrepancy-replayed",
+    "qualified_inputs": 64,
+    "source_unqualified_inputs": 0,
+    "outcomes": {
+      "behavior-difference": 16,
+      "supported": 48
+    },
+    "batch": "expansion",
+    "upstream_path": "data/working_dir/rq1/dllens/tensorflow/counterparts/tf.clip_by_value.json"
+  }
+]

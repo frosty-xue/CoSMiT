@@ -1,0 +1,773 @@
+{
+  "scope": {
+    "data": "F:\\codes\\python\\CoSMiT\\research-data\\2026-09-17",
+    "included_partitions": [
+      "discovery",
+      "unseen"
+    ],
+    "excluded_case_ids": [
+      "D0028"
+    ],
+    "excluded_controls": true,
+    "independent_gold": false
+  },
+  "integrity": {
+    "newline-normalized-match": 32,
+    "byte-match": 3
+  },
+  "executions": {
+    "discovery": {
+      "candidates": 68,
+      "families": 23,
+      "inputs": 4352,
+      "paired_executions": 13056,
+      "source_reference_supported_pairs": 13056,
+      "stable_inputs": {
+        "numerator": 4352,
+        "denominator": 4352,
+        "percent": 100.0
+      },
+      "dllens_agreement_pairs": 13056,
+      "clause_outcomes": {
+        "pass": 39168
+      },
+      "versions": {
+        "{\"numpy\": \"2.1.3\", \"tensorflow\": \"2.20.0\", \"torch\": \"2.9.1\"}": 13056
+      },
+      "direction_counts": {
+        "pytorch->tensorflow": 27,
+        "tensorflow->pytorch": 41
+      }
+    },
+    "unseen": {
+      "candidates": 12,
+      "families": 6,
+      "inputs": 768,
+      "paired_executions": 2304,
+      "source_reference_supported_pairs": 2304,
+      "stable_inputs": {
+        "numerator": 768,
+        "denominator": 768,
+        "percent": 100.0
+      },
+      "dllens_agreement_pairs": 2304,
+      "clause_outcomes": {
+        "pass": 6912
+      },
+      "versions": {
+        "{\"numpy\": \"2.1.3\", \"tensorflow\": \"2.20.0\", \"torch\": \"2.9.1\"}": 2304
+      },
+      "direction_counts": {
+        "pytorch->tensorflow": 6,
+        "tensorflow->pytorch": 6
+      }
+    }
+  },
+  "availability": {
+    "primary": {
+      "all": {
+        "all": {
+          "numerator": 239,
+          "denominator": 400,
+          "percent": 59.75
+        },
+        "direct-llm": {
+          "numerator": 12,
+          "denominator": 80,
+          "percent": 15.0
+        },
+        "trace-llm": {
+          "numerator": 0,
+          "denominator": 80,
+          "percent": 0.0
+        },
+        "intenttester-source-tdl": {
+          "numerator": 76,
+          "denominator": 80,
+          "percent": 95.0
+        },
+        "intenttester-target-api": {
+          "numerator": 75,
+          "denominator": 80,
+          "percent": 93.75
+        },
+        "intenttester-target-tdl-extension": {
+          "numerator": 76,
+          "denominator": 80,
+          "percent": 95.0
+        }
+      },
+      "discovery": {
+        "all": {
+          "numerator": 198,
+          "denominator": 340,
+          "percent": 58.2353
+        },
+        "direct-llm": {
+          "numerator": 6,
+          "denominator": 68,
+          "percent": 8.8235
+        },
+        "trace-llm": {
+          "numerator": 0,
+          "denominator": 68,
+          "percent": 0.0
+        },
+        "intenttester-source-tdl": {
+          "numerator": 64,
+          "denominator": 68,
+          "percent": 94.1176
+        },
+        "intenttester-target-api": {
+          "numerator": 64,
+          "denominator": 68,
+          "percent": 94.1176
+        },
+        "intenttester-target-tdl-extension": {
+          "numerator": 64,
+          "denominator": 68,
+          "percent": 94.1176
+        }
+      },
+      "unseen": {
+        "all": {
+          "numerator": 41,
+          "denominator": 60,
+          "percent": 68.3333
+        },
+        "direct-llm": {
+          "numerator": 6,
+          "denominator": 12,
+          "percent": 50.0
+        },
+        "trace-llm": {
+          "numerator": 0,
+          "denominator": 12,
+          "percent": 0.0
+        },
+        "intenttester-source-tdl": {
+          "numerator": 12,
+          "denominator": 12,
+          "percent": 100.0
+        },
+        "intenttester-target-api": {
+          "numerator": 11,
+          "denominator": 12,
+          "percent": 91.6667
+        },
+        "intenttester-target-tdl-extension": {
+          "numerator": 12,
+          "denominator": 12,
+          "percent": 100.0
+        }
+      }
+    },
+    "retry-view": {
+      "all": {
+        "all": {
+          "numerator": 248,
+          "denominator": 400,
+          "percent": 62.0
+        },
+        "direct-llm": {
+          "numerator": 14,
+          "denominator": 80,
+          "percent": 17.5
+        },
+        "trace-llm": {
+          "numerator": 0,
+          "denominator": 80,
+          "percent": 0.0
+        },
+        "intenttester-source-tdl": {
+          "numerator": 78,
+          "denominator": 80,
+          "percent": 97.5
+        },
+        "intenttester-target-api": {
+          "numerator": 78,
+          "denominator": 80,
+          "percent": 97.5
+        },
+        "intenttester-target-tdl-extension": {
+          "numerator": 78,
+          "denominator": 80,
+          "percent": 97.5
+        }
+      },
+      "discovery": {
+        "all": {
+          "numerator": 207,
+          "denominator": 340,
+          "percent": 60.8824
+        },
+        "direct-llm": {
+          "numerator": 8,
+          "denominator": 68,
+          "percent": 11.7647
+        },
+        "trace-llm": {
+          "numerator": 0,
+          "denominator": 68,
+          "percent": 0.0
+        },
+        "intenttester-source-tdl": {
+          "numerator": 66,
+          "denominator": 68,
+          "percent": 97.0588
+        },
+        "intenttester-target-api": {
+          "numerator": 67,
+          "denominator": 68,
+          "percent": 98.5294
+        },
+        "intenttester-target-tdl-extension": {
+          "numerator": 66,
+          "denominator": 68,
+          "percent": 97.0588
+        }
+      },
+      "unseen": {
+        "all": {
+          "numerator": 41,
+          "denominator": 60,
+          "percent": 68.3333
+        },
+        "direct-llm": {
+          "numerator": 6,
+          "denominator": 12,
+          "percent": 50.0
+        },
+        "trace-llm": {
+          "numerator": 0,
+          "denominator": 12,
+          "percent": 0.0
+        },
+        "intenttester-source-tdl": {
+          "numerator": 12,
+          "denominator": 12,
+          "percent": 100.0
+        },
+        "intenttester-target-api": {
+          "numerator": 11,
+          "denominator": 12,
+          "percent": 91.6667
+        },
+        "intenttester-target-tdl-extension": {
+          "numerator": 12,
+          "denominator": 12,
+          "percent": 100.0
+        }
+      }
+    },
+    "format-sensitivity": {
+      "all": {
+        "all": {
+          "numerator": 244,
+          "denominator": 400,
+          "percent": 61.0
+        },
+        "direct-llm": {
+          "numerator": 17,
+          "denominator": 80,
+          "percent": 21.25
+        },
+        "trace-llm": {
+          "numerator": 0,
+          "denominator": 80,
+          "percent": 0.0
+        },
+        "intenttester-source-tdl": {
+          "numerator": 76,
+          "denominator": 80,
+          "percent": 95.0
+        },
+        "intenttester-target-api": {
+          "numerator": 75,
+          "denominator": 80,
+          "percent": 93.75
+        },
+        "intenttester-target-tdl-extension": {
+          "numerator": 76,
+          "denominator": 80,
+          "percent": 95.0
+        }
+      },
+      "discovery": {
+        "all": {
+          "numerator": 203,
+          "denominator": 340,
+          "percent": 59.7059
+        },
+        "direct-llm": {
+          "numerator": 11,
+          "denominator": 68,
+          "percent": 16.1765
+        },
+        "trace-llm": {
+          "numerator": 0,
+          "denominator": 68,
+          "percent": 0.0
+        },
+        "intenttester-source-tdl": {
+          "numerator": 64,
+          "denominator": 68,
+          "percent": 94.1176
+        },
+        "intenttester-target-api": {
+          "numerator": 64,
+          "denominator": 68,
+          "percent": 94.1176
+        },
+        "intenttester-target-tdl-extension": {
+          "numerator": 64,
+          "denominator": 68,
+          "percent": 94.1176
+        }
+      },
+      "unseen": {
+        "all": {
+          "numerator": 41,
+          "denominator": 60,
+          "percent": 68.3333
+        },
+        "direct-llm": {
+          "numerator": 6,
+          "denominator": 12,
+          "percent": 50.0
+        },
+        "trace-llm": {
+          "numerator": 0,
+          "denominator": 12,
+          "percent": 0.0
+        },
+        "intenttester-source-tdl": {
+          "numerator": 12,
+          "denominator": 12,
+          "percent": 100.0
+        },
+        "intenttester-target-api": {
+          "numerator": 11,
+          "denominator": 12,
+          "percent": 91.6667
+        },
+        "intenttester-target-tdl-extension": {
+          "numerator": 12,
+          "denominator": 12,
+          "percent": 100.0
+        }
+      }
+    }
+  },
+  "methods": {
+    "primary": {
+      "all": {
+        "self-test": {
+          "passed": 80
+        },
+        "target-binding": {
+          "observed": 80
+        },
+        "dllens-port": {
+          "no-difference-on-tested-inputs": 80
+        },
+        "cosmit-registered-clauses": {
+          "supported-on-tested-inputs": 80
+        },
+        "direct-llm": {
+          "failed": 68,
+          "preserved": 11,
+          "invalid-assumption": 1
+        },
+        "trace-llm": {
+          "failed": 80
+        },
+        "intenttester-verifier-port": {
+          "accepted": 66,
+          "undetermined": 7,
+          "rejected": 7
+        },
+        "intenttester-target-tdl-extension": {
+          "accepted": 65,
+          "undetermined": 7,
+          "rejected": 8
+        }
+      },
+      "discovery": {
+        "self-test": {
+          "passed": 68
+        },
+        "target-binding": {
+          "observed": 68
+        },
+        "dllens-port": {
+          "no-difference-on-tested-inputs": 68
+        },
+        "cosmit-registered-clauses": {
+          "supported-on-tested-inputs": 68
+        },
+        "direct-llm": {
+          "failed": 62,
+          "preserved": 6
+        },
+        "trace-llm": {
+          "failed": 68
+        },
+        "intenttester-verifier-port": {
+          "accepted": 59,
+          "undetermined": 6,
+          "rejected": 3
+        },
+        "intenttester-target-tdl-extension": {
+          "accepted": 58,
+          "undetermined": 7,
+          "rejected": 3
+        }
+      },
+      "unseen": {
+        "self-test": {
+          "passed": 12
+        },
+        "target-binding": {
+          "observed": 12
+        },
+        "dllens-port": {
+          "no-difference-on-tested-inputs": 12
+        },
+        "cosmit-registered-clauses": {
+          "supported-on-tested-inputs": 12
+        },
+        "direct-llm": {
+          "preserved": 5,
+          "failed": 6,
+          "invalid-assumption": 1
+        },
+        "trace-llm": {
+          "failed": 12
+        },
+        "intenttester-verifier-port": {
+          "accepted": 7,
+          "rejected": 4,
+          "undetermined": 1
+        },
+        "intenttester-target-tdl-extension": {
+          "accepted": 7,
+          "rejected": 5
+        }
+      }
+    },
+    "retry-view": {
+      "all": {
+        "self-test": {
+          "passed": 80
+        },
+        "target-binding": {
+          "observed": 80
+        },
+        "dllens-port": {
+          "no-difference-on-tested-inputs": 80
+        },
+        "cosmit-registered-clauses": {
+          "supported-on-tested-inputs": 80
+        },
+        "direct-llm": {
+          "failed": 66,
+          "preserved": 13,
+          "invalid-assumption": 1
+        },
+        "trace-llm": {
+          "failed": 80
+        },
+        "intenttester-verifier-port": {
+          "accepted": 69,
+          "undetermined": 4,
+          "rejected": 7
+        },
+        "intenttester-target-tdl-extension": {
+          "accepted": 68,
+          "undetermined": 4,
+          "rejected": 8
+        }
+      },
+      "discovery": {
+        "self-test": {
+          "passed": 68
+        },
+        "target-binding": {
+          "observed": 68
+        },
+        "dllens-port": {
+          "no-difference-on-tested-inputs": 68
+        },
+        "cosmit-registered-clauses": {
+          "supported-on-tested-inputs": 68
+        },
+        "direct-llm": {
+          "failed": 60,
+          "preserved": 8
+        },
+        "trace-llm": {
+          "failed": 68
+        },
+        "intenttester-verifier-port": {
+          "accepted": 62,
+          "undetermined": 3,
+          "rejected": 3
+        },
+        "intenttester-target-tdl-extension": {
+          "accepted": 61,
+          "undetermined": 4,
+          "rejected": 3
+        }
+      },
+      "unseen": {
+        "self-test": {
+          "passed": 12
+        },
+        "target-binding": {
+          "observed": 12
+        },
+        "dllens-port": {
+          "no-difference-on-tested-inputs": 12
+        },
+        "cosmit-registered-clauses": {
+          "supported-on-tested-inputs": 12
+        },
+        "direct-llm": {
+          "preserved": 5,
+          "failed": 6,
+          "invalid-assumption": 1
+        },
+        "trace-llm": {
+          "failed": 12
+        },
+        "intenttester-verifier-port": {
+          "accepted": 7,
+          "rejected": 4,
+          "undetermined": 1
+        },
+        "intenttester-target-tdl-extension": {
+          "accepted": 7,
+          "rejected": 5
+        }
+      }
+    }
+  },
+  "primary_failure_types": {
+    "direct-llm": {
+      "RejectedResponse": 55,
+      "JSONDecodeError": 5,
+      "TimeoutError": 3,
+      "URLError": 5
+    },
+    "trace-llm": {
+      "RuntimeError": 75,
+      "URLError": 5
+    },
+    "intenttester-source-tdl": {
+      "URLError": 4
+    },
+    "intenttester-target-api": {
+      "URLError": 3,
+      "TimeoutError": 1,
+      "RejectedResponse": 1
+    },
+    "intenttester-target-tdl-extension": {
+      "URLError": 4
+    }
+  },
+  "cost": {
+    "primary": {
+      "physical_calls": 400,
+      "complete_usage_calls": 300,
+      "incomplete_usage_calls": 100,
+      "reported_tokens": 1696582,
+      "reported_prompt_tokens": 1121048,
+      "reported_completion_tokens": 575534,
+      "recorded_request_seconds_not_latency_or_walltime": 67538.44659512537
+    },
+    "retries": {
+      "physical_calls": 25,
+      "complete_usage_calls": 11,
+      "incomplete_usage_calls": 14,
+      "reported_tokens": 60669,
+      "reported_prompt_tokens": 40111,
+      "reported_completion_tokens": 20558,
+      "recorded_request_seconds_not_latency_or_walltime": 2320.868804916274
+    },
+    "physical_total": {
+      "physical_calls": 425,
+      "complete_usage_calls": 311,
+      "incomplete_usage_calls": 114,
+      "reported_tokens": 1757251,
+      "reported_prompt_tokens": 1161159,
+      "reported_completion_tokens": 596092,
+      "recorded_request_seconds_not_latency_or_walltime": 69859.31540004164
+    },
+    "primary_by_kind": {
+      "direct-llm": {
+        "physical_calls": 80,
+        "complete_usage_calls": 72,
+        "incomplete_usage_calls": 8,
+        "reported_tokens": 650279,
+        "reported_prompt_tokens": 371593,
+        "reported_completion_tokens": 278686,
+        "recorded_request_seconds_not_latency_or_walltime": 32045.350153502543
+      },
+      "trace-llm": {
+        "physical_calls": 80,
+        "complete_usage_calls": 0,
+        "incomplete_usage_calls": 80,
+        "reported_tokens": 0,
+        "reported_prompt_tokens": 0,
+        "reported_completion_tokens": 0,
+        "recorded_request_seconds_not_latency_or_walltime": 1036.3821792909876
+      },
+      "intenttester-source-tdl": {
+        "physical_calls": 80,
+        "complete_usage_calls": 76,
+        "incomplete_usage_calls": 4,
+        "reported_tokens": 468216,
+        "reported_prompt_tokens": 366597,
+        "reported_completion_tokens": 101619,
+        "recorded_request_seconds_not_latency_or_walltime": 11025.245423956774
+      },
+      "intenttester-target-api": {
+        "physical_calls": 80,
+        "complete_usage_calls": 76,
+        "incomplete_usage_calls": 4,
+        "reported_tokens": 111244,
+        "reported_prompt_tokens": 15837,
+        "reported_completion_tokens": 95407,
+        "recorded_request_seconds_not_latency_or_walltime": 10315.518409210257
+      },
+      "intenttester-target-tdl-extension": {
+        "physical_calls": 80,
+        "complete_usage_calls": 76,
+        "incomplete_usage_calls": 4,
+        "reported_tokens": 466843,
+        "reported_prompt_tokens": 367021,
+        "reported_completion_tokens": 99822,
+        "recorded_request_seconds_not_latency_or_walltime": 13115.950429164805
+      }
+    }
+  },
+  "negative_judgments": [
+    {
+      "case_id": "H003",
+      "kind": "intenttester-source-tdl",
+      "decision": {
+        "valid": false
+      }
+    },
+    {
+      "case_id": "H011",
+      "kind": "direct-llm",
+      "decision": {
+        "verdict": "invalid-assumption"
+      }
+    },
+    {
+      "case_id": "D0012",
+      "kind": "intenttester-target-api",
+      "decision": {
+        "valid": false
+      }
+    },
+    {
+      "case_id": "H010",
+      "kind": "intenttester-source-tdl",
+      "decision": {
+        "valid": false
+      }
+    },
+    {
+      "case_id": "D0011",
+      "kind": "intenttester-target-api",
+      "decision": {
+        "valid": false
+      }
+    },
+    {
+      "case_id": "D0030",
+      "kind": "intenttester-source-tdl",
+      "decision": {
+        "valid": false
+      }
+    },
+    {
+      "case_id": "H008",
+      "kind": "intenttester-target-api",
+      "decision": {
+        "valid": false
+      }
+    },
+    {
+      "case_id": "H011",
+      "kind": "intenttester-target-tdl-extension",
+      "decision": {
+        "valid": false
+      }
+    },
+    {
+      "case_id": "H012",
+      "kind": "intenttester-target-api",
+      "decision": {
+        "valid": false
+      }
+    }
+  ],
+  "family_macro_availability_percent": {
+    "direct-llm": 16.666666666666664,
+    "trace-llm": 0.0,
+    "intenttester-source-tdl": 95.6896551724138,
+    "intenttester-target-api": 92.5287356321839,
+    "intenttester-target-tdl-extension": 94.82758620689656
+  },
+  "supplements": {
+    "tf-tutorial": {
+      "paired_observations": 6,
+      "max_absolute_difference": 2.2351741790771484e-08,
+      "shape_and_finiteness_recomputed": true,
+      "within_absolute_1e_6": true
+    },
+    "lstm": {
+      "paired_observations": 6,
+      "max_absolute_difference": 0.0,
+      "shape_and_finiteness_recomputed": true,
+      "within_absolute_1e_6": true
+    },
+    "alexnet": {
+      "paired_observations": 6,
+      "max_absolute_difference": 6.891787052154541e-08,
+      "shape_and_finiteness_recomputed": true,
+      "within_absolute_1e_6": true
+    },
+    "vgg16": {
+      "paired_observations": 6,
+      "max_absolute_difference": 6.332993507385254e-08,
+      "shape_and_finiteness_recomputed": true,
+      "within_absolute_1e_6": true
+    },
+    "tensorscope": {
+      "triplets": 192,
+      "distinct_input_ids": 64,
+      "recomputed_abs_agreement": true
+    },
+    "besser_source": {
+      "source_models": 10,
+      "supported": 9,
+      "undetermined": 1,
+      "observed_executions": 54,
+      "cross_framework_numerical_comparisons": 0
+    }
+  },
+  "unavailable_metrics": {
+    "precision_recall_f1_false_rejection": "No independent reference labels; finite agreement is not gold.",
+    "rq2_search_efficiency": "No common-candidate strategy campaigns or first stable witness sequence in this export.",
+    "rq3_diagnosis_conditions": "No independent cause/condition labels or discovery-validation condition results.",
+    "filtered_docter_counts": "No per-case constraint verdicts in cases.json; aggregate matrices cannot safely be filtered for D0028.",
+    "format_view_semantic_verdicts": "Format view contains statuses only; recovered decisions omitted.",
+    "monetary_cost_and_latency": "Missing billing/usage and request durations contaminated by pause and concurrency."
+  }
+}

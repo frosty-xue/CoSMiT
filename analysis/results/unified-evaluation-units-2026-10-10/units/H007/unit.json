@@ -1,0 +1,171 @@
+{
+  "unit_id": "H007",
+  "family": "prod",
+  "cohort": "unseen",
+  "provenance": "F:\\codes\\python\\DLLens\\data\\working_dir\\rq1\\dllens\\tensorflow\\counterparts\\tf.reduce_prod.json",
+  "behavior": {
+    "status": "supported-on-tested-inputs",
+    "scope": "recorded inputs and registered contract only",
+    "inputs": "units/H007/behavior-inputs.json",
+    "contract": "units/H007/behavior-contract.json"
+  },
+  "test": null,
+  "source_test_leads": [
+    {
+      "framework": "tensorflow",
+      "file": "shared/source-search/tensorflow/tensorflow/python/kernel_tests/math_ops/reduction_ops_test.py",
+      "class": "ReductionUnknownShape",
+      "method": "testBasic",
+      "start": 100,
+      "end": 113,
+      "assertions": [
+        {
+          "line": 113,
+          "expression": "self.assertEqual(y.shape, ())"
+        }
+      ],
+      "helper_dependencies": [],
+      "commit": "72fbba3d20f4616d7312b5e2b7f79daf6e82f2fa",
+      "matched_symbols": [
+        "math_ops.reduce_prod"
+      ],
+      "status": "syntactic lead; obligation, input-domain and helper closure not yet reviewed"
+    },
+    {
+      "framework": "tensorflow",
+      "file": "shared/source-search/tensorflow/tensorflow/python/kernel_tests/math_ops/reduction_ops_test.py",
+      "class": "ReductionInvalidKeepdims",
+      "method": "testBasic",
+      "start": 118,
+      "end": 131,
+      "assertions": [
+        {
+          "line": 127,
+          "expression": "self.assertRaisesRegex(ValueError, 'The truth value')"
+        }
+      ],
+      "helper_dependencies": [],
+      "commit": "72fbba3d20f4616d7312b5e2b7f79daf6e82f2fa",
+      "matched_symbols": [
+        "math_ops.reduce_prod"
+      ],
+      "status": "syntactic lead; obligation, input-domain and helper closure not yet reviewed"
+    },
+    {
+      "framework": "tensorflow",
+      "file": "shared/source-search/tensorflow/tensorflow/python/kernel_tests/math_ops/reduction_ops_test.py",
+      "class": "ProdReductionTest",
+      "method": "testAxesType",
+      "start": 700,
+      "end": 705,
+      "assertions": [
+        {
+          "line": 705,
+          "expression": "self.assertAllEqual(tf_v, 0)"
+        }
+      ],
+      "helper_dependencies": [],
+      "commit": "72fbba3d20f4616d7312b5e2b7f79daf6e82f2fa",
+      "matched_symbols": [
+        "math_ops.reduce_prod"
+      ],
+      "status": "syntactic lead; obligation, input-domain and helper closure not yet reviewed"
+    },
+    {
+      "framework": "tensorflow",
+      "file": "shared/source-search/tensorflow/tensorflow/python/kernel_tests/math_ops/reduction_ops_test.py",
+      "class": "ProdReductionTest",
+      "method": "testEmptyGradients",
+      "start": 786,
+      "end": 791,
+      "assertions": [
+        {
+          "line": 791,
+          "expression": "self.assertEqual(error, 0)"
+        }
+      ],
+      "helper_dependencies": [],
+      "commit": "72fbba3d20f4616d7312b5e2b7f79daf6e82f2fa",
+      "matched_symbols": [
+        "math_ops.reduce_prod"
+      ],
+      "status": "syntactic lead; obligation, input-domain and helper closure not yet reviewed"
+    },
+    {
+      "framework": "tensorflow",
+      "file": "shared/source-search/tensorflow/tensorflow/python/kernel_tests/math_ops/reduction_ops_test.py",
+      "class": "ProdReductionTest",
+      "method": "testDegenerate",
+      "start": 794,
+      "end": 801,
+      "assertions": [
+        {
+          "line": 801,
+          "expression": "self.assertAllEqual(y, np.ones(9938))"
+        }
+      ],
+      "helper_dependencies": [],
+      "commit": "72fbba3d20f4616d7312b5e2b7f79daf6e82f2fa",
+      "matched_symbols": [
+        "math_ops.reduce_prod"
+      ],
+      "status": "syntactic lead; obligation, input-domain and helper closure not yet reviewed"
+    }
+  ],
+  "reference_label": null,
+  "formal_intent_accuracy_eligible": false,
+  "missing": [
+    "来源可追溯的迁移测试及断言",
+    "上游方法义务与当前输入域的语义匹配",
+    "上游快照与运行版本对齐",
+    "输入生成器及helper依赖闭合",
+    "独立限域参照标签"
+  ],
+  "operation_files": {
+    "source": "units/H007/source-operation.py",
+    "target": "units/H007/target-operation.py"
+  },
+  "generic_helper_leads": [
+    {
+      "framework": "tensorflow",
+      "file": "shared/source-search/tensorflow/tensorflow/python/kernel_tests/math_ops/cwise_ops_unary_test.py",
+      "class": "UnaryOpTest",
+      "method": "_compareCpu",
+      "start": 74,
+      "end": 118,
+      "assertions": [
+        {
+          "line": 84,
+          "expression": "self.assertShapeEqual(np_ans, y)"
+        },
+        {
+          "line": 86,
+          "expression": "self.assertAllClose(np_ans, tf_cpu, rtol=0.001, atol=0.001)"
+        },
+        {
+          "line": 108,
+          "expression": "self.assertAllClose(jacob_t, jacob_n, rtol=grad_rtol, atol=grad_atol)"
+        },
+        {
+          "line": 88,
+          "expression": "self.assertAllClose(np_ans, tf_cpu, rtol=0.01, atol=0.01)"
+        },
+        {
+          "line": 90,
+          "expression": "self.assertAllClose(np_ans, tf_cpu)"
+        },
+        {
+          "line": 113,
+          "expression": "self.assertAllClose(jacob_t, jacob_n, rtol=grad_rtol, atol=grad_atol)"
+        },
+        {
+          "line": 118,
+          "expression": "self.assertAllClose(jacob_t, jacob_n, rtol=grad_rtol, atol=grad_atol)"
+        }
+      ],
+      "helper_dependencies": [],
+      "commit": "72fbba3d20f4616d7312b5e2b7f79daf6e82f2fa"
+    }
+  ],
+  "readiness": "behavior-only-with-source-test-leads"
+}

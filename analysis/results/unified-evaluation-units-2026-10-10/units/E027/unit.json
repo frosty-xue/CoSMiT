@@ -1,0 +1,82 @@
+{
+  "unit_id": "E027",
+  "family": "stack",
+  "cohort": "expansion",
+  "provenance": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.stack.json",
+  "behavior": {
+    "status": "supported-on-qualified-inputs",
+    "scope": "recorded inputs and registered contract only",
+    "inputs": "units/E027/behavior-inputs.json"
+  },
+  "test": {
+    "origin": "newly constructed operation substitution; not historical migrated test",
+    "source_file": "units/E027/source-test.py",
+    "target_file": "units/E027/target-test.py",
+    "registration": {
+      "case_id": "E027",
+      "status": "registered",
+      "file": "upstream/pt_tensor.py",
+      "class": "TestTensorCreation",
+      "methods": [
+        {
+          "method": "test_stack",
+          "start": 1164,
+          "end": 1177,
+          "decorators": []
+        }
+      ],
+      "entry": "test_stack",
+      "paths": [
+        "torch.stack"
+      ],
+      "kind": "complete-upstream-method-bodies",
+      "parameters": "original method inputs; CPU eager; device/dtype parameter fixed where required; decorator variants excluded",
+      "source_framework": "pytorch",
+      "scope": "new operation-substitution candidates; common source-framework harness; no external migration-quality claim",
+      "assertion_expressions_exact": true,
+      "source_hash": "268cf4cf438385f268b64a88d912748042625cd289d3c22f47be32150754a769",
+      "target_hash": "60f409329d00507ca465e9fb04d0d85d607f9a939bf3241fdf61a8d0618d63b0"
+    },
+    "upstream_snapshot": "shared/registered-upstream/pt_tensor.py",
+    "upstream_provenance": "shared/registered-upstream-provenance.json",
+    "input_scope": "units/E027/test-input-scope.json",
+    "records": "units/E027/test-records.json",
+    "runner": "shared/retained-runner.py",
+    "obligations": [
+      "正负轴 stack 结果一致",
+      "stack 输出尺寸",
+      "沿新增轴取切片可恢复各输入"
+    ],
+    "scope_gaps": [
+      "值桥接不验证存储共享/布局或原生返回对象",
+      "仅第一次调用受到扰动，不能扩展为每个 dtype/axis 都有敏感性覆盖"
+    ],
+    "review_category": "bounded-value-shape-reference-candidate",
+    "scenarios": [
+      {
+        "scenario": null,
+        "baseline_qualified": true,
+        "transparent": true,
+        "probes": {
+          "wrong-shape": "rejection-retained",
+          "wrong-value": "rejection-retained"
+        },
+        "baseline_failures": []
+      }
+    ],
+    "baseline_and_transparency_passed": true
+  },
+  "source_test_leads": [],
+  "reference_label": null,
+  "formal_intent_accuracy_eligible": false,
+  "missing": [
+    "独立限域参照标签",
+    "方法共同运行覆盖",
+    "原生类型/布局/别名等未覆盖义务不得默认为保持"
+  ],
+  "operation_files": {
+    "source": "units/E027/source-operation.py",
+    "target": "units/E027/target-operation.py"
+  },
+  "readiness": "constructed-test-evidence-packaged"
+}

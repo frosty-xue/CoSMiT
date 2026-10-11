@@ -1,0 +1,51 @@
+{
+  "domain_id": "bounded-unary-v1",
+  "family": "tan",
+  "description": "For inputs in the registered domain, preserve the elementwise mathematical tan value, input shape and floating dtype.",
+  "clauses": [
+    "value",
+    "shape",
+    "dtype"
+  ],
+  "registered_domain": {
+    "dtypes": [
+      "float32",
+      "float64"
+    ],
+    "rank_max": 4,
+    "elements_max": 4096,
+    "finite": true,
+    "closed_interval": [
+      -1.4,
+      1.4
+    ]
+  },
+  "atol": 1e-07,
+  "rtol": 1e-05,
+  "tolerance_by_dtype": {
+    "float32": {
+      "atol": 1e-07,
+      "rtol": 1e-05
+    },
+    "float64": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  "evidence": [
+    {
+      "path": "specifications/torch-docs.py",
+      "url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.1.0/torch/_torch_docs.py",
+      "sha256": "3afb64cf9ec7255486ddc174fa5f0779ab20353eadaebba3b1c20e7bc477ecb9",
+      "status": "downloaded",
+      "start_line": 11421,
+      "end_line": 11448
+    },
+    {
+      "path": "specifications/tf-tan.pbtxt",
+      "url": "https://raw.githubusercontent.com/tensorflow/tensorflow/v2.16.2/tensorflow/core/api_def/base_api/api_def_Tan.pbtxt",
+      "sha256": "aca8e1260e64d8ea462cba52273e7a1694abe25bb57df3b3c37ae47c09af055c",
+      "status": "downloaded"
+    }
+  ]
+}

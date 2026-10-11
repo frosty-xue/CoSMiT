@@ -1,0 +1,46 @@
+{
+  "dynamic": {
+    "integrity": "passed",
+    "job_identity_and_source_gate": "passed",
+    "repeat_stability_and_uninstrumented_replay": "passed",
+    "input_outcomes_recomputed": "passed",
+    "cases": 30,
+    "qualified_inputs": 1904,
+    "witness_inputs": 48,
+    "dense_dllens_on_behavior_witnesses": {
+      "True": 16
+    },
+    "versions": {
+      "pytorch": {
+        "version": "2.9.1+cpu",
+        "numpy": "2.4.6",
+        "python": "3.11.16 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:36:16) [MSC v.1942 64 bit (AMD64)]"
+      },
+      "tensorflow": {
+        "version": "2.20.0",
+        "numpy": "2.4.6",
+        "python": "3.11.16 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:36:16) [MSC v.1942 64 bit (AMD64)]"
+      }
+    },
+    "independent_human_gold": false
+  },
+  "retained_counts": {
+    "rejection-retained": 78,
+    "source-does-not-reject": 1,
+    "baseline-unqualified": 6,
+    "probe-runtime-error": 1
+  },
+  "dossier_cases": 3,
+  "new_behavior_discoveries": 0,
+  "new_independent_gold_labels": 0,
+  "new_framework_calls": 0,
+  "E030_saved_observation_assertion_counts": {
+    "source": {
+      "passed": 192
+    },
+    "target": {
+      "assertion-rejected": 48,
+      "passed": 144
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "candidate_id": "E024",
+  "source_api": "tf.expand_dims",
+  "target_calls": "input.unsqueeze",
+  "source": {
+    "framework": "tensorflow",
+    "entry": "tensorflow_call"
+  },
+  "target": {
+    "framework": "pytorch",
+    "entry": "pytorch_call"
+  },
+  "cohort": "expansion",
+  "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.expand_dims.json",
+  "operation_sha256": {
+    "source": "9f27404aac22c12a8140b8ca99c3e1bdbaf088584ad3d88a28d8b6c62a99c3c8",
+    "target": "45b74939552fb4b700b9ae740185b1fb697118096c481f2fb13abb317c8ed590"
+  },
+  "test_pair_available": true,
+  "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+}

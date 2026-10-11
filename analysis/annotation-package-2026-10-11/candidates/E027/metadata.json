@@ -1,0 +1,21 @@
+{
+  "candidate_id": "E027",
+  "source_api": "torch.stack",
+  "target_calls": "tf.stack",
+  "source": {
+    "framework": "pytorch",
+    "entry": "pytorch_call"
+  },
+  "target": {
+    "framework": "tensorflow",
+    "entry": "tensorflow_call"
+  },
+  "cohort": "expansion",
+  "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.stack.json",
+  "operation_sha256": {
+    "source": "88cc42e8b797da2efb6b8cd66252ff78b53f45c2a846c234b09a1eeb5ec9a22e",
+    "target": "6e394b702b5ea59118803fa438c035dbfdbb787480f15fab7b5afc5c9994309e"
+  },
+  "test_pair_available": true,
+  "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+}

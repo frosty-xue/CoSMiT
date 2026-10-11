@@ -1,0 +1,21 @@
+{
+  "candidate_id": "E017",
+  "source_api": "torch.reshape",
+  "target_calls": "tf.reshape",
+  "source": {
+    "framework": "pytorch",
+    "entry": "pytorch_call"
+  },
+  "target": {
+    "framework": "tensorflow",
+    "entry": "tensorflow_call"
+  },
+  "cohort": "expansion",
+  "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.reshape.json",
+  "operation_sha256": {
+    "source": "1a5657f87052b743cfc2f9c505bcddece461ab7ee17e8639af7e6a2f509eb03b",
+    "target": "06ef7e4d8fc3558768352c4b55dbae53a40929aeb51caab816f2dcc2f548394d"
+  },
+  "test_pair_available": false,
+  "test_pair_origin": null
+}

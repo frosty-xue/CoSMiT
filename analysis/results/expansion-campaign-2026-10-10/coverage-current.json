@@ -1,0 +1,29 @@
+{
+  "planned_jobs": 150,
+  "attempted_jobs": 96,
+  "successful_jobs": 89,
+  "failed_jobs": 7,
+  "not_attempted_jobs": 54,
+  "supplemental_rounds": [
+    "repair-round-01",
+    "repair-round-02"
+  ],
+  "counts_by_kind": {
+    "direct-llm": {
+      "failed": 3
+    },
+    "intenttester-source-tdl": {
+      "failed": 1,
+      "completed": 29
+    },
+    "intenttester-target-api": {
+      "completed": 30
+    },
+    "intenttester-target-tdl-extension": {
+      "completed": 30
+    },
+    "trace-llm": {
+      "failed": 3
+    }
+  }
+}

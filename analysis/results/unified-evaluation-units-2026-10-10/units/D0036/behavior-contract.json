@@ -1,0 +1,51 @@
+{
+  "domain_id": "bounded-unary-v1",
+  "family": "floor",
+  "description": "For inputs in the registered domain, preserve the elementwise mathematical floor value, input shape and floating dtype.",
+  "clauses": [
+    "value",
+    "shape",
+    "dtype"
+  ],
+  "registered_domain": {
+    "dtypes": [
+      "float32",
+      "float64"
+    ],
+    "rank_max": 4,
+    "elements_max": 4096,
+    "finite": true,
+    "closed_interval": [
+      -8.0,
+      8.0
+    ]
+  },
+  "atol": 1e-07,
+  "rtol": 1e-05,
+  "tolerance_by_dtype": {
+    "float32": {
+      "atol": 1e-07,
+      "rtol": 1e-05
+    },
+    "float64": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    }
+  },
+  "evidence": [
+    {
+      "path": "specifications/torch-docs.py",
+      "url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.1.0/torch/_torch_docs.py",
+      "sha256": "3afb64cf9ec7255486ddc174fa5f0779ab20353eadaebba3b1c20e7bc477ecb9",
+      "status": "downloaded",
+      "start_line": 4207,
+      "end_line": 4238
+    },
+    {
+      "path": "specifications/tf-floor.pbtxt",
+      "url": "https://raw.githubusercontent.com/tensorflow/tensorflow/v2.16.2/tensorflow/core/api_def/base_api/api_def_Floor.pbtxt",
+      "sha256": "bdf599a886a1e6116696ec1c8b0b8fc6bcd654e68e2c79aa783949907f8f8ff0",
+      "status": "downloaded"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "core_path": "src/cosmit/engine/certification.py",
+  "core_sha256": "f62ce4c9869cf55f4d66b655a28c7097ea2a89d5be64a3b0812c47d16db0b164",
+  "adapter_sha256": "256a1c6a002f23650da03a3fbfc359e65461f590e7890a8edee8c396676c97b6",
+  "record_hashes": {
+    "datasets\\expansion-2026-09-18\\controlled-assertion-pilot-2026-10-10\\vacuous-assertions\\executions.json": "360a64a9facec6f83dc3c341627d93be7437e8e587ac8be57f42e32f893032c2",
+    "datasets\\expansion-2026-09-18\\controlled-assertion-pilot-2026-10-10\\preserved\\executions.json": "966de90be7057244288aad64b14792d6676227afb5be60cacf10fb30af75a92b",
+    "datasets\\expansion-2026-09-18\\controlled-assertion-pilot-2026-10-10\\delete-assertions\\executions.json": "3348d9c2c6c812ad1a4d2765dd866e3fe6f622ceb1716d34b2b2f5923fe192d3"
+  },
+  "reference_labels_read_during_prediction": false,
+  "new_framework_calls": 0,
+  "new_model_calls": 0,
+  "llm_configuration": {
+    "env_file_present": false,
+    "endpoint_present": false,
+    "key_present": false
+  },
+  "scope": "new adapter over existing recorded test runs; not original pipeline or end-to-end intent inference"
+}

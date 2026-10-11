@@ -1,0 +1,10 @@
+{
+  "input_files_unchanged": 17,
+  "candidate_views_recounted": [
+    "primary",
+    "retry-view"
+  ],
+  "candidate_count_per_view": 80,
+  "request_and_cost_sums_verified": true,
+  "script_sha256": "3f7f64c990ebe681cab76726b59a3fedf3ada3b26a0e9dfc4db4d56796ec1b25"
+}

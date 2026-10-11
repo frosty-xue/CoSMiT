@@ -1,0 +1,90 @@
+{
+  "unit_id": "E029",
+  "family": "clip",
+  "cohort": "expansion",
+  "provenance": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.clip.json",
+  "behavior": {
+    "status": "discrepancy-replayed",
+    "scope": "recorded inputs and registered contract only",
+    "inputs": "units/E029/behavior-inputs.json"
+  },
+  "test": {
+    "origin": "newly constructed operation substitution; not historical migrated test",
+    "source_file": "units/E029/source-test.py",
+    "target_file": "units/E029/target-test.py",
+    "registration": {
+      "case_id": "E029",
+      "status": "registered",
+      "file": "upstream/pt_torch.py",
+      "class": "TestDevicePrecision",
+      "methods": [
+        {
+          "method": "test_clamp",
+          "start": 6489,
+          "end": 6528,
+          "decorators": [
+            "dtypes(torch.int64, torch.float32, torch.float64)"
+          ]
+        }
+      ],
+      "entry": "test_clamp",
+      "paths": [
+        "METHOD:clamp"
+      ],
+      "kind": "complete-upstream-method-bodies",
+      "parameters": "original method inputs; CPU eager; device/dtype parameter fixed where required; decorator variants excluded",
+      "source_framework": "pytorch",
+      "scope": "new operation-substitution candidates; common source-framework harness; no external migration-quality claim",
+      "assertion_expressions_exact": true,
+      "source_hash": "40f3a585455d562e85c18ad25c2018a678b4da94f29e4d66450d477cd3fd297f",
+      "target_hash": "58cc1f62940838b8a79b6d98d4147cb151b150f5f6593fb957637b7d7a71d4a6"
+    },
+    "upstream_snapshot": "shared/registered-upstream/pt_torch.py",
+    "upstream_provenance": "shared/registered-upstream-provenance.json",
+    "input_scope": "units/E029/test-input-scope.json",
+    "records": "units/E029/test-records.json",
+    "runner": "shared/retained-runner.py",
+    "obligations": [
+      "双侧/单侧裁剪值",
+      "裁剪界限及输入广播结果"
+    ],
+    "scope_gaps": [
+      "目标单侧 None 处理失败，后续断言可能未到达",
+      "固定 CPU float64；非连续布局经桥接复制，不证明布局语义保持"
+    ],
+    "review_category": "baseline-behavior-failure",
+    "scenarios": [
+      {
+        "scenario": null,
+        "baseline_qualified": false,
+        "transparent": false,
+        "probes": {
+          "wrong-shape": "baseline-unqualified",
+          "wrong-value": "baseline-unqualified"
+        },
+        "baseline_failures": [
+          {
+            "side": "target",
+            "status": "execution-error",
+            "phase": "counterpart-execution",
+            "error": "ValueError: Attempt to convert a value (None) with an unsupported type (<class 'NoneType'>) to a Tensor."
+          }
+        ]
+      }
+    ],
+    "baseline_and_transparency_passed": false
+  },
+  "source_test_leads": [],
+  "reference_label": null,
+  "formal_intent_accuracy_eligible": false,
+  "missing": [
+    "独立限域参照标签",
+    "方法共同运行覆盖",
+    "原生类型/布局/别名等未覆盖义务不得默认为保持"
+  ],
+  "operation_files": {
+    "source": "units/E029/source-operation.py",
+    "target": "units/E029/target-operation.py"
+  },
+  "readiness": "constructed-test-evidence-packaged"
+}
