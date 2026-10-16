@@ -1,4 +1,0 @@
-
-concat(tensors, dim=0, *, out=None) -> Tensor
-
-Alias of :func:`torch.cat`.
