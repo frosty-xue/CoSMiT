@@ -1,0 +1,14 @@
+[
+  {
+    "framework": "pytorch",
+    "file": "shared/source-search/pytorch/test/test_binary_ufuncs.py",
+    "class": "TestBinaryUfuncs",
+    "method": "test_out_resize_warning",
+    "start": 1165,
+    "end": 1198,
+    "commit": "d38164a545b4a4e4e0cf73ce67173f70574890b6",
+    "matched_symbols": [
+      "torch.ceil"
+    ]
+  }
+]

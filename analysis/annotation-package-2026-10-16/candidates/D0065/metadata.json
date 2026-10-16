@@ -1,0 +1,21 @@
+{
+  "candidate_id": "D0065",
+  "source_api": "tf.sinh",
+  "target_calls": "torch.sinh",
+  "source": {
+    "framework": "tensorflow",
+    "entry": "tensorflow_call"
+  },
+  "target": {
+    "framework": "pytorch",
+    "entry": "pytorch_call"
+  },
+  "cohort": "discovery",
+  "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.sinh.json",
+  "operation_sha256": {
+    "source": "1170010449622678501236b0a2e9a7afb0cdb4b7d6d6afc2fb1907309c9d7e7b",
+    "target": "24ae447926bc0d821d6fbf5e8619f07b3c608db17e6db205505921c3da7a15b7"
+  },
+  "test_pair_available": false,
+  "test_pair_origin": null
+}

@@ -1,0 +1,46 @@
+{
+  "candidate_id": "E014",
+  "source_api": "tf.math.pow",
+  "target_calls": "torch.pow",
+  "status": "两端API测试齐",
+  "source_match": "exact API / explicit decorator alias",
+  "source_test": {
+    "repository": "ivy-llc/ivy",
+    "commit": "a701151c85d59c0260a4dbf505479805bdeec00f",
+    "upstream_path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+    "function": "test_tensorflow_pow",
+    "line": 2098,
+    "end_line": 2125,
+    "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L2098",
+    "kind": "Ivy public frontend test",
+    "full_file": "candidates/E014/source-test-full.py",
+    "excerpt_file": "candidates/E014/source-test-excerpt.py",
+    "original_sha256": "644d0efebf10d4bbfb9520f70bed72556084389131abe3ffa146704df043e081",
+    "excerpt_sha256": "c591f998bf6fac208e4bea0b60edbbc6e5292c4f923c0740f7f1c4c5d357c35f"
+  },
+  "target_tests": [
+    {
+      "api": "torch.pow",
+      "match": "exact API / explicit decorator alias",
+      "test": {
+        "repository": "ivy-llc/ivy",
+        "commit": "a701151c85d59c0260a4dbf505479805bdeec00f",
+        "upstream_path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "function": "test_torch_pow",
+        "line": 2333,
+        "end_line": 2372,
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L2333",
+        "kind": "Ivy public frontend test",
+        "full_file": "candidates/E014/target-01-test-full.py",
+        "excerpt_file": "candidates/E014/target-01-test-excerpt.py",
+        "original_sha256": "c0bddd69651e592166d17f24eed33beb3b8034a253053e0cf681be106e1f14c1",
+        "excerpt_sha256": "faad835f5fc68122a9cda86e6a23edc75c2287ae9ae87c04cb69a86e1d96940b"
+      }
+    }
+  ],
+  "whole_counterpart_test_verified": false,
+  "input_oracle_alignment": "not yet reviewed",
+  "execution": "not run",
+  "origin": "paired existing public API tests; not a historical migration record",
+  "notes": []
+}

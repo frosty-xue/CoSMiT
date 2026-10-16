@@ -1,0 +1,102 @@
+{
+  "candidate_id": "H008",
+  "source_api": "tf.matmul",
+  "target_calls": "torch.matmul",
+  "status": "两端组件测试齐，组合测试缺",
+  "source_match": "namespace re-export: Ivy tensorflow/__init__.py; selected tf.linalg.matmul",
+  "source_test": {
+    "repository": "ivy-llc/ivy",
+    "commit": "a701151c85d59c0260a4dbf505479805bdeec00f",
+    "upstream_path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_linalg.py",
+    "function": "test_tensorflow_matmul",
+    "line": 718,
+    "end_line": 755,
+    "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_linalg.py#L718",
+    "kind": "Ivy public frontend test",
+    "full_file": "candidates/H008/source-test-full.py",
+    "excerpt_file": "candidates/H008/source-test-excerpt.py",
+    "original_sha256": "4012e8d38fd1a883632b006d8f49a6c4a808e28f153fe47a255af82d7475dab6",
+    "excerpt_sha256": "0db936df369ef9370fed2aa66a95d8cde9463ec5b7d6b01c9a588c0fe034ced9"
+  },
+  "target_tests": [
+    {
+      "api": "torch.matmul",
+      "match": "exact API / explicit decorator alias",
+      "test": {
+        "repository": "ivy-llc/ivy",
+        "commit": "a701151c85d59c0260a4dbf505479805bdeec00f",
+        "upstream_path": "ivy_tests/test_ivy/test_frontends/test_torch/test_blas_and_lapack_ops.py",
+        "function": "test_torch_matmul",
+        "line": 666,
+        "end_line": 690,
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_blas_and_lapack_ops.py#L666",
+        "kind": "Ivy public frontend test",
+        "full_file": "candidates/H008/target-01-test-full.py",
+        "excerpt_file": "candidates/H008/target-01-test-excerpt.py",
+        "original_sha256": "e81b2cf1d0eefd192b310c49a6aaa3e185880ce55c97f66dc82f4fa12f6f2ab0",
+        "excerpt_sha256": "69d2a1b8bae774beebd46ec7443fa438c7c30cbae049ac0518808de2e9f9de67"
+      }
+    },
+    {
+      "api": "torch.Tensor.t",
+      "match": "exact API / explicit decorator alias",
+      "test": {
+        "repository": "ivy-llc/ivy",
+        "commit": "a701151c85d59c0260a4dbf505479805bdeec00f",
+        "upstream_path": "ivy_tests/test_ivy/test_frontends/test_torch/test_tensor.py",
+        "function": "test_torch_t",
+        "line": 13154,
+        "end_line": 13186,
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_tensor.py#L13154",
+        "kind": "Ivy public frontend test",
+        "full_file": "candidates/H008/target-02-test-full.py",
+        "excerpt_file": "candidates/H008/target-02-test-excerpt.py",
+        "original_sha256": "167cde76809f6e486dc30d01dccb768dff83b1c38fd67d91cabfa074b02187ca",
+        "excerpt_sha256": "443d8c23c66c987f4c4e6d2e756b3084b5052043ace422e599f9e1473fc108fb"
+      }
+    },
+    {
+      "api": "torch.Tensor.to_sparse",
+      "match": "exact API / explicit decorator alias",
+      "test": {
+        "repository": "pytorch/pytorch",
+        "commit": "8ac9b20d4b090c213799e81acf48a55ea8d437d6",
+        "upstream_path": "test/test_sparse.py",
+        "function": "test_to_sparse",
+        "line": 568,
+        "end_line": 586,
+        "url": "https://github.com/pytorch/pytorch/blob/8ac9b20d4b090c213799e81acf48a55ea8d437d6/test/test_sparse.py#L568",
+        "kind": "Official framework test",
+        "full_file": "candidates/H008/target-03-test-full.py",
+        "excerpt_file": "candidates/H008/target-03-test-excerpt.py",
+        "original_sha256": "f6b14bdd7b7e3db4e65193b340f73bd91799952c3a6a6d221c885d4a7457a1d1",
+        "excerpt_sha256": "68eba6195190f36cfcd1f2d8c77001a42121b5b2379c54ec361ed4faf9d120fb"
+      }
+    },
+    {
+      "api": "torch.Tensor.conj",
+      "match": "exact API / explicit decorator alias",
+      "test": {
+        "repository": "ivy-llc/ivy",
+        "commit": "a701151c85d59c0260a4dbf505479805bdeec00f",
+        "upstream_path": "ivy_tests/test_ivy/test_frontends/test_torch/test_tensor.py",
+        "function": "test_torch_conj",
+        "line": 5111,
+        "end_line": 5142,
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_tensor.py#L5111",
+        "kind": "Ivy public frontend test",
+        "full_file": "candidates/H008/target-04-test-full.py",
+        "excerpt_file": "candidates/H008/target-04-test-excerpt.py",
+        "original_sha256": "167cde76809f6e486dc30d01dccb768dff83b1c38fd67d91cabfa074b02187ca",
+        "excerpt_sha256": "a5a093ac309583cdff99daa66b50f36ad4010146bdbdada56da89190bf81cbf2"
+      }
+    }
+  ],
+  "whole_counterpart_test_verified": false,
+  "input_oracle_alignment": "not yet reviewed",
+  "execution": "not run",
+  "origin": "paired existing public API tests; not a historical migration record",
+  "notes": [
+    "目标为组合：各API测试已分别收集，整段组合测试仍空缺"
+  ]
+}

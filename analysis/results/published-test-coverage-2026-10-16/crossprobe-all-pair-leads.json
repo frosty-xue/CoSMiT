@@ -1,0 +1,1260 @@
+[
+  {
+    "source": "pytorch/diff-pt.py",
+    "target": "tensorflow-test/diff-pt.py",
+    "pairing": "same relative filename; process_directory in published generation.ipynb",
+    "issue_id_hint": [],
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "<expression>",
+        "<expression>.detach",
+        "<expression>.numpy",
+        "conv.to",
+        "print",
+        "torch.manual_seed",
+        "torch.nn.Conv1d",
+        "torch.ones",
+        "x.to",
+        "y_cpu.detach",
+        "y_mps.to"
+      ]
+    },
+    "target_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "<expression>",
+        "<expression>.detach",
+        "<expression>.numpy",
+        "conv.to",
+        "print",
+        "torch.manual_seed",
+        "torch.nn.Conv1d",
+        "torch.ones",
+        "x.to",
+        "y_cpu.detach",
+        "y_mps.to"
+      ]
+    }
+  },
+  {
+    "source": "pytorch/pt-117757.py",
+    "target": "tensorflow-test/pt-117757.py",
+    "pairing": "same relative filename; process_directory in published generation.ipynb",
+    "issue_id_hint": [
+      "117757"
+    ],
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "<expression>",
+        "abs",
+        "fn",
+        "opt_fn",
+        "print",
+        "torch.compile",
+        "torch.ones"
+      ]
+    },
+    "target_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "<expression>",
+        "abs",
+        "fn",
+        "opt_fn",
+        "print",
+        "torch.compile",
+        "torch.ones"
+      ]
+    }
+  },
+  {
+    "source": "pytorch/pt-124252-tf.py",
+    "target": "tensorflow-test/pt-124252-tf.py",
+    "pairing": "same relative filename; process_directory in published generation.ipynb",
+    "issue_id_hint": [
+      "124252"
+    ],
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "loss.numpy",
+        "print",
+        "tf.keras.losses.binary_crossentropy",
+        "tf.range",
+        "tf.sigmoid"
+      ]
+    },
+    "target_static": {
+      "syntax": "error",
+      "line": 2,
+      "error": "unexpected indent",
+      "calls": []
+    }
+  },
+  {
+    "source": "pytorch/pt-124252.py",
+    "target": "tensorflow-test/pt-124252.py",
+    "pairing": "same relative filename; process_directory in published generation.ipynb",
+    "issue_id_hint": [
+      "124252"
+    ],
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "print",
+        "torch.arange",
+        "torch.nn.functional.binary_cross_entropy"
+      ]
+    },
+    "target_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "print",
+        "torch.arange",
+        "torch.nn.functional.binary_cross_entropy"
+      ]
+    }
+  },
+  {
+    "source": "pytorch/pt-129207-tf-report.py",
+    "target": "tensorflow-test/pt-129207-tf-report.py",
+    "pairing": "same relative filename; process_directory in published generation.ipynb",
+    "issue_id_hint": [
+      "129207"
+    ],
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "conv",
+        "numpy.allclose",
+        "print",
+        "tf.device",
+        "tf.keras.layers.Conv1D",
+        "tf.ones",
+        "tf.random.set_seed",
+        "y_cpu.numpy",
+        "y_gpu.numpy"
+      ]
+    },
+    "target_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "<expression>.numpy",
+        "conv",
+        "numpy.allclose",
+        "print",
+        "torch.device",
+        "torch.manual_seed",
+        "torch.nn.Conv1d",
+        "torch.ones",
+        "y_cpu.detach",
+        "y_gpu.detach"
+      ]
+    }
+  },
+  {
+    "source": "pytorch/pt-129207-tf.py",
+    "target": "tensorflow-test/pt-129207-tf.py",
+    "pairing": "same relative filename; process_directory in published generation.ipynb",
+    "issue_id_hint": [
+      "129207"
+    ],
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "conv",
+        "conv_gpu",
+        "numpy.allclose",
+        "print",
+        "tf.config.list_physical_devices",
+        "tf.device",
+        "tf.keras.layers.Conv1D",
+        "tf.ones",
+        "tf.random.set_seed",
+        "y_cpu.numpy",
+        "y_gpu.numpy"
+      ]
+    },
+    "target_static": {
+      "syntax": "error",
+      "line": 2,
+      "error": "unexpected indent",
+      "calls": []
+    }
+  },
+  {
+    "source": "pytorch/pt-129207.py",
+    "target": "tensorflow-test/pt-129207.py",
+    "pairing": "same relative filename; process_directory in published generation.ipynb",
+    "issue_id_hint": [
+      "129207"
+    ],
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "<expression>",
+        "<expression>.detach",
+        "<expression>.numpy",
+        "conv.to",
+        "print",
+        "torch.equal",
+        "torch.manual_seed",
+        "torch.nn.Conv1d",
+        "torch.ones",
+        "x.to",
+        "y_cpu.detach",
+        "y_mps.to"
+      ]
+    },
+    "target_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "<expression>",
+        "<expression>.detach",
+        "<expression>.numpy",
+        "conv.to",
+        "print",
+        "torch.equal",
+        "torch.manual_seed",
+        "torch.nn.Conv1d",
+        "torch.ones",
+        "x.to",
+        "y_cpu.detach",
+        "y_mps.to"
+      ]
+    }
+  },
+  {
+    "source": "pytorch/pt-129331.py",
+    "target": "tensorflow-test/pt-129331.py",
+    "pairing": "same relative filename; process_directory in published generation.ipynb",
+    "issue_id_hint": [
+      "129331"
+    ],
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "torch.onnx.export"
+      ]
+    },
+    "target_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "torch.onnx.export"
+      ]
+    }
+  },
+  {
+    "source": "pytorch/pt-129482-tf.py",
+    "target": "tensorflow-test/pt-129482-tf.py",
+    "pairing": "same relative filename; process_directory in published generation.ipynb",
+    "issue_id_hint": [
+      "129482"
+    ],
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "MockProcessGroup",
+        "f",
+        "my_function",
+        "print",
+        "tf.random.normal",
+        "tf.zeros_like"
+      ]
+    },
+    "target_static": {
+      "syntax": "error",
+      "line": 2,
+      "error": "unexpected indent",
+      "calls": []
+    }
+  },
+  {
+    "source": "pytorch/pt-129482.py",
+    "target": "tensorflow-test/pt-129482.py",
+    "pairing": "same relative filename; process_directory in published generation.ipynb",
+    "issue_id_hint": [
+      "129482"
+    ],
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "f",
+        "g.boxed",
+        "torch.compile",
+        "torch.distributed.ProcessGroup",
+        "torch.empty_like",
+        "torch.library.define",
+        "torch.library.impl",
+        "torch.library.impl_abstract",
+        "torch.ops.my_lib.my_function.default",
+        "torch.randn"
+      ]
+    },
+    "target_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "f",
+        "g.boxed",
+        "torch.compile",
+        "torch.distributed.ProcessGroup",
+        "torch.empty_like",
+        "torch.library.define",
+        "torch.library.impl",
+        "torch.library.impl_abstract",
+        "torch.ops.my_lib.my_function.default",
+        "torch.randn"
+      ]
+    }
+  },
+  {
+    "source": "pytorch/pt-133520.py",
+    "target": "tensorflow-test/pt-133520.py",
+    "pairing": "same relative filename; process_directory in published generation.ipynb",
+    "issue_id_hint": [
+      "133520"
+    ],
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "<expression>.to",
+        "abs",
+        "bn_cpu",
+        "bn_mps",
+        "output_mps.cpu",
+        "output_offset_mps.cpu",
+        "print",
+        "torch.nn.BatchNorm2d",
+        "torch.randn",
+        "torch.sum",
+        "x_cpu.to"
+      ]
+    },
+    "target_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "<expression>.to",
+        "abs",
+        "bn_cpu",
+        "bn_mps",
+        "output_mps.cpu",
+        "output_offset_mps.cpu",
+        "print",
+        "torch.nn.BatchNorm2d",
+        "torch.randn",
+        "torch.sum",
+        "x_cpu.to"
+      ]
+    }
+  },
+  {
+    "source": "pytorch/pt-136837-tf.py",
+    "target": "tensorflow-test/pt-136837-tf.py",
+    "pairing": "same relative filename; process_directory in published generation.ipynb",
+    "issue_id_hint": [
+      "136837"
+    ],
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "<expression>.__init__",
+        "<expression>.build",
+        "<expression>.call",
+        "MaskedConv2DA",
+        "MaskedConv2DB",
+        "PixelCNN",
+        "layer",
+        "numpy.zeros",
+        "pixel_cnn",
+        "print",
+        "range",
+        "samples.numpy",
+        "self.call",
+        "self.layers_list.extend",
+        "super",
+        "tf.cast",
+        "tf.config.list_physical_devices",
+        "tf.convert_to_tensor",
+        "tf.keras.layers.Conv2D",
+        "tf.keras.layers.ReLU",
+        "tf.nn.softmax",
+        "tf.nn.sparse_softmax_cross_entropy_with_logits",
+        "tf.random.categorical",
+        "tf.random.uniform",
+        "tf.reduce_mean",
+        "tf.reshape",
+        "tf.shape",
+        "tf.transpose",
+        "tf.zeros",
+        "tqdm.tqdm"
+      ]
+    },
+    "target_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "<expression>.__init__",
+        "<expression>.forward",
+        "<expression>.squeeze",
+        "<expression>.to",
+        "MaskedConv2DA",
+        "MaskedConv2DB",
+        "PixelCNN",
+        "pixel_cnn",
+        "print",
+        "range",
+        "samples.numpy",
+        "self.conv1",
+        "self.conv2",
+        "self.forward",
+        "super",
+        "torch.cuda.is_available",
+        "torch.device",
+        "torch.nn.Conv2d",
+        "torch.nn.functional.categorical",
+        "torch.nn.functional.cross_entropy",
+        "torch.nn.functional.relu",
+        "torch.nn.functional.softmax",
+        "torch.rand",
+        "torch.zeros",
+        "tqdm.tqdm",
+        "y_hat.permute"
+      ]
+    }
+  },
+  {
+    "source": "pytorch/pt-136837.py",
+    "target": "tensorflow-test/pt-136837.py",
+    "pairing": "same relative filename; process_directory in published generation.ipynb",
+    "issue_id_hint": [
+      "136837"
+    ],
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "<expression>.__init__",
+        "<expression>.cpu",
+        "<expression>.forward",
+        "<expression>.numpy",
+        "<expression>.permute",
+        "<expression>.squeeze",
+        "<expression>.to",
+        "MaskedConv2dA",
+        "MaskedConv2dB",
+        "PixelCNN",
+        "layers.extend",
+        "pixel_cnn",
+        "print",
+        "range",
+        "samples.detach",
+        "self.forward",
+        "self.model",
+        "self.register_buffer",
+        "super",
+        "torch.backends.mps.is_available",
+        "torch.cuda.is_available",
+        "torch.multinomial",
+        "torch.nn.Conv2d",
+        "torch.nn.ReLU",
+        "torch.nn.Sequential",
+        "torch.nn.functional.cross_entropy",
+        "torch.no_grad",
+        "torch.rand",
+        "torch.softmax",
+        "torch.zeros",
+        "torch.zeros_like",
+        "tqdm",
+        "x.float",
+        "x.permute",
+        "x.view",
+        "y.long",
+        "y_hat.permute"
+      ]
+    },
+    "target_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "<expression>.__init__",
+        "<expression>.cpu",
+        "<expression>.forward",
+        "<expression>.numpy",
+        "<expression>.permute",
+        "<expression>.squeeze",
+        "<expression>.to",
+        "PixelCNN",
+        "pixel_cnn",
+        "print",
+        "range",
+        "samples.detach",
+        "self.conv1",
+        "self.conv2",
+        "self.conv3",
+        "self.forward",
+        "self.model",
+        "self.register_buffer",
+        "super",
+        "torch.backends.mps.is_available",
+        "torch.cuda.is_available",
+        "torch.multinomial",
+        "torch.nn.Conv2d",
+        "torch.no_grad",
+        "torch.rand",
+        "torch.relu",
+        "torch.softmax",
+        "torch.zeros",
+        "torch.zeros_like",
+        "tqdm.tqdm",
+        "x.float",
+        "x.permute",
+        "x.view"
+      ]
+    }
+  },
+  {
+    "source": "pytorch/pt-136860-tf.py",
+    "target": "tensorflow-test/pt-136860-tf.py",
+    "pairing": "same relative filename; process_directory in published generation.ipynb",
+    "issue_id_hint": [
+      "136860"
+    ],
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "<expression>.__init__",
+        "MyModule",
+        "_randn",
+        "super",
+        "tf.TensorSpec",
+        "tf.random.normal",
+        "tf2onnx.convert.from_function"
+      ]
+    },
+    "target_static": {
+      "syntax": "error",
+      "line": 2,
+      "error": "unexpected indent",
+      "calls": []
+    }
+  },
+  {
+    "source": "pytorch/pt-136860.py",
+    "target": "tensorflow-test/pt-136860.py",
+    "pairing": "same relative filename; process_directory in published generation.ipynb",
+    "issue_id_hint": [
+      "136860"
+    ],
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "<expression>.__init__",
+        "MyModule",
+        "_randn",
+        "super",
+        "torch.Generator",
+        "torch.device",
+        "torch.onnx.export",
+        "torch.randn"
+      ]
+    },
+    "target_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "<expression>.__init__",
+        "MyModule",
+        "_randn",
+        "super",
+        "torch.Generator",
+        "torch.device",
+        "torch.onnx.export",
+        "torch.randn"
+      ]
+    }
+  },
+  {
+    "source": "pytorch/pt-51866-tf-1.py",
+    "target": "tensorflow-test/pt-51866-tf-1.py",
+    "pairing": "same relative filename; process_directory in published generation.ipynb",
+    "issue_id_hint": [
+      "51866",
+      "1"
+    ],
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "print",
+        "tf.Variable",
+        "tf.constant",
+        "tf.device",
+        "tf.keras.losses.binary_crossentropy"
+      ]
+    },
+    "target_static": {
+      "syntax": "error",
+      "line": 2,
+      "error": "unexpected indent",
+      "calls": []
+    }
+  },
+  {
+    "source": "pytorch/pt-51866-tf.py",
+    "target": "tensorflow-test/pt-51866-tf.py",
+    "pairing": "same relative filename; process_directory in published generation.ipynb",
+    "issue_id_hint": [
+      "51866"
+    ],
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "print",
+        "tf.Variable",
+        "tf.constant",
+        "tf.keras.losses.binary_crossentropy"
+      ]
+    },
+    "target_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "print",
+        "torch.nn.functional.binary_cross_entropy",
+        "torch.tensor"
+      ]
+    }
+  },
+  {
+    "source": "pytorch/pt-51866.py",
+    "target": "tensorflow-test/pt-51866.py",
+    "pairing": "same relative filename; process_directory in published generation.ipynb",
+    "issue_id_hint": [
+      "51866"
+    ],
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "print",
+        "torch.nn.functional.binary_cross_entropy",
+        "torch.tensor"
+      ]
+    },
+    "target_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "print",
+        "torch.nn.functional.binary_cross_entropy",
+        "torch.tensor"
+      ]
+    }
+  },
+  {
+    "source": "tensorflow/diff-tf.py",
+    "target": "pytorch-test/diff-tf.py",
+    "pairing": "same relative filename; process_directory in published generation.ipynb",
+    "issue_id_hint": [],
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "conv",
+        "print",
+        "tf.device",
+        "tf.keras.layers.Conv1D",
+        "tf.ones",
+        "tf.random.set_seed",
+        "y_cpu.numpy",
+        "y_gpu.numpy"
+      ]
+    },
+    "target_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "<expression>.numpy",
+        "conv",
+        "print",
+        "torch.device",
+        "torch.manual_seed",
+        "torch.nn.Conv1d",
+        "torch.ones",
+        "y_cpu.detach",
+        "y_gpu.detach"
+      ]
+    }
+  },
+  {
+    "source": "tensorflow/tf-66374.py",
+    "target": "pytorch-test/tf-66374.py",
+    "pairing": "same relative filename; process_directory in published generation.ipynb",
+    "issue_id_hint": [
+      "66374"
+    ],
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "<expression>",
+        "<expression>.astype",
+        "model.compile",
+        "model.fit",
+        "tf.keras.Input",
+        "tf.keras.Model",
+        "tf.keras.datasets.mnist.load_data",
+        "tf.keras.layers.Activation",
+        "tf.keras.layers.Dense",
+        "tf.keras.mixed_precision.set_global_policy",
+        "tf.keras.optimizers.RMSprop",
+        "x_train.reshape"
+      ]
+    },
+    "target_static": {
+      "syntax": "error",
+      "line": 2,
+      "error": "unexpected indent",
+      "calls": []
+    }
+  },
+  {
+    "source": "tensorflow/tf-67529.py",
+    "target": "pytorch-test/tf-67529.py",
+    "pairing": "same relative filename; process_directory in published generation.ipynb",
+    "issue_id_hint": [
+      "67529"
+    ],
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "tf.constant",
+        "tf.raw_ops.FusedResizeAndPadConv2D"
+      ]
+    },
+    "target_static": {
+      "syntax": "error",
+      "line": 2,
+      "error": "unexpected indent",
+      "calls": []
+    }
+  },
+  {
+    "source": "tensorflow/tf-67531.py",
+    "target": "pytorch-test/tf-67531.py",
+    "pairing": "same relative filename; process_directory in published generation.ipynb",
+    "issue_id_hint": [
+      "67531"
+    ],
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "tf.constant",
+        "tf.raw_ops.SoftmaxCrossEntropyWithLogits"
+      ]
+    },
+    "target_static": {
+      "syntax": "error",
+      "line": 2,
+      "error": "unexpected indent",
+      "calls": []
+    }
+  },
+  {
+    "source": "tensorflow/tf-stuck.py",
+    "target": "pytorch-test/tf-stuck.py",
+    "pairing": "same relative filename; process_directory in published generation.ipynb",
+    "issue_id_hint": [],
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "print",
+        "tf.zeros"
+      ]
+    },
+    "target_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "print",
+        "torch.zeros"
+      ]
+    }
+  },
+  {
+    "source": "tensorflow/tfmot-1062.py",
+    "target": "pytorch-test/tfmot-1062.py",
+    "pairing": "same relative filename; process_directory in published generation.ipynb",
+    "issue_id_hint": [
+      "1062"
+    ],
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 1,
+      "calls": [
+        "<expression>",
+        "any",
+        "channel_shuffle",
+        "model.summary",
+        "model_qat.summary",
+        "quantize_model",
+        "simple_nn",
+        "split_like_nn",
+        "tensor.shape.as_list",
+        "tensorflow_model_optimization.quantization.keras.quantize_annotate_layer",
+        "tensorflow_model_optimization.quantization.keras.quantize_apply",
+        "tensorflow_model_optimization.quantization.keras.quantize_scope",
+        "tf.concat",
+        "tf.identity",
+        "tf.keras.Input",
+        "tf.keras.Model",
+        "tf.keras.layers.BatchNormalization",
+        "tf.keras.layers.Conv2D",
+        "tf.keras.layers.DepthwiseConv2D",
+        "tf.keras.layers.ReLU",
+        "tf.keras.models.clone_model",
+        "tf.reshape",
+        "tf.split",
+        "tf.transpose"
+      ]
+    },
+    "target_static": {
+      "syntax": "error",
+      "line": 3,
+      "error": "unexpected indent",
+      "calls": []
+    }
+  },
+  {
+    "source": "tensorflow/tfmot-1084.py",
+    "target": "pytorch-test/tfmot-1084.py",
+    "pairing": "same relative filename; process_directory in published generation.ipynb",
+    "issue_id_hint": [
+      "1084"
+    ],
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "<expression>.compile",
+        "<expression>.format",
+        "ValueError",
+        "enumerate",
+        "m.result",
+        "numpy.product",
+        "numpy.sqrt",
+        "self",
+        "self.compiled_loss",
+        "self.compiled_metrics.update_state",
+        "self.optimizer.apply_gradients",
+        "super",
+        "tape.gradient",
+        "tf.GradientTape",
+        "tf.norm",
+        "zip"
+      ]
+    },
+    "target_static": {
+      "syntax": "error",
+      "line": 2,
+      "error": "unexpected indent",
+      "calls": []
+    }
+  },
+  {
+    "source": "tensorflow/tfmot-1124.py",
+    "target": "pytorch-test/tfmot-1124.py",
+    "pairing": "same relative filename; process_directory in published generation.ipynb",
+    "issue_id_hint": [
+      "1124"
+    ],
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "<expression>",
+        "CustomLayer",
+        "build_model",
+        "initial_training",
+        "isinstance",
+        "tf.keras.Model",
+        "tf.keras.applications.MobileNetV3Large",
+        "tf.keras.layers.Concatenate",
+        "tf.keras.layers.Dense",
+        "tf.keras.layers.Dropout",
+        "tf.keras.models.clone_model",
+        "tfmot.quantization.keras.quantize_annotate_layer",
+        "tfmot.quantization.keras.quantize_apply"
+      ]
+    },
+    "target_static": {
+      "syntax": "error",
+      "line": 2,
+      "error": "unexpected indent",
+      "calls": []
+    }
+  },
+  {
+    "source": "pytorch/pt-124252.py",
+    "target": "pytorch/pt-124252-tf.py",
+    "pairing": "same issue-number filename; lineage needs original issue verification",
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "print",
+        "torch.arange",
+        "torch.nn.functional.binary_cross_entropy"
+      ]
+    },
+    "target_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "loss.numpy",
+        "print",
+        "tf.keras.losses.binary_crossentropy",
+        "tf.range",
+        "tf.sigmoid"
+      ]
+    }
+  },
+  {
+    "source": "pytorch/pt-129207.py",
+    "target": "pytorch/pt-129207-tf-report.py",
+    "pairing": "same issue-number filename; lineage needs original issue verification",
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "<expression>",
+        "<expression>.detach",
+        "<expression>.numpy",
+        "conv.to",
+        "print",
+        "torch.equal",
+        "torch.manual_seed",
+        "torch.nn.Conv1d",
+        "torch.ones",
+        "x.to",
+        "y_cpu.detach",
+        "y_mps.to"
+      ]
+    },
+    "target_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "conv",
+        "numpy.allclose",
+        "print",
+        "tf.device",
+        "tf.keras.layers.Conv1D",
+        "tf.ones",
+        "tf.random.set_seed",
+        "y_cpu.numpy",
+        "y_gpu.numpy"
+      ]
+    }
+  },
+  {
+    "source": "pytorch/pt-129207.py",
+    "target": "pytorch/pt-129207-tf.py",
+    "pairing": "same issue-number filename; lineage needs original issue verification",
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "<expression>",
+        "<expression>.detach",
+        "<expression>.numpy",
+        "conv.to",
+        "print",
+        "torch.equal",
+        "torch.manual_seed",
+        "torch.nn.Conv1d",
+        "torch.ones",
+        "x.to",
+        "y_cpu.detach",
+        "y_mps.to"
+      ]
+    },
+    "target_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "conv",
+        "conv_gpu",
+        "numpy.allclose",
+        "print",
+        "tf.config.list_physical_devices",
+        "tf.device",
+        "tf.keras.layers.Conv1D",
+        "tf.ones",
+        "tf.random.set_seed",
+        "y_cpu.numpy",
+        "y_gpu.numpy"
+      ]
+    }
+  },
+  {
+    "source": "pytorch/pt-129482.py",
+    "target": "pytorch/pt-129482-tf.py",
+    "pairing": "same issue-number filename; lineage needs original issue verification",
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "f",
+        "g.boxed",
+        "torch.compile",
+        "torch.distributed.ProcessGroup",
+        "torch.empty_like",
+        "torch.library.define",
+        "torch.library.impl",
+        "torch.library.impl_abstract",
+        "torch.ops.my_lib.my_function.default",
+        "torch.randn"
+      ]
+    },
+    "target_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "MockProcessGroup",
+        "f",
+        "my_function",
+        "print",
+        "tf.random.normal",
+        "tf.zeros_like"
+      ]
+    }
+  },
+  {
+    "source": "pytorch/pt-136837.py",
+    "target": "pytorch/pt-136837-tf.py",
+    "pairing": "same issue-number filename; lineage needs original issue verification",
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "<expression>.__init__",
+        "<expression>.cpu",
+        "<expression>.forward",
+        "<expression>.numpy",
+        "<expression>.permute",
+        "<expression>.squeeze",
+        "<expression>.to",
+        "MaskedConv2dA",
+        "MaskedConv2dB",
+        "PixelCNN",
+        "layers.extend",
+        "pixel_cnn",
+        "print",
+        "range",
+        "samples.detach",
+        "self.forward",
+        "self.model",
+        "self.register_buffer",
+        "super",
+        "torch.backends.mps.is_available",
+        "torch.cuda.is_available",
+        "torch.multinomial",
+        "torch.nn.Conv2d",
+        "torch.nn.ReLU",
+        "torch.nn.Sequential",
+        "torch.nn.functional.cross_entropy",
+        "torch.no_grad",
+        "torch.rand",
+        "torch.softmax",
+        "torch.zeros",
+        "torch.zeros_like",
+        "tqdm",
+        "x.float",
+        "x.permute",
+        "x.view",
+        "y.long",
+        "y_hat.permute"
+      ]
+    },
+    "target_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "<expression>.__init__",
+        "<expression>.build",
+        "<expression>.call",
+        "MaskedConv2DA",
+        "MaskedConv2DB",
+        "PixelCNN",
+        "layer",
+        "numpy.zeros",
+        "pixel_cnn",
+        "print",
+        "range",
+        "samples.numpy",
+        "self.call",
+        "self.layers_list.extend",
+        "super",
+        "tf.cast",
+        "tf.config.list_physical_devices",
+        "tf.convert_to_tensor",
+        "tf.keras.layers.Conv2D",
+        "tf.keras.layers.ReLU",
+        "tf.nn.softmax",
+        "tf.nn.sparse_softmax_cross_entropy_with_logits",
+        "tf.random.categorical",
+        "tf.random.uniform",
+        "tf.reduce_mean",
+        "tf.reshape",
+        "tf.shape",
+        "tf.transpose",
+        "tf.zeros",
+        "tqdm.tqdm"
+      ]
+    }
+  },
+  {
+    "source": "pytorch/pt-136860.py",
+    "target": "pytorch/pt-136860-tf.py",
+    "pairing": "same issue-number filename; lineage needs original issue verification",
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "<expression>.__init__",
+        "MyModule",
+        "_randn",
+        "super",
+        "torch.Generator",
+        "torch.device",
+        "torch.onnx.export",
+        "torch.randn"
+      ]
+    },
+    "target_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "<expression>.__init__",
+        "MyModule",
+        "_randn",
+        "super",
+        "tf.TensorSpec",
+        "tf.random.normal",
+        "tf2onnx.convert.from_function"
+      ]
+    }
+  },
+  {
+    "source": "pytorch/pt-51866.py",
+    "target": "pytorch/pt-51866-tf-1.py",
+    "pairing": "same issue-number filename; lineage needs original issue verification",
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "print",
+        "torch.nn.functional.binary_cross_entropy",
+        "torch.tensor"
+      ]
+    },
+    "target_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "print",
+        "tf.Variable",
+        "tf.constant",
+        "tf.device",
+        "tf.keras.losses.binary_crossentropy"
+      ]
+    }
+  },
+  {
+    "source": "pytorch/pt-51866.py",
+    "target": "pytorch/pt-51866-tf.py",
+    "pairing": "same issue-number filename; lineage needs original issue verification",
+    "semantic_pair_verified": false,
+    "source_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "print",
+        "torch.nn.functional.binary_cross_entropy",
+        "torch.tensor"
+      ]
+    },
+    "target_static": {
+      "syntax": "ok",
+      "assert_count": 0,
+      "calls": [
+        "print",
+        "tf.Variable",
+        "tf.constant",
+        "tf.keras.losses.binary_crossentropy"
+      ]
+    }
+  }
+]

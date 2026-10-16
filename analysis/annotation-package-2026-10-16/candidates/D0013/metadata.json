@@ -1,0 +1,21 @@
+{
+  "candidate_id": "D0013",
+  "source_api": "torch.floor",
+  "target_calls": "tf.floor",
+  "source": {
+    "framework": "pytorch",
+    "entry": "pytorch_call"
+  },
+  "target": {
+    "framework": "tensorflow",
+    "entry": "tensorflow_call"
+  },
+  "cohort": "discovery",
+  "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.floor.json",
+  "operation_sha256": {
+    "source": "3a9836887c3d78061f58ae48f99669fe1eb855d5d030b15e5560c0aebedd6f09",
+    "target": "436e21397c1b54220f08024d156c94cb52e5b9bfaf19490266c404a886fe9fb0"
+  },
+  "test_pair_available": false,
+  "test_pair_origin": null
+}

@@ -1,0 +1,21 @@
+{
+  "candidate_id": "D0032",
+  "source_api": "tf.atan",
+  "target_calls": "torch.atan",
+  "source": {
+    "framework": "tensorflow",
+    "entry": "tensorflow_call"
+  },
+  "target": {
+    "framework": "pytorch",
+    "entry": "pytorch_call"
+  },
+  "cohort": "discovery",
+  "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.atan.json",
+  "operation_sha256": {
+    "source": "a6ef3d5e03de0e069006083ee8d2e073adff629dea210371a2e66863e2a54090",
+    "target": "643907eaa2caac941b75bf225497eb07b88ce39b6abbc73da9c6abe8014cba3d"
+  },
+  "test_pair_available": false,
+  "test_pair_origin": null
+}

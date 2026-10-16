@@ -1,0 +1,179 @@
+{
+  "cases": [
+    {
+      "candidate_id": "E001",
+      "samples": 24,
+      "outcomes": {
+        "oracle_pass": 21,
+        "oracle_fail": 3
+      },
+      "unexecuted_target_statement_lines": []
+    },
+    {
+      "candidate_id": "E003",
+      "samples": 24,
+      "outcomes": {
+        "oracle_pass": 21,
+        "oracle_fail": 3
+      },
+      "unexecuted_target_statement_lines": []
+    },
+    {
+      "candidate_id": "E005",
+      "samples": 19,
+      "outcomes": {
+        "oracle_pass": 18,
+        "oracle_fail": 1
+      },
+      "unexecuted_target_statement_lines": []
+    },
+    {
+      "candidate_id": "E007",
+      "samples": 25,
+      "outcomes": {
+        "oracle_pass": 21,
+        "oracle_fail": 4
+      },
+      "unexecuted_target_statement_lines": []
+    },
+    {
+      "candidate_id": "E009",
+      "samples": 24,
+      "outcomes": {
+        "oracle_pass": 21,
+        "oracle_fail": 3
+      },
+      "unexecuted_target_statement_lines": []
+    },
+    {
+      "candidate_id": "E011",
+      "samples": 21,
+      "outcomes": {
+        "oracle_pass": 18,
+        "oracle_fail": 3
+      },
+      "unexecuted_target_statement_lines": []
+    },
+    {
+      "candidate_id": "E013",
+      "samples": 24,
+      "outcomes": {
+        "oracle_pass": 24
+      },
+      "unexecuted_target_statement_lines": []
+    },
+    {
+      "candidate_id": "E015",
+      "samples": 23,
+      "outcomes": {
+        "oracle_pass": 20,
+        "oracle_fail": 3
+      },
+      "unexecuted_target_statement_lines": []
+    },
+    {
+      "candidate_id": "E020",
+      "samples": 12,
+      "outcomes": {
+        "oracle_pass": 12
+      },
+      "unexecuted_target_statement_lines": []
+    },
+    {
+      "candidate_id": "E029",
+      "samples": 33,
+      "outcomes": {
+        "oracle_pass": 33
+      },
+      "unexecuted_target_statement_lines": []
+    },
+    {
+      "candidate_id": "E030",
+      "samples": 17,
+      "outcomes": {
+        "oracle_pass": 16,
+        "oracle_fail": 1
+      },
+      "unexecuted_target_statement_lines": []
+    },
+    {
+      "candidate_id": "H001",
+      "samples": 20,
+      "outcomes": {
+        "oracle_pass": 18,
+        "oracle_fail": 2
+      },
+      "unexecuted_target_statement_lines": []
+    },
+    {
+      "candidate_id": "H002",
+      "samples": 10,
+      "outcomes": {
+        "oracle_pass": 8,
+        "oracle_fail": 2
+      },
+      "unexecuted_target_statement_lines": []
+    },
+    {
+      "candidate_id": "H008",
+      "samples": 12,
+      "outcomes": {
+        "oracle_pass": 12
+      },
+      "unexecuted_target_statement_lines": [
+        9,
+        11,
+        13
+      ]
+    },
+    {
+      "candidate_id": "H010",
+      "samples": 13,
+      "outcomes": {
+        "oracle_pass": 10,
+        "oracle_fail": 3
+      },
+      "unexecuted_target_statement_lines": [
+        3
+      ]
+    },
+    {
+      "candidate_id": "H011",
+      "samples": 17,
+      "outcomes": {
+        "oracle_pass": 17
+      },
+      "unexecuted_target_statement_lines": [
+        12
+      ]
+    },
+    {
+      "candidate_id": "H012",
+      "samples": 14,
+      "outcomes": {
+        "oracle_fail": 12,
+        "oracle_pass": 2
+      },
+      "unexecuted_target_statement_lines": [
+        4,
+        11
+      ]
+    }
+  ],
+  "total_records": 332,
+  "outcomes": {
+    "oracle_pass": 292,
+    "oracle_fail": 40
+  },
+  "versions": {
+    "python": "3.11.16 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:36:16) [MSC v.1942 64 bit (AMD64)]",
+    "numpy": "2.1.3",
+    "torch": "2.9.1+cpu",
+    "tensorflow": "2.20.0"
+  },
+  "adapter_checks": {
+    "scalar_shape_dtype_checks": 4,
+    "oracle_negative_controls": 2,
+    "status": "passed"
+  }
+}

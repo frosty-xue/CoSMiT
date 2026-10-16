@@ -1,0 +1,21 @@
+{
+  "candidate_id": "D0005",
+  "source_api": "torch.arctan",
+  "target_calls": "tf.math.atan",
+  "source": {
+    "framework": "pytorch",
+    "entry": "pytorch_call"
+  },
+  "target": {
+    "framework": "tensorflow",
+    "entry": "tensorflow_call"
+  },
+  "cohort": "discovery",
+  "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.arctan.json",
+  "operation_sha256": {
+    "source": "5f687b257c48f38e10b4fd8a692d23058aa207b0b521c78517229c101236b204",
+    "target": "542fe086301cb1a4bbf39f066fde8f90640c8147a454afae83e352ae9984e966"
+  },
+  "test_pair_available": false,
+  "test_pair_origin": null
+}

@@ -1,0 +1,15 @@
+{
+  "candidate_id": "E007",
+  "source_framework": "pytorch",
+  "target_framework": "tensorflow",
+  "sample_count": 25,
+  "sample_source": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.div.json",
+  "public_test_url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L1113",
+  "oracle_settings": {
+    "rtol": null,
+    "atol": 1,
+    "test_dtypes": true
+  },
+  "original_json_sha256": "cfdc577a7b6c099afa64e8b93295b0305fe2d01dbb68b005c07a6451f8c0226d",
+  "scope": "controlled fixed-public-sample adaptation; not original Ivy strategy replay; not independent intent evidence"
+}

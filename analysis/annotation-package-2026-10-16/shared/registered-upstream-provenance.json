@@ -1,0 +1,67 @@
+[
+  {
+    "file": "upstream/pt_binary.py",
+    "url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.9.1/test/test_binary_ufuncs.py",
+    "sha256": "30e2d56b4c0c96bd4bae3f39d93fc094eaaa6989e2bc513de4591fd7e24be46d"
+  },
+  {
+    "file": "upstream/pt_shape.py",
+    "url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.9.1/test/test_shape_ops.py",
+    "sha256": "c530498e5ac4d1829523718700bdc48d30be5a5e6f98ae62d4d3c0dadba3ce10"
+  },
+  {
+    "file": "upstream/pt_tensor.py",
+    "url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.9.1/test/test_tensor_creation_ops.py",
+    "sha256": "4c12479d61006056f796f49410f97e88423e5b7682e2181635f5090d751df05e"
+  },
+  {
+    "file": "upstream/pt_torch.py",
+    "url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.9.1/test/test_torch.py",
+    "sha256": "0b9e6ae927c81d39680ef70bfd5c943bd2710b5700a444b63609f531d0aa267a"
+  },
+  {
+    "file": "upstream/pt_view.py",
+    "url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.9.1/test/test_view_ops.py",
+    "sha256": "71a1357c7d2c547e8b5c97f08a5d3779c688b9dd9abf7e8c0984870da39bc1cb"
+  },
+  {
+    "file": "upstream/tf_array.py",
+    "url": "https://raw.githubusercontent.com/tensorflow/tensorflow/v2.20.0/tensorflow/python/kernel_tests/array_ops/array_ops_test.py",
+    "sha256": "17433b155eb637d46b19488485d734ef4086cf33776b837c6a0aa54032d2e2f1"
+  },
+  {
+    "file": "upstream/tf_binary.py",
+    "url": "https://raw.githubusercontent.com/tensorflow/tensorflow/v2.20.0/tensorflow/python/kernel_tests/math_ops/cwise_ops_binary_test.py",
+    "sha256": "50939e22a70a2964536ecd0150dd06db82d21296c4c9ac6811c28c4a7a7c1828"
+  },
+  {
+    "file": "upstream/tf_clip.py",
+    "url": "https://raw.githubusercontent.com/tensorflow/tensorflow/v2.20.0/tensorflow/python/kernel_tests/math_ops/clip_ops_test.py",
+    "sha256": "df6df6f01cd1e23702862eb7667fa9b11970b493472c6b4fa0ab7c25a22e7cf3"
+  },
+  {
+    "file": "upstream/tf_concat.py",
+    "url": "https://raw.githubusercontent.com/tensorflow/tensorflow/v2.20.0/tensorflow/python/kernel_tests/array_ops/concat_op_test.py",
+    "sha256": "e3f6c6a67a9095e9039c088f5536a4dd3b838df55270e1ba9bbe80d531a731df"
+  },
+  {
+    "file": "upstream/tf_reshape.py",
+    "url": "https://raw.githubusercontent.com/tensorflow/tensorflow/v2.20.0/tensorflow/python/kernel_tests/array_ops/reshape_op_test.py",
+    "sha256": "009e5b775a2dfc99e813377cdae9a08ef52f2573ca8150846138e4138c20034c"
+  },
+  {
+    "file": "upstream/tf_shape.py",
+    "url": "https://raw.githubusercontent.com/tensorflow/tensorflow/v2.20.0/tensorflow/python/kernel_tests/array_ops/shape_ops_test.py",
+    "sha256": "32d081fb015431eb4a738969dd872c52df044048f81e2dd924e1734f0cd0436a"
+  },
+  {
+    "file": "upstream/tf_stack.py",
+    "url": "https://raw.githubusercontent.com/tensorflow/tensorflow/v2.20.0/tensorflow/python/kernel_tests/array_ops/stack_op_test.py",
+    "sha256": "bd7583a4686103045e4169154bbd11b641b94bf1df4db043f986c3a6474e9f6a"
+  },
+  {
+    "file": "upstream/tf_transpose.py",
+    "url": "https://raw.githubusercontent.com/tensorflow/tensorflow/v2.20.0/tensorflow/python/kernel_tests/math_ops/transpose_op_test.py",
+    "sha256": "834246703ddb8620c56ea0eaec8f92633b1b45c9bd5f7b4400f0c31c400e0b2c"
+  }
+]

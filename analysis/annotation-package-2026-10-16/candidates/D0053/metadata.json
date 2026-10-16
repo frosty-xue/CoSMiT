@@ -1,0 +1,21 @@
+{
+  "candidate_id": "D0053",
+  "source_api": "tf.math.sign",
+  "target_calls": "torch.sign",
+  "source": {
+    "framework": "tensorflow",
+    "entry": "tensorflow_call"
+  },
+  "target": {
+    "framework": "pytorch",
+    "entry": "pytorch_call"
+  },
+  "cohort": "discovery",
+  "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.sign.json",
+  "operation_sha256": {
+    "source": "0f8c74a56eb36c56c25a22f28681abcf6249fdf5fc1415ef82c9a94dae7d99ac",
+    "target": "4eddcfe8dd87399ba0b4d54b13b22674d603d499c8c95941873ca37914fb8a5d"
+  },
+  "test_pair_available": false,
+  "test_pair_origin": null
+}

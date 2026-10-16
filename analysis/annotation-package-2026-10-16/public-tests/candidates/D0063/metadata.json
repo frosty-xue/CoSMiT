@@ -1,0 +1,46 @@
+{
+  "candidate_id": "D0063",
+  "source_api": "tf.sign",
+  "target_calls": "torch.sign",
+  "status": "两端API测试齐",
+  "source_match": "exact API / explicit decorator alias",
+  "source_test": {
+    "repository": "tensorflow/tensorflow",
+    "commit": "5bc9d26649cca274750ad3625bd93422617eed4b",
+    "upstream_path": "tensorflow/python/kernel_tests/math_ops/cwise_ops_unary_test.py",
+    "function": "testFloatBasic",
+    "line": 187,
+    "end_line": 240,
+    "url": "https://github.com/tensorflow/tensorflow/blob/5bc9d26649cca274750ad3625bd93422617eed4b/tensorflow/python/kernel_tests/math_ops/cwise_ops_unary_test.py#L187",
+    "kind": "Official framework test",
+    "full_file": "candidates/D0063/source-test-full.py",
+    "excerpt_file": "candidates/D0063/source-test-excerpt.py",
+    "original_sha256": "e144f5e1db211eae9f257be20f8de5eef17e3758b67cecc478b1a37b0bb3cc6b",
+    "excerpt_sha256": "ac7d938dee3d3f8d10cbeab0cdccb047e0ea87976acb6043d0bd20bd796e4c47"
+  },
+  "target_tests": [
+    {
+      "api": "torch.sign",
+      "match": "exact API / explicit decorator alias",
+      "test": {
+        "repository": "ivy-llc/ivy",
+        "commit": "a701151c85d59c0260a4dbf505479805bdeec00f",
+        "upstream_path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "function": "test_torch_sign",
+        "line": 2618,
+        "end_line": 2642,
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L2618",
+        "kind": "Ivy public frontend test",
+        "full_file": "candidates/D0063/target-01-test-full.py",
+        "excerpt_file": "candidates/D0063/target-01-test-excerpt.py",
+        "original_sha256": "c0bddd69651e592166d17f24eed33beb3b8034a253053e0cf681be106e1f14c1",
+        "excerpt_sha256": "92f65d04824e133992337af92e790ca89ea83e4a9c7b6eb653f86a8eb8a04414"
+      }
+    }
+  ],
+  "whole_counterpart_test_verified": false,
+  "input_oracle_alignment": "not yet reviewed",
+  "execution": "not run",
+  "origin": "paired existing public API tests; not a historical migration record",
+  "notes": []
+}

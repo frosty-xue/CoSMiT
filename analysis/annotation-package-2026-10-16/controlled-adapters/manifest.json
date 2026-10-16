@@ -1,0 +1,261 @@
+{
+  "cases": [
+    {
+      "candidate_id": "E001",
+      "source_framework": "pytorch",
+      "target_framework": "tensorflow",
+      "sample_count": 24,
+      "sample_source": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.add.json",
+      "public_test_url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L237",
+      "oracle_settings": {
+        "rtol": 0.001,
+        "atol": 1e-06,
+        "test_dtypes": true
+      },
+      "original_json_sha256": "3df3f027cad742a40dab97efd75b99ec86e1898370486d939b0d0c3eff197c03",
+      "scope": "controlled fixed-public-sample adaptation; not original Ivy strategy replay; not independent intent evidence"
+    },
+    {
+      "candidate_id": "E003",
+      "source_framework": "pytorch",
+      "target_framework": "tensorflow",
+      "sample_count": 24,
+      "sample_source": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.sub.json",
+      "public_test_url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L2819",
+      "oracle_settings": {
+        "rtol": null,
+        "atol": 1e-06,
+        "test_dtypes": true
+      },
+      "original_json_sha256": "13a8f01ada85038d5da04bfc05ed3b0d32e4cd572c80e603af3fae728eaea6e2",
+      "scope": "controlled fixed-public-sample adaptation; not original Ivy strategy replay; not independent intent evidence"
+    },
+    {
+      "candidate_id": "E005",
+      "source_framework": "pytorch",
+      "target_framework": "tensorflow",
+      "sample_count": 19,
+      "sample_source": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.mul.json",
+      "public_test_url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L2144",
+      "oracle_settings": {
+        "rtol": 0.001,
+        "atol": 1e-06,
+        "test_dtypes": true
+      },
+      "original_json_sha256": "e185535aa4fac6156976f1c20e9be8e586841d5d6052ca5d4bcee37a419c33e1",
+      "scope": "controlled fixed-public-sample adaptation; not original Ivy strategy replay; not independent intent evidence"
+    },
+    {
+      "candidate_id": "E007",
+      "source_framework": "pytorch",
+      "target_framework": "tensorflow",
+      "sample_count": 25,
+      "sample_source": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.div.json",
+      "public_test_url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L1113",
+      "oracle_settings": {
+        "rtol": null,
+        "atol": 1,
+        "test_dtypes": true
+      },
+      "original_json_sha256": "cfdc577a7b6c099afa64e8b93295b0305fe2d01dbb68b005c07a6451f8c0226d",
+      "scope": "controlled fixed-public-sample adaptation; not original Ivy strategy replay; not independent intent evidence"
+    },
+    {
+      "candidate_id": "E009",
+      "source_framework": "pytorch",
+      "target_framework": "tensorflow",
+      "sample_count": 24,
+      "sample_source": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.maximum.json",
+      "public_test_url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_comparison_ops.py#L659",
+      "oracle_settings": {
+        "rtol": null,
+        "atol": 1e-06,
+        "test_dtypes": true
+      },
+      "original_json_sha256": "d1bd9e5c5546345542d4e6370bd36289ffca6b428650b54356e2dc1c1c3fbddf",
+      "scope": "controlled fixed-public-sample adaptation; not original Ivy strategy replay; not independent intent evidence"
+    },
+    {
+      "candidate_id": "E011",
+      "source_framework": "pytorch",
+      "target_framework": "tensorflow",
+      "sample_count": 21,
+      "sample_source": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.minimum.json",
+      "public_test_url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_comparison_ops.py#L689",
+      "oracle_settings": {
+        "rtol": null,
+        "atol": 1e-06,
+        "test_dtypes": true
+      },
+      "original_json_sha256": "af4d67e3a2e3db00396b369973e4758bdf5db035a417ebdd80923f28f7ac6dd8",
+      "scope": "controlled fixed-public-sample adaptation; not original Ivy strategy replay; not independent intent evidence"
+    },
+    {
+      "candidate_id": "E013",
+      "source_framework": "pytorch",
+      "target_framework": "tensorflow",
+      "sample_count": 24,
+      "sample_source": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.pow.json",
+      "public_test_url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L2333",
+      "oracle_settings": {
+        "rtol": null,
+        "atol": 1e-06,
+        "test_dtypes": true
+      },
+      "original_json_sha256": "1ef4936b12fb8361c3067d3359d679784e28680e77e98eb4dfd4090adccc1736",
+      "scope": "controlled fixed-public-sample adaptation; not original Ivy strategy replay; not independent intent evidence"
+    },
+    {
+      "candidate_id": "E015",
+      "source_framework": "pytorch",
+      "target_framework": "tensorflow",
+      "sample_count": 23,
+      "sample_source": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.atan2.json",
+      "public_test_url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L633",
+      "oracle_settings": {
+        "rtol": null,
+        "atol": 1e-06,
+        "test_dtypes": true
+      },
+      "original_json_sha256": "12db9d38e88285dda1daf406a2bcdeb63d91ca6626cb3a4eca1bae340d3a528b",
+      "scope": "controlled fixed-public-sample adaptation; not original Ivy strategy replay; not independent intent evidence"
+    },
+    {
+      "candidate_id": "E020",
+      "source_framework": "tensorflow",
+      "target_framework": "pytorch",
+      "sample_count": 12,
+      "sample_source": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.transpose.json",
+      "public_test_url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_general_functions.py#L2297",
+      "oracle_settings": {
+        "rtol": null,
+        "atol": 1e-06,
+        "test_dtypes": true
+      },
+      "original_json_sha256": "423c8405d243423a2342eeec37cf22c459d2775520605226719433a39617b7f6",
+      "scope": "controlled fixed-public-sample adaptation; not original Ivy strategy replay; not independent intent evidence"
+    },
+    {
+      "candidate_id": "E029",
+      "source_framework": "pytorch",
+      "target_framework": "tensorflow",
+      "sample_count": 33,
+      "sample_source": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.clip.json",
+      "public_test_url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L907",
+      "oracle_settings": {
+        "rtol": null,
+        "atol": 1e-06,
+        "test_dtypes": true
+      },
+      "original_json_sha256": "96dea2af8a37fdc6aa753ef794df87b61b9f2ebb4e74820973d10de50b48f598",
+      "scope": "controlled fixed-public-sample adaptation; not original Ivy strategy replay; not independent intent evidence"
+    },
+    {
+      "candidate_id": "E030",
+      "source_framework": "tensorflow",
+      "target_framework": "pytorch",
+      "sample_count": 17,
+      "sample_source": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.clip_by_value.json",
+      "public_test_url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_general_functions.py#L654",
+      "oracle_settings": {
+        "rtol": null,
+        "atol": 1e-06,
+        "test_dtypes": true
+      },
+      "original_json_sha256": "559b21a7492dd7931a96131c1afbddc592ff267bad5512bdb2153a566702209f",
+      "scope": "controlled fixed-public-sample adaptation; not original Ivy strategy replay; not independent intent evidence"
+    },
+    {
+      "candidate_id": "H001",
+      "source_framework": "pytorch",
+      "target_framework": "tensorflow",
+      "sample_count": 20,
+      "sample_source": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.prod.json",
+      "public_test_url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_reduction_ops.py#L792",
+      "oracle_settings": {
+        "rtol": null,
+        "atol": 1e-06,
+        "test_dtypes": true
+      },
+      "original_json_sha256": "4b709a3c54ef77677c277130ab8d4a15ee91664abd54a1cadc2ea63997a982fb",
+      "scope": "controlled fixed-public-sample adaptation; not original Ivy strategy replay; not independent intent evidence"
+    },
+    {
+      "candidate_id": "H002",
+      "source_framework": "pytorch",
+      "target_framework": "tensorflow",
+      "sample_count": 10,
+      "sample_source": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.matmul.json",
+      "public_test_url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_blas_and_lapack_ops.py#L666",
+      "oracle_settings": {
+        "rtol": 0.01,
+        "atol": 1e-06,
+        "test_dtypes": true
+      },
+      "original_json_sha256": "572cc31786b30f4be29ad7a399b3b60af6e6f5569bbe99cc3118a1e7335bc927",
+      "scope": "controlled fixed-public-sample adaptation; not original Ivy strategy replay; not independent intent evidence"
+    },
+    {
+      "candidate_id": "H008",
+      "source_framework": "tensorflow",
+      "target_framework": "pytorch",
+      "sample_count": 12,
+      "sample_source": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.matmul.json",
+      "public_test_url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_linalg.py#L718",
+      "oracle_settings": {
+        "rtol": null,
+        "atol": 1e-06,
+        "test_dtypes": true
+      },
+      "original_json_sha256": "b349506967de09f2c120e4ebca75a69dcda8686f3c64edda45b8631dd7c4eaef",
+      "scope": "controlled fixed-public-sample adaptation; not original Ivy strategy replay; not independent intent evidence"
+    },
+    {
+      "candidate_id": "H010",
+      "source_framework": "tensorflow",
+      "target_framework": "pytorch",
+      "sample_count": 13,
+      "sample_source": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.linalg.trace.json",
+      "public_test_url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_linalg.py#L1227",
+      "oracle_settings": {
+        "rtol": null,
+        "atol": 1e-06,
+        "test_dtypes": true
+      },
+      "original_json_sha256": "132931ea5c09919ecacf09681cd75b523f06ddccbfa8240b2930a3c529355ea4",
+      "scope": "controlled fixed-public-sample adaptation; not original Ivy strategy replay; not independent intent evidence"
+    },
+    {
+      "candidate_id": "H011",
+      "source_framework": "tensorflow",
+      "target_framework": "pytorch",
+      "sample_count": 17,
+      "sample_source": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.cumsum.json",
+      "public_test_url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L763",
+      "oracle_settings": {
+        "rtol": 0.01,
+        "atol": 0.01,
+        "test_dtypes": true
+      },
+      "original_json_sha256": "4bf9182d0738f0eb6e5fe8e84a3a1108ee87da5117a467f4165fc5f9fcc54504",
+      "scope": "controlled fixed-public-sample adaptation; not original Ivy strategy replay; not independent intent evidence"
+    },
+    {
+      "candidate_id": "H012",
+      "source_framework": "tensorflow",
+      "target_framework": "pytorch",
+      "sample_count": 14,
+      "sample_source": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.cumprod.json",
+      "public_test_url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L722",
+      "oracle_settings": {
+        "rtol": null,
+        "atol": 1e-06,
+        "test_dtypes": true
+      },
+      "original_json_sha256": "ad36ea71f6f15f388b452d063c42e93c5aba4570e5b111a2e0d365f333faf83e",
+      "scope": "controlled fixed-public-sample adaptation; not original Ivy strategy replay; not independent intent evidence"
+    }
+  ],
+  "oracle_original_sha256": "d94dd8cc501c89ba2aef8da5482dd6fe7f9c411378c8d8878a360d94db9bb828",
+  "oracle_commit": "a701151c85d59c0260a4dbf505479805bdeec00f"
+}

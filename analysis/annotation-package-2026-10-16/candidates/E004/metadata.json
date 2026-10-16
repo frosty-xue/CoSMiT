@@ -1,0 +1,21 @@
+{
+  "candidate_id": "E004",
+  "source_api": "tf.subtract",
+  "target_calls": "torch.sub",
+  "source": {
+    "framework": "tensorflow",
+    "entry": "tensorflow_call"
+  },
+  "target": {
+    "framework": "pytorch",
+    "entry": "pytorch_call"
+  },
+  "cohort": "expansion",
+  "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.subtract.json",
+  "operation_sha256": {
+    "source": "80786a716c2d32f6c45d30ebf11575a03a67e71b9e7b402ef7caf61c5707f65b",
+    "target": "8319d5309161cd66697478cbed2f8ec353495349cb7162315eac576b930dcdb4"
+  },
+  "test_pair_available": true,
+  "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+}

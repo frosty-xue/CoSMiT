@@ -1,0 +1,21 @@
+{
+  "candidate_id": "H008",
+  "source_api": "tf.matmul",
+  "target_calls": "torch.matmul",
+  "source": {
+    "framework": "tensorflow",
+    "entry": "tensorflow_call"
+  },
+  "target": {
+    "framework": "pytorch",
+    "entry": "pytorch_call"
+  },
+  "cohort": "unseen",
+  "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.matmul.json",
+  "operation_sha256": {
+    "source": "e77def235eaaf933a6a00771563eaa40fbafab12a2a4fc24278fd22e248a44a3",
+    "target": "c7669a9cabc308803a97f30d2d4a7243c7681fd46302caff5c93b0e4168cd23f"
+  },
+  "test_pair_available": false,
+  "test_pair_origin": null
+}

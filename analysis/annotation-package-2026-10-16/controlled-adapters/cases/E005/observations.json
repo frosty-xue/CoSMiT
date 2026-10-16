@@ -1,0 +1,2138 @@
+{
+  "versions": {
+    "python": "3.11.16 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:36:16) [MSC v.1942 64 bit (AMD64)]",
+    "numpy": "2.1.3",
+    "torch": "2.9.1+cpu",
+    "tensorflow": "2.20.0"
+  },
+  "records": [
+    {
+      "candidate_id": "E005",
+      "sample_index": 0,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        3
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        "other": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              5,
+              6
+            ],
+            [
+              7,
+              8
+            ]
+          ]
+        }
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            5,
+            12
+          ],
+          [
+            21,
+            32
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            5,
+            12
+          ],
+          [
+            21,
+            32
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "E005",
+      "sample_index": 1,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        3
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int32",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              -3,
+              33
+            ],
+            [
+              -12,
+              3
+            ]
+          ]
+        },
+        "other": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              5,
+              6
+            ],
+            [
+              7,
+              8
+            ]
+          ]
+        }
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            -15,
+            198
+          ],
+          [
+            -84,
+            24
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            -15,
+            198
+          ],
+          [
+            -84,
+            24
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "E005",
+      "sample_index": 2,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        3
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              -3,
+              33
+            ],
+            [
+              -12,
+              3
+            ]
+          ]
+        },
+        "other": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              5,
+              6
+            ],
+            [
+              7,
+              8
+            ]
+          ]
+        }
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            -15,
+            198
+          ],
+          [
+            -84,
+            24
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            -15,
+            198
+          ],
+          [
+            -84,
+            24
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "E005",
+      "sample_index": 3,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        3
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        "other": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            1
+          ],
+          "values": [
+            [
+              -3
+            ],
+            [
+              33
+            ]
+          ]
+        }
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            -3,
+            -6
+          ],
+          [
+            99,
+            132
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            -3,
+            -6
+          ],
+          [
+            99,
+            132
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "E005",
+      "sample_index": 4,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        3
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "values": [
+            [
+              [
+                [
+                  -3
+                ]
+              ],
+              [
+                [
+                  33
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  -12
+                ]
+              ],
+              [
+                [
+                  3
+                ]
+              ]
+            ]
+          ]
+        },
+        "other": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              5,
+              6
+            ],
+            [
+              7,
+              8
+            ]
+          ]
+        }
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "values": [
+          [
+            [
+              [
+                -15,
+                -18
+              ],
+              [
+                -21,
+                -24
+              ]
+            ],
+            [
+              [
+                165,
+                198
+              ],
+              [
+                231,
+                264
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -60,
+                -72
+              ],
+              [
+                -84,
+                -96
+              ]
+            ],
+            [
+              [
+                15,
+                18
+              ],
+              [
+                21,
+                24
+              ]
+            ]
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "values": [
+          [
+            [
+              [
+                -15,
+                -18
+              ],
+              [
+                -21,
+                -24
+              ]
+            ],
+            [
+              [
+                165,
+                198
+              ],
+              [
+                231,
+                264
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -60,
+                -72
+              ],
+              [
+                -84,
+                -96
+              ]
+            ],
+            [
+              [
+                15,
+                18
+              ],
+              [
+                21,
+                24
+              ]
+            ]
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "E005",
+      "sample_index": 5,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        3
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2,
+            1,
+            1,
+            1
+          ],
+          "values": [
+            [
+              [
+                [
+                  [
+                    -3
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    33
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  [
+                    -12
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    3
+                  ]
+                ]
+              ]
+            ]
+          ]
+        },
+        "other": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              5,
+              6
+            ],
+            [
+              7,
+              8
+            ]
+          ]
+        }
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2,
+          1,
+          2,
+          2
+        ],
+        "values": [
+          [
+            [
+              [
+                [
+                  -15,
+                  -18
+                ],
+                [
+                  -21,
+                  -24
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  165,
+                  198
+                ],
+                [
+                  231,
+                  264
+                ]
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                [
+                  -60,
+                  -72
+                ],
+                [
+                  -84,
+                  -96
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  15,
+                  18
+                ],
+                [
+                  21,
+                  24
+                ]
+              ]
+            ]
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2,
+          1,
+          2,
+          2
+        ],
+        "values": [
+          [
+            [
+              [
+                [
+                  -15,
+                  -18
+                ],
+                [
+                  -21,
+                  -24
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  165,
+                  198
+                ],
+                [
+                  231,
+                  264
+                ]
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                [
+                  -60,
+                  -72
+                ],
+                [
+                  -84,
+                  -96
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  15,
+                  18
+                ],
+                [
+                  21,
+                  24
+                ]
+              ]
+            ]
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "E005",
+      "sample_index": 6,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        3
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        "other": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [],
+          "values": -3
+        }
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            -3,
+            -6
+          ],
+          [
+            -9,
+            -12
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            -3,
+            -6
+          ],
+          [
+            -9,
+            -12
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "E005",
+      "sample_index": 7,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        3
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        "other": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2,
+            1,
+            1,
+            1
+          ],
+          "values": [
+            [
+              [
+                [
+                  [
+                    -3
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    33
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  [
+                    -12
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    3
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2,
+          1,
+          2,
+          2
+        ],
+        "values": [
+          [
+            [
+              [
+                [
+                  -3,
+                  -6
+                ],
+                [
+                  -9,
+                  -12
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  33,
+                  66
+                ],
+                [
+                  99,
+                  132
+                ]
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                [
+                  -12,
+                  -24
+                ],
+                [
+                  -36,
+                  -48
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  3,
+                  6
+                ],
+                [
+                  9,
+                  12
+                ]
+              ]
+            ]
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2,
+          1,
+          2,
+          2
+        ],
+        "values": [
+          [
+            [
+              [
+                [
+                  -3,
+                  -6
+                ],
+                [
+                  -9,
+                  -12
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  33,
+                  66
+                ],
+                [
+                  99,
+                  132
+                ]
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                [
+                  -12,
+                  -24
+                ],
+                [
+                  -36,
+                  -48
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  3,
+                  6
+                ],
+                [
+                  9,
+                  12
+                ]
+              ]
+            ]
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "E005",
+      "sample_index": 8,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        3
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        "other": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            1,
+            2
+          ],
+          "values": [
+            [
+              -3,
+              33
+            ]
+          ]
+        }
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            -3,
+            66
+          ],
+          [
+            -9,
+            132
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            -3,
+            66
+          ],
+          [
+            -9,
+            132
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "E005",
+      "sample_index": 9,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        3
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2,
+            1
+          ],
+          "values": [
+            [
+              [
+                -3
+              ],
+              [
+                33
+              ]
+            ],
+            [
+              [
+                -12
+              ],
+              [
+                3
+              ]
+            ]
+          ]
+        },
+        "other": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              5,
+              6
+            ],
+            [
+              7,
+              8
+            ]
+          ]
+        }
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2,
+          2
+        ],
+        "values": [
+          [
+            [
+              -15,
+              -18
+            ],
+            [
+              231,
+              264
+            ]
+          ],
+          [
+            [
+              -60,
+              -72
+            ],
+            [
+              21,
+              24
+            ]
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2,
+          2
+        ],
+        "values": [
+          [
+            [
+              -15,
+              -18
+            ],
+            [
+              231,
+              264
+            ]
+          ],
+          [
+            [
+              -60,
+              -72
+            ],
+            [
+              21,
+              24
+            ]
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "E005",
+      "sample_index": 10,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        3
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        "other": {
+          "kind": "array",
+          "dtype": "int32",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              -3,
+              33
+            ],
+            [
+              -12,
+              3
+            ]
+          ]
+        }
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            -3,
+            66
+          ],
+          [
+            -36,
+            12
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int32",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            -3,
+            66
+          ],
+          [
+            -36,
+            12
+          ]
+        ]
+      },
+      "status": "oracle_fail",
+      "oracle_error": {
+        "type": "AssertionError",
+        "message": "returned dtype = int32, ground-truth returned dtype = int64"
+      }
+    },
+    {
+      "candidate_id": "E005",
+      "sample_index": 11,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        3
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        "other": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              -3,
+              33
+            ],
+            [
+              -12,
+              3
+            ]
+          ]
+        }
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            -3,
+            66
+          ],
+          [
+            -36,
+            12
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            -3,
+            66
+          ],
+          [
+            -36,
+            12
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "E005",
+      "sample_index": 12,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        3
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2
+          ],
+          "values": [
+            -3,
+            33
+          ]
+        },
+        "other": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              5,
+              6
+            ],
+            [
+              7,
+              8
+            ]
+          ]
+        }
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            -15,
+            198
+          ],
+          [
+            -21,
+            264
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            -15,
+            198
+          ],
+          [
+            -21,
+            264
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "E005",
+      "sample_index": 13,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        3
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        "other": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2
+          ],
+          "values": [
+            -3,
+            33
+          ]
+        }
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            -3,
+            66
+          ],
+          [
+            -9,
+            132
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            -3,
+            66
+          ],
+          [
+            -9,
+            132
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "E005",
+      "sample_index": 14,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        3
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        "other": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2,
+            1
+          ],
+          "values": [
+            [
+              [
+                -3
+              ],
+              [
+                33
+              ]
+            ],
+            [
+              [
+                -12
+              ],
+              [
+                3
+              ]
+            ]
+          ]
+        }
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2,
+          2
+        ],
+        "values": [
+          [
+            [
+              -3,
+              -6
+            ],
+            [
+              99,
+              132
+            ]
+          ],
+          [
+            [
+              -12,
+              -24
+            ],
+            [
+              9,
+              12
+            ]
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2,
+          2
+        ],
+        "values": [
+          [
+            [
+              -3,
+              -6
+            ],
+            [
+              99,
+              132
+            ]
+          ],
+          [
+            [
+              -12,
+              -24
+            ],
+            [
+              9,
+              12
+            ]
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "E005",
+      "sample_index": 15,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        3
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        "other": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "values": [
+            [
+              [
+                [
+                  -3
+                ]
+              ],
+              [
+                [
+                  33
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  -12
+                ]
+              ],
+              [
+                [
+                  3
+                ]
+              ]
+            ]
+          ]
+        }
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "values": [
+          [
+            [
+              [
+                -3,
+                -6
+              ],
+              [
+                -9,
+                -12
+              ]
+            ],
+            [
+              [
+                33,
+                66
+              ],
+              [
+                99,
+                132
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -12,
+                -24
+              ],
+              [
+                -36,
+                -48
+              ]
+            ],
+            [
+              [
+                3,
+                6
+              ],
+              [
+                9,
+                12
+              ]
+            ]
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "values": [
+          [
+            [
+              [
+                -3,
+                -6
+              ],
+              [
+                -9,
+                -12
+              ]
+            ],
+            [
+              [
+                33,
+                66
+              ],
+              [
+                99,
+                132
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -12,
+                -24
+              ],
+              [
+                -36,
+                -48
+              ]
+            ],
+            [
+              [
+                3,
+                6
+              ],
+              [
+                9,
+                12
+              ]
+            ]
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "E005",
+      "sample_index": 16,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        3
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            1,
+            2
+          ],
+          "values": [
+            [
+              -3,
+              33
+            ]
+          ]
+        },
+        "other": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              5,
+              6
+            ],
+            [
+              7,
+              8
+            ]
+          ]
+        }
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            -15,
+            198
+          ],
+          [
+            -21,
+            264
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            -15,
+            198
+          ],
+          [
+            -21,
+            264
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "E005",
+      "sample_index": 17,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        3
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            1
+          ],
+          "values": [
+            [
+              -3
+            ],
+            [
+              33
+            ]
+          ]
+        },
+        "other": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              5,
+              6
+            ],
+            [
+              7,
+              8
+            ]
+          ]
+        }
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            -15,
+            -18
+          ],
+          [
+            231,
+            264
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            -15,
+            -18
+          ],
+          [
+            231,
+            264
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "E005",
+      "sample_index": 18,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        3
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [],
+          "values": -3
+        },
+        "other": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              5,
+              6
+            ],
+            [
+              7,
+              8
+            ]
+          ]
+        }
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            -15,
+            -18
+          ],
+          [
+            -21,
+            -24
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            -15,
+            -18
+          ],
+          [
+            -21,
+            -24
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    }
+  ],
+  "coverage": {
+    "source": {
+      "executed_lines": [
+        2
+      ],
+      "unexecuted_statement_lines": []
+    },
+    "target": {
+      "executed_lines": [
+        2,
+        3
+      ],
+      "unexecuted_statement_lines": []
+    }
+  },
+  "scope": "fixed public samples; controlled adaptation; not human labels",
+  "adapter_checks": {
+    "scalar_shape_dtype_checks": 4,
+    "oracle_negative_controls": 2,
+    "status": "passed"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "candidate_id": "D0068",
+  "source_api": "tf.tan",
+  "target_calls": "torch.tan",
+  "status": "两端API测试齐",
+  "source_match": "namespace re-export: Ivy tensorflow/__init__.py; selected tf.math.tan",
+  "source_test": {
+    "repository": "ivy-llc/ivy",
+    "commit": "a701151c85d59c0260a4dbf505479805bdeec00f",
+    "upstream_path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+    "function": "test_tensorflow_tan",
+    "line": 3029,
+    "end_line": 3052,
+    "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L3029",
+    "kind": "Ivy public frontend test",
+    "full_file": "candidates/D0068/source-test-full.py",
+    "excerpt_file": "candidates/D0068/source-test-excerpt.py",
+    "original_sha256": "644d0efebf10d4bbfb9520f70bed72556084389131abe3ffa146704df043e081",
+    "excerpt_sha256": "18c3078f71f64928d13887c9757137a1c2f4f80119cdc0e1150372000d38f6be"
+  },
+  "target_tests": [
+    {
+      "api": "torch.tan",
+      "match": "exact API / explicit decorator alias",
+      "test": {
+        "repository": "ivy-llc/ivy",
+        "commit": "a701151c85d59c0260a4dbf505479805bdeec00f",
+        "upstream_path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "function": "test_torch_tan",
+        "line": 2856,
+        "end_line": 2880,
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L2856",
+        "kind": "Ivy public frontend test",
+        "full_file": "candidates/D0068/target-01-test-full.py",
+        "excerpt_file": "candidates/D0068/target-01-test-excerpt.py",
+        "original_sha256": "c0bddd69651e592166d17f24eed33beb3b8034a253053e0cf681be106e1f14c1",
+        "excerpt_sha256": "5cb0826d481726ab6e1bcf2e0d2f43b11786af740596bee70fc0346303ffc604"
+      }
+    }
+  ],
+  "whole_counterpart_test_verified": false,
+  "input_oracle_alignment": "not yet reviewed",
+  "execution": "not run",
+  "origin": "paired existing public API tests; not a historical migration record",
+  "notes": []
+}

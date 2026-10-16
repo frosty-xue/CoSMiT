@@ -1,0 +1,10082 @@
+[
+  {
+    "input_index": 0,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1024.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1024.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 0,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1024.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1024.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 0,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1024.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1024.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 1,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 0.125,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 0.125,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 1,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 0.125,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 0.125,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 1,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 0.125,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 0.125,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 2,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 2,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 2,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 3,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 3,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 3,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 4,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 0.18866917490959167,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 0.18866917490959167,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 4,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 0.18866917490959167,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 0.18866917490959167,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 4,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 0.18866917490959167,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 0.18866917490959167,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 5,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 0.18313293159008026,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 0.18313293159008026,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 5,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 0.18313293159008026,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 0.18313293159008026,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 5,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 0.18313293159008026,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 0.18313293159008026,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 6,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 0.132688969373703,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 0.132688969373703,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 6,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 0.132688969373703,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 0.132688969373703,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 6,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 0.132688969373703,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 0.132688969373703,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 7,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 0.14365054666996002,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 0.14365054666996002,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 7,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 0.14365054666996002,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 0.14365054666996002,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 7,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 0.14365054666996002,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 0.14365054666996002,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 8,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        1024.0,
+        0.125,
+        2.0,
+        1.0,
+        0.6666666865348816,
+        0.5,
+        0.25,
+        1024.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        1024.0,
+        0.125,
+        2.0,
+        1.0,
+        0.6666666865348816,
+        0.5,
+        0.25,
+        1024.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 8,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        1024.0,
+        0.125,
+        2.0,
+        1.0,
+        0.6666666865348816,
+        0.5,
+        0.25,
+        1024.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        1024.0,
+        0.125,
+        2.0,
+        1.0,
+        0.6666666865348816,
+        0.5,
+        0.25,
+        1024.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 8,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        1024.0,
+        0.125,
+        2.0,
+        1.0,
+        0.6666666865348816,
+        0.5,
+        0.25,
+        1024.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        1024.0,
+        0.125,
+        2.0,
+        1.0,
+        0.6666666865348816,
+        0.5,
+        0.25,
+        1024.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 9,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.125,
+        2.0,
+        1.0,
+        0.6666666865348816,
+        0.5,
+        0.25,
+        1024.0,
+        0.125
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.125,
+        2.0,
+        1.0,
+        0.6666666865348816,
+        0.5,
+        0.25,
+        1024.0,
+        0.125
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 9,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.125,
+        2.0,
+        1.0,
+        0.6666666865348816,
+        0.5,
+        0.25,
+        1024.0,
+        0.125
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.125,
+        2.0,
+        1.0,
+        0.6666666865348816,
+        0.5,
+        0.25,
+        1024.0,
+        0.125
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 9,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.125,
+        2.0,
+        1.0,
+        0.6666666865348816,
+        0.5,
+        0.25,
+        1024.0,
+        0.125
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.125,
+        2.0,
+        1.0,
+        0.6666666865348816,
+        0.5,
+        0.25,
+        1024.0,
+        0.125
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 10,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        2.0,
+        1.0,
+        0.6666666865348816,
+        0.5,
+        0.25,
+        1024.0,
+        0.125,
+        2.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        2.0,
+        1.0,
+        0.6666666865348816,
+        0.5,
+        0.25,
+        1024.0,
+        0.125,
+        2.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 10,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        2.0,
+        1.0,
+        0.6666666865348816,
+        0.5,
+        0.25,
+        1024.0,
+        0.125,
+        2.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        2.0,
+        1.0,
+        0.6666666865348816,
+        0.5,
+        0.25,
+        1024.0,
+        0.125,
+        2.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 10,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        2.0,
+        1.0,
+        0.6666666865348816,
+        0.5,
+        0.25,
+        1024.0,
+        0.125,
+        2.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        2.0,
+        1.0,
+        0.6666666865348816,
+        0.5,
+        0.25,
+        1024.0,
+        0.125,
+        2.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 11,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        1.0,
+        0.6666666865348816,
+        0.5,
+        0.25,
+        1024.0,
+        0.125,
+        2.0,
+        1.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        1.0,
+        0.6666666865348816,
+        0.5,
+        0.25,
+        1024.0,
+        0.125,
+        2.0,
+        1.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 11,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        1.0,
+        0.6666666865348816,
+        0.5,
+        0.25,
+        1024.0,
+        0.125,
+        2.0,
+        1.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        1.0,
+        0.6666666865348816,
+        0.5,
+        0.25,
+        1024.0,
+        0.125,
+        2.0,
+        1.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 11,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        1.0,
+        0.6666666865348816,
+        0.5,
+        0.25,
+        1024.0,
+        0.125,
+        2.0,
+        1.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        1.0,
+        0.6666666865348816,
+        0.5,
+        0.25,
+        1024.0,
+        0.125,
+        2.0,
+        1.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 12,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        1.1504863500595093,
+        0.24776402115821838,
+        0.14428864419460297,
+        0.21186897158622742,
+        0.18884511291980743,
+        0.20724792778491974,
+        0.17003022134304047,
+        0.2040383368730545
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        1.1504862308502197,
+        0.24776402115821838,
+        0.14428864419460297,
+        0.21186897158622742,
+        0.18884511291980743,
+        0.20724792778491974,
+        0.17003020644187927,
+        0.2040383517742157
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 12,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        1.1504863500595093,
+        0.24776402115821838,
+        0.14428864419460297,
+        0.21186897158622742,
+        0.18884511291980743,
+        0.20724792778491974,
+        0.17003022134304047,
+        0.2040383368730545
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        1.1504862308502197,
+        0.24776402115821838,
+        0.14428864419460297,
+        0.21186897158622742,
+        0.18884511291980743,
+        0.20724792778491974,
+        0.17003020644187927,
+        0.2040383517742157
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 12,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        1.1504863500595093,
+        0.24776402115821838,
+        0.14428864419460297,
+        0.21186897158622742,
+        0.18884511291980743,
+        0.20724792778491974,
+        0.17003022134304047,
+        0.2040383368730545
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        1.1504862308502197,
+        0.24776402115821838,
+        0.14428864419460297,
+        0.21186897158622742,
+        0.18884511291980743,
+        0.20724792778491974,
+        0.17003020644187927,
+        0.2040383517742157
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 13,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.514030933380127,
+        0.7218022346496582,
+        0.4648100733757019,
+        0.19576506316661835,
+        0.15664438903331757,
+        0.19626377522945404,
+        0.23556451499462128,
+        0.3085232675075531
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.514030933380127,
+        0.7218022346496582,
+        0.4648100733757019,
+        0.19576506316661835,
+        0.15664438903331757,
+        0.19626376032829285,
+        0.23556451499462128,
+        0.3085232675075531
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 13,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.514030933380127,
+        0.7218022346496582,
+        0.4648100733757019,
+        0.19576506316661835,
+        0.15664438903331757,
+        0.19626377522945404,
+        0.23556451499462128,
+        0.3085232675075531
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.514030933380127,
+        0.7218022346496582,
+        0.4648100733757019,
+        0.19576506316661835,
+        0.15664438903331757,
+        0.19626376032829285,
+        0.23556451499462128,
+        0.3085232675075531
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 13,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.514030933380127,
+        0.7218022346496582,
+        0.4648100733757019,
+        0.19576506316661835,
+        0.15664438903331757,
+        0.19626377522945404,
+        0.23556451499462128,
+        0.3085232675075531
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.514030933380127,
+        0.7218022346496582,
+        0.4648100733757019,
+        0.19576506316661835,
+        0.15664438903331757,
+        0.19626376032829285,
+        0.23556451499462128,
+        0.3085232675075531
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 14,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.9765358567237854,
+        0.2579289376735687,
+        0.15521416068077087,
+        0.6855345368385315,
+        0.2623375356197357,
+        0.20944885909557343,
+        0.18378350138664246,
+        0.1394801288843155
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.9765357971191406,
+        0.2579289376735687,
+        0.15521416068077087,
+        0.6855345368385315,
+        0.2623375356197357,
+        0.20944885909557343,
+        0.18378350138664246,
+        0.1394801139831543
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 14,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.9765358567237854,
+        0.2579289376735687,
+        0.15521416068077087,
+        0.6855345368385315,
+        0.2623375356197357,
+        0.20944885909557343,
+        0.18378350138664246,
+        0.1394801288843155
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.9765357971191406,
+        0.2579289376735687,
+        0.15521416068077087,
+        0.6855345368385315,
+        0.2623375356197357,
+        0.20944885909557343,
+        0.18378350138664246,
+        0.1394801139831543
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 14,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.9765358567237854,
+        0.2579289376735687,
+        0.15521416068077087,
+        0.6855345368385315,
+        0.2623375356197357,
+        0.20944885909557343,
+        0.18378350138664246,
+        0.1394801288843155
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.9765357971191406,
+        0.2579289376735687,
+        0.15521416068077087,
+        0.6855345368385315,
+        0.2623375356197357,
+        0.20944885909557343,
+        0.18378350138664246,
+        0.1394801139831543
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 15,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.26084795594215393,
+        4.08866024017334,
+        1.6511023044586182,
+        2.572601556777954,
+        5.0244011878967285,
+        0.38529083132743835,
+        0.13188347220420837,
+        0.4814995527267456
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.26084795594215393,
+        4.08866024017334,
+        1.6511023044586182,
+        2.572601556777954,
+        5.0244011878967285,
+        0.38529080152511597,
+        0.13188347220420837,
+        0.4814995229244232
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 15,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.26084795594215393,
+        4.08866024017334,
+        1.6511023044586182,
+        2.572601556777954,
+        5.0244011878967285,
+        0.38529083132743835,
+        0.13188347220420837,
+        0.4814995527267456
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.26084795594215393,
+        4.08866024017334,
+        1.6511023044586182,
+        2.572601556777954,
+        5.0244011878967285,
+        0.38529080152511597,
+        0.13188347220420837,
+        0.4814995229244232
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 15,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.26084795594215393,
+        4.08866024017334,
+        1.6511023044586182,
+        2.572601556777954,
+        5.0244011878967285,
+        0.38529083132743835,
+        0.13188347220420837,
+        0.4814995527267456
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.26084795594215393,
+        4.08866024017334,
+        1.6511023044586182,
+        2.572601556777954,
+        5.0244011878967285,
+        0.38529080152511597,
+        0.13188347220420837,
+        0.4814995229244232
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 16,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          1024.0,
+          0.125,
+          2.0,
+          1.0
+        ],
+        [
+          0.6666666865348816,
+          0.5,
+          0.25,
+          1024.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          1024.0,
+          0.125,
+          2.0,
+          1.0
+        ],
+        [
+          0.6666666865348816,
+          0.5,
+          0.25,
+          1024.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 16,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          1024.0,
+          0.125,
+          2.0,
+          1.0
+        ],
+        [
+          0.6666666865348816,
+          0.5,
+          0.25,
+          1024.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          1024.0,
+          0.125,
+          2.0,
+          1.0
+        ],
+        [
+          0.6666666865348816,
+          0.5,
+          0.25,
+          1024.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 16,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          1024.0,
+          0.125,
+          2.0,
+          1.0
+        ],
+        [
+          0.6666666865348816,
+          0.5,
+          0.25,
+          1024.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          1024.0,
+          0.125,
+          2.0,
+          1.0
+        ],
+        [
+          0.6666666865348816,
+          0.5,
+          0.25,
+          1024.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 17,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.125,
+          2.0,
+          1.0,
+          0.6666666865348816
+        ],
+        [
+          0.5,
+          0.25,
+          1024.0,
+          0.125
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.125,
+          2.0,
+          1.0,
+          0.6666666865348816
+        ],
+        [
+          0.5,
+          0.25,
+          1024.0,
+          0.125
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 17,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.125,
+          2.0,
+          1.0,
+          0.6666666865348816
+        ],
+        [
+          0.5,
+          0.25,
+          1024.0,
+          0.125
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.125,
+          2.0,
+          1.0,
+          0.6666666865348816
+        ],
+        [
+          0.5,
+          0.25,
+          1024.0,
+          0.125
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 17,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.125,
+          2.0,
+          1.0,
+          0.6666666865348816
+        ],
+        [
+          0.5,
+          0.25,
+          1024.0,
+          0.125
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.125,
+          2.0,
+          1.0,
+          0.6666666865348816
+        ],
+        [
+          0.5,
+          0.25,
+          1024.0,
+          0.125
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 18,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          2.0,
+          1.0,
+          0.6666666865348816,
+          0.5
+        ],
+        [
+          0.25,
+          1024.0,
+          0.125,
+          2.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          2.0,
+          1.0,
+          0.6666666865348816,
+          0.5
+        ],
+        [
+          0.25,
+          1024.0,
+          0.125,
+          2.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 18,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          2.0,
+          1.0,
+          0.6666666865348816,
+          0.5
+        ],
+        [
+          0.25,
+          1024.0,
+          0.125,
+          2.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          2.0,
+          1.0,
+          0.6666666865348816,
+          0.5
+        ],
+        [
+          0.25,
+          1024.0,
+          0.125,
+          2.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 18,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          2.0,
+          1.0,
+          0.6666666865348816,
+          0.5
+        ],
+        [
+          0.25,
+          1024.0,
+          0.125,
+          2.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          2.0,
+          1.0,
+          0.6666666865348816,
+          0.5
+        ],
+        [
+          0.25,
+          1024.0,
+          0.125,
+          2.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 19,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          1.0,
+          0.6666666865348816,
+          0.5,
+          0.25
+        ],
+        [
+          1024.0,
+          0.125,
+          2.0,
+          1.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          1.0,
+          0.6666666865348816,
+          0.5,
+          0.25
+        ],
+        [
+          1024.0,
+          0.125,
+          2.0,
+          1.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 19,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          1.0,
+          0.6666666865348816,
+          0.5,
+          0.25
+        ],
+        [
+          1024.0,
+          0.125,
+          2.0,
+          1.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          1.0,
+          0.6666666865348816,
+          0.5,
+          0.25
+        ],
+        [
+          1024.0,
+          0.125,
+          2.0,
+          1.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 19,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          1.0,
+          0.6666666865348816,
+          0.5,
+          0.25
+        ],
+        [
+          1024.0,
+          0.125,
+          2.0,
+          1.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          1.0,
+          0.6666666865348816,
+          0.5,
+          0.25
+        ],
+        [
+          1024.0,
+          0.125,
+          2.0,
+          1.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 20,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.13840527832508087,
+          0.12516161799430847,
+          0.2796217203140259,
+          0.21284711360931396
+        ],
+        [
+          0.17799371480941772,
+          0.20396585762500763,
+          2.3303873538970947,
+          0.21685504913330078
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.13840526342391968,
+          0.12516160309314728,
+          0.2796217203140259,
+          0.21284711360931396
+        ],
+        [
+          0.17799371480941772,
+          0.20396585762500763,
+          2.3303873538970947,
+          0.21685504913330078
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 20,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.13840527832508087,
+          0.12516161799430847,
+          0.2796217203140259,
+          0.21284711360931396
+        ],
+        [
+          0.17799371480941772,
+          0.20396585762500763,
+          2.3303873538970947,
+          0.21685504913330078
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.13840526342391968,
+          0.12516160309314728,
+          0.2796217203140259,
+          0.21284711360931396
+        ],
+        [
+          0.17799371480941772,
+          0.20396585762500763,
+          2.3303873538970947,
+          0.21685504913330078
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 20,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.13840527832508087,
+          0.12516161799430847,
+          0.2796217203140259,
+          0.21284711360931396
+        ],
+        [
+          0.17799371480941772,
+          0.20396585762500763,
+          2.3303873538970947,
+          0.21685504913330078
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.13840526342391968,
+          0.12516160309314728,
+          0.2796217203140259,
+          0.21284711360931396
+        ],
+        [
+          0.17799371480941772,
+          0.20396585762500763,
+          2.3303873538970947,
+          0.21685504913330078
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 21,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.5791431069374084,
+          0.21509984135627747,
+          0.1394815593957901,
+          7.00369119644165
+        ],
+        [
+          1.3236972093582153,
+          0.36680537462234497,
+          0.5625513195991516,
+          1.061324954032898
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.5791431069374084,
+          0.21509982645511627,
+          0.1394815593957901,
+          7.00369119644165
+        ],
+        [
+          1.3236970901489258,
+          0.36680537462234497,
+          0.5625512599945068,
+          1.061324954032898
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 21,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.5791431069374084,
+          0.21509984135627747,
+          0.1394815593957901,
+          7.00369119644165
+        ],
+        [
+          1.3236972093582153,
+          0.36680537462234497,
+          0.5625513195991516,
+          1.061324954032898
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.5791431069374084,
+          0.21509982645511627,
+          0.1394815593957901,
+          7.00369119644165
+        ],
+        [
+          1.3236970901489258,
+          0.36680537462234497,
+          0.5625512599945068,
+          1.061324954032898
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 21,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.5791431069374084,
+          0.21509984135627747,
+          0.1394815593957901,
+          7.00369119644165
+        ],
+        [
+          1.3236972093582153,
+          0.36680537462234497,
+          0.5625513195991516,
+          1.061324954032898
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.5791431069374084,
+          0.21509982645511627,
+          0.1394815593957901,
+          7.00369119644165
+        ],
+        [
+          1.3236970901489258,
+          0.36680537462234497,
+          0.5625512599945068,
+          1.061324954032898
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 22,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.7499516606330872,
+          0.18796144425868988,
+          0.1470905840396881,
+          0.1478220522403717
+        ],
+        [
+          0.12557649612426758,
+          2.175662040710449,
+          0.3312549591064453,
+          0.3242635726928711
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.7499516010284424,
+          0.18796144425868988,
+          0.1470905840396881,
+          0.1478220522403717
+        ],
+        [
+          0.12557649612426758,
+          2.1756622791290283,
+          0.3312549591064453,
+          0.3242635726928711
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 22,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.7499516606330872,
+          0.18796144425868988,
+          0.1470905840396881,
+          0.1478220522403717
+        ],
+        [
+          0.12557649612426758,
+          2.175662040710449,
+          0.3312549591064453,
+          0.3242635726928711
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.7499516010284424,
+          0.18796144425868988,
+          0.1470905840396881,
+          0.1478220522403717
+        ],
+        [
+          0.12557649612426758,
+          2.1756622791290283,
+          0.3312549591064453,
+          0.3242635726928711
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 22,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.7499516606330872,
+          0.18796144425868988,
+          0.1470905840396881,
+          0.1478220522403717
+        ],
+        [
+          0.12557649612426758,
+          2.175662040710449,
+          0.3312549591064453,
+          0.3242635726928711
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.7499516010284424,
+          0.18796144425868988,
+          0.1470905840396881,
+          0.1478220522403717
+        ],
+        [
+          0.12557649612426758,
+          2.1756622791290283,
+          0.3312549591064453,
+          0.3242635726928711
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 23,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.2296728491783142,
+          0.16720488667488098,
+          0.27919113636016846,
+          0.6332694888114929
+        ],
+        [
+          0.3248874545097351,
+          0.19132359325885773,
+          0.19855527579784393,
+          0.27137961983680725
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.2296728491783142,
+          0.16720490157604218,
+          0.27919113636016846,
+          0.6332694888114929
+        ],
+        [
+          0.3248874247074127,
+          0.19132359325885773,
+          0.19855527579784393,
+          0.27137959003448486
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 23,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.2296728491783142,
+          0.16720488667488098,
+          0.27919113636016846,
+          0.6332694888114929
+        ],
+        [
+          0.3248874545097351,
+          0.19132359325885773,
+          0.19855527579784393,
+          0.27137961983680725
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.2296728491783142,
+          0.16720490157604218,
+          0.27919113636016846,
+          0.6332694888114929
+        ],
+        [
+          0.3248874247074127,
+          0.19132359325885773,
+          0.19855527579784393,
+          0.27137959003448486
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 23,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.2296728491783142,
+          0.16720488667488098,
+          0.27919113636016846,
+          0.6332694888114929
+        ],
+        [
+          0.3248874545097351,
+          0.19132359325885773,
+          0.19855527579784393,
+          0.27137961983680725
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.2296728491783142,
+          0.16720490157604218,
+          0.27919113636016846,
+          0.6332694888114929
+        ],
+        [
+          0.3248874247074127,
+          0.19132359325885773,
+          0.19855527579784393,
+          0.27137959003448486
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 24,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1024.0,
+              0.125
+            ],
+            [
+              2.0,
+              1.0
+            ]
+          ],
+          [
+            [
+              0.6666666865348816,
+              0.5
+            ],
+            [
+              0.25,
+              1024.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1024.0,
+              0.125
+            ],
+            [
+              2.0,
+              1.0
+            ]
+          ],
+          [
+            [
+              0.6666666865348816,
+              0.5
+            ],
+            [
+              0.25,
+              1024.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 24,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1024.0,
+              0.125
+            ],
+            [
+              2.0,
+              1.0
+            ]
+          ],
+          [
+            [
+              0.6666666865348816,
+              0.5
+            ],
+            [
+              0.25,
+              1024.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1024.0,
+              0.125
+            ],
+            [
+              2.0,
+              1.0
+            ]
+          ],
+          [
+            [
+              0.6666666865348816,
+              0.5
+            ],
+            [
+              0.25,
+              1024.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 24,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1024.0,
+              0.125
+            ],
+            [
+              2.0,
+              1.0
+            ]
+          ],
+          [
+            [
+              0.6666666865348816,
+              0.5
+            ],
+            [
+              0.25,
+              1024.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1024.0,
+              0.125
+            ],
+            [
+              2.0,
+              1.0
+            ]
+          ],
+          [
+            [
+              0.6666666865348816,
+              0.5
+            ],
+            [
+              0.25,
+              1024.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 25,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.125,
+              2.0
+            ],
+            [
+              1.0,
+              0.6666666865348816
+            ]
+          ],
+          [
+            [
+              0.5,
+              0.25
+            ],
+            [
+              1024.0,
+              0.125
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.125,
+              2.0
+            ],
+            [
+              1.0,
+              0.6666666865348816
+            ]
+          ],
+          [
+            [
+              0.5,
+              0.25
+            ],
+            [
+              1024.0,
+              0.125
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 25,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.125,
+              2.0
+            ],
+            [
+              1.0,
+              0.6666666865348816
+            ]
+          ],
+          [
+            [
+              0.5,
+              0.25
+            ],
+            [
+              1024.0,
+              0.125
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.125,
+              2.0
+            ],
+            [
+              1.0,
+              0.6666666865348816
+            ]
+          ],
+          [
+            [
+              0.5,
+              0.25
+            ],
+            [
+              1024.0,
+              0.125
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 25,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.125,
+              2.0
+            ],
+            [
+              1.0,
+              0.6666666865348816
+            ]
+          ],
+          [
+            [
+              0.5,
+              0.25
+            ],
+            [
+              1024.0,
+              0.125
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.125,
+              2.0
+            ],
+            [
+              1.0,
+              0.6666666865348816
+            ]
+          ],
+          [
+            [
+              0.5,
+              0.25
+            ],
+            [
+              1024.0,
+              0.125
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 26,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              2.0,
+              1.0
+            ],
+            [
+              0.6666666865348816,
+              0.5
+            ]
+          ],
+          [
+            [
+              0.25,
+              1024.0
+            ],
+            [
+              0.125,
+              2.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              2.0,
+              1.0
+            ],
+            [
+              0.6666666865348816,
+              0.5
+            ]
+          ],
+          [
+            [
+              0.25,
+              1024.0
+            ],
+            [
+              0.125,
+              2.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 26,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              2.0,
+              1.0
+            ],
+            [
+              0.6666666865348816,
+              0.5
+            ]
+          ],
+          [
+            [
+              0.25,
+              1024.0
+            ],
+            [
+              0.125,
+              2.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              2.0,
+              1.0
+            ],
+            [
+              0.6666666865348816,
+              0.5
+            ]
+          ],
+          [
+            [
+              0.25,
+              1024.0
+            ],
+            [
+              0.125,
+              2.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 26,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              2.0,
+              1.0
+            ],
+            [
+              0.6666666865348816,
+              0.5
+            ]
+          ],
+          [
+            [
+              0.25,
+              1024.0
+            ],
+            [
+              0.125,
+              2.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              2.0,
+              1.0
+            ],
+            [
+              0.6666666865348816,
+              0.5
+            ]
+          ],
+          [
+            [
+              0.25,
+              1024.0
+            ],
+            [
+              0.125,
+              2.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 27,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1.0,
+              0.6666666865348816
+            ],
+            [
+              0.5,
+              0.25
+            ]
+          ],
+          [
+            [
+              1024.0,
+              0.125
+            ],
+            [
+              2.0,
+              1.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1.0,
+              0.6666666865348816
+            ],
+            [
+              0.5,
+              0.25
+            ]
+          ],
+          [
+            [
+              1024.0,
+              0.125
+            ],
+            [
+              2.0,
+              1.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 27,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1.0,
+              0.6666666865348816
+            ],
+            [
+              0.5,
+              0.25
+            ]
+          ],
+          [
+            [
+              1024.0,
+              0.125
+            ],
+            [
+              2.0,
+              1.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1.0,
+              0.6666666865348816
+            ],
+            [
+              0.5,
+              0.25
+            ]
+          ],
+          [
+            [
+              1024.0,
+              0.125
+            ],
+            [
+              2.0,
+              1.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 27,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1.0,
+              0.6666666865348816
+            ],
+            [
+              0.5,
+              0.25
+            ]
+          ],
+          [
+            [
+              1024.0,
+              0.125
+            ],
+            [
+              2.0,
+              1.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1.0,
+              0.6666666865348816
+            ],
+            [
+              0.5,
+              0.25
+            ]
+          ],
+          [
+            [
+              1024.0,
+              0.125
+            ],
+            [
+              2.0,
+              1.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 28,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.2636466324329376,
+              0.6966761946678162
+            ],
+            [
+              0.1289863884449005,
+              0.1775580644607544
+            ]
+          ],
+          [
+            [
+              0.19999149441719055,
+              1.088692545890808
+            ],
+            [
+              0.25750601291656494,
+              0.14320044219493866
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.2636466324329376,
+              0.6966761946678162
+            ],
+            [
+              0.1289863884449005,
+              0.1775580793619156
+            ]
+          ],
+          [
+            [
+              0.19999149441719055,
+              1.088692545890808
+            ],
+            [
+              0.25750601291656494,
+              0.14320042729377747
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 28,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.2636466324329376,
+              0.6966761946678162
+            ],
+            [
+              0.1289863884449005,
+              0.1775580644607544
+            ]
+          ],
+          [
+            [
+              0.19999149441719055,
+              1.088692545890808
+            ],
+            [
+              0.25750601291656494,
+              0.14320044219493866
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.2636466324329376,
+              0.6966761946678162
+            ],
+            [
+              0.1289863884449005,
+              0.1775580793619156
+            ]
+          ],
+          [
+            [
+              0.19999149441719055,
+              1.088692545890808
+            ],
+            [
+              0.25750601291656494,
+              0.14320042729377747
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 28,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.2636466324329376,
+              0.6966761946678162
+            ],
+            [
+              0.1289863884449005,
+              0.1775580644607544
+            ]
+          ],
+          [
+            [
+              0.19999149441719055,
+              1.088692545890808
+            ],
+            [
+              0.25750601291656494,
+              0.14320044219493866
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.2636466324329376,
+              0.6966761946678162
+            ],
+            [
+              0.1289863884449005,
+              0.1775580793619156
+            ]
+          ],
+          [
+            [
+              0.19999149441719055,
+              1.088692545890808
+            ],
+            [
+              0.25750601291656494,
+              0.14320042729377747
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 29,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.47169411182403564,
+              0.14530108869075775
+            ],
+            [
+              0.3806966245174408,
+              0.13270792365074158
+            ]
+          ],
+          [
+            [
+              0.13266929984092712,
+              0.17301927506923676
+            ],
+            [
+              0.7016969919204712,
+              1.0740598440170288
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.47169408202171326,
+              0.14530108869075775
+            ],
+            [
+              0.3806966245174408,
+              0.13270792365074158
+            ]
+          ],
+          [
+            [
+              0.13266929984092712,
+              0.17301927506923676
+            ],
+            [
+              0.7016969919204712,
+              1.0740598440170288
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 29,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.47169411182403564,
+              0.14530108869075775
+            ],
+            [
+              0.3806966245174408,
+              0.13270792365074158
+            ]
+          ],
+          [
+            [
+              0.13266929984092712,
+              0.17301927506923676
+            ],
+            [
+              0.7016969919204712,
+              1.0740598440170288
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.47169408202171326,
+              0.14530108869075775
+            ],
+            [
+              0.3806966245174408,
+              0.13270792365074158
+            ]
+          ],
+          [
+            [
+              0.13266929984092712,
+              0.17301927506923676
+            ],
+            [
+              0.7016969919204712,
+              1.0740598440170288
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 29,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.47169411182403564,
+              0.14530108869075775
+            ],
+            [
+              0.3806966245174408,
+              0.13270792365074158
+            ]
+          ],
+          [
+            [
+              0.13266929984092712,
+              0.17301927506923676
+            ],
+            [
+              0.7016969919204712,
+              1.0740598440170288
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.47169408202171326,
+              0.14530108869075775
+            ],
+            [
+              0.3806966245174408,
+              0.13270792365074158
+            ]
+          ],
+          [
+            [
+              0.13266929984092712,
+              0.17301927506923676
+            ],
+            [
+              0.7016969919204712,
+              1.0740598440170288
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 30,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.1264411211013794,
+              0.2173462212085724
+            ],
+            [
+              0.9252432584762573,
+              0.2764241695404053
+            ]
+          ],
+          [
+            [
+              0.24259449541568756,
+              0.40400102734565735
+            ],
+            [
+              0.14702686667442322,
+              0.31502482295036316
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.1264411211013794,
+              0.21734623610973358
+            ],
+            [
+              0.9252433180809021,
+              0.2764241695404053
+            ]
+          ],
+          [
+            [
+              0.24259449541568756,
+              0.40400099754333496
+            ],
+            [
+              0.14702686667442322,
+              0.31502482295036316
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 30,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.1264411211013794,
+              0.2173462212085724
+            ],
+            [
+              0.9252432584762573,
+              0.2764241695404053
+            ]
+          ],
+          [
+            [
+              0.24259449541568756,
+              0.40400102734565735
+            ],
+            [
+              0.14702686667442322,
+              0.31502482295036316
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.1264411211013794,
+              0.21734623610973358
+            ],
+            [
+              0.9252433180809021,
+              0.2764241695404053
+            ]
+          ],
+          [
+            [
+              0.24259449541568756,
+              0.40400099754333496
+            ],
+            [
+              0.14702686667442322,
+              0.31502482295036316
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 30,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.1264411211013794,
+              0.2173462212085724
+            ],
+            [
+              0.9252432584762573,
+              0.2764241695404053
+            ]
+          ],
+          [
+            [
+              0.24259449541568756,
+              0.40400102734565735
+            ],
+            [
+              0.14702686667442322,
+              0.31502482295036316
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.1264411211013794,
+              0.21734623610973358
+            ],
+            [
+              0.9252433180809021,
+              0.2764241695404053
+            ]
+          ],
+          [
+            [
+              0.24259449541568756,
+              0.40400099754333496
+            ],
+            [
+              0.14702686667442322,
+              0.31502482295036316
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 31,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.15269017219543457,
+              0.26676809787750244
+            ],
+            [
+              0.3177493214607239,
+              0.17505304515361786
+            ]
+          ],
+          [
+            [
+              0.16877911984920502,
+              0.14318999648094177
+            ],
+            [
+              0.1706380695104599,
+              0.1323900818824768
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.15269017219543457,
+              0.26676809787750244
+            ],
+            [
+              0.3177493214607239,
+              0.17505304515361786
+            ]
+          ],
+          [
+            [
+              0.1687791347503662,
+              0.14318999648094177
+            ],
+            [
+              0.1706380695104599,
+              0.1323900818824768
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 31,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.15269017219543457,
+              0.26676809787750244
+            ],
+            [
+              0.3177493214607239,
+              0.17505304515361786
+            ]
+          ],
+          [
+            [
+              0.16877911984920502,
+              0.14318999648094177
+            ],
+            [
+              0.1706380695104599,
+              0.1323900818824768
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.15269017219543457,
+              0.26676809787750244
+            ],
+            [
+              0.3177493214607239,
+              0.17505304515361786
+            ]
+          ],
+          [
+            [
+              0.1687791347503662,
+              0.14318999648094177
+            ],
+            [
+              0.1706380695104599,
+              0.1323900818824768
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 31,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.15269017219543457,
+              0.26676809787750244
+            ],
+            [
+              0.3177493214607239,
+              0.17505304515361786
+            ]
+          ],
+          [
+            [
+              0.16877911984920502,
+              0.14318999648094177
+            ],
+            [
+              0.1706380695104599,
+              0.1323900818824768
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.15269017219543457,
+              0.26676809787750244
+            ],
+            [
+              0.3177493214607239,
+              0.17505304515361786
+            ]
+          ],
+          [
+            [
+              0.1687791347503662,
+              0.14318999648094177
+            ],
+            [
+              0.1706380695104599,
+              0.1323900818824768
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float32",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 32,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1024.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1024.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 32,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1024.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1024.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 32,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1024.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1024.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 33,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 0.125,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 0.125,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 33,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 0.125,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 0.125,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 33,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 0.125,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 0.125,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 34,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 34,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 34,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 35,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 35,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 35,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 36,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 2.591800485615931,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 2.591800485615931,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 36,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 2.591800485615931,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 2.591800485615931,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 36,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 2.591800485615931,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 2.591800485615931,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 37,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 0.17196663426713965,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 0.17196663426713965,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 37,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 0.17196663426713965,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 0.17196663426713965,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 37,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 0.17196663426713965,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 0.17196663426713965,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 38,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 0.35456519881702747,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 0.35456519881702747,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 38,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 0.35456519881702747,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 0.35456519881702747,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 38,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 0.35456519881702747,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 0.35456519881702747,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 39,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 0.28359361806723105,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 0.28359361806723105,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 39,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 0.28359361806723105,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 0.28359361806723105,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 39,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 0.28359361806723105,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 0.28359361806723105,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 40,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        1024.0,
+        0.125,
+        2.0,
+        1.0,
+        0.6666666666666666,
+        0.5,
+        0.25,
+        1024.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        1024.0,
+        0.125,
+        2.0,
+        1.0,
+        0.6666666666666666,
+        0.5,
+        0.25,
+        1024.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 40,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        1024.0,
+        0.125,
+        2.0,
+        1.0,
+        0.6666666666666666,
+        0.5,
+        0.25,
+        1024.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        1024.0,
+        0.125,
+        2.0,
+        1.0,
+        0.6666666666666666,
+        0.5,
+        0.25,
+        1024.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 40,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        1024.0,
+        0.125,
+        2.0,
+        1.0,
+        0.6666666666666666,
+        0.5,
+        0.25,
+        1024.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        1024.0,
+        0.125,
+        2.0,
+        1.0,
+        0.6666666666666666,
+        0.5,
+        0.25,
+        1024.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 41,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.125,
+        2.0,
+        1.0,
+        0.6666666666666666,
+        0.5,
+        0.25,
+        1024.0,
+        0.125
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.125,
+        2.0,
+        1.0,
+        0.6666666666666666,
+        0.5,
+        0.25,
+        1024.0,
+        0.125
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 41,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.125,
+        2.0,
+        1.0,
+        0.6666666666666666,
+        0.5,
+        0.25,
+        1024.0,
+        0.125
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.125,
+        2.0,
+        1.0,
+        0.6666666666666666,
+        0.5,
+        0.25,
+        1024.0,
+        0.125
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 41,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.125,
+        2.0,
+        1.0,
+        0.6666666666666666,
+        0.5,
+        0.25,
+        1024.0,
+        0.125
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.125,
+        2.0,
+        1.0,
+        0.6666666666666666,
+        0.5,
+        0.25,
+        1024.0,
+        0.125
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 42,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        2.0,
+        1.0,
+        0.6666666666666666,
+        0.5,
+        0.25,
+        1024.0,
+        0.125,
+        2.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        2.0,
+        1.0,
+        0.6666666666666666,
+        0.5,
+        0.25,
+        1024.0,
+        0.125,
+        2.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 42,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        2.0,
+        1.0,
+        0.6666666666666666,
+        0.5,
+        0.25,
+        1024.0,
+        0.125,
+        2.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        2.0,
+        1.0,
+        0.6666666666666666,
+        0.5,
+        0.25,
+        1024.0,
+        0.125,
+        2.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 42,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        2.0,
+        1.0,
+        0.6666666666666666,
+        0.5,
+        0.25,
+        1024.0,
+        0.125,
+        2.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        2.0,
+        1.0,
+        0.6666666666666666,
+        0.5,
+        0.25,
+        1024.0,
+        0.125,
+        2.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 43,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        1.0,
+        0.6666666666666666,
+        0.5,
+        0.25,
+        1024.0,
+        0.125,
+        2.0,
+        1.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        1.0,
+        0.6666666666666666,
+        0.5,
+        0.25,
+        1024.0,
+        0.125,
+        2.0,
+        1.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 43,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        1.0,
+        0.6666666666666666,
+        0.5,
+        0.25,
+        1024.0,
+        0.125,
+        2.0,
+        1.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        1.0,
+        0.6666666666666666,
+        0.5,
+        0.25,
+        1024.0,
+        0.125,
+        2.0,
+        1.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 43,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        1.0,
+        0.6666666666666666,
+        0.5,
+        0.25,
+        1024.0,
+        0.125,
+        2.0,
+        1.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        1.0,
+        0.6666666666666666,
+        0.5,
+        0.25,
+        1024.0,
+        0.125,
+        2.0,
+        1.0
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 44,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.513926432103491,
+        0.5255223546577704,
+        0.16064106650318052,
+        8.070360085377366,
+        0.1810492655840041,
+        0.542892760976356,
+        1.2935991385310874,
+        1.1904028010904009
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.513926432103491,
+        0.5255223546577704,
+        0.16064106650318052,
+        8.070360085377366,
+        0.1810492655840041,
+        0.542892760976356,
+        1.2935991385310874,
+        1.1904028010904009
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 44,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.513926432103491,
+        0.5255223546577704,
+        0.16064106650318052,
+        8.070360085377366,
+        0.1810492655840041,
+        0.542892760976356,
+        1.2935991385310874,
+        1.1904028010904009
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.513926432103491,
+        0.5255223546577704,
+        0.16064106650318052,
+        8.070360085377366,
+        0.1810492655840041,
+        0.542892760976356,
+        1.2935991385310874,
+        1.1904028010904009
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 44,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.513926432103491,
+        0.5255223546577704,
+        0.16064106650318052,
+        8.070360085377366,
+        0.1810492655840041,
+        0.542892760976356,
+        1.2935991385310874,
+        1.1904028010904009
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.513926432103491,
+        0.5255223546577704,
+        0.16064106650318052,
+        8.070360085377366,
+        0.1810492655840041,
+        0.542892760976356,
+        1.2935991385310874,
+        1.1904028010904009
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 45,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.2426657666809514,
+        0.30736859726702886,
+        0.18707272424313454,
+        3.86012282169207,
+        0.15989300837601175,
+        0.16528661430959643,
+        0.19616294049507588,
+        0.16031878415660444
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.2426657666809514,
+        0.30736859726702886,
+        0.18707272424313454,
+        3.86012282169207,
+        0.15989300837601175,
+        0.16528661430959643,
+        0.19616294049507588,
+        0.16031878415660444
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 45,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.2426657666809514,
+        0.30736859726702886,
+        0.18707272424313454,
+        3.86012282169207,
+        0.15989300837601175,
+        0.16528661430959643,
+        0.19616294049507588,
+        0.16031878415660444
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.2426657666809514,
+        0.30736859726702886,
+        0.18707272424313454,
+        3.86012282169207,
+        0.15989300837601175,
+        0.16528661430959643,
+        0.19616294049507588,
+        0.16031878415660444
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 45,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.2426657666809514,
+        0.30736859726702886,
+        0.18707272424313454,
+        3.86012282169207,
+        0.15989300837601175,
+        0.16528661430959643,
+        0.19616294049507588,
+        0.16031878415660444
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.2426657666809514,
+        0.30736859726702886,
+        0.18707272424313454,
+        3.86012282169207,
+        0.15989300837601175,
+        0.16528661430959643,
+        0.19616294049507588,
+        0.16031878415660444
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 46,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.14021188589205785,
+        13.467648807124284,
+        1.290438801018332,
+        0.19923541679118362,
+        0.2707473934531562,
+        0.3114866848065525,
+        0.15685213895407404,
+        0.1379083949359254
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.14021188589205785,
+        13.467648807124284,
+        1.290438801018332,
+        0.19923541679118362,
+        0.2707473934531562,
+        0.3114866848065525,
+        0.15685213895407404,
+        0.1379083949359254
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 46,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.14021188589205785,
+        13.467648807124284,
+        1.290438801018332,
+        0.19923541679118362,
+        0.2707473934531562,
+        0.3114866848065525,
+        0.15685213895407404,
+        0.1379083949359254
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.14021188589205785,
+        13.467648807124284,
+        1.290438801018332,
+        0.19923541679118362,
+        0.2707473934531562,
+        0.3114866848065525,
+        0.15685213895407404,
+        0.1379083949359254
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 46,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.14021188589205785,
+        13.467648807124284,
+        1.290438801018332,
+        0.19923541679118362,
+        0.2707473934531562,
+        0.3114866848065525,
+        0.15685213895407404,
+        0.1379083949359254
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.14021188589205785,
+        13.467648807124284,
+        1.290438801018332,
+        0.19923541679118362,
+        0.2707473934531562,
+        0.3114866848065525,
+        0.15685213895407404,
+        0.1379083949359254
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 47,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.13568984019613944,
+        0.259216177305003,
+        0.5184718532942544,
+        0.2865160567722676,
+        0.200694651738264,
+        0.18042541095996836,
+        0.1305697289071037,
+        5.731181471257055
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.13568984019613944,
+        0.259216177305003,
+        0.5184718532942544,
+        0.2865160567722676,
+        0.200694651738264,
+        0.18042541095996836,
+        0.1305697289071037,
+        5.731181471257055
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 47,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.13568984019613944,
+        0.259216177305003,
+        0.5184718532942544,
+        0.2865160567722676,
+        0.200694651738264,
+        0.18042541095996836,
+        0.1305697289071037,
+        5.731181471257055
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.13568984019613944,
+        0.259216177305003,
+        0.5184718532942544,
+        0.2865160567722676,
+        0.200694651738264,
+        0.18042541095996836,
+        0.1305697289071037,
+        5.731181471257055
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 47,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        0.13568984019613944,
+        0.259216177305003,
+        0.5184718532942544,
+        0.2865160567722676,
+        0.200694651738264,
+        0.18042541095996836,
+        0.1305697289071037,
+        5.731181471257055
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        0.13568984019613944,
+        0.259216177305003,
+        0.5184718532942544,
+        0.2865160567722676,
+        0.200694651738264,
+        0.18042541095996836,
+        0.1305697289071037,
+        5.731181471257055
+      ],
+      "shape": [
+        8
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 48,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          1024.0,
+          0.125,
+          2.0,
+          1.0
+        ],
+        [
+          0.6666666666666666,
+          0.5,
+          0.25,
+          1024.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          1024.0,
+          0.125,
+          2.0,
+          1.0
+        ],
+        [
+          0.6666666666666666,
+          0.5,
+          0.25,
+          1024.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 48,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          1024.0,
+          0.125,
+          2.0,
+          1.0
+        ],
+        [
+          0.6666666666666666,
+          0.5,
+          0.25,
+          1024.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          1024.0,
+          0.125,
+          2.0,
+          1.0
+        ],
+        [
+          0.6666666666666666,
+          0.5,
+          0.25,
+          1024.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 48,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          1024.0,
+          0.125,
+          2.0,
+          1.0
+        ],
+        [
+          0.6666666666666666,
+          0.5,
+          0.25,
+          1024.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          1024.0,
+          0.125,
+          2.0,
+          1.0
+        ],
+        [
+          0.6666666666666666,
+          0.5,
+          0.25,
+          1024.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 49,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.125,
+          2.0,
+          1.0,
+          0.6666666666666666
+        ],
+        [
+          0.5,
+          0.25,
+          1024.0,
+          0.125
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.125,
+          2.0,
+          1.0,
+          0.6666666666666666
+        ],
+        [
+          0.5,
+          0.25,
+          1024.0,
+          0.125
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 49,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.125,
+          2.0,
+          1.0,
+          0.6666666666666666
+        ],
+        [
+          0.5,
+          0.25,
+          1024.0,
+          0.125
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.125,
+          2.0,
+          1.0,
+          0.6666666666666666
+        ],
+        [
+          0.5,
+          0.25,
+          1024.0,
+          0.125
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 49,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.125,
+          2.0,
+          1.0,
+          0.6666666666666666
+        ],
+        [
+          0.5,
+          0.25,
+          1024.0,
+          0.125
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.125,
+          2.0,
+          1.0,
+          0.6666666666666666
+        ],
+        [
+          0.5,
+          0.25,
+          1024.0,
+          0.125
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 50,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          2.0,
+          1.0,
+          0.6666666666666666,
+          0.5
+        ],
+        [
+          0.25,
+          1024.0,
+          0.125,
+          2.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          2.0,
+          1.0,
+          0.6666666666666666,
+          0.5
+        ],
+        [
+          0.25,
+          1024.0,
+          0.125,
+          2.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 50,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          2.0,
+          1.0,
+          0.6666666666666666,
+          0.5
+        ],
+        [
+          0.25,
+          1024.0,
+          0.125,
+          2.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          2.0,
+          1.0,
+          0.6666666666666666,
+          0.5
+        ],
+        [
+          0.25,
+          1024.0,
+          0.125,
+          2.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 50,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          2.0,
+          1.0,
+          0.6666666666666666,
+          0.5
+        ],
+        [
+          0.25,
+          1024.0,
+          0.125,
+          2.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          2.0,
+          1.0,
+          0.6666666666666666,
+          0.5
+        ],
+        [
+          0.25,
+          1024.0,
+          0.125,
+          2.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 51,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          1.0,
+          0.6666666666666666,
+          0.5,
+          0.25
+        ],
+        [
+          1024.0,
+          0.125,
+          2.0,
+          1.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          1.0,
+          0.6666666666666666,
+          0.5,
+          0.25
+        ],
+        [
+          1024.0,
+          0.125,
+          2.0,
+          1.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 51,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          1.0,
+          0.6666666666666666,
+          0.5,
+          0.25
+        ],
+        [
+          1024.0,
+          0.125,
+          2.0,
+          1.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          1.0,
+          0.6666666666666666,
+          0.5,
+          0.25
+        ],
+        [
+          1024.0,
+          0.125,
+          2.0,
+          1.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 51,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          1.0,
+          0.6666666666666666,
+          0.5,
+          0.25
+        ],
+        [
+          1024.0,
+          0.125,
+          2.0,
+          1.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          1.0,
+          0.6666666666666666,
+          0.5,
+          0.25
+        ],
+        [
+          1024.0,
+          0.125,
+          2.0,
+          1.0
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 52,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.26680511188974004,
+          0.14775756696143386,
+          0.29978924028090487,
+          0.9184454311903546
+        ],
+        [
+          0.34567113833652313,
+          0.13711481885300955,
+          0.3058823165926364,
+          1.0139650490014986
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.26680511188974004,
+          0.14775756696143386,
+          0.29978924028090487,
+          0.9184454311903546
+        ],
+        [
+          0.34567113833652313,
+          0.13711481885300955,
+          0.3058823165926364,
+          1.0139650490014986
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 52,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.26680511188974004,
+          0.14775756696143386,
+          0.29978924028090487,
+          0.9184454311903546
+        ],
+        [
+          0.34567113833652313,
+          0.13711481885300955,
+          0.3058823165926364,
+          1.0139650490014986
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.26680511188974004,
+          0.14775756696143386,
+          0.29978924028090487,
+          0.9184454311903546
+        ],
+        [
+          0.34567113833652313,
+          0.13711481885300955,
+          0.3058823165926364,
+          1.0139650490014986
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 52,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.26680511188974004,
+          0.14775756696143386,
+          0.29978924028090487,
+          0.9184454311903546
+        ],
+        [
+          0.34567113833652313,
+          0.13711481885300955,
+          0.3058823165926364,
+          1.0139650490014986
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.26680511188974004,
+          0.14775756696143386,
+          0.29978924028090487,
+          0.9184454311903546
+        ],
+        [
+          0.34567113833652313,
+          0.13711481885300955,
+          0.3058823165926364,
+          1.0139650490014986
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 53,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.18388303463719252,
+          0.3085985874633336,
+          1.4097300765892216,
+          0.16704221026527982
+        ],
+        [
+          0.38470607662346823,
+          0.3307853908334594,
+          0.20169411571500276,
+          0.22607092815737265
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.18388303463719252,
+          0.3085985874633336,
+          1.4097300765892216,
+          0.16704221026527982
+        ],
+        [
+          0.38470607662346823,
+          0.3307853908334594,
+          0.20169411571500276,
+          0.22607092815737265
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 53,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.18388303463719252,
+          0.3085985874633336,
+          1.4097300765892216,
+          0.16704221026527982
+        ],
+        [
+          0.38470607662346823,
+          0.3307853908334594,
+          0.20169411571500276,
+          0.22607092815737265
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.18388303463719252,
+          0.3085985874633336,
+          1.4097300765892216,
+          0.16704221026527982
+        ],
+        [
+          0.38470607662346823,
+          0.3307853908334594,
+          0.20169411571500276,
+          0.22607092815737265
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 53,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.18388303463719252,
+          0.3085985874633336,
+          1.4097300765892216,
+          0.16704221026527982
+        ],
+        [
+          0.38470607662346823,
+          0.3307853908334594,
+          0.20169411571500276,
+          0.22607092815737265
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.18388303463719252,
+          0.3085985874633336,
+          1.4097300765892216,
+          0.16704221026527982
+        ],
+        [
+          0.38470607662346823,
+          0.3307853908334594,
+          0.20169411571500276,
+          0.22607092815737265
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 54,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.19064100141825235,
+          3.0521482231967787,
+          0.17278682459771913,
+          0.6437047944924488
+        ],
+        [
+          0.20962235372630023,
+          1.0852779202280178,
+          1.263456143037818,
+          0.1925517149005999
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.19064100141825235,
+          3.0521482231967787,
+          0.17278682459771913,
+          0.6437047944924488
+        ],
+        [
+          0.20962235372630023,
+          1.0852779202280178,
+          1.263456143037818,
+          0.1925517149005999
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 54,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.19064100141825235,
+          3.0521482231967787,
+          0.17278682459771913,
+          0.6437047944924488
+        ],
+        [
+          0.20962235372630023,
+          1.0852779202280178,
+          1.263456143037818,
+          0.1925517149005999
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.19064100141825235,
+          3.0521482231967787,
+          0.17278682459771913,
+          0.6437047944924488
+        ],
+        [
+          0.20962235372630023,
+          1.0852779202280178,
+          1.263456143037818,
+          0.1925517149005999
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 54,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.19064100141825235,
+          3.0521482231967787,
+          0.17278682459771913,
+          0.6437047944924488
+        ],
+        [
+          0.20962235372630023,
+          1.0852779202280178,
+          1.263456143037818,
+          0.1925517149005999
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.19064100141825235,
+          3.0521482231967787,
+          0.17278682459771913,
+          0.6437047944924488
+        ],
+        [
+          0.20962235372630023,
+          1.0852779202280178,
+          1.263456143037818,
+          0.1925517149005999
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 55,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.13211892017199284,
+          0.272972489473098,
+          0.3869768571839201,
+          0.24984653544046875
+        ],
+        [
+          0.7965866087538973,
+          0.2967200514461563,
+          0.3355798099397669,
+          0.2221171140722903
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.13211892017199284,
+          0.272972489473098,
+          0.3869768571839201,
+          0.24984653544046875
+        ],
+        [
+          0.7965866087538973,
+          0.2967200514461563,
+          0.3355798099397669,
+          0.2221171140722903
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 55,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.13211892017199284,
+          0.272972489473098,
+          0.3869768571839201,
+          0.24984653544046875
+        ],
+        [
+          0.7965866087538973,
+          0.2967200514461563,
+          0.3355798099397669,
+          0.2221171140722903
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.13211892017199284,
+          0.272972489473098,
+          0.3869768571839201,
+          0.24984653544046875
+        ],
+        [
+          0.7965866087538973,
+          0.2967200514461563,
+          0.3355798099397669,
+          0.2221171140722903
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 55,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          0.13211892017199284,
+          0.272972489473098,
+          0.3869768571839201,
+          0.24984653544046875
+        ],
+        [
+          0.7965866087538973,
+          0.2967200514461563,
+          0.3355798099397669,
+          0.2221171140722903
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          0.13211892017199284,
+          0.272972489473098,
+          0.3869768571839201,
+          0.24984653544046875
+        ],
+        [
+          0.7965866087538973,
+          0.2967200514461563,
+          0.3355798099397669,
+          0.2221171140722903
+        ]
+      ],
+      "shape": [
+        2,
+        4
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 56,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1024.0,
+              0.125
+            ],
+            [
+              2.0,
+              1.0
+            ]
+          ],
+          [
+            [
+              0.6666666666666666,
+              0.5
+            ],
+            [
+              0.25,
+              1024.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1024.0,
+              0.125
+            ],
+            [
+              2.0,
+              1.0
+            ]
+          ],
+          [
+            [
+              0.6666666666666666,
+              0.5
+            ],
+            [
+              0.25,
+              1024.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 56,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1024.0,
+              0.125
+            ],
+            [
+              2.0,
+              1.0
+            ]
+          ],
+          [
+            [
+              0.6666666666666666,
+              0.5
+            ],
+            [
+              0.25,
+              1024.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1024.0,
+              0.125
+            ],
+            [
+              2.0,
+              1.0
+            ]
+          ],
+          [
+            [
+              0.6666666666666666,
+              0.5
+            ],
+            [
+              0.25,
+              1024.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 56,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1024.0,
+              0.125
+            ],
+            [
+              2.0,
+              1.0
+            ]
+          ],
+          [
+            [
+              0.6666666666666666,
+              0.5
+            ],
+            [
+              0.25,
+              1024.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1024.0,
+              0.125
+            ],
+            [
+              2.0,
+              1.0
+            ]
+          ],
+          [
+            [
+              0.6666666666666666,
+              0.5
+            ],
+            [
+              0.25,
+              1024.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 57,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.125,
+              2.0
+            ],
+            [
+              1.0,
+              0.6666666666666666
+            ]
+          ],
+          [
+            [
+              0.5,
+              0.25
+            ],
+            [
+              1024.0,
+              0.125
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.125,
+              2.0
+            ],
+            [
+              1.0,
+              0.6666666666666666
+            ]
+          ],
+          [
+            [
+              0.5,
+              0.25
+            ],
+            [
+              1024.0,
+              0.125
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 57,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.125,
+              2.0
+            ],
+            [
+              1.0,
+              0.6666666666666666
+            ]
+          ],
+          [
+            [
+              0.5,
+              0.25
+            ],
+            [
+              1024.0,
+              0.125
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.125,
+              2.0
+            ],
+            [
+              1.0,
+              0.6666666666666666
+            ]
+          ],
+          [
+            [
+              0.5,
+              0.25
+            ],
+            [
+              1024.0,
+              0.125
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 57,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.125,
+              2.0
+            ],
+            [
+              1.0,
+              0.6666666666666666
+            ]
+          ],
+          [
+            [
+              0.5,
+              0.25
+            ],
+            [
+              1024.0,
+              0.125
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.125,
+              2.0
+            ],
+            [
+              1.0,
+              0.6666666666666666
+            ]
+          ],
+          [
+            [
+              0.5,
+              0.25
+            ],
+            [
+              1024.0,
+              0.125
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 58,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              2.0,
+              1.0
+            ],
+            [
+              0.6666666666666666,
+              0.5
+            ]
+          ],
+          [
+            [
+              0.25,
+              1024.0
+            ],
+            [
+              0.125,
+              2.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              2.0,
+              1.0
+            ],
+            [
+              0.6666666666666666,
+              0.5
+            ]
+          ],
+          [
+            [
+              0.25,
+              1024.0
+            ],
+            [
+              0.125,
+              2.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 58,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              2.0,
+              1.0
+            ],
+            [
+              0.6666666666666666,
+              0.5
+            ]
+          ],
+          [
+            [
+              0.25,
+              1024.0
+            ],
+            [
+              0.125,
+              2.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              2.0,
+              1.0
+            ],
+            [
+              0.6666666666666666,
+              0.5
+            ]
+          ],
+          [
+            [
+              0.25,
+              1024.0
+            ],
+            [
+              0.125,
+              2.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 58,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              2.0,
+              1.0
+            ],
+            [
+              0.6666666666666666,
+              0.5
+            ]
+          ],
+          [
+            [
+              0.25,
+              1024.0
+            ],
+            [
+              0.125,
+              2.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              2.0,
+              1.0
+            ],
+            [
+              0.6666666666666666,
+              0.5
+            ]
+          ],
+          [
+            [
+              0.25,
+              1024.0
+            ],
+            [
+              0.125,
+              2.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 59,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1.0,
+              0.6666666666666666
+            ],
+            [
+              0.5,
+              0.25
+            ]
+          ],
+          [
+            [
+              1024.0,
+              0.125
+            ],
+            [
+              2.0,
+              1.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1.0,
+              0.6666666666666666
+            ],
+            [
+              0.5,
+              0.25
+            ]
+          ],
+          [
+            [
+              1024.0,
+              0.125
+            ],
+            [
+              2.0,
+              1.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 59,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1.0,
+              0.6666666666666666
+            ],
+            [
+              0.5,
+              0.25
+            ]
+          ],
+          [
+            [
+              1024.0,
+              0.125
+            ],
+            [
+              2.0,
+              1.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1.0,
+              0.6666666666666666
+            ],
+            [
+              0.5,
+              0.25
+            ]
+          ],
+          [
+            [
+              1024.0,
+              0.125
+            ],
+            [
+              2.0,
+              1.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 59,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1.0,
+              0.6666666666666666
+            ],
+            [
+              0.5,
+              0.25
+            ]
+          ],
+          [
+            [
+              1024.0,
+              0.125
+            ],
+            [
+              2.0,
+              1.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1.0,
+              0.6666666666666666
+            ],
+            [
+              0.5,
+              0.25
+            ]
+          ],
+          [
+            [
+              1024.0,
+              0.125
+            ],
+            [
+              2.0,
+              1.0
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 60,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.44165034441522133,
+              0.20762451363659168
+            ],
+            [
+              0.8862217349769269,
+              0.17917618026597704
+            ]
+          ],
+          [
+            [
+              0.4820616920944706,
+              0.25919863908391466
+            ],
+            [
+              0.602533806190705,
+              0.1295658139090624
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.44165034441522133,
+              0.20762451363659168
+            ],
+            [
+              0.8862217349769269,
+              0.17917618026597704
+            ]
+          ],
+          [
+            [
+              0.4820616920944706,
+              0.25919863908391466
+            ],
+            [
+              0.602533806190705,
+              0.1295658139090624
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 60,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.44165034441522133,
+              0.20762451363659168
+            ],
+            [
+              0.8862217349769269,
+              0.17917618026597704
+            ]
+          ],
+          [
+            [
+              0.4820616920944706,
+              0.25919863908391466
+            ],
+            [
+              0.602533806190705,
+              0.1295658139090624
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.44165034441522133,
+              0.20762451363659168
+            ],
+            [
+              0.8862217349769269,
+              0.17917618026597704
+            ]
+          ],
+          [
+            [
+              0.4820616920944706,
+              0.25919863908391466
+            ],
+            [
+              0.602533806190705,
+              0.1295658139090624
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 60,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.44165034441522133,
+              0.20762451363659168
+            ],
+            [
+              0.8862217349769269,
+              0.17917618026597704
+            ]
+          ],
+          [
+            [
+              0.4820616920944706,
+              0.25919863908391466
+            ],
+            [
+              0.602533806190705,
+              0.1295658139090624
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.44165034441522133,
+              0.20762451363659168
+            ],
+            [
+              0.8862217349769269,
+              0.17917618026597704
+            ]
+          ],
+          [
+            [
+              0.4820616920944706,
+              0.25919863908391466
+            ],
+            [
+              0.602533806190705,
+              0.1295658139090624
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 61,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.33527465429102254,
+              0.1707283795189428
+            ],
+            [
+              0.13062826730967828,
+              1.3350446423595534
+            ]
+          ],
+          [
+            [
+              0.16845610786206244,
+              1.5391842215678766
+            ],
+            [
+              27.420454241609157,
+              0.2746009001834878
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.33527465429102254,
+              0.1707283795189428
+            ],
+            [
+              0.13062826730967828,
+              1.3350446423595534
+            ]
+          ],
+          [
+            [
+              0.16845610786206244,
+              1.5391842215678766
+            ],
+            [
+              27.420454241609157,
+              0.2746009001834878
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 61,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.33527465429102254,
+              0.1707283795189428
+            ],
+            [
+              0.13062826730967828,
+              1.3350446423595534
+            ]
+          ],
+          [
+            [
+              0.16845610786206244,
+              1.5391842215678766
+            ],
+            [
+              27.420454241609157,
+              0.2746009001834878
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.33527465429102254,
+              0.1707283795189428
+            ],
+            [
+              0.13062826730967828,
+              1.3350446423595534
+            ]
+          ],
+          [
+            [
+              0.16845610786206244,
+              1.5391842215678766
+            ],
+            [
+              27.420454241609157,
+              0.2746009001834878
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 61,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.33527465429102254,
+              0.1707283795189428
+            ],
+            [
+              0.13062826730967828,
+              1.3350446423595534
+            ]
+          ],
+          [
+            [
+              0.16845610786206244,
+              1.5391842215678766
+            ],
+            [
+              27.420454241609157,
+              0.2746009001834878
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.33527465429102254,
+              0.1707283795189428
+            ],
+            [
+              0.13062826730967828,
+              1.3350446423595534
+            ]
+          ],
+          [
+            [
+              0.16845610786206244,
+              1.5391842215678766
+            ],
+            [
+              27.420454241609157,
+              0.2746009001834878
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 62,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.5765489615785085,
+              0.16576306991215917
+            ],
+            [
+              0.12588159179622685,
+              0.3812082033093677
+            ]
+          ],
+          [
+            [
+              0.26504664390569643,
+              0.14248697434583826
+            ],
+            [
+              0.12878734336607786,
+              1.1862071393197726
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.5765489615785085,
+              0.16576306991215917
+            ],
+            [
+              0.12588159179622685,
+              0.3812082033093677
+            ]
+          ],
+          [
+            [
+              0.26504664390569643,
+              0.14248697434583826
+            ],
+            [
+              0.12878734336607786,
+              1.1862071393197726
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 62,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.5765489615785085,
+              0.16576306991215917
+            ],
+            [
+              0.12588159179622685,
+              0.3812082033093677
+            ]
+          ],
+          [
+            [
+              0.26504664390569643,
+              0.14248697434583826
+            ],
+            [
+              0.12878734336607786,
+              1.1862071393197726
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.5765489615785085,
+              0.16576306991215917
+            ],
+            [
+              0.12588159179622685,
+              0.3812082033093677
+            ]
+          ],
+          [
+            [
+              0.26504664390569643,
+              0.14248697434583826
+            ],
+            [
+              0.12878734336607786,
+              1.1862071393197726
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 62,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.5765489615785085,
+              0.16576306991215917
+            ],
+            [
+              0.12588159179622685,
+              0.3812082033093677
+            ]
+          ],
+          [
+            [
+              0.26504664390569643,
+              0.14248697434583826
+            ],
+            [
+              0.12878734336607786,
+              1.1862071393197726
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              0.5765489615785085,
+              0.16576306991215917
+            ],
+            [
+              0.12588159179622685,
+              0.3812082033093677
+            ]
+          ],
+          [
+            [
+              0.26504664390569643,
+              0.14248697434583826
+            ],
+            [
+              0.12878734336607786,
+              1.1862071393197726
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 63,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1.342775282822437,
+              0.21022890308273914
+            ],
+            [
+              0.1517787068791304,
+              0.20579367190622763
+            ]
+          ],
+          [
+            [
+              0.14946641647502565,
+              0.2327370172351533
+            ],
+            [
+              2.8080409110758673,
+              0.5133786992537777
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1.342775282822437,
+              0.21022890308273914
+            ],
+            [
+              0.1517787068791304,
+              0.20579367190622763
+            ]
+          ],
+          [
+            [
+              0.14946641647502565,
+              0.2327370172351533
+            ],
+            [
+              2.8080409110758673,
+              0.5133786992537777
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 63,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1.342775282822437,
+              0.21022890308273914
+            ],
+            [
+              0.1517787068791304,
+              0.20579367190622763
+            ]
+          ],
+          [
+            [
+              0.14946641647502565,
+              0.2327370172351533
+            ],
+            [
+              2.8080409110758673,
+              0.5133786992537777
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1.342775282822437,
+              0.21022890308273914
+            ],
+            [
+              0.1517787068791304,
+              0.20579367190622763
+            ]
+          ],
+          [
+            [
+              0.14946641647502565,
+              0.2327370172351533
+            ],
+            [
+              2.8080409110758673,
+              0.5133786992537777
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  },
+  {
+    "input_index": 63,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1.342775282822437,
+              0.21022890308273914
+            ],
+            [
+              0.1517787068791304,
+              0.20579367190622763
+            ]
+          ],
+          [
+            [
+              0.14946641647502565,
+              0.2327370172351533
+            ],
+            [
+              2.8080409110758673,
+              0.5133786992537777
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": [
+        [
+          [
+            [
+              1.342775282822437,
+              0.21022890308273914
+            ],
+            [
+              0.1517787068791304,
+              0.20579367190622763
+            ]
+          ],
+          [
+            [
+              0.14946641647502565,
+              0.2327370172351533
+            ],
+            [
+              2.8080409110758673,
+              0.5133786992537777
+            ]
+          ]
+        ]
+      ],
+      "shape": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "dtype": "float64",
+      "calls": [
+        "tf.math.reciprocal"
+      ]
+    }
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "candidate_id": "E010",
+  "source_api": "tf.maximum",
+  "target_calls": "torch.maximum",
+  "status": "两端API测试齐",
+  "source_match": "namespace re-export: Ivy tensorflow/__init__.py; selected tf.math.maximum",
+  "source_test": {
+    "repository": "ivy-llc/ivy",
+    "commit": "a701151c85d59c0260a4dbf505479805bdeec00f",
+    "upstream_path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+    "function": "test_tensorflow_maximum",
+    "line": 1795,
+    "end_line": 1823,
+    "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L1795",
+    "kind": "Ivy public frontend test",
+    "full_file": "candidates/E010/source-test-full.py",
+    "excerpt_file": "candidates/E010/source-test-excerpt.py",
+    "original_sha256": "644d0efebf10d4bbfb9520f70bed72556084389131abe3ffa146704df043e081",
+    "excerpt_sha256": "fa3192efc629432e6ddffa37a1c596f5f74929abc6ac470767e811923faf65ee"
+  },
+  "target_tests": [
+    {
+      "api": "torch.maximum",
+      "match": "exact API / explicit decorator alias",
+      "test": {
+        "repository": "ivy-llc/ivy",
+        "commit": "a701151c85d59c0260a4dbf505479805bdeec00f",
+        "upstream_path": "ivy_tests/test_ivy/test_frontends/test_torch/test_comparison_ops.py",
+        "function": "test_torch_maximum",
+        "line": 659,
+        "end_line": 686,
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_comparison_ops.py#L659",
+        "kind": "Ivy public frontend test",
+        "full_file": "candidates/E010/target-01-test-full.py",
+        "excerpt_file": "candidates/E010/target-01-test-excerpt.py",
+        "original_sha256": "8d693637e3ba8464e83808b589242a9516c9ece4b888391c9cc2357154a47f7d",
+        "excerpt_sha256": "a11bda64fb68dba124e1aacc996bdf686e9931024b6f08b575b17749a32b6c20"
+      }
+    }
+  ],
+  "whole_counterpart_test_verified": false,
+  "input_oracle_alignment": "not yet reviewed",
+  "execution": "not run",
+  "origin": "paired existing public API tests; not a historical migration record",
+  "notes": []
+}

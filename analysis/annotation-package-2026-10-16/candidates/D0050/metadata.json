@@ -1,0 +1,21 @@
+{
+  "candidate_id": "D0050",
+  "source_api": "tf.math.reciprocal",
+  "target_calls": "torch.Tensor.__rtruediv__",
+  "source": {
+    "framework": "tensorflow",
+    "entry": "tensorflow_call"
+  },
+  "target": {
+    "framework": "pytorch",
+    "entry": "pytorch_call"
+  },
+  "cohort": "discovery",
+  "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.reciprocal.json",
+  "operation_sha256": {
+    "source": "b5ab1722e94ee7350526d4821e9a9942343ead4f48ff06221c82954821b7d4f7",
+    "target": "b5aa2f8ed3fd9aac8bd47569ece69a6c758de83c6f37632681956b23efb3c35b"
+  },
+  "test_pair_available": false,
+  "test_pair_origin": null
+}

@@ -1,0 +1,84 @@
+{
+  "candidate_id": "E030",
+  "source_api": "tf.clip_by_value",
+  "target_calls": "clip_value_max.new_ones, float, torch.clamp, torch.max",
+  "status": "两端组件测试齐，组合测试缺",
+  "source_match": "exact API / explicit decorator alias",
+  "source_test": {
+    "repository": "ivy-llc/ivy",
+    "commit": "a701151c85d59c0260a4dbf505479805bdeec00f",
+    "upstream_path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_general_functions.py",
+    "function": "test_tensorflow_clip_by_value",
+    "line": 654,
+    "end_line": 679,
+    "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_general_functions.py#L654",
+    "kind": "Ivy public frontend test",
+    "full_file": "candidates/E030/source-test-full.py",
+    "excerpt_file": "candidates/E030/source-test-excerpt.py",
+    "original_sha256": "1c03f6d1dbc057fd3b156cb821a653f51040b8b7b7ff02b3d333cec3d3fc5d56",
+    "excerpt_sha256": "e211c2a0fa6256b28bf32c216a39a34285bdb466358c5303291afd530c6874f0"
+  },
+  "target_tests": [
+    {
+      "api": "torch.max",
+      "match": "exact API / explicit decorator alias",
+      "test": {
+        "repository": "ivy-llc/ivy",
+        "commit": "a701151c85d59c0260a4dbf505479805bdeec00f",
+        "upstream_path": "ivy_tests/test_ivy/test_frontends/test_torch/test_reduction_ops.py",
+        "function": "test_torch_max",
+        "line": 425,
+        "end_line": 459,
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_reduction_ops.py#L425",
+        "kind": "Ivy public frontend test",
+        "full_file": "candidates/E030/target-01-test-full.py",
+        "excerpt_file": "candidates/E030/target-01-test-excerpt.py",
+        "original_sha256": "0a91392747bbe8e8e73b596b11cba0f5656902666a0fdff8f191e1a8cfc42adc",
+        "excerpt_sha256": "2117a413a6c1c02bf9956bf1ba41c7ff2084d2ad8c364d95832ddbec68819bb3"
+      }
+    },
+    {
+      "api": "torch.clamp",
+      "match": "exact API / explicit decorator alias",
+      "test": {
+        "repository": "ivy-llc/ivy",
+        "commit": "a701151c85d59c0260a4dbf505479805bdeec00f",
+        "upstream_path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "function": "test_torch_clamp",
+        "line": 907,
+        "end_line": 932,
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L907",
+        "kind": "Ivy public frontend test",
+        "full_file": "candidates/E030/target-02-test-full.py",
+        "excerpt_file": "candidates/E030/target-02-test-excerpt.py",
+        "original_sha256": "c0bddd69651e592166d17f24eed33beb3b8034a253053e0cf681be106e1f14c1",
+        "excerpt_sha256": "e6adb2f12636356a5fe49187cb3f6b569873e68d560263123af355c4e490ba29"
+      }
+    },
+    {
+      "api": "torch.Tensor.new_ones",
+      "match": "exact API / explicit decorator alias",
+      "test": {
+        "repository": "ivy-llc/ivy",
+        "commit": "a701151c85d59c0260a4dbf505479805bdeec00f",
+        "upstream_path": "ivy_tests/test_ivy/test_frontends/test_torch/test_tensor.py",
+        "function": "test_torch_new_ones",
+        "line": 10604,
+        "end_line": 10649,
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_tensor.py#L10604",
+        "kind": "Ivy public frontend test",
+        "full_file": "candidates/E030/target-03-test-full.py",
+        "excerpt_file": "candidates/E030/target-03-test-excerpt.py",
+        "original_sha256": "167cde76809f6e486dc30d01dccb768dff83b1c38fd67d91cabfa074b02187ca",
+        "excerpt_sha256": "e5e11480389c1b60a3b446a32da58d92ff87c62bb6fe11d01940284adf34cd24"
+      }
+    }
+  ],
+  "whole_counterpart_test_verified": false,
+  "input_oracle_alignment": "not yet reviewed",
+  "execution": "not run",
+  "origin": "paired existing public API tests; not a historical migration record",
+  "notes": [
+    "目标为组合：各API测试已分别收集，整段组合测试仍空缺"
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "framework": "tensorflow",
+    "file": "shared/source-search/tensorflow/tensorflow/python/kernel_tests/math_ops/reduction_ops_test.py",
+    "class": "ReductionUnknownShape",
+    "method": "testBasic",
+    "start": 100,
+    "end": 113,
+    "commit": "72fbba3d20f4616d7312b5e2b7f79daf6e82f2fa",
+    "matched_symbols": [
+      "math_ops.reduce_prod"
+    ]
+  },
+  {
+    "framework": "tensorflow",
+    "file": "shared/source-search/tensorflow/tensorflow/python/kernel_tests/math_ops/reduction_ops_test.py",
+    "class": "ReductionInvalidKeepdims",
+    "method": "testBasic",
+    "start": 118,
+    "end": 131,
+    "commit": "72fbba3d20f4616d7312b5e2b7f79daf6e82f2fa",
+    "matched_symbols": [
+      "math_ops.reduce_prod"
+    ]
+  },
+  {
+    "framework": "tensorflow",
+    "file": "shared/source-search/tensorflow/tensorflow/python/kernel_tests/math_ops/reduction_ops_test.py",
+    "class": "ProdReductionTest",
+    "method": "testAxesType",
+    "start": 700,
+    "end": 705,
+    "commit": "72fbba3d20f4616d7312b5e2b7f79daf6e82f2fa",
+    "matched_symbols": [
+      "math_ops.reduce_prod"
+    ]
+  },
+  {
+    "framework": "tensorflow",
+    "file": "shared/source-search/tensorflow/tensorflow/python/kernel_tests/math_ops/reduction_ops_test.py",
+    "class": "ProdReductionTest",
+    "method": "testEmptyGradients",
+    "start": 786,
+    "end": 791,
+    "commit": "72fbba3d20f4616d7312b5e2b7f79daf6e82f2fa",
+    "matched_symbols": [
+      "math_ops.reduce_prod"
+    ]
+  },
+  {
+    "framework": "tensorflow",
+    "file": "shared/source-search/tensorflow/tensorflow/python/kernel_tests/math_ops/reduction_ops_test.py",
+    "class": "ProdReductionTest",
+    "method": "testDegenerate",
+    "start": 794,
+    "end": 801,
+    "commit": "72fbba3d20f4616d7312b5e2b7f79daf6e82f2fa",
+    "matched_symbols": [
+      "math_ops.reduce_prod"
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "candidate_id": "D0066",
+  "source_api": "tf.sqrt",
+  "target_calls": "torch.sqrt",
+  "source": {
+    "framework": "tensorflow",
+    "entry": "tensorflow_call"
+  },
+  "target": {
+    "framework": "pytorch",
+    "entry": "pytorch_call"
+  },
+  "cohort": "discovery",
+  "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.sqrt.json",
+  "operation_sha256": {
+    "source": "fc3d14a232ef0bf54ad7830172bc7389ef9fac0f5d2eaefb9efe1b4f29e8b478",
+    "target": "ece9b4a278d9ee46eec1d952e55856b956370a754fc9b1475e1bfecef914f4bf"
+  },
+  "test_pair_available": false,
+  "test_pair_origin": null
+}

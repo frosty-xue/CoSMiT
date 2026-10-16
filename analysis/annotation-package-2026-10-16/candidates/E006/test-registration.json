@@ -1,0 +1,17 @@
+{
+  "file": "upstream/tf_binary.py",
+  "class": "BinaryOpTest",
+  "methods": [
+    {
+      "method": "_compareCpu",
+      "start": 79,
+      "end": 106,
+      "decorators": []
+    }
+  ],
+  "entry": "_compareCpu",
+  "paths": [],
+  "kind": "complete-upstream-helper-bodies",
+  "parameters": "frozen expansion input indices 0 and 16; replaces upstream sample generator, not original whole test setup",
+  "source_framework": "tensorflow"
+}

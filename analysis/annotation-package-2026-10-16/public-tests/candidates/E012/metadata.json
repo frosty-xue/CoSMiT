@@ -1,0 +1,48 @@
+{
+  "candidate_id": "E012",
+  "source_api": "tf.minimum",
+  "target_calls": "torch.min",
+  "status": "两端API测试齐",
+  "source_match": "namespace re-export: Ivy tensorflow/__init__.py; selected tf.math.minimum",
+  "source_test": {
+    "repository": "ivy-llc/ivy",
+    "commit": "a701151c85d59c0260a4dbf505479805bdeec00f",
+    "upstream_path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+    "function": "test_tensorflow_minimum",
+    "line": 1827,
+    "end_line": 1857,
+    "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L1827",
+    "kind": "Ivy public frontend test",
+    "full_file": "candidates/E012/source-test-full.py",
+    "excerpt_file": "candidates/E012/source-test-excerpt.py",
+    "original_sha256": "644d0efebf10d4bbfb9520f70bed72556084389131abe3ffa146704df043e081",
+    "excerpt_sha256": "9437211ff00baff8a2067ca4eac38446e95c01c657278f211882e47099c8fb45"
+  },
+  "target_tests": [
+    {
+      "api": "torch.min",
+      "match": "exact API / explicit decorator alias",
+      "test": {
+        "repository": "ivy-llc/ivy",
+        "commit": "a701151c85d59c0260a4dbf505479805bdeec00f",
+        "upstream_path": "ivy_tests/test_ivy/test_frontends/test_torch/test_reduction_ops.py",
+        "function": "test_torch_min",
+        "line": 534,
+        "end_line": 568,
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_reduction_ops.py#L534",
+        "kind": "Ivy public frontend test",
+        "full_file": "candidates/E012/target-01-test-full.py",
+        "excerpt_file": "candidates/E012/target-01-test-excerpt.py",
+        "original_sha256": "0a91392747bbe8e8e73b596b11cba0f5656902666a0fdff8f191e1a8cfc42adc",
+        "excerpt_sha256": "49e00021184c7da7ff1e95afc0c24c25b4de04e2e3c9b43343fa1a8d2e9501df"
+      }
+    }
+  ],
+  "whole_counterpart_test_verified": false,
+  "input_oracle_alignment": "not yet reviewed",
+  "execution": "not run",
+  "origin": "paired existing public API tests; not a historical migration record",
+  "notes": [
+    "所选torch.min测试同时包含单输入归约与双输入逐元素分支，配对时用后者"
+  ]
+}

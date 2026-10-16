@@ -1,0 +1,21 @@
+{
+  "candidate_id": "D0041",
+  "source_api": "tf.math.ceil",
+  "target_calls": "torch.ceil",
+  "source": {
+    "framework": "tensorflow",
+    "entry": "tensorflow_call"
+  },
+  "target": {
+    "framework": "pytorch",
+    "entry": "pytorch_call"
+  },
+  "cohort": "discovery",
+  "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.ceil.json",
+  "operation_sha256": {
+    "source": "231c9723df7879f54279df1042097c6ff53a3f0c83d2db6a21d80b590bca2da3",
+    "target": "d63f4ad45e196477d3687b3e7489f51a0ddb0bc5b4570a837dd32ae804053e2f"
+  },
+  "test_pair_available": false,
+  "test_pair_origin": null
+}

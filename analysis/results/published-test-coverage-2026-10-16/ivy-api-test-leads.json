@@ -1,0 +1,1615 @@
+[
+  {
+    "candidate_id": "D0001",
+    "source_api": "torch.abs",
+    "tests": [
+      {
+        "function": "test_torch_abs",
+        "line": 132,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L132",
+        "api_strings": [
+          "bfloat16",
+          "float16",
+          "int16",
+          "int8",
+          "log",
+          "numeric",
+          "torch.abs",
+          "torch.absolute",
+          "uint16",
+          "uint8"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0002",
+    "source_api": "torch.acos",
+    "tests": [
+      {
+        "function": "test_torch_acos",
+        "line": 187,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L187",
+        "api_strings": [
+          "float",
+          "torch.acos",
+          "torch.arccos"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0003",
+    "source_api": "torch.arccos",
+    "tests": [
+      {
+        "function": "test_torch_acos",
+        "line": 187,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L187",
+        "api_strings": [
+          "float",
+          "torch.acos",
+          "torch.arccos"
+        ]
+      },
+      {
+        "function": "test_torch_arccos",
+        "line": 382,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L382",
+        "api_strings": [
+          "float",
+          "torch.arccos"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0004",
+    "source_api": "torch.arcsin",
+    "tests": [
+      {
+        "function": "test_torch_arcsin",
+        "line": 438,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L438",
+        "api_strings": [
+          "float",
+          "torch.arcsin"
+        ]
+      },
+      {
+        "function": "test_torch_asin",
+        "line": 553,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L553",
+        "api_strings": [
+          "float",
+          "torch.arcsin",
+          "torch.asin"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0005",
+    "source_api": "torch.arctan",
+    "tests": [
+      {
+        "function": "test_torch_arctan",
+        "line": 466,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L466",
+        "api_strings": [
+          "float",
+          "torch.arctan"
+        ]
+      },
+      {
+        "function": "test_torch_atan",
+        "line": 611,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L611",
+        "api_strings": [
+          "float",
+          "torch.arctan",
+          "torch.atan"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0006",
+    "source_api": "torch.asin",
+    "tests": [
+      {
+        "function": "test_torch_asin",
+        "line": 553,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L553",
+        "api_strings": [
+          "float",
+          "torch.arcsin",
+          "torch.asin"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0007",
+    "source_api": "torch.atan",
+    "tests": [
+      {
+        "function": "test_torch_atan",
+        "line": 611,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L611",
+        "api_strings": [
+          "float",
+          "torch.arctan",
+          "torch.atan"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0008",
+    "source_api": "torch.ceil",
+    "tests": [
+      {
+        "function": "test_torch_ceil",
+        "line": 885,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L885",
+        "api_strings": [
+          "float",
+          "torch.ceil"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0009",
+    "source_api": "torch.cos",
+    "tests": [
+      {
+        "function": "test_torch_cos",
+        "line": 1033,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L1033",
+        "api_strings": [
+          "numeric",
+          "torch.cos"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0010",
+    "source_api": "torch.cosh",
+    "tests": [
+      {
+        "function": "test_torch_cosh",
+        "line": 1061,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L1061",
+        "api_strings": [
+          "float",
+          "torch.cosh"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0011",
+    "source_api": "torch.exp",
+    "tests": [
+      {
+        "function": "test_torch_exp",
+        "line": 1220,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L1220",
+        "api_strings": [
+          "torch.exp",
+          "valid"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0012",
+    "source_api": "torch.expm1",
+    "tests": [
+      {
+        "function": "test_torch_expm1",
+        "line": 1276,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L1276",
+        "api_strings": [
+          "float",
+          "torch.expm1"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0013",
+    "source_api": "torch.floor",
+    "tests": [
+      {
+        "function": "test_torch_floor",
+        "line": 1366,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L1366",
+        "api_strings": [
+          "float",
+          "torch.floor"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0014",
+    "source_api": "torch.log",
+    "tests": [
+      {
+        "function": "test_torch_log",
+        "line": 1798,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L1798",
+        "api_strings": [
+          "float",
+          "torch.log"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0015",
+    "source_api": "torch.log1p",
+    "tests": [
+      {
+        "function": "test_torch_log1p",
+        "line": 1856,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L1856",
+        "api_strings": [
+          "float",
+          "torch.log1p"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0016",
+    "source_api": "torch.neg",
+    "tests": [],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0017",
+    "source_api": "torch.negative",
+    "tests": [
+      {
+        "function": "test_torch_negative",
+        "line": 2252,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L2252",
+        "api_strings": [
+          "numeric",
+          "torch.negative"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0018",
+    "source_api": "torch.reciprocal",
+    "tests": [
+      {
+        "function": "test_torch_reciprocal",
+        "line": 2445,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L2445",
+        "api_strings": [
+          "float",
+          "torch.reciprocal"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0019",
+    "source_api": "torch.round",
+    "tests": [
+      {
+        "function": "test_torch_round",
+        "line": 2506,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L2506",
+        "api_strings": [
+          "float",
+          "torch.round"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0020",
+    "source_api": "torch.sigmoid",
+    "tests": [
+      {
+        "function": "test_torch_sigmoid",
+        "line": 2596,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L2596",
+        "api_strings": [
+          "float",
+          "torch.sigmoid"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0021",
+    "source_api": "torch.sign",
+    "tests": [
+      {
+        "function": "test_torch_sign",
+        "line": 2624,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L2624",
+        "api_strings": [
+          "numeric",
+          "torch.sign"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0022",
+    "source_api": "torch.sin",
+    "tests": [
+      {
+        "function": "test_torch_sin",
+        "line": 2680,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L2680",
+        "api_strings": [
+          "float",
+          "torch.sin"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0023",
+    "source_api": "torch.sinh",
+    "tests": [
+      {
+        "function": "test_torch_sinh",
+        "line": 2741,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L2741",
+        "api_strings": [
+          "float",
+          "torch.sinh"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0024",
+    "source_api": "torch.sqrt",
+    "tests": [
+      {
+        "function": "test_torch_sqrt",
+        "line": 2767,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L2767",
+        "api_strings": [
+          "float",
+          "torch.sqrt"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0025",
+    "source_api": "torch.square",
+    "tests": [
+      {
+        "function": "test_torch_square",
+        "line": 2797,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L2797",
+        "api_strings": [
+          "float",
+          "torch.square"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0026",
+    "source_api": "torch.tan",
+    "tests": [
+      {
+        "function": "test_torch_tan",
+        "line": 2862,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L2862",
+        "api_strings": [
+          "float",
+          "torch.tan"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0027",
+    "source_api": "torch.tanh",
+    "tests": [
+      {
+        "function": "test_torch_tanh",
+        "line": 2890,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L2890",
+        "api_strings": [
+          "float",
+          "torch.tanh"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0029",
+    "source_api": "tf.abs",
+    "tests": [],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0030",
+    "source_api": "tf.acos",
+    "tests": [],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0031",
+    "source_api": "tf.asin",
+    "tests": [],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0032",
+    "source_api": "tf.atan",
+    "tests": [],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0033",
+    "source_api": "tf.cos",
+    "tests": [],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0034",
+    "source_api": "tf.cosh",
+    "tests": [],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0035",
+    "source_api": "tf.exp",
+    "tests": [],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0036",
+    "source_api": "tf.floor",
+    "tests": [],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0037",
+    "source_api": "tf.math.abs",
+    "tests": [
+      {
+        "function": "test_tensorflow_abs",
+        "line": 31,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L31",
+        "api_strings": [
+          "log",
+          "numeric",
+          "tf.math.abs"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0038",
+    "source_api": "tf.math.acos",
+    "tests": [
+      {
+        "function": "test_tensorflow_acos",
+        "line": 94,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L94",
+        "api_strings": [
+          "float",
+          "tf.math.acos"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0039",
+    "source_api": "tf.math.asin",
+    "tests": [
+      {
+        "function": "test_tensorflow_asin",
+        "line": 313,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L313",
+        "api_strings": [
+          "float",
+          "tf.math.asin"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0040",
+    "source_api": "tf.math.atan",
+    "tests": [
+      {
+        "function": "test_tensorflow_atan",
+        "line": 369,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L369",
+        "api_strings": [
+          "float",
+          "tf.math.atan"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0041",
+    "source_api": "tf.math.ceil",
+    "tests": [
+      {
+        "function": "test_tensorflow_ceil",
+        "line": 536,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L536",
+        "api_strings": [
+          "float",
+          "tf.math.ceil"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0042",
+    "source_api": "tf.math.cos",
+    "tests": [
+      {
+        "function": "test_tensorflow_cos",
+        "line": 631,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L631",
+        "api_strings": [
+          "float",
+          "tf.math.cos"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0043",
+    "source_api": "tf.math.cosh",
+    "tests": [
+      {
+        "function": "test_tensorflow_cosh",
+        "line": 660,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L660",
+        "api_strings": [
+          "float_and_complex",
+          "tf.math.cosh"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0044",
+    "source_api": "tf.math.exp",
+    "tests": [
+      {
+        "function": "test_tensorflow_exp",
+        "line": 966,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L966",
+        "api_strings": [
+          "float",
+          "tf.math.exp"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0045",
+    "source_api": "tf.math.expm1",
+    "tests": [
+      {
+        "function": "test_tensorflow_expm1",
+        "line": 993,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L993",
+        "api_strings": [
+          "float",
+          "tf.math.expm1"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0046",
+    "source_api": "tf.math.floor",
+    "tests": [
+      {
+        "function": "test_tensorflow_floor",
+        "line": 1025,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L1025",
+        "api_strings": [
+          "float",
+          "tf.math.floor"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0047",
+    "source_api": "tf.math.log",
+    "tests": [
+      {
+        "function": "test_tensorflow_log",
+        "line": 1554,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L1554",
+        "api_strings": [
+          "float",
+          "tf.math.log"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0048",
+    "source_api": "tf.math.log1p",
+    "tests": [
+      {
+        "function": "test_tensorflow_log1p",
+        "line": 1584,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L1584",
+        "api_strings": [
+          "float",
+          "log",
+          "tf.math.log1p"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0049",
+    "source_api": "tf.math.negative",
+    "tests": [
+      {
+        "function": "test_tensorflow_negative",
+        "line": 1969,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L1969",
+        "api_strings": [
+          "float",
+          "signed_integer",
+          "tf.math.negative"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0050",
+    "source_api": "tf.math.reciprocal",
+    "tests": [
+      {
+        "function": "test_tensorflow_reciprocal",
+        "line": 2166,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L2166",
+        "api_strings": [
+          "numeric",
+          "tf.math.reciprocal"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0051",
+    "source_api": "tf.math.round",
+    "tests": [
+      {
+        "function": "test_tensorflow_round",
+        "line": 2600,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L2600",
+        "api_strings": [
+          "float",
+          "tf.math.round"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0052",
+    "source_api": "tf.math.sigmoid",
+    "tests": [
+      {
+        "function": "test_tensorflow_sigmoid",
+        "line": 2739,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L2739",
+        "api_strings": [
+          "float_and_complex",
+          "tf.math.sigmoid"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0053",
+    "source_api": "tf.math.sign",
+    "tests": [],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0054",
+    "source_api": "tf.math.sin",
+    "tests": [
+      {
+        "function": "test_tensorflow_sin",
+        "line": 2768,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L2768",
+        "api_strings": [
+          "float",
+          "tf.math.sin"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0055",
+    "source_api": "tf.math.sinh",
+    "tests": [
+      {
+        "function": "test_tensorflow_sinh",
+        "line": 2797,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L2797",
+        "api_strings": [
+          "float_and_complex",
+          "tf.math.sinh"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0056",
+    "source_api": "tf.math.sqrt",
+    "tests": [
+      {
+        "function": "test_tensorflow_sqrt",
+        "line": 2916,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L2916",
+        "api_strings": [
+          "float",
+          "tf.math.sqrt"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0057",
+    "source_api": "tf.math.square",
+    "tests": [
+      {
+        "function": "test_tensorflow_square",
+        "line": 2943,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L2943",
+        "api_strings": [
+          "float",
+          "tf.math.square"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0058",
+    "source_api": "tf.math.tan",
+    "tests": [
+      {
+        "function": "test_tensorflow_tan",
+        "line": 3034,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L3034",
+        "api_strings": [
+          "float",
+          "tf.math.tan"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0059",
+    "source_api": "tf.math.tanh",
+    "tests": [
+      {
+        "function": "test_tensorflow_tanh",
+        "line": 3063,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L3063",
+        "api_strings": [
+          "tf.math.tanh",
+          "valid"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0060",
+    "source_api": "tf.negative",
+    "tests": [],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0061",
+    "source_api": "tf.round",
+    "tests": [],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0062",
+    "source_api": "tf.sigmoid",
+    "tests": [],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0063",
+    "source_api": "tf.sign",
+    "tests": [],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0064",
+    "source_api": "tf.sin",
+    "tests": [],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0065",
+    "source_api": "tf.sinh",
+    "tests": [],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0066",
+    "source_api": "tf.sqrt",
+    "tests": [],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0067",
+    "source_api": "tf.square",
+    "tests": [],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0068",
+    "source_api": "tf.tan",
+    "tests": [],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "D0069",
+    "source_api": "tf.tanh",
+    "tests": [],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "E001",
+    "source_api": "torch.add",
+    "tests": [
+      {
+        "function": "test_torch_add",
+        "line": 248,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L248",
+        "api_strings": [
+          "log",
+          "numeric",
+          "torch.add"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "E002",
+    "source_api": "tf.add",
+    "tests": [],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "E003",
+    "source_api": "torch.sub",
+    "tests": [
+      {
+        "function": "test_torch_subtract",
+        "line": 2831,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L2831",
+        "api_strings": [
+          "log",
+          "numeric",
+          "torch.sub",
+          "torch.subtract"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "E004",
+    "source_api": "tf.subtract",
+    "tests": [],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "E005",
+    "source_api": "torch.mul",
+    "tests": [
+      {
+        "function": "test_torch_mul",
+        "line": 2155,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L2155",
+        "api_strings": [
+          "numeric",
+          "torch.mul",
+          "torch.multiply"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "E006",
+    "source_api": "tf.multiply",
+    "tests": [],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "E007",
+    "source_api": "torch.div",
+    "tests": [
+      {
+        "function": "test_torch_div",
+        "line": 1125,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L1125",
+        "api_strings": [
+          "floor",
+          "log",
+          "numeric",
+          "torch.div",
+          "torch.divide",
+          "trunc"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "E008",
+    "source_api": "tf.divide",
+    "tests": [],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "E009",
+    "source_api": "torch.maximum",
+    "tests": [
+      {
+        "function": "test_torch_maximum",
+        "line": 667,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_comparison_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_comparison_ops.py#L667",
+        "api_strings": [
+          "torch.maximum",
+          "valid"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "E010",
+    "source_api": "tf.maximum",
+    "tests": [],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "E011",
+    "source_api": "torch.minimum",
+    "tests": [
+      {
+        "function": "test_torch_minimum",
+        "line": 697,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_comparison_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_comparison_ops.py#L697",
+        "api_strings": [
+          "torch.minimum",
+          "valid"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "E012",
+    "source_api": "tf.minimum",
+    "tests": [],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "E013",
+    "source_api": "torch.pow",
+    "tests": [
+      {
+        "function": "test_torch_pow",
+        "line": 2343,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L2343",
+        "api_strings": [
+          "torch.pow",
+          "valid"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "E014",
+    "source_api": "tf.math.pow",
+    "tests": [
+      {
+        "function": "test_tensorflow_pow",
+        "line": 2115,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L2115",
+        "api_strings": [
+          "float16",
+          "float32",
+          "float64",
+          "int32",
+          "int64",
+          "tf.math.pow"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "E015",
+    "source_api": "torch.atan2",
+    "tests": [
+      {
+        "function": "test_torch_atan2",
+        "line": 641,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L641",
+        "api_strings": [
+          "float",
+          "torch.arctan2",
+          "torch.atan2"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "E016",
+    "source_api": "tf.atan2",
+    "tests": [],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "E017",
+    "source_api": "torch.reshape",
+    "tests": [
+      {
+        "function": "test_torch_reshape",
+        "line": 1189,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_indexing_slicing_joining_mutating_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_indexing_slicing_joining_mutating_ops.py#L1189",
+        "api_strings": [
+          "torch.reshape"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "E018",
+    "source_api": "tf.reshape",
+    "tests": [
+      {
+        "function": "test_tensorflow_reshape",
+        "line": 1664,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_general_functions.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_general_functions.py#L1664",
+        "api_strings": [
+          "tf.reshape"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "E019",
+    "source_api": "torch.transpose",
+    "tests": [
+      {
+        "function": "test_torch_transpose",
+        "line": 1656,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_indexing_slicing_joining_mutating_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_indexing_slicing_joining_mutating_ops.py#L1656",
+        "api_strings": [
+          "float",
+          "shape",
+          "torch.transpose"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "E020",
+    "source_api": "tf.transpose",
+    "tests": [
+      {
+        "function": "test_tensorflow_transpose",
+        "line": 2307,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_general_functions.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_general_functions.py#L2307",
+        "api_strings": [
+          "float",
+          "shape",
+          "tf.transpose"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "E021",
+    "source_api": "torch.squeeze",
+    "tests": [
+      {
+        "function": "test_torch_squeeze",
+        "line": 1323,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_indexing_slicing_joining_mutating_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_indexing_slicing_joining_mutating_ops.py#L1323",
+        "api_strings": [
+          "float",
+          "shape",
+          "torch.squeeze"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "E022",
+    "source_api": "tf.squeeze",
+    "tests": [
+      {
+        "function": "test_tensorflow_squeeze_general",
+        "line": 2105,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_general_functions.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_general_functions.py#L2105",
+        "api_strings": [
+          "tf.squeeze",
+          "valid",
+          "value_shape"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "E023",
+    "source_api": "torch.unsqueeze",
+    "tests": [
+      {
+        "function": "test_torch_unsqueeze",
+        "line": 1726,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_indexing_slicing_joining_mutating_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_indexing_slicing_joining_mutating_ops.py#L1726",
+        "api_strings": [
+          "shape",
+          "torch.unsqueeze",
+          "valid"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "E024",
+    "source_api": "tf.expand_dims",
+    "tests": [
+      {
+        "function": "test_tensorflow_expand_dims",
+        "line": 899,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_general_functions.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_general_functions.py#L899",
+        "api_strings": [
+          "shape",
+          "tf.expand_dims",
+          "valid"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "E025",
+    "source_api": "torch.concat",
+    "tests": [
+      {
+        "function": "test_torch_concat",
+        "line": 529,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_indexing_slicing_joining_mutating_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_indexing_slicing_joining_mutating_ops.py#L529",
+        "api_strings": [
+          "torch.concat"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "E026",
+    "source_api": "tf.concat",
+    "tests": [
+      {
+        "function": "test_tensorflow_concat",
+        "line": 695,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_general_functions.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_general_functions.py#L695",
+        "api_strings": [
+          "numeric",
+          "tf.concat"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "E027",
+    "source_api": "torch.stack",
+    "tests": [
+      {
+        "function": "test_torch_stack",
+        "line": 1359,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_indexing_slicing_joining_mutating_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_indexing_slicing_joining_mutating_ops.py#L1359",
+        "api_strings": [
+          "float",
+          "num_arrays",
+          "shape",
+          "torch.stack"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "E028",
+    "source_api": "tf.stack",
+    "tests": [
+      {
+        "function": "test_tensorflow_stack",
+        "line": 2141,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_general_functions.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_general_functions.py#L2141",
+        "api_strings": [
+          "float",
+          "num_arrays",
+          "tf.stack"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "E029",
+    "source_api": "torch.clip",
+    "tests": [
+      {
+        "function": "test_torch_clamp",
+        "line": 912,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L912",
+        "api_strings": [
+          "torch.clamp",
+          "torch.clip"
+        ]
+      },
+      {
+        "function": "test_torch_clip",
+        "line": 940,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L940",
+        "api_strings": [
+          "torch.clip"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "E030",
+    "source_api": "tf.clip_by_value",
+    "tests": [
+      {
+        "function": "test_tensorflow_clip_by_value",
+        "line": 659,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_general_functions.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_general_functions.py#L659",
+        "api_strings": [
+          "tf.clip_by_value"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "H001",
+    "source_api": "torch.prod",
+    "tests": [
+      {
+        "function": "test_torch_prod",
+        "line": 809,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_reduction_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_reduction_ops.py#L809",
+        "api_strings": [
+          "numeric",
+          "torch.prod"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "H002",
+    "source_api": "torch.matmul",
+    "tests": [
+      {
+        "function": "test_torch_matmul",
+        "line": 670,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_blas_and_lapack_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_blas_and_lapack_ops.py#L670",
+        "api_strings": [
+          "torch.matmul"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "H003",
+    "source_api": "torch.det",
+    "tests": [
+      {
+        "function": "test_torch_det",
+        "line": 431,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_linalg.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_linalg.py#L431",
+        "api_strings": [
+          "torch.det",
+          "torch.linalg.det"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "H004",
+    "source_api": "torch.trace",
+    "tests": [
+      {
+        "function": "test_torch_trace",
+        "line": 1818,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_miscellaneous_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_miscellaneous_ops.py#L1818",
+        "api_strings": [
+          "numeric",
+          "shape",
+          "torch.trace"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "H005",
+    "source_api": "torch.cumsum",
+    "tests": [
+      {
+        "function": "test_torch_cumsum",
+        "line": 847,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_miscellaneous_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_miscellaneous_ops.py#L847",
+        "api_strings": [
+          "numeric",
+          "torch.cumsum"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "H006",
+    "source_api": "torch.cumprod",
+    "tests": [
+      {
+        "function": "test_torch_cumprod",
+        "line": 801,
+        "path": "ivy_tests/test_ivy/test_frontends/test_torch/test_miscellaneous_ops.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_miscellaneous_ops.py#L801",
+        "api_strings": [
+          "float",
+          "numeric",
+          "torch.cumprod"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "H007",
+    "source_api": "tf.reduce_prod",
+    "tests": [],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "H008",
+    "source_api": "tf.matmul",
+    "tests": [],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "H009",
+    "source_api": "tf.linalg.det",
+    "tests": [
+      {
+        "function": "test_tensorflow_det",
+        "line": 290,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_linalg.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_linalg.py#L290",
+        "api_strings": [
+          "tf.linalg.det"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "H010",
+    "source_api": "tf.linalg.trace",
+    "tests": [
+      {
+        "function": "test_tensorflow_trace",
+        "line": 1232,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_linalg.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_linalg.py#L1232",
+        "api_strings": [
+          "tf.linalg.trace"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "H011",
+    "source_api": "tf.cumsum",
+    "tests": [],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  },
+  {
+    "candidate_id": "H012",
+    "source_api": "tf.math.cumprod",
+    "tests": [
+      {
+        "function": "test_tensorflow_cumprod",
+        "line": 736,
+        "path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L736",
+        "api_strings": [
+          "numeric",
+          "tf.math.cumprod"
+        ]
+      }
+    ],
+    "classification": "public frontend compatibility test; not a historical migrated test for the existing DLLens counterpart"
+  }
+]

@@ -1,0 +1,1205 @@
+{
+  "versions": {
+    "python": "3.11.16 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:36:16) [MSC v.1942 64 bit (AMD64)]",
+    "numpy": "2.1.3",
+    "torch": "2.9.1+cpu",
+    "tensorflow": "2.20.0"
+  },
+  "records": [
+    {
+      "candidate_id": "H012",
+      "sample_index": 0,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        14,
+        16,
+        17,
+        19
+      ],
+      "arguments": {
+        "x": {
+          "kind": "array",
+          "dtype": "int32",
+          "shape": [
+            4
+          ],
+          "values": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "axis": 0,
+        "exclusive": false,
+        "reverse": false
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int32",
+        "shape": [
+          4
+        ],
+        "values": [
+          1,
+          2,
+          6,
+          24
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          4
+        ],
+        "values": [
+          1,
+          2,
+          6,
+          24
+        ]
+      },
+      "status": "oracle_fail",
+      "oracle_error": {
+        "type": "AssertionError",
+        "message": "returned dtype = int64, ground-truth returned dtype = int32"
+      }
+    },
+    {
+      "candidate_id": "H012",
+      "sample_index": 1,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        14,
+        16,
+        17,
+        19
+      ],
+      "arguments": {
+        "x": {
+          "kind": "array",
+          "dtype": "float32",
+          "shape": [
+            4
+          ],
+          "values": [
+            1.0,
+            2.0,
+            3.0,
+            4.0
+          ]
+        },
+        "axis": 0,
+        "exclusive": false,
+        "reverse": false
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "float32",
+        "shape": [
+          4
+        ],
+        "values": [
+          1.0,
+          2.0,
+          6.0,
+          24.0
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "float32",
+        "shape": [
+          4
+        ],
+        "values": [
+          1.0,
+          2.0,
+          6.0,
+          24.0
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "H012",
+      "sample_index": 2,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        14,
+        16,
+        17,
+        19
+      ],
+      "arguments": {
+        "x": {
+          "kind": "array",
+          "dtype": "int32",
+          "shape": [
+            4,
+            1,
+            1
+          ],
+          "values": [
+            [
+              [
+                -3
+              ]
+            ],
+            [
+              [
+                33
+              ]
+            ],
+            [
+              [
+                -12
+              ]
+            ],
+            [
+              [
+                3
+              ]
+            ]
+          ]
+        },
+        "axis": 0,
+        "exclusive": false,
+        "reverse": false
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int32",
+        "shape": [
+          4,
+          1,
+          1
+        ],
+        "values": [
+          [
+            [
+              -3
+            ]
+          ],
+          [
+            [
+              -99
+            ]
+          ],
+          [
+            [
+              1188
+            ]
+          ],
+          [
+            [
+              3564
+            ]
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          4,
+          1,
+          1
+        ],
+        "values": [
+          [
+            [
+              -3
+            ]
+          ],
+          [
+            [
+              -99
+            ]
+          ],
+          [
+            [
+              1188
+            ]
+          ],
+          [
+            [
+              3564
+            ]
+          ]
+        ]
+      },
+      "status": "oracle_fail",
+      "oracle_error": {
+        "type": "AssertionError",
+        "message": "returned dtype = int64, ground-truth returned dtype = int32"
+      }
+    },
+    {
+      "candidate_id": "H012",
+      "sample_index": 3,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        14,
+        16,
+        17,
+        19
+      ],
+      "arguments": {
+        "x": {
+          "kind": "array",
+          "dtype": "int32",
+          "shape": [
+            5
+          ],
+          "values": [
+            -3,
+            33,
+            -12,
+            3,
+            26
+          ]
+        },
+        "axis": 0,
+        "exclusive": false,
+        "reverse": false
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int32",
+        "shape": [
+          5
+        ],
+        "values": [
+          -3,
+          -99,
+          1188,
+          3564,
+          92664
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          5
+        ],
+        "values": [
+          -3,
+          -99,
+          1188,
+          3564,
+          92664
+        ]
+      },
+      "status": "oracle_fail",
+      "oracle_error": {
+        "type": "AssertionError",
+        "message": "returned dtype = int64, ground-truth returned dtype = int32"
+      }
+    },
+    {
+      "candidate_id": "H012",
+      "sample_index": 4,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        14,
+        16,
+        17,
+        19
+      ],
+      "arguments": {
+        "x": {
+          "kind": "array",
+          "dtype": "int32",
+          "shape": [
+            4
+          ],
+          "values": [
+            -3,
+            33,
+            -12,
+            3
+          ]
+        },
+        "axis": 0,
+        "exclusive": false,
+        "reverse": false
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int32",
+        "shape": [
+          4
+        ],
+        "values": [
+          -3,
+          -99,
+          1188,
+          3564
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          4
+        ],
+        "values": [
+          -3,
+          -99,
+          1188,
+          3564
+        ]
+      },
+      "status": "oracle_fail",
+      "oracle_error": {
+        "type": "AssertionError",
+        "message": "returned dtype = int64, ground-truth returned dtype = int32"
+      }
+    },
+    {
+      "candidate_id": "H012",
+      "sample_index": 5,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        14,
+        16,
+        17,
+        19
+      ],
+      "arguments": {
+        "x": {
+          "kind": "array",
+          "dtype": "int32",
+          "shape": [
+            4,
+            1,
+            1,
+            1,
+            1
+          ],
+          "values": [
+            [
+              [
+                [
+                  [
+                    -3
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  [
+                    33
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  [
+                    -12
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  [
+                    3
+                  ]
+                ]
+              ]
+            ]
+          ]
+        },
+        "axis": 0,
+        "exclusive": false,
+        "reverse": false
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int32",
+        "shape": [
+          4,
+          1,
+          1,
+          1,
+          1
+        ],
+        "values": [
+          [
+            [
+              [
+                [
+                  -3
+                ]
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                [
+                  -99
+                ]
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                [
+                  1188
+                ]
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                [
+                  3564
+                ]
+              ]
+            ]
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          4,
+          1,
+          1,
+          1,
+          1
+        ],
+        "values": [
+          [
+            [
+              [
+                [
+                  -3
+                ]
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                [
+                  -99
+                ]
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                [
+                  1188
+                ]
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                [
+                  3564
+                ]
+              ]
+            ]
+          ]
+        ]
+      },
+      "status": "oracle_fail",
+      "oracle_error": {
+        "type": "AssertionError",
+        "message": "returned dtype = int64, ground-truth returned dtype = int32"
+      }
+    },
+    {
+      "candidate_id": "H012",
+      "sample_index": 6,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "arguments": {
+        "x": {
+          "kind": "array",
+          "dtype": "int32",
+          "shape": [
+            4
+          ],
+          "values": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "axis": 0,
+        "exclusive": true,
+        "reverse": false
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int32",
+        "shape": [
+          4
+        ],
+        "values": [
+          1,
+          1,
+          2,
+          6
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          4
+        ],
+        "values": [
+          1,
+          1,
+          2,
+          6
+        ]
+      },
+      "status": "oracle_fail",
+      "oracle_error": {
+        "type": "AssertionError",
+        "message": "returned dtype = int64, ground-truth returned dtype = int32"
+      }
+    },
+    {
+      "candidate_id": "H012",
+      "sample_index": 7,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        14,
+        16,
+        17,
+        19
+      ],
+      "arguments": {
+        "x": {
+          "kind": "array",
+          "dtype": "int32",
+          "shape": [
+            1
+          ],
+          "values": [
+            -3
+          ]
+        },
+        "axis": 0,
+        "exclusive": false,
+        "reverse": false
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int32",
+        "shape": [
+          1
+        ],
+        "values": [
+          -3
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          1
+        ],
+        "values": [
+          -3
+        ]
+      },
+      "status": "oracle_fail",
+      "oracle_error": {
+        "type": "AssertionError",
+        "message": "returned dtype = int64, ground-truth returned dtype = int32"
+      }
+    },
+    {
+      "candidate_id": "H012",
+      "sample_index": 8,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        14,
+        16,
+        17,
+        19
+      ],
+      "arguments": {
+        "x": {
+          "kind": "array",
+          "dtype": "int32",
+          "shape": [
+            4
+          ],
+          "values": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "axis": 0,
+        "exclusive": false,
+        "reverse": false
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int32",
+        "shape": [
+          4
+        ],
+        "values": [
+          1,
+          2,
+          6,
+          24
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          4
+        ],
+        "values": [
+          1,
+          2,
+          6,
+          24
+        ]
+      },
+      "status": "oracle_fail",
+      "oracle_error": {
+        "type": "AssertionError",
+        "message": "returned dtype = int64, ground-truth returned dtype = int32"
+      }
+    },
+    {
+      "candidate_id": "H012",
+      "sample_index": 9,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        14,
+        16,
+        17,
+        19
+      ],
+      "arguments": {
+        "x": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            4
+          ],
+          "values": [
+            -3,
+            33,
+            -12,
+            3
+          ]
+        },
+        "axis": 0,
+        "exclusive": false,
+        "reverse": false
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          4
+        ],
+        "values": [
+          -3,
+          -99,
+          1188,
+          3564
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          4
+        ],
+        "values": [
+          -3,
+          -99,
+          1188,
+          3564
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "H012",
+      "sample_index": 10,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "arguments": {
+        "x": {
+          "kind": "array",
+          "dtype": "int32",
+          "shape": [
+            4
+          ],
+          "values": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "axis": 0,
+        "exclusive": false,
+        "reverse": true
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int32",
+        "shape": [
+          4
+        ],
+        "values": [
+          24,
+          24,
+          12,
+          4
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          4
+        ],
+        "values": [
+          24,
+          24,
+          12,
+          4
+        ]
+      },
+      "status": "oracle_fail",
+      "oracle_error": {
+        "type": "AssertionError",
+        "message": "returned dtype = int64, ground-truth returned dtype = int32"
+      }
+    },
+    {
+      "candidate_id": "H012",
+      "sample_index": 11,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        14,
+        16,
+        17,
+        19
+      ],
+      "arguments": {
+        "x": {
+          "kind": "array",
+          "dtype": "int32",
+          "shape": [
+            4,
+            1
+          ],
+          "values": [
+            [
+              -3
+            ],
+            [
+              33
+            ],
+            [
+              -12
+            ],
+            [
+              3
+            ]
+          ]
+        },
+        "axis": 0,
+        "exclusive": false,
+        "reverse": false
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int32",
+        "shape": [
+          4,
+          1
+        ],
+        "values": [
+          [
+            -3
+          ],
+          [
+            -99
+          ],
+          [
+            1188
+          ],
+          [
+            3564
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          4,
+          1
+        ],
+        "values": [
+          [
+            -3
+          ],
+          [
+            -99
+          ],
+          [
+            1188
+          ],
+          [
+            3564
+          ]
+        ]
+      },
+      "status": "oracle_fail",
+      "oracle_error": {
+        "type": "AssertionError",
+        "message": "returned dtype = int64, ground-truth returned dtype = int32"
+      }
+    },
+    {
+      "candidate_id": "H012",
+      "sample_index": 12,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        14,
+        16,
+        17,
+        19
+      ],
+      "arguments": {
+        "x": {
+          "kind": "array",
+          "dtype": "int32",
+          "shape": [
+            4
+          ],
+          "values": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "axis": -1,
+        "exclusive": false,
+        "reverse": false
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int32",
+        "shape": [
+          4
+        ],
+        "values": [
+          1,
+          2,
+          6,
+          24
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          4
+        ],
+        "values": [
+          1,
+          2,
+          6,
+          24
+        ]
+      },
+      "status": "oracle_fail",
+      "oracle_error": {
+        "type": "AssertionError",
+        "message": "returned dtype = int64, ground-truth returned dtype = int32"
+      }
+    },
+    {
+      "candidate_id": "H012",
+      "sample_index": 13,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        14,
+        16,
+        17,
+        19
+      ],
+      "arguments": {
+        "x": {
+          "kind": "array",
+          "dtype": "int32",
+          "shape": [
+            4,
+            1,
+            1,
+            1
+          ],
+          "values": [
+            [
+              [
+                [
+                  -3
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  33
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  -12
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  3
+                ]
+              ]
+            ]
+          ]
+        },
+        "axis": 0,
+        "exclusive": false,
+        "reverse": false
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int32",
+        "shape": [
+          4,
+          1,
+          1,
+          1
+        ],
+        "values": [
+          [
+            [
+              [
+                -3
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -99
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                1188
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                3564
+              ]
+            ]
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          4,
+          1,
+          1,
+          1
+        ],
+        "values": [
+          [
+            [
+              [
+                -3
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -99
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                1188
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                3564
+              ]
+            ]
+          ]
+        ]
+      },
+      "status": "oracle_fail",
+      "oracle_error": {
+        "type": "AssertionError",
+        "message": "returned dtype = int64, ground-truth returned dtype = int32"
+      }
+    }
+  ],
+  "coverage": {
+    "source": {
+      "executed_lines": [
+        2
+      ],
+      "unexecuted_statement_lines": []
+    },
+    "target": {
+      "executed_lines": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "unexecuted_statement_lines": [
+        4,
+        11
+      ]
+    }
+  },
+  "scope": "fixed public samples; controlled adaptation; not human labels",
+  "adapter_checks": {
+    "scalar_shape_dtype_checks": 4,
+    "oracle_negative_controls": 2,
+    "status": "passed"
+  }
+}

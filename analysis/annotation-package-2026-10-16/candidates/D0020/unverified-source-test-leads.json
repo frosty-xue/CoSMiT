@@ -1,0 +1,26 @@
+[
+  {
+    "framework": "pytorch",
+    "file": "shared/source-search/pytorch/test/test_nn.py",
+    "class": "TestNN",
+    "method": "test_bce_with_logits_gives_same_result_as_sigmoid_and_bce_loss_large_tensors_with_grad",
+    "start": 4722,
+    "end": 4752,
+    "commit": "d38164a545b4a4e4e0cf73ce67173f70574890b6",
+    "matched_symbols": [
+      "torch.sigmoid"
+    ]
+  },
+  {
+    "framework": "pytorch",
+    "file": "shared/source-search/pytorch/test/test_nn.py",
+    "class": "TestNNDeviceType",
+    "method": "test_invalid_reduction_strings",
+    "start": 9612,
+    "end": 9655,
+    "commit": "d38164a545b4a4e4e0cf73ce67173f70574890b6",
+    "matched_symbols": [
+      "torch.sigmoid"
+    ]
+  }
+]

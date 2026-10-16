@@ -1,0 +1,66 @@
+{
+  "candidate_id": "H001",
+  "source_api": "torch.prod",
+  "target_calls": "tf.reduce_prod",
+  "status": "两端组件测试齐，组合测试缺",
+  "source_match": "exact API / explicit decorator alias",
+  "source_test": {
+    "repository": "ivy-llc/ivy",
+    "commit": "a701151c85d59c0260a4dbf505479805bdeec00f",
+    "upstream_path": "ivy_tests/test_ivy/test_frontends/test_torch/test_reduction_ops.py",
+    "function": "test_torch_prod",
+    "line": 792,
+    "end_line": 837,
+    "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_reduction_ops.py#L792",
+    "kind": "Ivy public frontend test",
+    "full_file": "candidates/H001/source-test-full.py",
+    "excerpt_file": "candidates/H001/source-test-excerpt.py",
+    "original_sha256": "0a91392747bbe8e8e73b596b11cba0f5656902666a0fdff8f191e1a8cfc42adc",
+    "excerpt_sha256": "165e17f9b0f39a91d92cbc80950496dd151fa590c9ae317534ef957795e90797"
+  },
+  "target_tests": [
+    {
+      "api": "tf.reduce_prod",
+      "match": "namespace re-export: Ivy tensorflow/__init__.py; selected tf.math.reduce_prod",
+      "test": {
+        "repository": "ivy-llc/ivy",
+        "commit": "a701151c85d59c0260a4dbf505479805bdeec00f",
+        "upstream_path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+        "function": "test_tensorflow_reduce_prod",
+        "line": 2437,
+        "end_line": 2465,
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L2437",
+        "kind": "Ivy public frontend test",
+        "full_file": "candidates/H001/target-01-test-full.py",
+        "excerpt_file": "candidates/H001/target-01-test-excerpt.py",
+        "original_sha256": "644d0efebf10d4bbfb9520f70bed72556084389131abe3ffa146704df043e081",
+        "excerpt_sha256": "0751e88043a0e5c79d0c0c148f81e8778c9939f74ec4eb2098bd50efb7edc199"
+      }
+    },
+    {
+      "api": "tf.identity",
+      "match": "exact API / explicit decorator alias",
+      "test": {
+        "repository": "ivy-llc/ivy",
+        "commit": "a701151c85d59c0260a4dbf505479805bdeec00f",
+        "upstream_path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_general_functions.py",
+        "function": "test_tensorflow_identity",
+        "line": 1172,
+        "end_line": 1197,
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_general_functions.py#L1172",
+        "kind": "Ivy public frontend test",
+        "full_file": "candidates/H001/target-02-test-full.py",
+        "excerpt_file": "candidates/H001/target-02-test-excerpt.py",
+        "original_sha256": "1c03f6d1dbc057fd3b156cb821a653f51040b8b7b7ff02b3d333cec3d3fc5d56",
+        "excerpt_sha256": "33e226108fa91df249435fe36a6741ed96fdb7cc36176a6588563070098f3096"
+      }
+    }
+  ],
+  "whole_counterpart_test_verified": false,
+  "input_oracle_alignment": "not yet reviewed",
+  "execution": "not run",
+  "origin": "paired existing public API tests; not a historical migration record",
+  "notes": [
+    "目标为组合：各API测试已分别收集，整段组合测试仍空缺"
+  ]
+}

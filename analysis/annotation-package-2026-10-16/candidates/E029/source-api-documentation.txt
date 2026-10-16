@@ -1,0 +1,4 @@
+
+clip(input, min=None, max=None, *, out=None) -> Tensor
+
+Alias for :func:`torch.clamp`.

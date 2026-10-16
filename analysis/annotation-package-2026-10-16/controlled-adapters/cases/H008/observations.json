@@ -1,0 +1,1304 @@
+{
+  "versions": {
+    "python": "3.11.16 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:36:16) [MSC v.1942 64 bit (AMD64)]",
+    "numpy": "2.1.3",
+    "torch": "2.9.1+cpu",
+    "tensorflow": "2.20.0"
+  },
+  "records": [
+    {
+      "candidate_id": "H008",
+      "sample_index": 0,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        4,
+        5,
+        6,
+        8,
+        10,
+        12,
+        14,
+        15
+      ],
+      "arguments": {
+        "a": {
+          "kind": "array",
+          "dtype": "float32",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              1.0,
+              2.0
+            ],
+            [
+              3.0,
+              4.0
+            ]
+          ]
+        },
+        "b": {
+          "kind": "array",
+          "dtype": "float32",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              5.0,
+              6.0
+            ],
+            [
+              7.0,
+              8.0
+            ]
+          ]
+        },
+        "transpose_a": false,
+        "transpose_b": true,
+        "adjoint_a": false,
+        "adjoint_b": false,
+        "a_is_sparse": false,
+        "b_is_sparse": false,
+        "output_type": null
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "float32",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            17.0,
+            23.0
+          ],
+          [
+            39.0,
+            53.0
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "float32",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            17.0,
+            23.0
+          ],
+          [
+            39.0,
+            53.0
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "H008",
+      "sample_index": 1,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        15
+      ],
+      "arguments": {
+        "a": {
+          "kind": "array",
+          "dtype": "float32",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              1.0,
+              2.0
+            ],
+            [
+              3.0,
+              4.0
+            ]
+          ]
+        },
+        "b": {
+          "kind": "array",
+          "dtype": "float32",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              5.0,
+              6.0
+            ],
+            [
+              7.0,
+              8.0
+            ]
+          ]
+        },
+        "transpose_a": false,
+        "transpose_b": false,
+        "adjoint_a": false,
+        "adjoint_b": false,
+        "a_is_sparse": false,
+        "b_is_sparse": false,
+        "output_type": null
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "float32",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            19.0,
+            22.0
+          ],
+          [
+            43.0,
+            50.0
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "float32",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            19.0,
+            22.0
+          ],
+          [
+            43.0,
+            50.0
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "H008",
+      "sample_index": 2,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        4,
+        5,
+        6,
+        8,
+        10,
+        12,
+        14,
+        15
+      ],
+      "arguments": {
+        "a": {
+          "kind": "array",
+          "dtype": "float32",
+          "shape": [
+            1,
+            2
+          ],
+          "values": [
+            [
+              0.47143515944480896,
+              -1.1909756660461426
+            ]
+          ]
+        },
+        "b": {
+          "kind": "array",
+          "dtype": "float32",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              5.0,
+              6.0
+            ],
+            [
+              7.0,
+              8.0
+            ]
+          ]
+        },
+        "transpose_a": false,
+        "transpose_b": true,
+        "adjoint_a": false,
+        "adjoint_b": false,
+        "a_is_sparse": false,
+        "b_is_sparse": false,
+        "output_type": null
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "float32",
+        "shape": [
+          1,
+          2
+        ],
+        "values": [
+          [
+            -4.788678169250488,
+            -6.22775936126709
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "float32",
+        "shape": [
+          1,
+          2
+        ],
+        "values": [
+          [
+            -4.788678169250488,
+            -6.22775936126709
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "H008",
+      "sample_index": 3,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        4,
+        5,
+        6,
+        8,
+        10,
+        12,
+        14,
+        15
+      ],
+      "arguments": {
+        "a": {
+          "kind": "array",
+          "dtype": "float32",
+          "shape": [
+            5,
+            2
+          ],
+          "values": [
+            [
+              0.47143515944480896,
+              -1.1909756660461426
+            ],
+            [
+              1.4327069520950317,
+              -0.3126519024372101
+            ],
+            [
+              -0.720588743686676,
+              0.8871629238128662
+            ],
+            [
+              0.8595883846282959,
+              -0.6365234851837158
+            ],
+            [
+              0.015696372836828232,
+              -2.242684841156006
+            ]
+          ]
+        },
+        "b": {
+          "kind": "array",
+          "dtype": "float32",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              5.0,
+              6.0
+            ],
+            [
+              7.0,
+              8.0
+            ]
+          ]
+        },
+        "transpose_a": false,
+        "transpose_b": true,
+        "adjoint_a": false,
+        "adjoint_b": false,
+        "a_is_sparse": false,
+        "b_is_sparse": false,
+        "output_type": null
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "float32",
+        "shape": [
+          5,
+          2
+        ],
+        "values": [
+          [
+            -4.788678169250488,
+            -6.22775936126709
+          ],
+          [
+            5.287623405456543,
+            7.52773380279541
+          ],
+          [
+            1.720033884048462,
+            2.0531821250915527
+          ],
+          [
+            0.47880125045776367,
+            0.9249305725097656
+          ],
+          [
+            -13.3776273727417,
+            -17.83160400390625
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "float32",
+        "shape": [
+          5,
+          2
+        ],
+        "values": [
+          [
+            -4.788678169250488,
+            -6.22775936126709
+          ],
+          [
+            5.287623405456543,
+            7.52773380279541
+          ],
+          [
+            1.720033884048462,
+            2.0531821250915527
+          ],
+          [
+            0.47880125045776367,
+            0.9249305725097656
+          ],
+          [
+            -13.3776273727417,
+            -17.83160400390625
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "H008",
+      "sample_index": 4,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        4,
+        5,
+        6,
+        8,
+        10,
+        12,
+        14,
+        15
+      ],
+      "arguments": {
+        "a": {
+          "kind": "array",
+          "dtype": "float32",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              1.0,
+              2.0
+            ],
+            [
+              3.0,
+              4.0
+            ]
+          ]
+        },
+        "b": {
+          "kind": "array",
+          "dtype": "float32",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              0.47143515944480896,
+              -1.1909756660461426
+            ],
+            [
+              1.4327069520950317,
+              -0.3126519024372101
+            ]
+          ]
+        },
+        "transpose_a": false,
+        "transpose_b": true,
+        "adjoint_a": false,
+        "adjoint_b": false,
+        "a_is_sparse": false,
+        "b_is_sparse": false,
+        "output_type": null
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "float32",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            -1.9105161428451538,
+            0.8074031472206116
+          ],
+          [
+            -3.349597215652466,
+            3.047513484954834
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "float32",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            -1.9105161428451538,
+            0.8074031472206116
+          ],
+          [
+            -3.349597215652466,
+            3.047513484954834
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "H008",
+      "sample_index": 5,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        15
+      ],
+      "arguments": {
+        "a": {
+          "kind": "array",
+          "dtype": "float32",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              1.0,
+              2.0
+            ],
+            [
+              3.0,
+              4.0
+            ]
+          ]
+        },
+        "b": {
+          "kind": "array",
+          "dtype": "float32",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              5.0,
+              6.0
+            ],
+            [
+              7.0,
+              8.0
+            ]
+          ]
+        },
+        "transpose_a": false,
+        "transpose_b": false,
+        "adjoint_a": false,
+        "adjoint_b": false,
+        "a_is_sparse": false,
+        "b_is_sparse": false,
+        "output_type": null
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "float32",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            19.0,
+            22.0
+          ],
+          [
+            43.0,
+            50.0
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "float32",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            19.0,
+            22.0
+          ],
+          [
+            43.0,
+            50.0
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "H008",
+      "sample_index": 6,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        4,
+        5,
+        6,
+        8,
+        10,
+        12,
+        14,
+        15
+      ],
+      "arguments": {
+        "a": {
+          "kind": "array",
+          "dtype": "float32",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              1.0,
+              2.0
+            ],
+            [
+              3.0,
+              4.0
+            ]
+          ]
+        },
+        "b": {
+          "kind": "array",
+          "dtype": "float32",
+          "shape": [
+            3,
+            2
+          ],
+          "values": [
+            [
+              0.47143515944480896,
+              -1.1909756660461426
+            ],
+            [
+              1.4327069520950317,
+              -0.3126519024372101
+            ],
+            [
+              -0.720588743686676,
+              0.8871629238128662
+            ]
+          ]
+        },
+        "transpose_a": false,
+        "transpose_b": true,
+        "adjoint_a": false,
+        "adjoint_b": false,
+        "a_is_sparse": false,
+        "b_is_sparse": false,
+        "output_type": null
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "float32",
+        "shape": [
+          2,
+          3
+        ],
+        "values": [
+          [
+            -1.9105161428451538,
+            0.8074031472206116,
+            1.0537371635437012
+          ],
+          [
+            -3.349597215652466,
+            3.047513484954834,
+            1.386885404586792
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "float32",
+        "shape": [
+          2,
+          3
+        ],
+        "values": [
+          [
+            -1.9105161428451538,
+            0.8074031472206116,
+            1.0537371635437012
+          ],
+          [
+            -3.349597215652466,
+            3.047513484954834,
+            1.386885404586792
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "H008",
+      "sample_index": 7,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        4,
+        5,
+        6,
+        8,
+        10,
+        12,
+        14,
+        15
+      ],
+      "arguments": {
+        "a": {
+          "kind": "array",
+          "dtype": "float32",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              1.0,
+              2.0
+            ],
+            [
+              3.0,
+              4.0
+            ]
+          ]
+        },
+        "b": {
+          "kind": "array",
+          "dtype": "float32",
+          "shape": [
+            1,
+            2
+          ],
+          "values": [
+            [
+              0.47143515944480896,
+              -1.1909756660461426
+            ]
+          ]
+        },
+        "transpose_a": false,
+        "transpose_b": true,
+        "adjoint_a": false,
+        "adjoint_b": false,
+        "a_is_sparse": false,
+        "b_is_sparse": false,
+        "output_type": null
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "float32",
+        "shape": [
+          2,
+          1
+        ],
+        "values": [
+          [
+            -1.9105161428451538
+          ],
+          [
+            -3.349597215652466
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "float32",
+        "shape": [
+          2,
+          1
+        ],
+        "values": [
+          [
+            -1.9105161428451538
+          ],
+          [
+            -3.349597215652466
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "H008",
+      "sample_index": 8,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        12,
+        14,
+        15
+      ],
+      "arguments": {
+        "a": {
+          "kind": "array",
+          "dtype": "float32",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              1.0,
+              2.0
+            ],
+            [
+              3.0,
+              4.0
+            ]
+          ]
+        },
+        "b": {
+          "kind": "array",
+          "dtype": "float32",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              5.0,
+              6.0
+            ],
+            [
+              7.0,
+              8.0
+            ]
+          ]
+        },
+        "transpose_a": true,
+        "transpose_b": true,
+        "adjoint_a": false,
+        "adjoint_b": false,
+        "a_is_sparse": false,
+        "b_is_sparse": false,
+        "output_type": null
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "float32",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            23.0,
+            31.0
+          ],
+          [
+            34.0,
+            46.0
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "float32",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            23.0,
+            31.0
+          ],
+          [
+            34.0,
+            46.0
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "H008",
+      "sample_index": 9,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        12,
+        14,
+        15
+      ],
+      "arguments": {
+        "a": {
+          "kind": "array",
+          "dtype": "float32",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              1.0,
+              2.0
+            ],
+            [
+              3.0,
+              4.0
+            ]
+          ]
+        },
+        "b": {
+          "kind": "array",
+          "dtype": "float32",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              5.0,
+              6.0
+            ],
+            [
+              7.0,
+              8.0
+            ]
+          ]
+        },
+        "transpose_a": false,
+        "transpose_b": true,
+        "adjoint_a": true,
+        "adjoint_b": false,
+        "a_is_sparse": false,
+        "b_is_sparse": false,
+        "output_type": null
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "float32",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            23.0,
+            31.0
+          ],
+          [
+            34.0,
+            46.0
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "float32",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            23.0,
+            31.0
+          ],
+          [
+            34.0,
+            46.0
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "H008",
+      "sample_index": 10,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        4,
+        5,
+        6,
+        8,
+        10,
+        12,
+        14,
+        15
+      ],
+      "arguments": {
+        "a": {
+          "kind": "array",
+          "dtype": "float32",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              1.0,
+              2.0
+            ],
+            [
+              3.0,
+              4.0
+            ]
+          ]
+        },
+        "b": {
+          "kind": "array",
+          "dtype": "float32",
+          "shape": [
+            5,
+            2
+          ],
+          "values": [
+            [
+              0.47143515944480896,
+              -1.1909756660461426
+            ],
+            [
+              1.4327069520950317,
+              -0.3126519024372101
+            ],
+            [
+              -0.720588743686676,
+              0.8871629238128662
+            ],
+            [
+              0.8595883846282959,
+              -0.6365234851837158
+            ],
+            [
+              0.015696372836828232,
+              -2.242684841156006
+            ]
+          ]
+        },
+        "transpose_a": false,
+        "transpose_b": true,
+        "adjoint_a": false,
+        "adjoint_b": false,
+        "a_is_sparse": false,
+        "b_is_sparse": false,
+        "output_type": null
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "float32",
+        "shape": [
+          2,
+          5
+        ],
+        "values": [
+          [
+            -1.9105161428451538,
+            0.8074031472206116,
+            1.0537371635437012,
+            -0.41345858573913574,
+            -4.469673156738281
+          ],
+          [
+            -3.349597215652466,
+            3.047513484954834,
+            1.386885404586792,
+            0.032671213150024414,
+            -8.923649787902832
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "float32",
+        "shape": [
+          2,
+          5
+        ],
+        "values": [
+          [
+            -1.9105161428451538,
+            0.8074031472206116,
+            1.0537371635437012,
+            -0.41345858573913574,
+            -4.469673156738281
+          ],
+          [
+            -3.349597215652466,
+            3.047513484954834,
+            1.386885404586792,
+            0.032671213150024414,
+            -8.923649787902832
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "H008",
+      "sample_index": 11,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        4,
+        5,
+        6,
+        8,
+        10,
+        12,
+        14,
+        15
+      ],
+      "arguments": {
+        "a": {
+          "kind": "array",
+          "dtype": "float32",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              0.47143515944480896,
+              -1.1909756660461426
+            ],
+            [
+              1.4327069520950317,
+              -0.3126519024372101
+            ]
+          ]
+        },
+        "b": {
+          "kind": "array",
+          "dtype": "float32",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              5.0,
+              6.0
+            ],
+            [
+              7.0,
+              8.0
+            ]
+          ]
+        },
+        "transpose_a": false,
+        "transpose_b": true,
+        "adjoint_a": false,
+        "adjoint_b": false,
+        "a_is_sparse": false,
+        "b_is_sparse": false,
+        "output_type": null
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "float32",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            -4.788678169250488,
+            -6.22775936126709
+          ],
+          [
+            5.287623405456543,
+            7.52773380279541
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "float32",
+        "shape": [
+          2,
+          2
+        ],
+        "values": [
+          [
+            -4.788678169250488,
+            -6.22775936126709
+          ],
+          [
+            5.287623405456543,
+            7.52773380279541
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    }
+  ],
+  "coverage": {
+    "source": {
+      "executed_lines": [
+        2
+      ],
+      "unexecuted_statement_lines": []
+    },
+    "target": {
+      "executed_lines": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        12,
+        14,
+        15
+      ],
+      "unexecuted_statement_lines": [
+        9,
+        11,
+        13
+      ]
+    }
+  },
+  "scope": "fixed public samples; controlled adaptation; not human labels",
+  "adapter_checks": {
+    "scalar_shape_dtype_checks": 4,
+    "oracle_negative_controls": 2,
+    "status": "passed"
+  }
+}

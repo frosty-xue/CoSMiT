@@ -1,0 +1,1401 @@
+{
+  "versions": {
+    "python": "3.11.16 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:36:16) [MSC v.1942 64 bit (AMD64)]",
+    "numpy": "2.1.3",
+    "torch": "2.9.1+cpu",
+    "tensorflow": "2.20.0"
+  },
+  "records": [
+    {
+      "candidate_id": "H001",
+      "sample_index": 0,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        4
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        "dim": 0,
+        "keepdim": true
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          1,
+          2
+        ],
+        "values": [
+          [
+            3,
+            8
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          1,
+          2
+        ],
+        "values": [
+          [
+            3,
+            8
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "H001",
+      "sample_index": 1,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        4
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int32",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        "dim": 0,
+        "keepdim": true
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          1,
+          2
+        ],
+        "values": [
+          [
+            3,
+            8
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int32",
+        "shape": [
+          1,
+          2
+        ],
+        "values": [
+          [
+            3,
+            8
+          ]
+        ]
+      },
+      "status": "oracle_fail",
+      "oracle_error": {
+        "type": "AssertionError",
+        "message": "returned dtype = int32, ground-truth returned dtype = int64"
+      }
+    },
+    {
+      "candidate_id": "H001",
+      "sample_index": 2,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        4
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            3
+          ],
+          "values": [
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              4,
+              5,
+              6
+            ]
+          ]
+        },
+        "dim": 0,
+        "keepdim": true
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          1,
+          3
+        ],
+        "values": [
+          [
+            4,
+            10,
+            18
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          1,
+          3
+        ],
+        "values": [
+          [
+            4,
+            10,
+            18
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "H001",
+      "sample_index": 3,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        4
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            5,
+            2
+          ],
+          "values": [
+            [
+              -3,
+              33
+            ],
+            [
+              -12,
+              3
+            ],
+            [
+              26,
+              -26
+            ],
+            [
+              -35,
+              -1
+            ],
+            [
+              -27,
+              -24
+            ]
+          ]
+        },
+        "dim": 0,
+        "keepdim": true
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          1,
+          2
+        ],
+        "values": [
+          [
+            884520,
+            -61776
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          1,
+          2
+        ],
+        "values": [
+          [
+            884520,
+            -61776
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "H001",
+      "sample_index": 4,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        4
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        "dim": -2,
+        "keepdim": true
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          1,
+          2
+        ],
+        "values": [
+          [
+            3,
+            8
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          1,
+          2
+        ],
+        "values": [
+          [
+            3,
+            8
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "H001",
+      "sample_index": 5,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        4
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            1,
+            2
+          ],
+          "values": [
+            [
+              -3,
+              33
+            ]
+          ]
+        },
+        "dim": 0,
+        "keepdim": true
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          1,
+          2
+        ],
+        "values": [
+          [
+            -3,
+            33
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          1,
+          2
+        ],
+        "values": [
+          [
+            -3,
+            33
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "H001",
+      "sample_index": 6,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        4
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        "dim": 1,
+        "keepdim": true
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          1
+        ],
+        "values": [
+          [
+            2
+          ],
+          [
+            12
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          1
+        ],
+        "values": [
+          [
+            2
+          ],
+          [
+            12
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "H001",
+      "sample_index": 7,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        4
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        "dim": 0,
+        "keepdim": true
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          1,
+          2
+        ],
+        "values": [
+          [
+            3,
+            8
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          1,
+          2
+        ],
+        "values": [
+          [
+            3,
+            8
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "H001",
+      "sample_index": 8,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        4
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2
+          ],
+          "values": [
+            -3,
+            33
+          ]
+        },
+        "dim": 0,
+        "keepdim": true
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          1
+        ],
+        "values": [
+          -99
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          1
+        ],
+        "values": [
+          -99
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "H001",
+      "sample_index": 9,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        4
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2,
+            1,
+            1,
+            1
+          ],
+          "values": [
+            [
+              [
+                [
+                  [
+                    -3
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    33
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  [
+                    -12
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    3
+                  ]
+                ]
+              ]
+            ]
+          ]
+        },
+        "dim": 0,
+        "keepdim": true
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          1,
+          2,
+          1,
+          1,
+          1
+        ],
+        "values": [
+          [
+            [
+              [
+                [
+                  36
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  99
+                ]
+              ]
+            ]
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          1,
+          2,
+          1,
+          1,
+          1
+        ],
+        "values": [
+          [
+            [
+              [
+                [
+                  36
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  99
+                ]
+              ]
+            ]
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "H001",
+      "sample_index": 10,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        3
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [],
+          "values": -3
+        },
+        "dim": 0,
+        "keepdim": true
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [],
+        "values": -3
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [],
+        "values": -3
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "H001",
+      "sample_index": 11,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        4
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        "dim": -1,
+        "keepdim": true
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          1
+        ],
+        "values": [
+          [
+            2
+          ],
+          [
+            12
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2,
+          1
+        ],
+        "values": [
+          [
+            2
+          ],
+          [
+            12
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "H001",
+      "sample_index": 12,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        4
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2,
+            1
+          ],
+          "values": [
+            [
+              [
+                -3
+              ],
+              [
+                33
+              ]
+            ],
+            [
+              [
+                -12
+              ],
+              [
+                3
+              ]
+            ]
+          ]
+        },
+        "dim": 0,
+        "keepdim": true
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          1,
+          2,
+          1
+        ],
+        "values": [
+          [
+            [
+              36
+            ],
+            [
+              99
+            ]
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          1,
+          2,
+          1
+        ],
+        "values": [
+          [
+            [
+              36
+            ],
+            [
+              99
+            ]
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "H001",
+      "sample_index": 13,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        4
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            1
+          ],
+          "values": [
+            [
+              -3
+            ],
+            [
+              33
+            ]
+          ]
+        },
+        "dim": 0,
+        "keepdim": true
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          1,
+          1
+        ],
+        "values": [
+          [
+            -99
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          1,
+          1
+        ],
+        "values": [
+          [
+            -99
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "H001",
+      "sample_index": 14,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        4
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              -3,
+              33
+            ],
+            [
+              -12,
+              3
+            ]
+          ]
+        },
+        "dim": 0,
+        "keepdim": true
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          1,
+          2
+        ],
+        "values": [
+          [
+            36,
+            99
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          1,
+          2
+        ],
+        "values": [
+          [
+            36,
+            99
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "H001",
+      "sample_index": 15,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        4
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        "dim": 0,
+        "keepdim": false
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2
+        ],
+        "values": [
+          3,
+          8
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          2
+        ],
+        "values": [
+          3,
+          8
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "H001",
+      "sample_index": 16,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        4
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            4
+          ],
+          "values": [
+            [
+              -3,
+              33,
+              -12,
+              3
+            ],
+            [
+              26,
+              -26,
+              -35,
+              -1
+            ]
+          ]
+        },
+        "dim": 0,
+        "keepdim": true
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          1,
+          4
+        ],
+        "values": [
+          [
+            -78,
+            -858,
+            420,
+            -3
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          1,
+          4
+        ],
+        "values": [
+          [
+            -78,
+            -858,
+            420,
+            -3
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "H001",
+      "sample_index": 17,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        4
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "values": [
+            [
+              [
+                [
+                  -3
+                ]
+              ],
+              [
+                [
+                  33
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  -12
+                ]
+              ],
+              [
+                [
+                  3
+                ]
+              ]
+            ]
+          ]
+        },
+        "dim": 0,
+        "keepdim": true
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          1,
+          2,
+          1,
+          1
+        ],
+        "values": [
+          [
+            [
+              [
+                36
+              ]
+            ],
+            [
+              [
+                99
+              ]
+            ]
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          1,
+          2,
+          1,
+          1
+        ],
+        "values": [
+          [
+            [
+              [
+                36
+              ]
+            ],
+            [
+              [
+                99
+              ]
+            ]
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    },
+    {
+      "candidate_id": "H001",
+      "sample_index": 18,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        4
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int32",
+          "shape": [
+            2,
+            2
+          ],
+          "values": [
+            [
+              -3,
+              33
+            ],
+            [
+              -12,
+              3
+            ]
+          ]
+        },
+        "dim": 0,
+        "keepdim": true
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          1,
+          2
+        ],
+        "values": [
+          [
+            36,
+            99
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int32",
+        "shape": [
+          1,
+          2
+        ],
+        "values": [
+          [
+            36,
+            99
+          ]
+        ]
+      },
+      "status": "oracle_fail",
+      "oracle_error": {
+        "type": "AssertionError",
+        "message": "returned dtype = int32, ground-truth returned dtype = int64"
+      }
+    },
+    {
+      "candidate_id": "H001",
+      "sample_index": 19,
+      "seed": 1234,
+      "source_lines": [
+        2
+      ],
+      "target_lines": [
+        2,
+        4
+      ],
+      "arguments": {
+        "input": {
+          "kind": "array",
+          "dtype": "int64",
+          "shape": [
+            2,
+            5
+          ],
+          "values": [
+            [
+              -3,
+              33,
+              -12,
+              3,
+              26
+            ],
+            [
+              -26,
+              -35,
+              -1,
+              -27,
+              -24
+            ]
+          ]
+        },
+        "dim": 0,
+        "keepdim": true
+      },
+      "source_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          1,
+          5
+        ],
+        "values": [
+          [
+            78,
+            -1155,
+            12,
+            -81,
+            -624
+          ]
+        ]
+      },
+      "target_output": {
+        "kind": "array",
+        "dtype": "int64",
+        "shape": [
+          1,
+          5
+        ],
+        "values": [
+          [
+            78,
+            -1155,
+            12,
+            -81,
+            -624
+          ]
+        ]
+      },
+      "status": "oracle_pass"
+    }
+  ],
+  "coverage": {
+    "source": {
+      "executed_lines": [
+        2
+      ],
+      "unexecuted_statement_lines": []
+    },
+    "target": {
+      "executed_lines": [
+        2,
+        3,
+        4
+      ],
+      "unexecuted_statement_lines": []
+    }
+  },
+  "scope": "fixed public samples; controlled adaptation; not human labels",
+  "adapter_checks": {
+    "scalar_shape_dtype_checks": 4,
+    "oracle_negative_controls": 2,
+    "status": "passed"
+  }
+}

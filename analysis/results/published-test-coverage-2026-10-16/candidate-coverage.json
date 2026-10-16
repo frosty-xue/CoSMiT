@@ -1,0 +1,1808 @@
+[
+  {
+    "candidate_id": "D0001",
+    "source_api": "torch.abs",
+    "target_calls": "tf.abs",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.abs.json",
+    "published_input_snippets": 15,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0001"
+  },
+  {
+    "candidate_id": "D0002",
+    "source_api": "torch.acos",
+    "target_calls": "tf.acos",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.acos.json",
+    "published_input_snippets": 14,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0002"
+  },
+  {
+    "candidate_id": "D0003",
+    "source_api": "torch.arccos",
+    "target_calls": "tf.acos",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.arccos.json",
+    "published_input_snippets": 14,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0003"
+  },
+  {
+    "candidate_id": "D0004",
+    "source_api": "torch.arcsin",
+    "target_calls": "tf.asin",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.arcsin.json",
+    "published_input_snippets": 14,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0004"
+  },
+  {
+    "candidate_id": "D0005",
+    "source_api": "torch.arctan",
+    "target_calls": "tf.math.atan",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.arctan.json",
+    "published_input_snippets": 13,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0005"
+  },
+  {
+    "candidate_id": "D0006",
+    "source_api": "torch.asin",
+    "target_calls": "tf.asin",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.asin.json",
+    "published_input_snippets": 13,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0006"
+  },
+  {
+    "candidate_id": "D0007",
+    "source_api": "torch.atan",
+    "target_calls": "tf.math.atan",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.atan.json",
+    "published_input_snippets": 13,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0007"
+  },
+  {
+    "candidate_id": "D0008",
+    "source_api": "torch.ceil",
+    "target_calls": "tf.math.ceil",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.ceil.json",
+    "published_input_snippets": 17,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0008"
+  },
+  {
+    "candidate_id": "D0009",
+    "source_api": "torch.cos",
+    "target_calls": "tf.cos",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.cos.json",
+    "published_input_snippets": 12,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0009"
+  },
+  {
+    "candidate_id": "D0010",
+    "source_api": "torch.cosh",
+    "target_calls": "tf.cosh",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.cosh.json",
+    "published_input_snippets": 14,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0010"
+  },
+  {
+    "candidate_id": "D0011",
+    "source_api": "torch.exp",
+    "target_calls": "tf.exp",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.exp.json",
+    "published_input_snippets": 16,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0011"
+  },
+  {
+    "candidate_id": "D0012",
+    "source_api": "torch.expm1",
+    "target_calls": "tf.exp",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.expm1.json",
+    "published_input_snippets": 15,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0012"
+  },
+  {
+    "candidate_id": "D0013",
+    "source_api": "torch.floor",
+    "target_calls": "tf.floor",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.floor.json",
+    "published_input_snippets": 16,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0013"
+  },
+  {
+    "candidate_id": "D0014",
+    "source_api": "torch.log",
+    "target_calls": "tf.math.log",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.log.json",
+    "published_input_snippets": 13,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0014"
+  },
+  {
+    "candidate_id": "D0015",
+    "source_api": "torch.log1p",
+    "target_calls": "tf.math.log1p",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.log1p.json",
+    "published_input_snippets": 12,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0015"
+  },
+  {
+    "candidate_id": "D0016",
+    "source_api": "torch.neg",
+    "target_calls": "tf.negative",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.neg.json",
+    "published_input_snippets": 13,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0016"
+  },
+  {
+    "candidate_id": "D0017",
+    "source_api": "torch.negative",
+    "target_calls": "tf.negative",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.negative.json",
+    "published_input_snippets": 15,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0017"
+  },
+  {
+    "candidate_id": "D0018",
+    "source_api": "torch.reciprocal",
+    "target_calls": "tf.math.reciprocal",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.reciprocal.json",
+    "published_input_snippets": 16,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0018"
+  },
+  {
+    "candidate_id": "D0019",
+    "source_api": "torch.round",
+    "target_calls": "tf.round",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.round.json",
+    "published_input_snippets": 17,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0019"
+  },
+  {
+    "candidate_id": "D0020",
+    "source_api": "torch.sigmoid",
+    "target_calls": "tf.sigmoid",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.sigmoid.json",
+    "published_input_snippets": 17,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0020"
+  },
+  {
+    "candidate_id": "D0021",
+    "source_api": "torch.sign",
+    "target_calls": "tf.sign",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.sign.json",
+    "published_input_snippets": 17,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0021"
+  },
+  {
+    "candidate_id": "D0022",
+    "source_api": "torch.sin",
+    "target_calls": "tf.sin",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.sin.json",
+    "published_input_snippets": 13,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0022"
+  },
+  {
+    "candidate_id": "D0023",
+    "source_api": "torch.sinh",
+    "target_calls": "tf.sinh",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.sinh.json",
+    "published_input_snippets": 13,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0023"
+  },
+  {
+    "candidate_id": "D0024",
+    "source_api": "torch.sqrt",
+    "target_calls": "tf.sqrt",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.sqrt.json",
+    "published_input_snippets": 13,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0024"
+  },
+  {
+    "candidate_id": "D0025",
+    "source_api": "torch.square",
+    "target_calls": "tf.square",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.square.json",
+    "published_input_snippets": 13,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0025"
+  },
+  {
+    "candidate_id": "D0026",
+    "source_api": "torch.tan",
+    "target_calls": "tf.tan",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.tan.json",
+    "published_input_snippets": 12,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0026"
+  },
+  {
+    "candidate_id": "D0027",
+    "source_api": "torch.tanh",
+    "target_calls": "tf.tanh",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.tanh.json",
+    "published_input_snippets": 16,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0027"
+  },
+  {
+    "candidate_id": "D0029",
+    "source_api": "tf.abs",
+    "target_calls": "torch.abs",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.abs.json",
+    "published_input_snippets": 17,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0029"
+  },
+  {
+    "candidate_id": "D0030",
+    "source_api": "tf.acos",
+    "target_calls": "torch.acos",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.acos.json",
+    "published_input_snippets": 10,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0030"
+  },
+  {
+    "candidate_id": "D0031",
+    "source_api": "tf.asin",
+    "target_calls": "torch.asin",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.asin.json",
+    "published_input_snippets": 13,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0031"
+  },
+  {
+    "candidate_id": "D0032",
+    "source_api": "tf.atan",
+    "target_calls": "torch.atan",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.atan.json",
+    "published_input_snippets": 14,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0032"
+  },
+  {
+    "candidate_id": "D0033",
+    "source_api": "tf.cos",
+    "target_calls": "torch.cos",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.cos.json",
+    "published_input_snippets": 15,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0033"
+  },
+  {
+    "candidate_id": "D0034",
+    "source_api": "tf.cosh",
+    "target_calls": "torch.cosh",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.cosh.json",
+    "published_input_snippets": 13,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0034"
+  },
+  {
+    "candidate_id": "D0035",
+    "source_api": "tf.exp",
+    "target_calls": "torch.exp",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.exp.json",
+    "published_input_snippets": 12,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0035"
+  },
+  {
+    "candidate_id": "D0036",
+    "source_api": "tf.floor",
+    "target_calls": "torch.floor",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.floor.json",
+    "published_input_snippets": 13,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0036"
+  },
+  {
+    "candidate_id": "D0037",
+    "source_api": "tf.math.abs",
+    "target_calls": "torch.abs",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.abs.json",
+    "published_input_snippets": 16,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0037"
+  },
+  {
+    "candidate_id": "D0038",
+    "source_api": "tf.math.acos",
+    "target_calls": "torch.acos",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.acos.json",
+    "published_input_snippets": 12,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0038"
+  },
+  {
+    "candidate_id": "D0039",
+    "source_api": "tf.math.asin",
+    "target_calls": "torch.asin",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.asin.json",
+    "published_input_snippets": 11,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0039"
+  },
+  {
+    "candidate_id": "D0040",
+    "source_api": "tf.math.atan",
+    "target_calls": "torch.atan",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.atan.json",
+    "published_input_snippets": 14,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0040"
+  },
+  {
+    "candidate_id": "D0041",
+    "source_api": "tf.math.ceil",
+    "target_calls": "torch.ceil",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.ceil.json",
+    "published_input_snippets": 15,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0041"
+  },
+  {
+    "candidate_id": "D0042",
+    "source_api": "tf.math.cos",
+    "target_calls": "torch.cos",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.cos.json",
+    "published_input_snippets": 11,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0042"
+  },
+  {
+    "candidate_id": "D0043",
+    "source_api": "tf.math.cosh",
+    "target_calls": "torch.cosh",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.cosh.json",
+    "published_input_snippets": 11,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0043"
+  },
+  {
+    "candidate_id": "D0044",
+    "source_api": "tf.math.exp",
+    "target_calls": "torch.exp",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.exp.json",
+    "published_input_snippets": 13,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0044"
+  },
+  {
+    "candidate_id": "D0045",
+    "source_api": "tf.math.expm1",
+    "target_calls": "torch.expm1",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.expm1.json",
+    "published_input_snippets": 15,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0045"
+  },
+  {
+    "candidate_id": "D0046",
+    "source_api": "tf.math.floor",
+    "target_calls": "torch.floor",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.floor.json",
+    "published_input_snippets": 15,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0046"
+  },
+  {
+    "candidate_id": "D0047",
+    "source_api": "tf.math.log",
+    "target_calls": "torch.log",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.log.json",
+    "published_input_snippets": 12,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0047"
+  },
+  {
+    "candidate_id": "D0048",
+    "source_api": "tf.math.log1p",
+    "target_calls": "torch.log1p",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.log1p.json",
+    "published_input_snippets": 13,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0048"
+  },
+  {
+    "candidate_id": "D0049",
+    "source_api": "tf.math.negative",
+    "target_calls": "torch.neg",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.negative.json",
+    "published_input_snippets": 17,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0049"
+  },
+  {
+    "candidate_id": "D0050",
+    "source_api": "tf.math.reciprocal",
+    "target_calls": "torch.Tensor.__rtruediv__",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.reciprocal.json",
+    "published_input_snippets": 13,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0050"
+  },
+  {
+    "candidate_id": "D0051",
+    "source_api": "tf.math.round",
+    "target_calls": "torch.round",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.round.json",
+    "published_input_snippets": 14,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0051"
+  },
+  {
+    "candidate_id": "D0052",
+    "source_api": "tf.math.sigmoid",
+    "target_calls": "torch.sigmoid",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.sigmoid.json",
+    "published_input_snippets": 13,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0052"
+  },
+  {
+    "candidate_id": "D0053",
+    "source_api": "tf.math.sign",
+    "target_calls": "torch.sign",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.sign.json",
+    "published_input_snippets": 14,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0053"
+  },
+  {
+    "candidate_id": "D0054",
+    "source_api": "tf.math.sin",
+    "target_calls": "torch.sin",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.sin.json",
+    "published_input_snippets": 13,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0054"
+  },
+  {
+    "candidate_id": "D0055",
+    "source_api": "tf.math.sinh",
+    "target_calls": "torch.sinh",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.sinh.json",
+    "published_input_snippets": 13,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0055"
+  },
+  {
+    "candidate_id": "D0056",
+    "source_api": "tf.math.sqrt",
+    "target_calls": "torch.sqrt",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.sqrt.json",
+    "published_input_snippets": 13,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0056"
+  },
+  {
+    "candidate_id": "D0057",
+    "source_api": "tf.math.square",
+    "target_calls": "torch.square",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.square.json",
+    "published_input_snippets": 14,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0057"
+  },
+  {
+    "candidate_id": "D0058",
+    "source_api": "tf.math.tan",
+    "target_calls": "torch.tan",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.tan.json",
+    "published_input_snippets": 13,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0058"
+  },
+  {
+    "candidate_id": "D0059",
+    "source_api": "tf.math.tanh",
+    "target_calls": "torch.tanh",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.tanh.json",
+    "published_input_snippets": 13,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0059"
+  },
+  {
+    "candidate_id": "D0060",
+    "source_api": "tf.negative",
+    "target_calls": "torch.negative",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.negative.json",
+    "published_input_snippets": 15,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0060"
+  },
+  {
+    "candidate_id": "D0061",
+    "source_api": "tf.round",
+    "target_calls": "torch.round",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.round.json",
+    "published_input_snippets": 17,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0061"
+  },
+  {
+    "candidate_id": "D0062",
+    "source_api": "tf.sigmoid",
+    "target_calls": "torch.sigmoid",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.sigmoid.json",
+    "published_input_snippets": 13,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [
+      {
+        "source": "pytorch/pt-124252-tf.py",
+        "target": "tensorflow-test/pt-124252-tf.py",
+        "target_syntax": "error",
+        "pairing": "same relative filename; process_directory in published generation.ipynb",
+        "status": "API occurrence only; focal intent and original counterpart identity not established"
+      }
+    ],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0062"
+  },
+  {
+    "candidate_id": "D0063",
+    "source_api": "tf.sign",
+    "target_calls": "torch.sign",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.sign.json",
+    "published_input_snippets": 12,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0063"
+  },
+  {
+    "candidate_id": "D0064",
+    "source_api": "tf.sin",
+    "target_calls": "torch.sin",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.sin.json",
+    "published_input_snippets": 12,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0064"
+  },
+  {
+    "candidate_id": "D0065",
+    "source_api": "tf.sinh",
+    "target_calls": "torch.sinh",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.sinh.json",
+    "published_input_snippets": 11,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0065"
+  },
+  {
+    "candidate_id": "D0066",
+    "source_api": "tf.sqrt",
+    "target_calls": "torch.sqrt",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.sqrt.json",
+    "published_input_snippets": 13,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0066"
+  },
+  {
+    "candidate_id": "D0067",
+    "source_api": "tf.square",
+    "target_calls": "torch.square",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.square.json",
+    "published_input_snippets": 11,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0067"
+  },
+  {
+    "candidate_id": "D0068",
+    "source_api": "tf.tan",
+    "target_calls": "torch.tan",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.tan.json",
+    "published_input_snippets": 13,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0068"
+  },
+  {
+    "candidate_id": "D0069",
+    "source_api": "tf.tanh",
+    "target_calls": "torch.tanh",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.tanh.json",
+    "published_input_snippets": 13,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\D0069"
+  },
+  {
+    "candidate_id": "E001",
+    "source_api": "torch.add",
+    "target_calls": "tf.add, tf.cast",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.add.json",
+    "published_input_snippets": 24,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\E001"
+  },
+  {
+    "candidate_id": "E002",
+    "source_api": "tf.add",
+    "target_calls": "torch.add",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.add.json",
+    "published_input_snippets": 17,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\E002"
+  },
+  {
+    "candidate_id": "E003",
+    "source_api": "torch.sub",
+    "target_calls": "tf.cast, tf.subtract",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.sub.json",
+    "published_input_snippets": 24,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\E003"
+  },
+  {
+    "candidate_id": "E004",
+    "source_api": "tf.subtract",
+    "target_calls": "torch.sub",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.subtract.json",
+    "published_input_snippets": 17,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\E004"
+  },
+  {
+    "candidate_id": "E005",
+    "source_api": "torch.mul",
+    "target_calls": "tf.cast, tf.multiply",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.mul.json",
+    "published_input_snippets": 19,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\E005"
+  },
+  {
+    "candidate_id": "E006",
+    "source_api": "tf.multiply",
+    "target_calls": "torch.mul",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.multiply.json",
+    "published_input_snippets": 17,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\E006"
+  },
+  {
+    "candidate_id": "E007",
+    "source_api": "torch.div",
+    "target_calls": "tf.cast, tf.divide",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.div.json",
+    "published_input_snippets": 25,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\E007"
+  },
+  {
+    "candidate_id": "E008",
+    "source_api": "tf.divide",
+    "target_calls": "torch.div",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.divide.json",
+    "published_input_snippets": 18,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\E008"
+  },
+  {
+    "candidate_id": "E009",
+    "source_api": "torch.maximum",
+    "target_calls": "tf.cast, tf.maximum",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.maximum.json",
+    "published_input_snippets": 24,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\E009"
+  },
+  {
+    "candidate_id": "E010",
+    "source_api": "tf.maximum",
+    "target_calls": "torch.maximum",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.maximum.json",
+    "published_input_snippets": 18,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\E010"
+  },
+  {
+    "candidate_id": "E011",
+    "source_api": "torch.minimum",
+    "target_calls": "tf.cast, tf.minimum",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.minimum.json",
+    "published_input_snippets": 21,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\E011"
+  },
+  {
+    "candidate_id": "E012",
+    "source_api": "tf.minimum",
+    "target_calls": "torch.min",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.minimum.json",
+    "published_input_snippets": 18,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\E012"
+  },
+  {
+    "candidate_id": "E013",
+    "source_api": "torch.pow",
+    "target_calls": "tf.cast, tf.pow",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.pow.json",
+    "published_input_snippets": 24,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\E013"
+  },
+  {
+    "candidate_id": "E014",
+    "source_api": "tf.math.pow",
+    "target_calls": "torch.pow",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.pow.json",
+    "published_input_snippets": 19,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\E014"
+  },
+  {
+    "candidate_id": "E015",
+    "source_api": "torch.atan2",
+    "target_calls": "tf.atan2, tf.cast",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.atan2.json",
+    "published_input_snippets": 23,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\E015"
+  },
+  {
+    "candidate_id": "E016",
+    "source_api": "tf.atan2",
+    "target_calls": "torch.atan2",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.atan2.json",
+    "published_input_snippets": 17,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\E016"
+  },
+  {
+    "candidate_id": "E017",
+    "source_api": "torch.reshape",
+    "target_calls": "tf.reshape",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.reshape.json",
+    "published_input_snippets": 6,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\E017"
+  },
+  {
+    "candidate_id": "E018",
+    "source_api": "tf.reshape",
+    "target_calls": "tensor.view",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.reshape.json",
+    "published_input_snippets": 6,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [
+      {
+        "source": "pytorch/pt-136837-tf.py",
+        "target": "tensorflow-test/pt-136837-tf.py",
+        "target_syntax": "ok",
+        "pairing": "same relative filename; process_directory in published generation.ipynb",
+        "status": "API occurrence only; focal intent and original counterpart identity not established"
+      },
+      {
+        "source": "tensorflow/tfmot-1062.py",
+        "target": "pytorch-test/tfmot-1062.py",
+        "target_syntax": "error",
+        "pairing": "same relative filename; process_directory in published generation.ipynb",
+        "status": "API occurrence only; focal intent and original counterpart identity not established"
+      }
+    ],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\E018"
+  },
+  {
+    "candidate_id": "E019",
+    "source_api": "torch.transpose",
+    "target_calls": "len, list, range, tf.transpose",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.transpose.json",
+    "published_input_snippets": 19,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\E019"
+  },
+  {
+    "candidate_id": "E020",
+    "source_api": "tf.transpose",
+    "target_calls": "a.conj, a.permute",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.transpose.json",
+    "published_input_snippets": 12,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [
+      {
+        "source": "pytorch/pt-136837-tf.py",
+        "target": "tensorflow-test/pt-136837-tf.py",
+        "target_syntax": "ok",
+        "pairing": "same relative filename; process_directory in published generation.ipynb",
+        "status": "API occurrence only; focal intent and original counterpart identity not established"
+      },
+      {
+        "source": "tensorflow/tfmot-1062.py",
+        "target": "pytorch-test/tfmot-1062.py",
+        "target_syntax": "error",
+        "pairing": "same relative filename; process_directory in published generation.ipynb",
+        "status": "API occurrence only; focal intent and original counterpart identity not established"
+      }
+    ],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\E020"
+  },
+  {
+    "candidate_id": "E021",
+    "source_api": "torch.squeeze",
+    "target_calls": "tf.squeeze",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.squeeze.json",
+    "published_input_snippets": 13,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\E021"
+  },
+  {
+    "candidate_id": "E022",
+    "source_api": "tf.squeeze",
+    "target_calls": "input.squeeze",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.squeeze.json",
+    "published_input_snippets": 9,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\E022"
+  },
+  {
+    "candidate_id": "E023",
+    "source_api": "torch.unsqueeze",
+    "target_calls": "tf.expand_dims",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.unsqueeze.json",
+    "published_input_snippets": 17,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\E023"
+  },
+  {
+    "candidate_id": "E024",
+    "source_api": "tf.expand_dims",
+    "target_calls": "input.unsqueeze",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.expand_dims.json",
+    "published_input_snippets": 16,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\E024"
+  },
+  {
+    "candidate_id": "E025",
+    "source_api": "torch.concat",
+    "target_calls": "tf.concat",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.concat.json",
+    "published_input_snippets": 2,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\E025"
+  },
+  {
+    "candidate_id": "E026",
+    "source_api": "tf.concat",
+    "target_calls": "torch.cat",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.concat.json",
+    "published_input_snippets": 2,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [
+      {
+        "source": "tensorflow/tfmot-1062.py",
+        "target": "pytorch-test/tfmot-1062.py",
+        "target_syntax": "error",
+        "pairing": "same relative filename; process_directory in published generation.ipynb",
+        "status": "API occurrence only; focal intent and original counterpart identity not established"
+      }
+    ],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\E026"
+  },
+  {
+    "candidate_id": "E027",
+    "source_api": "torch.stack",
+    "target_calls": "tf.stack",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.stack.json",
+    "published_input_snippets": 5,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\E027"
+  },
+  {
+    "candidate_id": "E028",
+    "source_api": "tf.stack",
+    "target_calls": "torch.stack",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.stack.json",
+    "published_input_snippets": 4,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\E028"
+  },
+  {
+    "candidate_id": "E029",
+    "source_api": "torch.clip",
+    "target_calls": "tf.cast, tf.where",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.clip.json",
+    "published_input_snippets": 33,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\E029"
+  },
+  {
+    "candidate_id": "E030",
+    "source_api": "tf.clip_by_value",
+    "target_calls": "clip_value_max.new_ones, float, torch.clamp, torch.max",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.clip_by_value.json",
+    "published_input_snippets": 17,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\E030"
+  },
+  {
+    "candidate_id": "H001",
+    "source_api": "torch.prod",
+    "target_calls": "tf.reduce_prod",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.prod.json",
+    "published_input_snippets": 20,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\H001"
+  },
+  {
+    "candidate_id": "H002",
+    "source_api": "torch.matmul",
+    "target_calls": "tf.matmul",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.matmul.json",
+    "published_input_snippets": 10,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\H002"
+  },
+  {
+    "candidate_id": "H003",
+    "source_api": "torch.det",
+    "target_calls": "tf.linalg.det",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.det.json",
+    "published_input_snippets": 5,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\H003"
+  },
+  {
+    "candidate_id": "H004",
+    "source_api": "torch.trace",
+    "target_calls": "tf.linalg.trace",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.trace.json",
+    "published_input_snippets": 9,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\H004"
+  },
+  {
+    "candidate_id": "H005",
+    "source_api": "torch.cumsum",
+    "target_calls": "tf.cumsum",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.cumsum.json",
+    "published_input_snippets": 14,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\H005"
+  },
+  {
+    "candidate_id": "H006",
+    "source_api": "torch.cumprod",
+    "target_calls": "tf.math.cumprod",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/pytorch/counterparts/torch.cumprod.json",
+    "published_input_snippets": 14,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\H006"
+  },
+  {
+    "candidate_id": "H007",
+    "source_api": "tf.reduce_prod",
+    "target_calls": "torch.prod",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.reduce_prod.json",
+    "published_input_snippets": 17,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\H007"
+  },
+  {
+    "candidate_id": "H008",
+    "source_api": "tf.matmul",
+    "target_calls": "torch.matmul",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.matmul.json",
+    "published_input_snippets": 12,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\H008"
+  },
+  {
+    "candidate_id": "H009",
+    "source_api": "tf.linalg.det",
+    "target_calls": "torch.linalg.det",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.linalg.det.json",
+    "published_input_snippets": 6,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\H009"
+  },
+  {
+    "candidate_id": "H010",
+    "source_api": "tf.linalg.trace",
+    "target_calls": "torch.diagonal",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.linalg.trace.json",
+    "published_input_snippets": 13,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\H010"
+  },
+  {
+    "candidate_id": "H011",
+    "source_api": "tf.cumsum",
+    "target_calls": "torch.cumsum",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.cumsum.json",
+    "published_input_snippets": 17,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\H011"
+  },
+  {
+    "candidate_id": "H012",
+    "source_api": "tf.math.cumprod",
+    "target_calls": "torch.cumprod",
+    "source_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.math.cumprod.json",
+    "published_input_snippets": 14,
+    "published_operations": true,
+    "authentic_complete_pair_verified": false,
+    "crossprobe_api_occurrence_leads": [],
+    "missing": [
+      "original complete source test and its oracle",
+      "published complete migrated target test linked to that source",
+      "identity with the already evaluated counterpart; otherwise separate evaluation required"
+    ],
+    "material_directory": "F:\\codes\\python\\CoSMiT\\research-data\\2026-10-16\\published-test-intake\\candidates\\H012"
+  }
+]

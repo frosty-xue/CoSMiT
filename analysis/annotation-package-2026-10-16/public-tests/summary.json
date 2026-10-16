@@ -1,0 +1,31 @@
+{
+  "total": 110,
+  "status_counts": {
+    "两端API测试齐": 93,
+    "两端组件测试齐，组合测试缺": 17
+  },
+  "source_available": 110,
+  "target_all_component_apis_available": 110,
+  "composite_target_ids": [
+    "E001",
+    "E003",
+    "E005",
+    "E007",
+    "E009",
+    "E011",
+    "E013",
+    "E015",
+    "E020",
+    "E029",
+    "E030",
+    "H001",
+    "H002",
+    "H008",
+    "H010",
+    "H011",
+    "H012"
+  ],
+  "missing": [],
+  "run_count": 0,
+  "historical_migration_claim": false
+}

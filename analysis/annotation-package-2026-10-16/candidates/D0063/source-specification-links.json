@@ -1,0 +1,16 @@
+[
+  {
+    "path": "specifications/torch-docs.py",
+    "url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.1.0/torch/_torch_docs.py",
+    "sha256": "3afb64cf9ec7255486ddc174fa5f0779ab20353eadaebba3b1c20e7bc477ecb9",
+    "status": "downloaded",
+    "start_line": 9876,
+    "end_line": 9903
+  },
+  {
+    "path": "specifications/tf-sign.pbtxt",
+    "url": "https://raw.githubusercontent.com/tensorflow/tensorflow/v2.16.2/tensorflow/core/api_def/base_api/api_def_Sign.pbtxt",
+    "sha256": "a9442f0a0d29d18f41c7a7754a9c4724bd40827ce6a7f74687a534ee7f60933d",
+    "status": "downloaded"
+  }
+]

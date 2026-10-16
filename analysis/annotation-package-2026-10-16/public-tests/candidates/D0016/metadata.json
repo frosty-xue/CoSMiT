@@ -1,0 +1,46 @@
+{
+  "candidate_id": "D0016",
+  "source_api": "torch.neg",
+  "target_calls": "tf.negative",
+  "status": "两端API测试齐",
+  "source_match": "documented alias: https://docs.pytorch.org/docs/2.9/generated/torch.negative.html",
+  "source_test": {
+    "repository": "ivy-llc/ivy",
+    "commit": "a701151c85d59c0260a4dbf505479805bdeec00f",
+    "upstream_path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+    "function": "test_torch_negative",
+    "line": 2245,
+    "end_line": 2270,
+    "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L2245",
+    "kind": "Ivy public frontend test",
+    "full_file": "candidates/D0016/source-test-full.py",
+    "excerpt_file": "candidates/D0016/source-test-excerpt.py",
+    "original_sha256": "c0bddd69651e592166d17f24eed33beb3b8034a253053e0cf681be106e1f14c1",
+    "excerpt_sha256": "4e90b9d9efa5db134aa8c93d2d8cc89e6c740a673e56a42be69ade0fbcb70e1c"
+  },
+  "target_tests": [
+    {
+      "api": "tf.negative",
+      "match": "namespace re-export: Ivy tensorflow/__init__.py; selected tf.math.negative",
+      "test": {
+        "repository": "ivy-llc/ivy",
+        "commit": "a701151c85d59c0260a4dbf505479805bdeec00f",
+        "upstream_path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+        "function": "test_tensorflow_negative",
+        "line": 1959,
+        "end_line": 1987,
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L1959",
+        "kind": "Ivy public frontend test",
+        "full_file": "candidates/D0016/target-01-test-full.py",
+        "excerpt_file": "candidates/D0016/target-01-test-excerpt.py",
+        "original_sha256": "644d0efebf10d4bbfb9520f70bed72556084389131abe3ffa146704df043e081",
+        "excerpt_sha256": "95abdc87a161ade352933a878dc7957da76fdb189f190c1c30d8ef8a777865ff"
+      }
+    }
+  ],
+  "whole_counterpart_test_verified": false,
+  "input_oracle_alignment": "not yet reviewed",
+  "execution": "not run",
+  "origin": "paired existing public API tests; not a historical migration record",
+  "notes": []
+}

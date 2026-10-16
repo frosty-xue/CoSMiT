@@ -1,0 +1,46 @@
+{
+  "candidate_id": "E018",
+  "source_api": "tf.reshape",
+  "target_calls": "tensor.view",
+  "status": "两端API测试齐",
+  "source_match": "exact API / explicit decorator alias",
+  "source_test": {
+    "repository": "ivy-llc/ivy",
+    "commit": "a701151c85d59c0260a4dbf505479805bdeec00f",
+    "upstream_path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_general_functions.py",
+    "function": "test_tensorflow_reshape",
+    "line": 1659,
+    "end_line": 1683,
+    "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_general_functions.py#L1659",
+    "kind": "Ivy public frontend test",
+    "full_file": "candidates/E018/source-test-full.py",
+    "excerpt_file": "candidates/E018/source-test-excerpt.py",
+    "original_sha256": "1c03f6d1dbc057fd3b156cb821a653f51040b8b7b7ff02b3d333cec3d3fc5d56",
+    "excerpt_sha256": "0847b9c856234cf850a0ae2bc97f0cf1f90d48e10962e2a10d995cc31afbeac5"
+  },
+  "target_tests": [
+    {
+      "api": "torch.Tensor.view",
+      "match": "exact API / explicit decorator alias",
+      "test": {
+        "repository": "ivy-llc/ivy",
+        "commit": "a701151c85d59c0260a4dbf505479805bdeec00f",
+        "upstream_path": "ivy_tests/test_ivy/test_frontends/test_torch/test_tensor.py",
+        "function": "test_torch_view",
+        "line": 14646,
+        "end_line": 14684,
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_tensor.py#L14646",
+        "kind": "Ivy public frontend test",
+        "full_file": "candidates/E018/target-01-test-full.py",
+        "excerpt_file": "candidates/E018/target-01-test-excerpt.py",
+        "original_sha256": "167cde76809f6e486dc30d01dccb768dff83b1c38fd67d91cabfa074b02187ca",
+        "excerpt_sha256": "7d3cb3006fe4df205173c7104c4fee75a53362fee1f41c3a8dcdca84ae181116"
+      }
+    }
+  ],
+  "whole_counterpart_test_verified": false,
+  "input_oracle_alignment": "not yet reviewed",
+  "execution": "not run",
+  "origin": "paired existing public API tests; not a historical migration record",
+  "notes": []
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "path": "specifications/torch-docs.py",
+    "url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.1.0/torch/_torch_docs.py",
+    "sha256": "3afb64cf9ec7255486ddc174fa5f0779ab20353eadaebba3b1c20e7bc477ecb9",
+    "status": "downloaded",
+    "start_line": 3157,
+    "end_line": 3190
+  },
+  {
+    "path": "specifications/tf-cosh.pbtxt",
+    "url": "https://raw.githubusercontent.com/tensorflow/tensorflow/v2.16.2/tensorflow/core/api_def/base_api/api_def_Cosh.pbtxt",
+    "sha256": "213d67f81decedddc93a28c314e81467b58d001131b0818c1d4d709021ee81ee",
+    "status": "downloaded"
+  }
+]

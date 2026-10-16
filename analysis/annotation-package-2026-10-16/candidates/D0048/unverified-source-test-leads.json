@@ -1,0 +1,86 @@
+[
+  {
+    "framework": "tensorflow",
+    "file": "shared/source-search/tensorflow/tensorflow/python/kernel_tests/math_ops/cwise_ops_unary_test.py",
+    "class": "UnaryOpTest",
+    "method": "testFloatBasic",
+    "start": 188,
+    "end": 240,
+    "commit": "72fbba3d20f4616d7312b5e2b7f79daf6e82f2fa",
+    "matched_symbols": [
+      "math_ops.log1p"
+    ]
+  },
+  {
+    "framework": "tensorflow",
+    "file": "shared/source-search/tensorflow/tensorflow/python/kernel_tests/math_ops/cwise_ops_unary_test.py",
+    "class": "UnaryOpTest",
+    "method": "testFloatEmpty",
+    "start": 250,
+    "end": 295,
+    "commit": "72fbba3d20f4616d7312b5e2b7f79daf6e82f2fa",
+    "matched_symbols": [
+      "math_ops.log1p"
+    ]
+  },
+  {
+    "framework": "tensorflow",
+    "file": "shared/source-search/tensorflow/tensorflow/python/kernel_tests/math_ops/cwise_ops_unary_test.py",
+    "class": "UnaryOpTest",
+    "method": "testDoubleBasic",
+    "start": 298,
+    "end": 349,
+    "commit": "72fbba3d20f4616d7312b5e2b7f79daf6e82f2fa",
+    "matched_symbols": [
+      "math_ops.log1p"
+    ]
+  },
+  {
+    "framework": "tensorflow",
+    "file": "shared/source-search/tensorflow/tensorflow/python/kernel_tests/math_ops/cwise_ops_unary_test.py",
+    "class": "UnaryOpTest",
+    "method": "testHalfBasic",
+    "start": 352,
+    "end": 397,
+    "commit": "72fbba3d20f4616d7312b5e2b7f79daf6e82f2fa",
+    "matched_symbols": [
+      "math_ops.log1p"
+    ]
+  },
+  {
+    "framework": "tensorflow",
+    "file": "shared/source-search/tensorflow/tensorflow/python/kernel_tests/math_ops/cwise_ops_unary_test.py",
+    "class": "UnaryOpTest",
+    "method": "testBFloat16Basic",
+    "start": 400,
+    "end": 446,
+    "commit": "72fbba3d20f4616d7312b5e2b7f79daf6e82f2fa",
+    "matched_symbols": [
+      "math_ops.log1p"
+    ]
+  },
+  {
+    "framework": "tensorflow",
+    "file": "shared/source-search/tensorflow/tensorflow/python/kernel_tests/math_ops/cwise_ops_unary_test.py",
+    "class": "UnaryOpTest",
+    "method": "testComplex64Basic",
+    "start": 512,
+    "end": 555,
+    "commit": "72fbba3d20f4616d7312b5e2b7f79daf6e82f2fa",
+    "matched_symbols": [
+      "math_ops.log1p"
+    ]
+  },
+  {
+    "framework": "tensorflow",
+    "file": "shared/source-search/tensorflow/tensorflow/python/kernel_tests/math_ops/cwise_ops_unary_test.py",
+    "class": "UnaryOpTest",
+    "method": "testComplex128Basic",
+    "start": 558,
+    "end": 596,
+    "commit": "72fbba3d20f4616d7312b5e2b7f79daf6e82f2fa",
+    "matched_symbols": [
+      "math_ops.log1p"
+    ]
+  }
+]

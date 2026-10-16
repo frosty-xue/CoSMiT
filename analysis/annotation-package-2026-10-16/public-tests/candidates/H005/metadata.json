@@ -1,0 +1,46 @@
+{
+  "candidate_id": "H005",
+  "source_api": "torch.cumsum",
+  "target_calls": "tf.cumsum",
+  "status": "两端API测试齐",
+  "source_match": "exact API / explicit decorator alias",
+  "source_test": {
+    "repository": "ivy-llc/ivy",
+    "commit": "a701151c85d59c0260a4dbf505479805bdeec00f",
+    "upstream_path": "ivy_tests/test_ivy/test_frontends/test_torch/test_miscellaneous_ops.py",
+    "function": "test_torch_cumsum",
+    "line": 832,
+    "end_line": 872,
+    "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_miscellaneous_ops.py#L832",
+    "kind": "Ivy public frontend test",
+    "full_file": "candidates/H005/source-test-full.py",
+    "excerpt_file": "candidates/H005/source-test-excerpt.py",
+    "original_sha256": "34c610bb7b52b4a539ec4e6e62c8ed24e58f584392f93ac817d4a6dd33ed8ceb",
+    "excerpt_sha256": "a76ccf8f159d443b7e726d81af45e9c1a984fa53470a4191fd5a03727c170b05"
+  },
+  "target_tests": [
+    {
+      "api": "tf.cumsum",
+      "match": "namespace re-export: Ivy tensorflow/__init__.py; selected tf.math.cumsum",
+      "test": {
+        "repository": "ivy-llc/ivy",
+        "commit": "a701151c85d59c0260a4dbf505479805bdeec00f",
+        "upstream_path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+        "function": "test_tensorflow_cumsum",
+        "line": 763,
+        "end_line": 802,
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L763",
+        "kind": "Ivy public frontend test",
+        "full_file": "candidates/H005/target-01-test-full.py",
+        "excerpt_file": "candidates/H005/target-01-test-excerpt.py",
+        "original_sha256": "644d0efebf10d4bbfb9520f70bed72556084389131abe3ffa146704df043e081",
+        "excerpt_sha256": "63818599d87f9aff8f1feffa088e78ffe234736ca0f029391dd054c2c26abafe"
+      }
+    }
+  ],
+  "whole_counterpart_test_verified": false,
+  "input_oracle_alignment": "not yet reviewed",
+  "execution": "not run",
+  "origin": "paired existing public API tests; not a historical migration record",
+  "notes": []
+}

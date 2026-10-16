@@ -1,0 +1,4802 @@
+[
+  {
+    "input_index": 0,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 0,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 0,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 1,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 1,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 1,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 2,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 2,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 2,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 3,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 3,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 3,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 4,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 4,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 4,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 5,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 3.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 3.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 5,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 3.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 3.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 5,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 3.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 3.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 6,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 3.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 3.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 6,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 3.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 3.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 6,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 3.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 3.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 7,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 7,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 7,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 8,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 8,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 8,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 9,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 8.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 8.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 9,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 8.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 8.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 9,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 8.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 8.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 10,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 58.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 57.999996185302734,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 10,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 58.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 57.999996185302734,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 10,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 58.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 57.999996185302734,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 11,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 10.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 10.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 11,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 10.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 10.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 11,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 10.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 10.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 12,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 6.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 6.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 12,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 6.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 6.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 12,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 6.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 6.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 13,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 10.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 10.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 13,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 10.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 10.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 13,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 10.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 10.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 14,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 19.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 19.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 14,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 19.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 19.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 14,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 19.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 19.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 15,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 15.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 15.000000953674316,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 15,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 15.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 15.000000953674316,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 15,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 15.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 15.000000953674316,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 16,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 16,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 16,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 17,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 54.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 54.000003814697266,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 17,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 54.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 54.000003814697266,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 17,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 54.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 54.000003814697266,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 18,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 676.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 676.0001831054688,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 18,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 676.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 676.0001831054688,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 18,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 676.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 676.0001831054688,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 19,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 294.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 293.9999084472656,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 19,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 294.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 293.9999084472656,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 19,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 294.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 293.9999084472656,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 20,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 304.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 304.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 20,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 304.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 304.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 20,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 304.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 304.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 21,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 177.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 176.99993896484375,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 21,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 177.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 176.99993896484375,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 21,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 177.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 176.99993896484375,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 22,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 134.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 134.00003051757812,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 22,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 134.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 134.00003051757812,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 22,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 134.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 134.00003051757812,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 23,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 320.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 320.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 23,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 320.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 320.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 23,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 320.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 320.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 24,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 24,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 24,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 25,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 512.0000610351562,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 512.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 25,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 512.0000610351562,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 512.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 25,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 512.0000610351562,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 512.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 26,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 31359.998046875,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 31360.005859375,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 26,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 31359.998046875,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 31360.005859375,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 26,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 31359.998046875,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 31360.005859375,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 27,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4652.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4652.0029296875,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 27,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4652.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4652.0029296875,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 27,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4652.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4652.0029296875,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 28,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 3834.999755859375,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 3834.999267578125,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 28,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 3834.999755859375,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 3834.999267578125,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 28,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 3834.999755859375,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 3834.999267578125,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 29,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 2528.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 2528.0009765625,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 29,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 2528.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 2528.0009765625,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 29,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 2528.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 2528.0009765625,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 30,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 2735.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 2735.000732421875,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 30,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 2735.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 2735.000732421875,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 30,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 2735.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 2735.000732421875,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 31,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 812.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 812.0001831054688,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 31,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 812.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 812.0001831054688,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 31,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 812.0,
+      "shape": [],
+      "dtype": "float32",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 812.0001831054688,
+      "shape": [],
+      "dtype": "float32",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 32,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 32,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 32,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 33,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 33,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 33,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 34,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 34,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 34,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 35,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 35,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 35,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 36,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 36,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 36,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 2.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 37,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 37,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 37,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 38,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 3.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 3.0000000000000004,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 38,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 3.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 3.0000000000000004,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 38,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 3.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 3.0000000000000004,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 39,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 39,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 39,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 40,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 40,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 40,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 41,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 8.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 7.999999999999998,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 41,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 8.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 7.999999999999998,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 41,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 8.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 7.999999999999998,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 42,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 58.00000000000001,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 57.999999999999986,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 42,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 58.00000000000001,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 57.999999999999986,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 42,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 58.00000000000001,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 57.999999999999986,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 43,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 10.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 10.000000000000002,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 43,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 10.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 10.000000000000002,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 43,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 10.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 10.000000000000002,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 44,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 31.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 31.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 44,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 31.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 31.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 44,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 31.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 31.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 45,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 34.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 34.00000000000001,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 45,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 34.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 34.00000000000001,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 45,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 34.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 34.00000000000001,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 46,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 9.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 8.999999999999998,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 46,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 9.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 8.999999999999998,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 46,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 9.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 8.999999999999998,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 47,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 15.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 14.999999999999993,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 47,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 15.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 14.999999999999993,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 47,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 15.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 14.999999999999993,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 48,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 48,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 48,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 49,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 54.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 54.00000000000001,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 49,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 54.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 54.00000000000001,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 49,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 54.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 54.00000000000001,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 50,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 675.9999999999999,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 675.9999999999995,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 50,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 675.9999999999999,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 675.9999999999995,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 50,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 675.9999999999999,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 675.9999999999995,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 51,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 294.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 293.99999999999994,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 51,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 294.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 293.99999999999994,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 51,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 294.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 293.99999999999994,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 52,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 117.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 117.00000000000003,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 52,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 117.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 117.00000000000003,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 52,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 117.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 117.00000000000003,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 53,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 260.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 259.99999999999994,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 53,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 260.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 259.99999999999994,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 53,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 260.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 259.99999999999994,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 54,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 528.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 528.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 54,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 528.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 528.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 54,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 528.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 528.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 55,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 34.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 34.00000000000001,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 55,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 34.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 34.00000000000001,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 55,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 34.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 34.00000000000001,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 56,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 56,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 56,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 57,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 511.9999999999999,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 511.99999999999994,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 57,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 511.9999999999999,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 511.99999999999994,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 57,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 511.9999999999999,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 511.99999999999994,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 58,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 31359.999999999996,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 31359.99999999995,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 58,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 31359.999999999996,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 31359.99999999995,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 58,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 31359.999999999996,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 31359.99999999995,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 59,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4652.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4651.999999999996,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 59,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4652.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4651.999999999996,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 59,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4652.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4651.999999999996,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 60,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1629.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1629.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 60,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1629.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1629.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 60,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 1629.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 1629.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 61,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4319.999999999999,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4319.999999999999,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 61,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4319.999999999999,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4319.999999999999,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 61,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4319.999999999999,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4319.999999999999,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 62,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 3042.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 3041.9999999999995,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 62,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 3042.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 3041.9999999999995,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 62,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 3042.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 3041.9999999999995,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 63,
+    "repeat": 0,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4472.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4472.000000000005,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 63,
+    "repeat": 1,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4472.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4472.000000000005,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  },
+  {
+    "input_index": 63,
+    "repeat": 2,
+    "versions": {
+      "tensorflow": "2.20.0",
+      "torch": "2.9.1",
+      "numpy": "2.1.3"
+    },
+    "source": {
+      "status": "ok",
+      "value": 4472.0,
+      "shape": [],
+      "dtype": "float64",
+      "calls": []
+    },
+    "target": {
+      "status": "ok",
+      "value": 4472.000000000005,
+      "shape": [],
+      "dtype": "float64",
+      "calls": [
+        "tf.linalg.det"
+      ]
+    }
+  }
+]

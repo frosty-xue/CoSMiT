@@ -1,0 +1,14 @@
+{
+  "candidates": 110,
+  "with_published_inputs": 110,
+  "published_input_snippets": 1568,
+  "verified_complete_historical_pairs": 0,
+  "crossprobe_pair_leads": 34,
+  "crossprobe_target_syntax_errors": 11,
+  "candidates_with_source_api_occurrence_leads": [
+    "D0062",
+    "E018",
+    "E020",
+    "E026"
+  ]
+}

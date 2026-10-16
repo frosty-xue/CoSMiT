@@ -1,0 +1,46 @@
+{
+  "candidate_id": "D0027",
+  "source_api": "torch.tanh",
+  "target_calls": "tf.tanh",
+  "status": "两端API测试齐",
+  "source_match": "exact API / explicit decorator alias",
+  "source_test": {
+    "repository": "ivy-llc/ivy",
+    "commit": "a701151c85d59c0260a4dbf505479805bdeec00f",
+    "upstream_path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+    "function": "test_torch_tanh",
+    "line": 2884,
+    "end_line": 2908,
+    "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L2884",
+    "kind": "Ivy public frontend test",
+    "full_file": "candidates/D0027/source-test-full.py",
+    "excerpt_file": "candidates/D0027/source-test-excerpt.py",
+    "original_sha256": "c0bddd69651e592166d17f24eed33beb3b8034a253053e0cf681be106e1f14c1",
+    "excerpt_sha256": "f8b26f05a0f4b2028ae8c6f8eca8f7fafe078e70207f17726926951f8eea995b"
+  },
+  "target_tests": [
+    {
+      "api": "tf.tanh",
+      "match": "namespace re-export: Ivy tensorflow/__init__.py; selected tf.math.tanh",
+      "test": {
+        "repository": "ivy-llc/ivy",
+        "commit": "a701151c85d59c0260a4dbf505479805bdeec00f",
+        "upstream_path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+        "function": "test_tensorflow_tanh",
+        "line": 3056,
+        "end_line": 3081,
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L3056",
+        "kind": "Ivy public frontend test",
+        "full_file": "candidates/D0027/target-01-test-full.py",
+        "excerpt_file": "candidates/D0027/target-01-test-excerpt.py",
+        "original_sha256": "644d0efebf10d4bbfb9520f70bed72556084389131abe3ffa146704df043e081",
+        "excerpt_sha256": "861324508123af737f7a02abf1044fd13b18d56116da21b60442a697d3676990"
+      }
+    }
+  ],
+  "whole_counterpart_test_verified": false,
+  "input_oracle_alignment": "not yet reviewed",
+  "execution": "not run",
+  "origin": "paired existing public API tests; not a historical migration record",
+  "notes": []
+}

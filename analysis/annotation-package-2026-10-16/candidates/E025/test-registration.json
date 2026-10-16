@@ -1,0 +1,22 @@
+{
+  "file": "upstream/pt_tensor.py",
+  "class": "TestTensorCreation",
+  "methods": [
+    {
+      "method": "test_cat2",
+      "start": 1133,
+      "end": 1152,
+      "decorators": [
+        "onlyCPU",
+        "dtypes(torch.half, torch.double, torch.int)"
+      ]
+    }
+  ],
+  "entry": "test_cat2",
+  "paths": [
+    "torch.cat"
+  ],
+  "kind": "complete-upstream-method-bodies",
+  "parameters": "original method inputs; CPU eager; device/dtype parameter fixed where required; decorator variants excluded",
+  "source_framework": "pytorch"
+}

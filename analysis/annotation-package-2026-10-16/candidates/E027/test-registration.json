@@ -1,0 +1,19 @@
+{
+  "file": "upstream/pt_tensor.py",
+  "class": "TestTensorCreation",
+  "methods": [
+    {
+      "method": "test_stack",
+      "start": 1164,
+      "end": 1177,
+      "decorators": []
+    }
+  ],
+  "entry": "test_stack",
+  "paths": [
+    "torch.stack"
+  ],
+  "kind": "complete-upstream-method-bodies",
+  "parameters": "original method inputs; CPU eager; device/dtype parameter fixed where required; decorator variants excluded",
+  "source_framework": "pytorch"
+}

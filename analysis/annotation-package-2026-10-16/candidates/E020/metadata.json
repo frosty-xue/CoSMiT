@@ -1,0 +1,21 @@
+{
+  "candidate_id": "E020",
+  "source_api": "tf.transpose",
+  "target_calls": "a.conj, a.permute",
+  "source": {
+    "framework": "tensorflow",
+    "entry": "tensorflow_call"
+  },
+  "target": {
+    "framework": "pytorch",
+    "entry": "pytorch_call"
+  },
+  "cohort": "expansion",
+  "counterpart_url": "https://github.com/maybeLee/DLLens/blob/0f617e92c34d60bfdd3bc06d80c17d938879ed9c/data/working_dir/rq1/dllens/tensorflow/counterparts/tf.transpose.json",
+  "operation_sha256": {
+    "source": "9e369468fde766382a7881bbc85e5ec57846fa4c3b3d69ad4903615ed64a2dc6",
+    "target": "ffe5fa0f7212a6e0644684a5a036885be01a1c81563e7c52cbf738002c331c6d"
+  },
+  "test_pair_available": true,
+  "test_pair_origin": "constructed operation substitution; shared source-framework harness"
+}

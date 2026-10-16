@@ -1,0 +1,66 @@
+{
+  "candidate_id": "E001",
+  "source_api": "torch.add",
+  "target_calls": "tf.add, tf.cast",
+  "status": "两端组件测试齐，组合测试缺",
+  "source_match": "exact API / explicit decorator alias",
+  "source_test": {
+    "repository": "ivy-llc/ivy",
+    "commit": "a701151c85d59c0260a4dbf505479805bdeec00f",
+    "upstream_path": "ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py",
+    "function": "test_torch_add",
+    "line": 237,
+    "end_line": 270,
+    "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_torch/test_pointwise_ops.py#L237",
+    "kind": "Ivy public frontend test",
+    "full_file": "candidates/E001/source-test-full.py",
+    "excerpt_file": "candidates/E001/source-test-excerpt.py",
+    "original_sha256": "c0bddd69651e592166d17f24eed33beb3b8034a253053e0cf681be106e1f14c1",
+    "excerpt_sha256": "2c07ea862faa86548ed61017ad4b5aeb64cd07e7d95322afe90aa720d833f4d4"
+  },
+  "target_tests": [
+    {
+      "api": "tf.cast",
+      "match": "exact API / explicit decorator alias",
+      "test": {
+        "repository": "tensorflow/tensorflow",
+        "commit": "5bc9d26649cca274750ad3625bd93422617eed4b",
+        "upstream_path": "tensorflow/python/kernel_tests/array_ops/cast_op_test.py",
+        "function": "testBasic",
+        "line": 92,
+        "end_line": 94,
+        "url": "https://github.com/tensorflow/tensorflow/blob/5bc9d26649cca274750ad3625bd93422617eed4b/tensorflow/python/kernel_tests/array_ops/cast_op_test.py#L92",
+        "kind": "Official framework test",
+        "full_file": "candidates/E001/target-01-test-full.py",
+        "excerpt_file": "candidates/E001/target-01-test-excerpt.py",
+        "original_sha256": "76d1f52d34ef93a989126bac3ac99d674d8741967199af0579e960540e2ddf6f",
+        "excerpt_sha256": "10ed46ba0deb72073949b0a94064800b67d27841e55aefbfc01f5294dcd63143"
+      }
+    },
+    {
+      "api": "tf.add",
+      "match": "namespace re-export: Ivy tensorflow/__init__.py; selected tf.math.add",
+      "test": {
+        "repository": "ivy-llc/ivy",
+        "commit": "a701151c85d59c0260a4dbf505479805bdeec00f",
+        "upstream_path": "ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py",
+        "function": "test_tensorflow_add",
+        "line": 148,
+        "end_line": 176,
+        "url": "https://github.com/ivy-llc/ivy/blob/a701151c85d59c0260a4dbf505479805bdeec00f/ivy_tests/test_ivy/test_frontends/test_tensorflow/test_math.py#L148",
+        "kind": "Ivy public frontend test",
+        "full_file": "candidates/E001/target-02-test-full.py",
+        "excerpt_file": "candidates/E001/target-02-test-excerpt.py",
+        "original_sha256": "644d0efebf10d4bbfb9520f70bed72556084389131abe3ffa146704df043e081",
+        "excerpt_sha256": "6fd6902a261d91d7f6e898f48054ed7fdb02479fc339e01d3615d8caa39cea29"
+      }
+    }
+  ],
+  "whole_counterpart_test_verified": false,
+  "input_oracle_alignment": "not yet reviewed",
+  "execution": "not run",
+  "origin": "paired existing public API tests; not a historical migration record",
+  "notes": [
+    "目标为组合：各API测试已分别收集，整段组合测试仍空缺"
+  ]
+}

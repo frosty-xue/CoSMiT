@@ -1,0 +1,29 @@
+@handle_frontend_test(
+    fn_tree="tensorflow.where",
+    dtype_and_input=helpers.dtype_and_values(
+        available_dtypes=helpers.get_dtypes("integer"),
+        num_arrays=1,
+        min_value=0,
+        max_value=10,
+        min_num_dims=1,
+    ),
+)
+def test_tensorflow_where_no_xy(
+    *,
+    dtype_and_input,
+    frontend,
+    backend_fw,
+    fn_tree,
+    test_flags,
+    on_device,
+):
+    input_dtype, [condition] = dtype_and_input
+    helpers.test_frontend_function(
+        input_dtypes=input_dtype,
+        frontend=frontend,
+        backend_to_test=backend_fw,
+        test_flags=test_flags,
+        fn_tree=fn_tree,
+        on_device=on_device,
+        condition=condition,
+    )
